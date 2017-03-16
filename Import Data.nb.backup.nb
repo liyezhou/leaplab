@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    112182,       2784]
-NotebookOptionsPosition[    111803,       2766]
-NotebookOutlinePosition[    112204,       2783]
-CellTagsIndexPosition[    112161,       2780]
+NotebookDataLength[    112236,       2784]
+NotebookOptionsPosition[    111857,       2766]
+NotebookOutlinePosition[    112258,       2783]
+CellTagsIndexPosition[    112215,       2780]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -38,7 +38,7 @@ Cell[BoxData[
      "in", " ", "the", " ", 
      RowBox[{
      "dropbox", ".", "\[IndentingNewLine]", "\[IndentingNewLine]", "Yezhou", 
-      ".", "\[IndentingNewLine]", "January"}]}], ",", " ", "2017."}], 
+      ".", "\[IndentingNewLine]", "March"}]}], ",", " ", "2017."}], 
    "\[IndentingNewLine]", "*)"}], "\[IndentingNewLine]", 
   StyleBox[
    RowBox[{"(*", 
@@ -48,11 +48,10 @@ Cell[BoxData[
    RowBox[{
     RowBox[{"SetOptions", "[", 
      RowBox[{"$FrontEnd", ",", 
-      RowBox[{"\"\<DynamicUpdating\>\"", "\[Rule]", "False"}]}], "]"}], ";"}],
-    "\[IndentingNewLine]", 
-   StyleBox[
-    RowBox[{"(*", "Clearing", "*)"}], "Subsection"], 
+      RowBox[{"\"\<DynamicUpdating\>\"", "\[Rule]", "False"}]}], "]"}], ";"}], 
    StyleBox["\[IndentingNewLine]", "Subsection"], 
+   StyleBox[
+    RowBox[{"(*", "Clearing", "*)"}], "Subsection"], "\[IndentingNewLine]", 
    RowBox[{
     RowBox[{"Clear", "[", "\"\<Global`*\>\"", "]"}], ";"}], 
    "\[IndentingNewLine]", 
@@ -2173,11 +2172,12 @@ TTRSAMPLESIZE\>\"", "]"}], "\[IndentingNewLine]",
        RowBox[{"\"\<After Error 9, before export\>\"", ",", 
         RowBox[{
          RowBox[{"AbsoluteTime", "[", "]"}], "-", "startTime"}]}], "}"}]}], 
-     "]"}], ";"}], "\[IndentingNewLine]", 
+     "]"}], ";"}], 
+   StyleBox["\[IndentingNewLine]", "Chapter"], 
    StyleBox[
     RowBox[{"(*", 
      RowBox[{"Export", " ", "Results"}], "*)"}], "Chapter"], 
-   StyleBox["\[IndentingNewLine]", "Chapter"], 
+   "\[IndentingNewLine]", 
    RowBox[{"(*", 
     RowBox[{"Pack", " ", "Common", " ", "Export", " ", "Bundle"}], "*)"}], 
    "\[IndentingNewLine]", 
@@ -2701,33 +2701,32 @@ transcripts (\:25ca shows string boundary)\\n\>\"", "<>",
    3.697978356809148*^9, 3.697978357036704*^9}, {3.698374773855324*^9, 
    3.6983747951475687`*^9}, {3.698629880969434*^9, 3.698629998976344*^9}, {
    3.698632151901005*^9, 3.6986321520070257`*^9}, {3.6986326651946774`*^9, 
-   3.6986327308826303`*^9}}],
+   3.6986327308826303`*^9}, {3.698632849034692*^9, 3.6986328509179087`*^9}}],
 
 Cell[BoxData[
  TagBox[GridBox[{
-    {"\<\"Start\"\>", "0.000356`3.00299499146885"},
-    {"\<\"After Setting Up Data Structures\"\>", 
-     "0.320638`5.95755998441599"},
-    {"\<\"After Importing Files\"\>", "0.447311`6.102154571705656"},
-    {"\<\"After Defining Functions\"\>", "0.452794`6.107445656852522"},
+    {"\<\"Start\"\>", "0.000365`3.013837857952448"},
+    {"\<\"After Setting Up Data Structures\"\>", "0.285427`5.907040046354434"},
+    {"\<\"After Importing Files\"\>", "0.411751`6.066179656089325"},
+    {"\<\"After Defining Functions\"\>", "0.417635`6.072341881167179"},
     {"\<\"After Error 3, before processing text\"\>", 
-     "0.461472`6.115690348664188"},
+     "0.426947`6.081918959771226"},
     {"\<\"After Error 3, during processing text, after expansion, before \
-replacing unwanted syntax\"\>", "0.465421`6.119390968446608"},
+replacing unwanted syntax\"\>", "0.431113`6.086136112483333"},
     {"\<\"After Error 3, after processing text\"\>", 
-     "0.47138`6.1249161455623025"},
+     "0.436826`6.09185347328533"},
     {"\<\"After Error 6, before processing participants\"\>", 
-     "0.4758399999999999999`6.129005940337833"},
+     "0.441278`6.096257269647518"},
     {"\<\"After Error 6, after processing participants\"\>", 
-     "0.481354`6.134009578602616"},
+     "0.446071`6.100948983271181"},
     {"\<\"After Error 7 and extracting words\"\>", 
-     "0.485527`6.137758379387717"},
+     "0.450777`6.105506742423041"},
     {"\<\"After Error 8, before indexing utterance lines\"\>", 
-     "0.486942`6.139022228673574"},
+     "0.452369`6.107037829381949"},
     {"\<\"After Error 8, after indexing utterance lines\"\>", 
-     "0.493581`6.144903427029319"},
-    {"\<\"After Error 9, before export\"\>", "0.495463`6.146556221447824"},
-    {"\<\"Finish, after export\"\>", "0.51164`6.160509483759579"}
+     "0.458746`6.113117283975734"},
+    {"\<\"After Error 9, before export\"\>", "0.460303`6.114588798890054"},
+    {"\<\"Finish, after export\"\>", "0.473637`6.12699061514194"}
    },
    AutoDelete->False,
    GridBoxAlignment->{"Columns" -> {{Left}}},
@@ -2761,7 +2760,8 @@ replacing unwanted syntax\"\>", "0.465421`6.119390968446608"},
    3.698374783365329*^9}, 3.6983782565843563`*^9, 3.698382517688311*^9, 
    3.6986259813163958`*^9, 3.698628031878839*^9, {3.698628160428671*^9, 
    3.698628232041514*^9}, 3.698628840261023*^9, {3.698629883834218*^9, 
-   3.6986299999546747`*^9}, 3.698632154303011*^9, 3.698632666350651*^9}]
+   3.6986299999546747`*^9}, 3.698632154303011*^9, 3.698632666350651*^9, 
+   3.698632731983954*^9}]
 }, Open  ]]
 },
 WindowSize->{960, 1035},
@@ -2783,8 +2783,8 @@ CellTagsIndex->{}
 (*NotebookFileOutline
 Notebook[{
 Cell[CellGroupData[{
-Cell[580, 22, 107757, 2681, 70, "Input"],
-Cell[108340, 2705, 3447, 58, 70, "Output"]
+Cell[580, 22, 107803, 2681, 70, "Input"],
+Cell[108386, 2705, 3455, 58, 70, "Output"]
 }, Open  ]]
 }
 ]
