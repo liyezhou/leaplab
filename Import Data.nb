@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    112016,       2778]
-NotebookOptionsPosition[    111634,       2760]
-NotebookOutlinePosition[    112035,       2777]
-CellTagsIndexPosition[    111992,       2774]
+NotebookDataLength[    112103,       2779]
+NotebookOptionsPosition[    111721,       2761]
+NotebookOutlinePosition[    112122,       2778]
+CellTagsIndexPosition[    112079,       2775]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -105,7 +105,7 @@ Cell[BoxData[
    StyleBox[
     RowBox[{"(*", "Switches", "*)"}], "Subsection"], "\[IndentingNewLine]", 
    RowBox[{
-    RowBox[{"debugLevel", "=", "2"}], ";"}], "\[IndentingNewLine]", 
+    RowBox[{"debugLevel", "=", "3"}], ";"}], "\[IndentingNewLine]", 
    RowBox[{
     RowBox[{"exportLog", "=", "True"}], ";"}], "\[IndentingNewLine]", 
    RowBox[{
@@ -2170,12 +2170,11 @@ TTRSAMPLESIZE\>\"", "]"}], "\[IndentingNewLine]",
        RowBox[{"\"\<After Error 9, before export\>\"", ",", 
         RowBox[{
          RowBox[{"AbsoluteTime", "[", "]"}], "-", "startTime"}]}], "}"}]}], 
-     "]"}], ";"}], 
-   StyleBox["\[IndentingNewLine]", "Chapter"], 
+     "]"}], ";"}], "\[IndentingNewLine]", 
    StyleBox[
     RowBox[{"(*", 
      RowBox[{"Export", " ", "Results"}], "*)"}], "Chapter"], 
-   "\[IndentingNewLine]", 
+   StyleBox["\[IndentingNewLine]", "Chapter"], 
    RowBox[{"(*", 
     RowBox[{"Pack", " ", "Common", " ", "Export", " ", "Bundle"}], "*)"}], 
    "\[IndentingNewLine]", 
@@ -2696,32 +2695,34 @@ transcripts (\:25ca shows string boundary)\\n\>\"", "<>",
    3.6979518338256702`*^9, 3.697951876580983*^9}, {3.69797764347239*^9, 
    3.697977654454211*^9}, {3.6979780983451777`*^9, 3.697978100509852*^9}, {
    3.697978356809148*^9, 3.697978357036704*^9}, {3.698374773855324*^9, 
-   3.6983747951475687`*^9}, {3.698629880969434*^9, 3.698629998976344*^9}}],
+   3.6983747951475687`*^9}, {3.698629880969434*^9, 3.698629998976344*^9}, {
+   3.698632151901005*^9, 3.6986321520070257`*^9}}],
 
 Cell[BoxData[
  TagBox[GridBox[{
-    {"\<\"Start\"\>", "0.00041`3.064328850215708"},
-    {"\<\"After Setting Up Data Structures\"\>", "0.286576`5.908784810038787"},
-    {"\<\"After Importing Files\"\>", "0.405819`6.059877369860103"},
-    {"\<\"After Defining Functions\"\>", "0.411242`6.065642456090119"},
+    {"\<\"Start\"\>", "0.000494`3.14527194241962"},
+    {"\<\"After Setting Up Data Structures\"\>", "0.312923`5.946982478681106"},
+    {"\<\"After Importing Files\"\>", 
+     "0.4516440000000000001`6.106341238587607"},
+    {"\<\"After Defining Functions\"\>", "0.458`6.11241047149984"},
     {"\<\"After Error 3, before processing text\"\>", 
-     "0.419604`6.074384613078617"},
+     "0.467077`6.120933475600678"},
     {"\<\"After Error 3, during processing text, after expansion, before \
-replacing unwanted syntax\"\>", "0.423141`6.078030101576206"},
+replacing unwanted syntax\"\>", "0.471281`6.124824924744071"},
     {"\<\"After Error 3, after processing text\"\>", 
-     "0.428885`6.083885850807219"},
+     "0.477383`6.130411942859526"},
     {"\<\"After Error 6, before processing participants\"\>", 
-     "0.43339`6.088423879725453"},
+     "0.482472`6.135017107863154"},
     {"\<\"After Error 6, after processing participants\"\>", 
-     "0.438575`6.093588865544521"},
+     "0.487815`6.139800143957221"},
     {"\<\"After Error 7 and extracting words\"\>", 
-     "0.443114`6.0980604650953945"},
+     "0.492428`6.143887732921303"},
     {"\<\"After Error 8, before indexing utterance lines\"\>", 
-     "0.44452`6.09943629917169"},
+     "0.494284`6.145521546048243"},
     {"\<\"After Error 8, after indexing utterance lines\"\>", 
-     "0.450771`6.10550096177267"},
-    {"\<\"After Error 9, before export\"\>", "0.452389`6.10705702985244"},
-    {"\<\"Finish, after export\"\>", "0.465118`6.119108140466978"}
+     "0.50053`6.150975106168449"},
+    {"\<\"After Error 9, before export\"\>", "0.50223`6.152447644615448"},
+    {"\<\"Finish, after export\"\>", "0.515495`6.163769450733468"}
    },
    AutoDelete->False,
    GridBoxAlignment->{"Columns" -> {{Left}}},
@@ -2755,7 +2756,7 @@ replacing unwanted syntax\"\>", "0.423141`6.078030101576206"},
    3.698374783365329*^9}, 3.6983782565843563`*^9, 3.698382517688311*^9, 
    3.6986259813163958`*^9, 3.698628031878839*^9, {3.698628160428671*^9, 
    3.698628232041514*^9}, 3.698628840261023*^9, {3.698629883834218*^9, 
-   3.6986299999546747`*^9}}]
+   3.6986299999546747`*^9}, 3.698632154303011*^9}]
 }, Open  ]]
 },
 WindowSize->{960, 1035},
@@ -2777,8 +2778,8 @@ CellTagsIndex->{}
 (*NotebookFileOutline
 Notebook[{
 Cell[CellGroupData[{
-Cell[580, 22, 107653, 2676, 9256, "Input"],
-Cell[108236, 2700, 3382, 57, 285, "Output"]
+Cell[580, 22, 107701, 2676, 9256, "Input"],
+Cell[108284, 2700, 3421, 58, 285, "Output"]
 }, Open  ]]
 }
 ]
