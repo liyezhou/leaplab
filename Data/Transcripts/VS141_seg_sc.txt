@@ -1,0 +1,81 @@
+@Unicode
+@Begin
+@Languages:	eng
+@Participants:	FAT Deng_Lu Father, CHI Brenda_Deng_ZiQian Child
+@ID:	eng||FAT||male|||Father|||
+@ID:	eng||CHI|1;2.6|female|||Child|||
+@Date:	28-AUG-2016
+@Location:	Lab Testing
+@Comment:	duration of recording 4 minutes 4 seconds
+@Comment:	transcribed by Elsie, checked by Chao_Min, checked by Nadiah
+@Start
+*FAT:	so many ducks.
+*FAT:	its the sisters and brothers.
+*FAT:	and this small duck.
+*FAT:	see the butterfly.
+*FAT:	xxx like you, this small duck chasing the butterfly in the early morning.
+*FAT:	so what happened?
+*FAT:	see see.
+*FAT:	the mummy coming.
+*FAT:	mummy coming back.
+*FAT:	mummy duck coming back, see.
+*FAT:	so, where is this small duck?
+*CHI:	&=vocalises.
+*FAT:	mummy cannot find the small duck.
+*FAT:	ask all the sister and brother where is the small duck?
+*FAT:	where are they?
+*FAT:	oh, they are all the sister and brother following the mother.
+*FAT:	you see, this losing duck.
+*CHI:	&=vocalises.
+*FAT:	huh, what?
+*FAT:	where is she?
+*FAT:	she is here, over here.
+*CHI:	&ah!
+*FAT:	&ah?
+*FAT:	okay, then, they see a bird.
+*FAT:	the mummy is asking the bird where is my baby?
+*FAT:	the baby is in the lotus.
+*CHI:	 &=vocalises.
+*FAT:	&aw, see.
+*FAT:	this bird bird.
+*FAT:	the mummy duck is asking the bird.
+*FAT:	<where is my baby> [x 2]?
+*FAT:	where is my duck, huh?
+*FAT:	then the bird dont know.
+*CHI:	&=sneezes.
+*FAT:	then the mummy duck also asking this turtle.
+*FAT:	this tortoise.
+*FAT:	have you seen my duckling?
+*FAT:	the tortoise also dont know.
+*FAT:	then.
+*CHI:	&=vocalises.
+*FAT:	&eh, yeah.
+*FAT:	they see the otters.
+*FAT:	mummy duck asking the otters.
+*FAT:	where is my duckling [x 2]?
+*FAT:	hmm?
+*FAT:	ah, the otters also dont know.
+*FAT:	then the mummy duck, also ask the fish, the catfish.
+*FAT:	the lizard, its a waterbug, shrimp.
+*CHI:	&=vocalises.
+*FAT:	yeah, theres a frog, they also ask the frog.
+*FAT:	all the water animals, frog.
+*FAT:	they all dont know where is the duckling, where is the xxx.
+*CHI:	&=vocalises.
+*FAT:	&=vocalises.
+*FAT:	&ah, see, oh, then they see this bird.
+*FAT:	see, mummy duck see another.
+*FAT:	see another bird with the family.
+*FAT:	and ask this bird.
+*FAT:	where is my duckling?
+*FAT:	have you seen my duckling?
+*FAT:	okay, then, ah!
+*FAT:	then the duckling just behind.
+*FAT:	the mummy find the duckling just behind with the turtle.
+*FAT:	okay, so is the turtle find the duck.
+*FAT:	then the duckling finally join the whole family.
+*FAT:	okay go, then the duckling still look at the butterfly, see.
+*FAT:	okay so, when night come, the whole family sleep.
+*FAT:	okay, is the frog here.
+*FAT:	finish, duck [x 3].
+@End

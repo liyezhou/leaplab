@@ -1,0 +1,119 @@
+@Unicode
+@Begin
+@Languages:	eng
+@Participants:	MOT Target_Mother *CHI Child
+@ID:	eng|Lara|MOT|||||Target_Mother|||
+@ID:	eng|Lara|CHI|||||Child|||
+@Date:
+@Location:
+@Comment:	Filename:	VS085_Narration Transcript_Yezhou.txt
+@Comment:	234 seconds
+@Comment:	transcribed by Yezhou
+@Situation:
+@Start
+*MOT:	what is this?
+*CHI:	duck.
+*MOT:	have you seen my duckling?
+*MOT:	say duckling.
+*MOT:	early one morning.
+*MOT:	see all the ducklings.
+*MOT:	the ducklings.
+*MOT:	xxx.
+*MOT:	mummy duck, say mummy duck.
+*CHI:	mummy duck.
+*MOT:	baby duck.
+*CHI:	baby duck.
+*MOT:	they went for a walk.
+*CHI:	a walk.
+*MOT:	they went for swimming, say swimming.
+*CHI:	swimming.
+*MOT:	swimming, where is the mummy duck?
+*CHI:	mummy duck.
+*MOT:	what is this?
+*CHI:	baby.
+*MOT:	yes.
+*MOT:	and then, one of the ducklings went, went off.
+*CHI:	mummy.
+*MOT:	mummy, and this?
+*CHI:	baby.
+*MOT:	where is the duckling going?
+*CHI:	xxx.
+*MOT:	they are going swimming.
+*MOT:	and then, have you seen my duckling?
+*MOT:	one of the babies is missing.
+*CHI:	&=vocalizes.
+*MOT:	where did the baby go?
+*CHI:	xxx.
+*MOT:	they go swimming elsewhere.
+*MOT:	and the mummy duck asks the bird, where is the bird?
+*CHI:	xxx.
+*MOT:	where is the bird?
+*CHI:	bird.
+*MOT:	missing duckling, where is the duckling?
+*MOT:	can you show mummy where is the duckling?
+*MOT:	and this is a steel.
+*MOT:	and this is, a, turtle.
+*MOT:	can you see the turtle?
+*MOT:	so the mummy duck asks the turtle.
+*MOT:	have you seen my duckling?
+*MOT:	where is my duckling?
+*CHI:	&=vocalizes.
+*MOT:	the baby go missing.
+*MOT:	where is the baby?
+*MOT:	the mummy duck asks the xxx.
+*MOT:	have you seen my duckling?
+*MOT:	where's my duckling?
+*MOT:	where's my baby?
+*MOT:	i've lost my baby.
+*MOT:	can you find the baby?
+*CHI:	&=vocalizes.
+*MOT:	so what sound does the duckling?
+*MOT:	how the duck quack?
+*CHI:	quack quack.
+*MOT:	where is the baby duck?
+*CHI:	can you find the baby duck?
+*MOT:	mummy swimming with the baby duck.
+*MOT:	where is the baby duck?
+*CHI:	&=vocalizes.
+*MOT:	and this?
+*MOT:	what is this?
+*MOT:	the mummy duck asks the fish.
+*CHI:	mummy &=vocalizes.
+*MOT:	where is my, where is my duckling?
+*CHI:	&=vocalizes.
+*MOT:	and this is a?
+*CHI:	bird.
+*MOT:	yes.
+*MOT:	have you seen my duckling, the mummy duck asks the bird.
+*CHI:	mummy duck.
+*MOT:	ask the?
+*CHI:	baby duck.
+*CHI:	this is a bird.
+*CHI:	bird.
+*MOT:	have you seen my duckling?
+*MOT:	i've lost my baby.
+*MOT:	can you find my baby?
+*MOT:	my baby?
+*MOT:	oh, so now you know what is a baby.
+*MOT:	xxx.
+*MOT:	see the baby, come back already.
+*MOT:	duckling come back.
+*MOT:	did the duckling swim back?
+*CHI:	swimming in a pool.
+*MOT:	swimming in a pool.
+*MOT:	no, they are swimming in a pond.
+*CHI:	swimming in a pool.
+*MOT:	no, this is not the baby duck, it's mummy looking for you.
+*MOT:	baby, where is your mummy?
+*CHI:	here.
+*MOT:	so, the baby duck went back with the mummy.
+*MOT:	and they went back to sleep?
+*MOT:	so did the mummy find the baby duck?
+*CHI:	mummy sleeping here.
+*MOT:	sleeping already &=vocalizes.
+*MOT:	so did the mummy find the duck, yes?
+*MOT:	okay, bye bye.
+*MOT:	where is the duckling, what is this?
+*CHI:	baby duck.
+*MOT:	okay.
+@End

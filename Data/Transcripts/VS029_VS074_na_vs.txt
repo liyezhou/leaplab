@@ -1,0 +1,117 @@
+@Unicode
+@Begin
+@Languages:	zho, eng
+@Participants:	MOT Elaine Mother, CHI Zac_Lai_De_Yang Child
+@ID:	zho||MOT||female|||Mother|||
+@ID:	zho||CHI|1;5.3|male|||Child|||
+@Date:	30-JAN-2016
+@Location:	Lab Testing
+@Comment:	duration of recording 3 minutes 53 seconds
+@Comment:	transcribed by Wenqi, checked by Joseph, checked by Elsie
+@Start
+*MOT:	qu4 kan4 zhe4 ge4, ni3 kan4.
+@eng
+*MOT:	duck [x 2].
+*MOT:	lai2@s, uh, see.
+*MOT:	have you seen my ducklings.
+%COM: mother prepares to read the story to the child.
+*MOT:	oh yang yang you see.
+*MOT:	have you seen my, duckling.
+*MOT:	yang yang <ni3 kan4>@s, duck [x 2].
+*MOT:	early one morning.
+*MOT:	yang yang you see.
+*MOT:	early one morning.
+*MOT:	so many duck ducks.
+*MOT:	yang yang, wow ni3@s kan4@s.
+*MOT:	wow.
+*MOT:	so many duck [x 2].
+*MOT:	early one morning.
+*MOT:	wow.
+*MOT:	[- zho] ni3 kan4, zhe4 ge4 shi4 shen3 me4?
+*MOT:	duck duck de4@s mummy.
+*CHI:	&=vocalises.
+*MOT:	[- zho] sayang@s:sce duck@s [x 2], kan4 dao4 ma1, <yang yang>@s?
+*MOT:	duck duck de4@s mummy, sayang@s:sce duck duck, <ni3 kan4>@s.
+*MOT:	kiss duck duck.
+*MOT:	[- zho] kan dao ma?
+*MOT:	kiss baby duck duck.
+@zho
+*MOT:	<yang yang, you see>@s, oh ni3 kan4 duck@s [x2 ] you2 yong3.
+*MOT:	duck@s [x 2] qu4 you2 yong3.
+*MOT:	ta1 men2 gen1 zhe4 mummy@s qu4 you2 yong3.
+*MOT:	qu4 zou3 zou3 kan4 kan4.
+*MOT:	[- eng] mmhm, have you seen my duckling?.
+*MOT:	ta1 de4 mummy@s jiang3 shen2 me4?
+*MOT:	ni3 kan4 dao4 wo3 de4, ni3 kan4 dao4 wo3 de4 xiao3 ya1 ma1?.
+*MOT:	ni3 kan4 dao4 wo3 de4 xiao3 ya1 ma1?.
+*MOT:	ta1 wen4 zhe4 ge4 niao3, ni3 kan4 dao4 wo3 de4 xiao3 ya1 ma1?.
+*MOT:	mmhm niao3 jiang3 shen2 me4?
+*MOT:	niao3 jiang3, mei2 you3.
+*MOT:	mei2 you3 kan4 dao4 ni3 de4 xiao3 ya1.
+*MOT:	mei2 you3.
+*MOT:	o2, bu4 ke3 yi3, ni3 kan4.
+*MOT:	bu4 ke3 yi3, <yang yang>@s ni3 kan4.
+*MOT:	o2 ni3 kan4 ta1 you4 we4n wu1 gui1 ni3 kan4!
+*MOT:	<yang yang>@s, ya1 ma1 ma wen4 wu1 gui1.
+*MOT:	ni3 kan4 dao4 wo3 de4 xiao3 ya1 ma1?
+*MOT:	kan4 dao4 wo3 de4 xiao3 ya1 zi3 ma1?
+*MOT:	mmhm mei2 you3.
+*MOT:	wo3 mei1 you3 kan4 dao4 ni3 de4 xiao3 ya1 zi3.
+*MOT:	ran2 hou4 ta1 gen1 shui2?
+*MOT:	zhe4 ge4 shi4 shui2 lai2 de4?
+*MOT:	ta1 qu4 wen4 shui2?
+*MOT:	zhe4 ge4 xiong2 a4 <yang yang>@s ni3 kan4!
+*MOT:	xiong2.
+*MOT:	aiyo@s:sce bu4 ke3 yi3 zhe4 yang4 zi3 <yang yang>@s!
+*MOT:	mmhm mummy@s, mummy@s bao4 bao4 ni3 kan4.
+*MOT:	o2, ta1 qu4 wen4 zhe4 ge4 xiong2, &hm.
+*MOT:	ni3 kan4 dao4 wo3 de4 ya1 zi3 ma1?
+*MOT:	mmhm zhe4 ge4 ya1 ma1 ma1.
+*MOT:	ya1 zi3 de4 mummy@s wen4 xiong2.
+*MOT:	ni3 kan4 dao4 wo3 de4 ya1 zi3 ma1?
+*MOT:	jiang3 mei2 you3.
+*MOT:	wo3 mei2 you3 kan4 dao4 ni3 de4 xiao3 ya1 zi3.
+*CHI:	&=vocalises.
+*MOT:	ni3 kan4 ta1 wen4 shui2?
+*CHI:	&=crying.
+*MOT:	ta1 wen4 fish@s.
+*CHI:	&=crying.
+*MOT:	<ni3 kan4> [x 2]!
+*MOT:	ta1 wen4 fish@s.
+*MOT:	wu1 gui1, fish@s.
+*MOT:	ni3 you3 kan4 dao4 wo3 de4 xiao3 ya1 zi3 ma1?
+*CHI:	&=crying.
+*MOT:	ya1 ma1 ma1 jiang3.
+*MOT:	o2, ni3 you3 kan4.
+*MOT:	ta1 yao4 wen4 ta1 de4 peng2 you3.
+*CHI:	&=crying.
+*MOT:	ni3 you3 kan4 dao4 wo3 de4 xiao3 ya1 zi3 ma1?
+*CHI:	&=vocalises.
+*MOT:	<yang yang>@s ni3 kan4.
+*MOT:	[-eng] <ni3 kan4>@s so many duck duck.
+*CHI:	&=vocalises.
+*MOT:	kan4 dao4 ma?
+*CHI:	&=vocalises ma [x 4].
+*MOT:	mmhm kan4 dao4 ma?
+*CHI:	&=crying.
+*MOT:	ni3 kan4, ni3 kan4 zhe4 ge4.
+*MOT:	ya1 zi3 de4 mummy@s zhao3 duck@s [x 2] zhao3 bu4 dao4.
+*MOT:	zai4 na3 li3 wo3 de4 duck@s [x 2] leh@s:sce?
+*MOT:	zai4 na3 li3?
+*MOT:	wo3 de4 xiao3 [x 2], wo3 de4 xiao3 duck@s [x 2] zai4 na3 li3?
+*MOT:	wo3 de4 xiao3 ya1 zi3 zai4 na3 li3?
+*MOT:	ta1 yi1 zhi2 zhao3 [x 3], you2 lai2 you2 qu4 zhao3.
+*CHI:	&=crying.
+*MOT:	mmhm zhao3 bu4 dao4.
+*CHI:	&=crying.
+*MOT:	o2 ni3 kan4 ya1 zi3 mummy@s qu4 xiu1 xi2 liao@s:sce.
+*CHI:	&=crying.
+*MOT:	&shh.
+*MOT:	ni3 kan4 ya1 zi3 mummy@s oi@f [x 2] liao@s:sce.
+*MOT:	ya1 zi3 mummy shui4 jiao4 le4.
+*MOT:	zhao3 ta1 de4 baby@s zhao3 dao4 hen3 lei4 le4.
+*CHI:	&=vocalises.
+*MOT:	mmhm ni3 kan4.
+*MOT:	kan4 dao4 ma1?
+*CHI:	&=vocalises.
+@End

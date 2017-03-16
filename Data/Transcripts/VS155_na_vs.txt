@@ -1,0 +1,204 @@
+@Unicode
+@Begin
+@Languages:	eng
+@Participants:	MOT Vonne Mother, CHI Josh_Chow_Jiale Child
+@ID:	eng||MOT||female|||Mother|||
+@ID:	eng||CHI|1;5.30|male|||Child|||
+@Date:	25-SEP-2016
+@Location:	Home Testing
+@Comment:	duration of recording 7 minutes 41 seconds
+@Comment:	transcribed by Joseph, checked by Sihui, checked by Nadiah
+@Start
+*MOT:	okay, you sit on mummy's lap.
+*MOT:	mummy read it to you.
+*MOT:	okay, come on.
+*MOT:	have you seen my duckling?
+*MOT:	what's this?
+*MOT:	look at mother duck.
+*MOT:	what is this?
+*CHI:	donald duck.
+*MOT:	this is butterfly!
+*MOT:	now where are the ducks going?
+*MOT:	early one morning.
+*MOT:	look, how many ducks are there?
+*CHI:	one xxx.
+*MOT:	one, two, three, four, five, six, seven!
+*MOT:	but look!
+*MOT:	one duck is going away, swimming away!
+*MOT:	where is she going?
+*MOT:	she is following the butterfly, but where is she going?
+*MOT:	and then, look, the duck is here.
+*MOT:	it is following the butterfly.
+*MOT:	<mama duck>[x 2]!
+*MOT:	look, mother duck!
+*MOT:	mother duck is coming, to the nest.
+*CHI:	nest.
+*MOT:	yes!
+*MOT:	nest!
+*MOT:	and what's next, darling?
+*MOT:	here, last page darling, why are you at the last page?
+*MOT:	come, see here?
+*MOT:	the ducks, what are the ducklings saying?
+*CHI:	quack.
+*MOT:	yes, they say quack[x 2].
+*MOT:	<mummy is coming>[x 2]!
+*MOT:	&wow, where are we going, mummy?
+*MOT:	she say, hi babies, how are you?
+*MOT:	do you miss me?
+*CHI:	no?
+*MOT:	no?
+*MOT:	you don't miss me?
+*MOT:	but i miss you so much, can you give me a kiss?
+*MOT:	and all the ducklings gave mummy a little kiss.
+*MOT:	but wait, where's your sister?
+*CHI:	&=vocalises.
+*MOT:	where?
+*MOT:	there is one more duck missing.
+*MOT:	where is your sister?
+*MOT:	look, where is the sister?
+*MOT:	the sister is swimming away, but mummy can't see her!
+*MOT:	so, what happens next?
+*MOT:	let's go find your sister, shall we?
+*MOT:	&choo[x 5].
+%COM:	Mother imitating sounds of movement.
+*MOT:	swim, let us go.
+*MOT:	look, all the ducks, they are dropping down the water.
+*MOT:	bye bye!
+*MOT:	bye bye, look!
+*MOT:	can you spot the last duck, it's here!
+*MOT:	right?
+*MOT:	now, le le, how many ducks are there left?
+*CHI:	&=vocalises.
+*MOT:	&mm, no, you can't press this!
+*MOT:	did you press it?
+*MOT:	you can't press this, you know?
+*MOT:	the ducks are not here.
+*MOT:	where is the duck?
+*CHI:	&=vocalises.
+*MOT:	yes, let's go find the duck!
+*MOT:	who is this?
+*CHI:	duck, elephant.
+*MOT:	this?
+*MOT:	this is not elephant.
+*MOT:	this is a bird.
+*MOT:	and what did the duck, mother duck say?
+*MOT:	have you seen my duckling?
+*MOT:	no, i did not see your duckling!
+*MOT:	where is your duckling?
+*MOT:	maybe you can ask somebody else.
+*MOT:	and so mother duck went, and she found a turtle!
+*MOT:	le le, where's the turtle?
+*MOT:	is this a turtle?
+*CHI:	a turtle.
+*MOT:	yes, turtle.
+*MOT:	have you seen my duckling?
+*MOT:	no, i have not seen your duckling!
+*MOT:	maybe you can ask the otter.
+*CHI:	&=vocalises.
+*MOT:	you don't want to read anymore?
+*MOT:	who is this?
+*CHI:	dog.
+*MOT:	&mm?
+*MOT:	is that a dog?
+*MOT:	it's an otter, darling.
+*MOT:	look, mister otter.
+*MOT:	is that an otter?
+*MOT:	yeah, i think it looks like an otter.
+*MOT:	<mister otter> [x 2], have you seen my duckling?
+*CHI:	&=vocalises.
+*MOT:	no?
+*MOT:	i have not seen your duckling, please don't disturb me.
+*MOT:	i am busy, but you can ask the next person.
+*MOT:	look, le le, can you find the duckling?
+*MOT:	i think i saw the duckling.
+*MOT:	see, you see here?
+*CHI:	duckie.
+*MOT:	duckling!
+*MOT:	they can't find the sister.
+*MOT:	let's find the sister.
+*MOT:	are you dancing?
+*MOT:	le le dancing?
+*MOT:	do you want to find the duckling with mummy?
+*CHI:	yes.
+*MOT:	okay, see!
+*MOT:	have you seen my duckling?
+*MOT:	what's this?
+*CHI:	duck.
+*MOT:	that's a duck?
+*MOT:	that's a fish!
+*CHI:	&=vocalises.
+*MOT:	and a frog.
+*MOT:	mummy sees a frog.
+*MOT:	do you want to see the frog?
+*MOT:	do you want to see the frog?
+*CHI:	yes.
+*MOT:	where is the &frog?
+*MOT:	where's the frog?
+*CHI:	a frog.
+*MOT:	where is the frog?
+*MOT:	here's the frog.
+*MOT:	have you seen my duckling?
+*MOT:	asked the next bird.
+*MOT:	no, i have not seen the duckling.
+*MOT:	oh no!
+*MOT:	where is duckling?
+*MOT:	<who is coming back>[x 2]?
+*MOT:	look, mister turtle and the duckling is coming back.
+*MOT:	and look, how many ducks are there now?
+*CHI:	book [x 3].
+*MOT:	here is the book.
+*MOT:	you want the book?
+*CHI:	no.
+*MOT:	you don't want this book?
+*MOT:	you want to sit down on mummy's lap?
+*MOT:	do you want to sit on mummy's lap?
+*CHI:	yes.
+*MOT:	yes?
+*MOT:	okay, look.
+*MOT:	mister turtle found the sister.
+*MOT:	they found the duckling!
+*MOT:	good job.
+*MOT:	and now the duckling is back with mama duck.
+*CHI:	turtle.
+*MOT:	&mm, turtle!
+*CHI:	turtle.
+*MOT:	yes, turtle.
+*CHI:	turtle.
+*MOT:	that is a butterfly.
+*MOT:	what is this?
+*MOT:	is that a butterfly?
+*CHI:	no.
+*MOT:	how about this?
+*CHI:	butterfly.
+*MOT:	flower, yes?
+*MOT:	flower.
+*CHI:	flower.
+*MOT:	now the duckling is back with the family, brothers and sisters!
+*MOT:	so where are they going now?
+*MOT:	&=snores.
+%COM:	mother makes snoring noises.
+*CHI:	&=vocalises.
+*MOT:	sleeping!
+*MOT:	look, mother duck is sleeping, with the baby ducks.
+*MOT:	good night, have a good sleep!
+*MOT:	what do you say?
+*MOT:	do you say good night to them?
+*MOT:	see, the ducks are sleeping.
+*MOT:	say good night.
+*MOT:	bye [x 2].
+*MOT:	do you see them?
+*MOT:	good night, bye [x 2].
+*CHI:	bye [x 2].
+*MOT:	bye [x 2], come and say goodnight.
+*MOT:	bye, goodnight!
+*MOT:	wah, what's this?
+*CHI:	&=vocalises.
+*MOT:	this is a frog.
+*MOT:	this is a frog, good night.
+*MOT:	you wanna [: want to] kiss them good night?
+*MOT:	&=smackslips.
+*MOT:	&mm, see you, have a good night sleep.
+*MOT:	xxx is going to sleep too.
+*MOT:	you want to close the book for mummy?
+*MOT:	<the end> [x 2].
+@End.

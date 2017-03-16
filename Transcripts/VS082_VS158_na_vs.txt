@@ -1,0 +1,93 @@
+@Unicode	
+@Begin	
+@Languages:	eng	
+@Participants:	MOT Target_Mother *CHI Child	
+@ID:	eng|Lara|MOT|||||Target_Mother|||	
+@ID:	eng|Lara|CHI|||||Child|||	
+@Date:		
+@Location:	
+@Comment:	Filename:	VS082_Narration Transcript_Yezhou.txt	
+@Comment:	204 seconds	
+@Comment:	transcribed by Yezhou	
+@Situation:	
+@Start
+*MOT:	mummy tell you a story.
+*MOT:	have you seen my duckling?
+*MOT:	look at the mummy duck.
+*MOT:	can you look at the ducklings.
+*MOT:	you see you see, what's this?
+*MOT:	one two, luojia, come.
+*MOT:	you see, how many ducklings are there?
+*MOT:	one two three four five six seven eight.
+*MOT:	see &=vocalizes what's this, what's this, butterfly.
+*MOT:	oh, you see, the duckling, where, swim all to see the butterfly.
+*MOT:	early one morning, &=vocalizes.
+*MOT:	so where is the duckling, you see, where?
+*MOT:	oh, one two three four five six seven.
+*MOT:	oh, where is the eighth one, here.
+*MOT:	xxx, come.
+*CHI:	&=vocalizes.
+*MOT:	see, the mummy is counting.
+*MOT:	how come, short of one duckling?
+*MOT:	where is it?
+*CHI:	&=cries.
+*MOT:	here [x 5].
+*MOT:	the duckling is here &=vocalizes it's going off.
+*MOT:	okay what else?
+*MOT:	you see, one two three four five six seven.
+*MOT:	where is the duckling, where?
+*MOT:	eight, mummy duckling is searching.
+*MOT:	have you seen my duckling?
+*MOT:	look at the bird.
+*MOT:	oh, look at the bird.
+*MOT:	what's that.
+*MOT:	that's a bird.
+*MOT:	where is the missing duckling you know?
+*MOT:	&=vocalizes there, see, it's here.
+*MOT:	the mummy coming from there, okay?
+*MOT:	now, the mummy duck.
+*CHI:	&=vocalizes.
+*MOT:	mummy duck asks the tortoise.
+*MOT:	you see, where is the tortoise?
+*MOT:	oh, yes &=vocalizes.
+*MOT:	the tortoise is here, you see?
+*MOT:	tortoise [x 3].
+*CHI:	&=vocalizes.
+*MOT:	okay okay come.
+*CHI:	tortoise.
+*MOT:	some more, have you seen my duckling?
+*MOT:	what is this?
+*MOT:	look here, okay, one two three four five six, where?
+*MOT:	nothing is here, what's this?
+*MOT:	this is a frog, isn't it?
+*MOT:	okay, turn around.
+*MOT:	have you seen my duckling?
+*CHI:	river.
+*MOT:	you see, what is a river?
+*MOT:	where is it?
+*MOT:	where is it?
+*MOT:	where is the missing duckling?
+*MOT:	can you see?
+*MOT:	mothers, fathers, fishes, daughters, xxx.
+*CHI:	&=cries.
+*MOT:	now let's count, one two three four five six seven.
+*MOT:	you see here?
+*MOT:	here, let's look.
+*MOT:	okay, oh, what's this, see?
+*MOT:	have you seen my duckling?
+*MOT:	&=vocalizes.
+*MOT:	you see the mummy duck is xxx.
+*MOT:	xxx xxx.
+*MOT:	hey, why would you do that?
+*MOT:	we have not finished the story.
+*MOT:	okay, see, mummy duck saw the duckling.
+*MOT:	you see, where is it?
+*MOT:	it's here.
+*MOT:	all with the tortoise.
+*MOT:	now they are all together, swimming away.
+*MOT:	xxx what is this?
+*MOT:	you see where is the moon?
+*MOT:	moon, moon, where is the moon, see?
+*MOT:	where is the moon, here?
+*MOT:	&=vocalizes okay, the end.
+@End

@@ -1,0 +1,61 @@
+@Unicode
+@Begin
+@Languages:	eng
+@Participants:	MOT Ying_Wei, CHI Rowan_Fu Child
+@ID:	eng||MOT||female|||Mother|||
+@ID:	eng||CHI|1;0.16|male|||Child|||
+@Date:	17-SEP-2016
+@Location:	Lab Testing
+@Comment:	duration of recording 3 minutes 13 seconds
+@Comment:	transcribed by Nadiah, checked by Sihui, checked by ChaoMin
+@Start
+*MOT:	rowan, let's read a book.
+*MOT:	have you seen my duckling?
+*MOT:	early one morning.
+*MOT:	look baby, rowan.
+*MOT:	mummy duck and all the little baby ducks.
+*MOT:	mummy duck is going to her nest!
+*MOT:	look, she's at her nest!
+*MOT:	rowan, rowan baby.
+*MOT:	she's at the nest, and all the baby ducks are cuddling up to her.
+*MOT:	and they all follow her.
+*MOT:	where are they going?
+*MOT:	&=gasps who's that?
+*MOT:	who's that at the top of the book?
+*MOT:	on top of the page?
+*MOT:	one of the ducklings is lost, oh no!
+*MOT:	have you seen my duckling?
+*MOT:	where is he?
+*MOT:	do you see him baby?
+*MOT:	is there a duckling here in the flower?
+*MOT:	rowan, what's this?
+*MOT:	it's a bird.
+*CHI:	&=vocalises.
+*MOT:	b@l is for bird.
+*MOT:	&b &b bird.
+*MOT:	have you seen my duckling?
+*MOT:	the mama duck is asking a tortoise.
+*MOT:	have you seen my duckling?
+*MOT:	where's the hidden duck right now?
+*MOT:	here, hiding behind the tree.
+*MOT:	have you seen my duckling?
+*MOT:	where did the duckling go?
+*MOT:	&oh what's this jumping into the water, baby?
+*MOT:	it's a frog.
+*MOT:	have you seen my duckling?
+*MOT:	underwater, asking on a fish.
+*CHI:	&=vocalises.
+*MOT:	have you seen my duckling?
+*MOT:	mama duck is asking another duck.
+*MOT:	&oh, who's that?
+*CHI:	&=vocalises.
+*MOT:	baby duck and mama duck are reunited.
+*CHI:	&=vocalises.
+*MOT:	and they all swam away together.
+*MOT:	look baby, and they're sleeping.
+*CHI:	&=vocalises.
+*MOT:	goodnight.
+*MOT:	goodnight everyone.
+*CHI:	&=vocalises.
+*MOT:	the end.
+@End

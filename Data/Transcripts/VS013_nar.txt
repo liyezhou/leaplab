@@ -1,0 +1,164 @@
+@Unicode
+@Begin
+@Languages:	eng, zho
+@Participants:	MOT Lee_Chen_Chen Mother, CHI Maisy_Coghlan Child
+@ID:	eng||MOT||female|||Mother|||
+@ID:	eng||CHI|2;0.8|female|||Child|||
+@Date:	19-APR-2015
+@Location:	Home Testing
+@Comment:	duration of recording 5 minutes
+@Comment:	start at 22 seconds
+@Comment:	transcribed by Yezhou, checked by Ashley
+@Comment:	narration of wordless picture book
+@Start
+*MOT:	[- zho] lai3 you@s sit@s here@s ni3 zuo4 zhe4 bian1 your@s favourite@s.
+%com:	mother gestures to child to sit on a particular spot on the sofa.
+*MOT:	sit down.
+*MOT:	[- zho] guo4 lai2 kuai4 dian3 guo4 lai2 sit@s sit@s.
+@MOT:	[- zho] bu4 ran2 auntie@s yao4 ba3 shu1 na2 hui2 jia1 le4 okay@s?
+@CHI:	[- zho] na3 shu1 &=vocalizes.
+*MOT:	[- zho] na3 dan1 dan1 chu1 lai2 la4!
+%com:	mother takes out pacifier dan1 dan1.
+*MOT:	[- zho] ni3 shi4 baby@s ah1 ni3.
+*MOT:	[- zho] okay@s, ni3 kan4.
+*MOT:	have you seen my duckling!
+*MOT:	what's that!
+*CHI:	&=laughs.
+*MOT:	early one morning.
+*MOT:	how many ducklings do you see?
+*CHI:	three four five xxx xxx xxx xxx.
+*MOT:	where's mommy ducky?
+*CHI:	three four five xxx.
+*MOT:	you count?
+*MOT:	one two three four five six.
+*CHI:	two three four five six seven.
+%com:	child counts together with mother.
+*MOT:	seven!
+*CHI:	eight.
+*MOT:	eight?
+*CHI:	xxx some more!
+*MOT:	some more that's mommy yes?
+*MOT:	what's mommy doing.
+*MOT:	hm?
+*CHI:	&eh elephant.
+*MOT:	elephant?
+*CHI:	yes.
+*MOT:	&=laughs.
+*CHI:	auntie?
+*MOT:	[- zho] auntie@s, auntie@s hui4 hui2 lai.
+%com:	child looks for experimenter and mother says she will be back later.
+*MOT:	where's where are the ducklings going to?
+*CHI:	auntie?
+*MOT:	[- zho] auntie@s hui4 hui2 lai.
+*MOT:	where are they going to play are they?
+*CHI:	auntie?
+*MOT:	auntie will come back.
+*MOT:	have you seen my duckling?
+*MOT:	uh oh!
+*MOT:	did she lose a duckling?
+*MOT:	a little ducky.
+*CHI:	&=vocalizes auntie?
+*MOT:	yeah, auntie will come back.
+*MOT:	what's this one?
+*MOT:	hm?
+*MOT:	have you seen my duckling?
+*MOT:	[- zho] ta1 wen4 shei2?
+%com:	mother asks the child who was the mother duck talking to.
+*CHI:	some more!
+*MOT:	[- zho] ta1 wen4 shei2?
+*MOT:	[- zho] zhe4 shi4 shen3 mo4?
+*CHI:	no more!
+*MOT:	[- zho] zhe4 shi4 wu1 gui1!
+*CHI:	[- zho] wu1 gui1!
+%com:	mother tells child that the animal is a tortoise wu1 gui1.
+*MOT:	[- zho] hai2 you3 beaver@s.
+*CHI:	ducky.
+*MOT:	yes.
+*CHI:	quacks.
+*MOT:	have you seen my duckling?
+*MOT:	what does the beaver say?
+*CHI:	quack [x 2].
+*MOT:	can you see the duckling?
+*CHI:	yeah.
+*MOT:	really, where!
+*MOT:	one.
+*CHI:	two three four five six seven eight nine ten xxx xxx.
+*MOT:	have you seen my duckling?
+*MOT:	where is the duckling?
+*MOT:	can you see the duckling it's hiding.
+*MOT:	you see?
+*CHI:	what's that?
+*MOT:	hm?
+*CHI:	&tis that &tis that.
+*MOT:	no this it's like that &=laughs.
+*MOT:	can you see the duckling hiding?
+*MOT:	have you seen my duckling?
+*MOT:	where's the duckling?
+*MOT:	the one that's hiding?
+*MOT:	where is it?
+*CHI:	mm this side.
+*MOT:	this side, like that?
+*MOT:	nah that's the wrong side.
+*MOT:	where's the hide, hiding there.
+*MOT:	the duckling is hiding.
+*MOT:	one more, where is it?
+*MOT:	&y naughty duckling!
+*MOT:	it's hiding.
+*CHI:	[- zho] zhe4 ge4!
+*MOT:	yes, and where is it hiding?
+*MOT:	where's it hiding?
+*MOT:	here!
+*MOT:	where's it hiding?
+*CHI:	here!
+*MOT:	no?
+*MOT:	here!
+*CHI:	yeah.
+*MOT:	it's very small.
+*CHI:	small.
+*MOT:	what about here, where is it hiding can you find?
+*MOT:	yeah!
+*MOT:	what about this one can you find?
+*CHI:	find.
+*MOT:	where's the duckling hiding, it's very small.
+*MOT:	here!
+*MOT:	what about this one.
+*CHI:	&=vocalizes.
+*MOT:	can you see the duckling hiding?
+*MOT:	in the flower.
+*CHI:	yes.
+*MOT:	where.
+*MOT:	show me.
+*CHI:	there.
+*MOT:	good!
+*MOT:	how about this one where's the duckling hiding?
+*CHI:	no no no more!
+*MOT:	no more?
+*MOT:	it's here!
+*CHI:	is here!
+*MOT:	&=laughs.
+*CHI:	[- zho] zhe4 ge4 no@s more@s!
+*MOT:	yes no more!
+*MOT:	&s so she found her duckling who is very naughty.
+*CHI:	some more.
+*MOT:	now the duckling is going with the mommy yes?
+*MOT:	sleeping time.
+*MOT:	sleeping time?
+*MOT:	good night.
+*CHI:	good night duck.
+*MOT:	bye bye.
+*CHI:	bye bye.
+*CHI:	sleeping.
+*MOT:	sleeping yes.
+*CHI:	&=vocalizes the moon.
+*MOT:	that's the moon yes.
+*MOT:	what else can you see?
+*CHI:	xxx light.
+*MOT:	hm?
+*CHI:	xxx.
+*MOT:	hm?
+*CHI:	moon.
+*MOT:	moon.
+*CHI:	some more &m moon.
+*MOT:	hm what's that.
+*CHI:	xxx.
+@End

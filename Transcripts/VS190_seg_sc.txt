@@ -1,0 +1,53 @@
+@Unicode
+@Begin
+@Languages:	eng
+@Participants:	MOT Candice_Toh Mother, CHI Lim_Zi_Yang_Hudson Child
+@ID:	eng||MOT||female|||Mother|||
+@ID:	eng||CHI|1;1.22|male|||Child|||
+@Date:	10-DEC-2016
+@Location:	BrainFit Testing
+@Comment:	duration of recording 2 minutes 58 seconds
+@Comment:	transcribed by Simone, checked by Chaomin, checked by Joseph
+@Start
+*MOT: "have you seen my duckling?".
+*MOT: one, two, three, four, five, six, seven, eight.
+*MOT: eight little ducklings.
+*MOT: have you seen my duckling?
+*MOT: early one morning.
+*MOT: quack [x 4].
+*MOT: the mama duck.
+*MOT: you see.
+*MOT: they all come to mama duck.
+*MOT: and the little ducks follows the mama.
+*MOT: have you seen my duckling?
+*MOT: and the next page.
+*MOT: have you seen my duckling?
+*MOT: ask the tortoise.
+*MOT: ask the beaver.
+*MOT: have you seen my duckling? [x 2]
+*MOT: I will bring you to them.
+*MOT: let us go.
+*MOT: have you seen my duckling?
+*MOT: ask the fish.
+*MOT: have you seen my duckling?
+*MOT: where is my duckling?
+*MOT: have you seen my duckling?
+*MOT: and they all went searching okay?
+*MOT: look for the ducklings.
+*CHI: &=vocalises.
+*MOT: they are all sleeping.
+*MOT: snuggle and snore.
+*MOT: after a long day.
+*MOT: it is night time.
+*MOT: you see all the stars?
+*MOT: twinkle twinkle little stars.
+*MOT: mama duck is watching them sleeping.
+*MOT: how many ducklings are there?
+*MOT: finish loh@s:sce.
+*MOT: want to read again?
+*MOT: see, this mummy duck is asking this beaver.
+*MOT: have you seen my duckling?
+*MOT: no, I am not sure.
+*MOT: you like this one?
+*MOT: xxx, the mama duck.
+@End

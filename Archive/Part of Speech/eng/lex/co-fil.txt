@@ -1,0 +1,11 @@
+@UTF8
+% these should be inserted with &, as in &ah, throughout and thereby not processed as words
+ah {[scat fil]}  % sometimes this is scat co
+eh {[scat fil]}
+er {[scat fil]}
+ew {[scat fil]}
+hm {[scat fil]}
+mm {[scat fil]}
+uh {[scat fil]}
+uhm {[scat fil]}
+um {[scat fil]}

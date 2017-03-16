@@ -1,0 +1,89 @@
+@Unicode
+@Begin
+@Languages:	eng, zho
+@Participants:	MOT Joyce Mother, CHI Caleb_Chia Child
+@ID:	eng||MOT||female|||Mother|||
+@ID:	eng||CHI|1;1.0|male|||Child|||
+@Date:	22-JUL-2016
+@Location:	Home Testing
+@Comment:	duration of recording 3 minutes 33 seconds
+@Comment:	transcribed by Carol, checked by Chao_Min, checked by Nadiah
+@Start
+*MOT: have you seen my duckling?
+*MOT: mother duck, have you seen my duckling?
+*MOT: &oops, &oops, did you see the butterfly?
+*CHI: &=vocalizes.
+*MOT: do you see the little duckling?
+*CHI: &=vocalizes.
+*MOT: &oops, where did the.
+*MOT: where did the little duckling go?
+*MOT: do you see the butterfly, di@s di@s?
+*MOT: di@s di@s, do you see the butterfly?
+*CHI: &=vocalizes.
+*MOT: Caleb!
+*CHI: &=vocalizes.
+*MOT: &mmmm see, mummy duck is back!
+*MOT: di@s di@s, do you see mummy duck is back?
+*MOT: where did the baby duckling go?
+*CHI: &=vocalizes.
+*MOT: did you see the butterfly?
+*CHI: &=vocalizes.
+*MOT: you see, &=gasps.
+*MOT: look at the mummy duck and the baby.
+*MOT: and the brother and sister duckling.
+*CHI: &=vocalizes.
+*MOT: where did the baby duckling go?
+*MOT: see here di@s di@s see here!
+*MOT: where?
+*MOT: where is the baby duckling tell mummy!
+*CHI: &=vocalizes.
+*MOT: you see here di@s di@s see.
+*CHI: &=vocalizes.
+*MOT: &ah, are they playing hide and seek?
+*CHI: &=vocalizes.
+*MOT: do you see that or not, di@s di@s?
+*MOT: &ah, where did they go?
+*MOT: okay, let's look for the baby duckling.
+*MOT: the missing baby duckling.
+*MOT: have you seen my duckling?
+*MOT: di@s di@s, do you see the baby duckling?
+*CHI: &=vocalizes.
+*MOT: have you seen the baby duckling?
+*MOT: no, said the kingfisher.
+*MOT: no, no [x 2].
+*MOT: okay.
+*MOT: have you seen my duckling?
+*MOT: no, said the beaver.
+*MOT: you see the beaver?
+*MOT: the brown beaver.
+*MOT: have you seen my duckling?
+*MOT: no, said the frog!
+*MOT: di@s di@s,see.
+*MOT: have you seen my duckling?
+*MOT: di@s di@s, see.
+*MOT: di@s di@s, can you spot the duckling?
+*MOT: &ah, do you see the mudskipper?
+*CHI: &=vocalizes.
+*MOT: okay let's sit here.
+*CHI: &=vocalizes.
+*MOT: have you seen my duckling?
+*MOT: di@s di@s, tell mummy where's the duckling.
+*MOT: where's the duckling?
+*MOT: where?
+*CHI: &=vocalizes.
+*MOT: where is the duckling?
+*CHI: &=vocalizes.
+*MOT: can you see the duckling?
+*MOT: here di@s di@s!
+*MOT: did you see the duckling!
+*MOT: is here with the turtle!
+*MOT: di@s di@s, see.
+*MOT: where is the duckling?
+*MOT: is with the turtle!
+*MOT: okay let's go home together.
+*CHI: &=cries
+*MOT: di@s di@s!
+*MOT: &oh let's rest, home sweet home.
+*MOT: okay, good job.
+*MOT: clap hands &=ges:claps.
+@End

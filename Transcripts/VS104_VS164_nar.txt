@@ -1,0 +1,44 @@
+@Unicode
+@Begin
+@Languages:	eng, hok
+@Participants:	MOT Eri Mother, CHI Efren_Salvatore_Wijaya Child
+@ID:	eng||MOT||female|||Mother|||
+@ID:	eng||CHI|1;1.17|male|||Child|||
+@Date:	01-June-2016
+@Location:	Home Testing
+@Comment:	duration of recording 3 minutes 10 seconds
+@Comment:	transcribed by joseph, checked by Sihui, checked by Nadiah
+@Start
+*MOT: early one morning.
+*MOT: have a mummy duck and the.
+*MOT: the baby duck.
+*MOT: see,have one,two,three,four,five,six,seven baby duck.
+*MOT: then,the mummy come to.
+*MOT: go to the baby duck.
+*MOT: but one baby is missing.
+*MOT: where is the baby duck?
+*MOT: where is one?
+*MOT: where is the <kor kor>@s.
+*MOT: where is <kor kor>@s?
+*MOT: then mummy ask all the baby duck to follow her.
+*MOT: come follow,we are looking for <kor kor>@s.
+*MOT: then,they meet a one.
+*MOT: another bird.
+*MOT: if you seen my duckling?
+*MOT: but,he say no.
+*MOT: then,they meet turtle.
+*MOT: have you seen my duckling?
+*MOT: no.
+*MOT: then they keep ask a few animal.
+*MOT: <have you seen my duckling>[x 2]?
+*MOT: but nobody knows.
+*CHI: &=vocalises.
+*MOT: have you seen my duckling?
+*CHI: &=vocalises.
+*MOT: oh,it's over there!
+*MOT: see,see,it's over there.
+*MOT: <so they can find>.
+*MOT: one the missing,with the help of turtle.
+*MOT: after that,they come back to their home.
+*MOT: okay.
+@End.

@@ -1,0 +1,66 @@
+@Unicode
+@Begin
+@Languages:			eng
+@Participants:	MOT Serene Mother, CHI Bastien Koh Child
+@ID: 				eng||MOT||female|||Mother|||
+@ID: 				eng||CHI|1;1.28|female|||Child|||
+@Date: 			8-JUl-2016
+@Location:		Lab Testing
+@Comment:			duration of the recording is 5 minutes 45 seconds
+@Comment:			video starts at 1 minute 30 seconds
+@Comment:			transcribed by Yijun
+@Situation:		narration of wordless picture book in the lab
+@Start
+*MOT:	have you seen my duckling?
+*MOT:	see, this duck went to look for the butterfly.
+*MOT:	early one morning.
+*MOT:	this little duckling went out to chase after a butterfly.
+*MOT:	what did he do?
+*MOT:	all the ducklings waiting for the mommy to come back.
+*MOT:	but this little duckling went to run after a butterfly.
+*MOT:	&ohhh, see his mommy don't know.
+*MOT:	don't know that he went off.
+*MOT:	then what else?
+*MOT:	all the mommy, ducklings looking for the mommy.
+*MOT:	they went out for a swim.
+*MOT:	see, how many ducklings?
+*MOT:	one two three four five six seven, seven little ducks went out to swim with mommy.
+*CHI:	&=cries.
+*MOT:	oh but one is missing.
+*MOT:	so how?
+*MOT:	mommy asks.
+*MOT:	have you seen my duckling?
+*MOT:	she asks the kingfisher.
+*MOT:	see the duckling is hiding inside the lotus.
+*MOT:	mommy continue to wander and asked the beaver.
+*MOT:	have you seen my duckling?
+*MOT:	she asked the turtle.
+*MOT:	the turtle say no.
+*MOT:	i have not seen your duckling.
+*MOT:	mommy continue to swim.
+*MOT:	where is the duckling?
+*MOT:	hiding behind the tree.
+*CHI:	&=vocalises.
+*MOT:	mommy asks the beaver.
+*MOT:	have you seen my duckling?
+*MOT:	the beaver said.
+*MOT:	i am very busy.
+*MOT:	i have not seen your duckling.
+*MOT:	where's the duckling hiding?
+*MOT:	behind the box.
+*MOT:	mommy continued to swim and she asked the fish.
+*MOT:	have you seen my duckling?
+*MOT:	where is the duckling hiding?
+*MOT:	he's hiding behind the weeds.
+*MOT:	&hmm, she continues to wander.
+*MOT:	and she meets another bird.
+*MOT:	she has four little babies.
+*MOT:	the butterfly is on the bridge, no?
+*MOT:	mommy continued to wander and the turtle told her.
+*MOT:	i found your little duckling!
+*MOT:	so they continued swimming.
+*MOT:	and the butterfly flew away.
+*MOT:	and its night time!
+*MOT:	it's time to sleep.
+*MOT:	the end.
+@End

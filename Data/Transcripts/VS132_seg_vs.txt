@@ -1,0 +1,188 @@
+@Unicode
+@Begin
+@Languages:	eng
+@Participants:	MOT Stella Mother, CHI Siang_Yong_Rui_Jovi Child
+@ID:	eng||MOT||female|||Mother|||
+@ID:	eng||CHI|1;1.7|male|||Child|||
+@Date:	05-AUG-2016
+@Location:	Home Testing
+@Comment:	duration of recording 6 minutes 20 seconds
+@Comment:	transcribed by Elsie, checked by sihui, checked by ChaoMin
+@Start
+*MOT:	jovi!
+*MOT:	we read?
+*MOT:	what's this?
+*MOT:	so many little ducklings!
+*MOT:	have you see my duckling?
+*MOT:	jovi.
+*MOT:	come!
+*MOT:	jovi!
+*MOT:	come.
+*MOT:	okay.
+*MOT:	let's open the book.
+*MOT:	you see?
+*MOT:	jovi, see?
+*MOT:	open [x 3].
+*CHI:	&=cries.
+*MOT:	you see.
+*MOT:	how many ducks?
+*MOT:	&eh, look at the little duck!
+*MOT:	it's running away.
+*MOT:	all his other friends are actually in the nest.
+*MOT:	where is this little duck going to?
+*MOT:	let's see!
+*MOT:	exactly one morning.
+*MOT:	how many little ducks?
+*MOT:	here.
+*MOT:	one, two, three, four, five, six, seven.
+*MOT:	and where is the eighth little duck?
+*MOT:	&huh, jovi?
+*MOT:	come read the book, can?
+*MOT:	jovi, see?
+*MOT:	<eight little ducks went out one day, over the hills and far away>@si.
+*MOT:	<mother duck say quack [x 4], and one little duck went missing>@si.
+*MOT:	okay, you see.
+*MOT:	mummy count.
+*MOT:	one, two, three, four, five, six, seven only!
+*MOT:	where's the other duck?
+*MOT:	you see?
+*MOT:	it's walking away!
+*MOT:	&ah, did you see the mama duck?
+*MOT:	swim away with all the other little ducklings.
+*MOT:	looking for the sibling.
+*CHI:	&=vocalises.
+*MOT:	where did it go to?
+*MOT:	again, mama duck says.
+*MOT:	let's search around the place!
+*MOT:	where is it?
+*MOT:	let's check it out, baby.
+*CHI: &=cries.
+*MOT:	have you seen my little duckling?
+*MOT:	where's my baby?
+*MOT:	last time jovi baby.
+*MOT:	every time run away right?
+*CHI:	&=cries.
+*MOT:	yes, correct.
+*MOT:	here's the.
+*MOT:	&eh, no.
+*MOT:	here's the bird.
+*MOT:	so, birdy [x 2] say.
+*MOT:	no, i didn't see your duckling.
+*MOT:	maybe it went somewhere else.
+*CHI:	&=cries.
+*MOT:	mama duck says.
+*MOT:	are you sure?
+*MOT:	yeah!
+*MOT:	okay.
+*MOT:	so, you know where is mama duck.
+*CHI: &=cries.
+*MOT:	okay.
+*MOT:	mama duck say, what's this?
+*MOT:	have you seen my little duckling?
+*MOT:	asking the little tortoise.
+*MOT:	and what's this?
+*MOT:	it's a beaver.
+*CHI:	&=vocalises.
+*MOT:	where's the beaver, jovi?
+*CHI:	&=vocalises.
+*MOT:	what's this?
+*MOT:	here's a little butterfly.
+*MOT:	butterfly!
+*CHI:	&=vocalises.
+*MOT:	hi butterfly.
+*MOT:	did you see my baby duck?
+*CHI:	&=vocalises.
+*MOT:	baby duck, where are you?
+*MOT:	&eh, you see the little duckling.
+*MOT:	baby, you see!
+*CHI:	&=vocalises.
+*MOT:	the little duck is hiding behind!
+*MOT:	are you sure?
+*MOT:	come, let's see.
+*CHI:	&=vocalises.
+*MOT:	have you seen my little duckling?
+*MOT:	&oh this is not a beaver.
+*CHI:	&=vocalises.
+*MOT:	this is a.
+*MOT:	i don't know what is it.
+*CHI:	&=vocalises.
+*MOT:	otter?
+*MOT:	okay?
+*MOT:	mama duck say.
+*MOT:	whichever you are.
+*MOT:	have you seen my little duckling?
+*CHI:	&=vocalises.
+*MOT:	no.
+*MOT:	okay?
+*MOT:	daddy says no.
+*CHI:	&=vocalises.
+*MOT:	you see.
+*MOT:	all the other animals is diving in the water.
+*MOT:	jovi [x 2].
+*MOT:	jovi, you got your own story also.
+*MOT:	i don't know.
+*MOT:	i can't understand what you are saying.
+*CHI:	&=vocalises.
+*MOT:	jovi!
+*MOT:	jovi?
+*MOT:	okay.
+*MOT:	mama duck says.
+*MOT:	hi, other friends.
+*MOT:	did you see my baby duckling?
+*MOT:	jovi is also looking for the duckling!
+*MOT:	where did you see him?
+*MOT:	is he nearby you?
+*MOT:	no?
+*MOT:	okay, no?
+*CHI:	&=vocalises.
+*MOT:	&eh, jovi, you see what's this?
+*MOT:	what's this?
+*MOT:	she searched around.
+*MOT:	mama duck searched around.
+*MOT:	no [x 2] i didn't see your baby duckling.
+*MOT:	are you sure?
+*MOT:	let's go ahead!
+*MOT:	let's go further.
+*MOT:	can you see a little tortoise is going with the little duckling too?
+*MOT:	and they saw a butterfly.
+*MOT:	butterfly!
+*MOT:	what does it mean?
+*CHI:	&=cries.
+*MOT:	jovi!
+*MOT:	you see?
+*MOT:	they finally found the baby duck.
+*MOT:	because it's together with the butterfly!
+*MOT:	and now they're all going home together!
+*MOT:	<eight little ducks went out one day>@si.
+*MOT:	<over the hills and far [x 3] away>@si!
+*MOT:	<mother duck says quack[x 4]>@si!
+*MOT:	<and our little ducks went home to sleep>@si.
+*MOT:	you see.
+*MOT:	it's night time!
+*MOT:	what should they say?
+*MOT:	they found the little baby duck!
+*MOT:	so they say.
+*MOT:	okay, let's go back together.
+*MOT:	and sleep.
+*MOT:	okay?
+*MOT:	how many little ducks?
+*MOT:	<one, little two, little three little duck[x 2]>@si.
+*MOT:	<four, little five, little six little duck[x 2]>@si.
+*MOT:	<seven, little eight, little nine, little duck[x 2]>@si.
+*MOT:	<ten little duck ducks are sleeping>@si!
+*MOT:	you see.
+*MOT:	all the ducklings are sleeping.
+*MOT:	but there's only eight right?
+*MOT:	right, where are you?
+*MOT:	one, two, three, four, five, six, seven, eight!
+*MOT:	eight.
+*MOT:	mama duck says.
+*MOT:	goodnight.
+*MOT:	goodnight baby ducks.
+*MOT:	i'll see you tomorrow morning!
+*MOT:	okay?
+*MOT:	are you done, jovi?
+*MOT:	stop playing with the book.
+*MOT:	okay?
+*MOT:	yay, goodnight baby!
+@End

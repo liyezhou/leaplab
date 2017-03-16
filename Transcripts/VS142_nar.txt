@@ -1,0 +1,104 @@
+@Unicode
+@Begin
+@Languages:	eng, zho
+@Participants:	MOT Ching_Sean Mother, CHI Erikson_Tan Child
+@ID:	eng||MOT||female|||Mother|||
+@ID:	eng||CHI|2;0.13|male|||Child|||
+@Date:	28-AUG-2016
+@Location:	Lab Testing
+@Comment:	duration of recording 3 minutes 25 seconds
+@Comment:	transcribed by Elsie, checked by XinYun, checked by Joseph
+@Start
+*MOT:	have you seen my duckling?
+*MOT:	[-zho] you3 mei2 you3 kan4 jian4 wo3 de3 xiao3 ya1 zi3?
+*MOT:	&oh, early one morning.
+*MOT:	hello! good morning!
+*MOT:	baby, good morning!
+*MOT:	&oh, see.
+*MOT:	what happened?
+*MOT:	baby. this is a duck duck.
+*MOT:	<mummy duck> [X 2].
+*MOT:	swimming [X 3].
+*MOT:	this is the duckling.
+*MOT:	baby, see.
+*MOT:	[-zho] ya1 zi3 ma1 ma1 hai2 you3 xiao3 ya1 zi3.
+*MOT:	[-zho] you2 yong3 [X 3].
+*MOT:	[-zho] &uhoh you3 yi1 zhi1 xiao3 ya1 zi3 bu4 jian4 le4.
+*MOT:	baby, one duckling is missing.
+*MOT:	you see.
+*MOT:	where is it?
+*MOT:	&eh.
+*MOT:	where is it?
+*MOT:	aiyo@s:sce hiding here!
+*MOT:	baby see, one is here!
+*MOT:	aiyo@s:sce one duckling is here!
+*MOT:	&oh!
+*MOT:	did the mummy see, did mummy see the duckling here?
+*CHI:	&=vocalises.
+*MOT:	&huh baby.
+*MOT:	did, did mummy see the duckling here?
+*MOT:	no.
+*MOT:	&oh, see.
+*MOT:	[-zho] ya1 zi3 ma1 ma1 qu4 zhao3 xiao3 ya1, ta1 men2 yi1 qi3 wan2.
+*MOT:	[-zho] ke3 shi4 ne1, you3 yi1 zhi1 xiao3 ya1 zi3 pao3 diao4 le4, baby@s:eng.
+*MOT:	aiyo@s:sce, run away.
+*MOT:	one duckling run away.
+*MOT:	see mummy did not notice.
+*MOT:	&oh now all the duckling follow mummy swimming.
+*MOT:	[-zho] ya1 zi3 ma1 ma1 dai4 zhe4 xiao3 ya1 zi3 yi1 qi3 you2 yong3.
+*MOT:	[-zho] zhe4 yi1 zhi1 xiao3 ya1 pao3 qu4 zhe4 me4 yuan3.
+*MOT:	[-zho] ni3 kan4. zhe4 zhi1 xiao3 ya1 pao3 de3 zhe4 me4 yuan3.
+*MOT:	[-zho] zhe4 shi2 hou4.
+*MOT:	&=gasps ya1 zi3 ma1 ma1 shuo1 ni1 you3 kan4 jian4.
+*MOT:	wo3 de4 hai2 zi3 ma1?
+*MOT:	you3 mei2 you3 kan4 jian4 xiao3 ya1 zi1?
+*MOT:	[-zho] zai4 na2 li3?
+*MOT:	where is the duckling?
+*MOT:	have you seen my duckling?
+*MOT:	no.
+*MOT:	the bird bird say I did not see your duckling.
+*MOT:	&oh, now mummy duck see the turtle.
+*MOT:	mummy duck say did you see my duckling?
+*MOT:	[-zho] you3 mei2 you3 kan4 jian4 wo3 de3 xiao3 ya1 zi3?
+*MOT:	&=whimpers.
+*MOT:	sea turtle say I did not see.
+*MOT:	[-zho] wo3 mei2 you3 kan4 jian4.
+*MOT:	[-zho] uh oh.
+*MOT:	ya1 zi3 ma1 ma1 shuo1.
+*MOT:	please help me!
+*MOT:	help me to find my duckling!
+*MOT:	[-zho] zhe4 shi2 hou4, ya1 zi3 ma1 ma1 ye3 wen4 hai3 shi1.
+*MOT:	&=gasp, you3 mei2 you3 kan4 jian4 wo3 de3 xiao3 ya1 zi1?
+*MOT:	did you see my duckling?
+*MOT:	[-zho] ya1 zi3 ma1 ma1 fei1 chang2 jing3 zhang1.
+*MOT:	ya1 zi3 ma1 ma1 dao4.
+*MOT:	chu4 qu4 wen4.
+*MOT:	[-zho] ya1 zi3 ma1 ma1 wen4 hai3 gui1, wen4 yu2.
+*MOT:	ask the fish, ask the frog frog.
+*MOT:	where is my duckling?.
+*MOT:	[-zho] you3 mei2 you3 kan4 jian4 xiao3 ya1?
+*MOT:	[-zho] baby@s you3 mei2 you3 kan4 jian4 xiao3 ya1 zi1?
+*MOT:	you3 ma1?
+*MOT:	[-zho] mei2 you3 kan4 jian4.
+*MOT:	uh oh.
+*MOT:	<zhe4 shi2 hou4>@s:zho sea turtle go and bring the missing duckling.
+*MOT:	bring him back to.
+*MOT:	to see mummy.
+*MOT:	hor@s:sce?
+*MOT:	baby see the duck.
+*MOT:	the missing duckling is here.
+*MOT:	&huh mummy see the duckling, so happy!
+*MOT:	see?
+*MOT:	they play together.
+*MOT:	they swim together.
+*MOT:	&oh, at night they say goodnight.
+*MOT:	bye bye.
+*MOT:	goodnight.
+*MOT:	sleep already.
+*MOT:	how to sleep, baby.
+*MOT:	how to sleep?
+*MOT:	[-zho] wan3 an1.
+*MOT:	goodnight!
+*MOT:	bye bye.
+*MOT:	the end.
+@End

@@ -1,0 +1,89 @@
+@Unicode
+@Begin
+@Languages: eng
+@Participants:	MOT Target_Mother_Father  CHI Child
+@ID:	eng|Lara|MOT|3;0011||||Target_Mother|||
+@ID:	eng|Lara|CHI|||||Child|||
+@Date:	
+@Location:	
+@Comment:	
+@Filename: VS036_Narration Transcript_Sherry.rtf
+@Comment:	time duration 
+@Comment:	transcribed by Sherry
+@Situation:	
+@Start	
+*MOT:	have you seen my duckling
+*MOT:	one morning, mother duckling swimming here.
+*MOT:	how many ducks are there
+*MOT:	one two three four five six seven
+*MOT:	and the mother duck say have you seen my duckling
+*MOT:	how many ducks are there
+*MOT:	how many ducks
+*MOT:	and all the ducklings went swimming and follow the mother duck
+*MOT:	where did they go
+*MOT:	there's one missing here i did not see
+*MOT:	lets start all over again
+*CHI:	duck duck 
+*MOT:	you want baba read or mama read
+*MOT:	have you seen my duckling
+*MOT:	early one morning all the ducklings are sleeping in the nest
+*MOT:	and the mother duck come swimming here
+*MOT:	one two three four five six seven 
+*MOT:	and mother duck came here and count
+*MOT:	how many ducks are here
+*MOT:	one two three four five six seven
+*MOT:	and they start swimming away already you see
+*MOT:	where are they swimming to
+*MOT:	where
+*MOT:	mother duck starts asking
+*MOT:	have you seen my duckling
+*MOT:	tell mama where
+*MOT:	nobody sees the missing duckling
+*MOT:	and the mother duck asks
+*MOT:	who is this
+*CHI:	dodo
+*MOT:	yes asked the dodo
+*MOT:	the mother duck says have you seen my duckling
+*MOT:	the dodo say no
+*CHI:	no
+*MOT:	the mother duck went asking around and ask the beaver
+*MOT:	the beaver said no and start swimming away
+*MOT:	what is this over here
+*MOT:	what is this
+*MOT:	what is this
+*CHI:	[CN] qing wa
+*MOT:	yes it is qing wa
+*MOT:	and mother duck kept asking around
+*MOT:	have you seen my duckling
+*MOT:	what is this
+*CHI:	turtle
+*MOT:	and what is this
+*CHI:	fish
+*MOT:	and what is this
+*CHI:	[CN]qing wa
+*MOT:	[CN]qing wa shi zhe ge
+*MOT:	what is this here there is a small snail 
+*MOT:	everyone starts looking for the duckling
+*MOT:	mother hen continue to look for the duckling
+*MOT:	and start asking have you seen my duckling
+*CHI:	duckling
+*MOT:	no 
+*CHI:	no
+*MOT:	i did not see your duckling
+*CHI:	duckling
+*MOT:	mother hen swim around the lake and keep looking for the duckling
+*MOT:	can you see the corner there 
+*MOT:	where is the duckling
+*MOT:	where you point to mama
+*MOT:	yes the missing duckling is in the corner
+*MOT:	and now the missing duckling join the mother hen
+*MOT:	and they go back 
+*CHI:	go back
+*MOT:	so now mother hen found all the ducklings and they sleep
+*MOT:	how many ducklings are there can you count
+*MOT:	where where is the duckling
+*MOT:	where's the frog
+*MOT:	where you point to mama
+*MOT:	where 
+*MOT:	yes
+*MOT:	then end of story no more

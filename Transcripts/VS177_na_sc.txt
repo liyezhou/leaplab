@@ -1,0 +1,67 @@
+@Unicode
+@Begin
+@Languages:	eng
+@Participants:	MOT Capri_Chong, CHI Chiara_Giselle_Keiser Child
+@ID:	eng||MOT||female|||Mother|||
+@ID:	eng||CHI|1;5.25|female|||Child|||
+@Date:	10-NOV-2016
+@Location:	Lab Testing
+@Comment:	duration of recording 4 minutes 37 seconds
+@Comment:	transcribed by Nadiah, checked by Elsie
+@Start
+*MOT: come sit down.
+*MOT: have you seen my duckling@si.
+*MOT: by Nancy Tafuri.
+*MOT: mama's reading you a book.
+*MOT: a book of a duck's family.
+*MOT: huh do you see a big duck and a small.
+*CHI: bat.
+*MOT: bat yeah we say bye bye for awhile.
+*MOT: let's read a book together@si.
+*MOT: &=gasps look Chiara!
+*MOT: it's a duckling jumping off the nest!
+*MOT: &pop [x 3].
+*MOT: early one morning.
+*MOT: a duckling swimming [x 3] away from the nest.
+*MOT: chasing after a butterfly?
+*MOT: you're not interested in the book, Chiara?
+*MOT: hm?
+*MOT: do you wanna [: want to] read a book with mama?
+*MOT: oh look!
+*MOT: look.
+*MOT: the mama duck, the mama duck and the baby duckling.
+*CHI: duck.
+*MOT: yeah the mama duck, checking out the baby duckling.
+*MOT: one fine day.
+*MOT: <mama duck> [x 2].
+*MOT: come, sit, sit with mama.
+*MOT: see, the mama duck is kissing kissing the baby duckling.
+*MOT: kiss [x 2].
+*MOT: to go for a walk [x 2] early one morning.
+*MOT: going for a swim in the lake.
+*MOT: the duckling one two three four five six seven.
+*MOT: following mama for a walk.
+*MOT: but one duckling is missing!
+*MOT: asking the bird, "have you seen my duckling?".
+*CHI: &=vocalises.
+*MOT: asking, asking no that's mama's phone.
+*CHI: &=vocalises.
+*MOT: have you asking the turtle, "have you seen my duckling?".
+*MOT: asking the big squirrel.
+*MOT: the big squirrel, have you seen my duckling?
+*CHI: &=vocalises.
+*MOT: look, the fish!
+*MOT: the fish!
+*MOT: the mama duckling asking the fish and the catfish.
+*MOT: and the lizard and the frog.
+*MOT: "have you seen my missing duckling?".
+*MOT: even a.
+*CHI: &=vocalises.
+*MOT: duck, another duck family.
+*MOT: have you seen my other duckling?
+*CHI: &=cries.
+*MOT: oh what happen?
+*MOT: oh.
+*MOT: mama XXX.
+*MOT: okay Chiara, what happen?
+@End

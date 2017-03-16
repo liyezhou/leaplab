@@ -1,0 +1,113 @@
+@UTF8
+%***********
+%   VERBS
+% ***********
+
+RULENAME: v-try
+LEX-ENTRY:
+LEXSURF = $Yy
+LEXCAT = [scat v]
+ALLO:
+ALLOSURF = $Yie
+ALLOCAT = LEXCAT, ADD [allo vYc], ADD [bare no]
+ALLO:
+ALLOSURF = $Yi
+ALLOCAT = LEXCAT, ADD [allo vYb], ADD [bare no]
+ALLO:
+ALLOSURF = LEXSURF
+ALLOCAT = LEXCAT, ADD [allo vYa]
+
+RULENAME: v-free
+LEX-ENTRY:
+LEXSURF = $Ze
+LEXCAT = [scat v]
+ALLO:
+ALLOSURF = $Z
+ALLOCAT = LEXCAT, ADD [allo vEEb], ADD [bare no]
+ALLO:
+ALLOSURF = LEXSURF
+ALLOCAT = LEXCAT, ADD [allo vEEa]
+
+RULENAME: v-tie
+LEX-ENTRY:
+LEXSURF = $Xie
+LEXCAT = [scat v]
+ALLO:
+ALLOSURF = $Xy
+ALLOCAT = LEXCAT, ADD [allo vIEc], ADD [bare no]
+ALLO:
+ALLOSURF = $Xi
+ALLOCAT = LEXCAT, ADD [allo vIEb], ADD [bare no]
+ALLO:
+ALLOSURF = LEXSURF
+ALLOCAT = LEXCAT, ADD [allo vEEa]
+
+RULENAME: v-vowel-e    %cue
+LEX-ENTRY:
+LEXSURF = $We
+LEXCAT = [scat v]
+ALLO:
+ALLOSURF = $W
+ALLOCAT = LEXCAT, ADD [allo vHb], ADD [bare no]
+ALLO:
+ALLOSURF = LEXSURF
+ALLOCAT = LEXCAT, ADD [allo vHa]
+
+RULENAME: v-other-final-e
+LEX-ENTRY:
+LEXSURF = $Te
+LEXCAT = [scat v]
+ALLO:
+ALLOSURF = $T
+ALLOCAT = LEXCAT, ADD [allo vHb], ADD [bare no]
+ALLO:
+ALLOSURF = LEXSURF
+ALLOCAT = LEXCAT, ADD [allo vHa]
+
+RULENAME: v-geminate-monosyllabic
+LEX-ENTRY:
+LEXSURF = $O$V$C
+LEXCAT = [scat v], ![tense OR past perf], ![gem no]  % to block putting
+ALLO:
+ALLOSURF = $O$V$C$C
+ALLOCAT = LEXCAT, ADD [allo vHb], ADD [bare no]
+ALLO:
+ALLOSURF = LEXSURF
+ALLOCAT = LEXCAT, ADD [allo vHa]
+
+RULENAME: v-geminate-polysyllablic
+LEX-ENTRY:
+LEXSURF = $X$C   % anything that ends with a consonant which geminates
+LEXCAT = [scat v], [gg +],  ![tense OR past perf]
+ALLO:
+ALLOSURF = $X$C$C
+ALLOCAT = LEXCAT, ADD [allo vHb], ADD [bare no]
+ALLO:
+ALLOSURF = LEXSURF
+ALLOCAT = LEXCAT, ADD [allo vHa]
+
+RULENAME: v-ic
+LEX-ENTRY:
+LEXSURF = $Xic   % mimic, picnic
+LEXCAT = [scat v], [ck +],  ![tense OR past perf]
+ALLO:
+ALLOSURF = $Xick
+ALLOCAT = LEXCAT, ADD [allo vHb], ADD [bare no]
+ALLO:
+ALLOSURF = LEXSURF
+ALLOCAT = LEXCAT, ADD [allo vHa]
+
+RULENAME: v-sibilant
+LEX-ENTRY:
+LEXSURF = $X$S
+LEXCAT = [scat v]
+ALLO:
+ALLOSURF = LEXSURF
+ALLOCAT = LEXCAT, ADD [allo vS]
+
+RULENAME: v-no-change
+LEX-ENTRY:
+LEXCAT = [scat OR v cop]
+ALLO:
+ALLOSURF = LEXSURF
+ALLOCAT = LEXCAT, ADD [allo v0]

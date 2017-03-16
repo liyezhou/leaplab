@@ -1,0 +1,122 @@
+@Unicode
+@Begin
+@Languages:	eng
+@Participants:	MOT Soolee Mother, CHI Chen_Yanrui_Matthias Child
+@ID:	eng||MOT||female|||Mother|||
+@ID:	eng||CHI|1;6.25|male|||Child|||
+@Date:	25-OCT-2016
+@Location:	Lab Testing
+@Comment:	duration of recording 4 minutes 58 seconds
+@Comment:	transcribed by Chao_Min, checked by Nadiah, checked by Debbie
+@Start
+*MOT:	xxx, &=claps, sit down read storybook.
+*MOT:	good boy.
+*MOT:	okay, have you seen my duckling?
+*MOT:	huh, who is this?
+*CHI:	&=vocalises.
+*MOT:	mummy duck and baby ducks!
+*MOT:	so many baby ducks around!
+*MOT:	have you seen my duckling?
+*MOT:	early one morning, how many ducks are there?
+*MOT:	you count?
+*MOT:	one, two, three, four, five, six, seven!
+*MOT:	oh, you see this duck, run away, butterfly!
+*MOT:	duck ran away to chase after the butterfly!
+*MOT:	swim.
+*MOT:	how many left?
+*MOT:	one, two, three, four, five, six, seven.
+*MOT:	okay, so total there are eight ducks!
+*MOT:	and one went after the butterfly!
+*MOT:	mummy duck come and count, how many ducks are there?
+*MOT:	huh, where's, where's my the other last duck?
+*MOT:	huh, mummy duck ask the little ducklings.
+*MOT:	where, where is the little brother duckling?
+*MOT:	and they told mummy duck that it has gone and chase after the butterfly!
+*CHI:	&=vocalises.
+*MOT:	oh dear!
+*MOT:	it's missing!
+*MOT:	oh, so mummy duck say, let's go and look for di4@s:zho di4@s:zho!
+*MOT:	so all of them follow the mother duck to look for di4@s:zho di4@s:zho!
+*MOT:	and mother duck went to ask the tortoise, have you seen my duckling?
+*CHI:	&=sneezes.
+*MOT:	&ah &choo.
+*MOT:	oh dear, guess what the tortoise say?
+*CHI:	&=vocalises.
+*MOT:	no, I didn't see.
+*MOT:	I hadn't seen your duck.
+*MOT:	mummy duck look and found another animal.
+*MOT:	and the frog is here.
+*CHI:	&=vocalises.
+*MOT:	you see, &uh, what is this?
+*CHI:	&=vocalises.
+*MOT:	frog.
+*CHI:	&=vocalises.
+*MOT:	frog.
+*MOT:	frog jump to the water.
+*MOT:	&oh, have you seen my duckling?
+*MOT:	so how many ducks are there now?
+*MOT:	you count.
+*MOT:	one, two, three, four, five, six, plus, here, one more, seven!
+*CHI:	&=vocalises.
+*MOT:	xxx so mother duck ask the beaver.
+*MOT:	beaver say, no, I haven't seen your duckling.
+*MOT:	oh, you see the mother duck went under the water to ask the fish!
+*MOT:	have you seen my duckling?
+*CHI:	&=vocalises.
+*MOT:	&ee, what's this?
+*MOT:	another frog!
+*MOT:	remember the frog jump down into the water?
+*CHI:	&=vocalises.
+*MOT:	and what's that?
+*MOT:	is that a beetle?
+*MOT:	there's a prawn here, a catfish, turtle, no?
+*CHI:	&=vocalises.
+*MOT:	you don't like to read this?
+*MOT:	eh, look at that, what's that?
+*CHI:	&=vocalises.
+*MOT:	&=vocalises, is that the duckling that mother duck is looking for?
+*MOT:	is that di4@s:zho di4@s:zho?
+*CHI:	&=vocalises.
+*MOT:	no?
+*MOT:	I think it is you know?
+*MOT:	oh, now mother duck went to find, a goose!
+*CHI:	&=vocalises.
+*MOT:	have you seen my duckling?
+*MOT:	oh, later, later we play with the ball later, can?
+*MOT:	you finish reading the book first!
+*MOT:	it's going to, we're going to finish soon!
+*MOT:	we must find the duckling remember?
+*MOT:	must help them to find the di4@s:zho di4@s:zho duckling.
+*MOT:	&ooh, they went around to search.
+*MOT:	they swim here and there.
+*CHI:	&=vocalises.
+*MOT:	oops, what is this?
+*MOT:	is this a lotus?
+*MOT:	flower?
+*MOT:	is this lotus, in the pond?
+*CHI:	&hm.
+*MOT:	<&oh> [x 2], <okay> [x 2], where are you going?
+*CHI:	&=whimpers.
+*MOT:	&oh, xxx, <okay> [x 2].
+*MOT:	now the turtle follow them!
+*CHI:	&=vocalises.
+*MOT:	how come?
+*CHI:	&=vocalises.
+*MOT:	how come the turtle follow the ducks, to swim, to swim around?
+*MOT:	oh, the turtle is helping them to find the duckling as well!
+*CHI:	&=vocalises.
+*MOT:	oh dear, did they find the little duckling in the end?
+%sit: mobile rings.
+*CHI:	&=vocalises [+bch].
+*MOT:	I think they did, you know?
+*MOT:	they found the little duckling in the end.
+*MOT:	and now there are eight ducklings.
+*MOT:	Matthias you see, they all go back to their nest and sleep!
+*MOT:	say good night!
+*CHI:	night!
+*MOT:	well done.
+*MOT:	bye [x 2], bye [x 2] to ducklings and mother duck.
+*MOT:	say bye [x 2].
+*CHI:	bye [x 2].
+*MOT:	okay finished!
+@End

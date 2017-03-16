@@ -1,0 +1,50 @@
+@Unicode
+@Begin
+@Languages:	eng, zho
+@Participants:	MOT Joyce Leong Mother, CHI Elliot Ng Kaizhe
+@ID:	eng||MOT||female|||Mother|||
+@ID:	eng||CHI|1;2;30|male||Child|||
+@Date:	01-April-2016
+@Location:	Home
+@Comment:	duration of recording 4 minute 30 seconds
+@Comment:	transcribed by Yijun
+@Situation:	narration of wordless picture book PDF on screen
+@Start
+*MOT:	<have you seen my duckling> [x 2]?
+*MOT:	open the book, see.
+*MOT:	have you seen my duckling?
+*MOT:	early one morning, see how many ducklings are there?
+*MOT:	two?
+*MOT:	one two three four five six seven eight!
+*MOT:	the mother duck went.
+*MOT:	two?
+*MOT:	the mother goes to the ducklings!
+*MOT:	what happened?
+*MOT:	see the duckling, the duck, the mother.
+*MOT:	there the duckling follows the mother!
+*MOT:	and then, have you seen my duckling?
+*MOT:	where is the last duckling?
+*CHI:	&=vocalises.
+*MOT:	the duckling?
+*CHI:	&=vocalises.
+*MOT:	have you seen my duckling?
+*MOT:	ask the turtle right?
+*MOT:	have you seen my duckling?
+*MOT:	what's this?
+*MOT:	beeaver.
+*CHI:	&=cries.
+*MOT:	have you seen my duckling?
+*CHI:	&=cries.
+*MOT:	have you seen my duckling?
+*CHI:	&=vocalises.
+*MOT:	how many ducklings are here?
+*MOT:	one two three four five six seven.
+*MOT:	have you seen my duckling, asked the duck.
+*MOT:	<have you seen my duckling> [x 2]?
+*MOT:	see, all the other ducklings are looking for the lost duckling.
+*MOT:	have you seen my duckling?
+*MOT:	yah.
+*MOT:	aww, the duck went to sleep already?
+*MOT:	you don't understand the book is it?
+*MOT:	ok, ending!
+@End

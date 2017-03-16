@@ -1,0 +1,172 @@
+@Unicode
+@Begin
+@Languages:	eng
+@Participants:	MOT Marie Mother, CHI Heidi_Chen Child
+@ID:	eng||MOT||female|||Mother|||
+@ID:	eng||CHI|1;6.30|female|||Child|||
+@Date:	25-SEP-2016
+@Location:	Lab Testing
+@Comment:	duration of recording 7 minutes 3 seconds
+@Comment:	transcribed by Chao_Min, checked by Nadiah, checked by Elsie
+@Start
+*MOT:	shall we read this book?
+*CHI:	&=vocalises.
+*MOT:	quack [x 6].
+*MOT:	Heidi, we have to read the book.
+*MOT:	Heidi, I thought you would like this book?
+*MOT:	let's read this book okay.
+*CHI:	&=vocalises.
+*MOT:	Heidi, come, shall we?
+*MOT:	no, Heidi, shall we sit here?
+*MOT:	okay we sit here and read the book okay?
+*MOT:	okay, mummy read the book to you.
+*CHI:	&=vocalises.
+*MOT:	mummy read the book to you, okay?
+*MOT:	okay, come.
+*CHI:	&=vocalises.
+*MOT:	open, can you open your book?
+*MOT:	what is this book called?
+*MOT:	have you seen my duckling?
+*CHI:	duckling!
+*MOT:	duckling, yes!
+*MOT:	yes, this is the mother duck!
+*CHI:	duck.
+*MOT:	how many ducks are here?
+*MOT:	one, two, three, four, five, six, seven, eight, eight ducklings!
+*CHI:	&=vocalises, duck [x 3].
+*MOT:	yes, duck [x 3].
+*MOT:	can I open the book now?
+*CHI:	&=vocalises.
+*MOT:	okay, okay, how about Heidi open the book?
+*CHI:	&=vocalises.
+*MOT:	okay.
+*MOT:	but not here, not this page yet, let's start from the beginning!
+*CHI:	&=vocalises.
+*MOT:	have you seen my duckling?
+*CHI:	&=vocalises.
+*MOT:	early one morning.
+*CHI:	&=vocalises.
+*MOT:	these are the little ducklings.
+*MOT:	how many ducklings are there?
+*MOT:	one, two, three, four, five, six, seven, eh?
+*CHI:	&=vocalises.
+*MOT:	but just now we counted here got eight right?
+*CHI:	&=vocalises.
+*MOT:	yes?
+*MOT:	what happened?
+*MOT:	let's turn, let's see.
+*CHI:	&=vocalises.
+*MOT:	ooh, who is this?
+*MOT:	<is this mother duck> [x 2]?
+*MOT:	quack [x 2]?
+*CHI:	&=vocalises.
+*MOT:	yes.
+*MOT:	how many ducklings are here?
+*CHI:	&=vocalises.
+*MOT:	yeah, let's count, gimmie [: give me] your finger.
+*MOT:	okay, one, two, three, four, five, six, seven.
+*CHI:	&=vocalises.
+*MOT:	eh, one duckling missing &ooh.
+*MOT:	one duckling missing &ooh!
+*MOT:	shall we turn the page?
+*MOT:	ooh, look at &p, look at mother duck.
+*MOT:	that was like, ooh, what's happening?
+*MOT:	oh, because mother duck got how many ducklings?
+*CHI:	duck [x 2].
+*MOT:	mother duck got eight ducklings, but she only counted seven!
+*MOT:	that means one duckling is missing.
+*CHI:	&=vocalises.
+*MOT:	<let's go and find> [x 2]!
+*MOT:	so mother duck says, let's all go and find.
+*MOT:	okay?
+*MOT:	okay, let's go and find.
+*MOT:	then mother duck ask this very beautiful bird, have you seen my duckling?
+*CHI:	&=vocalises.
+*MOT:	yes, yes?
+*MOT:	do you think this bird knows where the duckling is?
+*CHI:	&=vocalises.
+*MOT:	huh?
+*MOT:	and then what happened?
+*MOT:	the bird say, no, don't have, we can't find the duckling.
+*MOT:	let's find the.
+*MOT:	this is the beaver.
+*MOT:	the beaver said.
+*MOT:	so, &uh, what did mother duck say?
+*MOT:	have you seen my duckling?
+*CHI:	&=vocalises.
+*MOT:	tell to, talk to, we asked the beaver right?
+*MOT:	did the beaver say, did the beaver see the duckling?
+*MOT:	yes?
+*CHI:	&=vocalises.
+*MOT:	no.
+*CHI:	&=vocalises.
+*MOT:	have you seen my duckling?
+*CHI:	&=vocalises.
+*MOT:	yes uh?
+*MOT:	yes?
+*CHI:	&=vocalises.
+*MOT:	yes?
+*CHI:	&=vocalises.
+*MOT:	then what about all these places?
+*MOT:	see, all these animals.
+*MOT:	do you think they've seen the duckling?
+*CHI:	&=vocalises.
+*MOT:	yes?
+*MOT:	wah.
+*CHI:	&=vocalises.
+*MOT:	all of them have seen little duckling?
+*CHI:	&=vocalises.
+*MOT:	okay, ask daddy to sit here.
+*CHI:	&=vocalises.
+*MOT:	okay, what is this?
+*MOT:	<is this a frog> [x 2]?
+*MOT:	what is this?
+*MOT:	this is a lizard.
+*MOT:	is a lizard [x 2].
+*MOT:	but this one?
+*CHI:	&=vocalises.
+*MOT:	this one is a fish!
+*MOT:	fish!
+*CHI:	&=vocalises.
+*MOT:	then mother duck say, have you seen my duckling?
+*CHI:	yes.
+*MOT:	yes uh?
+*MOT:	huh?
+*MOT:	this is another bird, another bird with other duck, other &uh, little babies.
+*CHI:	&=vocalises.
+*MOT:	babies, yes that's right.
+*MOT:	but, do you think they have seen the duckling?
+*CHI:	&=vocalises.
+*MOT:	yes uh?
+*MOT:	oh okay.
+*MOT:	but you see mother duck is very sad.
+*CHI:	&=vocalises.
+*MOT:	cannot find the number eight duckling.
+*MOT:	yes [x 2].
+*MOT:	so she, so she walk around the pond, walk around <and around> [x 2].
+*MOT:	hor@s:sce?
+*MOT:	swim around <and around> [x 2] with other, other ducklings right?
+*CHI:	&=vocalises.
+*MOT:	but fine, so, finally.
+*CHI:	&=vocalises.
+*MOT:	ooh, finally.
+*CHI:	duck.
+*CHI:	duck [x 2].
+*MOT:	she found, oh, she found her duckling!
+*MOT:	do you see the duckling?
+*CHI:	yeah.
+*MOT:	one, two, three, four, five, six, seven, eight!
+*MOT:	they found the little duckling here!
+*MOT:	oh, so mother duckling all happily swim away with all the, all the ducklings!
+*MOT:	right?
+*MOT:	and they sleep together.
+*MOT:	do you sleep with mummy?
+*MOT:	XXX sleep together, &ha baby ducks and mummy duck, sleep together.
+*MOT:	<do you sleep together with mummy> [x 2]?
+*MOT:	yes?
+*MOT:	at night already so they fall asleep.
+*MOT:	do you sleep with mummy?
+*MOT:	yes or no?
+*MOT:	Heidi, that's the end of the story!
+*MOT:	no more.
+@End

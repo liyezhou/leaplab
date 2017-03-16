@@ -1,0 +1,81 @@
+@Unicode
+@Begin
+@Languages:	eng
+@Participants:	MOT Shweta Mother, CHI Siddharth_Singh Child
+@ID:	eng||MOT||female|||Mother|||
+@ID:	eng||CHI|1;5.0|male|||Child|||
+@Date:	04-DEC-2016
+@Location:	Lab testing
+@Comment:	duration of recording 4 minutes 11 seconds
+@Comment:	transcribed by Monique, checked by XinYun, checked by Wenqi
+@Start
+*MOT:	have you seen my duckling?
+*MOT:	what can you see siddharth over here?
+*CHI:	&=vocalises.
+*MOT:	yes you can see the ducks, you listen to the song right?
+*MOT:	five little ducks when swimming one day.
+%com:	singing.
+*MOT:	early one morning, what happened, see.
+*MOT:	there was a mother duck, the butterfly and so many ducks in their nest.
+*MOT:	then what happened?
+*CHI:	&=whimpers.
+*MOT:	siddharth, see [x 2], look at this, see this is the mama duck.
+*MOT:	and these are the, baby ducks and they are going to go swimming!
+*MOT:	can you see the little pond, yes.
+*CHI:	&=whimpers.
+*MOT:	these are the little ducks, you don't want to read?
+*MOT:	yes see the mama duckling.
+*MOT:	and she ask her baby ducks to come with her to go to swimming.
+*MOT:	why, five little ducks went swimming one day, over the hill and far away.
+%com:	singing
+*MOT:	mummy duck said quack [x 3].
+%com:	singing.
+*MOT:	&=laughs.
+*MOT:	&oh but only four little ducks came back.
+%com:	singing.
+*MOT:	see you can see the ducks, see all the ducks are following their mother.
+*MOT:	the mother is taking all her baby ducks for swimming.
+*MOT:	do you want to go for swimming, you're not interested in reading?
+*CHI:	&=vocalises.
+*MOT:	have you seen my duckling?
+*MOT:	see now the mama duck.
+*CHI:	mama.
+*MOT:	&oh what happened to you, you don't want to read?
+*MOT:	you don't want to read now, you're not in the mood?
+*MOT:	it's okay, it's okay chona if you don't want to read, it's okay.
+*MOT:	what happened, are you hungry, are you sleepy, what happened to my chona?
+*MOT:	do you want to go to xxx?
+*MOT:	where's the duck?
+*MOT:	and who's she asking too, it is under the pond with the long beak.
+*MOT:	can you see the long beak of the bird?
+*MOT:	the duck, see the duck, the mummy duck and the baby ducks.
+*CHI:	&=whimpers.
+*MOT:	have you seen my duckling, see the mummy duck is going.
+*CHI:	&yay.
+*MOT:	and asking everyone have you seen my duckling, have you seen my duckling.
+*CHI:	&ooh.
+*MOT:	yes, like mama ask have you seen my siddharth, have you seen my siddharth.
+*MOT:	see, and what is this?
+*MOT:	this looks like a big animal, yes.
+*CHI:	&oh!
+*MOT:	see, now the mummy duck is asking the other animal.
+*MOT:	i don't know which animal is this, seal?
+*CHI:	&=vocalises.
+*MOT:	<have you seen my duckling> [x 2]?
+*MOT:	see she's asking everyone.
+*MOT:	the mummy duckling is asking <have you seen my duckling> [x 2].
+*MOT:	see she's asking the frog, the lizard, the fish, the dolphin, the tortoise.
+*CHI:	&=cries.
+*MOT:	have you seen my duckling?
+*CHI:	&=cries.
+*MOT:	okay, you don't want to read.
+*MOT:	okay [x 2] we are almost done.
+*MOT:	then see what happened in the end.
+*MOT:	in the end, see what happened.
+*MOT:	did she find her duckling, siddharth?
+*MOT:	was she able to find her ducklings?
+*MOT:	&oh, she got all her duckling and she went back to her nest.
+*CHI:	&=cries.
+*MOT:	okay, done, okay done.
+*MOT:	see, look at the duckling, see [x 3] the duck &huh.
+@End

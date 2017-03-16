@@ -1,0 +1,345 @@
+@Unicode
+@Begin
+@Languages:	zho
+@Participants:	MOT Rudresh_H_B Mother, CHI Anusuya_Rudresh Child
+@ID:	zho||MOT||female|||Mother|||
+@ID:	zho||CHI|0;10.14|female|||Child|||
+@Date:	04-OCT-2015
+@Location:	Lab Testing
+@Comment:	duration of recording 18 minutes 4 seconds
+@Comment: video starts at 1 minute 13 seconds
+@Comment:	transcribed by Joseph, checked by XinYun, checked by Elsie
+@Start
+*MOT: wo3 men2 jin1 tian1 lai2 kan4 yi2 ge4 xin1 de4 shu1.
+*MOT: xiao3 ya1 zi3 de4 shu1.
+*MOT: yi3 qian2 mei2 you3 kan4 guo4.
+*MOT: &oh.
+*MOT: yi3 qian2 mei2 you3 du2 guo4, wo3 men2 du2 yi4 xia4 hao3 bu4 hao3?
+*MOT: lai2 &hm.
+*MOT: <hao3 wan2 ma1 &hm> [x 3]?
+*MOT: lai2 [x 8].
+*MOT: lai2 ma1 ma1 gei2 ni3 du2 shu1.
+*MOT: lai2, kan4 zhe4.
+*MOT: <xiao3 ya1 zi3> [x 2].
+*MOT: ji4 bu4 ji4 de2 wo3 men2 chang4 yi4 shou3 ge1.
+*MOT: ming1 qian2 da4 qiao2 xia4, jiao4 "ni3 you3 mei2 you3 kan4 dao4 wo3 de4 xiao3 ya1 zi1?"
+*MOT: nan2 shi1, ta1 fu1 li4 xie3, shi4 mei3 guo2 de4.
+*MOT: <ni3 kan4> [x 4].
+*MOT: <Anu bao3 bao3> [x 3].
+*MOT: <ni3 kan4> [x 2].
+*MOT: you3 yi4 tian1 zao3 shang4.
+*MOT: xiao3 ya1 zi3 zai4 niao3 chao2 li3.
+*MOT: <ni3 kan4> [x 3].
+*MOT: ni3 bu4 yao4 kan4 a1?
+*MOT: ma1 ma1 gen1 ni3 jiang3 gu4 shi4, ni3 bu4 yao4 kan4 a1 &huh?
+*MOT: yao4 bu4 yao4 ting1?
+*MOT: liang3 ge4 qiu2 dou1 mei2 you3 le4 zen3 me4 ban4?
+*MOT: yao4 bu4 yao4 guo4 lai2?
+*MOT: &huh?
+*MOT: ni3 <lai2 la4> [x 3].
+*MOT: <ma1 ma1 &g ma1 ma1 gen1 ni3 du2 gu4 shi4 hao3 bu4 hao3?> [x 2].
+*MOT: <bu4 ke2 yi3 pa2 pao3> [x 2].
+*MOT: lai2 [x 2] yao4 bu4 yao4?
+*MOT: bu4 ke2 yi3 pa2 pao3.
+*MOT: lai4 Su, ma1 ma1 ti4 ni3 jiang3 gu4 shi4 hao3 bu4 hao3?
+%COM: mother tries to get the child to focus on the story.
+*MOT: ma1 ma1 gen1 ni3 jiang3 gu4 shi4.
+*MOT: lai2 [x 6] ni3 kan4.
+*MOT: yi4 tian1, lai2 kan4 [x 4].
+*MOT: yi4 tian1 zao3 shang4, xiao3 ya1 zi3 men2 zai4 niao3 chao2 li3 mian4.
+*MOT: zen3 me4 yang4?
+*MOT: ni3 kan4, ya1 ma1 ma1 shuo1.
+*MOT: ya1 ma1 ma1 chu1 qu4 zhao3 shi2 wu4 chi1.
+*MOT: ni3 kan4 mei2 you3?
+*MOT: ya1 ma1 ma1 chu1 qu4 gong1 zuo4, xiang4 ma1 ma1 yi2 yang4.
+*MOT: mei3 tian1 zao3 shang4 chu1 qu4 gong1 zuo4.
+*MOT: <kan4 dao4 mei2 you3> [x 3].
+%COM: mother tries to regain child's attention after child crawls away.
+*MOT: &=laughs ni3 pa2 shen3 me4 pa2 a1?
+*MOT: ni3 pa2 &=laughs.
+*CHI: &=laughs.
+*MOT: ni3 pa2 pao3 dui4 bu4 dui4?
+*MOT: ni3 pa2 pao3 ma1 ma1 hui4 hen3 sheng1 qi4 ni3 zhi1 bu4 zhi1 dao4?
+*MOT: bu4 ke2 yi3.
+*MOT: lai2 [x4].
+*MOT: <du2 gu4 shi4 shu1 le4> [x 2].
+*MOT: ni3 na2 bi3 gei3 ma1 ma1.
+*MOT: lai2 [x4] <guo4 lai2 le4> [x 2].
+%COM: mother plays with balls to attract child's attention.
+*MOT: <gu4 shi4> [x 2] yao4 bu4 yao4 jiang3 wan2?
+*MOT: bu4 ke3 yi3 na2 na4 me1 duo3 dong1 xi3 xia4 lai2 a1.
+*MOT: bu4 ke3 yi3 na2 na4 me1 duo3 dong1 xi3 xia4 lai2, lai2 [x 2].
+*MOT: <Anu bao3 bao1?> [x 2].
+*MOT: &=laughs Anu bao3 bao1.
+%ACT: mother carries child to the play mat.
+*MOT: &=sings xiao3 ya1 zi1.
+*MOT: men2 qian2, da4 qiao2 xia4, you2 guo4 yi4 qun2 ya1.
+*MOT: ya1 ma1 ma1 chu1 qu4, gong1 zuo4 liao3 la4.
+*MOT: <ni3 kan4> [x 3].
+*MOT: ya1 ma1 ma1 shuo3, wo3 yao4 chu1 qu4 gong1 zuo4 liao3.
+*MOT: ni3 men2 zai4 jia1 li3 yao4 hao3 hao3 wan2.
+*MOT: <bu2 yao4 pao3> [x 2], hao3 bu2 hao3.
+*MOT: men2 qian2 da4 qiao2 xia4, you2 guo4 yi4 qun2 ya1.
+*MOT: <kuai4 lai2> [x 2] shu3 yi4 shu3.
+*MOT: yi1 er4 san1 si4 wu3 liu4.
+*MOT: ya1 ma1 ma1 chu1 qu4 shuo1, ni2 you3 mei2 you3 kan4 dao4 wo3 men2 de4 xiao3 ya1 zi3.
+*MOT: ya1 ma1 ma1 ran2 hou4, wen4 le4 yi1 xia4 xiao3 wu1 gui1.
+*MOT: xiao3 wu1 gui1 shuo1, <mei2 kan4 dao4 liao3> [x 2].
+%COM: mother tries to regain the child's attention before resuming the story.
+*MOT: bu4 ke2 yi3 na2 handphone@s:eng.
+*MOT: ni3 zhi1 dao4 ma1?
+*MOT: bu4 ke3 yi3 na2 handphone@s:eng &hm.
+*MOT: bu4 ke3 yi3 na2 handphone@s:eng lai2 [x 6].
+*MOT: <lai2, bu4 zhun3 pa1> [x 2].
+%ACT: mother carries child back to play mat.
+*CHI: &=whimpers.
+*MOT: wo3 men2 <kan4 shu1> [x 4].
+*MOT: <gu4 shi4 shu1> [x 3].
+*MOT: ya1 ma1 ma1 shuo1, ni3 you3 mei2 you3 kan4 dao4 wo3 men2 de4 xiao3 ya1 zi3 men2.
+*CHI: &=whimpers.
+*MOT: &neh [x 3].
+%COM: mother tries to regain the child's attention before resuming the story.
+*MOT: bao3 bao1 lai2.
+*MOT: xxx xxx xxx xxx.
+*MOT: <ni3 diu1 bi3 zhuo4 shen3 me4?> [x 2].
+*MOT: yao4 bu4 ran2 (gen1) ma1 ma1 zhuo4 na4 bian1.
+*MOT: bu4 ke2 yi3 ba3 shu1 ben3 diu1 le4.
+*MOT: bu4 ke2 yi3, <gu4 shi4 shu1> [x 2].
+*MOT: gu4 shi4 shu1 aiya@s:sce.
+*MOT: zhe4 zhang1 zhi3 bu4 shi4 ni3 de4.
+*MOT: bu4 ke2 yi3 diu1.
+*MOT: xiao3 ya1 zi3 &hey <xiao3 ya1 zi3> [x 2].
+*MOT: kan4? ya1 ma1 ma1 dai4 xiao3 ya1 zi3 &ding [x 5].
+*MOT: ya1 ma1 ma1 dai4 xiao3 ya1 zi3.
+*MOT: ni3 &p <ni3 lai2 di4 shang4 wan3 hao3 ba1> [x 2]?
+*MOT: hen3 zhong4 de4 a2, <hen3 zhong4> [x 2].
+*MOT: lai2.
+*MOT: di4 shang4 lai2, di4 shang4 bi3 jiao4 hao3.
+*MOT: lai2.
+*MOT: xxx xxx lai2.
+%act: mother brings toys to play mat.
+*MOT: quan2 bu4 wan2 ju4 dou1 lai2, &j zai4 zhe4 bian1 le4.
+*MOT: ni3 yao4 bu4 yao4 lai2?
+*MOT: bu4 lai2?
+*MOT: ni3 lai2 wan2, yao4 ting1 ma1 ma1 jiang3 gu4 shi4.
+*MOT: &wah pi2 qiu2 hao3 lv4 &oh.
+*MOT: lai2 [x 5].
+*MOT: lai2, panda@s:eng!
+*MOT: xiong2 mao1.
+%act: mother and child plays with tower of Hanoi.
+*MOT: &=laughs.
+*MOT: &okay ya1 ma1 ma1 shuo1 ni2 you3 mei2 you3 kan4 dao4.
+*MOT: ni2 you3 mei2 you3 kan4 dao4 wo3 de4 <xiao3 ya1 zi3> [x 2].
+*MOT: &ah ya1 ma1 ma1 wen4 wu1 gui1.
+*MOT: wu1 gui1 shuo1, mei2 you3 kan4 dao4 a1.
+*MOT: ni3 qu4 wen4 yi1 wen4 da4 xiong2 hao3 bu4 hao3.
+*MOT: ran2 hou4 da4 xiong2 shuo1, wo2 ye3 mei2 you3 kan4 dao4 a1.
+*MOT: ni3 ke2 neng2 yao4 qu4 wen4 qi2 ta1 ren2 liao3.
+*MOT: hen3 dui4 bu4 qi3.
+*MOT: ran2 hou4 ne1?
+*MOT: ya1 ma1 ma1 pao3 lai2.
+*MOT: zhe4 ci4 wen4 shui2 ne1?
+*MOT: &wah hai2 you3 yi4 zhi1 da4 qing1 wa1, kan4 dao4 le4 mei2 you3.
+*MOT: yi1 ge4 da4 qing1 wa1, ran2 hou3 you3 yi2 ge4 xiao3 long2.
+*MOT: <hai2 you3 yi4 tiao2 yu2> [x 3].
+*MOT: yu2 [x 4].
+*MOT: ran2 hou4 wen4 shuo1, <ni3 you3 mei2 you3 kan4 dao4 wo3 de4 xiao3 ya1 zi3 men2> [x 2].
+*MOT: ran2 hou4, ling4 wai4 yi4 zhi1 ya1 ma1 ma1 guo4 lai2.
+*MOT: qi2 shi2 shi4 ya1 ba4 ba4 dui4 ma1?
+*MOT: shi4 ya1 ba4 ba4.
+*MOT: &hmm you3 mei2 you3 kan4 dao4 wo3 de4 xiao3 ya1 zi3 men2?
+*MOT: ran2 hou4 ling4 wai4 yi1 zhi1 ya1 zi3 shuo1.
+*MOT: ni3 de4 ya1 zi3, ni3 de4 xiao3 ya1 zi3 zai4 ni3 pang2 bian1 a1.
+%COM: mother tries to regain the child's attention before resuming the story.
+*NOT: ni3 ba2 bi3 na2 guo4 lai2 gei3 ma1 ma1.
+*MOT: &hm ni3 kan4.
+*MOT: wan2 ju4 wan2 de2 luan4 qi1 ba1 zhao1.
+*MOT: yao4 bu4 yao4 guo4 lai2?
+*MOT: <bu4 ke2 yi3 pa2> [x 2].
+*MOT: gu4 shi4 cai2 jiang3 le4 yi1 ban4.
+*MOT: <xxx bao3 bao1> [x 2].
+*MOT: ma1 ma1 bu4 yao4.
+*MOT: lai2, <guo4 lai2> [x 6].
+*MOT: Anu no@s:eng [x 3].
+*CHI: &=vocalises.
+*MOT: do@s:eng not@s:eng no@s:eng.
+*MOT: come@s:eng [x 3].
+*MOT: lai2.
+*MOT: bu4 ke2 yi3 reng1 dong1 xi1.
+*MOT: Anu no@s:eng [x 3].
+*MOT: gei3 ma1 ma1 lai2, lai2 gei3 ma1 ma1.
+*MOT: na2 qi3 lai2 gei3 ma1 ma1.
+*MOT: na2 qi3 lai2.
+*MOT: lai2 zai4 na2 yi1 ge4 lai2 gei3 ma1 ma1.
+*MOT: lai2 gei3 ma1 ma1, bu4 ke2 yi3 luan4 reng2.
+*MOT: Anu, no@s:eng [x 2]!
+*MOT: <bu4 ke2 yi3 chi1> [x 2].
+*MOT: lai2.
+*MOT: lai2 la4, <jiang3 gu4 shi4> [x 2] lai2.
+*MOT: jiang3 gu4 shi4.
+%ACT: mother carries child back to play mat.
+*MOT: aiya@s:sce xiao3 bao3 bei4 lai2.
+*MOT: &ch [x 10] &yo [x 2] &ya.
+%ACT: mother carries child.
+*CHI: &=laughs.
+*MOT: lai2, qi3 lai2 jiang3 gu4 shi4 ni3 kan4.
+*MOT: ma1 ma1 shuo1, ni3 you3 mei2 you3 kan4 dao4 wo3 de4 xiao3 ya1 zi3.
+*CHI: &=whimpers.
+*MOT: ma1 ma1, xxx, ya1 zi3 wen4 ta1 de4 lin2 ju1 shuo1.
+*MOT: ni2 you3 mei2 you3 kan4 dao4.
+*CHI: &=whimpers.
+*MOT: ni2 you3 mei2 you3 kan4 dao4 wo3 de4 xiao3 ling2 ju1 &huh?
+*MOT: ni2 you3 mei2 you3 kan4 dao4 wo3 de4 xiao3 ya1 zi3 men2?
+*MOT: ya1 ma1 ma1 wen4 ling4 wai4 yi2 ge4 ma1 ma1.
+*MOT: ma1 ma1 shuo1, ya1 zi3 ma1 ma1, ni3 de4 ya1 zi3 zai4 ni3 de4 hou4 mian4 a1.
+*MOT: &hey ran2 hou4 ya1 ma1 ma1 hui2 tou2 kan4.
+*MOT: fa1 xian4 xiao3 ya1 zi3, zhen1 de4 shi4 zai4 yi1 zhi1 xiao3 wu1 gui1 de4 pang2 bian1.
+*MOT: kan4 dao4 le4 mei2 you3?
+*MOT: kan4 dao4 <ya1 zi3> [x 4].
+*MOT: <ya1 zi3 zai4> [x 3] xxx xxx.
+*MOT: <ran2 hou4> [x 3], ya1 ma1 ma1 jiu4 shuo1.
+*MOT: lai2 [x 3], jiu4 xiang4 wo3 gen1 ni3 jiang3 hua4.
+%COM: mother tries to regain the child's attention before resuming with the story.
+*MOT: zai4 jiang3 yi1.
+%ACT: child puts pen inside her mouth.
+*MOT: <bu4 ke2 yi3> [x 4].
+*MOT: bu4 ke2 yi3 fang4 zui3 li3 mian4.
+*MOT: &no ye3 bu4 ke2 yi3 fang4 li3 mian4 &hm.
+*MOT: bi3 bu4 ke2 yi3 fang4 zai4 zui3 li3, ni3 kan4 dao4 le4 mei2 you3?
+*MOT: kan4 dao4 mei2 you3?
+*MOT: ya1 ma1 ma1 hai2 you3 xiao3 ya1 zi3.
+*CHI: &=whimpers.
+*MOT: &hmm? ni3 bu4 yao4 ting1 a1?
+*MOT: ni3 yao4 bu4 yao4 ting1?
+*MOT: ni3 bu4 yao4 ting1 ma1 ma1 bu4 gen1 ni3 du2 le4 a1.
+*MOT: zui4 hou4 yi4 ye4 le3, yao4 bu4 yao4 ting1?
+*MOT: bu4 ting1 ma1 ma1 bu4 gen1 ni3 du2 le4 a1.
+*MOT: bu4 ke2 yi3 ba3 wan2 ju4 reng1 de2 luan4 qi1 ba1 zhao1.
+*MOT: ni3 yao4 bu4 yao4 ting1? &huh?
+*MOT: wan2 ju4 xian1 fang4 qi3 lai2 ba1.
+*MOT: ni3 yao4 bu4 yao4 ting1?
+*CHI: &=whimpers.
+%ACT: mother carries child back to playmat.
+*MOT: lai2 gu4 shi4 shu1.
+*MOT: gu4 shi4 jiang3.
+*MOT: ran2 hou4 ya1 zi3 ma1 ma1 shuo1, ya1 zi3 ni3.
+*MOT: wo3 men2 yi4 qi3 hui2 jia1.
+%COM: mother tries to regain the child's attention before resuming with the story.
+*CHI: &=whimpers.
+*MOT: zui4 hou4 yi1 ju4 hua4, <ni3 yao4 bu4 yao4 guo4 lai2 ting1> [x 2]?
+*MOT: &huh? ma1 ma1 ba3 da4 gang1 gen1 ni3 chong2 fu4 yi1 xia4 hao3 bu4 hao3?
+*MOT: ma1 ma1 gang1 cai2 jiang3 shen3 me4?
+*MOT: yao4 du2 shu1 jiao4 "ni3 you3 mei2 you3 jian4 dao4 wo3 de3 xiao3 ya1 zi1?"
+*MOT: <Anu bao4 [x 2]> [x 3] &=laughs.
+*MOT: ma1 ma1 zai4 jiao4 ni3 ni3 ting1 dao4 le4 mei2 you3?
+*MOT: Anu bao4 [x 2]?
+*MOT: Anu bao3 bao1.
+*MOT: <shui2 shi4 yi1 ge4 guai1 bao3 bao1?>@si.
+*MOT: <wo1 shi4 yi1 ge4 guai1 bao3 bao1>@si.
+*MOT: <guai3 bao3 bao1> [x 2] guai3 a1 guai3 bao3 bao1.
+*MOT: ni3 ba3 dong1 xi1 na2 le4, na2 lai3 gei3 ma1 ma1 hao3 bu4 hao3?
+*MOT: lai2 [x 8], lai2 [x 2] ni3 kan4?
+*MOT: &=claps &=sings.
+*MOT: lai2 [x 6].
+*MOT: bu4 ke2 yi3 chi1.
+*MOT: no@s:eng [x 2]!
+*CHI: &=vocalises.
+*MOT: no@s:eng!
+*MOT: fang4 zai4 na4 bian1, lai2.
+*MOT: <bu4 ke2 yi3 chi1> [x 3] no@s:eng [x 2]!
+*CHI: &=vocalises.
+*MOT: no@s:eng!
+*CHI: &=vocalises.
+*MOT: no@s:eng [x 2]!
+*CHI: &=vocalises.
+*MOT: lai2 [x 3].
+*MOT: bu4 ke2 yi3, nong4 dao4 luan4 qi1 ba1 zhao1 le4.
+*MOT: lai2.
+%ACT: mother carries child to play mat.
+*MOT: <&eh &yeah> [x 3].
+*MOT: tang3 zai4 xiao4 mian4 a1.
+*MOT: lai2, nian4 shu1.
+*MOT: <shui2 shi4 yi1 ge4 guai1 bao3 bao1?>@si.
+*MOT: <wo1 shi4 yi1 ge4 guai1 bao3 bao1>@si.
+*MOT: <hao3 bao2 bao3>@si [x 3].
+*MOT: &ding [x 8].
+*MOT: ni3 you3 mei2 you3 kan4 dao4 wo3 de4 xiao3 ya1 zi3.
+*MOT: ya1 ma1 ma1 shuo1, yi4 tian1 zao3 shang4.
+*MOT: yi4 zi1 xiao3 ya1 zi3.
+*MOT: zhui1 hu2 die2, wan3 qu4 liao3.
+*MOT: ya1 ma1 ma1 hui2 lai2 liao3.
+*MOT: xia4 ban1 hui2 lai2 liao3.
+*MOT: ya1 ma1 ma1 shuo1, xxx shu3 yi4 shu3.
+*MOT: fa1 xian4 yi4 zhi1 xiao3 ya1 zi3 diu1 le4 leh@s:sce.
+*MOT: mei2 you3 zai4 chao2 li3 mian4.
+*MOT: ran2 hou4 ya1 ma1 ma1 jiu4 wen4 shuo1.
+*MOT: &eh &hey [x 2], ni3 &meh you3 mei2 you3 kan4 dao4 zui4 xiao3 de4 xiao3 ya1 zi3 pao3 qu4 na2 li3.
+*MOT: da4 jia1 dou1 shuo1, mei2 you3 a1.
+*MOT: na4 wo3 men2 chu1 qu4 zhao3.
+*MOT: ya1 ma1 ma1 jiu4 ling3 zhe4 xiao3 ya1 zi3 men2 chu1 qu4 zhao3.
+*MOT: ni3 kan4 zhu4 hao3 bu4 hao3.
+*MOT: ni3 kan4.
+*MOT: yan2 se4 shi4 yi2 yang4 de4, <ni3 kan4> [x 2].
+*MOT: <bu4 ke2 yi3 la1 zhe4 ge4> [x 2].
+*MOT: lai2 [x 3] ni3 kan4.
+*MOT: yan2 se4 shi4 yi2 yang4 de4.
+*MOT: ran3 hou4, ya1 ma1 ma1 jiu4 dao4 chu4 zhao3.
+*MOT: wen4 yi4 zhi1 xiao2 niao3.
+*MOT: shuo1, ni2 you3 mei2 you3 kan4 dao4 wo3 de4 xiao3 ya1 zi3?
+*MOT: xiao2 niao3 shuo1, mei2 kan4 dao4 a1.
+*MOT: dan4 shi4 you2 ke3 neng2 shi4 zai4 xiao3 wu1 gui1 na4 bian1.
+*MOT: ni3 qu4 wen4 yi4 wen4 ba4.
+*MOT: ya1 ma1 ma1 pao3 lai2 wen4 xiao3 wu1 gui1.
+*MOT: ni2 you3 mei2 you3 kan4 dao4 wo3 de4 xiao3 ya1 zi1.
+*MOT: xiao3 wu1 gui1 shuo1, mei2 kan4 dao4 a1.
+*MOT: ni3 qu4 wen4 yi1 xia4 xiong2.
+*MOT: ta1 pa2 zai4 shu4 shang4 ke3 neng2 hui4 kan4 de2 bi3 jiao4 yuan3.
+*MOT: &eh zhe4 bu2 shi4 yi4 zhi1 xiong2 &eh, zhe4 shi4 yi4 ge4 hai2 ta1.
+*MOT: ran2 hou4 hai2 ta1 jiu4 na2 zhe4 yi4 zhi1 shu4 zhi1.
+*MOT: ran2 hou4, ling3 zhe4.
+*MOT: ran2 hou4, &ya ya1 zi3 men2 qu4 zhao3 ta1 de4 xiao3 ya1 zi3.
+*MOT: ran2 hou4, ta1 men2 jiu4 pao3 lai2 zhe4 bian1.
+*MOT: kan4 dao4 hen3 duo1 xiao3 dong4 wu4.
+*MOT: ran2 hou4, ni3 kan4 zhe4 li3 you3 yu2.
+*MOT: ran2 hou4 you3 da4 nian2 yu2.
+*MOT: hai2 you3 yi4 ge4 xiao3 xi1.
+*MOT: hai2 you3 yi4 ge4 xiao3.
+%COM: mother tries to focus distracted child.
+*CHI: &=vocalises.
+*MOT: &=laughs.
+*MOT: bu4 ke2 yi3 chi1.
+*MOT: no@s:eng!
+*MOT: &=laughs no@s:eng [x 3].
+*MOT: bu4 ke2 yi3 chi1.
+*MOT: &huh &=laughs hai2 you3 yi1 ge4 xiao3 xi1.
+*MOT: ran2 hou4 <hai2 you3 shen3 me4> [x 2].
+*MOT: <hai2 you3 xiao3 qing1 wa1 dui4 bu4 dui4> [x 2].
+*MOT: <ni3 kan4> [x 4].
+*MOT: hai2 you3 yi1 ge4 xiao3 qing1 wa1 dui4 bu2 dui4.
+*MOT: hai2 you3 xiao3 qing1 wa1.
+*MOT: ran2 hou4 yi1 zhi1 ya1 zi3 wen4 ling4 wai4 yi1 zhi1 ya1 zi3 shuo1.
+*MOT: <ni3 you3 mei2 you3 kan4 dao4> [x 2] wo3 de4 xiao3 ya1 zi3.
+*MOT: ling4 wai4 yi1 zhi1 ya1 zi3 ta1 yan2 se4 zhang3 de2 bu4 yi1 yang4.
+*MOT: <yao4 bu2 yao4 kan4> [x 2].
+*MOT: <yan2 se4 zhang3 de2 bu4 yi1 yang4> [x 2].
+*MOT: ni3 kan4.
+*MOT: ran2 hou4, ya1 ma1 ma1 shuo1.
+*MOT: &oh, wo3 kan4 dao4 liao3.
+*MOT: zhe4 ya1 zi3 zai4 wu1 gui1 de4 pang2 bian1.
+*MOT: ran2 hou4, ya1 zi3 jiu4 shuo1.
+*MOT: xiao3 ya1 zi3, gan2 jing3 guo4 lai2 la4.
+*MOT: bu4 yao4 zui1 hu2 die2 wan2.
+*MOT: zhe4 shi4 yi1 ge4 he3 bu4 hao3 de4 xi2 guan4.
+*MOT: zhi1 dao4 ma1?
+*MOT: &hmmm kan4?
+*MOT: ran2 hou4, ya1 ma1 ma1 jiu4 yu2 kuai4.
+*MOT: jiu4 yu2 kuai4 de4 ling3 ya1 zi3 men2 hui2 jia1 lo4.
+*MOT: ni3 kan4 dao4 le4 mei2 you3?
+*MOT: ma1 ma1 jiu4 kuai4 le4 de4 ling3 ya1 zi3 men2 hui2 jia1 la4.
+*MOT: ran2 hou4, wan3 xia2.
+*MOT: ran2 hou4 ne1, da4 jia1 jiu4 yu2 kuai4 de4 shui4 jiao4 la4.
+*MOT: zai4 ma1 ma1 de4 pang2 bian1.
+*MOT: xiao3 qing1 wa1 shuo1, hen3 bu4 cuo4 lo1.
+*MOT: dui4 bu2 dui4?
+*MOT: ni3 ting1 wan2 gu4 shi4 le4 mei2 you3?
+@End

@@ -1,0 +1,71 @@
+@Unicode	
+@Begin	
+@Languages:	eng
+@Participants:	MOT Target_Mother *CHI Child	
+@ID:	eng|Lara|MOT|||||Target_Mother|||	
+@ID:	eng|Lara|CHI|||||Child|||	
+@Date:		
+@Location:	
+@Comment:	Filename:	VS089_Narration Transcript_Yezhou.txt	
+@Comment:	217 seconds	
+@Comment:	transcribed by Yezhou	
+@Situation:	
+@Start
+*MOT:	have you seen my duckling?
+*MOT:	xxx, look at the duck, the duckling.
+*MOT:	how many ducklings are there?
+*MOT:	one two three four five six seven eight.
+*MOT:	this mother duck has eight babies.
+*MOT:	come, let's take a look.
+*MOT:	have you seen my duckling?
+*MOT:	&=vocalizes, early one morning.
+*MOT:	look at the ducklings in the nest.
+*MOT:	how many are there?
+*MOT:	one two three four five six seven.
+*MOT:	just saw there are eight, where is eighth ah?
+*MOT:	&=vocalizes, do you see one swimming away?
+*MOT:	oh, it's looking at the butterfly.
+*MOT:	oh, this duckling must be following the butterfly, leaving the nest.
+*MOT:	what would the mother say, xxx?
+*MOT:	the mother duck returns to the nest.
+*MOT:	how many are there?
+*MOT:	one two three four five six seven eight.
+*MOT:	how come there is another one here, is it the one that is playing with the butterfly?
+*MOT:	seems like so.
+*MOT:	oh, actually the mother duck comes over and start counting and discover that one is missing.
+*MOT:	there, you see mummy is here.
+*MOT:	oh, what should she do?
+*MOT:	ok, now she's leading all the babies, all the ducklings are swimming in the water.
+*MOT:	where is, where are they going to?
+*MOT:	where, this duckling, this duck met another bird.
+*MOT:	said, have you seen my duckling?
+*MOT:	she asks the bird, what do you think the bird will say?
+*MOT:	xxx.
+*MOT:	what would the bird? xxx.
+*MOT:	i don't think she has seen the bird ah, the duckling, no.
+*MOT:	because the next page, you see, the duck.
+*MOT:	the duck asks xxx, say have you seen my duckling? 
+*MOT:	okay, oh, look at the tortoise, say have you seen my duckling?
+*MOT:	i think the tortoise must have said, no.
+*MOT:	and next, she asks the xxx, have you seen my duckling?
+*MOT:	i don't think she has seen the duckling too.
+*MOT:	ok, then there is, what did she see?
+*MOT:	a fish.
+*MOT:	have you seen my duckling, she ask the fish.
+*MOT:	what do you think the fish say?
+*MOT:	no, i didn't see your duckling.
+*MOT:	next, she saw this bird here.
+*MOT:	have you seen my duckling?
+*MOT:	what do you think?
+*MOT:	oh, she said, no, i didn't see your duckling at all!
+*MOT:	oh the mother duck must be vary worried.
+*MOT:	eh, she turn around and saw the duckling.
+*CHI:	&=cries.
+*MOT:	together with the little tortoise, over there, far away.
+*MOT:	so, oh, now, they are reunited with this duckling.
+*MOT:	the duckling are together and the tortoise follow the mother.
+*MOT:	and it is night time now, they must have taken very long to search for the duckling.
+*MOT:	and then they are now all sleeping in the nest.  
+*MOT:	the end of the story.
+*MOT:	do you like the story? 
+@End

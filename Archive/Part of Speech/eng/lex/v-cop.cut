@@ -1,0 +1,17 @@
+@UTF8
+became {[scat cop]} "become&PAST"
+become {[scat part]} "become&PASTP"
+become {[scat cop]} 
+becomes {[scat cop]} "become-3S"
+becoming {[scat part]} "become-PRESP"
+becoming {[scat n:gerund]} "become-PRESP"
+be {[scat cop]}
+been {[scat cop]} "be&PASTP"
+being {[scat part]} "be-PRESP"
+being {[scat n:gerund]} "be-PRESP"
+am {[scat cop][agr 1S]} "be&1S"
+are {[scat cop][agr OR 2S 1P 2P 3P]} "be&PRES"
+is {[scat cop][agr 3S]} "be&3S"
+tis {[scat cop]} "be&3S"
+was {[scat cop][agr OR 1S 3S]} "be&PAST&13S"
+were {[scat cop][agr OR 2S 1P 2P 3P]} "be&PAST"

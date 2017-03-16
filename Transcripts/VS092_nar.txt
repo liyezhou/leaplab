@@ -1,0 +1,161 @@
+@Unicode
+@Begin
+@Languages:	eng
+@Participants:	MOT Ellen_Philpott Mother, CHI Samuel_Teo Child
+@ID:	eng||MOT||female|||Mother|||
+@ID:	eng||CHI|2;0.21|male|||Child|||
+@Date:	28-APR-2016
+@Location:	Home Testing
+@Comment:	duration of recording 5 minutes 39 seconds
+@Comment:	transcribed by Debbie, checked by Chao_Min, checked by Nadiah
+@Start
+*CHI: bee.
+*MOT: bee?
+*CHI: no bee?
+*MOT: it's not a bee, you know what this is?
+*CHI: &hm [x 2].
+*MOT: hmm?
+*CHI: &hm.
+*MOT: it's a duck!
+*CHI: duck!
+*CHI: quack [x 2].
+*MOT: yeah, that's like a duckling, quack [x 2].
+*MOT: it's called, have you seen my duckling.
+*CHI: duckling.
+*MOT: duckling.
+*CHI: duckling.
+*MOT: see, it's a mummy duck, and the baby ducklings.
+*MOT: have you seen my duckling.
+*MOT: early one morning, what did the ducklings do?
+*CHI: duckie.
+*MOT: go quack [x 6].
+*CHI: one, two, three!
+*MOT: one, two, three.
+*CHI: one, two, three!
+*MOT: oh, what is this one doing?
+*CHI: look, duck, duck!
+*MOT: yes, swimming away.
+*MOT: what's this?
+*CHI: xxx.
+*MOT: xxx right, it's swimming away, chasing the butterfly.
+*CHI: xxx.
+*MOT: no, it's a butterfly.
+*MOT: so mummy comes along.
+*CHI: my duck.
+*MOT: oh, mummy duckie comes along.
+*MOT: all the little duckies, staying in the nest, except for this one.
+*MOT: swim off, to where?
+*MOT: chasing a butterfly.
+*MOT: where's it gone?
+*MOT: where did the little one go?
+*CHI: xxx.
+*MOT: oh he's over there.
+*MOT: that's mummy's phone.
+*MOT: xxx.
+*CHI: balloon.
+*MOT: yeah, we have a balloon over there don't we?
+*MOT: so mummy duckie, she's looking at all her duckies?
+*MOT: xxx, <look at them> [x 3].
+*MOT: there's one missing?
+*MOT: oh dear.
+*MOT: where's he gone?
+*MOT: he's way over there.
+*MOT: all the other ones are following mummy.
+*CHI: where ma gone?
+*MOT: where's mummy going?
+*MOT: she's going for a swim.
+*MOT: oh!
+*MOT: she's going to go and ask the other birds
+*MOT: have you see my duckling?
+*MOT: you see where the little duckling is?
+*MOT: look, who's there inside the flower?
+*CHI: housefly!
+*MOT: yeah, so she asked the turtle.
+*MOT: have you seen my duckling?
+*MOT: can you see where?
+*CHI: &=coughs.
+*MOT: a little duckling hiding behind the tree.
+*MOT: have you seen my duckling?
+*MOT: what is that?
+*MOT: a beaver?
+*MOT: an otter?
+*CHI: baby beaver!
+*MOT: oh!
+*MOT: it's not a baby &eaver &=laughs.
+*CHI: &hm.
+*MOT: have you seen my duckling?
+*CHI: my ducker.
+*MOT: looks like a duckling behind there doesn't it?
+*MOT: she ask the fish, have you seen my duckling?
+*MOT: look, all the little ducklings put their heads under the water too.
+*MOT: there's a frog.
+*CHI: ribbit@o.
+*MOT: ribbit@o [x 2].
+*MOT: looks like a newt or something.
+*CHI: turtle.
+*MOT: catfish?
+*MOT: what's that?
+*CHI: turtle.
+*MOT: it's a turtle, yeah!
+*CHI: &=vocalises.
+*MOT: and look, there's a little missing duckling.
+*MOT: way over there.
+*MOT: have you seen my duckling?
+*MOT: she asked the other birdie.
+*MOT: look, the other birdie's got lots of babies too.
+*MOT: they're stripey.
+*MOT: can you see where?
+*CHI: &=coughs.
+*MOT: where is the other duckling?
+*MOT: and the butterfly?
+*MOT: where's the?
+*CHI: oh?
+*MOT: can you see the butterfly?
+*CHI: wah?
+*MOT: where's the butterfly?
+*CHI: duckie, there.
+*MOT: yeah, there's a duckling, and the butterfly's over here.
+*MOT: &=gasps finally, the mummy seems to have found the baby, look.
+*MOT: she's looking, at the duckling.
+*CHI: &=coughs.
+*MOT: and there's a turtle.
+*CHI: hello turtle.
+*MOT: hello turtle.
+*CHI: &=laughs.
+*CHI: &=vocalises.
+*MOT: and they're all swimming away together.
+*CHI: all swimming together.
+*MOT: but the duckling still looking at the butterfly.
+*MOT: &=laughs.
+*MOT: aw, look at that.
+*CHI: sleeping.
+*MOT: what they doing?
+*CHI: sleeping.
+*MOT: sleeping.
+*CHI: my duckie.
+*MOT: mummy duckie sleeping.
+*MOT: little duckie sleeping.
+*MOT: goodnight.
+*MOT: you say goodnight to the ducks?
+*CHI: mine ducker.
+*MOT: yeah.
+*CHI: mine ducker mine ducker.
+*MOT: yeah.
+*CHI: mine night baby ducker.
+*MOT: they're sleeping.
+*MOT: say good night, see it's night time.
+*MOT: it's going dark.
+*CHI: &=vocalises.
+*MOT: hmm.
+*CHI: xxx, fly away!
+*CHI: fly away, no more duck!
+*CHI: no more duck [x 3].
+*MOT: that's the end.
+*MOT: all the ducklings are home and safe.
+*CHI: my duck, all sleeping.
+*MOT: yeah, they're all sleeping.
+*CHI: &=imit snores.
+*CHI: my duckie, sleeping.
+*MOT: hmm.
+*CHI: &=coughs.
+@End

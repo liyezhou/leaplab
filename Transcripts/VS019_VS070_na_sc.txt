@@ -1,0 +1,94 @@
+@Unicode
+@Begin
+@Languages:	eng, zho
+@Participants:	MOT Ho Lilian Mother, CHI Lincoln Lim Jun Hong
+@ID:	eng||MOT||female|||Mother|||
+@ID:	eng||CHI|1;11.28|male||Child|||
+@Date:	19-Jan-2015
+@Location:	Home
+@Comment:	duration of recording 4 minute 36 seconds
+@Comment:	video starts at 1 minute 7 seconds
+@Comment:	transcribed by Yijun
+@Situation:	narration of wordless picture book (PDF on screen)
+@Start
+*MOT:	have you seen my duckling?
+*MOT:	where's the duckling, where's the duck?
+*MOT:	early one morning, where are the baby ducks?
+*MOT:	baby ducks are there.
+*MOT:	where's the mama duck?
+*CHI:	&=vocalises.
+*MOT:	you open your eyes and see, where's the mama duck?
+*MOT:	where are all the other baby ducks?
+*MOT:	here, there's one more elsewhere.
+*MOT:	where's the other duck, where's another baby duck?
+*CHI:	&=vocalises.
+*MOT:	oh, up there.
+*MOT:	wow, one of the duck is far away.
+*MOT:	so mommy duck swam towards all the other baby ducks.
+*MOT:	where's the other duck that was far away?
+*CHI:	mama duck.
+*MOT:	where?
+*MOT:	where's the other duck?
+*MOT:	there, there's the duck!
+*MOT:	where is mommy duck bringing the babies?
+*MOT:	they are all going to swim!
+*MOT:	where's the other duck?
+*CHI:	&=vocalises.
+*MOT:	where's mama duck?
+*MOT:	no look here!
+*MOT:	there, far far away.
+*MOT:	mama duck asks this bird, have you seen my duckling?
+*MOT:	where's the duckling?
+*MOT:	yeah, its there!
+*MOT:	many many ducks ducks.
+*CHI:	&=vocalises.
+*MOT:	lincoln, who's that?
+*MOT:	mama duck asks the turtle, have you seen my duckling?
+*MOT:	where's the far away duck?
+*MOT:	slipper.
+*CHI:	slipper.
+*MOT:	where's the far away duck?
+*MOT:	can you see?
+*MOT:	slightly behind the tree!
+*MOT:	so the mama duck asks the baby duck.
+*MOT:	have you seen my duckling?
+*MOT:	where's the far away duck?
+*MOT:	can you see?
+*MOT:	is it hiding somewhere.
+*MOT:	where is it hiding?
+*MOT:	behind the xxx, can you see that?
+*CHI:	there.
+*MOT:	yeah, there!
+*MOT:	mama duck ask the fish, have you seen my duckling?
+*MOT:	where's the frog?
+*CHI:	&=vocalises.
+*MOT:	it's there, go and look.
+*MOT:	yes, there!
+*MOT:	no we are not done yet.
+*MOT:	come, some more.
+*MOT:	the mama duck asked another mama bird, have you seen my duckling?
+*MOT:	where's the far away duck go and find the far away duck!
+*CHI:	&=vocalises.
+*MOT:	no these are the ones with mama duck.
+*MOT:	there is one that is far away.
+*CHI:	&=vocalises.
+*MOT:	yes!
+*MOT:	mama duck find the baby duck, where's the baby duck?
+*MOT:	where's the far away baby duck?
+*CHI:	&=vocalises.
+*MOT:	no, its there.
+*MOT:	find the far away baby duck, where?
+*MOT:	no, where's the duck, open your eyes.
+*MOT:	look.
+*MOT:	yay, its there.
+*MOT:	all the ducklings are together again.
+*MOT:	see the far away duck?
+*MOT:	what did the duckling say?
+*MOT:	and they follow mama duck to go home.
+*MOT:	can they go home?
+*MOT:	can go home uh.
+*MOT:	ok can uh.
+*MOT:	say bye duck duck.
+*CHI:	bye duck duck.
+*MOT:	the end!
+@End

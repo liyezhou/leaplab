@@ -1,0 +1,137 @@
+@Unicode
+@Begin
+@Languages:			eng
+@Participants:	MOT Koh Lay Nee  Mother, CHI Adelia Lim Yu Xin Child
+@ID: 				eng||MOT||female|||Mother|||
+@ID: 				eng||CHI|2;10.1|female|||Child|||
+@Date: 			06-May-2016
+@Location:		Home Testing
+@Comment:			duration of the recording is 6 minutes 18 seconds
+@Comment:			video starts at 0 minute 4 seconds
+@Comment:			transcribed by Yijun
+@Situation:		narration of wordless picture book at home
+@Start
+*MOT:	don't have to care about the computer.
+*MOT:	you look at mommy.
+*MOT:	mommy read you this book.
+*MOT:	what is this book about?
+*CHI:	duck.
+*MOT:	ok so this book is called have you seen my duckling?
+*MOT:	ok, early one morning.
+*MOT:	can you see how many ducks here?
+*MOT:	small ducks or big ducks?
+*CHI:	big duck.
+*MOT:	they're big ducks?
+*MOT:	sure?
+*MOT:	really?
+*MOT:	what is this?
+*CHI:	big duck.
+*MOT:	and this?
+*CHI:	small duck.
+*MOT:	small duck.
+*MOT:	so is this the mommy duck?
+*CHI:	yes.
+*MOT:	the mommy duck is swimming.
+*CHI:	inside the water.
+*MOT:	yes and coming to the water.
+*MOT:	what is this mommy duck doing?
+*MOT:	xxx kissing the small baby ducks right?
+*MOT:	what is this?
+*MOT:	another duck eh?
+*MOT:	what are all these?
+*MOT:	what's this?
+*MOT:	this one is it something?
+*MOT:	you make mommy a card, what's this?
+*CHI:	xxx.
+*MOT:	yes, clever girl.
+*MOT:	so the mommy duck swam to the baby ducks xxx kiss.
+*MOT:	and now they swim away.
+*MOT:	the mommy duck ask the baby duck to follow xxx the mommy duck.
+*MOT:	across the?
+*CHI:	water.
+*MOT:	across the water.
+*MOT:	ok across the river.
+*MOT:	have you seen my duckling?
+*MOT:	who is asking?
+*MOT:	oh the baby the mommy duck is asking other animals.
+*MOT:	have you seen my duckling?
+*MOT:	have you seen the little duckling?
+*MOT:	where is the little duckling?
+*CHI:	there.
+*MOT:	but there are so many.
+*MOT:	so one is missing.
+*MOT:	the naughty one.
+*MOT:	you want to help mommy duck to find?
+*MOT:	have you seen my duckling?
+*MOT:	<who is this>[x 2]?
+*CHI:	tortoise.
+*MOT:	so mommy duck is asking the tortoise, have you seen my duckling?
+*MOT:	have you seen mommy duck's little duckling?
+*MOT:	where?
+*MOT:	there.
+*MOT:	but got one missing uh?
+*CHI:	it already died.
+*MOT:	already died?
+*MOT:	what is this?
+*CHI:	xxx.
+*MOT:	no, not this, this.
+*CHI:	flower.
+*MOT:	what's this?
+*CHI:	butterfly.
+*MOT:	do you see a little duck here?
+*MOT:	by the xxx.
+*CHI:	got a xxx here, big big one.
+*MOT:	<ok, what's this>[x 2]?
+*MOT:	xxx, no?
+*MOT:	so now, they continue to look for the little duckling.
+*MOT:	they swim and they swim.
+*MOT:	have you seen my duckling?
+*CHI:	no.
+*MOT:	who is this?
+*MOT:	mouse?
+*MOT:	i also don't know what is that.
+*MOT:	and now who is this mommy duck asking?
+*MOT:	you see the mommy duck go under the water.
+*MOT:	there it's asking the.
+*CHI:	fish.
+*MOT:	what is the mommy duck asking the fish?
+*MOT:	what is the mommy duck asking?
+*MOT:	have you seen.
+*CHI:	my duckling?
+*MOT:	have you seen my duckling?
+*MOT:	its a xxx zard.
+*MOT:	what's this?
+*CHI:	frog.
+*MOT:	yes.
+*CHI:	and these are cockroaches.
+*MOT:	where is this?
+*CHI:	butterfly.
+*MOT:	and this duck is asking this swan.
+*MOT:	have you seen my.
+*CHI:	duck.
+*MOT:	duckling.
+*MOT:	and then can you find another duckling that is hiding away?
+*MOT:	can you find one duckling that is hiding away?
+*MOT:	yes, is this the baby duckling?
+*MOT:	see its hiding away from the xxx.
+*MOT:	now, they are still searching for the missing duck.
+*MOT:	xxx with the?
+*MOT:	the mommy duck is with the?
+*CHI:	tortoise.
+*MOT:	and they continue to look for the duckling.
+*MOT:	oh, eight ducklings!
+*MOT:	how many did you count?
+*CHI:	one two three four five six seven eight.
+*MOT:	one two three.
+*CHI:	one two three four five six seven eight.
+*MOT:	eight already?
+*MOT:	yay!
+*MOT:	found the duckling already?
+*MOT:	yay.
+*MOT:	the tortoise send the duckling home.
+*MOT:	and then what are they doing now?
+*CHI:	sleeping.
+*MOT:	its night time, good night.
+*CHI:	good night.
+*MOT:	the end.
+@End

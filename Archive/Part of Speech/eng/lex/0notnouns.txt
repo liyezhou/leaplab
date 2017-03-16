@@ -1,0 +1,27 @@
+@UTF8
+% words that are almost always really verbs and should be forced to be nouns by POSTMORTEM
+% these have been taken out of n.cut
+break {[scat n]}
+catch {[scat n]}
+climb {[scat n]}
+cry {[scat n]}
+drop {[scat n]}
+find {[scat n]}
+finish {[scat n]}
+fix {[scat n]}
+hurt {[scat n]}
+keep {[scat n]}
+kill {[scat n]}
+look {[scat n]}
+mean {[scat n]}
+meet {[scat n]}
+need {[scat n]}
+pay {[scat n]}
+pick {[scat n]}
+pull {[scat n]}
+rise {[scat n]}
+take {[scat n]}
+throw {[scat n]}
+wait {[scat n]}
+wear {[scat n]}
+wonder {[scat n]}

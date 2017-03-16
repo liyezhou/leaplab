@@ -1,0 +1,66 @@
+@Unicode
+@Begin
+@Languages:	eng
+@Participants:	
+@ID:	
+@ID:	
+@Date:	
+@Location:	
+@Comment:	the metadata info is missing.
+@Comment:	
+@Start
+*FAT:	have you seen my duckling?
+*FAT:	early one morning.
+*FAT:	when, mummy duckling was away for hunting.
+*FAT:	okay, one of the ducklings went wondering by herself.
+*FAT:	chasing after a butterfly.
+*FAT:	k when mummy duckling comes back to the nest.
+*FAT:	she counted her ducklings.
+*FAT:	one, two, three, four, five, six, seven!
+*FAT:	xxx duckling.
+*FAT:	where is the other duckling?
+*FAT:	so mummy duckling went looking for the eight duckling.
+*FAT:	and all the ducklings swam after her!
+*FAT:	let's count again!
+*FAT:	one, two, three, four, five, six, seven!
+*FAT:	so mummy duckling was worried and started asking.
+*FAT:	the first animal, xxx she saw!
+*FAT:	have you seen my duckling?
+*FAT:	she asked.
+*FAT:	the kingfisher.
+*FAT:	the king fisher said no!
+*FAT:	then mummy duckling xxx swam to find the next animal.
+*FAT:	and she found the tortoise, and she asked the tortoise.
+*FAT:	have you seen my duckling?
+*FAT:	the tortoise responded no!
+*FAT:	and so nearby theres a beaver and mummy duckling asked the beaver.
+*FAT:	have you seen my duckling?
+*FAT:	and the beaver said no, ive not seen your duckling!
+*CHI:	&=vocalizes.
+*FAT:	so mummy duckling swam further, and.
+*CHI:	&=vocalizes.
+*FAT:	xxx put her head underwater, and asked, the fish.
+*FAT:	have you seen my duckling?
+*FAT:	and the fish said, no ive not seen your duckling!
+*FAT:	then.
+*FAT:	mummy, duckling.
+*FAT:	mummy duckling swam further and saw another mother duck.
+*FAT:	and she asked.
+*FAT:	have you seen my duckling?
+*FAT:	waah!
+*FAT:	then she, turned around, she startled her lost duckling.
+*FAT:	xxx swimming next to the tortoise.
+*FAT:	and together the eight duckling, the lost duckling, continued to swim after the mummy duckling.
+*FAT:	so lets count!
+*FAT:	and *mot: one, two, three, four, five, six, seven.
+*FAT:	eight!
+*FAT:	yay!
+*FAT:	at the end of the day, when everyone was tired, mummy duckling, also felt tired.
+*FAT:	but before she slept, she counted.
+*FAT:	she counted them again.
+*FAT:	one, two, three, four, five, six, seven!
+*CHI:	&=vocalizes.
+*FAT:	and she went to sleep.
+*FAT:	together with all of her eight ducks.
+*FAT:	end of the story!
+@End

@@ -1,0 +1,31 @@
+@UTF8
+all {[scat pro:indef]}
+anybody {[scat pro:indef]}
+anyone {[scat pro:indef]}
+anything {[scat pro:indef]}
+everybody {[scat pro:indef] }
+everyone {[scat pro:indef]}
+everything {[scat pro:indef]}
+few {[scat pro:indef]}
+more {[scat pro:indef]}
+nobody {[scat pro:indef]}
+none {[scat pro:indef]}
+noone {[scat pro:indef]}
+nothing {[scat pro:indef]}
+one {[scat pro:indef] }
+ones {[scat pro:indef]} "one-PL"
+other {[scat pro:indef]}
+same {[scat pro:indef]}
+some {[scat pro:indef]}
+somebody {[scat pro:indef]}
+someone {[scat pro:indef]}
+something {[scat pro:indef]}
+that {[scat pro:dem]}
+this {[scat pro:dem]}
+those {[scat pro:dem]}
+these {[scat pro:dem]}
+there {[scat pro:exist]}
+there {[scat pro:dem]}
+here {[scat pro:exist]}
+here {[scat pro:dem]}
+

@@ -1,0 +1,125 @@
+@UTF8
+stomachs {[scat n][num pl]} "stomach-PL"
+antennae {[scat n][num pl]}
+bedclothes {[scat n][num pl]}
+blowfish {[scat n][pl no]}
+bluefish {[scat n][pl no]}
+brethren {[scat n][num pl]} "brother-PL"
+buses {[scat n]} "bus-PL"
+buts  {[scat n]} "but-PL"
+cacti {[scat n][num pl]}
+cattle {[scat n][num pl]}
+cherubim {[scat n][num pl]}
+child {[scat n][pl no]}
+children {[scat n][num pl]} "child&PL"
+choco {[scat n][eve +]} "chocolate"
+clapsies {[scat n][sarah +]}
+cod {[scat n][pl no]}
+codfish {[scat n][pl no]}
+concerti {[scat n][num pl]}
+criteria {[scat n][num pl]}
+curricula {[scat n][num pl]}
+deer {[scat n][pl no]}
+dice {[scat n][num pl]} "die&PL"
+die {[scat n][pl no]}
+doggy {[scat n]} "dog-DIM"
+dolly {[scat n]} "doll-DIM"
+erotica {[scat n][num pl]}
+extrema {[scat n][num pl]}
+eyeteeth {[scat n][num pl]} "eyetooth&PL"
+eyetooth {[scat n][pl no]}
+fauna {[scat n][num pl]}
+feet {[scat n][num pl]} "foot&PL"
+foot {[scat n][pl no]}
+fieldmice {[scat n][num pl]} "mouse&PL"
+fish {[scat n][pl no]}
+flora {[scat n][num pl]}
+foci {[scat n][num pl]}
+forefeet {[scat n][num pl]}
+formulae {[scat n][num pl]}
+froggy {[scat n]} "frog-DIM"
+geese {[scat n][num pl]} "goose&PL"
+genera {[scat n][num pl]}
+goldfish {[scat n][pl no]}
+goose {[scat n][pl no]}
+grandchildren {[scat n][num pl]} "grand#child&PL"
+hallelujahs {[scat n][num pl]}
+hippopotami {[scat n]} "hippopotamus&PL"
+homefolk {[scat n][num pl]}
+hoof {[scat n][allo v]}
+housewife {[scat n][pl no]}
+housewives {[scat n][num pl]} "housewife-PL"
+hysterics {[scat n][num pl]}
+jeans {[scat n][num pl]}
+kibbutzim {[scat n][num pl]}
+knickers {[scat n]}
+larvae {[scat n][num pl]}
+lice {[scat n][num pl]} "louse&PL"
+life {[scat n][pl no]}
+lives {[scat n][num pl]} "life-PL"
+louse {[scat n][pl no]}
+mannie {[scat n]} "man-DIM"
+media {[scat n][num pl]}
+memorabilia {[scat n][num pl]}
+memoranda {[scat n][num pl]}
+menfolk {[scat n][num pl]}
+mice {[scat n][num pl]} "mouse&PL"
+millennia {[scat n][num pl]}
+minutiae {[scat n][num pl]}
+mouse {[scat n][pl no]}
+mycobacteria {[scat n][num pl]}
+myofibrillae {[scat n][num pl]}
+nuclei {[scat n][num pl]}
+nucleoli {[scat n][num pl]}
+octopuses {[scat n]} "octopus-PL"
+offspring {[scat n][pl no]}
+ox {[scat n][pl no]}
+oxen {[scat n][num pl]} "ox&PL"
+pajamas {[scat n]}
+pantaloons {[scat n][num sg]}
+people {[scat n][num pl]} "person&PL"
+personae {[scat n][num pl]}
+personnel {[scat n][num pl]}
+phenomena {[scat n][num pl]}
+phyla {[scat n][num pl]}
+piggy {[scat n]} "pig-DIM"
+pretties {[scat n]} "pretty-PL"
+protozoa {[scat n][num pl]}
+pupae {[scat n][num pl]}
+radii {[scat n][num pl]}
+ravioli {[scat n][num pl]}
+raviolo {[scat n][pl no]}
+reedbuck {[scat n][num pl]}
+regalia {[scat n][num pl]}
+reguli {[scat n][num pl]}
+reindeer {[scat n][pl no]}
+schemata {[scat n][num pl]}
+schoolchild {[scat n][pl no]}
+schoolchildren {[scat n][num pl]} "schoolchild&PL"
+scissors {[scat n]}
+self {[scat n][pl no]}
+selves {[scat n][num pl]} "self-PL"
+septa {[scat n][num pl]}
+seraphim {[scat n][num pl]}
+sheep {[scat n][pl no]}
+shorts {[scat n][num pl]}
+spectra {[scat n][num pl]}
+starfish {[scat n][pl no]}
+stigmata {[scat n][num pl]}
+stimuli {[scat n][num pl]}
+strata {[scat n][num pl]}
+suspenders {[scat n][num sg]}
+swine {[scat n][num pl]}
+sword+fish {[scat n][comp n+n][pl no]}
+teeth {[scat n][num pl][part no]} "tooth&PL"
+tooth {[scat n][pl no]}
+tennies {[scat n][num pl]}
+termini {[scat n][num pl]}
+thrombi {[scat n][num pl]}
+tonnie {[scat n][chi +]} "tonic-DIM"
+trivia {[scat n][num pl]}
+tweezers {[scat n][num sg]}
+uglies {[scat n]} "ugly-PL"
+underclothes {[scat n][num pl]}
+vertebrae {[scat n][num pl]}
+viscera {[scat n][num pl]}

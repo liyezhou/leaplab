@@ -1,0 +1,132 @@
+@UTF8
+%**********
+%  ADJECTIVES
+%**********
+% this is to make [scat adj] versions of the [scat part[ forms in virr.cut
+
+RULENAME:	adj-PASTP
+LEX-ENTRY:
+LEXSURF = $X
+LEXCAT = [scat part], [bare yes], [adj yes]
+ALLO:
+ALLOSURF = $X
+ALLOCAT = LEXCAT
+ALLO:
+ALLOSURF = $X
+ALLOCAT = DEL [scat], ADD [scat adj]
+
+RULENAME:	adj-PRESP
+LEX-ENTRY:
+LEXSURF = $X
+LEXCAT = [scat part], [bare yes], [adj yes]
+ALLO:
+ALLOSURF = $X
+ALLOCAT = LEXCAT
+ALLO:
+ALLOSURF = $X
+ALLOCAT = DEL [scat], ADD [scat adj]
+
+RULENAME:	adj-little
+LEX-ENTRY:
+LEXSURF = $X$Cle  % little, probable/probably
+LEXCAT = [scat adj]
+ALLO:
+ALLOSURF = $X$C
+ALLOCAT = LEXCAT, ADD [allo aLc]
+ALLO:
+ALLOSURF = $X$Cl
+ALLOCAT = LEXCAT, ADD [allo aLb]
+ALLO:
+ALLOSURF = LEXSURF
+ALLOCAT = LEXCAT, ADD [allo aLa]
+
+RULENAME:	adj-blue
+LEX-ENTRY:
+LEXSURF = $We
+LEXCAT = [scat adj]
+ALLO:
+ALLOSURF = $W
+ALLOCAT = LEXCAT, ADD [allo aVEb]
+ALLO:
+ALLOSURF = LEXSURF
+ALLOCAT = LEXCAT, ADD [allo aVEa]
+
+RULENAME:	adj-white
+LEX-ENTRY:
+LEXSURF = $Xe
+LEXCAT = [scat adj]
+ALLO:
+ALLOSURF = $X
+ALLOCAT = LEXCAT, ADD [allo aHb]
+ALLO:
+ALLOSURF = LEXSURF
+ALLOCAT = LEXCAT, ADD [allo aHa]
+
+RULENAME:	adj-small
+LEX-ENTRY:
+LEXSURF = $Xll
+LEXCAT = [scat adj]
+ALLO:
+ALLOSURF = $Xl
+ALLOCAT = LEXCAT, ADD [allo aLLb]
+ALLO:
+ALLOSURF = LEXSURF
+ALLOCAT = LEXCAT, ADD [allo aLLa]
+
+RULENAME:	adj-sly
+LEX-ENTRY:
+LEXSURF = $Yy
+LEXCAT = [scat adj], [allo a0]
+ALLO:
+ALLOSURF = LEXSURF
+ALLOCAT = LEXCAT
+
+RULENAME:	adj-happy
+LEX-ENTRY:
+LEXSURF = $Yy
+LEXCAT = [scat adj]
+ALLO:
+ALLOSURF = $Yi
+ALLOCAT = LEXCAT, ADD [allo aYb]
+ALLO:
+ALLOSURF = LEXSURF
+ALLOCAT = LEXCAT, ADD [allo aYa]
+
+RULENAME:	adj-big
+LEX-ENTRY:
+LEXSURF = $O$V$C
+LEXCAT = [scat adj]
+ALLO:
+ALLOSURF = $O$V$C$C
+ALLOCAT = LEXCAT, ADD [allo aHb]
+ALLO:
+ALLOSURF = LEXSURF
+ALLOCAT = LEXCAT, ADD [allo aHa], ADD [block y]
+
+RULENAME:	adj-comic
+LEX-ENTRY:
+LEXSURF = $Xic
+LEXCAT = [scat adj]
+ALLO:
+ALLOSURF = LEXSURF
+ALLOCAT = LEXCAT, ADD [allo aICa]
+
+RULENAME:	adj-num
+LEX-ENTRY:
+LEXSURF = $X
+LEXCAT = [scat adj], [num +]
+ALLO:
+ALLOSURF = LEXSURF
+ALLOCAT = LEXCAT
+ALLO:
+ALLOSURF = LEXSURF
+ALLOCAT = LEXCAT, DEL [scat], ADD [scat n], ADD [allo n0]
+
+RULENAME:	adj-other
+LEX-ENTRY:
+LEXCAT = [scat adj], ![deriv adj], ![bare no]
+ALLO:
+ALLOSURF = LEXSURF
+ALLOCAT = LEXCAT, ADD [allo a0]
+
+

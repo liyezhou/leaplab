@@ -1,0 +1,85 @@
+@Unicode
+@Begin
+@Languages:	eng
+@Participants:	MOT Amy_Chua Mother, CHI Lee_Zhi_Xuan Child
+@ID:	eng||MOT||female|||Mother|||
+@ID:	eng||CHI|1;8.21|female|||Child|||
+@Date:	04-OCT-2015
+@Location:	Home Testing
+@Comment:	duration of recording 5 minutes 2 seconds
+@Comment:	transcribed by Joseph, checked by , checked by Monique
+@Start
+*MOT: so (i) can start anytime lah@s:sce.
+*MOT: see, what is this?
+*MOT: you want to listen to a story?
+*MOT: what is this? duck duck.
+*MOT: "have you seen my duckling"?
+*MOT: what is this?
+*MOT: mother duck!
+*MOT: okay let's start.
+*MOT: what is this?
+*MOT: it is a butterfly.
+*MOT: okay? so early one morning, one of the duck(s) went to look for a butterfly.
+*MOT: is there a butterfly?
+*CHI: xxx
+*MOT: yes.
+*MOT: then the, see <kor kor zeh zeh>@s:hok all here.
+*MOT: (o)kay, so the mother duck came back and realise(d) that one of the duck is missing.
+*MOT: where did the duck go?
+*MOT: the duck go and find the butterfly.
+*MOT: okay?
+*MOT: so the mother duck realise that one of them is missing so what does the mother duck do?
+%COM: child shakes her head.
+*MOT: (s)he go and find the duck.
+*MOT: okay?
+*MOT: so, all of them follow mother duck, to find the missing duck.
+*MOT: where is the missing duck?
+%COM: child shakes her head.
+*MOT: oh oh.
+*MOT: see, first they met a bird.
+*MOT: see the bird?
+*CHI: @=vocalises.
+*MOT: and the bird, and ask the bird.
+*MOT: "have you seen my duckling"?
+*MOT: where is the duck?
+*MOT: then they met the beaver. &=laughs
+*MOT: "have you seen my duckling"?
+*MOT: no [x4], okay next page.
+*MOT: (o)kay let us read.
+*MOT: then, they saw a turtle.
+*MOT: and ask the turtle, "have you seen my duckling"?
+*MOT: where is the duck?
+*MOT: then they went on to see, and met a geese.
+*MOT: is that a geese? &=laughs
+*MOT: and asked the geese, "have you seen my duckling"?
+*MOT: okay turn the page, how you turn?
+*MOT: one page.
+*MOT: where is the duck? &=laughs
+*MOT: okay okay, let us continue the story okay?
+*MOT: next page.
+*MOT: no no, mummy do [x2] please.
+*MOT: okay, then they saw a what is this?
+*MOT: flower!
+*MOT: where is the flower?
+%COM: child points.
+*MOT: where is the flower?
+*CHI: @=vocalises.
+*MOT: duck, yes!
+*MOT: and the flower?
+*MOT: flower!
+*MOT: okay, moving on.
+*MOT: then he saw this.
+*MOT: then the little duck saw the mama, mama duck and he follow the mama duck.
+*CHI: xxx.
+*MOT: follow?
+*CHI: follow.
+*MOT: yes, then they went home and?
+*MOT: lived happily ever after!
+*CHI: @=vocalises.
+*MOT: okay?
+*MOT: [-zho] yao4 chu4 <orh orh>@s:hok?
+*MOT: gen1@s:zho duck <orh orh>@s:hok uh?
+*MOT: what is the duck doing?
+*MOT: no more, the end.
+*MOT: okay?
+@end

@@ -1,0 +1,80 @@
+@Unicode
+@Begin
+@Languages:	eng
+@Participants:	MOT June_Tan Mother, CHI Goh_En_Xi_Janelle Child
+@ID:	eng||MOT||female|||Mother|||
+@ID:	eng||CHI|1;1.27|female|||Child|||
+@Date:	07-MAY-2016
+@Location:	Lab
+@Comment:	duration of recording 4 minutes 3 seconds, start at 1 minute 4 seconds
+@Comment:	transcribed by Ashley
+@Situation:	narration of wordless picture book in NTU LEAP Lab by mother, with father present
+@Start
+*MOT:	okay shall we start?
+*MOT:	have you seen my duckling?
+*MOT:	see ah &da so many ducklings here.
+*MOT:	early one morning.
+*MOT:	have you seen?
+*MOT:	how many ducklings are there here!
+*MOT:	one two three four five six seven eight!
+*MOT:	and there's a butterfly!
+*MOT:	yeah.
+*MOT:	early one morning.
+*MOT:	this is the mommy duck.
+*MOT:	mommy duck goes, and look at the small ducklings.
+*MOT:	let's have a look.
+*MOT:	oh mommy duck.
+*MOT:	one two three four five six seven!
+*MOT:	&=gasps one duckling's missing!
+*MOT:	where is my duckling?
+*MOT:	one two three four five six seven!
+*MOT:	off and the seven ducklings follow the mommy duck.
+*MOT:	the duck saw, this bird!
+*MOT:	and he, and she ask.
+*MOT:	have you seen my duckling?
+*MOT:	have you seen my duckling?
+*MOT:	jan.
+*MOT:	have you seen my duckling?
+%COM  Jan is short for child's name Janelle
+*MOT:	she ask the tortoise, the beaver.
+*MOT:	have you seen my duckling?
+*MOT:	have you seen my duckling?
+*MOT:	have you seen my duckling?
+*MOT:	where's the duckling?
+*MOT:	the duckling is missing!
+*MOT:	can you see a frog here.
+*MOT:	&oop!
+*MOT:	have you seen my duckling?
+*MOT:	she ask the fishes, the tortoise and the frog.
+*MOT:	mommy where is the duckling?
+*MOT:	there's a missing duckling!
+*MOT:	where is it?
+*MOT:	&h have you seen my duckling?
+*MOT:	my duckling is missing.
+*MOT:	have you seen my duckling?
+*MOT:	&=groans &mm one two three four five six &=whispers seven eight!
+*MOT:	&eh is the duckling back?
+*MOT:	is the duckling back!
+*MOT:	oh yay!
+*MOT:	my duckling is back!
+*MOT:	and mommy bear sleeps together with the ducklings.
+*MOT:	the end.
+*MOT:	the end.
+*MOT:	the end!
+*MOT:	the end xxx.
+*CHI:	duck.
+*MOT:	duck, ah yes duck!
+*MOT:	there you see all the ducklings there.
+*MOT:	you wanna [:want to] read on your own?
+*MOT:	you read on your own.
+*MOT:	have you seen my duckling?
+*CHI:	&=vocalizes.
+*MOT:	yes, open the book.
+*MOT:	you scared ah?
+*MOT:	xxx the duckling.
+*MOT:	where's the duckling?
+*MOT:	see,the duckling ran away.
+*MOT:	swim away.
+*MOT:	&t &t &t &t &t &t.
+%COM:	seems to making the sound of a swimming duck.
+@End

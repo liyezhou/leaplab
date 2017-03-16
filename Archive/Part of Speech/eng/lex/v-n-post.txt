@@ -1,0 +1,45 @@
+@UTF8
+angle {[scat v]}  
+autopsy {[scat v]}  
+backfire {[scat v]}
+bed {[scat v]}
+best {[scat v]}   % postmortem adj
+book {[scat v]}
+copycat {[scat v][+ gg]}
+cup {[scat v]}
+fish {[scat v]}  
+hiccup {[scat v]}
+juice {[scat v]}
+king {[scat v]}
+lightsaber {[scat v]}
+long {[scat v]} % postmortem adj
+macrame {[scat v]}
+paper {[scat v]}
+please {[scat v]}  % postmortem co
+pole {[scat v]}
+poo {[scat v]}
+rollerskate {[scat v]}
+room {[scat v]}
+roughhouse {[scat v]}
+round {[scat v]}  % postmortem adj
+scalp {[scat v]}
+shoe {[scat v]}
+sleepwalk {[scat v]}
+snake {[scat v]}
+snorkel {[scat v]}
+sock {[scat v]}  
+stencil {[scat v]}
+toboggan {[scat v]}
+tongue {[scat v]}  
+top {[scat v]} 
+toy {[scat v]}  
+tunnel {[scat v]}  
+wall {[scat v]}   
+watercolor {[scat v]}
+widow {[scat v]}  
+yuck {[scat v]}
+% removed nouns
+cry {[scat n]}
+turn {[scat n]}
+try {[scat n]}
+

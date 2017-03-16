@@ -1,0 +1,151 @@
+@Unicode
+@Begin
+@Languages:	eng, zho
+@Participants:	MOT Cheryl Lim Mother, CHI Kyran Child
+@ID:	eng||MOT||female|||Mother|||
+@ID:	eng||CHI|0;9.17|female||Child|||
+@Date:	14-DEC-2015
+@Location:	Lab
+@Comment:	duration of recording 6 minute 8 seconds
+@Comment:	video starts at 11 seconds
+@Comment:	transcribed by Yijun
+@Situation:	narration of wordless picture book (PDF on screen)
+@Start
+*MOT:	kyran, we're going to read a book.
+*MOT:	it says, have you seen my duckling?
+*MOT:	can you see that?
+*MOT:	mama duck.
+*MOT:	it says have you seen my duckling ok?
+*MOT:	early one morning, can you see all the ducks there?
+*MOT:	early one morning.
+*CHI:	&=cries.
+*MOT:	see the book, look at the book.
+*MOT:	here [x 3].
+*MOT:	see here [x 3].
+*MOT:	you can hold the book.
+*MOT:	see the mama duck?
+*MOT:	mama duck, mama duck is looking for the baby duckling.
+*MOT:	where's the baby duckling?
+*CHI:	&=cries.
+*MOT:	ok, shhh.
+*MOT:	you see, you see the baby duckling?
+*MOT:	where is it?
+*MOT:	ok you can hold this ok.
+*MOT:	you can hold on to this.
+*MOT:	nah, there you go [x 2].
+*MOT:	look, mommy duckling is looking.
+*MOT:	mommy duckling is asking other ducks.
+*MOT:	have you seen my duckling?
+*MOT:	see, have you seen my duckling?
+*MOT:	xxx sayang, how many ducklings?
+*MOT:	then there's one little duckling here, can you see?
+*MOT:	yeah, they're in the water.
+*MOT:	so the mommy duckling says, come, follow me.
+*MOT:	lets go look for the little duckling.
+*MOT:	see, can you count?
+*MOT:	the ducklings are going out!
+*CHI:	&=vocalises.
+*MOT:	one two three four five six seven!
+*MOT:	seven little ducks are following the mommy.
+*MOT:	where's the little duckling?
+*MOT:	can you see it?
+*CHI:	&=vocalises.
+*MOT:	see the mommy see the ducks are all following.
+*MOT:	the mommy says have you seen my duckling?
+*MOT:	asking the, what is this?
+*MOT:	what's this, look here, she's asking the bird!
+*MOT:	the bird is on the tree!
+*MOT:	can you see it, can you?
+*CHI:	&=vocalises.
+*MOT:	the other mommy is going away.
+*MOT:	(she) went out the water, look!
+*MOT:	xxx the mommy is looking.
+*CHI:	&=cries.
+*MOT:	the mommy is looking at the turtle!
+*MOT:	the turtle, have you seen my duckling?
+*CHI:	&=cries.
+*MOT:	ok [x 2], and what is this here?
+*MOT:	this is a bear!
+*MOT:	what animal is this?
+*MOT:	its a brown animal?
+*MOT:	do you think the brown animal has seen the duckling?
+*CHI:	&=vocalises.
+*MOT:	have you seen the duckling sweetie?
+*MOT:	what are you doing?
+*MOT:	sit on mommy's lap, okay?
+*MOT:	have you seen the duckling?
+*MOT:	is this the duckling?
+*MOT:	what's wrong, what's wrong?
+*CHI:	&=vocalises.
+*MOT:	and look!
+*MOT:	what's happening?
+*MOT:	what's happening, look!
+*MOT:	look at that!
+*MOT:	look at the animals, look at that!
+*MOT:	so there are xxx.
+*CHI:	&=cries.
+*MOT:	and the mommy is asking.
+*CHI:	&=cries.
+*MOT:	the animal in the water.
+*CHI:	&=cries.
+*MOT:	have you seen my duckling?
+*MOT:	eh [x 4], come.
+*MOT:	can you see the frog here?
+*MOT:	the frog!
+*MOT:	reebee, reebee.
+*CHI:	&=cries.
+*MOT:	what's wrong?
+*MOT:	ok ok, are you upset that you can't find the duckling?
+*MOT:	ok, let's find the duckling.
+*MOT:	where's the duckling?
+*MOT:	see, see, fish!
+*MOT:	ah, so many different kinds of fish.
+*MOT:	na na, kyran, kyran.
+*CHI:	&=cries.
+*MOT:	what's that? 
+*MOT:	see the mommy duck is asking the fish.
+*MOT:	have you seen my duckling?
+*MOT:	look at the other ducks.
+*MOT:	what are they doing?
+*MOT:	what are they doing?
+*MOT:	are they looking at the fish as well?
+*CHI:	&=cries.
+*MOT:	sigh, yeah look.
+*MOT:	finally the mommy is asking some other duck.
+*MOT:	look, look at this duck with the funny feathers.
+*MOT:	it says have you seen my duckling?
+*MOT:	can you see there is another butterfly here?
+*MOT:	can you see it hiding?
+*MOT:	can you?
+*MOT:	yeah, then the mommy swam away.
+*MOT:	and the mommy turned back.
+*MOT:	look!
+*MOT:	and the mommy says what is that?
+*MOT:	is that my duckling?
+*CHI:	the other ducks, they are also looking!
+*MOT:	right?
+*MOT:	look, they continued to swim.
+*MOT:	and the turtle is swimming after them.
+*MOT:	the turtle is following them, isn't it?
+*MOT:	swimming, swimming, swimming.
+*MOT:	look, finally, they got to the last page.
+*MOT:	see, the sun is setting i think it's night time do you see anything?
+*MOT:	the mommy is sleeping.
+*MOT:	mommy duck is sleeping.
+*CHI:	baby ducks sleeping.
+*MOT:	do you think she found the duckling?
+*CHI:	&=vocalises.
+*MOT:	do you think she found the duckling, can you count?
+*CHI:	&=vocalises.
+*MOT:	still don't wanna count?
+*MOT:	<say bye bye to the frog> [x 2].
+*MOT:	say bye bye to the duck.
+*MOT:	say bye bye to the ducklings.
+*MOT:	bye bye.
+*MOT:	the end.
+*MOT:	found that duckling, the duckling was playing hide and seek with mommy.
+*MOT:	do you want to play hide and seek with mommy too?
+*CHI:	&=vocalises.
+*MOT:	ok, we're done.
+*MOT:	jie jie we're done!
+@End

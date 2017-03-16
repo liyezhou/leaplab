@@ -1,0 +1,120 @@
+@Unicode
+@Begin
+@Languages:	zho, eng
+@Participants:	MOT Choy_Shu_Ning Mother, CHI Elijah_Goh Child
+@ID:	zho||MOT||female|||Mother|||
+@ID:	zho||CHI|2;1.1|male|||Child|||
+@Date:	27-APR-2016
+@Location:	Lab Testing
+@Comment:	duration of recording 4 minutes 2 seconds
+@Comment:	transcribed by Xin Yun, checked by Wenqi, checked by Joseph
+@Start
+*MOT:	[- eng] have you seen my duckling?.
+*MOT:	you3 ji3 zhi1 baby@s ya1?
+*MOT:	wo3 men2 count@s.
+*MOT:	[- eng] one, two, three, four, five, six, seven, eight.
+*MOT:	ba1 zhi1 xiao3 ya1.
+*MOT:	[- eng] have you seen my duckling?.
+*MOT:	[- eng] early one morning.
+*MOT:	you3 ji3 zhi1 xiao3 ya1?
+*MOT:	yi1 er3 san1 si4 wu2 liu4 qi1.
+*MOT:	qi1 zhi1 xiao3 ya1.
+*MOT:	yi1 zhi1 xiao3 ya1 bu4 jian4 diao4 liao@s:sce.
+*MOT:	zen3 me ban4?
+*MOT:	&oh ma1 ma1 ya1 yao4 qu4 zhao3 xiao3 ya1.
+*MOT:	shao3 le1 yi1 zhi1.
+*MOT:	bu4 jian4 diao4 le4.
+*MOT:	ta1 jiu4 gen1 qi1 zhi1 xiao3 ya1 qu4 zhao3 na4 zhi1 naughty@s de4 xiao3 ya1.
+*MOT:	naughty@s de4 xiao3 ya1 bu4 jian4 diao4 le4 zhe3 me4 ban4?
+*MOT:	ta1 men2 jiu4 qu4 swimming@s.
+*MOT:	qu4 zhao3 xiao3 ya1 &oh.
+*MOT:	ni3 kan4.
+*MOT:	zhi2 you3 yi1 er4 san1 si4 wu3 liu4 qi1.
+*MOT:	zhi2 you3 qi1 zhi1 leh@s:sce.
+*MOT:	di4 ba1 zhi1 zai4 na3 li3?
+*CHI:	&=vocalises.
+*MOT:	zai4 na2 li3?
+*MOT:	[- eng] one two three four.
+*CHI:	zhe4 ge4!
+*MOT:	[- eng] five six seven.
+*CHI:	zhe4 ge4 mei2 you3.
+*CHI:	zhe4 ge4 you4 &=vocalises.
+*MOT:	di4 ba1 zhi1 zai4 zhe4 bian1.
+*MOT:	di4 ba1 zhi1 xiao3 ya1 bu4 jian4 diao4 liao@s:sce.
+*MOT:	ma1 ma1 ya1 jiu4 dai4 zhe qi1 zhi1 xiao3 ya1 wen4 xiao3 niao3.
+*MOT:	[- eng] have you seen my duckling?
+*MOT:	xiao3 niao3 say@s no@s.
+*MOT:	wo3 mei3 you3 kan4 dao4.
+*MOT:	ran2 hou4 ta1 jiu4 kan4 dao4 wu1 gui1.
+*MOT:	ta1 jiu4 wen4 wu1 gui1.
+@eng
+*MOT:	have you seen my duckling?.
+*MOT:	[- zho] ta1 jiu4 jiang3 no@s wo3 mei3 you3 kan4 dao4.
+*MOT:	[- zho] ran2 hou4 ta1 jiu4 wen4 qing1 wa1.
+*MOT:	have you seen my duckling?.
+*MOT:	[- zho] wo3 shao3 le yi4 zhi1 xiao3 ya1.
+*MOT:	[- zho] wo3 de3 xiao3 ya1 you3 ba1 zhi1, xian4 zai4 sheng4 qi1 zhi1.
+*MOT:	one two three four five six seven.
+*CHI:	&=vocalises.
+*MOT:	seven only, where is the number eight?
+*MOT:	&oh number eight naughty.
+*MOT:	[- zho] bu4 jian4 diao4.
+*MOT:	ta1@s jiu4@s go under the water.
+*MOT:	[- zho] ta1 jiu4 wen4 fish@s.
+*MOT:	fish, have you seen my duck?
+*MOT:	duckling?
+*MOT:	[- zho] ta1 jiu4 jiang3 no@s.
+*MOT:	i did not see.
+*MOT:	[- zho] ta1 jiu4 wen4 frog@s.
+*MOT:	have you seen my duckling?.
+*MOT:	[- zho] ta1 jiang3 mei2 you3, mei2 you3 kan4 dao4.
+*CHI:	zhe4@s ge4@s big baby duck xxx.
+*MOT:	baby, baby duck.
+*MOT:	baby duck shen2@s me@s?
+*CHI:	baby duck naughty liao@s:sce.
+*MOT:	baby duck naughty ah?
+*MOT:	[- zho] ni3 kan4 yi1 er4 san1 si4 wu3 liu4 qi1.
+*MOT:	[- zho] qi1 zhi1 &oh.
+*MOT:	[- zho] di4 ba1 zhi1 baby@s duck@s naughty@s.
+*MOT:	[- zho] ta1 wen4 butterfly@s.
+*MOT:	have you seen my duckling?.
+*MOT:	no, never see.
+*MOT:	&oh, &eh, quack x3.
+*MOT:	[- zho] di4 ba1 zhi1 zai4 na4 bian1.
+*MOT:	one, two, three, four, five, six, seven, eight.
+*CHI:	@=vocalises.
+*MOT:	quack [x3].
+*MOT:	[- zho] &oh. ma1 ma1 duck@s zhao3 dao4 di4 ba1 zhi1 xiao3 ya1 liao@s:sce.
+*MOT:	[- zho] ran2 hou4 quan2 bu4 jiu4 yi1 qi3 hui2 jia1 <liao lor>@s:sce!
+*MOT:	[- zho] ni3 shu3 duo1 yi1 ci4.
+*MOT:	one two three four five six.
+*CHI:	oh read zhe4@s ge4@s.
+*MOT:	seven eight.
+*MOT:	[- zho] ma1 ma1 hai2 mei2 you3 jiang3 wan2 leh@s:sce.
+*MOT:	[- zho] xiao3 ya1 zi3.
+*MOT:	[- zho] ma1 ma1 ya1 dai4 zhe ba1 zhi1 xiao3 ya1 hui2 jia1 shui4 jiao4 lor@s:sce.
+*MOT:	good night.
+*CHI:	no more, good night.
+*MOT:	no more, good night.
+*CHI:	mummy, zhe4@s ge4@s duck.
+*MOT:	[- zho] ma1 ma1 du2 hao3 <liao lor>@s:sce.
+*MOT:	[- zho] jiu4 shi4 qi1 zhi1 xiao3 ya1.
+*MOT:	[- zho] di4 ba1 zhi1 naughty@s, ta1 pao3, pao3 bu4 jian4 diao4.
+*MOT:	[- zho] ma1 ma1 duck@s dao4 chu4 qu4 zhao3 ta1.
+*MOT:	[- zho] ta1 kan4.
+*MOT:	[- zho] ta1 yi1 lu4 shang4 kan4 dao4.
+*CHI:	no more.
+*MOT:	no more, finish.
+*MOT:	[- zho] ma1 ma1 duck@s you3 mei2 you3 zhao3 dao4 xiao3 ya1?
+*MOT:	[- zho] ma1 ma1 duck@s de4 xiao3 ya1 you3 ji3 zhi1?
+*MOT:	eight.
+*CHI:	eight.
+*MOT:	eight ducklings.
+*MOT:	[- zho] ba1 zhi1 xiao3 ya1.
+*MOT:	finish.
+*CHI:	duck &=vocalises.
+*MOT:	&mm, finish.
+*MOT:	[- zho] hui2 jia1 liao3.
+*CHI:	[- zho] zhe4 ge4 baby@s there@s, zhe4 ge4 ma1 ma1 duck@s.
+*MOT:	ah.
+@End

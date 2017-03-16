@@ -1,0 +1,148 @@
+@Unicode
+@Begin
+@Languages:	tam, eng
+@Participants:	MOT Shew_Fan_Liu Mother, CHI Jordan_Hewage Child
+@ID:	eng||MOT||female|||Mother|||
+@ID:	eng||CHI|1;6.1|male|||Child|||
+@Date:	26-OCT-2016
+@Location:	Home Testing
+@Comment:	duration of recording 7 minutes 12 seconds
+@Comment:	transcribed by Wenqi, checked by , checked by
+@Start
+*MOT:	okay, what do we have here?
+*MOT:	have you seen my duckling?
+*MOT:	by nancy tuferi.
+*MOT:	let's see, oh yes.
+*MOT:	how many ducks do we have here?
+*MOT:	how many ducklings?
+*MOT:	one, two, three, four, five, six, seven, and eight.
+*MOT:	now, early one morning.
+*MOT:	early one morning.
+*MOT:	[- tam] www.
+*MOT:	[- tam] www.
+*MOT:	hm?
+*MOT:	early one morning.
+*MOT:	&=laughs.
+*MOT:	[- tam] okay@s:eng, www.
+*CHI:	&=vocalises.
+*MOT:	butterfly.
+*MOT:	[- tam] www.
+*MOT:	&=gasps ah see, mummy duck and baby duckling.
+*MOT:	baby duckling.
+*MOT:	&=laughs.
+*MOT:	www@s:tam mummy duck and baby duckling.
+*MOT:	one two three.
+*MOT:	four five six.
+*MOT:	seven and eight.
+*MOT:	[- tam] www duckling@s:eng www.
+*MOT:	&=gasps ah see, one duckling went away.
+*MOT:	he was chasing a butterfly.
+*MOT:	want to see the duckling.
+*MOT:	xxx more interested.
+*MOT:	[- tam] www.
+*MOT:	ah good boy, ah.
+*MOT:	ooh.
+*MOT:	have you seen my duckling?
+*MOT:	see, mama [x 2] duck is asking have you seen my duckling?
+*MOT:	from the robin www@s:tam.
+*MOT:	www?
+*CHI:	bird.
+*MOT:	uh?
+*MOT:	bird.
+*MOT:	[- tam] www, &hm?
+*MOT:	www.
+*CHI:	&=vocalises.
+*MOT:	xxx.
+*MOT:	so many duckling www@s:tam, &hm?
+*CHI:	mama.
+*MOT:	mama duckling, yes.
+*MOT:	oh, xxx?
+*MOT:	see, mummy duckling ask.
+*MOT:	what is this one?
+*MOT:	tortor@f.
+*MOT:	see, tortoise.
+*MOT:	have you seen my duckling?
+*MOT:	and this is a beaver.
+*MOT:	oh, can you see the duckling is hidden behind the tree.
+*MOT:	xxx.
+*CHI:	duck.
+*MOT:	duck.
+*CHI:	mama.
+*MOT:	mama duckling, yes.
+*CHI:	mama.
+*MOT:	mama duckling.
+*CHI:	ooh [x 2].
+*MOT:	yes, ooh [x 2].
+*MOT:	have you seen my duckling?
+*CHI:	mama.
+*MOT:	yes, mama ducky.
+*MOT:	[- tam] www.
+*CHI:	baba.
+*MOT:	baba?
+*MOT:	open the book.
+*MOT:	[- tam] &hm www.
+*MOT:	ah.
+*CHI:	mama.
+*MOT:	mama duckling.
+@tam
+*MOT:	www.
+*MOT:	www.
+*MOT:	www mama@s:eng duckling@s:eng www.
+*MOT:	www?
+*MOT:	oh.
+*CHI:	www?
+*MOT:	oh www?
+*MOT:	www.
+*MOT:	www.
+*MOT:	[- eng] have you seen my duckling?
+*MOT:	www.
+*MOT:	[- eng] have you seen my duckling, &hm?
+*CHI:	www.
+*MOT:	www, beaver@s:eng.
+*MOT:	www.
+*CHI:	[- eng] tortor@f.
+*MOT:	[- eng] tortor@f yes, good boy.
+*CHI:	[- eng] broombroom@f.
+*MOT:	[- eng] broombroom@f uh broombroom@f www@s:tam.
+*MOT:	www.
+*MOT:	www.
+*MOT:	www.
+*MOT:	&gasps www.
+*MOT:	www.
+*CHI:	[- eng] &fis.
+*MOT:	[- eng] fish, yes.
+*MOT:	www?
+*MOT:	www?
+*CHI:	tortor@f.
+*MOT:	tortor@f www tortor@f?
+*MOT:	www tortor@f?
+*MOT:	oh www.
+*CHI:	duck@s:eng.
+*MOT:	uh, duck@s:eng, www duck@s:eng www.
+*MOT:	oh, www tortor@f www duckling@s:eng www?
+*CHI:	&=vocalises.
+*MOT:	www tortor@f www.
+*MOT:	www.
+*CHI:	xxx.
+*MOT:	[- eng] butterfly.
+*MOT:	[- eng] butterfly, yes.
+*MOT:	aw, www.
+*MOT:	duckling@s:eng www.
+*MOT:	www.
+*CHI:	www.
+*MOT:	no@s:eng, www.
+*MOT:	www duckling@s:eng, <and mama duckling>@s:eng www.
+*MOT:	www.
+*CHI:	nap@s:eng.
+*MOT:	nap@s:eng.
+*MOT:	hm?
+*CHI:	www.
+*MOT:	www.
+*CHI:	www.
+*MOT:	www?
+*CHI:	naps@eng.
+*MOT:	naps@eng?
+*MOT:	hm?
+*MOT:	hm?
+*MOT:	[- eng] he's losing interest. 
+@End

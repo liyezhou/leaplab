@@ -1,0 +1,119 @@
+@Unicode
+@Begin
+@Languages:	eng, zho
+@Participants:	MOT Li_Peng Mother CHI Chian_Sue_Yuinn Child
+@ID:	eng||MOT||female|||Mother|||
+@ID:	eng||CHI|2;6.17|female|||Child|||
+@Date:	23-MAY-2015
+@Location:	Home
+@Comment:	narration was done in English followed by Mandarin
+@Comment:	duration of recording 5 minutes 15 seconds.
+@Comment:	transcribed by Yezhou, checked by Ashley
+@Comment:	eng narration of wordless picture book
+@Start
+*MOT:	[- zho] zhe4 ge4 jiao4 shen3 me4, dong4 wu4.
+*MOT:	[- zho] shen3 me4 dong4 wu4 lai2 de4 zhe4 ge4.
+*MOT:	[- zho] zhe4 ge4 shen3 me4 dong4 wu4 lai2 de4.
+*MOT:	quack [x 3].
+*MOT:	[- zho] quack@s [x 3] hua2 yu3 jiao4 shen3 me4?
+*MOT:	huh?
+*MOT:	[- zho] quack@s [x 3] shi4 hua2 yu3 jiao4 shen3 me4?
+*MOT:	[- zho] xiao3 ya1 zi3.
+*MOT:	[- zho] you3 mei2 you3 jiang3 xiao3 ya1 zi3.
+*MOT:	have you seen my duckling!
+*MOT:	where's the duckling?
+*MOT:	can you tell me where's the duckling.
+*MOT:	here how many?
+*MOT:	one two three four five six seven!
+*MOT:	and one is running away!
+*MOT:	where are they going?
+*MOT:	[- zho] come@s lai3, &w wo3 men2 du2.
+*CHI:	&=vocalizes.
+*MOT:	early one morning.
+*MOT:	quack [x 5].
+*MOT:	the baby duckling xxx xxx xxx who?
+*MOT:	who is this?
+*MOT:	who is this?
+*MOT:	mommy duckling.
+*MOT:	and the mommy duckling came swimming.
+*MOT:	and the mommy say good morning baby.
+*MOT:	what &m baby says?
+*MOT:	what does the baby say?
+*MOT:	the duckling baby say good morning to mommy.
+*MOT:	can you say good morning!
+*MOT:	can you say good morning to mommy?
+*MOT:	hm ok.
+*MOT:	oh what is this duckling doing here?
+*MOT:	mommy is here baby is here where is the.
+*MOT:	is this kor kor?
+%com:	term for elder brother in Singlish.
+*CHI:	hm, kor kor.
+*MOT:	quack [x 7]
+*MOT:	how many?
+*MOT:	mommy say come let's go out!
+*MOT:	okay.
+*MOT:	so all the duckling came out and how many are there?
+*MOT:	one two three four five six seven!
+*MOT:	where's one more duckling?
+*MOT:	there should be eight!
+*MOT:	one more duckling where, where is the, the other duckling?
+*MOT:	where?
+*MOT:	where's one more duckling?
+*MOT:	[- zho] zhen3 me2 ban4, zou3 le4 hao2 yuan3 le4 na4 ge4 duckling@s.
+*MOT:	have you seen my duckling?
+*MOT:	mommy say i can't find my baby.
+*MOT:	so she ask the bird.
+*MOT:	have you seen my duckling?
+*MOT:	what is this flower?
+*MOT:	what's this flower?
+*MOT:	lotus.
+*MOT:	okay?
+*MOT:	xxx mommy, mommy went to the land and ask the beaver.
+*MOT:	this is a big fat beaver.
+*MOT:	can you say beaver!
+*MOT:	beaver.
+*MOT:	and what is this?
+*MOT:	tortoise.
+*MOT:	mommy duckling ask the tortoise.
+*MOT:	have you seen my duckling?
+*MOT:	no!
+*MOT:	so mommy went to ask the beaver.
+*MOT:	have you seen my duckling?
+*MOT:	how many ducks now?
+*MOT:	one two three four five six seven.
+*MOT:	it's hiding here.
+*MOT:	you wanna [: want to] tell mommy duck?
+*MOT:	wanna [: want to] tell mommy duck?
+*MOT:	[- zho] zai4 zhe4 li3 [x 2].
+*MOT:	so mommy duck went into the water.
+*CHI:	&=vocalizes.
+*MOT:	[- zho] oh@s yao4 dao4 fan3 zhe4 yang4 kan4 ah1?
+*MOT:	[- zho] wei4 shen3 me4 yao4 dao4 fan3 zhe4 yang4 kan4?
+*MOT:	[- zho] &ah na4 ge4.
+*MOT:	because the mommy duck, head went into the water.
+*MOT:	and ask the fish.
+*MOT:	fish [x 2] have you seen my duckling?
+*MOT:	the fish say, no.
+*MOT:	you see all the baby duck also, the head went into water.
+*MOT:	is it like that?
+*MOT:	because you want to see the duck ducklings head is it?
+*MOT:	okay come next one.
+*MOT:	and now the &m the &m mommy duck swim [x 5].
+*MOT:	swim along and saw another, bird.
+*MOT:	and ask have you seen my duckling?
+*MOT:	xxx no.
+*CHI:	&=vocalizes.
+*MOT:	you wanna [: want to] turn to the next page?
+*MOT:	quack [x 2]
+*MOT:	&eh, where's the duckling?
+*MOT:	did you see?
+*MOT:	do you see?
+*MOT:	do you see the duckling?
+*MOT:	where's the duckling?
+*MOT:	yay the mommy found the duckling!
+*MOT:	hooray!
+*MOT:	now the baby duckling is back with mommy &t again.
+*MOT:	so mommy went, bring all the baby duckling back home to the nest to rest.
+*MOT:	do you like this book?
+*MOT:	what is this animal?
+@End

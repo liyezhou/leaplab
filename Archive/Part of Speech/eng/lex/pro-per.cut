@@ -1,0 +1,34 @@
+@UTF8
+em {[scat pro:obj][pers 3][num pl]} "them"
+each_other {[scat pro:refl]}
+he {[scat pro:sub][pers 3][num sg]}
+her {[scat pro:obj][pers 3][num sg]}
+herself {[scat pro:refl][pers 3][num sg] }
+him {[scat pro:obj][pers 3][num sg]}
+himself {[scat pro:refl][pers 3][num sg]}
+hisself {[scat pro:refl][pers 3][num sg]}
+I {[scat pro:sub][pers 1][num sg]} "I"
+it {[scat pro][pers 3][num sg]}
+itself {[scat pro:refl][pers 3][num sg]}
+me {[scat pro:obj][pers 1][num sg]}
+myself {[scat pro:refl][pers 1][num sg]}
+oneself {[scat pro:refl]}
+ourselves {[scat pro:refl][pers 1][num pl]}
+she {[scat pro:sub][pers 3][num sg]}
+thee {[scat pro:obj]}
+them {[scat pro:obj][pers 3][num pl]}
+themins {[scat pro]}
+themselves {[scat pro:refl][pers 3][num pl]}
+they {[scat pro:sub][pers 3][num pl]}
+thou {[scat pro:sub][pers 2]}
+us {[scat pro:obj][pers 1][num pl]}
+we {[scat pro:sub][pers 1][num pl]}
+ya {[scat pro][pers 2]} "you"
+yall {[scat pro][pers 2][num pl]} "you"
+ye {[scat pro:sub][pers 2]} 
+you {[scat pro][pers 2]}
+you_all {[scat pro][pers 2]}
+yourself {[scat pro:refl][pers 2][num sg]}
+yourselves {[scat pro:refl][pers 1][num pl]}
+youse {[scat pro][pers 2]}
+

@@ -1,0 +1,234 @@
+@Unicode
+@Begin
+@Languages:	eng
+@Participants:	MOT Audrey_Chen Mother, CHI Sofya_Ahn_Yusof Child
+@ID:	eng||MOT||female|||Mother|||
+@ID:	eng||CHI|2;7.18|female|||Child|||
+@Date:	03-OCT-2015
+@Location:	Home Testing
+@Comment:	duration of recording 9 minutes
+@Comment:	transcribed by HengGee, checked by XinYun, checked by Joseph
+@Start
+*MOT:	tanya?
+*MOT:	sofie would you like to read a book?
+*MOT:	would you like to read a book about ducklings?
+*MOT:	ducks.
+*MOT:	sof where are you?
+*CHI:	i am here.
+*MOT:	okay look!
+*MOT:	look he has a book, a book <jie3 jie3>@s:zho brought you sofie.
+*CHI:	pop goes the weedle!
+*MOT:	it is not pop goes the weedle, it is have you seen my duckling?
+*MOT:	watch out please sof.
+*MOT:	tanya, are you interested in the book?
+*MOT:	&=sighs &okay.
+*CHI:	pop does the weedle &ah!
+*MOT:	tanya, look, look at this!
+%COM:	experimenter and mother tries to engage distracted child.
+*MOT:	sof do you like to read?
+*MOT:	look at this book!
+*MOT:	you are not being xxx.
+*MOT:	what is [x 2] out there tanya?
+*MOT:	sofie?
+*MOT:	okay come, sit down with mummy.
+*MOT:	can you behave or not?
+*MOT:	&ah sofie, can we please sit down?
+*MOT:	&so okay so i am just going to tell her the story.
+*MOT:	can you wait, can you just wait for mummy to turn the page?
+*MOT:	ducks, do you like ducks, what colours are the ducks?
+*MOT:	sofie?
+*CHI:	yellow.
+*MOT:	yellow.
+*MOT:	early one morning.
+*MOT:	xxx ducks went to look for the little duckling.
+*MOT:	how many ducks are there?
+*MOT:	how many ducklings?
+*CHI:	one, two, three, four, five, six, seven, eight.
+*MOT:	seven &ah?
+*MOT:	one, two, three, four, five, six, seven.
+*MOT:	seven and there is another one who is missing.
+*MOT:	where is it?
+*MOT:	it is up here?
+*MOT:	is it missing, is it?
+*MOT:	is this is the missing one together with all its brother and sisters?
+*CHI:	no.
+*MOT:	no!
+*CHI:	no.
+*MOT:	no, it is all by himself.
+*MOT:	&oh &eh, what is this?
+*CHI:	do not know?
+*MOT:	you don't know?
+*MOT:	what is flying?
+*CHI:	butterfly.
+*MOT:	butterfly.
+*MOT:	the mummy duck goes xxx.
+*MOT:	one, two, three, four, five, six, seven!
+*MOT:	how many, how many ducklings are there?
+*CHI:	one, two, three, four, five, six, seven, eight, nine, ten!
+*MOT:	no, it is not ten okay.
+*MOT:	it is seven.
+*MOT:	where is the missing one?
+*MOT:	over here.
+*MOT:	he has gone off by himself.
+*MOT:	so what does the mummy.
+*CHI:	not there.
+*MOT:	not there right?
+*CHI:	yesterday &=vocalises.
+*MOT:	&oh yesterday it was there and now it moves so quickly here.
+*CHI:	&yeah.
+*MOT:	&yeah wow.
+*MOT:	can you move as fast as the duckling, or faster?
+*CHI:	faster.
+*MOT:	faster, of course you are faster right.
+*MOT:	so what does the, what does the mummy do?
+*CHI:	what is the mummy duck?
+*MOT:	where is the mummy duck?
+*CHI:	there's one, up there.
+*MOT:	&ah there's one up there.
+*CHI:	baby duck.
+*MOT:	&yeah that is the baby duckling right.
+*MOT:	is the baby duckling with its brothers and sisters.
+*CHI:	no.
+*MOT:	no.
+*MOT:	where is the mummy duckling?
+*MOT:	where is the mummy duck?
+*MOT:	over here, that is right.
+*MOT:	can.
+*MOT:	one, two, three, four, five, six, seven, they all following mummy duck.
+*MOT:	to look for who?
+*CHI:	mummy duck.
+*MOT:	no, they all following mummy duck to look for who?
+*CHI:	baby duck.
+*MOT:	to look for this baby duck right.
+*MOT:	it may seem &yeah.
+*MOT:	and then, what does the mummy duck ask?
+*MOT:	&=gasps she asked the bird, have you seen my duckling?
+*MOT:	have you seen my missing duckling?
+*CHI:	no!
+*MOT:	no!
+*MOT:	&=gasps is that what the bird said?
+*CHI:	&yeah.
+*MOT:	&okay.
+*MOT:	wait, hang on.
+*CHI:	&=vocalises.
+*MOT:	now let us see what happens next sof.
+*MOT:	she ask the, what is this?
+*MOT:	what is this?
+*CHI:	turtle.
+*MOT:	turtle, yes.
+*MOT:	hello mister turtle, have you seen my duckling?
+*CHI:	&oh that is the.
+*MOT:	that is [x 3], is it a beaver?
+*MOT:	it is, &no i think it's a beaver la@s:sce, not very sure &=laughs.
+*MOT:	&oh sofie, did you find out the missing duckling?
+*MOT:	behind, can you spot the missing duckling, you can see the beak.
+*MOT:	where the, where is the beak.
+*MOT:	no missing duckling?
+*MOT:	&oh yes, there is one here.
+*MOT:	one, two, three, four, five, six, seven okay.
+*MOT:	&eh, there are all with the mummy.
+*MOT:	where is the missing one?
+*CHI:	do not know.
+*MOT:	look carefully [x 2], you can see the beak.
+*MOT:	&wah!
+*MOT:	it is behind the tree.
+*MOT:	there's supposed to be another xxx.
+*MOT:	baby.
+*MOT:	&oh so now they join all the other ducklings.
+*MOT:	not mummy duckling, mummy duck.
+*MOT:	what is that?
+*CHI:	frog!
+*MOT:	a frog, yes.
+*CHI:	turn the page.
+*MOT:	wait [x 3].
+*MOT:	so she is swimming with the beaver, and the beaver has a piece of log.
+*MOT:	and one, two, three, four, five, six, seven, all seven of them now.
+*MOT:	so <where is the missing one> [x 2]?
+*MOT:	is it here?
+*MOT:	yes, it's behind the stone, the rock okay.
+*CHI:	&yeah.
+*MOT:	let us turn the page.
+*MOT:	you must look find the missing duckling, okay?
+*MOT:	what does the mama ask the fish?
+*CHI:	&=vocalises.
+*MOT:	have you seen my?
+*CHI:	my.
+*MOT:	missing.
+*CHI:	duck.
+*MOT:	yes, have you seen my missing duck.
+*MOT:	so who else is swimming with, mummy and all the other ducklings?
+*CHI:	fish?
+*MOT:	fish and turtle and this is some kind of reptile okay.
+*MOT:	&oh and, what is this?
+*CHI:	frog.
+*MOT:	mister frog.
+*CHI:	ducks.
+*MOT:	&yeah and all the other ducklings.
+*MOT:	&=vocalises.
+*MOT:	and where is the missing, where is mister missing duckling?
+*MOT:	where?
+*MOT:	no, the missing one.
+%COM:	child points to duckling.
+*MOT:	&yeah.
+*MOT:	&=gasps.
+*MOT:	so they are swimming [x 4], and they ask.
+*CHI:	&=coughs.
+%COM:	child tries to walk away.
+*MOT:	&ah who did they come across?
+*MOT:	have you seen my missing duck?
+*MOT:	and then, &=gasps.
+*MOT:	mummy duckling, mummy duck saw another, another kind of bird.
+*CHI:	&oh that is another duck.
+*MOT:	&yes she says have you seen my duckling?
+*MOT:	&oh the mama duck, mummy duck doesn't know that, right?
+*MOT:	she asked have you seen my duckling?
+*MOT:	is she worried?
+*CHI:	no.
+*MOT:	she is worried, because she needs to find her baby &yeah?
+*CHI:	&=vocalises.
+*MOT:	what is this?
+*CHI:	quack [x 3].
+*MOT:	&yeah and mummy duck is looking for?
+*MOT:	&=gasps she turns around and she saw?
+*CHI:	another duck.
+*MOT:	is it the baby duckling?
+*CHI:	yeah.
+*MOT:	xxx, can you count how many.
+*CHI:	four, five, six, seven, eight.
+*MOT:	one, two, three.
+*CHI:	one, two, three, seven, eight, nine, ten!
+*MOT:	ten, there are not that many okay?
+*MOT:	and all the other ducklings xxx.
+*MOT:	where is the missing duckling?
+*CHI:	&oh, &oh where's the missing duckling?
+*MOT:	not right now.
+*CHI:	&oh &yay!
+*MOT:	no [x 3], the monitor was not working.
+*CHI:	mummy.
+*MOT:	what [x 2], sofie.
+*CHI:	&=vocalises.
+*MOT:	one, two, three, four, five, six, seven.
+*MOT:	&=gasps.
+*CHI:	seven.
+*MOT:	did the missing duckling appear?
+*MOT:	did they find it?
+*CHI:	yes.
+*MOT:	yes, can you count how many ducklings there are altogether?
+*MOT:	let's start with this one, one.
+*CHI:	chirps@o [x 3].
+*MOT:	&yeah let us count.
+*CHI:	chirps@o [x 3].
+*MOT:	one.
+*MOT:	&ah, is that the end?
+*MOT:	and then, where do they go?
+*MOT:	where do they go?
+*MOT:	do they go xxx?
+*MOT:	it is night time, where do they go?
+*CHI:	to bed.
+*MOT:	to bed, right?
+*MOT:	all the little ducklings xxx to bed, and sleep.
+*MOT:	then what we say?
+*MOT:	the end!
+*MOT:	you like this book, &yeah?
+*MOT:	should we buy this book?
+@End

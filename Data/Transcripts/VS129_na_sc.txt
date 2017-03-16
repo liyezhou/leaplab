@@ -1,0 +1,90 @@
+@Unicode
+@Begin
+@Languages:	eng
+@Participants:	MOT Geraldine_Guo Mother, CHI Jonas_Tang Child
+@ID:	eng||MOT||female|||Mother|||
+@ID:	eng||CHI|1;6.10|male|||Child|||
+@Date:	27-JUL-2016
+@Location:	Home Testing
+@Comment:	duration of recording 3 minutes 1 seconds
+@Comment:	transcribed by Debbie, checked by Nadiah, checked by Monique
+@Start
+*MOT:	have you seen my duckling?
+*MOT:	this book is by, nancy tafuri.
+*MOT:	have you seen my duckling?
+*MOT:	the early one morning.
+*MOT:	the little duckling come to swim, xxx.
+*MOT:	and mama duck is in the nest.
+*MOT:	xxx.
+%sit: loud hacking sounds heard.
+*MOT:	&=sings.
+*MOT:	xxx.
+*MOT:	mama duck ask.
+*MOT:	where's the little duck?
+*MOT:	where's the brother, there?
+*MOT:	can you see?
+*MOT:	you see mama duck is looking for baby duck.
+*MOT:	yay, you see mama duck.
+*MOT:	&eh, where, can you find?
+*MOT:	can you help me find?
+*MOT:	&ooh, wonder <how many follow> [x 2] the mother duck.
+*MOT:	how many.
+*MOT:	&oh, &oh, close the book.
+*MOT:	no, you see the next page.
+*MOT:	okay, so the mama ducks wants.
+*MOT:	to look for the little duck, right?
+*MOT:	and she went around and asked.
+*MOT:	have you seen my duckling?
+*MOT:	she asked the bird.
+*MOT:	did you see, got see or not?
+*MOT:	&uh?
+*MOT:	oh no, nobody seen.
+*MOT:	went to ask the otter &ah.
+*MOT:	otter i think.
+*MOT:	have you seen my duckling?
+*MOT:	no[x 4].
+*MOT:	no[x 3].
+*MOT:	have you seen my duckling?
+*MOT:	no, i didn't see.
+*MOT:	have you seen my duckling?
+*MOT:	is it here?
+*MOT:	&=gasps.
+*MOT:	xxx.
+*MOT:	&huh?
+*MOT:	&oh, this one?
+*MOT:	is it the fish, the turtle?
+*MOT:	oh &ya.
+*MOT:	no [x 2].
+*MOT:	where's the missing duckling is it here?
+*MOT:	&=gasps, &ah.
+*MOT:	yeah, mama duck.
+*MOT:	where's the mama duck?
+*MOT:	kiss the mama duck.
+*MOT:	you kiss mama duck?
+*MOT:	no, oh, don't want.
+*MOT:	okay, so let's find the duckling.
+*MOT:	have you seen my duckling?
+*MOT:	the mama duck asked.
+*MOT:	have you seen?
+*MOT:	oh, no[x 2].
+*MOT:	never see.
+*MOT:	where is this.
+*MOT:	this xxx the butterfly.
+*MOT:	&oh?
+*MOT:	where, where's ducking.
+*MOT:	is it hiding here?
+*MOT:	&=gasps.
+*MOT:	okay, and then.
+*MOT:	&=gasps, &ah!
+*MOT:	i found it!
+*MOT:	my little duckling is here with his turtle friend.
+*MOT:	where is it?
+*MOT:	yay let's go and pick him up!
+*MOT:	yay, now everybody follow the mama duck back to the home.
+*MOT:	and they say.
+*MOT:	goodnight.
+*MOT:	flying kiss, goodnight.
+*CHI:	&=vocalises.
+*MOT:	yeah, the end.
+*MOT:	&=laughs.
+@End

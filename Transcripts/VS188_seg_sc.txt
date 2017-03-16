@@ -1,0 +1,82 @@
+@Unicode
+@Begin
+@Languages:	eng, zho
+@Participants:	MOT Eunice_Chin Mother, CHI Wong_Yee_Xuan Child
+@ID:	eng||MOT||female|||Mother|||
+@ID:	eng||CHI|1;1.3|female|||Child|||
+@Date:	08-DEC-2016
+@Location:	Lab Testing
+@Comment:	duration of recording 4 minutes 43 seconds
+@Comment: video starts from 14 seconds
+@Comment:	transcribed by XinYun, checked by Wenqi, checked by henggee
+@Start
+*MOT: <yee xuan> [x 3].
+*MOT: [- zho] hao3 wo3 men kan4 shu1.
+*MOT: yee xuan?
+*MOT: "have you seen my duckling?".
+*MOT: [- zho] &hm@s:eng lai2 zuo4 [x2].
+*MOT: "<have you seen my duckling> [x2]"?
+*MOT: early one morning.
+*MOT: &=gasp &oh there are how many duckling in the lakes?
+*MOT: one, two, three, four, five, six, seven.
+*MOT: eight!
+*MOT: see?
+*MOT: mama duck is coming to find for her duckling.
+*MOT: &wow.
+*MOT: [- zho] ni3 ting1 wo3 jiang3 gu4 shi4 ma?
+*MOT: yee see?
+*MOT: [- zho] ma1 ma kiss@s:eng [x 2] ta1 de4 hai2 zi leh@s:sce.
+*MOT: duckling, kiss [x 2], &hmmm.
+*MOT: &ooh see all the duckling follow mama to go to find food.
+*MOT: and look for her little duckling.
+*MOT: when he saw a bird, what mama say?
+*MOT: "have you seen my duckling"?
+*MOT: yee xuan have you seen my duckling?
+*MOT: [- zho] &okay@s:eng mama gei3 ni3 zuo4 [x 2].
+*MOT: &=gasps "have you seen my duckling"?
+*MOT: tortoise you see tortoise.
+*CHI: &=coughs.
+*MOT: "have you seen my duckling"?
+*MOT: you see a grass xxx.
+*MOT: "have you seen my duckling"?
+*MOT: &ooh kan4@s:zho how many duck?
+*MOT: one, two, three, four, five, six.
+*MOT: where's the number seven duck?
+*MOT: when mama see the fish, mama asked, "have you seen my duckling"?
+*MOT: "where's my little duckling"?
+*MOT: when mama see another.
+*MOT: this one is, perhaps xxx birds.
+*MOT: "have you seen my duckling"?
+*MOT: <quack@o> [x 2] have you seen my duckling yee xuan?
+*MOT: &ooh mama so sad because she <cannot find the duckling> [x 2].
+*MOT: &ooh in the end, see one two three four five six seven eight.
+*MOT: yes!
+*MOT: mama find the duckling.
+*MOT: this eight duckling.
+*MOT: see?
+*MOT: mama sleep so, tight.
+*MOT: <good night> [x 2] duckling.
+*MOT: say good night.
+*MOT: good night!
+*MOT: say bye [x 2], jiang3@s:zho bye [x 2].
+*CHI: &=coughs.
+*MOT: [- zho] colour@s:eng yi1 yang4 de4.
+*MOT: [- zho] yee xuan you3 mei2 you3 yi1 yang4?
+*MOT: [- zho] yee xuan kan4, shi4 bu4 shi4 yi1 yang4?
+*MOT: [- zho] zhe4 ya1 zi gen1 zhe4 ya1 zi you3 mei2 you3 yi1 yang4?
+*MOT: the rubber duck.
+*MOT: &dng@o [x 10].
+*MOT: (o)kay.
+*MOT: [- zho] hao3 le4 a1?
+*MOT: finish.
+*MOT: <no more> [x 2].
+*MOT: [- zho] ni3 yao4 zi4 ji3 fan1 shu1 ma1?
+*MOT: [- zho] &hmm@s:eng yao4 bu4 yao4?
+*MOT: see the book?
+*MOT: [- zho] kan4 shu1 &wow.
+*MOT: &oh no [x 8].
+*MOT: [- zho] bu4 ke2 yi3 fang4 jing4 zui3 ba1.
+*MOT: no.
+*CHI: &=vocalises.
+*MOT: [- zho] no@s:eng, bu4 ke2 yi3 fang4 jing4 zui3 ba1.
+@End

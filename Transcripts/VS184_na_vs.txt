@@ -1,0 +1,153 @@
+@Unicode
+@Begin
+@Languages:	eng
+@Participants:	MOT Goh_May_Yann Mother, CHI Tee_Zyson Child
+@ID:	eng||MOT||female|||Mother|||
+@ID:	eng||CHI|1;5.8|male|||Child|||
+@Date:	04-DEC-2016
+@Location:	Lab Testing
+@Comment:	duration of recording 9 minutes 17 seconds
+@Comment:	transcribed by Wenqi, checked by Xinyun, checked by Chaomin
+@Start
+*MOT: okay.
+*MOT: baby, come sit down here.
+*MOT: XXX XXX.
+*MOT: story book!
+*MOT: okay.
+*MOT: "have you seen my duckling?".
+*MOT: eh.
+*MOT: okay?
+*CHI: &=cries.
+*MOT: you see, duck.
+*MOT: okay, wait [x 5].
+*MOT: over the hills and far away.
+*MOT: okay you see, "early one morning".
+*MOT: now how many ducks here?
+*MOT: you see, one two three four five six seven.
+*CHI: &=vocalises.
+*MOT: seven ducks.
+*MOT: and one you see here!
+*MOT: swimming away!
+*MOT: to see the butterfly.
+*MOT: see, woo@o.
+*MOT: okay.
+*MOT: then the mother duck come.
+*CHI: &=vocalises.
+*MOT: see mother duck!
+*MOT: then the little duck told mum that one is swim(ming) away.
+*MOT: okay you see, oh.
+*CHI: &=vocalises.
+*MOT: &=laughs.
+*MOT: okay, wait [x 3].
+*CHI: oh.
+*MOT: okay, wait.
+*MOT: aiyo@s:sce.
+*MOT: you see.
+*MOT: then the mother duck &s start looking around.
+*MOT: asking around, "have you seen my duckling?".
+*MOT: "<have you seen my> [x 2] little duckling?".
+*CHI: &=cries.
+*MOT: &=laughs.
+*MOT: oh they are looking around for the [x 2] missing duckling.
+*MOT: where is the missing one?
+*MOT: she &k keep shouting, "baby duckling".
+*MOT: where is the baby duckling name?
+*MOT: we give him a [x 2] name okay, one name.
+*CHI: ooh.
+*MOT: &hm?
+*CHI: &t.
+*CHI: &=cries.
+*MOT: okay, &hm.
+*CHI: &t.
+*CHI: &=cries.
+*MOT: [- zho] ta1 zai4 jiao4 shen2 me? [+ bch]
+*MOT: hai2 XXX. [+ bch]
+*MOT: [- zho] bu4 shi4 meh@s:sce, XXX XXX, bu4 shi4. [+ bch]
+*CHI: &=cries.
+*MOT: oh you see the duck go underwater.
+*MOT: asking around, fish.
+*MOT: ask all the fish, frog, turtle.
+*MOT: "where is my little duckling, where are you?".
+*MOT: "where are you?".
+*MOT: you see, one two three four five six seven.
+*MOT: and, one is missing.
+*MOT: there are eight.
+*MOT: eight ducks, okay.
+*MOT: over the hill you see, the other duck is over the hill here.
+*MOT: the other side.
+*MOT: yeah, here.
+*MOT: you see.
+*MOT: oh, you see the duck.
+*MOT: okay, so they are telling ah, duck [x 2].
+*CHI: &mm?
+*CHI: &=cries.
+*MOT: &=laughs.
+*MOT: XXX XXX.
+*MOT: okay.
+*MOT: XXX XXX see, all the ducks follow the mama, go and find the little duck.
+*MOT: little duck's here!
+*MOT: okay.
+*MOT: so they started looking around, asking around.
+*MOT: ask the bird.
+*MOT: this is bird.
+*MOT: "bird, have you seen my duckling?".
+*MOT: have you seen?
+*MOT: maybe you tell the duck ma <where is the duck> [x 2]?
+*CHI: &=cries.
+*MOT: then they are still, never give up and continue to asking and look for the little duck.
+*MOT: little duckling, it's right here.
+*CHI: &=cries.
+*CHI: bird.
+*MOT: what?
+*CHI: &=vocalises.
+*MOT: [- zho] na4 bu4 shi4 bird@s la@s:sce. [+ bch]
+*CHI: &p [x 3].
+*MOT: no, this is duck. [+ bch]
+*MOT: seven, and, they found the little duckling here!
+*MOT: hello!
+*MOT: baby say hello.
+*MOT: we found already you see, hello.
+*CHI: &=cries.
+*MOT: aiyo@s:sce.
+*MOT: you see, eight.
+*MOT: in total got eight duck already [x 2].
+*MOT: one, two, three, four, five, six, seven, eight.
+*MOT: eight.
+*MOT: eight right?
+*MOT: so they continue swimming follow the mama.
+*CHI: &p [x 3].
+*MOT: ooh, and they sleep altogether at night.
+*MOT: one, two, three, four, five, six, seven, and, eight!
+*MOT: and, the &m duckling mum can sleep very happily together with all the little duckling.
+*CHI: &=vocalises.
+*MOT: oh!
+*MOT: hello.
+*CHI: &=vocalises.
+%com: the father speaks to child.
+*MOT: not five, is eight little ducks [+ bch].
+*CHI: &p [x 3].
+*MOT: and seven little ducks came back.
+*MOT: yeah.
+*MOT: &=laughs.
+*CHI: &=vocalises.
+*CHI: &=whines.
+*MOT: XXX XXX XXX XXX XXX.
+*MOT: only seven ducks.
+*CHI: &=cries.
+*MOT: &=laughs you feel very sad ah the duckling went missing.
+*CHI: &=cries.
+*MOT: ah.
+*MOT: you don't feel sad.
+*MOT: okay you see.
+*MOT: you feel sad huh.
+*CHI: &=cries.
+*MOT: you see, the duck come back.
+*MOT: you see?
+*MOT: so you happy right not so sad anymore right.
+*MOT: clap your hand, baby.
+*MOT: clap your hand.
+*MOT: they found the little duck!
+*MOT: baby, clap your hand.
+*MOT: yeah.
+*MOT: okay.
+@End

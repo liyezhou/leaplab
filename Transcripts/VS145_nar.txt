@@ -1,0 +1,109 @@
+@Unicode
+@Begin
+@Languages:	eng
+@Participants:	FAT Mother_Name Father, CHI Isaac_Nikola_Tan Child
+@ID:	eng||FAT||male|||Father|||
+@ID:	eng||CHI|0;6.30|male|||Child|||
+@Date:	03-SEP-2016
+@Location:	Lab Testing
+@Comment:	duration of recording 4 minutes 55 seconds
+@Comment: recording start at 20 seconds
+@Comment:	transcribed by Xin Yun, checked by Nadiah, checked by Monique
+@Start
+*FAT:	Issac, alright.
+*FAT:	have you seen my duckling by Nancy Tafuri.
+*FAT:	have you seen my duckling?
+*FAT:	ooh you see there's one duckling.
+*FAT:	oh &s he is moving away.
+*FAT:	distracted by a butterfly.
+*FAT:	early one morning.
+*FAT:	quack [x 4].
+*FAT:	oh mummy duck is coming back and all these are the duckling's brothers and sisters.
+*FAT:	wow.
+*FAT:	oh there's the duckling.
+*FAT:	he is a distracted with a butterfly.
+*FAT:	see the mother duckling.
+*FAT:	one mother duck is here.
+*FAT:	and if she count one two three four five six seven.
+*FAT:	eh?
+*FAT:	she only have seven duckling.
+*FAT:	where's the eighth one?
+*FAT:	the eighth one is here.
+*FAT:	what is he doing?
+*FAT:	so mother duck bring all her duckling to find small little duckling.
+*FAT:	have you seen my duckling?
+*FAT:	asked mother duck.
+*FAT:	and then the bird say don't know.
+*FAT:	so let's see let's count.
+*FAT:	how many birds how many duckling.
+*FAT:	one two three four five six seven.
+*FAT:	where's the eighth duckling?
+*FAT:	&hmm.
+*FAT:	and then mother duck go and ask turtle.
+*FAT:	have you seen my duckling?
+*FAT:	the turtle says I don't know.
+*FAT:	let's count.
+*FAT:	one two three four five six eh where's the seventh ah.
+*FAT:	oh here got another one.
+*FAT:	seven.
+*FAT:	here's a beaver.
+*FAT:	ooh can you see here?
+*FAT:	one small little duckling?
+*FAT:	right?
+*FAT:	ooh.
+*FAT:	and mother duck ask the beaver.
+*FAT:	<have you seen my duckling> [x 2]?
+*FAT:	let's count.
+*FAT:	one two three four five six.
+*FAT:	ooh, oh there's a frog.
+*FAT:	what's next?
+*FAT:	and then mother duck ask.
+*FAT:	<have you seen my duckling> [x 2]?
+*FAT:	one two three.
+*CHI:	&=vocalises.
+*FAT:	four five six seven.
+*FAT:	oh do you see small duckling here?
+*FAT:	small duckling is hiding.
+*FAT:	have you seen my duckling asked the mother duck.
+*FAT:	and this is err, I think these are other, what are these?
+*FAT:	the next time we ask mummy what is this.
+*FAT:	I think it's another kind of duck.
+*CHI:	&=laughs.
+*FAT:	&=laughs.
+*FAT:	right?
+*FAT:	huh?
+*FAT:	oh you see there's a butterfly.
+*CHI:	&=coughs, &=pants.
+*FAT:	oh you see one two three four five six seven.
+*CHI:	&=laughs.
+*FAT:	the tortoise found duckling!
+*CHI:	&=vocalises.
+*FAT:	and then here one two three four five six seven eight.
+*FAT:	and then the small little duckling is going home with the other ducklings.
+*FAT:	see this is the tortoise.
+*FAT:	this is the butterfly, it's still distracted.
+*FAT:	are you distracted?
+*FAT:	and then all the duckling sleeping with mother duck.
+*FAT:	one two three four five six seven eight.
+*FAT:	it's night time now.
+*FAT:	ooh the end.
+*FAT:	have you seen my duckling?
+*FAT:	now Nancy Tafuri's classic hide and seek book is now available in a sturdy book sturdy board book format perfect for the sharing with the very young.
+*CHI:	&=vocalises.
+*FAT:	see the small little duckling?
+*FAT:	yes.
+*FAT:	alright that's all.
+*FAT:	want to see one more time?
+*FAT:	or you are okay?
+*FAT:	oh this book very nice ah@s:sce we should buy one also.
+*FAT:	to the duckling in all of us.
+*FAT:	wanna [: want to] touch the book?
+*CHI:	&=vocalises.
+*FAT:	ooh why you touch mother duck?
+*FAT:	see that is mother duck.
+*FAT:	slap [x 3] the mother duck.
+*FAT:	very nice hor@s:sce the book.
+*FAT:	papa will borrow from library one day.
+*FAT:	okay?
+*FAT:	alright that's all.
+@End.

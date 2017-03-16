@@ -1,0 +1,138 @@
+@Unicode
+@Begin
+@Languages:	eng, zho
+@Participants:	MOT Joyce_Chua Mother, CHI Zash_Leong Child
+@ID:	eng||MOT||female|||Mother|||
+@ID:	eng||CHI|1;7.1|male|||Child|||
+@Date:	05-OCT-2016
+@Location:	Home
+@Comment:	duration of recording 5 minutes 29 seconds
+@Comment:	transcribed by Carol, checked by Nadiah, checked by Monique
+@Start
+*MOT:	baby, come.
+*MOT:	have you seen my duckling?
+*MOT:	wow, early one morning.
+*MOT:	zash look here, look here.
+*MOT:	zash?
+*MOT:	how many duck here?
+*MOT:	count [x 2].
+*MOT:	where's your pointer finger?
+*CHI:	&=vocalises.
+*MOT:	mm, one two three four five six seven!
+*MOT:	seven duckling!
+*MOT:	ooh, where did the duckling go?
+*MOT:	xxx the mummy, right?
+*MOT:	right, zash?
+*CHI:	&=vocalises.
+*MOT:	where's the one duckling that's never go to the mummy?
+*MOT:	where, where is it?
+*MOT:	<where is it> [x 3]?
+*MOT:	hey &=laughs.
+*MOT:	you want?
+*MOT:	yeah.
+%com:	static noise masks voice
+*MOT:	you see, you see!
+*MOT:	this duckling is alone right, right or not?
+*MOT:	so sad!
+*MOT:	ooh, all of them are swimming behind mummy!
+*MOT:	how many?
+*MOT:	one two three four five six seven!
+*MOT:	where's the lonely duck?
+*MOT:	where's the lonely duckling, where is it?
+*MOT:	here, you see?
+*MOT:	it's over here, right?
+*MOT:	still alone!
+*MOT:	have you seen my duckling?
+*MOT:	have you seen the duckling?
+*MOT:	where is it?
+*CHI:	&=vocalises.
+*MOT:	where is it?
+*CHI:	&=vocalises.
+*MOT:	zash, zash, where is it?
+*MOT:	over there!
+*MOT:	is it over there?
+*MOT:	it's inside the flower!
+*MOT:	ooh, have you seen my duckling?
+*MOT:	where's the turtle?
+*MOT:	where's the turtle?
+*MOT:	show mummy where's the turtle.
+*MOT:	over here!
+*MOT:	and what's this?
+%com:	mother asks researcher what animal was shown in the picture
+*MOT:	oh beaver!
+*MOT:	this a butterfly!
+*MOT:	where's the duckling?
+*MOT:	is it behind the tree?
+*MOT:	yes, or not?
+*MOT:	yes?
+*MOT:	say yes.
+*CHI:	yes.
+*MOT:	yes.
+*MOT:	oh, have you seen my duckling?
+*MOT:	where, where's the duckling?
+*CHI:	&=vocalises.
+*MOT:	what's this?
+*MOT:	frog!
+*MOT:	oh, how many duck?
+*MOT:	count?
+*MOT:	one two three four five six!
+*MOT:	where's the missing, missing duckling?
+*MOT:	where is it?
+*MOT:	here, is it here?
+*MOT:	hm, point, here, right?
+*MOT:	have you seen my duckling?
+*MOT:	ooh zash, see!
+*MOT:	see what's this?
+*MOT:	frog!
+*MOT:	fish!
+*MOT:	turtle!
+*MOT:	have you seen the duckling?
+*MOT:	<is it here> [x 2]?
+*MOT:	yes or not?
+*MOT:	it hide, it's hide behind right?
+*MOT:	yes or not?
+*MOT:	have you seen my duckling?
+*MOT:	do you see, zash?
+*MOT:	where's the little duckling, the lonely duckling, where it hide?
+*CHI:	no.
+*MOT:	no?
+*MOT:	oh you're somewhere around it, here!
+*MOT:	yes found it!
+*MOT:	yes?
+*MOT:	see the butterfly?
+*MOT:	oh, where's the little duckling?
+*MOT:	where's the lonely duckling?
+*MOT:	okay, this is a duck also.
+*MOT:	one two three four five six seven!
+*MOT:	where's the eighth?
+*MOT:	where's the eighth one?
+*MOT:	where's the number eight duckling?
+*MOT:	where is it?
+*MOT:	here, beside the turtle!
+*MOT:	right or not?
+*MOT:	right, yes?
+*CHI:	&=vocalises.
+*MOT:	say yes!
+*MOT:	wow, they're together now with the mummy duck, yes?
+*MOT:	how many, let's count again.
+*MOT:	where's your pointer finger?
+*MOT:	how many?
+*MOT:	one two three four five six seven eight, they're together!
+*CHI:	&=vocalises.
+*MOT:	yes?
+*MOT:	mummy found it, right?
+*MOT:	the turtle is swimming behind there, there's a butterfly here, okay?
+*MOT:	ooh mummy can sleep now because mummy found the duckling, right?
+*MOT:	and where's the frog?
+*MOT:	where's the frog?
+*MOT:	frog here?
+*MOT:	green frog.
+*MOT:	and where are all the ducklings?
+*MOT:	sleeping.
+*MOT:	and they say what?
+*MOT:	<say goodnight> [x 3]!
+*MOT:	say goodnight to them, say goodnight!
+*CHI:	goodnight!
+*MOT:	bye!
+*MOT:	bye, the end.
+@End

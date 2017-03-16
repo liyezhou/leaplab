@@ -1,0 +1,22 @@
+@UTF8
+$b conj|so => $b co|so
+$b adv|so !adj|*,!qn|* => $b co|so 
+*~inf|to n|* => *~inf|to v|*
+det|the adj|* prep|* => det|the n|* prep|*
+rel|that . => pro:indef|that .
+rel|that ? => pro:indef|that ?
+rel|that ! => pro:indef|that !
+pro:sub|I adj|mean => pro:sub|I v|mean
+adv|open det|* n|* => v|open det|* n|*
+pro:def|one qn|more n|thing => det:num|one qn|more n|thing
+pro|you n|can n|start => pro|you mod|can v|start
+$b n|start => $b v|start
+$b coord|and => $b conj|and
+adv|anyway beg|beg => co|anyway beg|beg
+v|take det|a v|look => v|take det|a n|look
+aux|have pro|you v|have&PAST => aux|have pro|you part|have&PASTP
+*det*|* v|break* => *det*|* n|break*
+*det*|* v|cry* => *det*|* n|cry*
+
+
+

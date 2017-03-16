@@ -1,0 +1,173 @@
+@Unicode
+@Begin
+@Languages:	eng
+@Participants:	MOT Poh_Sook_Sun Mother, CHI Chia_Wei_Lyn Child
+@ID:	eng||MOT||female|||Mother|||
+@ID:	eng||CHI|1;8.12|female|||Child|||
+@Date:	15-APR-2015
+@Location:	Home Testing
+@Comment:	duration of recording 8 minutes 54 seconds
+@Comment:	transcribed by Chao_Min, checked by Debbie, checked by Monique
+@Start
+*CHI:	duck!
+*MOT:	correct, duck!
+*CHI:	duck.
+*MOT:	duck.
+*CHI:	duck.
+*MOT:	duck.
+*MOT:	and these are ducklings!
+*CHI:	&=vocalises.
+*MOT:	how do you say ducklings?
+*CHI:	&=vocalises.
+*MOT:	ducklings, so many.
+*MOT:	one two three four five six seven eight!
+*MOT:	eight ducklings!
+*MOT:	where is the mama duck?
+*CHI:	&=vocalises, here.
+*MOT:	i'm not a duck!
+*CHI:	&=laughs.
+*MOT:	are you a duck?
+*MOT:	&=laughs.
+*MOT:	have you seen my duckling?
+*MOT:	&=gasps, where is the duckling?
+*MOT:	oh what is this, this you know, what is that?
+*CHI:	&=vocalises.
+*MOT:	butterfly!
+*CHI:	&=vocalises.
+*MOT:	&oh.
+*CHI:	&=vocalises.
+*MOT:	&oh, where are the ducklings?
+*CHI:	&=vocalises.
+*MOT:	huh?
+*CHI:	spoil!
+*MOT:	no it's not spoil, these are little ducklings.
+*CHI:	&=vocalises.
+*MOT:	ducklings!
+*CHI:	&=vocalises.
+*MOT:	huh?
+*CHI:	&=vocalises.
+*MOT:	fine, where is the missing duckling?
+*MOT:	the phone is more exciting that the book right?
+*MOT:	that's why we always throw away the phone okay [+ bch]?
+*MOT:	&=laughs [+bch].
+*MOT:	where is the butterfly?
+*MOT:	do you see the butterfly hiding?
+*MOT:	where is the butterfly?
+*MOT:	there!
+*MOT:	where is the, other duckling hiding?
+*MOT:	here!
+*CHI:	and the mummy duck xxx.
+*MOT:	<where's the mama duck> [x 2] ?
+*CHI:	&=vocalises.
+*MOT:	i'm not a duck!
+*CHI:	&=laughs mama [x 3] duck!
+*MOT:	that's the mama duck and they're the ducklings!
+*CHI:	mama duck.
+*MOT:	where is the missing duckling?
+*CHI:	mama duck.
+*MOT:	i'm not a duck, this is a duck.
+*MOT:	this is the mama duck and these are the baby ducks.
+*CHI:	the missing duckling is here.
+*MOT:	and where is the missing duckling?
+*CHI:	here!
+*MOT:	where?
+*CHI:	there!
+*MOT:	ya.
+*CHI:	duck.
+*MOT:	&oh, what are they doing?
+*MOT:	swimming in the water.
+*CHI:	the missing duckling is very sad.
+*CHI:	is very sad?
+*MOT:	why very sad?
+*CHI:	because it cannot find the mummy.
+*MOT:	have you seen my duckling?
+*CHI:	duck.
+*MOT:	i'm not a duck!
+*MOT:	this is a duck.
+*CHI:	the duckling on a flower, &=vocalises.
+*MOT:	what sound does the duck make?
+*CHI:	quack [x 2]!
+*MOT:	quack [x 5], quack[x 2], quack [x 3].
+*MOT:	&=sings@s:zho, xxx.
+*CHI:	&=vocalises.
+*MOT:	what is this?
+*CHI:	carrot!
+*MOT:	xxx, oh what is, what is that?
+*MOT:	tortoise!
+*CHI:	&=vocalises.
+*MOT:	what is this?
+*CHI:	&=vocalises.
+*MOT:	mama duck, show me mama duck.
+*CHI:	where is papa duck?
+*MOT:	what is this?
+*CHI:	duck.
+*MOT:	xxx, to the river and look at them, xxx.
+*CHI:	&=vocalises.
+*MOT:	no its here.
+*MOT:	whose buttock is that?
+*CHI:	the frog.
+*MOT:	xxx is that, fish!
+*MOT:	how do you say fish?
+*CHI:	have you seen my duckling?
+*CHI:	yes!
+*MOT:	where is the tortoise?
+*CHI:	tortoise!
+*CHI:	have you seen my duckling?
+*CHI:	yeah!
+*MOT:	what is that?
+*CHI:	lizard.
+*MOT:	and what's that?
+*CHI:	&=vocalises.
+*MOT:	huh?
+*MOT:	what is that thing here?
+*CHI:	&=vocalises.
+*CHI:	xxx.
+*CHI:	xxx, the mummy duck is xxx.
+*MOT:	throw away [+ bch].
+*MOT:	so how does a duck quack?
+*MOT:	quack [x 5].
+*CHI:	quack [x 3].
+*MOT:	where is this?
+*CHI:	where's my duckling?
+*MOT:	xxx.
+*CHI:	&=vocalises.
+*CHI:	mama where's the ducking.
+*CHI:	&=vocalises [+ bch].
+*MOT:	&=laughs, dou1 mei2 you3 jia2 dao4 ni3 de3 shou3 @s:zho. [+bch]
+%exp: audio repeats lines one hundred and thirty three to one hundred and thirty five.
+*CHI:	&=vocalises.
+*MOT:	what is this?
+*CHI:	all those ducks are here.
+*CHI:	xxx.
+*MOT:	what is this?
+*MOT:	xxx, it's a butterfly!
+*MOT:	xxx butterfly?
+*MOT:	&ah, xxx, &=groans.
+*CHI:	&=vocalises.
+*MOT:	fish!
+*CHI:	fish.
+*CHI:	&=vocalises.
+*MOT:	tortoise [x 2] ,xxx.
+*CHI:	xxx.
+*MOT:	xxx.
+*CHI:	behind here.
+*MOT:	xxx.
+*CHI:	wo3@s:zho yao4@s:zho kan4@s:zho.
+*MOT:	where is the tortoise?
+*MOT:	it's here!
+*MOT:	xxx.
+*CHI:	why the duckling so naughty?
+*CHI:	&=vocalizes.
+*MOT:	ya, some more?
+*CHI:	xxx, go to school [+ bch].
+*MOT:	what is that? who is that [+ bch]?
+*CHI:	xxx, later so late already, my school close already xxx [+ bch].
+*CHI:	mama we're not suppose to go to school so late [+ bch].
+*MOT:	ducklings, xxx frog, frog xxx.
+*CHI:	&=vocalises.
+*MOT:	the end!
+*CHI:	mama, you cannot go to my school so late, xxx, it's late already so xxx [+ bch].
+*MOT:	xxx, the end!
+*MOT:	pack to jie2@s:zho jie@s:zho okay, can you return this to jie2@s:zho jie@s:zho, say thank you!
+*MOT:	two hands, say thank you [+ bch]!
+@End

@@ -1,0 +1,9 @@
+@UTF8
+To train:
+chat2connl +t%mor +t%grt +u 01a-train.cha
+   run parser in training mode on output file 01a-train.connl.txt
+To analyze:
+chat2connl +t%mor 01a.cha
+   run parser on output file 01a.connl.txt using training set file created during parser training process
+   make sure that output file from parser analysis is called something like 01a.txt
+connl2chat +m 01a.txt

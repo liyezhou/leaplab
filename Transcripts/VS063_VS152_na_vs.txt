@@ -1,0 +1,41 @@
+@Unicode
+@Begin
+@Languages:	eng, zho
+@Participants:	MOT Irene Tan Mother, CHI Clara Lim Qi Yin Child
+@ID:	eng||MOT||female|||Mother|||
+@ID:	eng||CHI|0;10.29|female||Child|||
+@Date:	12-DEC-2015
+@Location:	Lab
+@Comment:	duration of recording 1 minute 58 seconds
+@Comment:	video starts at 52 seconds
+@Comment:	transcribed by Yijun
+@Comment: extremely short piece
+@Situation:	narration of wordless picture book (PDF on screen)
+@Start
+*MOT:	have you seen my duckling?
+*MOT:	early one morning, girl girl where you're looking at?
+*MOT:	girl girl
+*MOT:	duck duck, duck is here
+*MOT:	quack quack
+*MOT:	mother duck is walking to the pond "have you seen my duckling?"
+*MOT:	hmm, "have you seen my duckling?"
+*MOT:	where's the duckling?
+*MOT:	"have you seen my duckling?"
+*MOT:	hmm, don't have
+*CHI:	&=vocalises
+*MOT:	"have you seen my duckling?"
+*MOT:	no, you don't see my duckling
+*MOT:	"have you seen my duckling?"
+*MOT:	no, didn't
+*MOT:	oh, where's the duckling?
+*MOT:	don't have
+*MOT:	no more
+*MOT:	where's the duckling?
+*MOT:	xxx duckling, pass by
+*MOT:	bye bye xxx duckling
+*MOT:	don't have?
+*MOT:	xxx holding the duckling?
+*MOT:	the missing duckling is here?
+*MOT:	where's the duckling?
+*MOT:	xxx
+@END

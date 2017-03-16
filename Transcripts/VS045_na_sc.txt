@@ -1,0 +1,106 @@
+@Unicode
+@Begin
+@Languages:		eng, zho
+@Participants:		MOT Huang Liyan Mother, CHI Kayla Sim Child. ASH: Ashley Tong Experimenter
+@ID:		eng||MOT||female|||Mother|||
+@ID:		eng||CHI|1;7.1|female|||Child|||
+@ID:		eng||ASH||female|||Experimentor|||
+@Date: 		07-OCT-2015
+@Location:		Lab Testing
+@Comment:		duration of the recording is 5 minutes 45 seconds
+@Comment:		video starts at 1 minute 30 seconds
+@Comment:		transcribed by Yijun
+@Situation:		narration of wordless picture book in the lab
+@Start
+*MOT:	have you seen my duckling?
+*MOT:	you see, there are so many ducklings
+*MOT:	there are nine ducklings!
+*MOT:	early one morning, one duckling swam to look for a butterfly!
+*MOT:	mommy duck came home and found only one two three four five six seven eight, eight ducklings!
+*MOT:	where is the other duckling?
+*MOT:	&=vocalises
+*MOT:	ni2 qu4 na2 li1
+*CHI:	&=vocalises
+*MOT:	you see mother duck counted xxx in the ducklings
+*CHI:	&=vocalise
+*MOT:	but she could only find eight
+*MOT:	where is the last duckling?
+*MOT:	mommy duck says "come, lets go look for the other duckling!"
+*MOT:	lets go, swim swim swim swim
+*MOT:	mother duck met a bbbbbird
+*MOT:	she asked the bbbbbbird "have you seen my duckling?"
+*MOT:	of course the bird says xxx and then xxx you see, you see
+*MOT:	mother duck
+*CHI:	&=vocalises
+*MOT:	yeah duck duck
+*MOT:	mother duck went
+*CHI:	&=cries
+*MOT: oi sit properly
+*ASH:	kayla huai4 dan1 wo1 bu1 gei4 ni sticker liao4
+*MOT:	no sticker liao4 huh
+*MOT:	kuai4 dian1
+*MOT:	kuai4 dian1 lai4
+*MOT: kuai4 dian1 lai4
+*CHI:	&=vocalises
+*CHI:	&=vocalises
+*MOT:	&=laughs
+*CHI:	&=vocalises
+*MOT:	kayla, quick!
+*CHI: &=vocalises
+*MOT:	no no we're not playing this now
+*MOT:	kayla quick, before mommy gets angry
+*CHI:	&=vocalises
+*MOT:	kayla!
+*CHI:	&=cries
+*MOT:	come,quick we finish up the story then we go and play
+*ASH:	halfway already, see mommy is halfway
+*MOT:	quick
+*MOT:	quick, mother duck hasn't found her duckling, come.
+*CHI:	&=vocalises
+*MOT:	kuai4 dian2, mommy sheng1 qi4 liao
+*MOT:	kuai4 dian2
+*MOT:	mommy angry uh, kuai4 dian2
+*MOT:	kuai4 dian2
+*MOT:	bu ran wo men hui jia liao
+*ASH:	remember? I promise you, "if finish the book what do we get?"
+*CHi:	&=vocalises
+*MOT:	kuai dian we finish the book wo men zai wan
+*CHI:	&=cries
+*ASH:	ok one more, you can choose one more than you sit with mommy
+*ASH:	xuan yi ge
+*CHI:	&=vocalises
+*MOT:	eh xxx can you don't be so rough?
+*CHI: &=vocalises
+*MOT:	dialect ni ge mommy dialect hao bu hao?
+*MOT:	then mommy finish storybook
+*MOT:	come, come darling
+*MOT:	xxx your cup
+*MOT:	sit with mommy, come
+*MOT:	yes ok come
+*MOT:	mother duck met the other turtle
+*MOT:	and she asks the other turtle "have you seen my duckling?"
+*MOT:	but the turtle also didn't see the duckling
+*MOT:	mother duck met the bbbeaver
+*MOT:	and ask the beaver "have you seen my duckling?"
+*MOT:	but the beaver also didn't see the missing duckling
+*MOT:	can you find the duckling, duckling?
+*MOT:	do you know where the duckling is?
+*MOT:	mother duck continued to search for the missing duckling
+*MOT:	she went under the water and she saw the fish
+*MOT:	she asked the fish "have you see my duckling?"
+*MOT:	but the fish did not see the missing duckling
+*MOT:	uh uh uuuuuh 
+*MOT:	mother duck met another duck
+*MOT:	you see, "whats this?"
+*MOT:	kayla
+*MOT:	mother duck saw another duck and asked her "have you seen my duckling?"
+*MOT:	but the other mother duck also hasn't seen her duckling
+*MOT:	mother duck continued searching and turned around
+*MOT:	"ooh"
+*CHI:	&=squeals
+*MOT:	xxx the missing duckling
+*CHI:	&=vocalises
+*MOT:	uh, she, the missing duckling, followed mother duck and went home and slept
+*MOT:	"goodnight"
+*MOT:	the end
+@End

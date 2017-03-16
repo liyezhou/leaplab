@@ -1,0 +1,152 @@
+@Unicode
+@Begin
+@Languages:	eng
+@Participants:	MOT Rynette Mother, CHI Jace_Raphael_Chua Child
+@ID:	eng||MOT||female|||Mother|||
+@ID:	eng||CHI|1;5.13|female|||Child|||
+@Date:	26-OCT-2016
+@Location:	Home Testing
+@Comment:	duration of recording 3 minutes 53 seconds
+@Comment:	transcribed by Xin Yun, checked by Nadiah, checked by Debbie
+@Start
+*MOT:	let's read book.
+*MOT:	<what's this> [x 2]?
+*CHI:	&=vocalises.
+*MOT:	huh?
+*MOT:	duck.
+*CHI:	duck.
+*MOT:	say duck.
+*CHI:	duck.
+*MOT:	these are the baby ducks.
+*MOT:	ducklings.
+*CHI:	ducklings.
+*MOT:	how many are there?
+*CHI:	one?
+*MOT:	one two.
+*CHI:	two.
+*MOT:	three four.
+*CHI:	&=vocalises.
+*MOT:	five six seven.
+*CHI:	seven.
+*MOT:	eight.
+*CHI:	&=vocalises.
+*MOT:	eight say eight.
+*CHI:	eight.
+*MOT:	eight ducklings.
+*MOT:	what's this?
+*CHI:	&da [x 3].
+*MOT:	butterfly.
+*CHI:	&da &ter &ty.
+*MOT:	butterfly.
+*CHI:	&=vocalises.
+*MOT:	yeah so this book is have you seen my duckling.
+*MOT:	ooh early one morning, one of the duckies saw a butterfly.
+*CHI:	&=vocalises.
+*MOT:	so he left the nest to go chase it.
+*MOT:	so how many duckies are left in the nest?
+*MOT:	see?
+*MOT:	&oh wait let's count the duckies first.
+*MOT:	one two.
+*CHI:	&=whimpers.
+*MOT:	shall we turn the page?
+*MOT:	two four six seven ducklings left.
+*CHI:	&=vocalises.
+*MOT:	okay come let's see &=gasps.
+*MOT:	<what's this> [x 2].
+*MOT:	turn here.
+*MOT:	oh!
+*MOT:	mama duck came back!
+*MOT:	see, where's the mama duck?
+*MOT:	can you tell me where the mama duck is?
+*CHI:	&=vocalises.
+*MOT:	where's the mama duck?
+*CHI:	&=vocalises.
+*MOT:	where's the butterfly?
+*CHI:	fly.
+*MOT:	where's the butterfly?
+*CHI:	&=vocalises uh oh.
+*MOT:	uh oh it's here.
+*MOT:	see, and one of the ducklings &ch went to chase the butterfly.
+*MOT:	so the mama duck came back and then she said, hi kids!
+*CHI:	&=vocalises.
+*MOT:	oh, hi kids!
+*MOT:	&oh &eh where's your, siblings?
+*MOT:	&=gasps oh no one of them is missing.
+*MOT:	so she said come on let's go look for the missing duck.
+*MOT:	so all of them followed mama duck down the river to try and look for the duckling.
+*MOT:	mama duck went to look for, went, to look for the duckling and couldn't find him.
+*MOT:	so she asked the bird, have you seen my duckling?
+*MOT:	&=whispers where's the duckling?
+*MOT:	duckling?
+*MOT:	can you see?
+*MOT:	where is it?
+*MOT:	do you know where?
+*MOT:	is the duckling hiding?
+*CHI:	&=laughs.
+*MOT:	&=laughs yeah it's hiding!
+*CHI:	&=vocalises.
+*MOT:	but mama duck didn't see that so she continued to swim.
+*MOT:	and then she asked the turtle.
+*MOT:	mister turtle, have you seen my duckling?
+*MOT:	and the turtle said no.
+*CHI:	over there &=vocalises.
+*MOT:	yeah a turtle.
+*MOT:	so she continued swimming and swimming and she saw, a beaver.
+*MOT:	so she asked the beaver.
+*CHI:	there.
+*MOT:	beaver?
+*MOT:	yeah beaver.
+*CHI:	&=vocalises ,turtle.
+*MOT:	have you seen my duckling?
+*CHI:	&=whimpers.
+*MOT:	hang on baby, we're not done with the story.
+*MOT:	hey what's here?
+*MOT:	&=gasps what's this?
+*CHI:	&=gasps &=vocalises.
+*MOT:	what's that?
+*CHI:	&=vocalises.
+*MOT:	frog.
+*CHI:	frog.
+*MOT:	yeah so, the beaver said no i have not seen your duckling.
+*MOT:	so she continued to swim and swim and then she asked all the little fish.
+*MOT:	and the big fish, below, have you seen my duckling?
+*MOT:	and they all said no.
+*CHI:	turtle.
+*MOT:	nope.
+*CHI:	&=vocalises.
+*MOT:	so she continued to swim and then she saw another mama bird.
+*CHI:	&=vocalises.
+*MOT:	i don't know what bird this is.
+*MOT:	do you know what bird this is?
+*CHI:	&=vocalises.
+*MOT:	where?
+*MOT:	&=gasps, oh you found the duck!
+*MOT:	that's right, but i think mama duck still hasn't seen it.
+*MOT:	so she continued to swim <and swim> [x 2].
+*MOT:	and finally quackquack [x 2].
+*MOT:	&=gasps look!
+*CHI:	&=vocalises.
+*MOT:	mister turtle found the duck, see?
+*CHI:	&=whimpers.
+*MOT:	mister turtle found the duck and returned the duck to mama duck.
+*CHI:	&=vocalises.
+*MOT:	wait can you turn to the last page and see?
+*CHI:	&=vocalises.
+*MOT:	yes, &=gasps, thank you mister turtle.
+*MOT:	and so the mister turtle returned the duck.
+*MOT:	the &la lost duckling back to mama duck.
+*CHI:	&=whimpers.
+*MOT:	and then they all swam home.
+*MOT:	the end.
+*CHI:	&=vocalises.
+*MOT:	the end.
+*MOT:	what are they doing?
+*CHI:	duck.
+*MOT:	sleep, how do you sleep?
+*CHI:	&=snores.
+*MOT:	&=snores, how do you sleep?
+*CHI:	&=snores.
+*MOT:	yeah, the end.
+*MOT:	bye [x 2].
+*CHI:	&=whimpers.
+@End

@@ -1,0 +1,22 @@
+@UTF8
+what {[scat det:wh]} % I know what nice you met (very rare)
+what {[scat pro:wh]}
+whatcha {[scat pro:wh]} "what~aux|are~pro|you"
+whatever {[scat det:wh]} % rare
+whatever {[scat pro:wh]}
+whatie {[scat pro:wh]}
+whatsoever {[scat det:wh]} % rare
+whatsoever {[scat pro:wh]}
+which {[scat det:wh]}  % not so rare
+which {[scat pro:wh]}
+whichever {[scat det:wh]}
+whichever {[scat pro:wh]}
+who {[scat pro:wh]}
+whoever {[scat pro:wh]}
+whom {[scat pro:wh]}
+whomever {[scat pro:wh]}
+whose {[scat det:wh]}
+whose {[scat pro:wh]}
+whosever {[scat pro:wh]}
+whosoever {[scat pro:wh]}
+

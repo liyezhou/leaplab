@@ -1,0 +1,31 @@
+@UTF8
+*@a	{[scat w]}
+\c*@*	{[scat n:prop] [allo n0]}   % general case for proper nouns
+*@b	{[scat bab]}
+*@c	{[scat chi]}
+*@co	{[scat co]}
+*@d	{[scat dia]}
+\l*@f	{[scat fam]}
+*@fs	{[scat pm]}
+*@g	skip
+*@i	{[scat int]}
+*@k	{[scat n:let] [allo n0]}
+*@l	{[scat n:let] [allo n0]}
+\c*@n	{[scat n:prop]}
+\l*@n	{[scat neo]}
+*@o	{[scat on]}
+*@p	{[scat phon]}
+*@pm	{[scat pm]}
+*@q	{[scat meta]}
+*@si	{[scat sing]}
+*@sl	{[scat sign]}
+*@s:*	{[scat L2]}
+*@s$*	{[scat L2]}
+*@sas	{[scat sas]}
+\c*@s	{[scat n:prop] [L2 +]}
+\l*@s	{[scat L2]}
+*@t	{[scat test]}
+*@u	{[scat uni]}
+*@wp	{[scat wplay]}
+*@x	{[scat unk]}
+*@z:*	{[scat unk]}

@@ -1,0 +1,116 @@
+@Unicode
+@Begin
+@Languages:	eng
+@Participants:	MOT Jolin_Leoe Mother, CHI J'Don_Chua Child
+@ID:	eng||MOT||female|||Mother|||
+@ID:	eng||CHI|1;5.24|male|||Child|||
+@Date:	13-NOV-2016
+@Location:	Lab Testing
+@Comment:	duration of recording 4 minutes 21 seconds
+@Comment:	transcribed by Elsie, checked by Wenqi, checked by Debbie
+@Start
+*CHI: &=sings. [+ bch]
+*MOT: (o)kay come sit down, mummy read story. [+ bch]
+*CHI: duck [x2].
+*MOT: yes, duck [x2].
+*MOT: xxx sit here, &=vocalises, xxx xxx.
+*CHI: &=vocalises.
+*MOT: today we are going to read "have you seen my duckling?".
+*MOT: <di4 di4>@s:zho, have you seen my duckling?
+*MOT: okay, "early one morning".
+*MOT: there's so many ducklings waiting for their mummies.
+*MOT: and the mummy came back home.
+*MOT: and the ducklings are welcom(ing) the mummy.
+*MOT: hello mummy!
+*MOT: xxx.
+*CHI: <can I> [x 2]?
+*MOT: and the mummy duckling start counting.
+*CHI: shsh@b [x2].
+*CHI: shsh@b.
+*MOT: where is the duckling?
+*CHI: shsh@b.
+*MOT: one little duckling, two little duckling, three little duckling, four
+  little duckling, five little duckling, six little duckling, seven little
+  duckling.
+*CHI: <shsh@b> [x7].
+*CHI: &=squeals.
+*CHI: <shsh@b> [x2]
+*MOT: where is the last one go?
+*CHI: shsh@b.
+*CHI: zu@b.
+*MOT: where is the last one go?
+*MOT: shsh@b.
+*MOT: no one know.
+*CHI: shsh@b [x2].
+*MOT: and the mummy duckling, and the seven little, <and the> [x 2].
+*MOT: seven little ducklings start to find the last little duckling.
+*MOT: the eight(th) little duckling.
+*MOT: so off they go to find the eight(h) little duckling.
+*CHI: &=vocalises.
+*MOT: "have you seen my duckling?" asked the mummy duck.
+*MOT: and the bird replied, "no, I didn't saw your duckling".
+*CHI: &=coughs.
+*MOT: where is the eight(h) little duckling went?
+*MOT: and the mummy went around and find other people to ask.
+*MOT: and ask the tortoise, "have you seen my duckling?"
+*CHI: yesh@b.
+*MOT: "have you seen my duckling?".
+*MOT: where is the eighth little duckling go?
+*CHI: can I <shsh@b> [x2]?
+*MOT: and the tortoise replied, "no [x2]".
+*CHI: shsh@b [x2].
+*CHI: gif@b [x2].
+*CHI: gif@b.
+*MOT: (o)kay, so, the mummy duck continue to find the little duckling.
+*CHI: gif@b [x2].
+*CHI: &=squeals.
+*MOT: this time, they went to the pond.
+*CHI: &=squeals.
+*CHI: I.
+*MOT: and asked the otter!
+*CHI: &=vocalises.
+*MOT: "have you seen my duckling?" [x2].
+*CHI: &=vocalises.
+*MOT: and the otter said, "no, where is the eighth little duckling gone?".
+*CHI: shsh@b.
+*MOT: where?
+*CHI: &=squeals.
+*MOT: and the mummy, duck went down, under the water and find the eighth little duckling.
+*MOT: and asked the fish, "have you seen my duckling?".
+*MOT: and the fish say, "no!".
+*CHI: &=squeals.
+*CHI: no?
+*CHI: not xxx [?].
+*MOT: and the mummy duckling start to go around and ask other duck, "have you
+  seen my duckling?".
+*MOT: "did you see my duckling?".
+*CHI: &=vocalises.
+*MOT: "have you seen my duckling?".
+*MOT: have you seen?
+*MOT: where?
+*MOT: did you see the duckling?
+*CHI: &=vocalises.
+*MOT: where?
+*MOT: where's the duckling?
+*MOT: and the other ducks say, "no!".
+*CHI: can I?
+*MOT: and the mummy turn the head around, and saw the eight(h) little duckling!
+*CHI: shsh@b.
+*CHI: sh@b.
+*CHI: &=squeals.
+*MOT: and off they go home together.
+*MOT: and they sleep together (i)n the nest through the night.
+*MOT: yeah!
+*CHI: I xxx xxx. [+ bch]
+*CHI: I go xxx xxx. [+ bch]
+*CHI: okay xxx xxx. [+ bch]
+*MOT: oh! oh [x4]. [+ bch]
+*CHI: &=cries. [+ bch]
+*MOT: orhor@s:sce. [+ bch]
+*MOT: so xxx. [+ bch]
+*MOT: why xxx <who ask you> [x2] so naughty. [+ bch]
+*CHI: why [x2] do that. [+ bch]
+*CHI: why do that, xxx. [+ bch]
+*MOT: no, xxx xxx stand properly. [+ bch]
+*CHI: why do that xxx xxx.  [+ bch]
+@End

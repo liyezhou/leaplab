@@ -1,0 +1,64 @@
+@Unicode	
+@Begin	
+@Languages:	eng	
+@Participants:	MOT Target_Mother *CHI Child	
+@ID:	eng|Lara|MOT|||||Target_Mother|||	
+@ID:	eng|Lara|CHI|||||Child|||	
+@Date:	Aug 18, 2015	
+@Location:	Bishan
+@Comment:	Filename:	VS023_Narration Transcript_Dilu.txt	
+@Comment:	4:18	
+@Comment:	transcribed by Yezhou	
+@Situation:	
+@Start	
+*MOT:	this book is about a mum duck
+*MOT:	duck kwek kwek
+*MOT:	can you sit down
+*MOT:	sit down first
+*MOT:	sit down okay 
+*MOT:	look look
+*MOT:	there is so many little ducklings right
+*MOT:	and there are many little ducklings
+*MOT:	and there is one mummy duck
+*MOT:	say hello to mummy duck
+*MOT:	hello yes okay
+*MOT:	now mummy duck swims to all the little ducklings and they give mummy duck give a kiss
+*MOT:	mummy kiss
+*MOT:	they go out to go swimming
+*MOT:	oh all of them want to go and then have you seen my duckling
+*MOT:	i don't know what is this
+*MOT:	what's this
+*MOT:	another kind of bird it looks like a duck but not
+*MOT:	okay and it says hello
+*MOT:	everyone says hello
+*MOT:	and i think mummy duck is missing one little duckling right
+*MOT:	and she is going to look for this
+*MOT:	then mummy duck goes to this something like a turtle a turtle
+*MOT:	and says have you seen my
+*MOT:	no i don't think so
+*MOT:	and this beaver is here at the corner
+*MOT:	what do we do
+*MOT:	maybe we ask the same thing
+*MOT:	okay alright
+*MOT:	then this mummy duck says
+*MOT:	hi mr beaver have you seen my duckling
+*MOT:	hi good morning 
+*MOT:	oh look it's a fish
+*MOT:	the fish is swimming swimming that's right
+*MOT:	and the mummy duck asked the fish have you seen my baby duck
+*MOT:	the fish then goes swimming swimming
+*MOT:	the duck goes to another kind of bird
+*MOT:	says have you seen my duckling
+*MOT:	and what does it say
+*MOT:	so i have my own here
+*MOT:	then mummy duck swim swim around and tries to find 
+*MOT:	and look oh 
+*MOT:	look here look
+*MOT:	i ve found her
+*MOT:	see she is here
+*MOT:	and everyone is happy
+*MOT:	now bye bye
+*MOT:	everybody's sleeping
+*MOT:	can you sleeping sleeping
+*MOT:	so now sleeping
+*MOT:	now do you like this story

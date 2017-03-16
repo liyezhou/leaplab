@@ -1,0 +1,98 @@
+@Unicode
+@Begin
+@Languages:	eng, zho
+@Participants:	MOT Yennifer Mother, CHI Oliva_Koh Child
+@ID:	eng||MOT||female|||Mother|||
+@ID:	eng||CHI|1;7.19|female|||Child|||
+@Date:	01-NOV-2015
+@Location:	Home Testing
+@Comment:	duration of recording 3 minutes 54 seconds
+@Comment:	start at 20 seconds
+@Comment:	transcribed by Yijun, checked by Ashley
+@Comment:	narration of wordless picture book
+@Start
+*MOT:	have you seen my duckling?
+*MOT: 	by nancy stanfield.
+*MOT:	the mother duck and the.
+*MOT: 	one two three four five six seven eight.
+*MOT:	eight little ducks, yeah.
+*CHI:	&=vocalises.
+*MOT:	little ducks.
+*CHI:	little ducks.
+*MOT:	early one morning.
+*MOT: 	there are the eight little ducks.
+*MOT:	one two three four five six seven.
+*MOT: 	oh no its seven.
+*CHI:	one two three four.
+*MOT:	five, six, seven.
+*MOT:	xxx the other one.
+*MOT: 	eight little ducks.
+*MOT:	come, see again, see.
+*MOT:	seven little ducks waiting for the mommy.
+*MOT:	you see, is this the mommy duck?
+*MOT:	yes?
+*CHI:	where's mommy duck?
+*MOT:	there, mommy duck.
+*CHI:	mommy duck?
+*MOT:	yeah, you see.
+*MOT: 	mommy duck.
+*MOT:	there are seven little ducks waiting for mommy duck to come home.
+*MOT:	but the other one little duck went away.
+*CHI:	&=vocalises.
+*MOT:	the little duck that ran away, okay?
+*MOT:	mei@s mei@s you want to see?
+*MOT: 	come.
+*MOT:	you see, come count how many ducks again.
+*MOT:	one two three four five six seven.
+*CHI:	one two three four five six seven.
+*MOT:	so there's seven little ducks following the mommy.
+*MOT:	oh, where're they going?
+*MOT:	there.
+*CHI:	there!
+*MOT:	oh mommy duck.
+*MOT: 	there, they are finding the little duck that went missing.
+*MOT:	so the mommy say.
+*MOT: 	ask the bird.
+*MOT:	have you seen my duckling?
+*MOT:	oh, did you see the duckling?
+*MOT: 	the little duckling? this one?
+*CHI:	yeah, this one.
+*MOT:	yeah, this one is the missing duck.
+*MOT:	have you seen my duckling?
+*MOT: 	she asks the turtle.
+*MOT:	this the turtle.
+*MOT: 	did you see my litle duck?
+*MOT:	is this one?
+*CHI:	&=vocalises.
+*MOT:	&uhm this one.
+*MOT: 	the little duck went missing.
+*MOT:	and then she ask this animal.
+*MOT: 	have you seen my duckling?
+*MOT:	did you see, mei@s mei@s ?
+*MOT: 	did you see the duckling?
+*CHI:	nooooooooooo.
+*MOT:	nooo, then how about asking the fish?
+*CHI:	&=vocalises.
+*MOT:	see.
+*CHI:	no [x 4] &=cries.
+*MOT: 	no, don't want &uh?
+*MOT:	ok la@s , ok?
+*MOT:	have you seen my duckling?
+*MOT:	how about this?
+*MOT: 	how about this mei@s mei@s ?
+*MOT:	mei@s mei@s ?
+*MOT:	where did you go, mei@s mei@s ?
+*MOT:	hey, come.
+*MOT:	come, mommy tell story.
+*MOT:	sit down mei@s mei@s.
+*MOT:	have you seen my duckling?
+*MOT:	still cannot find.
+*MOT: 	see, aiyoyo@s.
+*MOT:	&k then finally the turtle found him.
+*MOT:	there!
+*MOT:	the little duck now went home with the mommy and the siblings.
+*MOT:	you see.
+*MOT: 	they are still together.
+*MOT:	finish!
+*MOT:	the end.
+@End

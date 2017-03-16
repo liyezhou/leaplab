@@ -1,0 +1,256 @@
+@Unicode
+@Begin
+@Languages:	eng
+@Participants:	MOT Preeti_Khicha Mother, CHI Saira_Khicha Child
+@ID:	eng||MOT||female|||Mother|||
+@ID:	eng||CHI|1;6.23|female|||Child|||
+@Date:	10-APR-2015
+@Location:	Home Testing
+@Comment:	duration of recording 9 minutes 30 seconds
+@Comment:	transcribed by Ashley
+@Start
+*CHI:	&=vocalizes.
+*MOT:	Saira, you like the duck?
+*MOT:	what does the ducky do?
+*MOT:	tell aunty what does, the ducky do.
+*MOT:	&=whistles, you like the duck?
+*MOT:	yeah, those are ducks.
+*MOT:	that's the mama duck.
+*MOT:	and these are all the baby ducks.
+*MOT:	quack [x 2].
+*MOT:	Saira what does the duck do?
+*MOT:	quack [x 2].
+*CHI:	&=vocalizes.
+*MOT:	yeah.
+*MOT:	we have a duck when we take a bath?
+*MOT:	you remember?
+*CHI:	&=vocalizes.
+*MOT:	wow.
+*MOT:	there are so many of them.
+*MOT:	&k dyou [: do you] wanna [: want to] count?
+*MOT:	okay.
+*CHI:	&=laughs ka@b.
+*MOT:	yeah, that's the mama duck.
+*MOT:	quack [x 2].
+*MOT:	she's wading through the, lake!
+*MOT:	she's swimming through the lake!
+*MOT:	and these are little plants here.
+*MOT:	Saira what's this?
+*MOT:	is that a butterfly?
+*MOT:	Saira, what does a butterfly do baby?
+*MOT:	we saw some yesterday at the park.
+*MOT:	oh ya, you saw them on Primalili's t-shirt.
+*MOT:	yeah, that's the butterfly.
+*MOT:	quack [x 2].
+*MOT:	Saira say quack [x 2]?
+*MOT:	say quack [x 2].
+*MOT:	quack [x 2].
+*CHI:	&=vocalizes.
+*MOT:	that's the mama duck.
+*MOT:	you remember the nursery rhyme.
+*MOT:	&=sings five little ducks went swimming one day.
+*MOT:	&=sings over the hills and far away.
+*MOT:	&=sings mama duck said quack [x 4].
+%com:	mother sings nursery rhyme
+*CHI:	&=vocalizes.
+*MOT:	xxx.
+%com:	mother talks to experimenter about child becoming conscious with experimenter present
+*MOT:	see that's the mama duck.
+*MOT:	aunty's going, bye!
+%com:	experimenter leaves the room.
+*MOT:	so see Saira, that's the mama duck.
+*MOT:	and these are little baby ducks.
+*MOT:	see they're giving kisses to their mama.
+*MOT:	can you give mama a kiss?
+*MOT:	can you give mama a kiss?
+*MOT:	&=kisses.
+*MOT:	thank you!
+*MOT:	see they're all giving their mama a kiss.
+*MOT:	one kiss two kiss three kiss four kiss five, six and seven kisses!
+*MOT:	this mama has seven babies!
+*CHI:	&=vocalizes.
+*MOT:	you wanna [: want to] read the next page?
+*MOT:	oh, they're all swimming in the lake.
+*MOT:	they're all following their mama!
+*MOT:	where are they going?
+*MOT:	are they going to look for some food?
+*MOT:	oh, or do they want to drink some water?
+*MOT:	where are they going Saira?
+*CHI:	&=vocalizes.
+*MOT:	oh right!
+*MOT:	they gonna [: going to] look for some food.
+*MOT:	oh, it seems like they've gone to see the missing duckling.
+*CHI:	plaka@b &=vocalizes.
+*MOT:	where's the.
+*CHI:	&=vocalizes.
+*MOT:	okay Saira, see there are how many duck, ducklings.
+*MOT:	one two three four five six seven!
+*MOT:	and there's one duckling which is missing.
+*CHI:	paka@b!
+*MOT:	can you find the missing duckling here?
+*CHI:	&=vocalizes.
+*MOT:	where's the missing duckling?
+*MOT:	here!
+*MOT:	the duckling is hiding behind the flowers!
+*MOT:	is she injured?
+*MOT:	did she get hurt?
+*MOT:	and these are pretty flowers.
+*MOT:	Saira see these are your favourite flowers.
+*MOT:	they are lotuses.
+*MOT:	the white lotus.
+*MOT:	say lotus?
+*CHI:	&t &=vocalizes.
+*MOT:	what's that?
+*CHI:	flower.
+*MOT:	flower, that's right!
+*CHI:	oh.
+*MOT:	oh!
+*MOT:	and &w what about the bird?
+*MOT:	can we see the bird?
+*MOT:	okay see the the duck is asking the bird, have you seen the ducklings.
+*CHI:	&=vocalizes.
+*MOT:	what are ducklings?
+*MOT:	baby ducks, are called ducklings!
+*CHI:	&=vocalizes.
+*MOT:	yeah, they're all going hunting for the duckling.
+*MOT:	where is she hiding?
+*MOT:	where is the duckling?
+*MOT:	we were &pl, you know how we play hide and seek at home?
+*MOT:	but they've lost the duckling.
+*CHI:	lost.
+*MOT:	yeah, they've lost the duckling.
+*MOT:	so then they ask the bear.
+*CHI:	&=vocalizes.
+*MOT:	the bear, the bear they ask the bear where's the duckling?
+*MOT:	and they also ask the little tortoise.
+*MOT:	have you seen the tortoise okay mama has never shown you a tortoise, that's a new one that you'll have to see.
+*CHI:	&=vocalizes.
+*MOT:	yeah!
+*MOT:	what's that?
+*CHI:	dada@b, dada@b.
+*MOT:	butterfly.
+*MOT:	and these, what are these?
+*CHI:	&=whispers.
+*MOT:	say it loudly.
+*MOT:	flowers!
+*MOT:	so then they ask.
+*MOT:	oh i think this is a sea otter.
+*CHI:	dada@b klada@b!
+*MOT:	have you seen my ducklings?
+*CHI:	dada@b dada@b.
+*MOT:	look Saira, there's a little froggy here.
+*CHI:	&=imit:frog.
+*MOT:	ribbit [x 2], that's right!
+*MOT:	what does the froggy do?
+*CHI:	&imit:frog.
+*MOT:	ribbit [x 2]
+*CHI:	&=laughs.
+*MOT:	yeah!
+*MOT:	the froggy jumped into the water!
+*MOT:	into the lake.
+*MOT:	and oh my god, there are so many fishes inside the water.
+*MOT:	there's a little frog.
+*MOT:	and there's a fish.
+*MOT:	and there's a tortoise!
+*MOT:	all the ducklings, see.
+*MOT:	one two three four five six seven.
+*CHI:	&=vocalizes boba@b.
+*MOT:	the seven ducklings are all looking, inside the water.
+*CHI:	&=vocalizes &b &b &b &b &b.
+*MOT:	they're all looking for the eighth duckling.
+*CHI:	buh@b yeah.
+*MOT:	what's that?
+*MOT:	that's not Saira.
+*MOT:	now mama is too tired.
+*MOT:	she's like i still can't find my duckling.
+*MOT:	I'm so sad.
+*CHI:	djus@b.
+*MOT:	yeah, she's really sad, she can't find one of her babies!
+*CHI:	dus@b.
+*MOT:	and then she goes hunting some more!
+*CHI:	more.
+*MOT:	more, that's right she goes hunting some more!
+*MOT:	what's that?
+*CHI:	more.
+*MOT:	that's &w what is that baby?
+*CHI:	more.
+*MOT:	that's a flower.
+*MOT:	that's a white flower.
+*CHI:	&=vocalizes.
+*MOT:	yeah, can you find the duckling, the missing one?
+*CHI:	&=vocalizes.
+*MOT:	where is it?
+*MOT:	oh, the tortoise found the duckling!
+*MOT:	see she's hiding here.
+*MOT:	she was hiding here.
+*MOT:	one two three four five six the &s &s.
+*CHI:	&=laughs.
+*MOT:	yeah, we found it!
+*MOT:	just the way you hide and mama finds you, the tortoise found the duckling.
+*MOT:	now everybody is so happy!
+*MOT:	yay!
+*CHI:	&=vocalizes.
+*MOT:	ya, every &b everyone is really happy because we found the duckling!
+*CHI:	&=vocalizes.
+*MOT:	that's right!
+*MOT:	and then, look!
+*MOT:	they 0are all going back home happy.
+*MOT:	so how many ducklings are there now?
+*CHI:	&=vocalizes.
+*MOT:	one two three four five six seven and eight!
+*CHI:	&=laughs.
+*MOT:	and, the mama duck is so happy because she has all her children together again!
+*CHI:	dada@b.
+*MOT:	you like, you like these white flowers?
+*CHI:	no.
+*MOT:	you don't like them?
+*MOT:	we've never seen flowers in the water, have we?
+*MOT:	we generally see flowers &w in the park, in the playground.
+*CHI:	&=vocalizes.
+*MOT:	but &d that mom has to show you the water flowers, right?
+*CHI:	ha@b.
+*MOT:	yeah!
+*CHI:	yeye@b.
+*MOT:	those are some, we haven't seen them yet.
+*CHI:	ha@b fe@b!.
+*MOT:	now they're so tired!
+*MOT:	they're so tired of you know, hunting for the duckling.
+*MOT:	what are they doing?
+*CHI:	kaka@b.
+*MOT:	they're all sleeping.
+*MOT:	&=gasps wow they're all sleeping.
+*MOT:	and see the moon is out.
+*MOT:	Saira what do we sing when we sleep?
+*MOT:	&=sings twinkle twinkle little star.
+*CHI:	&=vocalizes.
+*MOT:	&=sings how i wonder what you are.
+*CHI:	&=vocalizes.
+*MOT:	and what's that Saira?
+*CHI:	&=vocalizes.
+*MOT:	what is the frog doing?
+*CHI:	&=imit:frog.
+*MOT:	ribbit.
+*MOT:	ribbit [x 2].
+*MOT:	oh yeah, they're all sleeping, that's right.
+*MOT:	and what is that froggy doing?
+*CHI:	&mm.
+*MOT:	froggy's just sitting there.
+*MOT:	I think he's also trying to fall asleep.
+*MOT:	right?
+*CHI:	&=vocalizes.
+*MOT:	what's the mama duck doing?
+*CHI:	&=vocalizes.
+*MOT:	sleeping, right!
+*MOT:	and what are the ducklings doing, the baby ducklings?
+*MOT:	sleeping!
+*MOT:	they all doing cuddle cuddle, with their mamas.
+*MOT:	they all so, they're all so calm at night.
+*MOT:	because they all seem to be really tired.
+*MOT:	when we go out and we do.
+*MOT:	when we play hide and seek at home or when we go play hide and seek with our friends, we also get tired right?
+*MOT:	then we have a good night's sleep after that.
+*MOT:	then we are bright and fresh in the morning!
+*MOT:	right?
+*MOT:	okay.
+*MOT:	come, let's go for lunch.
+@End

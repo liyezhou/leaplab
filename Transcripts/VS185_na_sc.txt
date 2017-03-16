@@ -1,0 +1,175 @@
+@Unicode
+@Begin
+@Languages:	eng
+@Participants:	MOT Hairani_Bte_Asri Mother, CHI Muhd_Hasbi_Bin_Haliff Child
+@ID:	eng||MOT||female|||Mother|||
+@ID:	eng||CHI|1;6.12|male|||Child|||
+@Date:	04-Dec-2016
+@Location:	Lab Testing
+@Comment:	duration of recording 8 minutes 4 seconds
+@Comment:	transcribed by Joseph, checked by Debbie, checked by
+@Start
+*MOT: okay, come Hasbi come.
+*MOT: let us read this book together.
+*MOT: &ah, Hasbi come.
+*MOT: have you seen my duckling?
+*MOT: Hasbi, have you seen my duckling?
+*MOT: come here.
+*MOT: have you seen my duckling?
+%com: mother tries to get the child to focus on the book.
+*MOT: (o)kay, have you seen my duckling?
+*MOT: by Nancy Tafuri, have you seen my duckling?
+*MOT: early one morning.
+*MOT: you see how many ducklings are there?
+*MOT: one, two, three, four, five, six, seven!
+*MOT: seven little ducklings!
+*MOT: xxx come Hasbi.
+*MOT: xxx.
+%com: mother repositions the child before resuming the story.
+*MOT: (o)kay, early one morning, Hasbi, xxx.
+*CHI: &=vocalises.
+*MOT: &ch [x9], &ch [x9], &ch [x7].
+*MOT: xxx.
+*MOT: (o)kay, Hasbi, this one, xxx.
+*MOT: www.
+*MOT: come here, <sit here>[x2], come, okay.
+*MOT: alright come, sit here, &ah yes, sit here.
+*MOT: okay, come, okay.
+%com: mother repositions the child before resuming the story.
+*MOT: early one morning.
+*MOT: Hasbi, no [x 3], come here.
+*MOT: okay, look at this.
+*MOT: what is this?
+*MOT: mother duck.
+*MOT: Hasbi, mother duck.
+*MOT: &=chirps [x 4].
+*CHI: &=vocalises.
+*MOT: and her ducklings.
+*MOT: one, two, three, four, five, six.
+*MOT: six little ducklings, <&=chirps> [x 3], xxx.
+%com: mother tries to engage child.
+*MOT: Hasbi xxx here.
+*MOT: six little ducklings.
+*MOT: &=chirps [x 11].
+*CHI: &=vocalises.
+*MOT: Hasbi.
+*CHI: &=vocalises.
+*MOT: okay?
+*MOT: then look at this.
+%com: mother regains the interest of the child before resuming the story.
+*MOT: &ooh.
+*MOT: oh no, there's too many toys there. [+ bch]
+*MOT: &=laughs, Hasbi here, xxx, <come here> [x2].
+*MOT: see look at this now www.
+*MOT: you <touch the book> [x2].
+*MOT: okay, no[x4], you don't disturb please.
+*MOT: please don't disturb.
+*CHI: &=whimpers.
+*MOT: okay come, Hasbi come here.
+*MOT: oh, you throw the book?
+*MOT: &=sighs, Hasbi come.
+*MOT: you see, mother duck is talking to her, is talking to her chicks.
+*MOT: Hasbi <can you keep all the toys> [x2]. [+ bch]
+*MOT: okay come here read the book with me.
+*CHI: &=vocalises.
+*MOT: come, xxx wants to read as well.
+*MOT: xxx wants to read the book.
+*MOT: Hasbi, xxx wants to read the book.
+*MOT: okay, good job.
+*MOT: okay.
+*MOT: (o)kay, come, yes let's read the book.
+*MOT: &ahh, have you seen my duckling?
+*MOT: okay, have you seen my duckling?
+*MOT: &=chirps [x 7].
+*MOT: Hasbi, come here!
+*MOT: Hasbi, here.
+*MOT: okay, Hasbi early one morning, &=chirps [x 7].
+*MOT: come Hasbi.
+*MOT: early one morning, mother duck went to see her little ducklings.
+*MOT: Hasbi, &ooh so cute.
+*MOT: so cute, okay.
+*MOT: then what happens?
+*CHI: &=vocalises.
+*MOT: what happens?
+*CHI: &=vocalises.
+*MOT: oh you see mother duck.
+*MOT: mother duck kissed, kissed all her ducklings.
+*CHI: &=vocalises.
+*MOT: &ooh so sweet.
+*MOT: come, how you kiss?
+*MOT: &muack, like that, &muack.
+*MOT: &=chirps [x 7], &=chips [x3].
+*MOT: okay? then what happen?
+*CHI: &=vocalises.
+*MOT: then what happen after that?
+*CHI: &=vocalises.
+*MOT: okay, then mother duck went to look for food.
+*MOT: with all her little ducklings.
+*MOT: Hasbi, www@s:mal, www@s:mal.
+*MOT: here, how many ducklings are there?
+*MOT: one, two, three, four, five, six.
+*CHI: &=vocalises.
+*MOT: yes, six little ducklings.
+*MOT: and what happen(ed) to the last duckling Hasbi?
+*MOT: what happen(ed) to the last duckling?
+*MOT: the last duckling, did it follow mother duck?
+*MOT: www duck, www duck.
+*MOT: &ah okay we shall see the next page.
+*MOT: &ah, you see mother duck went to ask.
+*MOT: "have you seen my duckling?".
+*MOT: "have you seen my duckling?".
+*MOT: xxx.
+*CHI: &=vocalises.
+*MOT: okay? next page.
+*MOT: then she went.
+*MOT: and when, Hasbi, @sh, she went to meet a beaver.
+*CHI: &=vocalises.
+*MOT: &=laughs, a beaver you see.
+*MOT: this is a beaver is fighting the tea, &ah the tree trunk.
+*CHI: &=vocalises.
+*MOT: yes, and what did the mother.
+*CHI: &=vocalises.
+*MOT: and what did the mother duck ask?
+*MOT: "have you seen my duckling?".
+*MOT: "have you seen my duckling?".
+*MOT: www? yes or no? www.
+*MOT: no? which one?
+*MOT: do you think the beaver saw mother duck's duckling?
+*MOT: okay, Hasbi, next page.
+*MOT: (o)kay, mother duck.
+*MOT: now mother duck ask beaver.
+*MOT: (o)kay, have you seen my duckling Hasbi?
+*MOT: Hasbi, have you seen mother duck's duckling?
+*MOT: yes or no?
+*MOT: yes or no? &=laughs, come here Hasbi.
+*MOT: Hasbi.
+*CHI: &=laughs.
+*MOT: then mother duck asked, "have you seen my duckling?".
+*CHI: &=vocalises.
+*MOT: asked the fishes, and the turtles.
+*CHI: &=vocalises.
+*MOT: Hasbi, come xxx here.
+*MOT: so have you seen my duckling?
+*MOT: "no" said the fish.
+*MOT: then mother duck asked the next animal.
+*MOT: "have you seen my duckling?".
+*MOT: what did it say?
+*MOT: &ah, it said no I guess.
+*CHI: &=vocalises.
+*MOT: and the next page.
+*MOT: okay, mother duck finally saw.
+*MOT: you see the, xxx, turtle.
+*MOT: the turtle, with the terrapin, with, the duckling.
+*MOT: Hasbi, finally.
+*MOT: the turtle found the duckling, yay, &=claps.
+*MOT: yay, okay.
+*MOT: then what happen next?
+*MOT: oh and finally, it joined it's siblings.
+*MOT: and at night.
+*MOT: you see mother duck, is sleeping with all her little ducklings.
+*MOT: yay.
+*MOT: yay, okay we are done.
+*CHI: &ha.
+*MOT: okay.
+*CHI: &hmm, &ee [x2].
+@End

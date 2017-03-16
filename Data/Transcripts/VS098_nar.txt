@@ -1,0 +1,143 @@
+@Unicode
+@Begin
+@Languages:	zho, eng
+@Participants:	MOT Tan_Si_Ni Mother, CHI Loke_Xuan_Ting_Olivia Child
+@ID:	zho||MOT||female|||Mother|||
+@ID:	zho||CHI|2;1.16|female|||Child|||
+@Date:	24-MAY-2016
+@Location:	Lab
+@Comment:	duration of recording 12 minutes 32 seconds
+@Comment:	transcribed by Carol, checked by Joseph, checked by Wenqi
+@Start
+@Comment: transcribed from 3:03 from audio
+*MOT:	zhe4 shi4 shen2 me?
+*CHI:	&=vocalizes.
+*MOT:	[- eng] butterfly, yes!
+*MOT:	okay@s, wo3 men kan4 shu1 xian1.
+*MOT:	lai2 mummy@s read@s gei2 ni3, mummy read@s storybook@s okay@s?
+*MOT:	[- eng] have you seen my duckling?
+*MOT:	[- eng] okay?
+*MOT:	yao4 wan2 na4 ge4 duck@s ah?
+*MOT:	wo3 men2 kan4 wan2 shu1 xian1 cai2 wan2 na4 duck@s.
+*MOT:	okay@s ni3 na2 na4 ge4 duck@s.
+*MOT:	ah ni3 hold@s, hold@s na4 ge4 duck@s.
+*MOT:	okay@s, hold@s na4 ge4 duck@s ah.
+*MOT:	mummy xxx, okay?
+*MOT:	wo3 men lai2 kan4 shu1 xian1 okay@s.
+*MOT:	mm, wo3 men kan4 shu1 xian1!
+*MOT:	ni3 ji4 de2 ma, wo3 men &h chang4 na4 ge4.
+*MOT:	[- eng] five little ducklings went out one day.
+*MOT:	[-eng] hmm, early one morning.
+*MOT:	zhe4 bian1 you3 ji3 zhi1 duck@s?
+*MOT:	[-eng] one two three four five six seven.
+*MOT:	hor@s:sce?
+*MOT:	[-eng] mother duck quack [x3].
+*MOT:	[-eng] quack [x5] jiao4? mother duck, hor@s:sce?
+*MOT:	[-eng] after that, mother duck quack [x3]
+*MOT:	[-eng] one two three four five six seven.
+*MOT:	eh ni3 kan4, zhe4 ge4 duck@s pao3 diao4 liao@s:sce.
+*MOT:	eh na4 ta1 pao3 qu4 na3 li3 mother@s duck@s you3 mei2 you3 kan4 dao4?
+*MOT:	[-eng] one two three four five six seven &=gasps.
+*MOT:	ni3 kan4!
+*MOT:	[-eng] where's the duck?
+*MOT:	na4 duck@s [x2] pao3 diao4 le.
+*MOT:	huh mother@s, mother@s duck@s zhi1 dao4 ma?
+*MOT:	mummy@s ta1 you3 mei2 you3 kan4 dao4?
+*MOT:	okay@s wo3 men kan4 ah.
+*MOT:	okay@s, mummy@s duck@s zai4 zhao3, mummy@s duck@s zai4 zhao3 duckling@s.
+*MOT:	[-eng] have you seen my duckling?
+*MOT:	ta1 wen4 &zh zhe4 ge4.
+*MOT:	[-eng] have you seen my duckling?
+*MOT:	ni3 you3 mei2 you3 kan4 dao4 ta1 de4 baby@s?
+*MOT:	kan4 dao4 eh?
+*MOT:	na4 ge4 baby@s ta1 zai4 na3 li3 you3 mei2 you3 kan4 dao4?
+*MOT:	kan4 dao4 ta1 baby@s pao3 qu4 na3 li3?
+*MOT:	[-eng] there!
+*MOT:	baby@s duckling@s.
+*CHI:	&=vocalizes.
+*MOT:	okay bu4 yao4.
+*MOT:	okay wo3 men lai2, wo3 men lai2 zai4 zhao3 duck@s, baby@s duck@s.
+*MOT:	then@s deng3 yi1 xia4 zai4 zhao3.
+*MOT:	zhe4 ge4 shi4 shen2 me?
+*MOT:	wu1 gui1?
+*MOT:	zhe4 ge4 shi4 wu1 gui1.
+*CHI:	&=vocalizes.
+*MOT:	ni3 yao4 ah? ni3 yao4 wu1 gui1 ah?
+*MOT:	then@s ta1 wen4, ta1 wen4 wu1 gui1 ta1 de4 duck@s [x2] zai4 na3 li3.
+*MOT:	there@s, okay deng3 yi1 xia4.
+*MOT:	girl@s [x2] zhao3 bu4 zhao3 de2 dao4 na4 ge4 duck@s?
+*CHI:	eh?
+*MOT:	eh?
+*MOT:	bear [x2].
+*MOT:	ta1 wen4 mother@s, ma1 ma duck@s qu4 wen4 bear@s [x2] duck@s [x2] zai4 na3 li3.
+*MOT:	duck@s [x2] leh?
+*MOT:	duck@s [x2] zai4 zhe4 bian1.
+*MOT:	ta1 duo3 qi3 lai2 le.
+*MOT:	<ta1 wen4 wu1 gui1 de4 shi2 hou4> [x 2] na4 ge4 duck@s [x2] zai4 na3 li3?
+*MOT:	eh? duck@s [x2] duo3 zai4 shu4 hou4 mian4.
+*MOT:	hor@s:sce, shi4 bu4 shi4?
+*MOT:	ma1 ma duck@s mei2 you3 kan4 dao4 ta1.
+*MOT:	ma1 ma duck@s mei2 you3 kan4 dao4 ah?
+*MOT:	okay@s, so@s ma1 ma duck@s qu4 wen4 <zhe4 zhi1> [x 2] beaver@s.
+*MOT:	ni3 kan4 dao4.
+*MOT:	[-eng] have you seen my duckling?
+*MOT:	ta1 zai4 zhao3 ta1 de4 duck@s [x 2].
+*MOT:	duck@s [x 2] leh?
+*MOT:	eh zhe4 ge4 shi4 shen2 me, ta1 gang1 gang1 tiao4 jin4 qu4 shui3 you3 shen3 me4?
+*MOT:	frog@s, zhe4 shi4 frog@s.
+*MOT:	okay@s, wo3 men lai2 kan4 ta1 zhao3 bu4 zhao3 de2 dao4 ta1 de4 duckling@s.
+*MOT:	na4 ta1 jiu4 wen4 fish@s.
+*MOT:	shi4 bu4 shi4 fish@s?
+*MOT:	zhe4 shi4 fish@s
+*CHI:	<wu1 gui1> [x 2].
+*MOT:	wu1 gui1 ah!
+*MOT:	wu1 gui1 eh?
+*CHI:	&=vocalizes.
+*MOT:	wu1 gui1 zai4 zhe4 bian1!
+*MOT:	there@s zhe4 bian1 ye3 shi1 wu1 gui1!
+*MOT:	wu1 gui1.
+*MOT:	[-eng] ta1@s wen1@s have you seen my duckling?
+*MOT:	duck@s [x2] leh?
+*CHI:	&=vocalizes.
+*MOT:	ni3 zhao3 bu4 zhao3 de2 dao4 duck@s [x2]?
+*CHI:	&=vocalizes.
+*MOT:	na4 ta1 jiu4 wen4 ling4 wai4 yi1 zhi1 duck@s.
+*MOT:	[-eng] have you seen my duckling?
+*MOT:	ni3 you3 mei2 you3 kan4 dao4 na4 ge4 duckling@s zai4 na3 li3?
+*CHI:	&=vocalizes.
+*MOT:	ah, ni3 yao4 wu1 gui1?
+*MOT:	ni3 hai2 yao4 zhao3 wu1 gui1?
+*MOT:	ni3 kan4, na4 duck@s [x2] duo3 zai4 hou4 mian4 na4 ge4 ma1 ma duck@s mei2 you3 kan4 dao4.
+*MOT:	na4 duck@s [x2] duo3 zai4 zhe4 bian1, ke3 shi4 ma1 ma duck@s mei2 you3 kan4 dao4.
+*MOT:	&=vocalizes.
+*MOT:	zhe4 ge4 ye3 shi4 ling4 wai3 yi4 ge4 duck@s.
+*MOT:	wo3 kan4 you3 si4 zhi1.
+*MOT:	[-eng] one two three four.
+*MOT:	butterfly?
+*MOT:	butterfly zhe4 ge4 shi4 bu4 shi4 gen1 duck@s [x2].
+*MOT:	eh?
+*MOT:	eh, wu1 gui1?
+*MOT:	eh, eh?
+*MOT:	[-eng] one two three four five six seven.
+*MOT:	ma1 ma duck@s you4 shao3 ta1 de4 baby@s duck@s.
+*MOT:	na4 baby@s duck@s shi4 bu4 shi4 zai4 zhe4 bian?
+*MOT:	ta1 gen1 shui2 zai4 yi4 qi3?
+*MOT:	wu1 gui1 ah?
+*CHI:	ah?
+*MOT:	wu1 gui1 ah?
+*CHI:	[-eng] mama, mama.
+%COM: Child wants to eat, mother postpones the story.
+*MOT:	wu1 gui1?
+*MOT:	okay, ni3 kan4 moon@s, you3 mei2 you3 moon@s.
+*MOT:	ta1 zhao3 dao4 duck@s le mei2 you3?
+*MOT:	wo3 men2 dao4 zui4 hou4 kan4, kan4 ta1 zhao3 dao4 duck@s le mei2 you3.
+*MOT:	[-eng] one two three four five six seven.
+*MOT:	orh ta1 zao3 dao4 duck@s lor@s:sce.
+*MOT:	wu1 gui1, wu1 gui1 gen1 zhe ta1 na4 ge4 butterfly@s.
+*MOT:	butterfly@s, wu1, gui1 hor@s:sce?
+*MOT:	okay, duck@s [x2] hui2 jia1 orh-orh@f le4.
+*MOT:	moon@s leh?
+*MOT:	you3 mei2 you3 kan4 moon@s?
+*MOT:	[-eng] yes moon!
+*MOT:	girl@s [x2] kan4!
+@End

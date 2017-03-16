@@ -1,0 +1,74 @@
+@Unicode
+@Begin
+@Languages:	eng
+@Participants:	MOT Theresa Mother, CHI Isaac_Tan Child
+@ID:	eng||MOT||female|||Mother|||
+@ID:	eng||CHI|0;8.30|male|||Child|||
+@Date:	20-JUN-2015
+@Location:	Home Testing
+@Comment:	duration of recording 4 minutes
+@Comment:	transcribed by HengGee, checked by Chao_Min, checked by Nadiah
+@Start
+*MOT:	<let's see, let's read a book> [x 2].
+*MOT:	have you seen my duckling?
+*MOT:	quack [x 2], beep [x 2] quack [x 2]
+*MOT:	hello.
+*MOT:	&eh hello [x 2] <sit down> [x 2].
+*MOT:	<how many> [x 2] ducklings are there?
+*MOT:	you see how many?
+*MOT:	<one, two, three, four, five, six, seven, eight!> [x 2].
+*CHI:	&=vocalises.
+*MOT: don't go anywhere, stay here.
+*MOT:	say 'ah, good morning where are you going?'.
+*MOT:	good morning.
+*MOT:	see there are so many ducklings inside the nest.
+*MOT:	okay, mummy duckling is here.
+*MOT:	mummy duck is here.
+*MOT:	quack [x 2].
+*MOT:	mummy duck is going to bring out her little ducklings out for a swim.
+*MOT: and is here.
+*MOT:	xxx, mummy!
+*MOT:	and the little ducklings are going 'mama'.
+*MOT:	di4di4@s:zho call mama.
+*MOT:	mama [x 3].
+*MOT:	&tadah, mama is here.
+*MOT:	good morning mama I love you is here.
+*MOT: the duckling say "good morning mama I love you".
+*MOT:	di4di4@s:zho also say mama [x2].
+*CHI:	&eh.
+*MOT:	&eh, is mama not &eh.
+*MOT:	<di4 di4>@s:zho you see, where is this little duckling is going?
+*CHI:	&=vocalises.
+*MOT:	<where are you going?> [x 3].
+*CHI:	&=vocalises.
+*MOT:	no, mama go already.
+*MOT:	mama is bringing all the little ducklings for a swim.
+*MOT:	let's go.
+*MOT:	<di4 di4>@s:zho you see this one?
+*MOT:	cannot walk away without mama okay <di4 di4>@s:zho see.
+*MOT:	little baby duckling walk away, far far away.
+*CHI: &=vocalises.
+*MOT:	uhoh!
+*MOT:	so mama now know, baby duckling is missing.
+*MOT:	"hello bird, have you seen my little duckling?".
+*CHI:	&=vocalises.
+*MOT:	"have you seen my little duckling little tortoise?".
+*MOT:	huh, do you see the duckling?
+*MOT:	Mister otter, "do you see the little duckling?".
+*MOT: "hello fishes, do you see my little duckling?".
+*MOT: what's this?
+*MOT: ribbit@o [x2] it's the frog, ribbit@o, it's the frog.
+*MOT:	do you see this yesterday <di4 di4>@s:zho?
+*MOT:	di4di4@s:zho yesterday we go to the farm right, you saw this?
+*MOT:	this is a catfish!
+*MOT:	&=vocalises catfish &=vocalises.
+*MOT:	you ah@s:sce.
+*MOT:	now you see this, have you seen my baby duckling, have you huh?
+*MOT:	and then, who found the baby duckling?
+*MOT:	baby duckling is coming back.
+*MOT:	is the tortoise found the baby duckling back.
+*MOT:	home sweet home, we are a big family now.
+*MOT:	good night, you can go for your nap now.
+*MOT:	the end, everybody is sleeping.
+*MOT:	the end, we are done.
+@End

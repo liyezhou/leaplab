@@ -1,0 +1,143 @@
+@Unicode
+@Begin
+@Languages:	eng
+@Participants:	MOT Michelle Lee Mother CHI Jeston Khoo Wen Le Child
+@ID:	eng||MOT||female|||Mother|||
+@ID:	eng||CHI|0;7 29|male|||Child|||
+@Date:	31-May-2016
+@Location:	Home
+@Comment:	narration was done in English
+@Comment:	duration of recording 6 minutes 43 seconds.
+@Comment:	transcribed by Yijun
+@Comment:	eng narration of wordless picture book
+@Start
+*MOT:	see,this is a little duck right?
+*MOT:	have you seen my duckling?
+*MOT:	can you see,this is the mommy duck?
+*MOT:	these are the ducklings,right?
+*MOT:	how many are there?
+*MOT:	one,two,three,four,five,six,seven,eight!
+*MOT:	eight ducklings right?
+*MOT:	okay,lets see.
+*MOT:	early one morning,the ducklings were in their nest,right?
+*MOT:	but one little duckling swam away.
+*MOT:	uh oh.
+*MOT:	the mother duck came.
+*MOT:	it came swimming back,right?
+*MOT:	then she came to look for the ducklings.
+*MOT:	oh,the mother duck came.
+*MOT:	see the little ducklings?
+*MOT:	they went to mommy,right?
+*MOT:	correct or not?
+*MOT:	but there only seven ducklings.
+*MOT:	what happened to the seven ducklings?
+*MOT:	there were only seven left.
+*MOT:	oh no,what happened to the last one?
+*MOT:	lets see.
+*MOT:	oh mommy duck says,lets go and find the duckling.
+*MOT:	where are the ducklings?
+*MOT:	see,ducklings.
+*MOT:	ok.
+*MOT:	oh,see!
+*MOT:	there is a small duckling that swam away.
+*MOT:	oh no,the naughty duck went away!
+*MOT:	went far far away from the mommy duck.
+*MOT:	then how?
+*MOT:	so mommy duck brought all the ducklings to look for the missing duck.
+*MOT:	the duckling is playing hide and seek.
+*MOT:	jeston,see!
+*MOT:	where is he hiding?
+*MOT:	he is hiding inside the flower,right?
+*MOT:	so the mommy duck asks the bird.
+*MOT:	have you seen my duckling?
+*MOT:	wow,duck duck,quack quack.
+*MOT:	then,lets see.
+*MOT:	duck duck.
+*MOT:	have you seen my duckling?
+*MOT:	she asked mr turtle.
+*MOT:	see,all the ducklings are sitting here.
+*MOT:	waiting for mommy to look for the ducklings.
+*MOT:	can you find the duck?
+*MOT:	where's the duck?
+*MOT:	<see,this duckie>[x 2] is hiding behind the tree!
+*MOT:	right?
+*MOT:	and mr beaver is also here,correct or not?
+*MOT:	beeeeaver!
+*MOT:	look,look at the beaver!
+*MOT:	what is the beaver doing?
+*MOT:	it is biting the tree,right?
+*MOT:	ok,so you see.
+*MOT:	mr beaver says,ok can we.
+*MOT:	lets go find the duck,right?
+*MOT:	so he went with mommy duck.
+*MOT:	and he went to look for the missing duckling!
+*MOT:	yes,see the duckling.
+*MOT:	one,two,three,four,five,six,seven!
+*MOT:	what is the one that is hiding?
+*MOT:	oh!
+*MOT:	it is hiding here.
+*MOT:	correct or not?
+*MOT:	the duckling is hiding there!
+*MOT:	then mommy duck went to look for mr fish!
+*MOT:	and asked mr fish.
+*MOT:	have you seen my duckling?
+*MOT:	oh mr fish says i don't know.
+*MOT:	i haven't seen your duckling!
+*CHI:	&=cries.
+*MOT:	look at the fish,fish!
+*MOT:	tortoise.
+*MOT:	look here,jeston.
+*MOT:	look!
+*MOT:	one,two,three,four,five,six,seven!
+*MOT:	but there is one that is missing right?
+*MOT:	where is it,you see?
+*MOT:	the duckling is here!
+*MOT:	can you see it hiding away from mommy?
+*MOT:	right?
+*MOT:	the small duckling,right?
+*MOT:	hiding from mommy!
+*MOT:	ok,there mommy duck went to look for another geese!
+*MOT:	and she asked.
+*MOT:	have you seen my duckling?
+*MOT:	and she said.
+*MOT:	no,i didn't see your duckling!
+*MOT:	see,how many ducklings are there?
+*MOT:	one,two,three,four,five,six,seven!
+*MOT:	oh no there are still seven!
+*MOT:	where is the missing one?
+*MOT:	see,it's still hiding here behind the grass.
+*MOT:	he don't wanna let mommy find,correct or not?
+*MOT:	ok,and then there is another four geeses.
+*MOT:	right?
+*MOT:	ok,lets see.
+*MOT:	oh!
+*MOT:	mr tortoise came along and told mommy duck.
+*MOT:	<mommy duck>[x 2],i found your duckling.
+*MOT:	see,the duckling is here.
+*CHI:	&=cries.
+*MOT:	jeston,<the duckling>[x 2].
+*MOT:	mommy duck found the duckling!
+*MOT:	see,lets count the duck now.
+*MOT:	one,two,three,four,five,six,seven,eight!
+*MOT:	yay,we found the duckling!
+*MOT:	mommy found the duckling,right?
+*MOT:	ok?
+*MOT:	and they all swam away!
+*MOT:	see,they all swam away!
+*MOT:	mommy duck says thank you mr tortoise.
+*MOT:	thank you mr tortoise.
+*CHI:	&=cries.
+*MOT:	ok,and we're going to finish the book already!
+*MOT:	lets see.
+*CHI:	&=cries.
+*MOT:	and mommy duck went to sleep with the ducklings.
+*MOT:	right?
+*MOT:	the mommy duck went to sleep with the ducklings.
+*MOT:	correct or not?
+*MOT:	mommy duck go and sleep.
+*MOT:	good night.
+*MOT:	like jeston and mommy.
+*MOT:	right?
+*MOT:	sleep together in the nest.
+*MOT:	right?
+@End

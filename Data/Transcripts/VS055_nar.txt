@@ -1,0 +1,122 @@
+@Unicode
+@Begin
+@Languages:	eng
+@Participants:	MOT See_Shir_Li Mother, CHI Tan_Zac_Kay Child
+@ID:	eng||MOT||female|||Mother|||
+@ID:	eng||CHI|2;0.23|male|||Child|||
+@Date:	02-NOV-15
+@Location:	Home Testing
+@Comment:	duration of recording 4 minutes 9 seconds
+@Comment:	transcribed by Carol, checked by Wenqi, checked by Debbie
+@Start
+*MOT:	one two three four five six seven eight!
+*MOT:	mama duck and baby duck!
+*MOT:	oh, have you seen my duckling!
+*CHI:	&=vocalises.
+*MOT:	its a butterfly!
+*MOT:	&bzz butterfly!
+*MOT:	early one morning.
+*MOT: 	oh no!
+*MOT:	the little baby duck.
+*MOT:	swam away to catch the butterfly.
+*MOT:	and all the little other ducks was watching.
+*MOT:	where are, where's my sister?
+*MOT:	alright you see.
+*MOT:	fly and fly the butterfly and the duckling follows!
+*MOT:	where's the butterfly?
+*MOT:	yes, clever!
+*MOT:	the mama is here watching the little ducks.
+*MOT:	and then the mama says.
+*MOT: 	little ducks where is your sister?
+*MOT:	where?
+*MOT:	where's the sister?
+*MOT:	where's the other duck?
+*MOT:	where?
+*MOT:	these are the ducks right.
+*MOT:	where's the baby duck.
+*MOT: 	one more baby duck.
+*MOT:	where is it?
+*MOT:	oh they're here.
+*MOT: 	got one more missing.
+*MOT:	where?
+*MOT:	look xxx there.
+*MOT:	over there, yes!
+*MOT:	the other baby duck is there.
+*MOT:	so they follow the mummy and.
+*MOT: 	they mummy say come [x 2] follow me!
+*MOT:	let's go and look for your sister!
+*MOT:	and they followed, the mummy.
+*MOT:	and then, the mummy say.
+*MOT: 	&ooh have you seen my duckling?.
+*MOT:	the, she ask the bird.
+*MOT:	&hmm what's that.
+*MOT: 	there?
+*MOT:	and then they, the bird say no [x 2]!.
+*MOT:	the mummy duck asks where's my turtle.
+*MOT: 	where [x2] my baby duck?.
+*MOT:	she asks the turtle.
+*MOT:	and the turtle say i &dunno.
+*MOT:	and then.
+*MOT: 	can you see one duckling hiding behind the tree?
+*MOT:	it's there!
+*MOT:	and then, they asked the beaver where is my sister?.
+*MOT:	and then, the beaver say i &dunno.
+*MOT:	i &dunno.
+*MOT:	so now we have one two three four five six seven duck here!
+*MOT:	there's one more duck!
+*MOT:	i think it's there.
+*MOT:	i think it's there behind the rocks?
+*MOT:	&hmm, think about it.
+*MOT:	and then the duckling.
+*CHI:	&=vocalises.
+*MOT:	ask, yes the fishes!
+*MOT:	do you know where's my baby duck?.
+*MOT:	and the fish say no i &dunno.
+*MOT:	you see fish [x 2].
+*MOT:	say i &dunno where's the duck.
+*MOT:	you see one two three four five six seven duck!
+*MOT:	where's the eighth duck?
+*MOT:	one more small duck, where?
+*MOT:	where's the duck?
+*MOT:	small one.
+*MOT:	&=whispers there, there.
+*MOT:	there, yes!
+*MOT:	one more duck hiding behind, the grass!
+*MOT:	and then the mummy ask have you seen my duck?.
+*MOT:	what's that?
+*MOT:	is that a swan, or a geese?
+*MOT:	then the, the other duck say no [x2].
+*MOT: 	i never see her.
+*MOT:	yeah but i saw her, see!
+*MOT:	the duck is hiding underneath, alright?
+*MOT:	and then the mummy duck say.
+*MOT: 	say duck, <where are you> [x2]?
+*MOT:	and all the baby duck say.
+*MOT: 	where are you?.
+*CHI:	&=vocalises.
+*MOT:	and, where is the duck, zac?
+*MOT:	where is it?
+*MOT:	this is flower, you smell the flower?
+*MOT:	yes, so where's the duck?
+*MOT:	where's the small duck?
+*MOT:	yes!
+*MOT:	it's with the turtle!
+*MOT:	right, it's with the turtle!
+*MOT:	and then, the mummy duck.
+*CHI:	&=vocalises.
+*MOT:	xxx where's my duck?.
+*MOT:	&lemme count one two three four five six seven eight!
+*MOT:	oh yes, they found the duck!
+*MOT:	the duck, saw the mummy and the sisters and brothers.
+*CHI:	&=vocalises.
+*MOT:	xxx turtle!
+*MOT:	and then, they all went home together.
+*MOT:	the end.
+*CHI:	&=vocalises.
+*MOT:	xxx, where's the duck?
+*CHI:	xxx.
+*MOT:	yes, wait, where's jie3@s jie1@s? 
+*MOT:	we're done, yes.
+*MOT:	zac, you like the book?
+*CHI:	i want xxx.
+@End

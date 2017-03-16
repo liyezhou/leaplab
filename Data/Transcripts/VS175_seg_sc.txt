@@ -1,0 +1,59 @@
+@Unicode
+@Begin
+@Languages:	fra
+@Participants:	FAT Shweta Mother, CHI Siddharth Singh Child
+@ID:	fra||MOT||male|||Father|||
+@ID:	fra||CHI|1;0.27|female|||Child|||
+@Date:	02-NOV-2016
+@Location:	Lab testing
+@Comment:	duration of recording 2 minutes 27 seconds
+@Comment:	transcribed by XinYun, checked by
+@Start
+*FAT:	est-ce que a vu mon canard?
+*FAT:	tous les matins.
+*FAT:	xxx il ya canards trop soixante.
+*CHI:	&=vocalises.
+*FAT:	aller mon canard?
+*CHI:	&=vocalises.
+*FAT:	ils xxx xxx sur l'eau.
+*FAT:	il ya tous les canards ici.
+*CHI:	&=coughs.
+*FAT:	et xxx l'eau, la maman de canard et comme ces canards xxx xxx xxx.
+*CHI:	&=vocalises.
+*FAT:	comptez les canards.
+*FAT:	comptez les canards?
+*CHI:	&=vocalises.
+*FAT:	un deux trois quatre cinq six sept canards.
+*FAT:	il ya maman canard et quel xxx.
+*CHI:	&=vocalises.
+*FAT:	&m il y en continu trois heures.
+*FAT:	il demands a d'eau, mon canard?
+*CHI:	&=vocalises.
+*FAT:	mon canard, mon caneton et la mon xxx.
+*CHI:	&=vocalises.
+*FAT:	qu-est ce faire?
+*FAT:	appellez [x 2] sur l'eau pour les canards.
+*CHI:	&=coughs.
+*FAT:	il y en continu en xxx.
+*FAT:	enquetez.
+*FAT:	il demands, avez vous vu mon caneton?
+*CHI:	&=vocalises.
+*FAT:	il y en continue.
+*FAT:	il demands, avez vous vu mon caneton?
+*FAT:	poisson la vu.
+*FAT:	il reconnait la poisson.
+*FAT:	il demands, avez vous vu mon caneton?
+*CHI:	&=pants &=coughs.
+*FAT:	il y en continue xxx bizarre.
+*CHI:	&=pants &=coughs &=whimpers.
+*FAT:	avez vouz vu mon caneton?
+*FAT:	&eh appel xxx xxx soir.
+*FAT:	il regardez tout ou.
+*FAT:	&oh regardez!
+*FAT:	il xxx xxx la caneton.
+*FAT:	avec la tortue mere.
+*FAT:	xxx xxx en tous les caneton.
+*FAT:	xxx xxx xxx xxx, et tous la caneton et la tortue.
+*CHI:	&=pants &=vocalises.
+*FAT:	ils xxx a dormir quelle la.
+@End

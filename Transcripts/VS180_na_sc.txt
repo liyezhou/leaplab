@@ -1,0 +1,99 @@
+@Unicode
+@Begin
+@Languages:     eng
+@Participants:  MOT Yong_Lee_Yoon Mother CHI Cerise_Cheong_Yuqin Child
+@ID:    eng||MOT||female|||Mother|||
+@ID:    eng||CHI|1;5.27|female|||Child|||
+@Date:  17-NOV-2016
+@Location:    Lab Testing
+@Comment:     duration of recording 4 minutes 5 seconds
+@Comment:     starts at 10 seconds
+@Comment:     transcribed by Sihui, checked by Elsie, checked by Debbie
+@Start
+*MOT: see what's this book called?
+*MOT: it's called have you seen my duckling?
+*MOT: by Nancy Tafuri.
+*MOT: this is mama duck.
+*MOT: and these are all the baby ducks.
+*MOT: how many?
+*MOT: one, two, three, four, five, six, seven, eight!
+*CHI: &=vocalises.
+*MOT: eight baby ducks!
+*CHI: &=vocalises.
+*MOT: have you seen my duckling?
+*MOT: early one morning.
+*MOT: what's happening?
+*MOT: where are all the ducklings?
+*MOT: they are all in the nest!
+*MOT: there's.
+*MOT: how many are there?
+*MOT: one, two, three, four, five, six, seven!
+*CHI: &=whimpers.
+*MOT: no?
+*MOT: where did they go?
+*MOT: hey "mama duck"!
+*MOT: "there are only seven of us"!
+*MOT: what happened to the baby duckling?
+*MOT: "where's your sibling"?
+*MOT: mama duck asked.
+*MOT: can you see where is the baby duckling?
+*MOT: no?
+*CHI: &=vocalises.
+*MOT: let's go look for him!
+*MOT: and quack [x 5] and they went!
+*MOT: and off they go!
+*MOT: mama duck ask(ed) the bird.
+*MOT: what bird is this?
+*MOT: kingfisher?
+*MOT: is this a kingfisher?
+*MOT: "have you seen my duckling"?
+*MOT: mama duck asked.
+*MOT: "nope, I did not see your duckling", kingfisher said.
+*CHI: &hm.
+*MOT: &mmhm.
+*MOT: and quack [x 2]!
+*CHI: &=vocalises.
+*MOT: yeah, mama duck and the duckling went and talked to mister tortoise!
+*MOT: "have you seen my duckling"?
+*MOT: mama duck asked.
+*MOT: "nope", said mister tortoise!
+*MOT: and who is this?
+*MOT: mister beaver?
+*MOT: mister beaver's busy chewing on a log!
+*MOT: "have you seen my duckling"?
+*MOT: mama duck asked.
+*MOT: mister beaver said, "nope"!
+*MOT: "I've only seen a log".
+*MOT: so mama duck went ahead with all the other ducklings.
+*MOT: she asked mister koi, and mister catfish, and mister salamander.
+*MOT: "have you seen my duckling"?
+*MOT: "nope".
+*MOT: all of them said they have not seen the duckling.
+*CHI: &=vocalises.
+*MOT: yeah.
+*MOT: then mama duck went ahead and looked for the duckling again.
+*CHI: &=vocalises.
+*MOT: and spoke to, who's this?
+*MOT: mandarin duck!
+*MOT: "oh, have you seen my duckling"?
+*MOT: and missus mandarin duck said, "nope"!
+*MOT: "I have not seen your duckling".
+*MOT: and mama duck went down the river, looking <left and right> [x 2], and she
+  spy.
+*MOT: &=gasps, "who is that"?
+*MOT: "is that my little duckling"?
+*MOT: yes!
+*MOT: all the rest of the ducklings said, "yes, that's our brother"!
+*MOT: "yay"!
+*MOT: so mama duck found her little duckling and.
+*MOT: they were all happy.
+*MOT: so they swam and swam, and went back to the nest, and had a good rest.
+*MOT: all tired from looking for the lost duckling.
+*MOT: the end!
+*MOT: yay!
+*MOT: &=claps.
+*CHI: &=vocalises.
+*MOT: hmm.
+*CHI: &=vocalises.
+*MOT: she managed to stay for like, two pages. [+ bch]
+@End

@@ -1,0 +1,199 @@
+@Unicode
+@Begin
+@Languages:	eng, zho
+@Participants:	MOT Fanda Mother, CHI Gabriella Child
+@ID:	eng||MOT||female|||Mother|||
+@ID:	eng||CHI|1;6.16|female|||Child|||
+@Date:	07-DEC-2016
+@Location:	BrainFit Testing
+@Comment: audio starts at 1 minute 12 seconds.
+@Comment:	duration of recording 6 minutes 26 seconds
+@Comment:	transcribed by Chao_Min, checked by Y, checked by Z
+@Start
+*MOT: XXX, you see where's the duck duck?
+*MOT: got duck duck or not?
+*MOT: <see here> [x 2] <bao3 bei4>@s.
+*MOT: see!
+*CHI: &=vocalises.
+*MOT: that's the baby duck and the big big duck.
+*CHI: &=whimpers.
+*MOT: okay, you want this one I give you.
+*MOT: you see, you see the duck duck or not?
+*CHI: &=cries.
+*MOT: okay, you don't want then never mind, don't throw!
+*CHI: &=vocalises.
+*MOT: why, what's that?
+*MOT: no, you see the duck duck!
+*MOT: <bao3 bei4>@s, got see duck duck or not?
+*CHI: &=cries.
+*MOT: what you want, this one?
+*MOT: later noisy noisy again how?
+*MOT: oi@s:sce, I want to read for you leh@s:sce!
+*MOT: <bao3 bei4>@s you see got duck duck or not?
+*MOT: [-zho] bao3 bei4.
+*MOT: oi@s:sce, aiyo@s:sce, <come here> [x 2].
+*MOT: you see okay.
+*CHI: &=vocalises.
+*MOT: &ah, where's the duck duck?
+*CHI: &=vocalises.
+*MOT: no you show, show mummy where's the duck duck first.
+*MOT: have or not, where's the quack [x 3].
+*MOT: you always tell mummy where's the quack [x 3].
+*CHI: &=vocalises.
+*MOT: where?
+*MOT: &wah, why you want to play with this?
+*MOT: no [x 2], you see, you tell mummy where's the duck duck first.
+*CHI: no.
+*MOT: you want this one?
+*CHI: no.
+*MOT: okay, you, you tell mummy where's the duck duck first.
+*MOT: yes, good boy.
+*MOT: you want?
+*CHI: &=vocalises.
+*MOT: you don't want?
+*MOT: okay you want that one?
+*MOT: okay come, you show mummy where is duck duck first.
+*MOT: how many duck ducks are there?
+*CHI: &=vocalises.
+*MOT: this one.
+*CHI: &=vocalises.
+*MOT: <this one> [x 2].
+*MOT: which one?
+*MOT: <this one> [x 2].
+*MOT: okay, show mummy where's the duck duck?
+*MOT: how many duck duck are there?
+*MOT: [-zho] bao3 bei4.
+*MOT: one, tw(o), one, two, three, after three, what's after three?
+*MOT: oi@s:sce, <bao3 bei4>@s see, where's the mummy duck?
+*MOT: mummy [x 2] ah.
+*CHI: &=vocalises.
+*MOT: okay <po2 po2>@s duck leh@s:sce?
+*MOT: [-zho] po2 po2 duck@s you3 mei2 you3?
+*MOT: [-zho] po2 po2 duck@s wen4.
+*MOT: neh@s:sce, "have you seen my ducklings"?
+*MOT: [-zho] ni3 you3 mei2 you3 kan4 wo3 de4.
+*MOT: &ugh
+*CHI: &=cries.
+*MOT: what you want?
+*MOT: [-zho] ni3 yao4 shen3 me4?
+*MOT: <sit here> [x 2].
+*CHI: &=vocalises.
+*MOT: okay come come.
+*MOT: mummy show, jiao4@s mummy.
+*MOT: see, what's this?
+*MOT: <ma1 ma>@s duck.
+*MOT: where's the <ma1 ma>@s duck first?
+*CHI: &=vocalises.
+*MOT: you show mummy where is <ma1 ma>@s duck first.
+*CHI: &=vocalises.
+*MOT: you want?
+*MOT: you want or not?
+*CHI: &=whimpers, &=hits:table.
+*MOT: [-zho] ni3 yao4 bu4 yao4?
+*MOT: you want this?
+*MOT: hey, (o)kay, where, where is the mummy duck?
+*MOT: where is the baby duck?
+*MOT: show mummy where is the baby duck.
+*MOT: oi@s:sce, &eh, <zhe4 bian1>@s.
+*MOT: mummy duck &eh?
+*MOT: mummy duck.
+*CHI: <ah pek>@f.
+*MOT: &ah, where's the <wu1 gui1>@s?
+*CHI: &ah <(ah) pek>@f.
+*MOT: &ah, where's the <wu1 gui1>@s?
+*MOT: show mummy where's the <wu1 gui1>@s.
+*CHI: <ah pek>@f!
+*MOT: [-zho] <ah pek>@f ni3 de4 tou2 la4.
+*CHI: <ah pe(k)>@f!
+*MOT: where's the <wu1 gui1>@s?
+*MOT: show mummy, &=vocalises.
+*MOT: you see, where's the <wu1 gui1>@s?
+*MOT: &ah, mummy duck ask <wu1 gui1>@s, "have you seen my duckling"?
+*MOT: [-zho] you3 ma1?
+*MOT: where's the baby duck?
+*MOT: [-zho] gen1 mummy@s jiang3 <baby duck>@s zai4 na2 li3 xian1?
+*MOT: oi@s:sce, &=vocalises, <bao3 bei4>@s, what's this?
+*MOT: you see bear bear <you3 ma1>@s?
+*MOT: [-zho] da4 da4 ge4 de4 <bear bear>@s.
+*MOT: beavers.
+*MOT: [-zho] ni3 you3 mei2 you3 kan4 dao4 <bear bear>@s?
+*MOT: [-zho] da4 da4 ge4 de4 <bear bear>@s.
+*MOT: <bear bear yao3@s> [x 2] yao3@s [x 3].
+*MOT: bear bear <you3 mei2 you3 yao3>@s?
+*MOT: you see!
+*MOT: so <ma1 ma>@s, <ma1 ma>@s duck ask, "have you seen my duckling"?
+*CHI: [-zho] ma1 ma!
+*MOT: uhm, <ma1 ma>@s.
+*MOT: [-zho] you3 ma1?
+*MOT: [-zho] you3 mei2 you3 kan4 dao4 na4 ge4 ya1 zi3?
+*MOT: where's the <ku3 gua1>@s?
+*MOT: show mummy where's the <ku3 gua1>@s.
+*MOT: [-zho] bao3 bei4.
+*MOT: see, &=vocalises, where's the fish?
+*MOT: [-zho] you3 ma1?
+*MOT: [-zho] bao3 bei4.
+*MOT: have you seen the fish?
+*MOT: [-zho] ni3 you3 mei2 you3 <mum mum>@imit:eat yu2?
+*MOT: [-zho] you3 mei2 you3?
+*MOT: [-zho] <bao3 bei3> [x 3].
+*MOT: &=laughs kan4@s see kan4@s.
+*MOT: have you seen a fish?
+*MOT: oi@s:sce, XXX , where's the fish?
+*MOT: show mummy where's the fish first.
+*MOT: you want?
+*MOT: you want this one?
+*MOT: <show mummy where's the fish> [x 2].
+*MOT: [-zho] you3 ma1?
+*MOT: so the <ma1 ma>@s duck leh@s:sce?
+*MOT: <ma1 ma>@s duck ask the fish, "have you seen my duckling"?
+*MOT: [-zho] you3 ma1?
+*MOT: [-zho] <ni3 you3 kan4 dao4 ta1 de4> [x 2] <qua(ck) qua(ck)>@s ma1?
+*MOT: [-zho] ni3 you3 mei2 you3 kan4 dao4 <baby qua(ck) qua(ck)>@s?
+*MOT: oh, what's this?
+*MOT: you see!
+*MOT: another <ma1 ma>@s!
+*MOT: another <ma1 ma>@s bird.
+*MOT: [-zho] you3 ma1?
+*MOT: bird bird!
+*CHI: [-zho] ma1 ma.
+*MOT: &uhm, <ma1 ma>@s.
+*MOT: [-zho] you3 ma1?
+*MOT: "have you seen my duckling"?
+*MOT: [-zho] you3 ma1?
+*MOT: [-zho] <ni3 you3 kan4 dao4 baby@s> qua(ck)[x 2]?
+*CHI: no more.
+*MOT: no more, where?
+*MOT: [-zho] ni3 you3 kan4 dao4 ma1?
+*MOT: quack [x 2].
+*MOT: baby ma1@s.
+*MOT: [-zho] mei4 mei4 leh@s:sce?
+*MOT: [-zho] you3 mei2 you3 jiang3 mei4 mei4?
+*MOT: [-zho] baby@s mei4 mei4 you3 mei2 you3?
+*CHI: &=vocalises.
+*MOT: &uhm.
+*CHI: &=vocalises.
+*MOT: no.
+*CHI: &=vocalises.
+*MOT: no, you cannot play with that one already.
+*MOT: [-zho] deng3 yi4 xia4 ta1 chao2 chao2 ni3 you4 xia4 dao4 ni3 bu4 yao4 ku1 a2!
+*MOT: where's the <ma1 ma>@s?
+*MOT: &oh?
+*MOT: baby, where's baby?
+*MOT: baby <gen1 ma1 ma hui2 jia1>@s <liao lorh>@s:sce!
+*MOT: [-zho] you3 ma1?
+*MOT: [-zho] you3 mei2 you3 hui2 jia1?
+*MOT: &oh, [-zho] ta1 men2 zuo4 (shen3) me4?
+*MOT: orhorh@imit:sleep!
+*MOT: [-zho] you3 mei2 you3 orhorh@imit:sleep?
+*MOT: you want orhorh@imit:sleep or not?
+*CHI: &=vocalises.
+*MOT: you got orhorh@imit:sleep?
+*MOT: &oh, how you orhorh@imit:sleep?
+*MOT: (o)kay, good night!
+*MOT: orhorh@imit:sleep &ah!
+*CHI: &=vocalises.
+*MOT: &ah.
+*CHI: &=vocalises.
+*MOT: okay, finish!
+*CHI: &=vocalises.
+@End

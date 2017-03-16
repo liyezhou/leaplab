@@ -1,0 +1,216 @@
+@Unicode
+@Begin
+@Languages:	eng, zho
+@Participants:	MOT Pan Minmin Mother, CHI Geneveive Child
+@ID:	eng||MOT||female|||Mother|||
+@ID:	eng||CHI|0;9.23|female||Child|||
+@Date:	16-JAN-2016
+@Location:	Home
+@Comment:	duration of recording 11 minute 21 seconds
+@Comment:	video starts at 1 min 30 seconds
+@Comment:	transcribed by Yijun
+@Situation:	narration of wordless picture book PDF on screen
+@Start
+*MOT:	have you seen my duckling?
+*MOT:	geneveive, look at this!
+*MOT:	wow book, see, duckie.
+*MOT:	what is this?
+*MOT:	butterfly.
+*CHI:	&=vocalise.
+*MOT:	huh why you don't like the book?
+*MOT:	early one morning.
+*MOT:	where did the duckie go?
+*MOT:	what's this?
+*MOT:	butterfly.
+*MOT:	see the duckie went away, hor@s.
+*MOT:	 how many duckies are there?
+*MOT:	one two three four five six seven eight.
+*MOT: 	eight duckies.
+*MOT:	this ducky went away to catch the butterfly.
+*MOT:	you see, let's go onto the next page okay?
+*MOT:	you see, duckies.
+*MOT:	can you see this?
+*MOT:	where are the duckies again?
+*MOT:	one two three four five six seven.
+*MOT: 	where's the last duckie?
+*MOT:	eight, where's the butterfly?
+*MOT:	here.
+*MOT:	and where's the mama duck?
+*MOT:	here, can see.
+*MOT: 	mommy duck and the baby duckies, right?
+*MOT:	what's that?
+*MOT:	plant right?
+*MOT:	i always say plant [x 2] right?
+*MOT:	you want to touch the duckie &ah?
+*MOT:	touch [x 3].
+*MOT:	small duckie.
+*MOT:	mommy duck and the duckies.
+*CHI:	&=vocalises.
+*MOT:	you wanna go to the next page already?
+*MOT:	so fast &ah.
+*MOT:	see, the mommy duck is here.
+*MOT: 	and all the duckies are here.
+*MOT:	you see, except for one!
+*MOT:	where's the last duckie?
+*MOT:	&eh geneveive, look here!
+*MOT:	one two three four five six seven.
+*MOT: 	seven duckies in the nest.
+*MOT:	you wanna look at the cover again &ah?
+*MOT:	the cover?
+*MOT:	how many duckies are on the cover?
+*MOT:	one two three four five six seven eight.
+*MOT:	so there are seven here.
+*MOT: 	seven duckies here.
+*MOT: 	where's the last one?
+*CHI:	&=vocalises.
+*MOT:	where got eight, seven la?
+*MOT:	where's the last one?
+*MOT:	last one here you see.
+*MOT: 	give me your finger, point.
+*MOT:	point, there.
+*MOT: 	the last one is here you see.
+*MOT:	&eh, how come you so far away?
+*MOT:	oh, where is it going?
+*MOT:	where is the duckie going?
+*MOT:	you see the duckies?
+*MOT:	one two three four five six seven eight.
+*MOT:	the last one is here you see!
+*MOT:	that's so strange, hor@s.
+*MOT:	where is it going?
+*MOT:	&uhm, next page.
+*MOT:	see the mommy duckie is looking for the misisng one right.
+*MOT:	have you seen my duckling?
+*MOT:	where's my duckie.
+*MOT: 	where, what's this?
+*MOT:	is this a kingfisher right.
+*MOT: 	kingfisher.
+*MOT:	what's this?
+*MOT:	flowers.
+*MOT:	see, flowers.
+*MOT:	your favourite hor@s?
+*MOT:	flowers, point.
+*MOT: 	flowers.
+*MOT:	see, one missing duckie.
+*MOT:	duckie, it's here!
+*MOT:	it's here right?
+*MOT:	why you wanna look at the cover again?
+*MOT:	close the book again, can you see that?
+*MOT:	where's the missing one?
+*MOT:	here!
+*MOT:	why?
+*MOT:	you like the cover page &ah?
+*MOT:	don't [x 3].
+*MOT:	see, mommy duck is still looking for the missing duckling.
+*MOT:	have you seen my duckling?
+*MOT:	right?
+*MOT:	<what's this> [x 3]?
+*MOT:	this is a tortoise.
+*MOT:	what's the colour of the tortoise?
+*MOT:	what colour is the tortoise, &hmm?
+*CHI:	&=vocalises.
+*MOT:	geneveive, you wanna read the book or not?
+*MOT:	green tortoise.
+*MOT:	you okay?
+*CHI:	&=vocalises.
+*MOT:	what is this, what?
+*MOT:	this is a beaver.
+*MOT:	is it a beaver?
+*MOT:	yeah.
+*MOT:	and what is this?
+*MOT:	there, this is a duckling.
+*MOT:	do you see the duckling is here?
+*MOT:	one two three four five six seven eight.
+*MOT: 	the duckling is here!
+*MOT:	the missing duckling.
+*MOT:	right, chasing the butterfly.
+*CHI:	&=vocalises.
+*MOT:	why, eight &uh?
+*MOT:	say eight [x 2]!
+*CHI:	&=vocalises.
+*MOT:	eight [x 2] ducklings.
+*MOT:	right, &uh?
+*CHI:	&=vocalises.
+*MOT:	so you see what are they doing?
+*MOT:	they are moving this log.
+*MOT:	have you seen my duckling?
+*MOT:	where's the duckling, eight &uh?
+*MOT:	why, where's the duckling?
+*MOT:	uh why [x 2]?
+*CHI:	&=vocalises.
+*MOT:	you give me your finger.
+*MOT: 	<you count> [x 2].
+*MOT:	look at the book!
+*CHI:	&=vocalises.
+*MOT:	why, look at the book!
+*MOT:	give me your finger.
+*MOT: 	point to the duckling.
+*MOT:	one two three.
+*CHI:	&=vocalises.
+*MOT:	look at the book.
+*MOT: 	look at the book [x 2].
+*MOT:	why, what happened?
+*CHI:	&=vocalises.
+*MOT:	&hmm, want to read the book [x 2] or not?
+*MOT:	one two three four five six seven.
+*MOT:	where's the misisng duckling, eight!
+*MOT:	and that's the frog, see, frog [x 4].
+*CHI:	&=vocalises.
+*MOT:	what does the duckling says?
+*MOT:	quack quack [x 6]!
+*MOT:	ohhh, what is this?
+*MOT:	have you seen my duckling?
+*MOT:	who is the mommy asking.
+*MOT: 	where is the mommy asking?
+*MOT:	what's this?
+*MOT:	fish [x 2]!
+*MOT:	remember last time we got goldfish right?
+*MOT:	fish [x 4].
+*MOT:	tortoise.
+*MOT:	<what's this> [x 2].
+*MOT: 	frog [x 2].
+*MOT:	what is this &uh.
+*MOT: 	is this the lizard?
+*MOT:	is this a salamander or a lizard?
+*MOT:	<what's this> [x 2]?
+*MOT:	frog, and what is this?
+*MOT:	there, this is the duckling!
+*MOT:	where's the duckling?
+*MOT:	what's this, catfish.
+*MOT:	catfish, bao3@s bei4@s.
+*MOT:	&eh what's this?
+*MOT:	oh mommy duck is asking another kind of duck right?
+*MOT:	have you seen my duckling?
+*MOT:	right, see this mommy is asking the other mommy.
+*MOT: 	have you seen my duckling?
+*MOT:	where's the missing duckling?
+*MOT: 	give me your finger.
+*MOT: 	point [x 2].
+*MOT:	oh so boring &ah.
+*MOT: 	you want to sleep &ah?
+*MOT:	yawn &ah.
+*MOT:	two three four five six seven.
+*MOT:	&huh, what, do you like the book?
+*MOT:	why, what's that?
+*MOT:	missing [x 2] duckling!
+*MOT:	what is this?
+*MOT:	this is a butterfly!
+*MOT:	next page ok?
+*MOT:	ding dong.
+*MOT:	where is the duckling?
+*MOT:	there, you see, there!
+*MOT:	don't go away, sit properly la@s you.
+*MOT:	&eh geneveive, <look here> [x 2].
+*MOT:	where's the flower?
+*MOT:	flower.
+*MOT:	you like flower?
+*MOT:	flower, take the book.
+*MOT:	flower [x 3], don't use your leg.
+*MOT:	ok you see all the ducklings are together now.
+*MOT:	why?
+*MOT:	its very boring &ah.
+*MOT: 	you don't like this book?
+*MOT:	oh, want to sleep &ah?
+*MOT:	ok [x 2].
+*MOT:	i think that's it.
+*MOT: 	she doesn't like the book.
+@End

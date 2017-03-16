@@ -1,0 +1,144 @@
+@Unicode
+@Begin
+@Languages:	eng
+@Participants:	MOT Juliana_Toh Mother, CHI Lim_Dien_Khai Child
+@ID:	eng||MOT||female|||Mother|||
+@ID:	eng||CHI|1;11.25|male|||Child|||
+@Date:	17-JAN-2016
+@Location:	Lab Testing
+@Comment:	duration of recording 4 minutes 53 seconds
+@Comment:	transcribed by Nadiah, checked by Joseph, checked by Elsie
+@Start
+*MOT:	the book!
+*MOT:	shall we?
+*MOT:	&ha what's this?
+*CHI:	bird bird.
+*MOT:	bird bird?
+*MOT:	it is a duck!
+*MOT:	shall we put this down?
+*MOT:	let us put this down.
+*MOT:	come, okay you wanna hold it.
+*MOT:	okay title have you seen my duckling?
+*CHI:	duck duck.
+*MOT:	&ha duck duck.
+*MOT:	it is a duck!
+*MOT:	by nancy tafuri.
+*CHI:	duck duck.
+*MOT:	how many ducks?
+*CHI:	duck duck.
+*MOT:	one two three four.
+*CHI:	four.
+*MOT:	five.
+*CHI:	five.
+*MOT:	six.
+*CHI:	six.
+*MOT:	seven.
+*CHI:	seven.
+*MOT:	eight.
+*CHI:	eight.
+*MOT:	eight ducks.
+*MOT:	mmhm, early one morning!
+*MOT:	see the baby ducks?
+*MOT:	gerald!
+*CHI:	<jie3 jie3>@s:zho.
+*MOT:	yes <jie3 jie3>@s:zho will come later, come!
+*MOT:	see the baby ducks?
+*MOT:	gerald, come.
+*MOT:	&=laughs come.
+*MOT:	early one morning.
+*CHI:	<jie3 jie3>@s:zho.
+*MOT:	mmhm, later we go and find <jie3 jie3>@s:zho.
+*MOT:	what's happening here?
+*CHI:	&=vocalises.
+*MOT:	here are the?
+*CHI:	&=vocalises.
+*MOT:	baby ducks?
+*MOT:	this is the?
+*MOT:	mummy duck!
+*CHI:	mummy duck.
+*MOT:	mummy duck!
+*MOT:	very good.
+*MOT:	and what do you think mummy duck is saying?
+*CHI:	duck duck.
+*MOT:	duck duck.
+*CHI:	mummy.
+*MOT:	mummy say, quack quack, quack quack.
+*CHI:	quack quack.
+*MOT:	and then mummy duck comes and kiss the baby ducks.
+*MOT:	the baby ducklings, right?
+*MOT:	and then, the baby ducklings follow mummy.
+*MOT:	mummy went swimming, so baby ducklings also went swimming.
+*MOT:	and let's count!
+*MOT:	one two three four.
+*CHI:	bird bird.
+*MOT:	five six.
+*CHI:	duck duck.
+*MOT:	seven!
+*MOT:	one baby is missing!
+*CHI:	&=vocalises.
+*MOT:	so mummy says.
+*CHI:	mummy.
+*MOT:	have you seen my duckling?
+*CHI:	duck duck.
+*MOT:	oh, but, the xxx, this bird say no i did not see your duckling!
+*MOT:	and then mummy duck went to ask the turtle, have you seen my duckling?
+*MOT:	where's the turtle?
+*MOT:	here.
+*MOT:	turtle said no, i did not see your duckling.
+*MOT:	mummy duck ask the beaver, have you seen my duckling?
+*MOT:	did the beaver see the duckling?
+*MOT:	no, didn't.
+*CHI:	&=vocalises.
+*MOT:	then the mummy duck went under the water and ask the fish.
+*MOT:	have you seen my duckling?
+*CHI:	fish [x 2].
+*MOT:	fish.
+*MOT:	the fish said, no.
+*CHI:	turtle.
+*MOT:	who is this?
+*CHI:	turtle.
+*MOT:	can you see this?
+*MOT:	what is this?
+*MOT:	is this the baby duck?
+*MOT:	yes, let us see okay.
+*CHI:	turtle.
+*MOT:	the mummy duck came to another duck and asked.
+*CHI:	mummy duck.
+*MOT:	have you seen my duckling?
+*MOT:	mmhm?
+*MOT:	have you seen my duckling?
+*MOT:	<can you find the baby duck> [x 2] ?
+*CHI:	&=vocalises.
+*MOT:	here!
+*CHI:	oh.
+*MOT:	oh, &=laughs.
+*CHI:	&=vocalises.
+*MOT:	mummy duck look left, look right and she is trying to find her baby duck.
+*CHI:	&=vocalises.
+*MOT:	but she cannot find!
+*MOT:	mmhm!
+*MOT:	you want chewchew@f the birds?
+*MOT:	you want chewchew@f the duck duck?
+*MOT:	why?
+*MOT:	so mummy duck went swimming and looked, and looked.
+*CHI:	bird bird.
+*MOT:	yes!
+*MOT:	the same ducks right?
+*CHI:	duck duck.
+*MOT:	until it was night time.
+*MOT:	it was night time.
+*MOT:	mummy duck was so tired she went to sleep with her baby ducklings.
+*CHI:	<duck duck> [x 3].
+*MOT:	yes!
+*MOT:	okay the end.
+*MOT:	no more!
+*CHI:	book.
+*MOT:	i keep the book?
+*MOT:	are you keeping the book?
+*MOT:	thank you!
+*MOT:	&=laughs he is so not concentrating.
+*CHI:	duck duck.
+*MOT:	you found the duck?
+*MOT:	is this the missing duck?
+*MOT:	is this the missing duck?
+@End

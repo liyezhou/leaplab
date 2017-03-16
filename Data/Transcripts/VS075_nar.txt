@@ -1,0 +1,197 @@
+@Unicode
+@Begin
+@Languages:	eng
+@Participants:	FAT Rick_Teo_Chun_Liang Father, CHI Ray_Teo Child
+@ID:	eng||FAT||male|||Father|||
+@ID:	eng||CHI|1;8.15|male|||Child|||
+@Date:	31-JAN-2016
+@Location:	Home Testing
+@Comment:	duration of recording 9 minutes 31 seconds
+@Comment:	transcribed by Joseph, checked by XinYun, checked by Elsie
+@Start
+*FAT:	have you seen my duckling?
+*CHI:	&=vocalises.
+*FAT:	what you want, come.
+*FAT:	later, okay come, tell papa properly.
+*CHI:	&=vocalises.
+*FAT:	come <gu1 gu1> @s:zho [x 2] come here with you.
+*FAT:	&wa you see that one, little mermaid wear pink colour.
+*FAT:	lying down there like xxx.
+*CHI:	&=whimpers.
+*FAT:	mermaid.
+*CHI:	&=cries <gu1 gu1>@s:zho read.
+*FAT:	come <gu1 gu1 bao4>@s:zho.
+*CHI:	&=vocalises.
+*FAT:	&boom.
+*FAT:	come, papa tell you a story then we go out okay?
+*CHI:	&=cries, &=vocalises.
+*FAT:	<you want> [x 3] papa to tell you the story?
+*CHI:	&=vocalises.
+%COM:	father and experimenter coaxed the child for a while before resuming the story.
+*FAT:	baby see, have you seen my duckling?
+*CHI:	&=vocalises.
+*FAT:	what is this?
+*CHI:	&=vocalises.
+*FAT:	come baby, you want to see this?
+*CHI:	&=vocalises.
+*FAT:	do you want to read this?
+*CHI:	&=vocalises.
+*FAT:	what is this?
+*FAT:	duck.
+*CHI:	duck.
+*FAT:	how many small ducks do you see here, ducklings.
+*CHI:	&=vocalises.
+*FAT:	one, two, three, four, five.
+*FAT:	where is he, see it is five, six, seven, eight!
+*CHI:	&=vocalises.
+*FAT:	where is he, see, come.
+*FAT:	papa tell you the story about, the eight little ducklings.
+*FAT:	you see, this is the house of the little duckling.
+*FAT:	how many small ducks are there, tell papa.
+*FAT:	one, two, three, four, five, six, seven, eight!
+*FAT:	so eight ducklings is at home, playing games.
+*FAT:	what color is the duck?
+*FAT:	tell papa what color?
+*CHI:	&=vocalises.
+*FAT:	yellow, orange!
+*FAT:	so suddenly, the one of the small duck saw the butterfly.
+*FAT:	ray, can you see the butterfly here?
+*CHI:	&=vocalises.
+*FAT:	and what happen?
+*FAT:	the duck, follow the butterfly go out and play.
+*CHI:	&=vocalises.
+*FAT:	all the other small duckling at home says no, no do not go, stay here please.
+*FAT:	please do not go, but what happen?
+*FAT:	the duck did not, did not listen to all the duckling over here and he just go away.
+*FAT:	correct?
+*CHI:	&=vocalises.
+*FAT:	then, the mama duckling come, mama duck came home already.
+*FAT:	mama duck go and find food, you know and now they are on the way back home.
+*FAT:	so you see mama come, mama start to come home already.
+*FAT:	the small ducks here mama faster, faster, come home, come home!
+*FAT:	mama say, why, what happened?
+*FAT:	the small duckling kissed the mama muack@o [x 2].
+*FAT:	mama you come home already, you must be very tired.
+*FAT:	the mama say @eh, one, two, three, four, five, six, seven.
+*FAT:	where is one more duckling rayray?
+*FAT:	here, see, can you see the duckling?
+*CHI:	&=vocalises.
+*FAT:	cannot, he came here.
+*FAT:	so mama said, where, where, where is, where is the one more duckling?
+*FAT:	so what happened?
+*FAT:	mama says, come let us go and find the duckling together.
+*CHI:	&=vocalises.
+*FAT:	so now the mama bring the duckling, go and find the one last duckling.
+*FAT:	so they start to move off from their house and there they go.
+*FAT:	@eh, they see this bird, wood pecker.
+*FAT:	the mama duckling, the mama duck say, have you seen my son?
+*CHI:	&=vocalises.
+*FAT:	you know, he go off and play with the butterfly, he has not come home yet.
+*FAT:	can you please tell me where is he?
+*FAT:	wood pecker say, i do not know, i never see him.
+*FAT:	then what happen?
+*FAT:	mama see, mama continue to look for the duckling!
+*FAT:	where is he?
+*FAT:	mama ask the tortoise, can see the tortoise?
+*FAT:	rayray come, rayray.
+%COM:	father proceeds to coax the child over to resume the story.
+*FAT:	so, now mama cannot find the little duckling, so what happened?
+*CHI:	&=vocalises.
+*FAT:	you know, mama saw the tortoise.
+*FAT:	they asked the tortoise.
+*FAT:	hi mister tortoise, have you seen my son the little duckling?
+*FAT:	he went off to play, where did he go?
+*FAT:	he went off to play with the butterfly.
+*FAT:	rayray, see the butterfly.
+*CHI:	&=vocalises.
+*FAT:	butterfly, hor@s:sce?
+*FAT:	the tortoise said, nope, i have not seen him.
+*FAT:	maybe just let me go around and i try to look for him for you.
+*CHI:	&=vocalises.
+*FAT:	the mama duck say, thank you, thank you.
+*FAT:	so after that, they continue to move on.
+*FAT:	@eh, what did they see, what is this?
+*FAT:	this is a beaver.
+*FAT:	what color is the beaver?
+*CHI:	beaver.
+*FAT:	what color?
+*CHI:	brown?
+*FAT:	what color is this beaver?
+*CHI:	brown.
+*FAT:	brown beaver.
+*FAT:	so the mama duck once again asked the brown beaver.
+*FAT:	have you seen my duckling?
+*FAT:	there is only one, two, three, four, five, six, seven.
+*FAT:	where is the number eight duckling?
+*FAT:	the beaver says no, i have not seen your duckling.
+*CHI:	&=vocalises.
+*FAT:	@yeah come we count together.
+*FAT:	one, two, three, four, five, six, one more, seven.
+*CHI:	two, three, four, five, six.
+%COM:	child counts together with the father.
+*FAT:	so where is the eightth duckling rayray?
+*FAT:	so mama have not gotten an answer from the beaver.
+*FAT:	the beaver says, no, i do not know where the duckling is.
+*FAT:	so now, look, so now what happens?
+*FAT:	mama asked many people.
+*FAT:	mama asked the fish, have you seen my duckling?
+*FAT:	asked a catfish, have you seen my duckling?
+*FAT:	asked the lizard, asked the cockroach, asked the frog.
+*FAT:	and what did they say?
+*FAT:	no, i have not seen your duckling.
+*CHI:	&=vocalises.
+*FAT:	so finally, you know, in the search of the duckling, they saw another mama duck.
+*FAT:	it says, hey, have you seen my little duck, he went out to play with the butterfly.
+*FAT:	where is he, see what did the friend say?
+*FAT:	i do not know, &i i have not seen.
+*FAT:	all my small duckling, all my baby duck are very good and they are well behaved.
+*FAT:	so now how, the mama duck is very sad.
+*FAT:	rayray come, come &h help papa find the eightth duckling.
+*FAT:	they cannot find the eightth duckling, how?
+*FAT:	@ooh, @eh come already.
+*FAT:	so, so the mama duck has spent many [x 3] hours looking for the duckling.
+*FAT:	rayray see, come, look at the photo here.
+*FAT:	sit down.
+*FAT:	see, mama, the mama duck was, i mean is very sad.
+*FAT:	come on rayray, sit down first, papa later.
+*FAT:	let us finish the story first can?
+*FAT:	come sit here, sit here.
+*FAT:	sit.
+*CHI:	&=whimpers.
+*FAT:	rayray sit.
+*CHI:	&=vocalises.
+*FAT:	come papa show you the last part come here.
+*CHI:	&=vocalises.
+%COM:	father proceeds to get the child seated before resuming the story.
+*FAT:	let us finish the story first can we, okay, good boy.
+*FAT:	come papa tell you the last part.
+*FAT:	now the mama cannot find the duck, what happened?
+*FAT:	&eh, the tortoise found the duck.
+*CHI:	&=vocalises.
+*FAT:	rayray see, hm, okay, see the little duckling over here.
+*CHI:	&=vocalises.
+*FAT:	they found the duckling.
+*CHI:	&=cries.
+*FAT:	so now what happen, tell papa.
+*CHI:	&=vocalises.
+*FAT:	now let papa finish the story first.
+%COM:	child starts crying.
+*CHI:	&=cries.
+*FAT:	the tortoise found the little duck.
+*FAT:	come on, good boy.
+*CHI:	no want, papa go.
+*FAT:	let papa finish the last part of the story can i, please?
+*CHI:	&=vocalises.
+*FAT:	mmhm, come, papa see what is this.
+*CHI:	&=vocalises.
+*FAT:	wah, they found the, the duck now.
+%COM:	child starts crying again.
+*FAT:	so now all go home happily ever after.
+*FAT:	so what is the moral of the story?
+*FAT:	come papa say one last sentence okay.
+*FAT:	&ooh do not cry, <gu1 gu1 bao4 bao4>@s:zho.
+*FAT:	okay [x 3] so now you see the mama duck bring everybody go home sleep already.
+*FAT:	so the moral of the story here is, never go out alone okay.
+*FAT:	you must follow the mama, to go to wherever the mama bring you, understand?
+*FAT:	okay, thank you rayray, go and play.
+@End

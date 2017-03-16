@@ -1,0 +1,114 @@
+@Unicode
+@Begin
+@Languages:	eng
+@Participants:	MOT Paulin_Phang Mother, CHI Jayrius_Wong_Jia_Le Child
+@ID:	eng||MOT||female|||Mother|||
+@ID:	eng||CHI|1;6.30|male|||Child|||
+@Date:	25-SEP-2016
+@Location:	Home Testing
+@Comment:	duration of recording 3 minutes 31 seconds
+@Comment:	transcribed by Wenqi, checked by Nadiah, checked by Monique
+@Start
+*MOT: Jayrius, mama read a book to you.
+*MOT: "have you seen my duckling?".
+*MOT: "early one morning".
+*MOT: look, Jayrius, look.
+*MOT: see!
+*MOT: one, two, three, four, five, six, seven ducklings.
+*CHI: xxx xxx?
+*MOT: see, one day mummy came back.
+*MOT: see mama duck quack [x3].
+*CHI: &=vocalises.
+*MOT: see mama, mummy duck came back to, find ducklings.
+*CHI: &=yells.
+*MOT: I know, next page first.
+*CHI: mama.
+*MOT: okay <this page> [x3].
+*CHI: mama.
+*MOT: &=laughs.
+*MOT: (o)kay next page.
+*MOT: okay next page you see.
+*CHI: &=vocalises.
+*MOT: ai yo [x4] oh this one you look [x2]!
+*CHI: &=cries.
+*MOT: wah you look xxx xxx xxx xxx.
+*MOT: wah you see [x2]!
+*MOT: uh-oh [x2]!
+*CHI: &=vocalises.
+*MOT: you see the mummy duck came back.
+*MOT: &=gasps, what is, what is.
+*MOT: oh the mummy duck cannot find the baby duckling.
+*MOT: <ni3 kan4>@s:zho, one two three four five six seven.
+*MOT: is one missing?
+*CHI: yeah.
+*MOT: "so now mummy duck decided to bring all the little ducklings to find
+  their brother."
+*CHI: &=yells
+*MOT: "where is baby duckling?"
+*CHI: &=yells
+*MOT: yeah, xxx xxx xxx. [+bch]
+*MOT: okay.
+*MOT: next.
+*MOT: okay what shall we see?
+*CHI: &=vocalises.
+*MOT: what, where, where is the mummy duck going?
+*MOT: can you tell where the mummy duck is going?
+*MOT: yes, you see, mummy duck ask the bird.
+*CHI: xxx.
+*MOT: "have you seen my duckling?".
+*CHI: &=vocalises.
+*MOT: what did the bird says?
+*MOT: no.
+*CHI: &=vocalises.
+*MOT: so now mummy ducky went to the beaver and says.
+*CHI: mama.
+*MOT: "have you seen my duckling?".
+*CHI: &=vocalises.
+*MOT: (then) what did the beaver say.
+*MOT: no.
+*CHI: &=cries.
+*MOT: &=laughs.
+*MOT: wait [x3] Jacqueline wait. [+bch]
+*MOT: okay so, see.
+*MOT: now mummy duck.
+*MOT: did mummy duck give up?
+*MOT: no, mummy duck continue to find the baby.
+*MOT: so mummy duck went to the pond.
+*MOT: there are frogs and fishes and turtles.
+*MOT: mummy duck ask the fish.
+*MOT: "have you seen my duckling?".
+*MOT: Jayrius, "have you seen my duckling?".
+*MOT: "no".
+*MOT: "the fish then says".
+*MOT: next.
+*MOT: what is this?
+*MOT: is it a duck?
+*MOT: is it, looks like a, is it a goose?
+*MOT: anyway, mummy duck asks.
+*MOT: "have you seen my duckling?".
+*MOT: <what did they answer?> [x2]
+*MOT: no.
+*MOT: suddenly, mummy duck heard something.
+*MOT: quack [x6] behind.
+*MOT: mummy duck turns back, and guess what mummy duck saw?
+*MOT: dng@o [x6], look!
+*MOT: baby duckling, yay!
+*CHI: &=vocalises.
+*MOT: <last page> [x2], you see!
+*CHI: &=vocalises.
+*MOT: duckling.
+*MOT: uh.
+*MOT: so &=laughs.
+*MOT: so, mummy duck.
+*MOT: wait let me see.
+*MOT: oh!
+*CHI: &=vocalises.
+*MOT: who found the baby duck?
+*MOT: it is the, turtle!
+*MOT: the turtle found &=laughs the.
+*MOT: see, finally, mummy found the baby duckling!
+*CHI: &=vocalises.
+*MOT: now they can sleep in peace.
+*MOT: the end!
+*MOT: &=laughs yes I told you xxx. [+bch]
+@End

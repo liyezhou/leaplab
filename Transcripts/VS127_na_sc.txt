@@ -1,0 +1,25 @@
+@Unicode
+@Begin
+@Languages:	eng
+@Participants:	FAT Yeeting Father, CHI Aricia_Soh_Jing_Yu Child
+@ID:	eng||FAT||male|||Father|||
+@ID:	eng||CHI|1;5.29|female|||Child|||
+@Date:	24-JUL-2016
+@Location:	Lab Testing
+@Comment:	duration of recording 2 minutes 39 seconds
+@Comment:	transcribed by Nadiah, checked by Chao_Min, checked by Monique
+@Start
+*FAT: baby.
+*FAT: <what's this> [x 2]?
+*FAT: xxx.
+*FAT: baby, see.
+*FAT: bird, where's bird?
+*FAT: early one morning.
+*FAT: xxx duck, how many duck?
+*CHI: &=vocalises.
+*FAT: one, two, three, four, five, six, seven.
+*FAT: baby have you seen the duckling?
+*FAT: where?
+*FAT: &oh.
+*FAT: what's this?
+@End

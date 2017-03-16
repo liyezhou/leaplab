@@ -1,0 +1,40 @@
+@Unicode
+@Begin
+@Languages:	eng
+@Participants:	MOT Eri Mother, CHI Efren_Salvatore_Wijaya Child
+@ID:	eng||MOT||female|||Mother|||
+@ID:	eng||CHI|1;5.27|male|||Child|||
+@Date:	12-OCT-2016
+@Location:	lab
+@Comment:	duration of recording 2 minutes 14 seconds
+@Comment:	transcribed by Nadiah, checked by Sihui, checked by Wenqi
+@Start
+*MOT:	early one morning.
+*CHI:	papa.
+*MOT:	mummy duck come to the little duck.
+*MOT:	then, she realised one duck missing.
+*MOT:	so the mummy duck ask the (a)nother little duck to find the missing duck.
+*CHI:	papa.
+*MOT:	then, she.
+*CHI:	papa!
+*MOT:	she ask around have you seen my duckling?
+*MOT:	have you seen my duckling?.
+*MOT:	she <look around> [x 2].
+*MOT:	have you seen my duckling?
+*CHI:	&=vocalises.
+*MOT:	she met a lot of animal(s) to ask, have you seen my duckling?
+*CHI:	&=vocalises.
+*MOT:	she's still looking around but still cannot find the little duck.
+*CHI:	xxx xxx &=vocalises.
+*MOT:	after awhile, the mummy found the missing duck.
+*CHI:	&=vocalises.
+*MOT:	&s with the turtle.
+*MOT:	then, she ask the missing duck to coming along.
+*CHI:	&=vocalises.
+*MOT:	and they reunited again.
+*MOT:	night time, they sleep.
+*MOT:	goodnight.
+*CHI:	&=vocalises.
+*MOT:	yes, goodnight.
+*CHI:	&=vocalises.
+@End

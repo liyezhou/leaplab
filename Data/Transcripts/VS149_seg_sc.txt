@@ -1,0 +1,96 @@
+@Unicode
+@Begin
+@Languages:	eng
+@Participants:	MOT Annete_Teoh Mother, CHI Abel_Lim_Shen_Zhe Child
+@ID:	eng||MOT||female|||Mother|||
+@ID:	eng||CHI|1;1.27|male|||Child|||
+@Date:	18-SEP-2016
+@Location:	Home Testing
+@Comment:	duration of recording 13 minutes 59 seconds
+@Comment:	transcribed by Joseph, checked by Sihui, checked by Nadiah
+@Start
+*MOT:	have you seen my duckling?
+*MOT:	&ah.
+*MOT:	look at this page!
+*MOT:	early one morning, you see the ducklings are in the nest.
+*MOT:	they are looking around.
+*MOT:	and you see this little duckling?
+*MOT:	he is leaving the nest.
+*MOT:	&mmhm okay [x 2].
+*MOT:	see, the ducklings are looking for their mother.
+*MOT:	mother duck is here, see?
+*MOT:	mother duck, and where is the little duckling going?
+*MOT:	let us, let's flip to the next page.
+*MOT:	mother duckling is with her little duckling.
+*MOT:	see?
+*MOT:	baby, can you see the little ducklings are kissing the mother duck.
+*MOT:	okay, mother duck loves their little duckling.
+*MOT:	and the little duckling decided to follow their mother duckling to the water.
+*MOT:	they are swimming, following their mother.
+*MOT:	but where is the little duckling?
+*MOT:	can you see this little duckling, baby?
+*MOT:	abel [x 2], can you see this little duckling?
+*MOT:	it is wandering alone by himself.
+*MOT:	whereas the rest are following the mother.
+*MOT:	&=gasps have you seen my duckling?
+*MOT:	the mother duckling asked this little bird.
+*MOT:	can you see my duckling?
+*MOT:	what is this, baby?
+*MOT:	what is this?
+*MOT:	do you think this is the little duckling that got lost?
+*MOT:	next one.
+*MOT:	have you seen my duckling?
+*MOT:	the mother duck asked the beaver.
+*MOT:	the beaver says, no, i haven't seen your duckling.
+*MOT:	and the little ducklings are all wondering why.
+*MOT:	and the mother duckling asked another otter.
+*MOT:	have you seen my duckling?
+*MOT:	baby!
+*MOT:	one, two, three, four, five, six!
+*MOT:	there are six little ducklings.
+*MOT:	where is the little missing duckling?
+*MOT:	where is the missing duckling?
+*MOT:	can you see?
+*MOT:	can you find it?
+*MOT:	&ah.
+*MOT:	have you seen my duckling?
+*MOT:	they went searching into the water.
+*MOT:	there is a frog, there's a lizard, and a tortoise!
+*MOT:	and there is a xxx as fishes.
+*MOT:	have you seen my duckling?
+*MOT:	the mother duck is worried.
+*MOT:	right?
+*MOT:	where it the little duckling?
+*MOT:	&ah!
+*MOT:	is this the one?
+*MOT:	do you think this is the one?
+*MOT:	&=vocalises.
+*MOT:	yeah!
+*MOT:	have you seen my duckling?
+*MOT:	the mother duck asked this little weird looking bird.
+*MOT:	where is my duckling?
+*MOT:	can you find?
+*MOT:	can you find the duckling?
+*CHI:	&=screams.
+*MOT:	the rest of the ducklings are following the mother.
+*CHI:	&=screams.
+*MOT:	but the little duckling is hiding inside here.
+*MOT:	&wow, hiding!
+*MOT:	i am hiding!
+*MOT:	have you seen my duckling?
+*MOT:	the mother duck searched high and low.
+*MOT:	where is the little duckling, baby?
+*CHI:	&=whines.
+*MOT:	here!
+*MOT:	<is it here>[x 2]?
+*MOT:	&ah.
+*MOT:	have you seen my duckling?
+*MOT:	see the little ducks are following, looking all around, looking high and low.
+*MOT:	okay, last page.
+*MOT:	and the night, has come.
+*MOT:	the mother duck is sleeping with the little ducks.
+*MOT:	see, they are all sleeping!
+*MOT:	they haven't found the duck.
+*MOT:	what happened to the little missing duck?
+*MOT:	the end.
+@End.

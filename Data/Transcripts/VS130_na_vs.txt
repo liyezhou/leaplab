@@ -1,0 +1,113 @@
+@Unicode
+@Begin
+@Languages:	eng
+@Participants:	MOT Adeline Mother, CHI Julius_Toh Child
+@ID:	eng||MOT||female|||Mother|||
+@ID:	eng||CHI|1;5.10|male|||Child|||
+@Date:	30-JUL-2016
+@Location:	Home Testing
+@Comment:	duration of recording 4 minutes 49 seconds
+@Comment:	transcribed by Joseph, checked by XinYun, checked by Monique
+@Start
+*CHI:	&=vocalises, duck [x 2].
+*MOT:	oh duck [x 2]!
+*MOT:	come juju, you see.
+*MOT:	have you seen my duckling?
+*MOT:	see the little duckling.
+*MOT:	and the <mummy duck> [x 2].
+*MOT:	have you seen my duckling?
+*MOT:	early one morning.
+*MOT:	you see.
+*MOT:	one two three four five six seven.
+*CHI:	@=vocalises.
+*MOT:	seven ducklings.
+*MOT:	and the little duckling went away to chase after the butterfly.
+*MOT:	you see, this naughty duckling just ran away.
+*MOT:	correct?
+*CHI:	@=vocalises.
+*MOT:	&oh, yes!
+*MOT:	then you see, the mummy duck came back.
+*MOT:	oh no!
+*MOT:	one little duckling is missing!
+*CHI:	@=vocalises.
+*MOT:	isn't there seven ducks?
+*MOT:	there you see.
+*MOT:	one is over here chasing after the butterfly.
+*MOT:	the mummy duck can't find the little duckling here.
+*MOT:	then what happen?
+*MOT:	the mummy came back and say.
+*MOT:	oh hello, good morning.
+*MOT:	one two three four five six seven.
+*MOT:	oh no!
+*MOT:	one little duckling is missing!
+*CHI:	@=vocalises.
+*MOT:	see.
+*MOT:	one little duckling is hiding over here.
+*MOT:	yes?
+*MOT:	so the mummy duck say.
+*MOT:	come with me.
+*MOT:	let's go and find the little missing duckling.
+*MOT:	see, it is over here.
+*MOT:	so all the little ducklings follow the mummy duck.
+*MOT:	yes?
+*MOT:	&okay.
+*MOT:	so they go and look for the little duckling.
+*MOT:	have you seen my duckling?
+*MOT:	they asked the little bird.
+*MOT:	no [x 2].
+*MOT:	they never see the little duckling.
+*MOT:	have you seen my duckling?
+*MOT:	they asked the little tortoise and the beaver.
+*MOT:	yes?
+*MOT:	no, they never see.
+*MOT:	have you seen my duckling?
+*MOT:	nobody see the little duckling.
+*MOT:	where is the little duckling hiding?
+*MOT:	can you find, julius?
+*CHI:	@=vocalises.
+*MOT:	&ooh, there?
+*MOT:	there?
+*MOT:	&oh, &yeah.
+*MOT:	duckling hiding over there?
+*MOT:	are you sure?
+*CHI:	@=vocalises.
+*MOT:	have you seen my duckling?
+*MOT:	you see, they asked the frog.
+*MOT:	the lizard, the turtle.
+*MOT:	you see everyone.
+*MOT:	you see all the little ducklings are looking for their sibling.
+*MOT:	&ah, no.
+*MOT:	upside down, upside down.
+*MOT:	yes.
+*MOT:	upside down.
+*MOT:	see, they are looking for the missing duckling, yes?
+*MOT:	can mummy?
+*MOT:	&uh, okay [x2].
+*MOT:	<let's read> [x2].
+*MOT:	what, who do they ask?
+*MOT:	have you seen my duckling?
+*MOT:	who is that?
+*CHI:	@=vocalises.
+*MOT:	what is that?
+*MOT:	what animal is that?
+*MOT:	so they follow one two three four five six seven.
+*MOT:	&oh the little duckling is over here with the tortoise.
+*MOT:	so they found him with the tortoise.
+*CHI:	@=vocalises.
+*MOT:	&okay the tortoise and the butterfly.
+*MOT:	they are still looking for the little duckling.
+*MOT:	one two three four five six seven eight.
+*MOT:	&oh, they found the duckling!
+*MOT:	see, they found the duckling.
+*CHI:	@=vocalises.
+*MOT:	yes, the tortoise found the duckling.
+*MOT:	&s eight.
+*MOT:	and they all had a good night rest.
+*MOT:	you see.
+*MOT:	they all sleeping already leh@s julius.
+*MOT:	they are so tired.
+*MOT:	they need to sleep, yes?
+*CHI:	@=vocalises.
+*MOT:	correct?
+*MOT:	the end.
+@End

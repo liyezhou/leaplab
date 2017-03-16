@@ -1,0 +1,131 @@
+@Unicode
+@Begin
+@Languages:	eng
+@Participants:	FAT Kumar Father, MOT V_Madhumitha Mother CHI Taneshka_Kumar Child
+@ID:	eng||FAT||male|||Father|||
+@ID:	eng||MOT||female|||Mother|||
+@ID:	eng||CHI|0;10.16|female|||Child|||
+@Date:	16-MAY-2015
+@Location:	Home
+@Comment:	duration of recording 3 minutes 10 seconds.
+@Comment:	starts at 50 seconds
+@Comment:	transcribed by Yezhou, checked by Ashley
+@Comment:	narration of wordless picture book
+@Start
+*FAT:	okay let's read this book.
+*FAT:	"have you seen my ducklings"?
+*FAT:	see all the ducklings?
+*FAT:	one two three four five six seven eight.
+*FAT:	eight ducklings, Taneshka.
+*FAT:	"have you seen my duckling"?
+*FAT:	early one morning.
+*FAT:	early one morning.
+*CHI:	&=vocalizes.
+*FAT:	and still early in the morning &=laughs.
+*MOT:	no you just have to come out with the story.
+*FAT:	&y see?
+*MOT:	see, the ducklings so cute.
+*MOT:	one of the duckling is hiding here.
+*FAT:	you see it's going there to catch the insect you know.
+*MOT:	yes the mother duck is actually looking for food.
+*FAT:	then the.
+*FAT:	see this one look like ama [x 4] there mother duckling.
+*CHI:	&=vocalizes.
+*MOT:	there, look here look here!
+*MOT:	can you spot where is the duckling?
+*FAT:	see!
+*MOT:	Taneshka!
+*FAT:	where's the where's the duckling?
+*MOT:	the missing one.
+*FAT:	Taneshka!
+*MOT:	see look at here!
+*MOT:	look here!
+*FAT:	here!
+*MOT:	Tansehka!
+*FAT:	Taneshka duckling!
+*MOT:	Taneshka.
+*FAT:	here!
+*MOT:	here.
+*FAT: where is the duckling?
+*MOT:	look at this, look at this duckling!
+*MOT:	so.
+*FAT:	see so all the ducklings right.
+*FAT:	they start following the mom.
+*FAT:	but they couldn't find.
+*CHI:	&=vocalizes.
+*FAT:	they don't know where the duckling is.
+*MOT:	okay you're not doing too well.
+*FAT:	there's.
+*MOT:	come &=laughs come.
+*FAT:	come [x 4] here [x 4] see.
+*MOT:	Taneshka.
+*CHI:	&=vocalizes.
+*FAT:	what does it say?
+*FAT:	&=laughs.
+*MOT:	&=laughs Taneshka.
+*FAT:	what's here, ah, see the mother goose eh the mother the [x 3]
+*MOT:	XXX you're not very good at telling the story.
+*FAT:	mother duck goes.
+*FAT:	"have you seen my duckling"?
+*FAT:	"have you seen my duckling"?
+*MOT:	I hold her la come.
+*FAT:	XXX see.
+*FAT:	"have you seen my duckling"?
+*MOT:	Taneshka!
+*FAT:	"have you seen my duckling"?
+*CHI:	&=vocalizes.
+*MOT:	see ah, see ah.
+*FAT:	and she goes.
+*FAT:	see first she goes to.
+*FAT:	what's this look like.
+*MOT:	this bird.
+*FAT:	this looks like a bird.
+*MOT:	yeah yes.
+*CHI:	&=vocalizes.
+*FAT:	and then she goes to.
+*MOT:	then she goes to.
+*FAT:	a tortoise.
+*MOT:	a tortoise!
+*CHI:	&=vocalizes.
+*FAT:	and then she goes.
+*FAT:	then she goes to a beaver.
+*MOT:	a beaver!
+*FAT: beaver, Taneshka you not looking.
+*MOT:	beaver beaver!
+*CHI:	&=squeals.
+*MOT:	beaver!
+*FAT:	why &=laughs you,  why you &=laughs.
+*FAT:	why are you so excited now.
+*FAT:	she asked the fish.
+*CHI:	&=vocalizes.
+*MOT:	look at this, look at this fish!
+*MOT:	fish [x 2].
+*MOT:	she's gonna bite you!
+*FAT:	XXX XXX.
+*FAT:	"have you seen my duckling"?
+*MOT:	oo what is this bird?
+*FAT:	then she ask this other.
+*FAT:	what this looks like uh.
+*MOT:	I don't know.
+*FAT:	&=laughs.
+*MOT:	can you see the butterfly?
+*MOT:	Taneshka where is the butterfly?
+*MOT:	oh look at this duckling hiding here.
+*FAT: there do you see?
+*MOT:	oh look at the, hiding from the mother.
+*FAT:	is there.
+*MOT:	so cute hm?
+*FAT:	and then.
+*MOT:	then now can you spot it?
+*MOT:	Taneshka?
+*CHI:	&=squeals.
+*FAT:	she finally XXX.
+*CHI:	&=cries.
+*FAT:	Taneshka.
+*MOT:	okay.
+*FAT:	Taneshka, she's finally.
+*CHI:	&=cries.
+*FAT:	Taneshka [x 3].
+*MOT:	Taneshka.
+*CHI:	ba@b [x 9].
+@End.

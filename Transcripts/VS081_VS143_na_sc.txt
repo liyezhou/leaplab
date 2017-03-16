@@ -1,0 +1,67 @@
+@Unicode	
+@Begin	
+@Languages:	eng	
+@Participants:	MOT Target_Mother *CHI Child	
+@ID:	eng|Lara|MOT|||||Target_Mother|||	
+@ID:	eng|Lara|CHI|||||Child|||	
+@Date:		
+@Location:	
+@Comment:	Filename:	VS081_Narration Transcript_Yezhou.txt	
+@Comment:	269 seconds	
+@Comment:	transcribed by Yezhou	
+@Situation:	
+@Start
+*MOT:	have you seen my ducklings?
+*MOT:	XXX.
+*MOT:	early one morning, oh, look at this.
+*MOT:	the mother duck is looking for her babies.
+*MOT:	oh, what do you see &=vocalizes.
+*MOT:	other babies ducks are kissing mummy duck.
+*MOT:	&=vocalizes.
+*MOT:	how many ducks are there?
+*MOT:	this is one two three four five six seven.
+*MOT:	seven ducklings, and one mummy duck.
+*MOT:	look, oh, see, &=vocalizes.
+*MOT:	ducklings are swimming along with mummy.
+*MOT:	they are following behind.
+*MOT:	oh, zhe4@s ge4@s, see.
+*MOT:	mummy duck is asking this bird over here.
+*MOT:	have you seen my duckling?
+*MOT:	&=vocalizes so what else?
+*MOT:	&=vocalizes you understand, okay.
+*MOT:	alice, look.
+*MOT:	the mummy duck is asking the turtles.
+*CHI:	turtle.
+*MOT:	have you seen my duckling?
+*MOT:	alice, &=laughs what's this?
+*MOT:	can you see?
+*MOT:	it's a frog jumping into the water.
+*MOT:	this is a beaver.
+*MOT:	what is this?
+*MOT:	&=laughs oh, look, &=vocalizes.
+*MOT:	duckling, look at that.
+*MOT:	all the ducklings are submerging their head inside the water.
+*MOT:	you want this one?
+*MOT:	&=laughs.
+*MOT:	&=vocalizes okay, you can have this.
+*MOT:	alice, look, the mummy duck is looking for one of the duckling.
+*MOT:	&=vocalizes she is asking the fishes whether they have seen my ducklings.
+*MOT:	have you seen my duckling?
+*MOT:	i wonder what this bird is.
+*MOT:	do you know what is this?
+*MOT:	which animal is this?
+*MOT:	one of the owls ah?
+*MOT:	you are very busy, alice &=vocalizes.
+*MOT:	&=vocalizes oh look, looks like the turtle over here has found the missing duckling.
+*MOT:	see, can you see the duckling?
+*MOT:	tortoise over here.
+*MOT:	&=vocalizes see.
+*MOT:	can you see this &=vocalizes.
+*CHI:	&=cries.
+*MOT:	mummy duckling, mummy and all the ducklings are swimming back home.
+*MOT:	see they are saying goodbye to the tortoise.
+*MOT:	oh, the mummy and the ducklings are all sleeping together.
+*CHI:	&=vocalizes.
+*MOT:	&=laughs.
+*MOT:	what's the owl?
+@End

@@ -1,0 +1,82 @@
+@Unicode
+@Begin
+@Languages:	eng
+@Participants:	MOT Ayumi_Lew Mother, CHI Lai_Jo_Vie Child
+@ID:	eng||MOT||female|||Mother|||
+@ID:	eng||CHI|1;1.25|female|||Child|||
+@Date:	07-OCT-2016
+@Location:	Lab Testing
+@Comment:	duration of recording 2 minutes 41 seconds
+@Comment:	transcribed by Elsie, checked by Nadiah
+@Start
+*MOT:	see, wow, how many ducks?
+*MOT:	have you seen my duckling?
+*MOT:	one, two, three, four, five, six, seven!
+*MOT:	eight!
+*MOT:	eight ducks.
+*MOT:	early one morning.
+*MOT:	see so many ducks here.
+*MOT:	little ducks.
+*CHI:	&=vocalises.
+*MOT:	yes, little ducks.
+*MOT:	wow, one, two, three, four, five.
+*CHI:	&=squeals.
+*MOT:	yes, cute right, the ducks.
+*MOT:	wah, see, wah.
+*MOT:	one, two, three, four, five, six, seven ducks.
+*MOT:	and this is the mummy duck.
+*MOT:	mummy duck.
+*MOT:	okay, hmm.
+*MOT:	mummy ducks, see mummy ducks.
+*MOT:	one two three four, seven little ducks.
+*MOT:	&hmm, &h here, there's a duck here.
+*CHI:	&=vocalises.
+*MOT:	see, all the ducks here.
+*CHI:	&=vocalises.
+*MOT:	so many ducks, see.
+*CHI:	gagaga@b.
+*MOT:	yes, see.
+*MOT:	wow, so many ducks.
+*MOT:	dng@o [x 2].
+*MOT:	have you seen my duckling?
+*MOT:	mummy duck ask.
+*MOT:	see.
+*MOT:	hey, have you seen my duckling?
+*CHI:	no!
+*MOT:	yeah, duck.
+*CHI:	duck!
+*MOT:	ooh duck.
+*MOT:	dng@o [x 2].
+*MOT:	eh?
+*MOT:	have you seen my duckling?
+*CHI:	duck [x 2]!
+*MOT:	see.
+*CHI:	duck [x 2].
+*MOT:	see, yes duck.
+*MOT:	okay, have you seen my duckling?
+*CHI:	&=vocalises.
+*MOT:	wah, what's this?
+*MOT:	so nice.
+*MOT:	mm?
+*CHI:	&=vocalises.
+*MOT:	see?
+*CHI:	see?
+*MOT:	see?
+*MOT:	hey, dng@o [x 2].
+*MOT:	can you see my duckling?
+*MOT:	dng@o [x 2].
+*MOT:	jo vie?
+*MOT:	last page!
+*MOT:	last page, jo vie!
+*MOT:	jo vie, see.
+*MOT:	dng@o [x 2].
+*MOT:	come here.
+*CHI:	 &ju duck!
+*MOT:	yes, duck.
+*MOT:	which one is the duck?
+*MOT:	okay, jo vie.
+*CHI:	&=vocalises.
+*MOT:	&=laughs.
+*CHI:	&=vocalises.
+*MOT:	okay, done.
+@End

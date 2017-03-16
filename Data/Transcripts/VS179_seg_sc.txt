@@ -1,0 +1,161 @@
+@Unicode
+@Begin
+@Languages:	zho, eng
+@Participants:	MOT Celina_Koh Mother, CHI Seow_Yi_Rui_Leoxandas Child
+@ID:	zho, eng||MOT||female|||Mother|||
+@ID:	zho, eng||CHI|1;0.22|male|||Child|||
+@Date:	15-NOV-2016
+@Location:	Lab Testing
+@Comment:	duration of recording 6 minutes 30 seconds
+@Comment:	transcribed by Elsie, checked by Wenqi, checked by Monique
+@Start
+*MOT:	eh@s:sce, mummy@s du2 gu4 shi4 shu1 gei3 ni3 ting1 la.
+*MOT:	[- eng] have you seen my duckling?
+*MOT:	ni3 you3 kan4 dao4 wo3 de4 xiao3 ya1 zi3 ma1?
+*MOT:	wa, ni3 kan4. zhe4 li3 you3 ge4 ya1 zi3 a?
+*MOT:	ji3 zhi1 ya1?
+*MOT:	yi1 zhi1, liang3 zhi1, san1 zhi1, si4 zhi1, wu3 zhi1, liu4 zhi1, qi1 zhi1.
+*MOT:	ba1 zhi1 ya1 zi1 leh@s:sce!
+*MOT:	na4 you3 yi1 tian1 zao3 shang4 ne1, ya1 ma1 ma jiu4 lai2 kan4 ta1 de4
+xiao3 ya1 zi3.
+*MOT:	xiao3 ya1 zi1 zai4 zhe4 li3.
+*MOT:	yi1, er4, san1, si4, wu3, liu4, qi1!
+*MOT:	eh@s:sce! zen3 me4 zhi3 you3 qi1 zhi1 xiao3 ya1 zi3 a?
+*MOT:	hai2 you3 duo1 yi1 zhi1 xiao3 ya1 zi1 dao4 na3 li3 qu4 le?
+*MOT:	ni3 kan4.
+*MOT:	ta1 de4 zhe4 ge4 xiao3 ya1 zi1 pao3 qu4.
+*MOT:	pao3 qu4 zi4 ji3 wan2.
+*MOT:	ta1 pao3 diao4 le.
+*MOT:	ta1 zi4 ji3 qu4 you2 yong3.
+*MOT:	you3 dao4 wai4 mian4 qu4.
+*MOT:	you3 dao4， qu4 [x 2] zhao3 bie2 de4 peng2 you3 wan2 le.
+*MOT:	xiao3 ya1 zi3 jiu4.
+*MOT:	qi1 zhi1 xiao3 ya1 zi3 jiu4 gen1 zhe ma1 ma jiang3 a.
+*MOT:	eh@s:sce, <xiao3 di4 d4> [x2], zi4 ji3 qu4 wan2 le.
+*MOT:	xiao3 ya1 zi3 bu4 zai4 le.
+*MOT:	ya1 ma1 ma jiu4 yi1 zhi1 zai4 shu3 a1 shu3 a1.
+*MOT:	zhi3 you3 qi1 zhi1 ya1 zi3.
+*MOT:	ni3 kan4, zhe4 zhi1 xiao3 ya1 zi3 zi4 ji3 pao3 diao4 le.
+*MOT:	ni3 kan4. [x 2].
+*MOT:	zhe4 zhi1 xiao3 ya1 zi3 huai4 dan4.
+*MOT:	ta1 pao3 diao4 le.
+*CHI:	&=vocalises.
+*MOT:	&mm.
+*MOT:	ran2 hou4 ne1, ya1 ma1 ma jiu4 dai4 zhe qi1 zhi1 xiao3 ya1 zi3 qu4 zhao3
+zui4 hou4 yi1 zhi1 xiao3 di4 di.
+*MOT:	xiao3 ya1 zi3 [x 2] di4 di.
+*CHI:	&=vocalises.
+*MOT:	ta1 yue4 you2.
+*MOT:	xiao3 ya1 zi3 di4 di <yue4 you2 yue4 yuan3> [x 2].
+*MOT:	zhao3 bu4 dao4 ma1 ma le.
+*MOT:	zhao3 bu4 dao4 ta1 de4 ge1 ge jie3 jie le.
+*MOT:	ran2 hou4, ya1 ma1 ma ye3 shi4 bu4 zhi1 dao4 xiao3 ya1 zi3 pao3 qu4 na3
+li3 le.
+*MOT:	ta1 bu4 zhi1 dao4 xiao1 ya1 zi1 di4 di pao3 qu4 na3 li3.
+*MOT:	ta1 jiu4 wen4 xiao3 niao3.
+*MOT:	<ni3 you3 kan4 dao4 wo3 de4 xiao3 ya1 zi3 ma?> [x 2].
+*MOT:	ni3 you3 kan4 dao4 xiao3 ya1 zi3 zai4 na3 li3?
+*MOT:	xiao3 ya1 zi3 zai4 na3 li3?
+*MOT:	zai4 [x 2] zhe4 li3 a1. ta1 duo3 zai4 hua1 li3 mian4 leh@s:sce.
+*MOT:	ke3 shi4 ya1 ma1 ma kan4 bu4 dao4.
+*MOT:	ta1 de4 ge1 ge jie3 jie ye3 kan4 bu4 dao4.
+*MOT:	ran2 hou4.
+*MOT:	&mm, ya1 ma1 ma jiu4 dao4 le lu4 shang4.
+*MOT:	dao4 lu4 di4 shang4, ta1 kan4 dao4 yi1 zhi1 wu1 gui1.
+*MOT:	ta1 jiu4 wen4 na4 ge4 wu1 gui1 xian1 sheng.
+*MOT:	wu1 gui1 xian1 sheng, ni3 you3 kan4 dao4 wo3 de4 xiao3 ya1 zi3 di4 di ma?
+*MOT:	xiao3 ya1 zi3 di4 di zai4 na3 li3, wo3 men zhao3 bu4 dao4 ta1 le.
+*CHI:	&=vocalises.
+*MOT:	ke3 shi4 wu1 gui1 xian1 sheng shuo1, mei2 you3 eh@s:sce.
+*MOT:	mei2 you3 kan4 dao4 ren4 he2 xiao3, mei2 you3 shen2 me, mei2 you3 kan4
+dao4 ni3 de4 xiao3 ya1 zi3 zai4 na3 li3 zou3 lai2 zou3 qu4 eh@s:sce.
+*MOT:	ran2 hou4 ne, ah.
+*MOT:	ya1 ma1 ma jiu4 kan4 dao4, hai3 shi1.
+*MOT:	ta1 jiu4 wen4 hai3 shi1.
+*MOT:	<hai3 shi1> [x 2], ni3 you3 kan4 dao4 wo3 de4 xiao3 ya1 zi3 ma?
+*MOT:	hai3 shi1, jiu4 yao3 zhe mu4 tou2 zai4 you2 yong3 a1.
+*MOT:	ta1 jiu4 jiang3, wo3 ye3 mei2 kan4 dao4 xiao3 ya1 zi3 zai4 zhe4 li3 a.
+*MOT:	ni3 de4 xiao3 ya1 zi3 pao3 qu4 na3 li3 le?, hai3 shi1 wen4 ya1 ma1 ma.
+*MOT:	ke3 shi4 ya1 ma1 ma shuo1, wo3 bu4 zhi1 dao4 xiao3 ya1 zi3 pao3 qu4 na3
+li3 le.
+*MOT:	wo3 bu4 zhi1 dao4 zhe4 ge4 xiao3 ya1 zi3 di4 di zi4 ji3 dao4 na3 li3 qu4
+le, suo3 yi3 wo3 zheng4 zai4 zhao3 ta1.
+*MOT:	ta1 mei3 ci4 dou1 hen3 xi3 huan1 zi4 ji3 you2 lai2 you2 qu4.
+*MOT:	bu4 jian4 diao4 liao@s:sce.
+*CHI:	&=vocalises.
+*MOT:	ta1 de4 ge1 ge jie3 jie ye3 hen3 jin3 zhang1 a.
+*MOT:	xiang3 yao4 ba3 xiao3 ya1 zi3 ji4 xu4 zhao3 hui2 lai2.
+*MOT:	hmm, ran2 hou4, ya1 ma1 ma jiu4 yue4 lai2 yue4 zhao2 ji2.
+*MOT:	ta1 yue4 lai2 yue4 zhao2 ji2 le, jiu4 yi1 zhi2 wen4.
+*MOT:	ta1 you3 kan4 dao4 shui3 jiu4 wen4 lor@s:sce.
+*MOT:	ta1 jiu4 kan4 dao4, wu1 gui1 a1, ta1 kan4 dao4 yu2 a1.
+*MOT:	ta1 kan4 dao4 qing1 wa1.
+*MOT:	dou1 zai4 wen4 ta1 men.
+*MOT:	qing3 wen4 ni3 men you3 kan4 dao4 wo3 de4 xiao3 ya1 zi3 di4 di ma?
+*MOT:	xiao3 ya1 zi3, wo3 de4 xiao3 ya1 zi3 di4 di bu4 jian4 le!
+*CHI:	agugu@b.
+*MOT:	bu4 zhi1 dao4 ta1 zai4 na3 li3.
+*CHI:	gogo@b.
+*MOT:	ke3 shi4 ta1 men2 shuo1, mei2 you3 kan4 dao4.
+*MOT:	ta1 men2 dou1 mei2 you3 kan4 dao4 eh@s:sce.
+*MOT:	ke3 shi4 ni3 you3 kan4 dao4 ma?
+*CHI:	&=vocalises.
+*MOT:	ni3 kan4.
+*MOT:	ni3 kan4 na4 ge4 xiao3 ya1 zi1 zai4 na3 li3?
+*CHI:	gagu@b.
+*CHI:	&=laughs.
+*MOT:	ni3 kan4 na4 zhi1 xiao3 ya1 zi1 zai4 na3 li3?
+*MOT:	why@s:eng, ni3 kan4!
+*MOT:	<duck>@s [x 2], zai4 zhe4 li3.
+*MOT:	[- eng] the duckling is here, you see.
+*CHI:	&=cries.
+*MOT:	a1, ya1 ma1 ma hai2 shi4 kan4 bu4 dao4.
+*MOT:	ke3 shi4 ya1 ma1 ma you4 kan4 dao4 ling4 wai4 yi1 zhi1 ya1.
+*MOT:	ya1 ma1 ma.
+*MOT:	ling4 wai4 yi1 zhi1 ya1 ma1 ma jiu4 you3 si4 zhi1 xiao3 ya1.
+*MOT:	ta1 jiu4 wen4, ni3 you3 kan4 dao4 wo3 de4 xiao3 ya1 zi3 di4 di ma1?
+*MOT:	ye3 mei2 you3 eh@s:sce.
+*MOT:	ta1 jiu4.
+*MOT:	ya1 ma1 ma he2 ya1 zi3 ge1 ge, ya1 zi3 jie3 jie yi1 zhi2 <you3 lai3 you3
+qu4> [x 2] ba3 zheng3 ge4 you2, chi2 tang2 dou1, cha4 bu4 duo1 zheng3 ge4 he2
+a, zheng3 ge4 he2 cha1 bu4 duo1 dou1 you2 [x 2] jing4 le.
+*MOT:	hou4 lai2.
+*MOT:	ya1 ma1 ma you2 dao4 le yi1 ge4 di4 fang1.
+*MOT:	ta1 ting1 dao4, <quack@s> [x 2].
+*CHI:	&=vocalises.
+*MOT:	[- eng] <quack@s> [x 2].
+*CHI:	gaga@b.
+*MOT:	[- eng] <quack@s> [x 2].
+*MOT:	eh@s:sce, na4 shi4 shei2 a?
+*MOT:	na4 shi4 shei2 de4 sheng1 yin1 a?
+*MOT:	ya1 ma1 ma zhuan3 guo4 shen1 yi1 kan4.
+*MOT:	a1, xiao3 ya1 zi1 di4 di jiu4 duo3 zai4 na4 li3.
+*MOT:	duo3 zai4 yi1 pang2.
+*MOT:	kan4 zhe ta1, kan4 zhe4 ya1 ge1 ge, ya1 jie3 jie.
+*MOT:	ran2 hou4 wu1 gui1 xian1 sheng1, gang1 cai2 ya1 ma1 ma kan4 dao4 wu1 gui1
+xian1 sheng, dui4 ma?
+*MOT:	wu1 gui1 xian1 sheng xian4 zai4 ye3 pei2 zhe xiao3 ya1 zi3 di4 di hui2
+lai2 le.
+*CHI:	&=vocalises.
+*CHI:	&=cries.
+*MOT:	<yuan2 lai2> [x 2] wu1 gui1 xian1 sheng1.
+*CHI:	&=cries.
+*MOT:	yuan2 lai2 wu1 gui1 xian1 sheng zai4 you2 yong3 de4 shi2 hou4 leh@s:sce.
+*MOT:	zai4 you2 yong3 de4 shi2 hou4 kan4 dao4 yi1 zhi1 xiao3 ya1, you2 lai2 you2
+qu4, bu4 dong3 yao4 you2 dao4 na3 li3.
+*CHI:	&=cries.
+*MOT:	ran2 hou4 ta1 jiu4 xiang3 qi3 ya1 ma1 ma zheng4 zai4 zhao3 ta1 de4 xiao3
+ya1 zi3 di4 di, jiu4 ba3 ta1 dai4 qu4 zhao3 ya1 ma1 ma le.
+*CHI:	&=vocalises.
+*MOT:	a1, ni3 kan4, quan2 bu4 [x 2] dou3 yi1 qi3 hui3 jia1 lo1!
+*MOT:	xiao3 ya1 zi1 di4 di4 gen1 zhe4 ta1 de4 ge1 ge1 jie3 jie.
+*CHI:	&=cries.
+*MOT:	hao3 le, gen1 zhe4 ta1 de ge1 ge jie3 jie yi1 qi3 gen1 zhe ya1 ma1 ma
+hui2 jia1 le.
+*MOT:	dao4 le4 wan3 shang4, ya1 ma1 ma he2 ta1 de4 ba1 zhi1 xiao3 ya1.
+*MOT:	jiu4 yi1 qi3 xiu1 xi, yi1 qi3 shui4 jiao4 le.
+*MOT:	yi3 hou4, xiao3 ya1 zi3 di4 di.
+*MOT:	bu4 zhi1 dao4 hai2 hui4 bu4 hui4, you4 zi4 ji3 yi1 ge4 you2 qu4 wai4 mian4
+ne?
+*MOT:	okay@s.
+@End

@@ -1,0 +1,230 @@
+@Unicode
+@Begin
+@Languages:	eng, zho
+@Participants:	MOT Mother, CHI Emma_Yang Child
+@ID:	eng||MOT||female|||Mother|||
+@ID:	eng||CHI|??????????|female|||Child|||
+@Date:	28-Nov-2015
+@Location:	Home Testing
+@Comment:	duration of recording 6 minutes
+@Comment:	start at 27 seconds
+@Comment:	transcribed by Yezhou, not yet checked
+@Comment:	narration of wordless picture book
+@Start
+*MOT:	so the story, you want read?
+*MOT: 	zuo4@s xia4@s lai2@s.
+*MOT: 	mei4@s mei4@s zuo4@s xia4@s lai2@s.
+*MOT:	right here, i read to you okay?
+*CHI:	ok.
+*MOT:	come xxx, sit over here.
+*MOT:	<qi2@s lai2@s> [x 4] xxx.
+*MOT:	okay, early one morning.
+*CHI:	duck!
+*MOT:	repeat after me.
+*CHI:	quack [x 2].
+*MOT:	early one morning.
+*CHI:	morning.
+*MOT:	&eh, early one morning.
+*CHI:	early one morning.
+*MOT:	okay, then, what do you see?
+*CHI:	mummy.
+*MOT:	mama duck.
+*CHI:	mama duck.
+*MOT:	and?
+*CHI:	mei4@s mei4@s duck@s.
+*MOT:	mei4@s mei4@s duck@s.
+*MOT:	no, ducklings, ya.
+*MOT: 	mei4@s mei4@s ducklings.
+*MOT: 	one two three four five six seven.
+*MOT:	seven is?
+*CHI:	mei4@s mei4@s ducklings.
+*MOT:	&hmm, so right.
+*MOT: 	what is mama duck doing?
+*CHI:	mama duck swimming.
+*MOT:	swimming.
+*MOT:	towards the ducklings?
+*CHI:	xxx.
+*MOT:	yes, and then?
+*CHI:	xxx.
+*MOT:	oh mama duck is swimming.
+*MOT: 	towards the ducklings right?
+*CHI:	mama swimming.
+*MOT:	yes, say hello.
+*MOT: 	baby ducklings, how are you?
+*MOT:	si4@s bu2@s si4@s?
+*CHI:	&=vocalizes.
+*MOT:	si4@s ho2@s?
+*CHI:	mei4@s mei4@s.
+*MOT:	so what are they doing?
+*CHI:	mei4@s mei4@s.
+*MOT:	then mama duck goes away.
+*MOT:	and <what are the baby doing> [x 2]?
+*CHI:	swimming.
+*MOT:	they are swimming.
+*MOT:	with mama duck yes?
+*CHI:	with mei4@s mei4@s duck.
+*MOT:	which one is mei4@s mei4@s duck.
+*CHI:	mei4@s mei4@s.
+*MOT:	mei4@s mei4@s ha4@s?
+*MOT:	ze4@s ge4@s si4@s se2@s mo4@s?
+*MOT:	ta1@s si4@s se2@s mo4@s?
+*MOT:	what is the duckling doing?
+*CHI:	xxx.
+*MOT:	oh, okay.
+*MOT: 	so, mama duck.
+*CHI:	&=vocalize.
+*MOT:	miao3@s ho2@s ?
+*CHI:	&=vocalizes.
+*MOT:	very angry?
+*MOT:	is it the dog or the bird very angry?
+*MOT:	anyway, the mama duck says.
+*MOT: 	have you seen my duckling?
+*MOT:	ya, she asked the bird.
+*MOT: 	have you seen my ducklings?
+*MOT:	xxx.
+*MOT:	ask him.
+*MOT: 	zai4@s na2@s ni3@s.
+*MOT:	you3@s yi4@s zi1@s pao3@s qu4@s na3@s li3@s le2@s?
+*MOT:	where is one of them?
+*CHI:	&=vocalizes.
+*MOT:	over there!
+*MOT:	ma1@s ma1@s zai4@s na4@s bian1@s ne1@s.
+*CHI:	don't know.
+*MOT:	you don't know?
+*MOT:	okay.
+*MOT:	xxx.
+*CHI:	xxx.
+*MOT:	that is wu1@s gui1@s
+*MOT:	have you seen my ducklings?
+*MOT:	she asked the tortoise, right?
+*CHI:	yes.
+*MOT:	and then, have you seen my duckling?
+*MOT:	where is the missing duckling?
+*MOT:	zai4@s na2@s li3@s zao3@s
+*MOT:	look for it.
+*MOT: 	it's in the picture.
+*CHI:	butterfly.
+*MOT:	butterfly, and then.
+*MOT: 	where is the missing duckling?
+*CHI:	&=vocalizes.
+*MOT:	over there, behide the tree.
+*CHI:	behind the tree.
+*MOT:	oh, then mama duck asks.
+*MOT: 	i forgot what it is.
+*MOT:	beaver, is it beaver.
+*MOT: 	have you seen my duckling?
+*CHI:	mama duck.
+*MOT:	so where are the ducklings?
+*CHI:	there.
+*MOT:	bu2@s si4@s, ze4@s ge4@s is with the mama duck.
+*MOT: 	so where is the missing duckling?
+*MOT:	look at the picture.
+*MOT:	zai4@s na3@s li3@s?
+*MOT:	there is one missing.
+*MOT:	you3@s yi4@s zi1@s pao3@s qu4@s na3@s li3@s le1@s?
+*MOT:	where is the missing duckling?
+*CHI:	what's this?
+*MOT:	this is a frog.
+*MOT:	and then where is the missing duckling?
+*CHI:	look at this.
+*MOT:	what is this?
+*CHI:	&=laughs.
+*MOT:	funny?
+*MOT:	what is this?
+*MOT:	same color, what is this?
+*CHI:	ze4@s ge4@s xxx duck.
+*MOT:	this is the duckling, right?
+*CHI:	xxx.
+*MOT:	because it is behind the rock, is it?
+*MOT:	then mama duck went inside the water.
+*MOT: 	have you seen my duckling?
+*MOT:	she asked the fish.
+*CHI:	&=vocalizes.
+*MOT:	right?
+*MOT:	and where is the duck.
+*MOT: 	where is the missing duckling?
+*MOT:	see &eh.
+*MOT: 	all the ducklings went into the water.
+*MOT:	all into the water.
+*MOT:	where is the missing one?
+*MOT:	zai4@s na3@s li3@s?
+*CHI:	there.
+*MOT:	there, there is one.
+*MOT:	small one, zao3@s dao4@s ta1@s.
+*CHI:	there.
+*MOT:	is it?
+*CHI:	ya.
+*MOT:	no?
+*MOT:	where is the missing one?
+*CHI:	there.
+*MOT:	over there.
+*CHI:	&=vocalizes.
+*MOT:	baby, over there.
+*CHI:	&=vocalizes.
+*MOT:	yes.
+*CHI:	mei4@s mei4@s.
+*MOT:	see the mama duck.
+*CHI:	see mei4@s mei4@s duck.
+*MOT:	what, <what is this> [x 2] duck?
+*MOT:	this is mandarin duck.
+*MOT: 	or what duck?
+*MOT:	i don't know what duck, okay.
+*MOT:	met another family.
+*MOT:	she asks have you seen my duckling?
+*MOT:	where is the missing duckling, ok?
+*CHI:	there.
+*MOT:	over there.
+*MOT: 	ze4@s zai4@s na3@s li3@s?
+*MOT: 	where is this place?
+*MOT:	it's under?
+*CHI:	under.
+*MOT:	under the, what is this?
+*MOT:	beach?
+*CHI:	no.
+*MOT:	then what is this?
+*CHI:	&=vocalizes.
+*CHI:	duckling.
+*MOT:	duckling is hiding over there, right?
+*CHI:	xxx.
+*MOT:	&ehm?
+*MOT:	the duckling came out right?
+*CHI:	&=vocalizes.
+*MOT:	the duckling makes the noise.
+*MOT:	duckling ze3@s me2@s jiao4@s?
+*CHI:	quack [x 2].
+*MOT:	quack [x 2], like this?
+*MOT:	quack, see the mama duck.
+*MOT: 	turn over, right?
+*MOT:	oh, you are.
+*MOT: 	there you are.
+*MOT: 	my baby duckling, yes?
+*MOT:	si4@s bu2@s si4@s?
+*MOT:	oh.
+*CHI:	mei4@s mei4@s duck@s xxx duckling@s.
+*MOT: 	xxx.
+*MOT:	how many, count?
+*CHI:	one two three four.
+*MOT:	one two three four five six seven eight.
+*MOT:	zao4@s dao4@s lo1@s.
+*MOT: 	there are eight ducklings.
+*CHI:	&=vocalizes.
+*MOT:	hu2@s die2@s.
+*CHI:	&=vocalizes.
+*MOT:	wu1@s gui1@s.
+*MOT:	hai2@s you3@s?
+*MOT:	zao3@s dao4@s lo2@s?
+*MOT:	zao3@s dao4@s ya1@s zi3@s le2@s.
+*MOT: 	ta2@s men2@s zuo4@s se2@s mo3@s?
+*CHI:	&=vocalizes.
+*MOT:	ta2@s men2@s yao4@s zuo4@s se2@s mo3@s?
+*CHI:	&=vocalizes.
+*MOT:	what are the ducklings doing?
+*CHI:	ji4@s jiao4@s le3@s.
+*MOT:	sui4@s jiao4@s le3@s.
+*MOT:	ta1@s men2@s zai4@s sui4@s jiao4@s liao3@s.
+*MOT: 	sleeping.
+*MOT:	yes, you like it?
+*CHI:	like it.
+*MOT:	hey, where you going?
+*MOT:	&=laughs.
+@End

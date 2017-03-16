@@ -1,0 +1,117 @@
+@Unicode
+@Begin
+@Languages:	eng
+@Participants:	MOT Jolin_Leow Mother, CHI G'lin_Chua Child
+@ID:	eng||MOT||female|||Mother|||
+@ID:	eng||CHI|2;11.26|female|||Child|||
+@Date:	21-AUG-2016
+@Location:	Lab Testing
+@Comment:	duration of recording 5 minutes
+@Comment:	transcribed by Elsie, checked by Nadiah
+@Start
+*MOT:	sit down, sit down, mummy read storybook.
+*CHI:	&=vocalizes.
+*MOT:	yes.
+*MOT:	you see.
+*MOT:	early one morning, there's so many ducklings in the nest.
+*MOT:	you see.
+*MOT:	so many ducklings, waiting for the mother.
+*MOT:	who is this? 
+*MOT:	mother duck.
+*CHI:	mother duck.
+*MOT:	yes, &ah.
+*MOT:	so, where the mother duck go?
+*CHI:	there!
+*MOT:	oh, this one is who?
+*MOT:	oh.
+*MOT:	one of the duckling run away is it?
+*MOT:	wah, so mother duck is counting how many ducklings over here right?
+*MOT:	how many ducklings?
+*MOT:	one, two, three, four, five, six, seven!
+*CHI:	&=vocalises.
+*MOT:	mm?
+*MOT:	like wrong?
+*MOT:	like there is eight ducklings.
+*MOT:	where did the other duckling go?
+*CHI:	&=vocalises.
+*MOT:	where?
+*CHI:	there!
+*MOT:	<where did the other duckling go> [X 2]?
+*MOT:	so the mother duck, and the little ducklings went to find the last duckling.
+*MOT:	see. all come out swim and looking for the last duckling.
+*MOT:	where the other duckling go?
+*MOT:	<did you see the other duckling> [X 2]?
+*MOT:	where [x 3]?
+*MOT:	can you find the duckling?
+*MOT:	where?
+*MOT:	where is the duckling?
+*CHI:	duckling go away.
+*MOT:	yeah, so the duck.
+*MOT:	the mother duck, saw this, the bird.
+*MOT:	asked, where is the duck?
+*MOT:	g'lin!
+*MOT:	see, guess what the bird say?
+*MOT:	no she never saw the bird.
+*MOT:	she never saw the little duck.
+*MOT:	&hm, did you saw the little duck?
+*MOT:	g'lin, did you saw the little duck?
+*CHI:	duck!
+*MOT:	yeah, so the mother duck asked.
+*CHI:	&=vocalises.
+*MOT:	yes, the mother duck.
+*MOT:	so the mother duck asked the tortoise.
+*MOT:	have you seen my duckling?
+*MOT:	so the tortoise say no.
+*MOT:	so where is the little duckling hiding?
+*CHI:	hiding.
+*MOT:	where is the little duckling hiding?
+*CHI:	hiding.
+*MOT:	where?
+*MOT:	so the mother duck ask the otter!
+*MOT:	have you seen my duckling?
+*MOT:	the duckling? 
+*MOT:	but the otter say no.
+*MOT:	have you seen my little duckling?
+*MOT:	so the mother duck went around finding the little duck.
+*MOT:	have you seen my duckling? 
+*MOT:	where's the duckling?
+*MOT:	did you see the duckling?
+*MOT:	she went to ask the fish, where is the duckling?
+*MOT:	so the fish also never see the little duckling.
+*MOT:	the duckling went hiding.
+*MOT:	have you seen my duckling?
+*MOT:	so she asked another bird.
+*MOT:	have you seen her duckling?
+*MOT:	no.
+*MOT:	where is my duckling hiding?
+*CHI:	&=vocalises.
+*MOT:	g'lin, can you find the duckling?
+*MOT:	where? [X 2].
+*MOT:	where's the duckling?
+*MOT:	where?
+*MOT:	did you find the duckling?
+*MOT:	where?
+*CHI:	there!
+*MOT:	&=laughs yeah.
+*MOT:	so the mother duck turned around and look for the duckling.
+*MOT:	so, the mother duck.
+*CHI:	&=vocalises.
+*MOT:	XXX turn around and found the duckling.
+*MOT:	have you saw the duckling?
+*MOT:	did you saw where is the duckling?
+*MOT:	did you saw?
+*MOT:	yeah.
+*MOT:	the mother duck finally saw the duckling.
+*CHI:	fish!
+*MOT:	yeah.
+*MOT:	XXX but it’s a duckling.
+*MOT:	so how many duckling?
+*MOT:	so, mother duck bring all the duckling home.
+*CHI:	&=vocalises.
+*MOT:	one, two, three, four, five, six, seven, eight.
+*MOT:	all the eight duckling go home!
+*CHI:	&=vocalises.
+*MOT:	they're back and they're sleeping together!
+*CHI:	&=vocalises.
+*MOT:	see, they're back and they're sleeping together!
+@End

@@ -1,0 +1,138 @@
+@UTF8
+%********
+%* NOUNS
+%********
+
+RULENAME: n-plurale-tantum
+% don't change plurale tantum nouns
+LEX-ENTRY:
+LEXCAT = [scat n:pt]
+ALLO:
+ALLOSURF = LEXSURF
+ALLOCAT = LEXCAT, ADD [allo n0]
+
+RULENAME: n-man
+LEX-ENTRY:
+LEXSURF = $Xman
+LEXCAT = [scat n], ![men no]
+ALLO:
+ALLOSURF = $Xmen
+ALLOCAT = LEXCAT, ADD [num pl], ADD [allo nM]
+ALLOSTEM = $Xman&PL
+ALLO:
+ALLOSURF = LEXSURF
+ALLOCAT = LEXCAT, ADD [allo nM], ADD [pl -]
+
+RULENAME: n-chief
+LEX-ENTRY:
+LEXSURF = $Xf
+LEXCAT = [scat n], [allo nV]
+ALLO:
+ALLOSURF = LEXSURF
+ALLOCAT = LEXCAT, DEL [allo], ADD [allo n0]
+ALLO:
+ALLOSURF = $Xv
+ALLOCAT = LEXCAT, DEL [allo], ADD [allo nVb]
+
+RULENAME: n-wife
+LEX-ENTRY:
+LEXSURF = $Xfe
+LEXCAT = [scat n], [allo nV]
+ALLO:
+ALLOSURF = LEXSURF
+ALLOCAT = LEXCAT, DELl [allo], ADD [allo n0]
+ALLO:
+ALLOSURF = $Xf
+ALLOCAT = LEXCAT, DEL [allo], ADD [allo nVa]
+ALLO:
+ALLOSURF = $Xv
+ALLOCAT = LEXCAT, DEL [allo], ADD [allo nVb]
+
+RULENAME: n-cry
+LEX-ENTRY:
+LEXSURF = $Yy
+LEXCAT = [scat OR n det:num]
+ALLO:
+ALLOSURF = $Yi
+ALLOCAT = LEXCAT, ADD [allo nYb]
+ALLO:
+ALLOSURF = LEXSURF
+ALLOCAT = LEXCAT, ADD [allo nYa]
+
+RULENAME: on-not-geminates
+LEX-ENTRY:
+LEXSURF = $Xon
+LEXCAT = [scat n]
+ALLO:
+ALLOSURF = LEXSURF
+ALLOCAT = LEXCAT, ADD [allo n0]
+
+RULENAME: et-not-geminates
+LEX-ENTRY:
+LEXSURF = $Xet
+LEXCAT = [scat n]
+ALLO:
+ALLOSURF = LEXSURF
+ALLOCAT = LEXCAT, ADD [allo n0]
+
+RULENAME: n-geminates
+LEX-ENTRY:
+LEXSURF = $X$O$V$B
+LEXCAT = [scat OR on n]
+ALLO:
+ALLOSURF = $X$O$V$B$B
+ALLOCAT = LEXCAT, ADD [allo nGb]
+ALLO:
+ALLOSURF = LEXSURF
+ALLOCAT = LEXCAT, ADD [allo nGa]
+
+RULENAME: n-geminates-gg
+LEX-ENTRY:
+LEXSURF = $X$C
+LEXCAT = [scat OR on n], [gg +]
+ALLO:
+ALLOSURF = $X$C$C
+ALLOCAT = LEXCAT, ADD [allo nGb]
+ALLO:
+ALLOSURF = LEXSURF
+ALLOCAT = LEXCAT, ADD [allo nGa]
+
+RULENAME: n-affricates
+LEX-ENTRY:
+LEXSURF = $X$S
+LEXCAT = [scat OR n det:num on]
+ALLO:
+ALLOSURF = LEXSURF
+ALLOCAT = LEXCAT, ADD [allo nSa]
+
+RULENAME: n-final-e
+LEX-ENTRY:
+LEXSURF = $X$De  %  nose, home, juice
+LEXCAT = [scat OR on n]
+ALLO:
+ALLOSURF = $X$D
+ALLOCAT = LEXCAT, ADD [allo nHb]
+ALLO:
+ALLOSURF = LEXSURF
+ALLOCAT = LEXCAT, ADD [allo nHa]
+
+RULENAME: n-tomatoes
+LEX-ENTRY:
+LEXSURF = $Xo
+LEXCAT = [scat n], [stem nPOT]
+ALLO:
+ALLOSURF = $Xoe
+ALLOCAT = LEXCAT, ADD [allo nPOT]
+ALLO:
+ALLOSURF = LEXSURF
+ALLOCAT = LEXCAT, ADD [allo n0]
+
+% nouns which don't undergo stem changes  -> allo n0
+% adding n0 lets numbers and pronouns behave like nouns for cliticization
+
+RULENAME: allo-n0
+LEX-ENTRY:
+LEXCAT = [scat OR co co:voc int on n det:num pro:indef pro:wh]
+ALLO:
+ALLOSURF = LEXSURF
+ALLOCAT = LEXCAT, ADD [allo n0]

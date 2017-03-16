@@ -1,0 +1,91 @@
+@Unicode
+@Begin
+@Languages:	eng
+@Participants:	MOT Elizabeth Mother, CHI Joshua_Tan_Yan_Ming Child
+@ID:	eng||MOT||female|||Mother|||
+@ID:	eng||CHI|1;2.16|male|||Child|||
+@Date:	08-JUN-2016
+@Location:	Home Testing
+@Comment:	duration of recording 3 minutes 24 seconds
+@Comment:	transcribed by simone, checked by Sihui, checked by Joseph
+@Start
+*MOT:	&ah, you want to read &huh?
+*MOT:	see.
+*MOT:	have you seen my duckling.
+*MOT:	mama read for you okay?
+*CHI:	&=vocalises.
+*MOT:	&=laughs.
+*MOT:	early one morning.
+*MOT:	wah, so many ducks &ah.
+*MOT:	once upon a time, there was a mother duck.
+*MOT:	she has so many ducklings!
+*MOT:	wah you see.
+*MOT:	can count.
+*MOT:	one, two, three, four, five, six, seven!
+*MOT:	wah, mother duck has seven ducklings.
+*MOT:	oh, maybe there is another one.
+*MOT:	hey pay attention.
+*MOT:	hello?
+*MOT:	&clucks.
+*MOT:	see.
+*MOT:	so, the mother duck loves her duckling very [x 2] much.
+*MOT:	see, she feeds them and play with them, right?
+*MOT:	&hm.
+*MOT:	one day, when mother duck swim away.
+*MOT:	oh, one of the duckling went away by himself.
+*MOT:	he was lost!
+*MOT:	&hm.
+*MOT:	the mother duck was looking for her.
+*MOT:	looking for the lost duckling.
+*MOT:	have you seen my duckling?
+*MOT:	the mother duck asked another[x 2] bird.
+*MOT:	she panicked.
+*MOT:	she is very anxious.
+*MOT:	she asked the turtle.
+*MOT:	have you seen my duckling?
+*MOT:	i cannot find him!
+*CHI:	&=vocalises.
+*MOT:	she ask the weasel also.
+*MOT:	have you seen my duckling?
+*MOT:	but the weasel sadly has not seen the duckling.
+*MOT:	what to do?
+*MOT:	she asked around again.
+*MOT:	asked the fish.
+*MOT:	all the fish and the frog in the pond.
+*MOT:	all the ducklings are looking for the lost brother as well.
+*MOT:	then the mother duck met another mandarin duck.
+*MOT:	have you seen my duckling?
+*MOT:	said no.
+*MOT:	sadly, mandarin duck has not seen the duckling as well.
+*MOT:	&hm.
+*MOT:	&=gasps.
+*MOT:	[-zho] zai4 na4 li3.
+*MOT:	she saw her baby duckling here.
+*MOT:	just right behind here.
+*MOT:	duck [x 4] right?
+*MOT:	you like duck [x 2] &huh?
+*CHI:	&=whines.
+*MOT:	oh yes.
+*MOT:	finally, baby duckling is reunited with the other ducklings.
+*MOT:	and they stay happily ever after.
+*MOT:	the end.
+*MOT:	yeah, see.
+*MOT:	at night, they all sleep together, very happy.
+*MOT:	happy family.
+*MOT:	right?
+*MOT:	&hm.
+*MOT:	we end now.
+*MOT:	what is that?
+*CHI:	&=vocalises.
+*MOT:	grass &huh?
+*MOT:	see duck [x 2].
+*MOT:	this is duck [x 2].
+*MOT:	that is the moon.
+*MOT:	that is the river.
+*MOT:	that is the frog.
+*MOT:	<ribbit ribbit>@o.
+*MOT:	&huh, what is that?
+*MOT:	cat &ah?
+*MOT:	&=laughs.
+*MOT:	okay, the end.
+@End.

@@ -1,0 +1,6564 @@
+1	well	well	co	co	_	_	_	_	_	
+2	this	this	pro:dem	pro:dem	_	_	_	_	_	
+3	looks	look	v	v	3S	_	_	_	_	
+4	like	like	rel	rel	_	_	_	_	_	
+5	there's	there	pro:exist	pro:exist	_	_	_	_	_	
+6	-'s	be	cop	cop	3S	_	_	_	_	
+7	going	go	part	part	PRESP	_	_	_	_	
+8	to	to	inf	inf	_	_	_	_	_	
+9	be	be	cop	cop	_	_	_	_	_	
+10	a	a	det	det	_	_	_	_	_	
+11	little	little	adj	adj	_	_	_	_	_	
+12	bit	bit	n	n	_	_	_	_	_	
+13	of	of	prep	prep	_	_	_	_	_	
+14	a	a	det	det	_	_	_	_	_	
+15	disaster	disaster	n	n	_	_	_	_	_	
+16	.	.	Punc	Punc	_	_	_	_	_	
+
+1	looks	look	v	v	3S	_	_	_	_	
+2	like	like	rel	rel	_	_	_	_	_	
+3	Dad's	Dad	n:prop	n:prop	_	_	_	_	_	
+4	-'s	be	cop	cop	3S	_	_	_	_	
+5	up	up	adv	adv	_	_	_	_	_	
+6	in	in	prep	prep	_	_	_	_	_	
+7	a	a	det	det	_	_	_	_	_	
+8	tree	tree	n	n	_	_	_	_	_	
+9	and	and	coord	coord	_	_	_	_	_	
+10	can't	can	mod	mod	_	_	_	_	_	
+11	-'n't	not	neg	neg	_	_	_	_	_	
+12	get	get	v	v	_	_	_	_	_	
+13	down	down	adv	adv	_	_	_	_	_	
+14	.	.	Punc	Punc	_	_	_	_	_	
+
+1	it	it	pro	pro	_	_	_	_	_	
+2	looks	look	v	v	3S	_	_	_	_	
+3	like	like	rel	rel	_	_	_	_	_	
+4	he	he	pro:sub	pro:sub	_	_	_	_	_	
+5	was	be	aux	aux	PAST|13S	_	_	_	_	
+6	chasing	chase	part	part	PRESP	_	_	_	_	
+7	the	the	det	det	_	_	_	_	_	
+8	cat	cat	n	n	_	_	_	_	_	
+9	up	up	prep	prep	_	_	_	_	_	
+10	there	there	adv	adv	_	_	_	_	_	
+11	trying	try	part	part	PRESP	_	_	_	_	
+12	to	to	inf	inf	_	_	_	_	_	
+13	get	get	v	v	_	_	_	_	_	
+14	the	the	det	det	_	_	_	_	_	
+15	cat	cat	n	n	_	_	_	_	_	
+16	down	down	adv	adv	_	_	_	_	_	
+17	.	.	Punc	Punc	_	_	_	_	_	
+
+1	dog's	dog	n	n	_	_	_	_	_	
+2	-'s	be	aux	aux	3S	_	_	_	_	
+3	barking	bark	part	part	PRESP	_	_	_	_	
+4	at	at	prep	prep	_	_	_	_	_	
+5	the	the	det	det	_	_	_	_	_	
+6	bottom	bottom	n	n	_	_	_	_	_	
+7	of	of	prep	prep	_	_	_	_	_	
+8	the	the	det	det	_	_	_	_	_	
+9	tree	tree	n	n	_	_	_	_	_	
+10	because	because	conj	conj	_	_	_	_	_	
+11	the	the	det	det	_	_	_	_	_	
+12	cat	cat	n	n	_	_	_	_	_	
+13	is	be	aux	aux	3S	_	_	_	_	
+14	not	not	neg	neg	_	_	_	_	_	
+15	coming	come	part	part	PRESP	_	_	_	_	
+16	down	down	adv	adv	_	_	_	_	_	
+17	.	.	Punc	Punc	_	_	_	_	_	
+
+1	Dad's	Dad	n:prop	n:prop	_	_	_	_	_	
+2	-'s	be	aux	aux	3S	_	_	_	_	
+3	just	just	adv:int	adv:int	_	_	_	_	_	
+4	sitting	sit	part	part	PRESP	_	_	_	_	
+5	there	there	adv	adv	_	_	_	_	_	
+6	going	go	part	part	PRESP	_	_	_	_	
+7	+"/.	+"/.	Punc	Punc	_	_	_	_	_	
+
+1	oh_dear	oh_dear	co	co	_	_	_	_	_	
+2	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	then	then	adv:tem	adv:tem	_	_	_	_	_	
+3	must	must	mod	mod	_	_	_	_	_	
+4	be	be	cop	cop	_	_	_	_	_	
+5	his	his	pro:poss:det	pro:poss:det	_	_	_	_	_	
+6	daughter	daughter	n	n	_	_	_	_	_	
+7	who's	who	rel	rel	_	_	_	_	_	
+8	-'s	be	aux	aux	3S	_	_	_	_	
+9	trying	try	part	part	PRESP	_	_	_	_	
+10	to	to	inf	inf	_	_	_	_	_	
+11	catch	catch	v	v	_	_	_	_	_	
+12	the	the	det	det	_	_	_	_	_	
+13	cat	cat	n	n	_	_	_	_	_	
+14	in_case	in_case	conj	conj	_	_	_	_	_	
+15	he	he	pro:sub	pro:sub	_	_	_	_	_	
+16	does	do	v	v	3S	_	_	_	_	
+17	fall	fall	n	n	_	_	_	_	_	
+18	down	down	adv	adv	_	_	_	_	_	
+19	.	.	Punc	Punc	_	_	_	_	_	
+
+1	yeah	yeah	co	co	_	_	_	_	_	
+2	evidently	evident	adv	adv	dadj|LY	_	_	_	_	
+3	Dad	Dad	n:prop	n:prop	_	_	_	_	_	
+4	lost	lose	v	v	PAST	_	_	_	_	
+5	his	his	pro:poss:det	pro:poss:det	_	_	_	_	_	
+6	ladder	ladder	n	n	_	_	_	_	_	
+7	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	the	the	det	det	_	_	_	_	_	
+3	firemen	fire+man	n	n	PL	_	_	_	_	
+4	are	be	aux	aux	PRES	_	_	_	_	
+5	coming	come	part	part	PRESP	_	_	_	_	
+6	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	they're	they	pro:sub	pro:sub	_	_	_	_	_	
+3	-'re	be	aux	aux	PRES	_	_	_	_	
+4	coming	come	part	part	PRESP	_	_	_	_	
+5	with	with	prep	prep	_	_	_	_	_	
+6	a	a	det	det	_	_	_	_	_	
+7	ladder	ladder	n	n	_	_	_	_	_	
+8	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	hopefully	hope	adv	adv	dadj|FULL|LY	_	_	_	_	
+3	they	they	pro:sub	pro:sub	_	_	_	_	_	
+4	get	get	v	v	_	_	_	_	_	
+5	them	them	pro:obj	pro:obj	_	_	_	_	_	
+6	all	all	post	post	_	_	_	_	_	
+7	down	down	adv	adv	_	_	_	_	_	
+8	and	and	coord	coord	_	_	_	_	_	
+9	everything	everything	pro:indef	pro:indef	_	_	_	_	_	
+10	is	be	cop	cop	3S	_	_	_	_	
+11	okay	okay	adj	adj	_	_	_	_	_	
+12	.	.	Punc	Punc	_	_	_	_	_	
+
+1	well	well	co	co	_	_	_	_	_	
+2	this	this	pro:dem	pro:dem	_	_	_	_	_	
+3	looks	look	v	v	3S	_	_	_	_	
+4	like	like	rel	rel	_	_	_	_	_	
+5	they're	they	pro:sub	pro:sub	_	_	_	_	_	
+6	-'re	be	cop	cop	PRES	_	_	_	_	
+7	out	out	adv	adv	_	_	_	_	_	
+8	in	in	prep	prep	_	_	_	_	_	
+9	the	the	det	det	_	_	_	_	_	
+10	country	country	n	n	_	_	_	_	_	
+11	with	with	prep	prep	_	_	_	_	_	
+12	a	a	det	det	_	_	_	_	_	
+13	man	man	n	n	_	_	_	_	_	
+14	and	and	coord	coord	_	_	_	_	_	
+15	a	a	det	det	_	_	_	_	_	
+16	woman	woman	n	n	_	_	_	_	_	
+17	in	in	prep	prep	_	_	_	_	_	
+18	a	a	det	det	_	_	_	_	_	
+19	car	car	n	n	_	_	_	_	_	
+20	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	they're	they	pro:sub	pro:sub	_	_	_	_	_	
+3	-'re	be	aux	aux	PRES	_	_	_	_	
+4	driving	drive	part	part	PRESP	_	_	_	_	
+5	.	.	Punc	Punc	_	_	_	_	_	
+
+1	you	you	pro	pro	_	_	_	_	_	
+2	can	can	mod	mod	_	_	_	_	_	
+3	see	see	v	v	_	_	_	_	_	
+4	a	a	det	det	_	_	_	_	_	
+5	farmhouse	farm+house	n	n	_	_	_	_	_	
+6	.	.	Punc	Punc	_	_	_	_	_	
+
+1	so	so	co	co	_	_	_	_	_	
+2	it's	it	pro	pro	_	_	_	_	_	
+3	-'s	be	aux	aux	3S	_	_	_	_	
+4	close	close	adj	adj	_	_	_	_	_	
+5	to	to	prep	prep	_	_	_	_	_	
+6	farms	farm	n	n	PL	_	_	_	_	
+7	and	and	coord	coord	_	_	_	_	_	
+8	in	in	prep	prep	_	_	_	_	_	
+9	the	the	det	det	_	_	_	_	_	
+10	country	country	n	n	_	_	_	_	_	
+11	.	.	Punc	Punc	_	_	_	_	_	
+
+1	there's	there	pro:exist	pro:exist	_	_	_	_	_	
+2	-'s	be	cop	cop	3S	_	_	_	_	
+3	a	a	det	det	_	_	_	_	_	
+4	farmer	farm	n	n	dv|AGT	_	_	_	_	
+5	by	by	prep	prep	_	_	_	_	_	
+6	a	a	det	det	_	_	_	_	_	
+7	little	little	adj	adj	_	_	_	_	_	
+8	tree	tree	n	n	_	_	_	_	_	
+9	there	there	adv	adv	_	_	_	_	_	
+10	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	he's	he	pro:sub	pro:sub	_	_	_	_	_	
+3	-'s	be	aux	aux	3S	_	_	_	_	
+4	waving	wave	part	part	PRESP	_	_	_	_	
+5	at	at	prep	prep	_	_	_	_	_	
+6	them	them	pro:obj	pro:obj	_	_	_	_	_	
+7	and	and	coord	coord	_	_	_	_	_	
+8	saying	say	part	part	PRESP	_	_	_	_	
+9	hello	hello	co	co	_	_	_	_	_	
+10	.	.	Punc	Punc	_	_	_	_	_	
+
+1	they're	they	pro:sub	pro:sub	_	_	_	_	_	
+2	-'re	be	aux	aux	PRES	_	_	_	_	
+3	waving	wave	part	part	PRESP	_	_	_	_	
+4	back	back	adv	adv	_	_	_	_	_	
+5	.	.	Punc	Punc	_	_	_	_	_	
+
+1	evidently	evident	adv	adv	dadj|LY	_	_	_	_	
+2	they	they	pro:sub	pro:sub	_	_	_	_	_	
+3	must	must	mod	mod	_	_	_	_	_	
+4	be	be	cop	cop	_	_	_	_	_	
+5	lost	lose	adj	adj	PASTP	_	_	_	_	
+6	.	.	Punc	Punc	_	_	_	_	_	
+
+1	the	the	det	det	_	_	_	_	_	
+2	man	man	n	n	_	_	_	_	_	
+3	took	take	v	v	PAST	_	_	_	_	
+4	out	out	prep	prep	_	_	_	_	_	
+5	a	a	det	det	_	_	_	_	_	
+6	map	map	n	n	_	_	_	_	_	
+7	and	and	coord	coord	_	_	_	_	_	
+8	was	be	aux	aux	PAST|13S	_	_	_	_	
+9	asking	ask	part	part	PRESP	_	_	_	_	
+10	the	the	det	det	_	_	_	_	_	
+11	farmer	farm	n	n	dv|AGT	_	_	_	_	
+12	directions	direction	n	n	PL	_	_	_	_	
+13	or	or	coord	coord	_	_	_	_	_	
+14	where	where	adv:wh	adv:wh	_	_	_	_	_	
+15	they're	they	pro:sub	pro:sub	_	_	_	_	_	
+16	-'re	be	cop	cop	PRES	_	_	_	_	
+17	at	at	adv	adv	_	_	_	_	_	
+18	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	then	then	adv:tem	adv:tem	_	_	_	_	_	
+3	the	the	det	det	_	_	_	_	_	
+4	farmer	farm	n	n	dv|AGT	_	_	_	_	
+5	is	be	aux	aux	3S	_	_	_	_	
+6	giving	give	part	part	PRESP	_	_	_	_	
+7	them	them	pro:obj	pro:obj	_	_	_	_	_	
+8	directions	direction	n	n	PL	_	_	_	_	
+9	and	and	coord	coord	_	_	_	_	_	
+10	pointing	point	part	part	PRESP	_	_	_	_	
+11	to	to	prep	prep	_	_	_	_	_	
+12	where	where	adv:wh	adv:wh	_	_	_	_	_	
+13	and	and	coord	coord	_	_	_	_	_	
+14	how	how	adv:wh	adv:wh	_	_	_	_	_	
+15	to	to	inf	inf	_	_	_	_	_	
+16	get	get	v	v	_	_	_	_	_	
+17	wherever	wherever	adv:wh	adv:wh	_	_	_	_	_	
+18	they're	they	pro:sub	pro:sub	_	_	_	_	_	
+19	-'re	be	aux	aux	PRES	_	_	_	_	
+20	going	go	part	part	PRESP	_	_	_	_	
+21	.	.	Punc	Punc	_	_	_	_	_	
+
+1	so	so	co	co	_	_	_	_	_	
+2	they	they	pro:sub	pro:sub	_	_	_	_	_	
+3	take	take	v	v	_	_	_	_	_	
+4	off	off	prep	prep	_	_	_	_	_	
+5	driving	drive	n:gerund	n:gerund	PRESP	_	_	_	_	
+6	down	down	prep	prep	_	_	_	_	_	
+7	the	the	det	det	_	_	_	_	_	
+8	road	road	n	n	_	_	_	_	_	
+9	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	the	the	det	det	_	_	_	_	_	
+3	farmer	farm	n	n	dv|AGT	_	_	_	_	
+4	went	go	v	v	PAST	_	_	_	_	
+5	back	back	adv	adv	_	_	_	_	_	
+6	to	to	prep	prep	_	_	_	_	_	
+7	digging	dig	n:gerund	n:gerund	PRESP	_	_	_	_	
+8	the	the	det	det	_	_	_	_	_	
+9	hole	hole	n	n	_	_	_	_	_	
+10	to	to	inf	inf	_	_	_	_	_	
+11	plant	plant	v	v	_	_	_	_	_	
+12	the	the	det	det	_	_	_	_	_	
+13	tree	tree	n	n	_	_	_	_	_	
+14	.	.	Punc	Punc	_	_	_	_	_	
+
+1	so	so	co	co	_	_	_	_	_	
+2	he's	he	pro:sub	pro:sub	_	_	_	_	_	
+3	-'s	be	cop	cop	3S	_	_	_	_	
+4	there	there	adv	adv	_	_	_	_	_	
+5	alone	alone	adv	adv	_	_	_	_	_	
+6	.	.	Punc	Punc	_	_	_	_	_	
+
+1	all_of_a_sudden	all_of_a_sudden	adv	adv	_	_	_	_	_	
+2	in	in	prep	prep	_	_	_	_	_	
+3	the	the	det	det	_	_	_	_	_	
+4	middle	middle	n	n	_	_	_	_	_	
+5	of	of	prep	prep	_	_	_	_	_	
+6	his	his	pro:poss:det	pro:poss:det	_	_	_	_	_	
+7	digging	dig	n:gerund	n:gerund	PRESP	_	_	_	_	
+8	there's	there	pro:exist	pro:exist	_	_	_	_	_	
+9	-'s	be	cop	cop	3S	_	_	_	_	
+10	the	the	det	det	_	_	_	_	_	
+11	car	car	n	n	_	_	_	_	_	
+12	again	again	adv	adv	_	_	_	_	_	
+13	and	and	coord	coord	_	_	_	_	_	
+14	the	the	det	det	_	_	_	_	_	
+15	couple	couple	n	n	_	_	_	_	_	
+16	again	again	adv	adv	_	_	_	_	_	
+17	going	go	part	part	PRESP	_	_	_	_	
+18	the	the	det	det	_	_	_	_	_	
+19	same	same	adj	adj	_	_	_	_	_	
+20	way	way	n	n	_	_	_	_	_	
+21	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	he	he	pro:sub	pro:sub	_	_	_	_	_	
+3	looks	look	v	v	3S	_	_	_	_	
+4	very	very	adv:int	adv:int	_	_	_	_	_	
+5	astounded	astound	part	part	PASTP	_	_	_	_	
+6	and	and	coord	coord	_	_	_	_	_	
+7	going	go	part	part	PRESP	_	_	_	_	
+8	+"/.	+"/.	Punc	Punc	_	_	_	_	_	
+
+1	how	how	adv:wh	adv:wh	_	_	_	_	_	
+2	did	do	mod	mod	PAST	_	_	_	_	
+3	they	they	pro:sub	pro:sub	_	_	_	_	_	
+4	get	get	v	v	_	_	_	_	_	
+5	back	back	adv	adv	_	_	_	_	_	
+6	here	here	adv	adv	_	_	_	_	_	
+7	?	?	Punc	Punc	_	_	_	_	_	
+
+1	this	this	pro:dem	pro:dem	_	_	_	_	_	
+2	is	be	cop	cop	3S	_	_	_	_	
+3	crazy	craze	adj	adj	dn|Y	_	_	_	_	
+4	.	.	Punc	Punc	_	_	_	_	_	
+
+1	he's	he	pro:sub	pro:sub	_	_	_	_	_	
+2	-'s	be	aux	aux	3S	_	_	_	_	
+3	probably	probable	adv	adv	dadj|LY	_	_	_	_	
+4	thinking	think	part	part	PRESP	_	_	_	_	
+5	+...	+...	Punc	Punc	_	_	_	_	_	
+
+1	he	he	pro:sub	pro:sub	_	_	_	_	_	
+2	just	just	adv:int	adv:int	_	_	_	_	_	
+3	looks	look	v	v	3S	_	_	_	_	
+4	very	very	adv:int	adv:int	_	_	_	_	_	
+5	astounded	astound	part	part	PASTP	_	_	_	_	
+6	that	that	rel	rel	_	_	_	_	_	
+7	+"/.	+"/.	Punc	Punc	_	_	_	_	_	
+
+1	what	what	pro:wh	pro:wh	_	_	_	_	_	
+2	are	be	aux	aux	PRES	_	_	_	_	
+3	you	you	pro	pro	_	_	_	_	_	
+4	doing	do	part	part	PRESP	_	_	_	_	
+5	here	here	adv	adv	_	_	_	_	_	
+6	?	?	Punc	Punc	_	_	_	_	_	
+
+1	well	well	co	co	_	_	_	_	_	
+2	it's	it	pro	pro	_	_	_	_	_	
+3	-'s	be	cop	cop	3S	_	_	_	_	
+4	inside	inside	adv	adv	_	_	_	_	_	
+5	of	of	prep	prep	_	_	_	_	_	
+6	a	a	det	det	_	_	_	_	_	
+7	house	house	n	n	_	_	_	_	_	
+8	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	there's	there	pro:exist	pro:exist	_	_	_	_	_	
+3	-'s	be	cop	cop	3S	_	_	_	_	
+4	a	a	det	det	_	_	_	_	_	
+5	couple	couple	n	n	_	_	_	_	_	
+6	fighting	fight	adj	adj	PRESP	_	_	_	_	
+7	.	.	Punc	Punc	_	_	_	_	_	
+
+1	it	it	pro	pro	_	_	_	_	_	
+2	looks	look	v	v	3S	_	_	_	_	
+3	like	like	rel	rel	_	_	_	_	_	
+4	she's	she	pro:sub	pro:sub	_	_	_	_	_	
+5	-'s	be	aux	aux	3S	_	_	_	_	
+6	yelling	yell	part	part	PRESP	_	_	_	_	
+7	at	at	prep	prep	_	_	_	_	_	
+8	the	the	det	det	_	_	_	_	_	
+9	man	man	n	n	_	_	_	_	_	
+10	.	.	Punc	Punc	_	_	_	_	_	
+
+1	they're	they	pro:sub	pro:sub	_	_	_	_	_	
+2	-'re	be	aux	aux	PRES	_	_	_	_	
+3	yelling	yell	part	part	PRESP	_	_	_	_	
+4	back	back	adv	adv	_	_	_	_	_	
+5	at	at	prep	prep	_	_	_	_	_	
+6	each_other	each_other	pro:refl	pro:refl	_	_	_	_	_	
+7	.	.	Punc	Punc	_	_	_	_	_	
+
+1	he's	he	pro:sub	pro:sub	_	_	_	_	_	
+2	-'s	be	aux	aux	3S	_	_	_	_	
+3	reading	read	part	part	PRESP	_	_	_	_	
+4	a	a	det	det	_	_	_	_	_	
+5	newspaper	newspaper	n	n	_	_	_	_	_	
+6	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	she's	she	pro:sub	pro:sub	_	_	_	_	_	
+3	-'s	be	aux	aux	3S	_	_	_	_	
+4	got	get	part	part	PASTP	_	_	_	_	
+5	her	her	pro:poss:det	pro:poss:det	_	_	_	_	_	
+6	coat	coat	n	n	_	_	_	_	_	
+7	on	on	adv	adv	_	_	_	_	_	
+8	and	and	coord	coord	_	_	_	_	_	
+9	her	her	pro:poss:det	pro:poss:det	_	_	_	_	_	
+10	suitcase	suitcase	n	n	_	_	_	_	_	
+11	heading	head	adj	adj	PRESP	_	_	_	_	
+12	for	for	prep	prep	_	_	_	_	_	
+13	the	the	det	det	_	_	_	_	_	
+14	door	door	n	n	_	_	_	_	_	
+15	.	.	Punc	Punc	_	_	_	_	_	
+
+1	evidently	evident	adv	adv	dadj|LY	_	_	_	_	
+2	she's	she	pro:sub	pro:sub	_	_	_	_	_	
+3	-'s	be	aux	aux	3S	_	_	_	_	
+4	going	go	part	part	PRESP	_	_	_	_	
+5	to	to	inf	inf	_	_	_	_	_	
+6	leave	leave	v	v	_	_	_	_	_	
+7	him	him	pro:obj	pro:obj	_	_	_	_	_	
+8	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	he	he	pro:sub	pro:sub	_	_	_	_	_	
+3	looks	look	v	v	3S	_	_	_	_	
+4	very	very	adv:int	adv:int	_	_	_	_	_	
+5	distraught	distraught	adj	adj	_	_	_	_	_	
+6	that	that	rel	rel	_	_	_	_	_	
+7	she	she	pro:sub	pro:sub	_	_	_	_	_	
+8	left	leave	v	v	PAST	_	_	_	_	
+9	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	he's	he	pro:sub	pro:sub	_	_	_	_	_	
+3	-'s	be	aux	aux	3S	_	_	_	_	
+4	still	still	adv	adv	_	_	_	_	_	
+5	sitting	sit	part	part	PRESP	_	_	_	_	
+6	in	in	prep	prep	_	_	_	_	_	
+7	the	the	det	det	_	_	_	_	_	
+8	chair	chair	n	n	_	_	_	_	_	
+9	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	then	then	adv:tem	adv:tem	_	_	_	_	_	
+3	the	the	det	det	_	_	_	_	_	
+4	door	door	n	n	_	_	_	_	_	
+5	opens	open	v	v	3S	_	_	_	_	
+6	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	there	there	adv	adv	_	_	_	_	_	
+3	she	she	pro:sub	pro:sub	_	_	_	_	_	
+4	is	be	cop	cop	3S	_	_	_	_	
+5	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	they	they	pro:sub	pro:sub	_	_	_	_	_	
+3	look	look	v	v	_	_	_	_	_	
+4	at	at	prep	prep	_	_	_	_	_	
+5	each_other	each_other	pro:refl	pro:refl	_	_	_	_	_	
+6	.	.	Punc	Punc	_	_	_	_	_	
+
+1	he	he	pro:sub	pro:sub	_	_	_	_	_	
+2	gets	get	v	v	3S	_	_	_	_	
+3	up	up	adv	adv	_	_	_	_	_	
+4	.	.	Punc	Punc	_	_	_	_	_	
+
+1	she's	she	pro:sub	pro:sub	_	_	_	_	_	
+2	-'s	be	aux	aux	3S	_	_	_	_	
+3	crying	cry	part	part	PRESP	_	_	_	_	
+4	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	he	he	pro:sub	pro:sub	_	_	_	_	_	
+3	opens	open	v	v	3S	_	_	_	_	
+4	up	up	prep	prep	_	_	_	_	_	
+5	his	his	pro:poss:det	pro:poss:det	_	_	_	_	_	
+6	arms	arm	n	n	PL	_	_	_	_	
+7	to	to	inf	inf	_	_	_	_	_	
+8	welcome	welcome	v	v	_	_	_	_	_	
+9	her	her	pro:obj	pro:obj	_	_	_	_	_	
+10	home	home	n	n	_	_	_	_	_	
+11	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	they're	they	pro:sub	pro:sub	_	_	_	_	_	
+3	-'re	be	aux	aux	PRES	_	_	_	_	
+4	hugging	hug	part	part	PRESP	_	_	_	_	
+5	at	at	prep	prep	_	_	_	_	_	
+6	the	the	det	det	_	_	_	_	_	
+7	door	door	n	n	_	_	_	_	_	
+8	and	and	coord	coord	_	_	_	_	_	
+9	everything	everything	pro:indef	pro:indef	_	_	_	_	_	
+10	like	like	prep	prep	_	_	_	_	_	
+11	that	that	pro:dem	pro:dem	_	_	_	_	_	
+12	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	it	it	pro	pro	_	_	_	_	_	
+3	looks	look	v	v	3S	_	_	_	_	
+4	like	like	rel	rel	_	_	_	_	_	
+5	she	she	pro:sub	pro:sub	_	_	_	_	_	
+6	crashed	crash	v	v	PAST	_	_	_	_	
+7	the	the	det	det	_	_	_	_	_	
+8	car	car	n	n	_	_	_	_	_	
+9	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	he's	he	pro:sub	pro:sub	_	_	_	_	_	
+3	-'s	be	aux	aux	3S	_	_	_	_	
+4	looking	look	part	part	PRESP	_	_	_	_	
+5	towards	towards	prep	prep	_	_	_	_	_	
+6	the	the	det	det	_	_	_	_	_	
+7	car	car	n	n	_	_	_	_	_	
+8	going	go	adj	adj	PRESP	_	_	_	_	
+9	+"/.	+"/.	Punc	Punc	_	_	_	_	_	
+
+1	wow	wow	co	co	_	_	_	_	_	
+2	what	what	pro:wh	pro:wh	_	_	_	_	_	
+3	happened	happen	v	v	PAST	_	_	_	_	
+4	here	here	adv	adv	_	_	_	_	_	
+5	.	.	Punc	Punc	_	_	_	_	_	
+
+1	that	that	pro:dem	pro:dem	_	_	_	_	_	
+2	must	must	mod	mod	_	_	_	_	_	
+3	be	be	cop	cop	_	_	_	_	_	
+4	why	why	adv:wh	adv:wh	_	_	_	_	_	
+5	she	she	pro:sub	pro:sub	_	_	_	_	_	
+6	is	be	aux	aux	3S	_	_	_	_	
+7	crying	cry	part	part	PRESP	_	_	_	_	
+8	because	because	conj	conj	_	_	_	_	_	
+9	she	she	pro:sub	pro:sub	_	_	_	_	_	
+10	crashed	crash	v	v	PAST	_	_	_	_	
+11	the	the	det	det	_	_	_	_	_	
+12	car	car	n	n	_	_	_	_	_	
+13	.	.	Punc	Punc	_	_	_	_	_	
+
+1	I'm	I	pro:sub	pro:sub	_	_	_	_	_	
+2	-'m	be	cop	cop	1S	_	_	_	_	
+3	sure	sure	adj	adj	_	_	_	_	_	
+4	they'll	they	pro:sub	pro:sub	_	_	_	_	_	
+5	-'ll	will	mod	mod	_	_	_	_	_	
+6	be	be	cop	cop	_	_	_	_	_	
+7	alright	alright	adj	adj	_	_	_	_	_	
+8	.	.	Punc	Punc	_	_	_	_	_	
+
+1	okay	okay	co	co	_	_	_	_	_	
+2	this	this	pro:dem	pro:dem	_	_	_	_	_	
+3	is	be	cop	cop	3S	_	_	_	_	
+4	about	about	prep	prep	_	_	_	_	_	
+5	a	a	det	det	_	_	_	_	_	
+6	birthday	birth+day	n	n	_	_	_	_	_	
+7	party	party	n	n	_	_	_	_	_	
+8	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	it	it	pro	pro	_	_	_	_	_	
+3	looks	look	v	v	3S	_	_	_	_	
+4	like	like	prep	prep	_	_	_	_	_	
+5	a	a	det	det	_	_	_	_	_	
+6	young	young	adj	adj	_	_	_	_	_	
+7	man	man	n	n	_	_	_	_	_	
+8	is	be	aux	aux	3S	_	_	_	_	
+9	having	have	part	part	PRESP	_	_	_	_	
+10	a	a	det	det	_	_	_	_	_	
+11	birthday	birth+day	n	n	_	_	_	_	_	
+12	party	party	n	n	_	_	_	_	_	
+13	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	people	person	n	n	PL	_	_	_	_	
+3	are	be	aux	aux	PRES	_	_	_	_	
+4	coming	come	part	part	PRESP	_	_	_	_	
+5	in	in	adv	adv	_	_	_	_	_	
+6	with	with	prep	prep	_	_	_	_	_	
+7	their	their	pro:poss:det	pro:poss:det	_	_	_	_	_	
+8	children	child	n	n	PL	_	_	_	_	
+9	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	mom	mom	n	n	_	_	_	_	_	
+3	is	be	aux	aux	3S	_	_	_	_	
+4	standing	stand	part	part	PRESP	_	_	_	_	
+5	there	there	adv	adv	_	_	_	_	_	
+6	with	with	prep	prep	_	_	_	_	_	
+7	a	a	det	det	_	_	_	_	_	
+8	broom	broom	n	n	_	_	_	_	_	
+9	shaking	shake	adj	adj	PRESP	_	_	_	_	
+10	it	it	pro	pro	_	_	_	_	_	
+11	at	at	prep	prep	_	_	_	_	_	
+12	the	the	det	det	_	_	_	_	_	
+13	dog	dog	n	n	_	_	_	_	_	
+14	who's	who	rel	rel	_	_	_	_	_	
+15	-'s	be	aux	aux	3S	_	_	_	_	
+16	hiding	hide	part	part	PRESP	_	_	_	_	
+17	underneath	underneath	prep	prep	_	_	_	_	_	
+18	the	the	det	det	_	_	_	_	_	
+19	sofa	sofa	n	n	_	_	_	_	_	
+20	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	then	then	adv:tem	adv:tem	_	_	_	_	_	
+3	you	you	pro	pro	_	_	_	_	_	
+4	look	look	v	v	_	_	_	_	_	
+5	over	over	adv	adv	_	_	_	_	_	
+6	at	at	prep	prep	_	_	_	_	_	
+7	the	the	det	det	_	_	_	_	_	
+8	cake	cake	n	n	_	_	_	_	_	
+9	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	guess	guess	v	v	_	_	_	_	_	
+3	what	what	pro:wh	pro:wh	_	_	_	_	_	
+4	?	?	Punc	Punc	_	_	_	_	_	
+
+1	he	he	pro:sub	pro:sub	_	_	_	_	_	
+2	evidently	evident	adv	adv	dadj|LY	_	_	_	_	
+3	took	take	v	v	PAST	_	_	_	_	
+4	a	a	det	det	_	_	_	_	_	
+5	big	big	adj	adj	_	_	_	_	_	
+6	chunk	chunk	n	n	_	_	_	_	_	
+7	out_of	out_of	prep	prep	_	_	_	_	_	
+8	the	the	det	det	_	_	_	_	_	
+9	birthday	birth+day	n	n	_	_	_	_	_	
+10	cake	cake	n	n	_	_	_	_	_	
+11	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	that's	that	pro:dem	pro:dem	_	_	_	_	_	
+3	-'s	be	cop	cop	3S	_	_	_	_	
+4	why	why	adv:wh	adv:wh	_	_	_	_	_	
+5	the	the	det	det	_	_	_	_	_	
+6	boy	boy	n	n	_	_	_	_	_	
+7	is	be	aux	aux	3S	_	_	_	_	
+8	crying	cry	part	part	PRESP	_	_	_	_	
+9	and	and	coord	coord	_	_	_	_	_	
+10	mom's	mom	n	n	_	_	_	_	_	
+11	-'s	be	aux	aux	3S	_	_	_	_	
+12	going	go	part	part	PRESP	_	_	_	_	
+13	to	to	inf	inf	_	_	_	_	_	
+14	hit	hit	v	v	ZERO	_	_	_	_	
+15	him	him	pro:obj	pro:obj	_	_	_	_	_	
+16	with	with	prep	prep	_	_	_	_	_	
+17	a	a	det	det	_	_	_	_	_	
+18	broom	broom	n	n	_	_	_	_	_	
+19	.	.	Punc	Punc	_	_	_	_	_	
+
+1	but	but	conj	conj	_	_	_	_	_	
+2	he	he	pro:sub	pro:sub	_	_	_	_	_	
+3	left	leave	v	v	PAST	_	_	_	_	
+4	his	his	pro:poss:det	pro:poss:det	_	_	_	_	_	
+5	pawprints	paw+print	n	n	PL	_	_	_	_	
+6	going	go	n:gerund	n:gerund	PRESP	_	_	_	_	
+7	all	all	qn	qn	_	_	_	_	_	
+8	the	the	det	det	_	_	_	_	_	
+9	way	way	n	n	_	_	_	_	_	
+10	underneath	underneath	prep	prep	_	_	_	_	_	
+11	the	the	det	det	_	_	_	_	_	
+12	couch	couch	n	n	_	_	_	_	_	
+13	.	.	Punc	Punc	_	_	_	_	_	
+
+1	so	so	co	co	_	_	_	_	_	
+2	he	he	pro:sub	pro:sub	_	_	_	_	_	
+3	wasn't	be	aux	aux	PAST|13S	_	_	_	_	
+4	-'n't	not	neg	neg	_	_	_	_	_	
+5	hiding	hide	part	part	PRESP	_	_	_	_	
+6	very	very	adv:int	adv:int	_	_	_	_	_	
+7	well	well	adv	adv	_	_	_	_	_	
+8	.	.	Punc	Punc	_	_	_	_	_	
+
+1	okay	okay	co	co	_	_	_	_	_	
+2	you	you	pro	pro	_	_	_	_	_	
+3	get	get	v	v	_	_	_	_	_	
+4	the	the	det	det	_	_	_	_	_	
+5	peanut	peanut	n	n	_	_	_	_	_	
+6	butter	butter	n	n	_	_	_	_	_	
+7	and	and	coord	coord	_	_	_	_	_	
+8	jelly	jelly	n	n	_	_	_	_	_	
+9	.	.	Punc	Punc	_	_	_	_	_	
+
+1	I'm	I	pro:sub	pro:sub	_	_	_	_	_	
+2	-'m	be	cop	cop	1S	_	_	_	_	
+3	sorry	sorry	adj	adj	_	_	_	_	_	
+4	.	.	Punc	Punc	_	_	_	_	_	
+
+1	you	you	pro	pro	_	_	_	_	_	
+2	get	get	v	v	_	_	_	_	_	
+3	the	the	det	det	_	_	_	_	_	
+4	peanut	peanut	n	n	_	_	_	_	_	
+5	butter	butter	n	n	_	_	_	_	_	
+6	and	and	coord	coord	_	_	_	_	_	
+7	jelly	jelly	n	n	_	_	_	_	_	
+8	.	.	Punc	Punc	_	_	_	_	_	
+
+1	you	you	pro	pro	_	_	_	_	_	
+2	set	set	v	v	ZERO	_	_	_	_	
+3	it	it	pro	pro	_	_	_	_	_	
+4	on	on	prep	prep	_	_	_	_	_	
+5	the	the	det	det	_	_	_	_	_	
+6	counter	counter	n	n	_	_	_	_	_	
+7	.	.	Punc	Punc	_	_	_	_	_	
+
+1	you	you	pro	pro	_	_	_	_	_	
+2	get	get	v	v	_	_	_	_	_	
+3	your	your	pro:poss:det	pro:poss:det	_	_	_	_	_	
+4	bread	bread	n	n	_	_	_	_	_	
+5	.	.	Punc	Punc	_	_	_	_	_	
+
+1	close	close	v	v	_	_	_	_	_	
+2	up	up	prep	prep	_	_	_	_	_	
+3	the	the	det	det	_	_	_	_	_	
+4	bag	bag	n	n	_	_	_	_	_	
+5	to	to	prep	prep	_	_	_	_	_	
+6	the	the	det	det	_	_	_	_	_	
+7	bread	bread	n	n	_	_	_	_	_	
+8	.	.	Punc	Punc	_	_	_	_	_	
+
+1	then	then	adv:tem	adv:tem	_	_	_	_	_	
+2	you	you	pro	pro	_	_	_	_	_	
+3	put	put	v	v	ZERO	_	_	_	_	
+4	the	the	det	det	_	_	_	_	_	
+5	bread	bread	n	n	_	_	_	_	_	
+6	on	on	prep	prep	_	_	_	_	_	
+7	the	the	det	det	_	_	_	_	_	
+8	plate	plate	n	n	_	_	_	_	_	
+9	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	then	then	adv:tem	adv:tem	_	_	_	_	_	
+3	you	you	pro	pro	_	_	_	_	_	
+4	get	get	v	v	_	_	_	_	_	
+5	a	a	det	det	_	_	_	_	_	
+6	knife	knife	n	n	_	_	_	_	_	
+7	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	then	then	adv:tem	adv:tem	_	_	_	_	_	
+3	say	say	co	co	_	_	_	_	_	
+4	you	you	pro	pro	_	_	_	_	_	
+5	start	start	v	v	_	_	_	_	_	
+6	with	with	prep	prep	_	_	_	_	_	
+7	the	the	det	det	_	_	_	_	_	
+8	peanut	peanut	n	n	_	_	_	_	_	
+9	butter	butter	n	n	_	_	_	_	_	
+10	.	.	Punc	Punc	_	_	_	_	_	
+
+1	so	so	co	co	_	_	_	_	_	
+2	you	you	pro	pro	_	_	_	_	_	
+3	open	open	v	v	_	_	_	_	_	
+4	up	up	prep	prep	_	_	_	_	_	
+5	the	the	det	det	_	_	_	_	_	
+6	jar	jar	n	n	_	_	_	_	_	
+7	of	of	prep	prep	_	_	_	_	_	
+8	peanut	peanut	n	n	_	_	_	_	_	
+9	butter	butter	n	n	_	_	_	_	_	
+10	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	then	then	adv:tem	adv:tem	_	_	_	_	_	
+3	you	you	pro	pro	_	_	_	_	_	
+4	spread	spread	v	v	ZERO	_	_	_	_	
+5	the	the	det	det	_	_	_	_	_	
+6	peanut	peanut	n	n	_	_	_	_	_	
+7	butter	butter	n	n	_	_	_	_	_	
+8	on	on	prep	prep	_	_	_	_	_	
+9	one	one	det:num	det:num	_	_	_	_	_	
+10	side	side	n	n	_	_	_	_	_	
+11	of	of	prep	prep	_	_	_	_	_	
+12	the	the	det	det	_	_	_	_	_	
+13	bread	bread	n	n	_	_	_	_	_	
+14	.	.	Punc	Punc	_	_	_	_	_	
+
+1	close	close	v	v	_	_	_	_	_	
+2	up	up	prep	prep	_	_	_	_	_	
+3	the	the	det	det	_	_	_	_	_	
+4	peanut	peanut	n	n	_	_	_	_	_	
+5	butter	butter	n	n	_	_	_	_	_	
+6	jar	jar	n	n	_	_	_	_	_	
+7	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	then	then	adv:tem	adv:tem	_	_	_	_	_	
+3	you	you	pro	pro	_	_	_	_	_	
+4	open	open	v	v	_	_	_	_	_	
+5	up	up	prep	prep	_	_	_	_	_	
+6	the	the	det	det	_	_	_	_	_	
+7	jelly	jelly	n	n	_	_	_	_	_	
+8	jar	jar	n	n	_	_	_	_	_	
+9	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	you	you	pro	pro	_	_	_	_	_	
+3	spread	spread	v	v	ZERO	_	_	_	_	
+4	on	on	prep	prep	_	_	_	_	_	
+5	one	one	det:num	det:num	_	_	_	_	_	
+6	side	side	n	n	_	_	_	_	_	
+7	the	the	det	det	_	_	_	_	_	
+8	jelly	jelly	n	n	_	_	_	_	_	
+9	.	.	Punc	Punc	_	_	_	_	_	
+
+1	close	close	v	v	_	_	_	_	_	
+2	up	up	prep	prep	_	_	_	_	_	
+3	the	the	det	det	_	_	_	_	_	
+4	jelly	jelly	n	n	_	_	_	_	_	
+5	jar	jar	n	n	_	_	_	_	_	
+6	.	.	Punc	Punc	_	_	_	_	_	
+
+1	put	put	v	v	ZERO	_	_	_	_	
+2	the	the	det	det	_	_	_	_	_	
+3	two	two	det:num	det:num	_	_	_	_	_	
+4	breads	bread	n	n	PL	_	_	_	_	
+5	together	together	adv	adv	_	_	_	_	_	
+6	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	cut	cut	v	v	ZERO	_	_	_	_	
+3	it	it	pro	pro	_	_	_	_	_	
+4	.	.	Punc	Punc	_	_	_	_	_	
+
+1	you	you	pro	pro	_	_	_	_	_	
+2	can	can	mod	mod	_	_	_	_	_	
+3	either	either	adv	adv	_	_	_	_	_	
+4	cut	cut	v	v	ZERO	_	_	_	_	
+5	it	it	pro	pro	_	_	_	_	_	
+6	or	or	coord	coord	_	_	_	_	_	
+7	eat	eat	v	v	_	_	_	_	_	
+8	it	it	pro	pro	_	_	_	_	_	
+9	whole	whole	adv	adv	_	_	_	_	_	
+10	.	.	Punc	Punc	_	_	_	_	_	
+
+1	put	put	v	v	ZERO	_	_	_	_	
+2	everything	everything	pro:indef	pro:indef	_	_	_	_	_	
+3	away	away	adv	adv	_	_	_	_	_	
+4	.	.	Punc	Punc	_	_	_	_	_	
+
+1	eat	eat	v	v	_	_	_	_	_	
+2	.	.	Punc	Punc	_	_	_	_	_	
+
+1	now	now	adv	adv	_	_	_	_	_	
+2	can	can	mod	mod	_	_	_	_	_	
+3	you	you	pro	pro	_	_	_	_	_	
+4	tell	tell	v	v	_	_	_	_	_	
+5	me	me	pro:obj	pro:obj	_	_	_	_	_	
+6	how	how	adv:wh	adv:wh	_	_	_	_	_	
+7	to	to	inf	inf	_	_	_	_	_	
+8	plant	plant	v	v	_	_	_	_	_	
+9	a	a	det	det	_	_	_	_	_	
+10	flower	flower	n	n	_	_	_	_	_	
+11	in	in	prep	prep	_	_	_	_	_	
+12	a	a	det	det	_	_	_	_	_	
+13	garden	garden	n	n	_	_	_	_	_	
+14	?	?	Punc	Punc	_	_	_	_	_	
+
+1	no	no	co	co	_	_	_	_	_	
+2	.	.	Punc	Punc	_	_	_	_	_	
+
+1	okay	okay	co	co	_	_	_	_	_	
+2	.	.	Punc	Punc	_	_	_	_	_	
+
+1	I	I	pro:sub	pro:sub	_	_	_	_	_	
+2	would	will	mod	mod	COND	_	_	_	_	
+3	imagine	imagine	v	v	_	_	_	_	_	
+4	first	first	adj	adj	_	_	_	_	_	
+5	of	of	prep	prep	_	_	_	_	_	
+6	all	all	pro:indef	pro:indef	_	_	_	_	_	
+7	you're	you	pro	pro	_	_	_	_	_	
+8	-'re	be	aux	aux	PRES	_	_	_	_	
+9	going	go	part	part	PRESP	_	_	_	_	
+10	to	to	inf	inf	_	_	_	_	_	
+11	go	go	v	v	_	_	_	_	_	
+12	down	down	adv	adv	_	_	_	_	_	
+13	to	to	prep	prep	_	_	_	_	_	
+14	the	the	det	det	_	_	_	_	_	
+15	garden	garden	n	n	_	_	_	_	_	
+16	store	store	n	n	_	_	_	_	_	
+17	and	and	coord	coord	_	_	_	_	_	
+18	buy	buy	v	v	_	_	_	_	_	
+19	some	some	qn	qn	_	_	_	_	_	
+20	flowers	flower	n	n	PL	_	_	_	_	
+21	or	or	coord	coord	_	_	_	_	_	
+22	a	a	det	det	_	_	_	_	_	
+23	flower	flower	n	n	_	_	_	_	_	
+24	that's	that	rel	rel	_	_	_	_	_	
+25	-'s	be	aux	aux	3S	_	_	_	_	
+26	already	already	adv	adv	_	_	_	_	_	
+27	planted	plant	v	v	PAST	_	_	_	_	
+28	if	if	conj	conj	_	_	_	_	_	
+29	it's	it	pro	pro	_	_	_	_	_	
+30	-'s	be	aux	aux	3S	_	_	_	_	
+31	going	go	part	part	PRESP	_	_	_	_	
+32	to	to	inf	inf	_	_	_	_	_	
+33	be	be	cop	cop	_	_	_	_	_	
+34	a	a	det	det	_	_	_	_	_	
+35	flower	flower	n	n	_	_	_	_	_	
+36	you're	you	pro	pro	_	_	_	_	_	
+37	-'re	be	aux	aux	PRES	_	_	_	_	
+38	going	go	part	part	PRESP	_	_	_	_	
+39	to	to	inf	inf	_	_	_	_	_	
+40	plant	plant	v	v	_	_	_	_	_	
+41	.	.	Punc	Punc	_	_	_	_	_	
+
+1	so	so	co	co	_	_	_	_	_	
+2	you're	you	pro	pro	_	_	_	_	_	
+3	-'re	be	aux	aux	PRES	_	_	_	_	
+4	going	go	part	part	PRESP	_	_	_	_	
+5	to	to	inf	inf	_	_	_	_	_	
+6	buy	buy	v	v	_	_	_	_	_	
+7	a	a	det	det	_	_	_	_	_	
+8	pot	pot	n	n	_	_	_	_	_	
+9	or	or	coord	coord	_	_	_	_	_	
+10	those	those	det	det	_	_	_	_	_	
+11	little	little	adj	adj	_	_	_	_	_	
+12	containers	contain	n	n	dv|AGT|PL	_	_	_	_	
+13	that	that	rel	rel	_	_	_	_	_	
+14	have	have	v	v	_	_	_	_	_	
+15	the	the	det	det	_	_	_	_	_	
+16	flowers	flower	n	n	PL	_	_	_	_	
+17	already	already	adv	adv	_	_	_	_	_	
+18	growing	grow	part	part	PRESP	_	_	_	_	
+19	.	.	Punc	Punc	_	_	_	_	_	
+
+1	so	so	conj	conj	_	_	_	_	_	
+2	you	you	pro	pro	_	_	_	_	_	
+3	take	take	v	v	_	_	_	_	_	
+4	it	it	pro	pro	_	_	_	_	_	
+5	home	home	n	n	_	_	_	_	_	
+6	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	then	then	adv:tem	adv:tem	_	_	_	_	_	
+3	you	you	pro	pro	_	_	_	_	_	
+4	go	go	v	v	_	_	_	_	_	
+5	out	out	adv	adv	_	_	_	_	_	
+6	to	to	prep	prep	_	_	_	_	_	
+7	the	the	det	det	_	_	_	_	_	
+8	garden	garden	n	n	_	_	_	_	_	
+9	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	then	then	adv:tem	adv:tem	_	_	_	_	_	
+3	you	you	pro	pro	_	_	_	_	_	
+4	take	take	v	v	_	_	_	_	_	
+5	a	a	det	det	_	_	_	_	_	
+6	hoe	hoe	n	n	_	_	_	_	_	
+7	.	.	Punc	Punc	_	_	_	_	_	
+
+1	a	a	det	det	_	_	_	_	_	
+2	hand	hand	n	n	_	_	_	_	_	
+3	hoe	hoe	n	n	_	_	_	_	_	
+4	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	then	then	adv:tem	adv:tem	_	_	_	_	_	
+3	you	you	pro	pro	_	_	_	_	_	
+4	dig	dig	v	v	_	_	_	_	_	
+5	that	that	det	det	_	_	_	_	_	
+6	hole	hole	n	n	_	_	_	_	_	
+7	for	for	prep	prep	_	_	_	_	_	
+8	it	it	pro	pro	_	_	_	_	_	
+9	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	you	you	pro	pro	_	_	_	_	_	
+3	can	can	mod	mod	_	_	_	_	_	
+4	even	even	adv:int	adv:int	_	_	_	_	_	
+5	put	put	part	part	PASTP	_	_	_	_	
+6	in	in	prep	prep	_	_	_	_	_	
+7	some	some	qn	qn	_	_	_	_	_	
+8	fertilizer	fertilize	n	n	dv|AGT	_	_	_	_	
+9	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	then	then	adv:tem	adv:tem	_	_	_	_	_	
+3	usually	usual	adv	adv	dadj|LY	_	_	_	_	
+4	you	you	pro	pro	_	_	_	_	_	
+5	take	take	v	v	_	_	_	_	_	
+6	the	the	det	det	_	_	_	_	_	
+7	plant	plant	n	n	_	_	_	_	_	
+8	with	with	prep	prep	_	_	_	_	_	
+9	the	the	det	det	_	_	_	_	_	
+10	roots	root	n	n	PL	_	_	_	_	
+11	and	and	coord	coord	_	_	_	_	_	
+12	the	the	det	det	_	_	_	_	_	
+13	dirt	dirt	n	n	_	_	_	_	_	
+14	and	and	coord	coord	_	_	_	_	_	
+15	that	that	pro:dem	pro:dem	_	_	_	_	_	
+16	and	and	coord	coord	_	_	_	_	_	
+17	stick	stick	v	v	_	_	_	_	_	
+18	it	it	pro	pro	_	_	_	_	_	
+19	in	in	prep	prep	_	_	_	_	_	
+20	that	that	det	det	_	_	_	_	_	
+21	hole	hole	n	n	_	_	_	_	_	
+22	.	.	Punc	Punc	_	_	_	_	_	
+
+1	the	the	det	det	_	_	_	_	_	
+2	hole	hole	n	n	_	_	_	_	_	
+3	like	like	prep	prep	_	_	_	_	_	
+4	that	that	pro:dem	pro:dem	_	_	_	_	_	
+5	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	then	then	adv:tem	adv:tem	_	_	_	_	_	
+3	you	you	pro	pro	_	_	_	_	_	
+4	cover	cover	v	v	_	_	_	_	_	
+5	it	it	pro	pro	_	_	_	_	_	
+6	back	back	adv	adv	_	_	_	_	_	
+7	up	up	adv	adv	_	_	_	_	_	
+8	with	with	prep	prep	_	_	_	_	_	
+9	some	some	qn	qn	_	_	_	_	_	
+10	more	more	qn	qn	_	_	_	_	_	
+11	dirt	dirt	n	n	_	_	_	_	_	
+12	like	like	prep	prep	_	_	_	_	_	
+13	that	that	pro:dem	pro:dem	_	_	_	_	_	
+14	.	.	Punc	Punc	_	_	_	_	_	
+
+1	then	then	adv:tem	adv:tem	_	_	_	_	_	
+2	you	you	pro	pro	_	_	_	_	_	
+3	take	take	v	v	_	_	_	_	_	
+4	+...	+...	Punc	Punc	_	_	_	_	_	
+
+1	I	I	pro:sub	pro:sub	_	_	_	_	_	
+2	forgot	forget	v	v	PAST	_	_	_	_	
+3	what	what	pro:wh	pro:wh	_	_	_	_	_	
+4	those	those	det	det	_	_	_	_	_	
+5	things	thing	n	n	PL	_	_	_	_	
+6	are	be	cop	cop	PRES	_	_	_	_	
+7	.	.	Punc	Punc	_	_	_	_	_	
+
+1	pour	pour	v	v	_	_	_	_	_	
+2	some	some	qn	qn	_	_	_	_	_	
+3	water	water	n	n	_	_	_	_	_	
+4	or	or	coord	coord	_	_	_	_	_	
+5	a	a	det	det	_	_	_	_	_	
+6	hose	hose	n	n	_	_	_	_	_	
+7	and	and	coord	coord	_	_	_	_	_	
+8	let	let	v	v	ZERO	_	_	_	_	
+9	it	it	pro	pro	_	_	_	_	_	
+10	drip	drip	v	v	_	_	_	_	_	
+11	in	in	adv	adv	_	_	_	_	_	
+12	and	and	coord	coord	_	_	_	_	_	
+13	get	get	v	v	_	_	_	_	_	
+14	it	it	pro	pro	_	_	_	_	_	
+15	all	all	adv:int	adv:int	_	_	_	_	_	
+16	wet	wet	adj	adj	PASTP	_	_	_	_	
+17	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	pat	pat	v	v	_	_	_	_	_	
+3	it	it	pro	pro	_	_	_	_	_	
+4	down	down	adv	adv	_	_	_	_	_	
+5	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	then	then	adv:tem	adv:tem	_	_	_	_	_	
+3	you	you	pro	pro	_	_	_	_	_	
+4	planted	plant	v	v	PAST	_	_	_	_	
+5	a	a	det	det	_	_	_	_	_	
+6	flower	flower	n	n	_	_	_	_	_	
+7	.	.	Punc	Punc	_	_	_	_	_	
+
+1	I	I	pro:sub	pro:sub	_	_	_	_	_	
+2	am	be	aux	aux	1S	_	_	_	_	
+3	going	go	part	part	PRESP	_	_	_	_	
+4	+/.	+/.	Punc	Punc	_	_	_	_	_	
+
+1	the	the	det	det	_	_	_	_	_	
+2	mom	mom	n	n	_	_	_	_	_	
+3	is	be	aux	aux	3S	_	_	_	_	
+4	leaving	leave	part	part	PRESP	_	_	_	_	
+5	and	and	coord	coord	_	_	_	_	_	
+6	the	the	det	det	_	_	_	_	_	
+7	baby's	baby	n	n	_	_	_	_	_	
+8	-'s	be	cop	cop	3S	_	_	_	_	
+9	in	in	prep	prep	_	_	_	_	_	
+10	the	the	det	det	_	_	_	_	_	
+11	crib	crib	n	n	_	_	_	_	_	
+12	underneath	underneath	prep	prep	_	_	_	_	_	
+13	a	a	det	det	_	_	_	_	_	
+14	blanket	blanket	n	n	_	_	_	_	_	
+15	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	she's	she	pro:sub	pro:sub	_	_	_	_	_	
+3	-'s	be	aux	aux	3S	_	_	_	_	
+4	telling	tell	part	part	PRESP	_	_	_	_	
+5	the	the	det	det	_	_	_	_	_	
+6	dog	dog	n	n	_	_	_	_	_	
+7	which	which	rel	rel	_	_	_	_	_	
+8	is	be	cop	cop	3S	_	_	_	_	
+9	Carl	Carl	n:prop	n:prop	_	_	_	_	_	
+10	+"/.	+"/.	Punc	Punc	_	_	_	_	_	
+
+1	I'll	I	pro:sub	pro:sub	_	_	_	_	_	
+2	-'ll	will	mod	mod	_	_	_	_	_	
+3	be	be	cop	cop	_	_	_	_	_	
+4	back	back	adv	adv	_	_	_	_	_	
+5	shortly	short	adv	adv	dadj|LY	_	_	_	_	
+6	.	.	Punc	Punc	_	_	_	_	_	
+
+1	okay	okay	co	co	_	_	_	_	_	
+2	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	the	the	det	det	_	_	_	_	_	
+3	dog	dog	n	n	_	_	_	_	_	
+4	Carl	Carl	n:prop	n:prop	_	_	_	_	_	
+5	is	be	aux	aux	3S	_	_	_	_	
+6	looking	look	part	part	PRESP	_	_	_	_	
+7	out	out	prep	prep	_	_	_	_	_	
+8	the	the	det	det	_	_	_	_	_	
+9	window	window	n	n	_	_	_	_	_	
+10	up	up	adv	adv	_	_	_	_	_	
+11	on	on	prep	prep	_	_	_	_	_	
+12	the	the	det	det	_	_	_	_	_	
+13	windowsill	window+sill	n	n	_	_	_	_	_	
+14	.	.	Punc	Punc	_	_	_	_	_	
+
+1	the	the	det	det	_	_	_	_	_	
+2	baby	baby	n	n	_	_	_	_	_	
+3	has	have	aux	aux	3S	_	_	_	_	
+4	gotten	get	part	part	PASTP	_	_	_	_	
+5	up	up	adv	adv	_	_	_	_	_	
+6	and	and	coord	coord	_	_	_	_	_	
+7	is	be	aux	aux	3S	_	_	_	_	
+8	standing	stand	part	part	PRESP	_	_	_	_	
+9	on	on	prep	prep	_	_	_	_	_	
+10	the	the	det	det	_	_	_	_	_	
+11	side	side	n	n	_	_	_	_	_	
+12	of	of	prep	prep	_	_	_	_	_	
+13	the	the	det	det	_	_	_	_	_	
+14	crib	crib	n	n	_	_	_	_	_	
+15	.	.	Punc	Punc	_	_	_	_	_	
+
+1	bad	bad	adj	adj	_	_	_	_	_	
+2	baby	baby	n	n	_	_	_	_	_	
+3	.	.	Punc	Punc	_	_	_	_	_	
+
+1	no	no	co	co	_	_	_	_	_	
+2	.	.	Punc	Punc	_	_	_	_	_	
+
+1	so	so	co	co	_	_	_	_	_	
+2	now	now	adv	adv	_	_	_	_	_	
+3	there's	there	pro:exist	pro:exist	_	_	_	_	_	
+4	-'s	be	cop	cop	3S	_	_	_	_	
+5	Carl_the_dog	Carl_the_dog	n:prop	n:prop	_	_	_	_	_	
+6	standing	stand	adj	adj	PRESP	_	_	_	_	
+7	by	by	prep	prep	_	_	_	_	_	
+8	the	the	det	det	_	_	_	_	_	
+9	crib	crib	n	n	_	_	_	_	_	
+10	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	the	the	det	det	_	_	_	_	_	
+3	baby	baby	n	n	_	_	_	_	_	
+4	is	be	aux	aux	3S	_	_	_	_	
+5	crawling	crawl	part	part	PRESP	_	_	_	_	
+6	over	over	prep	prep	_	_	_	_	_	
+7	the	the	det	det	_	_	_	_	_	
+8	side	side	n	n	_	_	_	_	_	
+9	of	of	prep	prep	_	_	_	_	_	
+10	the	the	det	det	_	_	_	_	_	
+11	crib	crib	n	n	_	_	_	_	_	
+12	and	and	coord	coord	_	_	_	_	_	
+13	getting	get	part	part	PRESP	_	_	_	_	
+14	on	on	prep	prep	_	_	_	_	_	
+15	Carl's	Carl	n:prop	n:prop	_	_	_	_	_	
+16	-'s	s	poss	poss	_	_	_	_	_	
+17	back	back	n	n	_	_	_	_	_	
+18	.	.	Punc	Punc	_	_	_	_	_	
+
+1	bad	bad	adj	adj	_	_	_	_	_	
+2	baby	baby	n	n	_	_	_	_	_	
+3	.	.	Punc	Punc	_	_	_	_	_	
+
+1	anyway	anyway	adv	adv	_	_	_	_	_	
+2	so	so	co	co	_	_	_	_	_	
+3	+...	+...	Punc	Punc	_	_	_	_	_	
+
+1	now	now	adv	adv	_	_	_	_	_	
+2	they're	they	pro:sub	pro:sub	_	_	_	_	_	
+3	-'re	be	cop	cop	PRES	_	_	_	_	
+4	out	out	adv	adv	_	_	_	_	_	
+5	in	in	prep	prep	_	_	_	_	_	
+6	the	the	det	det	_	_	_	_	_	
+7	hallway	hallway	n	n	_	_	_	_	_	
+8	.	.	Punc	Punc	_	_	_	_	_	
+
+1	the	the	det	det	_	_	_	_	_	
+2	baby's	baby	n	n	_	_	_	_	_	
+3	-'s	be	aux	aux	3S	_	_	_	_	
+4	riding	ride	part	part	PRESP	_	_	_	_	
+5	the	the	det	det	_	_	_	_	_	
+6	dog	dog	n	n	_	_	_	_	_	
+7	Carl	Carl	n:prop	n:prop	_	_	_	_	_	
+8	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	Carl	Carl	n:prop	n:prop	_	_	_	_	_	
+3	is	be	aux	aux	3S	_	_	_	_	
+4	looking	look	part	part	PRESP	_	_	_	_	
+5	in	in	adv	adv	_	_	_	_	_	
+6	through	through	prep	prep	_	_	_	_	_	
+7	the	the	det	det	_	_	_	_	_	
+8	doorway	door+way	n	n	_	_	_	_	_	
+9	there	there	adv	adv	_	_	_	_	_	
+10	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	that	that	pro:dem	pro:dem	_	_	_	_	_	
+3	was	be	cop	cop	PAST|13S	_	_	_	_	
+4	evidently	evident	adv	adv	dadj|LY	_	_	_	_	
+5	a	a	det	det	_	_	_	_	_	
+6	bed+room	bed+room	n	n	_	_	_	_	_	
+7	doorway	door+way	n	n	_	_	_	_	_	
+8	.	.	Punc	Punc	_	_	_	_	_	
+
+1	now	now	adv	adv	_	_	_	_	_	
+2	they're	they	pro:sub	pro:sub	_	_	_	_	_	
+3	-'re	be	cop	cop	PRES	_	_	_	_	
+4	on	on	prep	prep	_	_	_	_	_	
+5	top	top	n	n	_	_	_	_	_	
+6	of	of	prep	prep	_	_	_	_	_	
+7	the	the	det	det	_	_	_	_	_	
+8	bed	bed	n	n	_	_	_	_	_	
+9	.	.	Punc	Punc	_	_	_	_	_	
+
+1	the	the	det	det	_	_	_	_	_	
+2	dog's	dog	n	n	_	_	_	_	_	
+3	-'s	be	aux	aux	3S	_	_	_	_	
+4	looking	look	part	part	PRESP	_	_	_	_	
+5	up	up	adv	adv	_	_	_	_	_	
+6	.	.	Punc	Punc	_	_	_	_	_	
+
+1	the	the	det	det	_	_	_	_	_	
+2	baby's	baby	n	n	_	_	_	_	_	
+3	-'s	be	cop	cop	3S	_	_	_	_	
+4	off	off	prep	prep	_	_	_	_	_	
+5	Carl	Carl	n:prop	n:prop	_	_	_	_	_	
+6	and	and	coord	coord	_	_	_	_	_	
+7	bouncing	bounce	part	part	PRESP	_	_	_	_	
+8	up	up	adv	adv	_	_	_	_	_	
+9	and	and	coord	coord	_	_	_	_	_	
+10	down	down	adv	adv	_	_	_	_	_	
+11	on	on	prep	prep	_	_	_	_	_	
+12	the	the	det	det	_	_	_	_	_	
+13	bed	bed	n	n	_	_	_	_	_	
+14	.	.	Punc	Punc	_	_	_	_	_	
+
+1	okay	okay	co	co	_	_	_	_	_	
+2	.	.	Punc	Punc	_	_	_	_	_	
+
+1	that's	that	pro:dem	pro:dem	_	_	_	_	_	
+2	-'s	be	cop	cop	3S	_	_	_	_	
+3	cute	cute	adj	adj	_	_	_	_	_	
+4	.	.	Punc	Punc	_	_	_	_	_	
+
+1	I'm	I	pro:sub	pro:sub	_	_	_	_	_	
+2	-'m	be	cop	cop	1S	_	_	_	_	
+3	sorry	sorry	adj	adj	_	_	_	_	_	
+4	.	.	Punc	Punc	_	_	_	_	_	
+
+1	okay	okay	co	co	_	_	_	_	_	
+2	now	now	adv	adv	_	_	_	_	_	
+3	the	the	det	det	_	_	_	_	_	
+4	baby's	baby	n	n	_	_	_	_	_	
+5	-'s	be	aux	aux	3S	_	_	_	_	
+6	up	up	adv	adv	_	_	_	_	_	
+7	in	in	prep	prep	_	_	_	_	_	
+8	the	the	det	det	_	_	_	_	_	
+9	dresser	dresser	n	n	_	_	_	_	_	
+10	.	.	Punc	Punc	_	_	_	_	_	
+
+1	there's	there	pro:exist	pro:exist	_	_	_	_	_	
+2	-'s	be	cop	cop	3S	_	_	_	_	
+3	a	a	det	det	_	_	_	_	_	
+4	mirror	mirror	n	n	_	_	_	_	_	
+5	there	there	adv	adv	_	_	_	_	_	
+6	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	the	the	det	det	_	_	_	_	_	
+3	baby's	baby	n	n	_	_	_	_	_	
+4	-'s	be	aux	aux	3S	_	_	_	_	
+5	sitting	sit	part	part	PRESP	_	_	_	_	
+6	on	on	prep	prep	_	_	_	_	_	
+7	the	the	det	det	_	_	_	_	_	
+8	dresser	dresser	n	n	_	_	_	_	_	
+9	powdering	powder	adj	adj	PRESP	_	_	_	_	
+10	the	the	det	det	_	_	_	_	_	
+11	dog	dog	n	n	_	_	_	_	_	
+12	with	with	prep	prep	_	_	_	_	_	
+13	a	a	det	det	_	_	_	_	_	
+14	powderpuff	powder+puff	n	n	_	_	_	_	_	
+15	on	on	prep	prep	_	_	_	_	_	
+16	the	the	det	det	_	_	_	_	_	
+17	nose	nose	n	n	_	_	_	_	_	
+18	and	and	coord	coord	_	_	_	_	_	
+19	face	face	n	n	_	_	_	_	_	
+20	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	the	the	det	det	_	_	_	_	_	
+3	next	next	adj	adj	_	_	_	_	_	
+4	one	one	pro:indef	pro:indef	_	_	_	_	_	
+5	is	be	cop	cop	3S	_	_	_	_	
+6	the	the	det	det	_	_	_	_	_	
+7	baby	baby	n	n	_	_	_	_	_	
+8	still	still	adv	adv	_	_	_	_	_	
+9	sitting	sit	part	part	PRESP	_	_	_	_	
+10	on	on	prep	prep	_	_	_	_	_	
+11	the	the	det	det	_	_	_	_	_	
+12	dresser	dresser	n	n	_	_	_	_	_	
+13	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	Carl_the_dog	Carl_the_dog	n:prop	n:prop	_	_	_	_	_	
+3	has	have	v	v	3S	_	_	_	_	
+4	a	a	det	det	_	_	_	_	_	
+5	necklace	necklace	n	n	_	_	_	_	_	
+6	around	around	prep	prep	_	_	_	_	_	
+7	his	his	pro:poss:det	pro:poss:det	_	_	_	_	_	
+8	head	head	n	n	_	_	_	_	_	
+9	and	and	coord	coord	_	_	_	_	_	
+10	the	the	det	det	_	_	_	_	_	
+11	top	top	n	n	_	_	_	_	_	
+12	of	of	prep	prep	_	_	_	_	_	
+13	something	something	pro:indef	pro:indef	_	_	_	_	_	
+14	.	.	Punc	Punc	_	_	_	_	_	
+
+1	looks	look	v	v	3S	_	_	_	_	
+2	like	like	prep	prep	_	_	_	_	_	
+3	the	the	det	det	_	_	_	_	_	
+4	top	top	n	n	_	_	_	_	_	
+5	of	of	prep	prep	_	_	_	_	_	
+6	the	the	det	det	_	_	_	_	_	
+7	powderpuff	powder+puff	n	n	_	_	_	_	_	
+8	on	on	prep	prep	_	_	_	_	_	
+9	his	his	pro:poss:det	pro:poss:det	_	_	_	_	_	
+10	head	head	n	n	_	_	_	_	_	
+11	.	.	Punc	Punc	_	_	_	_	_	
+
+1	they're	they	pro:sub	pro:sub	_	_	_	_	_	
+2	-'re	be	aux	aux	PRES	_	_	_	_	
+3	both	both	qn	qn	_	_	_	_	_	
+4	looking	look	part	part	PRESP	_	_	_	_	
+5	in	in	prep	prep	_	_	_	_	_	
+6	the	the	det	det	_	_	_	_	_	
+7	mirror	mirror	n	n	_	_	_	_	_	
+8	.	.	Punc	Punc	_	_	_	_	_	
+
+1	now	now	adv	adv	_	_	_	_	_	
+2	there's	there	pro:exist	pro:exist	_	_	_	_	_	
+3	-'s	be	cop	cop	3S	_	_	_	_	
+4	a	a	det	det	_	_	_	_	_	
+5	laundry	laundry	n	n	_	_	_	_	_	
+6	chute	chute	n	n	_	_	_	_	_	
+7	.	.	Punc	Punc	_	_	_	_	_	
+
+1	there's	there	pro:exist	pro:exist	_	_	_	_	_	
+2	-'s	be	cop	cop	3S	_	_	_	_	
+3	a	a	det	det	_	_	_	_	_	
+4	box	box	n	n	_	_	_	_	_	
+5	of	of	prep	prep	_	_	_	_	_	
+6	laundry	laundry	n	n	_	_	_	_	_	
+7	.	.	Punc	Punc	_	_	_	_	_	
+
+1	the	the	det	det	_	_	_	_	_	
+2	baby	baby	n	n	_	_	_	_	_	
+3	is	be	aux	aux	3S	_	_	_	_	
+4	sitting	sit	part	part	PRESP	_	_	_	_	
+5	at	at	prep	prep	_	_	_	_	_	
+6	the	the	det	det	_	_	_	_	_	
+7	open	open	adj	adj	_	_	_	_	_	
+8	door	door	n	n	_	_	_	_	_	
+9	of	of	prep	prep	_	_	_	_	_	
+10	the	the	det	det	_	_	_	_	_	
+11	laundry	laundry	n	n	_	_	_	_	_	
+12	chute	chute	n	n	_	_	_	_	_	
+13	.	.	Punc	Punc	_	_	_	_	_	
+
+1	just	just	adv:int	adv:int	_	_	_	_	_	
+2	sitting	sit	part	part	PRESP	_	_	_	_	
+3	there	there	adv	adv	_	_	_	_	_	
+4	looking	look	adj	adj	PRESP	_	_	_	_	
+5	like	like	rel	rel	_	_	_	_	_	
+6	he's	he	pro:sub	pro:sub	_	_	_	_	_	
+7	-'s	be	aux	aux	3S	_	_	_	_	
+8	going	go	part	part	PRESP	_	_	_	_	
+9	to	to	inf	inf	_	_	_	_	_	
+10	fall	fall	v	v	_	_	_	_	_	
+11	in	in	adv	adv	_	_	_	_	_	
+12	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	Carl_the_dog	Carl_the_dog	n:prop	n:prop	_	_	_	_	_	
+3	is	be	aux	aux	3S	_	_	_	_	
+4	looking	look	part	part	PRESP	_	_	_	_	
+5	over	over	prep	prep	_	_	_	_	_	
+6	the	the	det	det	_	_	_	_	_	
+7	door	door	n	n	_	_	_	_	_	
+8	.	.	Punc	Punc	_	_	_	_	_	
+
+1	Carl_the_dog	Carl_the_dog	n:prop	n:prop	_	_	_	_	_	
+2	is	be	aux	aux	3S	_	_	_	_	
+3	running	run	part	part	PRESP	_	_	_	_	
+4	all	all	qn	qn	_	_	_	_	_	
+5	the	the	det	det	_	_	_	_	_	
+6	way	way	n	n	_	_	_	_	_	
+7	down	down	prep	prep	_	_	_	_	_	
+8	the	the	det	det	_	_	_	_	_	
+9	stairs	stair	n	n	PL	_	_	_	_	
+10	very	very	adv:int	adv:int	_	_	_	_	_	
+11	fast	fast	adj	adj	_	_	_	_	_	
+12	.	.	Punc	Punc	_	_	_	_	_	
+
+1	now	now	adv	adv	_	_	_	_	_	
+2	he's	he	pro:sub	pro:sub	_	_	_	_	_	
+3	-'s	be	aux	aux	3S	_	_	_	_	
+4	obviously	obvious	adv	adv	dadj|LY	_	_	_	_	
+5	down	down	adv	adv	_	_	_	_	_	
+6	in	in	prep	prep	_	_	_	_	_	
+7	the	the	det	det	_	_	_	_	_	
+8	basement	basement	n	n	_	_	_	_	_	
+9	.	.	Punc	Punc	_	_	_	_	_	
+
+1	he's	he	pro:sub	pro:sub	_	_	_	_	_	
+2	-'s	be	aux	aux	3S	_	_	_	_	
+3	standing	stand	part	part	PRESP	_	_	_	_	
+4	at	at	prep	prep	_	_	_	_	_	
+5	the	the	det	det	_	_	_	_	_	
+6	doorway	door+way	n	n	_	_	_	_	_	
+7	by	by	prep	prep	_	_	_	_	_	
+8	some	some	qn	qn	_	_	_	_	_	
+9	stairs	stair	n	n	PL	_	_	_	_	
+10	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	there's	there	pro:exist	pro:exist	_	_	_	_	_	
+3	-'s	be	cop	cop	3S	_	_	_	_	
+4	the	the	det	det	_	_	_	_	_	
+5	baby	baby	n	n	_	_	_	_	_	
+6	sitting	sit	adj	adj	PRESP	_	_	_	_	
+7	in	in	prep	prep	_	_	_	_	_	
+8	the	the	det	det	_	_	_	_	_	
+9	laundry	laundry	n	n	_	_	_	_	_	
+10	chute	chute	n	n	_	_	_	_	_	
+11	waving	wave	adj	adj	PRESP	_	_	_	_	
+12	to	to	prep	prep	_	_	_	_	_	
+13	the	the	det	det	_	_	_	_	_	
+14	dog	dog	n	n	_	_	_	_	_	
+15	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	now	now	adv	adv	_	_	_	_	_	
+3	the	the	det	det	_	_	_	_	_	
+4	baby's	baby	n	n	_	_	_	_	_	
+5	-'s	be	aux	aux	3S	_	_	_	_	
+6	back	back	adv	adv	_	_	_	_	_	
+7	on	on	prep	prep	_	_	_	_	_	
+8	riding	ride	n:gerund	n:gerund	PRESP	_	_	_	_	
+9	Carl_the_dog	Carl_the_dog	n:prop	n:prop	_	_	_	_	_	
+10	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	they	they	pro:sub	pro:sub	_	_	_	_	_	
+3	came	come	v	v	PAST	_	_	_	_	
+4	up	up	prep	prep	_	_	_	_	_	
+5	the	the	det	det	_	_	_	_	_	
+6	stairs	stair	n	n	PL	_	_	_	_	
+7	.	.	Punc	Punc	_	_	_	_	_	
+
+1	typical	typical	adj	adj	_	_	_	_	_	
+2	baby	baby	n	n	_	_	_	_	_	
+3	.	.	Punc	Punc	_	_	_	_	_	
+
+1	so	so	co	co	_	_	_	_	_	
+2	now	now	adv	adv	_	_	_	_	_	
+3	the	the	det	det	_	_	_	_	_	
+4	baby's	baby	n	n	_	_	_	_	_	
+5	-'s	be	aux	aux	3S	_	_	_	_	
+6	still	still	adv	adv	_	_	_	_	_	
+7	on	on	prep	prep	_	_	_	_	_	
+8	the	the	det	det	_	_	_	_	_	
+9	dog	dog	n	n	_	_	_	_	_	
+10	Carl	Carl	n:prop	n:prop	_	_	_	_	_	
+11	.	.	Punc	Punc	_	_	_	_	_	
+
+1	Carl's	Carl	n:prop	n:prop	_	_	_	_	_	
+2	-'s	be	cop	cop	3S	_	_	_	_	
+3	on	on	prep	prep	_	_	_	_	_	
+4	the	the	det	det	_	_	_	_	_	
+5	rug	rug	n	n	_	_	_	_	_	
+6	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	they	they	pro:sub	pro:sub	_	_	_	_	_	
+3	just	just	adv:int	adv:int	_	_	_	_	_	
+4	ran	run	v	v	PAST	_	_	_	_	
+5	over	over	prep	prep	_	_	_	_	_	
+6	a	a	det	det	_	_	_	_	_	
+7	letter	letter	n	n	_	_	_	_	_	
+8	stand	stand	n	n	_	_	_	_	_	
+9	or	or	coord	coord	_	_	_	_	_	
+10	something	something	pro:indef	pro:indef	_	_	_	_	_	
+11	that	that	rel	rel	_	_	_	_	_	
+12	has	have	v	v	3S	_	_	_	_	
+13	a	a	det	det	_	_	_	_	_	
+14	bunch	bunch	n	n	_	_	_	_	_	
+15	of	of	prep	prep	_	_	_	_	_	
+16	papers	paper	n	n	PL	_	_	_	_	
+17	in	in	prep	prep	_	_	_	_	_	
+18	it	it	pro	pro	_	_	_	_	_	
+19	.	.	Punc	Punc	_	_	_	_	_	
+
+1	anyway	anyway	adv	adv	_	_	_	_	_	
+2	they	they	pro:sub	pro:sub	_	_	_	_	_	
+3	tip	tip	v	v	_	_	_	_	_	
+4	that	that	pro:dem	pro:dem	_	_	_	_	_	
+5	over	over	adv	adv	_	_	_	_	_	
+6	.	.	Punc	Punc	_	_	_	_	_	
+
+1	now	now	adv	adv	_	_	_	_	_	
+2	they're	they	pro:sub	pro:sub	_	_	_	_	_	
+3	-'re	be	aux	aux	PRES	_	_	_	_	
+4	up	up	adv	adv	_	_	_	_	_	
+5	to	to	prep	prep	_	_	_	_	_	
+6	the	the	det	det	_	_	_	_	_	
+7	fish	fish	n	n	_	_	_	_	_	
+8	tank	tank	n	n	_	_	_	_	_	
+9	looking	look	adj	adj	PRESP	_	_	_	_	
+10	in	in	prep	prep	_	_	_	_	_	
+11	the	the	det	det	_	_	_	_	_	
+12	fish	fish	n	n	_	_	_	_	_	
+13	tank	tank	n	n	_	_	_	_	_	
+14	.	.	Punc	Punc	_	_	_	_	_	
+
+1	now	now	adv	adv	_	_	_	_	_	
+2	the	the	det	det	_	_	_	_	_	
+3	baby	baby	n	n	_	_	_	_	_	
+4	is	be	cop	cop	3S	_	_	_	_	
+5	in	in	prep	prep	_	_	_	_	_	
+6	the	the	det	det	_	_	_	_	_	
+7	fish	fish	n	n	_	_	_	_	_	
+8	tank	tank	n	n	_	_	_	_	_	
+9	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	Carl	Carl	n:prop	n:prop	_	_	_	_	_	
+3	is	be	aux	aux	3S	_	_	_	_	
+4	looking	look	part	part	PRESP	_	_	_	_	
+5	over	over	prep	prep	_	_	_	_	_	
+6	the	the	det	det	_	_	_	_	_	
+7	fish	fish	n	n	_	_	_	_	_	
+8	tank	tank	n	n	_	_	_	_	_	
+9	hanging	hang	adj	adj	PRESP	_	_	_	_	
+10	onto	onto	prep	prep	_	_	_	_	_	
+11	the	the	det	det	_	_	_	_	_	
+12	baby	baby	n	n	_	_	_	_	_	
+13	by	by	prep	prep	_	_	_	_	_	
+14	his	his	pro:poss:det	pro:poss:det	_	_	_	_	_	
+15	shirt	shirt	n	n	_	_	_	_	_	
+16	.	.	Punc	Punc	_	_	_	_	_	
+
+1	baby	baby	n	n	_	_	_	_	_	
+2	looks	look	v	v	3S	_	_	_	_	
+3	like	like	rel	rel	_	_	_	_	_	
+4	he's	he	pro:sub	pro:sub	_	_	_	_	_	
+5	-'s	be	aux	aux	3S	_	_	_	_	
+6	trying	try	part	part	PRESP	_	_	_	_	
+7	to	to	inf	inf	_	_	_	_	_	
+8	swim	swim	v	v	_	_	_	_	_	
+9	.	.	Punc	Punc	_	_	_	_	_	
+
+1	now	now	adv	adv	_	_	_	_	_	
+2	they're	they	pro:sub	pro:sub	_	_	_	_	_	
+3	-'re	be	cop	cop	PRES	_	_	_	_	
+4	out_of	out_of	prep	prep	_	_	_	_	_	
+5	the	the	det	det	_	_	_	_	_	
+6	fish	fish	n	n	_	_	_	_	_	
+7	tank	tank	n	n	_	_	_	_	_	
+8	.	.	Punc	Punc	_	_	_	_	_	
+
+1	Carl_the_dog	Carl_the_dog	n:prop	n:prop	_	_	_	_	_	
+2	is	be	cop	cop	3S	_	_	_	_	
+3	over	over	adv	adv	_	_	_	_	_	
+4	by	by	prep	prep	_	_	_	_	_	
+5	the	the	det	det	_	_	_	_	_	
+6	stereo	stereo	n	n	_	_	_	_	_	
+7	standing	stand	part	part	PRESP	_	_	_	_	
+8	up	up	adv	adv	_	_	_	_	_	
+9	by	by	prep	prep	_	_	_	_	_	
+10	it	it	pro	pro	_	_	_	_	_	
+11	.	.	Punc	Punc	_	_	_	_	_	
+
+1	baby's	baby	n	n	_	_	_	_	_	
+2	-'s	be	aux	aux	3S	_	_	_	_	
+3	sitting	sit	part	part	PRESP	_	_	_	_	
+4	on	on	prep	prep	_	_	_	_	_	
+5	the	the	det	det	_	_	_	_	_	
+6	rug	rug	n	n	_	_	_	_	_	
+7	.	.	Punc	Punc	_	_	_	_	_	
+
+1	they	they	pro:sub	pro:sub	_	_	_	_	_	
+2	must	must	mod	mod	_	_	_	_	_	
+3	have	have	v	v	_	_	_	_	_	
+4	music	music	n	n	_	_	_	_	_	
+5	on	on	adv	adv	_	_	_	_	_	
+6	because	because	conj	conj	_	_	_	_	_	
+7	Carl	Carl	n:prop	n:prop	_	_	_	_	_	
+8	is	be	aux	aux	3S	_	_	_	_	
+9	dancing	dance	part	part	PRESP	_	_	_	_	
+10	all	all	adv:int	adv:int	_	_	_	_	_	
+11	over	over	adv	adv	_	_	_	_	_	
+12	in	in	prep	prep	_	_	_	_	_	
+13	front	front	n	n	_	_	_	_	_	
+14	of	of	prep	prep	_	_	_	_	_	
+15	the	the	det	det	_	_	_	_	_	
+16	baby	baby	n	n	_	_	_	_	_	
+17	.	.	Punc	Punc	_	_	_	_	_	
+
+1	now	now	adv	adv	_	_	_	_	_	
+2	the	the	det	det	_	_	_	_	_	
+3	baby	baby	n	n	_	_	_	_	_	
+4	is	be	cop	cop	3S	_	_	_	_	
+5	back	back	adv	adv	_	_	_	_	_	
+6	on	on	prep	prep	_	_	_	_	_	
+7	Carl's	Carl	n:prop	n:prop	_	_	_	_	_	
+8	-'s	s	poss	poss	_	_	_	_	_	
+9	back	back	n	n	_	_	_	_	_	
+10	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	now	now	adv	adv	_	_	_	_	_	
+3	they're	they	pro:sub	pro:sub	_	_	_	_	_	
+4	-'re	be	cop	cop	PRES	_	_	_	_	
+5	in	in	prep	prep	_	_	_	_	_	
+6	the	the	det	det	_	_	_	_	_	
+7	refrigerator	refrigerator	n	n	_	_	_	_	_	
+8	opening	open	adj	adj	PRESP	_	_	_	_	
+9	it	it	pro	pro	_	_	_	_	_	
+10	.	.	Punc	Punc	_	_	_	_	_	
+
+1	now	now	adv	adv	_	_	_	_	_	
+2	they're	they	pro:sub	pro:sub	_	_	_	_	_	
+3	-'re	be	aux	aux	PRES	_	_	_	_	
+4	getting	get	part	part	PRESP	_	_	_	_	
+5	food	food	n	n	_	_	_	_	_	
+6	out	out	adv	adv	_	_	_	_	_	
+7	.	.	Punc	Punc	_	_	_	_	_	
+
+1	Carl's	Carl	n:prop	n:prop	_	_	_	_	_	
+2	-'s	be	aux	aux	3S	_	_	_	_	
+3	ripping	rip	part	part	PRESP	_	_	_	_	
+4	up	up	prep	prep	_	_	_	_	_	
+5	a	a	det	det	_	_	_	_	_	
+6	loaf	loaf	n	n	_	_	_	_	_	
+7	of	of	prep	prep	_	_	_	_	_	
+8	bread	bread	n	n	_	_	_	_	_	
+9	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	baby	baby	n	n	_	_	_	_	_	
+3	is	be	cop	cop	3S	_	_	_	_	
+4	into	into	prep	prep	_	_	_	_	_	
+5	the	the	det	det	_	_	_	_	_	
+6	butter	butter	n	n	_	_	_	_	_	
+7	sitting	sit	part	part	PRESP	_	_	_	_	
+8	there	there	adv	adv	_	_	_	_	_	
+9	with	with	prep	prep	_	_	_	_	_	
+10	a	a	det	det	_	_	_	_	_	
+11	cube	cube	n	n	_	_	_	_	_	
+12	of	of	prep	prep	_	_	_	_	_	
+13	butter	butter	n	n	_	_	_	_	_	
+14	in	in	prep	prep	_	_	_	_	_	
+15	his	his	pro:poss:det	pro:poss:det	_	_	_	_	_	
+16	hands	hand	n	n	PL	_	_	_	_	
+17	.	.	Punc	Punc	_	_	_	_	_	
+
+1	oh	oh	co	co	_	_	_	_	_	
+2	Carl's	Carl	n:prop	n:prop	_	_	_	_	_	
+3	-'s	be	aux	aux	3S	_	_	_	_	
+4	got	get	part	part	PASTP	_	_	_	_	
+5	grapes	grape	n	n	PL	_	_	_	_	
+6	in	in	prep	prep	_	_	_	_	_	
+7	his	his	pro:poss:det	pro:poss:det	_	_	_	_	_	
+8	hand	hand	n	n	_	_	_	_	_	
+9	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	the	the	det	det	_	_	_	_	_	
+3	baby	baby	n	n	_	_	_	_	_	
+4	is	be	aux	aux	3S	_	_	_	_	
+5	grabbing	grab	part	part	PRESP	_	_	_	_	
+6	for	for	prep	prep	_	_	_	_	_	
+7	them	them	pro:obj	pro:obj	_	_	_	_	_	
+8	.	.	Punc	Punc	_	_	_	_	_	
+
+1	oh_my_goodness	oh_my_goodness	co	co	_	_	_	_	_	
+2	.	.	Punc	Punc	_	_	_	_	_	
+
+1	the	the	det	det	_	_	_	_	_	
+2	baby's	baby	n	n	_	_	_	_	_	
+3	-'s	be	aux	aux	3S	_	_	_	_	
+4	got	get	part	part	PASTP	_	_	_	_	
+5	a	a	det	det	_	_	_	_	_	
+6	cup	cup	n	n	_	_	_	_	_	
+7	.	.	Punc	Punc	_	_	_	_	_	
+
+1	Carl's	Carl	n:prop	n:prop	_	_	_	_	_	
+2	-'s	be	aux	aux	3S	_	_	_	_	
+3	got	get	part	part	PASTP	_	_	_	_	
+4	a	a	det	det	_	_	_	_	_	
+5	can	can	n	n	_	_	_	_	_	
+6	of	of	prep	prep	_	_	_	_	_	
+7	chocolate	chocolate	n	n	_	_	_	_	_	
+8	syrup	syrup	n	n	_	_	_	_	_	
+9	in	in	prep	prep	_	_	_	_	_	
+10	his	his	pro:poss:det	pro:poss:det	_	_	_	_	_	
+11	mouth	mouth	n	n	_	_	_	_	_	
+12	and	and	coord	coord	_	_	_	_	_	
+13	he's	he	pro:sub	pro:sub	_	_	_	_	_	
+14	-'s	be	aux	aux	3S	_	_	_	_	
+15	spilling	spill	part	part	PRESP	_	_	_	_	
+16	it	it	pro	pro	_	_	_	_	_	
+17	into	into	prep	prep	_	_	_	_	_	
+18	the	the	det	det	_	_	_	_	_	
+19	cup	cup	n	n	_	_	_	_	_	
+20	pouring	pour	adj	adj	PRESP	_	_	_	_	
+21	it	it	pro	pro	_	_	_	_	_	
+22	actually	actual	adv	adv	dadj|LY	_	_	_	_	
+23	.	.	Punc	Punc	_	_	_	_	_	
+
+1	now	now	adv	adv	_	_	_	_	_	
+2	there's	there	pro:exist	pro:exist	_	_	_	_	_	
+3	-'s	be	cop	cop	3S	_	_	_	_	
+4	milk	milk	n	n	_	_	_	_	_	
+5	.	.	Punc	Punc	_	_	_	_	_	
+
+1	Carl	Carl	n:prop	n:prop	_	_	_	_	_	
+2	is	be	aux	aux	3S	_	_	_	_	
+3	pouring	pour	part	part	PRESP	_	_	_	_	
+4	milk	milk	n	n	_	_	_	_	_	
+5	into	into	prep	prep	_	_	_	_	_	
+6	the	the	det	det	_	_	_	_	_	
+7	baby's	baby	n	n	_	_	_	_	_	
+8	-'s	s	poss	poss	_	_	_	_	_	
+9	cup	cup	n	n	_	_	_	_	_	
+10	.	.	Punc	Punc	_	_	_	_	_	
+
+1	now	now	adv	adv	_	_	_	_	_	
+2	Carl	Carl	n:prop	n:prop	_	_	_	_	_	
+3	and	and	coord	coord	_	_	_	_	_	
+4	the	the	det	det	_	_	_	_	_	
+5	baby	baby	n	n	_	_	_	_	_	
+6	have	have	aux	aux	_	_	_	_	_	
+7	found	find	part	part	PASTP	_	_	_	_	
+8	a	a	det	det	_	_	_	_	_	
+9	cookie	cookie	n	n	_	_	_	_	_	
+10	jar	jar	n	n	_	_	_	_	_	
+11	.	.	Punc	Punc	_	_	_	_	_	
+
+1	he's	he	pro:sub	pro:sub	_	_	_	_	_	
+2	-'s	be	aux	aux	3S	_	_	_	_	
+3	got	get	part	part	PASTP	_	_	_	_	
+4	his	his	pro:poss:det	pro:poss:det	_	_	_	_	_	
+5	hands	hand	n	n	PL	_	_	_	_	
+6	in	in	prep	prep	_	_	_	_	_	
+7	a	a	det	det	_	_	_	_	_	
+8	cookie	cookie	n	n	_	_	_	_	_	
+9	jar	jar	n	n	_	_	_	_	_	
+10	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	there	there	adv	adv	_	_	_	_	_	
+3	is	be	cop	cop	3S	_	_	_	_	
+4	a	a	det	det	_	_	_	_	_	
+5	big	big	adj	adj	_	_	_	_	_	
+6	mess	mess	n	n	_	_	_	_	_	
+7	.	.	Punc	Punc	_	_	_	_	_	
+
+1	Carl's	Carl	n:prop	n:prop	_	_	_	_	_	
+2	-'s	be	aux	aux	3S	_	_	_	_	
+3	sitting	sit	part	part	PRESP	_	_	_	_	
+4	there	there	adv	adv	_	_	_	_	_	
+5	.	.	Punc	Punc	_	_	_	_	_	
+
+1	the	the	det	det	_	_	_	_	_	
+2	baby	baby	n	n	_	_	_	_	_	
+3	looks	look	v	v	3S	_	_	_	_	
+4	like	like	rel	rel	_	_	_	_	_	
+5	he's	he	pro:sub	pro:sub	_	_	_	_	_	
+6	-'s	be	aux	aux	3S	_	_	_	_	
+7	just	just	adv:int	adv:int	_	_	_	_	_	
+8	having	have	part	part	PRESP	_	_	_	_	
+9	a	a	det	det	_	_	_	_	_	
+10	wonderful	wonder	adj	adj	FULL	_	_	_	_	
+11	time	time	n	n	_	_	_	_	_	
+12	.	.	Punc	Punc	_	_	_	_	_	
+
+1	there's	there	pro:exist	pro:exist	_	_	_	_	_	
+2	-'s	be	cop	cop	3S	_	_	_	_	
+3	bread	bread	n	n	_	_	_	_	_	
+4	and	and	coord	coord	_	_	_	_	_	
+5	stuff	stuff	n	n	_	_	_	_	_	
+6	all	all	adv:int	adv:int	_	_	_	_	_	
+7	over	over	adv	adv	_	_	_	_	_	
+8	and	and	coord	coord	_	_	_	_	_	
+9	margarine	margarine	n	n	_	_	_	_	_	
+10	all	all	adv:int	adv:int	_	_	_	_	_	
+11	over	over	adv	adv	_	_	_	_	_	
+12	and	and	coord	coord	_	_	_	_	_	
+13	milk	milk	n	n	_	_	_	_	_	
+14	.	.	Punc	Punc	_	_	_	_	_	
+
+1	baby	baby	n	n	_	_	_	_	_	
+2	is	be	cop	cop	3S	_	_	_	_	
+3	dirty	dirt	adj	adj	dn|Y	_	_	_	_	
+4	.	.	Punc	Punc	_	_	_	_	_	
+
+1	so	so	co	co	_	_	_	_	_	
+2	now	now	adv	adv	_	_	_	_	_	
+3	the	the	det	det	_	_	_	_	_	
+4	dirty	dirt	adj	adj	dn|Y	_	_	_	_	
+5	baby	baby	n	n	_	_	_	_	_	
+6	full	full	adj	adj	_	_	_	_	_	
+7	of	of	prep	prep	_	_	_	_	_	
+8	chocolate	chocolate	n	n	_	_	_	_	_	
+9	syrup	syrup	n	n	_	_	_	_	_	
+10	and	and	coord	coord	_	_	_	_	_	
+11	everything	everything	pro:indef	pro:indef	_	_	_	_	_	
+12	is	be	cop	cop	3S	_	_	_	_	
+13	back	back	adv	adv	_	_	_	_	_	
+14	on	on	prep	prep	_	_	_	_	_	
+15	Carl's	Carl	n:prop	n:prop	_	_	_	_	_	
+16	-'s	s	poss	poss	_	_	_	_	_	
+17	back	back	n	n	_	_	_	_	_	
+18	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	they're	they	pro:sub	pro:sub	_	_	_	_	_	
+3	-'re	be	aux	aux	PRES	_	_	_	_	
+4	going	go	part	part	PRESP	_	_	_	_	
+5	up	up	prep	prep	_	_	_	_	_	
+6	the	the	det	det	_	_	_	_	_	
+7	stairs	stair	n	n	PL	_	_	_	_	
+8	.	.	Punc	Punc	_	_	_	_	_	
+
+1	Carl	Carl	n:prop	n:prop	_	_	_	_	_	
+2	is	be	aux	aux	3S	_	_	_	_	
+3	turning	turn	part	part	PRESP	_	_	_	_	
+4	on	on	prep	prep	_	_	_	_	_	
+5	the	the	det	det	_	_	_	_	_	
+6	water	water	n	n	_	_	_	_	_	
+7	to	to	prep	prep	_	_	_	_	_	
+8	the	the	det	det	_	_	_	_	_	
+9	tub	tub	n	n	_	_	_	_	_	
+10	,	cm	cm	cm	_	_	_	_	_	
+11	lifting	lift	adj	adj	PRESP	_	_	_	_	
+12	up	up	prep	prep	_	_	_	_	_	
+13	the	the	det	det	_	_	_	_	_	
+14	baby	baby	n	n	_	_	_	_	_	
+15	by	by	prep	prep	_	_	_	_	_	
+16	his	his	pro:poss:det	pro:poss:det	_	_	_	_	_	
+17	shirt	shirt	n	n	_	_	_	_	_	
+18	,	cm	cm	cm	_	_	_	_	_	
+19	putting	put	adj	adj	PRESP	_	_	_	_	
+20	the	the	det	det	_	_	_	_	_	
+21	baby	baby	n	n	_	_	_	_	_	
+22	in	in	prep	prep	_	_	_	_	_	
+23	the	the	det	det	_	_	_	_	_	
+24	tub	tub	n	n	_	_	_	_	_	
+25	clothes	clothes	n:pt	n:pt	_	_	_	_	_	
+26	and	and	coord	coord	_	_	_	_	_	
+27	all	all	pro:indef	pro:indef	_	_	_	_	_	
+28	.	.	Punc	Punc	_	_	_	_	_	
+
+1	now	now	adv	adv	_	_	_	_	_	
+2	he's	he	pro:sub	pro:sub	_	_	_	_	_	
+3	-'s	be	aux	aux	3S	_	_	_	_	
+4	got	get	part	part	PASTP	_	_	_	_	
+5	soap	soap	n	n	_	_	_	_	_	
+6	in	in	prep	prep	_	_	_	_	_	
+7	his	his	pro:poss:det	pro:poss:det	_	_	_	_	_	
+8	mouth	mouth	n	n	_	_	_	_	_	
+9	and	and	coord	coord	_	_	_	_	_	
+10	a	a	det	det	_	_	_	_	_	
+11	washcloth	wash+cloth	n	n	_	_	_	_	_	
+12	.	.	Punc	Punc	_	_	_	_	_	
+
+1	the	the	det	det	_	_	_	_	_	
+2	dog	dog	n	n	_	_	_	_	_	
+3	Carl	Carl	n:prop	n:prop	_	_	_	_	_	
+4	.	.	Punc	Punc	_	_	_	_	_	
+
+1	Carl	Carl	n:prop	n:prop	_	_	_	_	_	
+2	is	be	aux	aux	3S	_	_	_	_	
+3	now	now	adv	adv	_	_	_	_	_	
+4	blowing	blow	part	part	PRESP	_	_	_	_	
+5	bubbles	bubble	n	n	PL	_	_	_	_	
+6	for	for	prep	prep	_	_	_	_	_	
+7	himself	himself	pro:refl	pro:refl	_	_	_	_	_	
+8	.	.	Punc	Punc	_	_	_	_	_	
+
+1	now	now	adv	adv	_	_	_	_	_	
+2	he's	he	pro:sub	pro:sub	_	_	_	_	_	
+3	-'s	be	aux	aux	3S	_	_	_	_	
+4	got	get	part	part	PASTP	_	_	_	_	
+5	the	the	det	det	_	_	_	_	_	
+6	washcloth	wash+cloth	n	n	_	_	_	_	_	
+7	and	and	coord	coord	_	_	_	_	_	
+8	he's	he	pro:sub	pro:sub	_	_	_	_	_	
+9	-'s	be	aux	aux	3S	_	_	_	_	
+10	trying	try	part	part	PRESP	_	_	_	_	
+11	to	to	inf	inf	_	_	_	_	_	
+12	wash	wash	v	v	_	_	_	_	_	
+13	off	off	prep	prep	_	_	_	_	_	
+14	baby	baby	n	n	_	_	_	_	_	
+15	.	.	Punc	Punc	_	_	_	_	_	
+
+1	I'm	I	pro:sub	pro:sub	_	_	_	_	_	
+2	-'m	be	cop	cop	1S	_	_	_	_	
+3	sorry	sorry	adj	adj	_	_	_	_	_	
+4	.	.	Punc	Punc	_	_	_	_	_	
+
+1	that's	that	pro:dem	pro:dem	_	_	_	_	_	
+2	-'s	be	cop	cop	3S	_	_	_	_	
+3	cute	cute	adj	adj	_	_	_	_	_	
+4	.	.	Punc	Punc	_	_	_	_	_	
+
+1	anyway	anyway	adv	adv	_	_	_	_	_	
+2	,	cm	cm	cm	_	_	_	_	_	
+3	so	so	co	co	_	_	_	_	_	
+4	baby's	baby	n	n	_	_	_	_	_	
+5	-'s	be	aux	aux	3S	_	_	_	_	
+6	standing	stand	part	part	PRESP	_	_	_	_	
+7	there	there	adv	adv	_	_	_	_	_	
+8	with	with	prep	prep	_	_	_	_	_	
+9	his	his	pro:poss:det	pro:poss:det	_	_	_	_	_	
+10	clothes	clothes	n:pt	n:pt	_	_	_	_	_	
+11	on	on	adv	adv	_	_	_	_	_	
+12	still	still	adv	adv	_	_	_	_	_	
+13	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	Carl's	Carl	n:prop	n:prop	_	_	_	_	_	
+3	-'s	be	aux	aux	3S	_	_	_	_	
+4	got	get	part	part	PASTP	_	_	_	_	
+5	the	the	det	det	_	_	_	_	_	
+6	blowdrier	blow+dry	n	n	dv|AGT	_	_	_	_	
+7	blowing	blow	adj	adj	PRESP	_	_	_	_	
+8	on	on	prep	prep	_	_	_	_	_	
+9	him	him	pro:obj	pro:obj	_	_	_	_	_	
+10	to	to	inf	inf	_	_	_	_	_	
+11	dry	dry	v	v	_	_	_	_	_	
+12	him	him	pro:obj	pro:obj	_	_	_	_	_	
+13	off	off	adv	adv	_	_	_	_	_	
+14	.	.	Punc	Punc	_	_	_	_	_	
+
+1	now	now	adv	adv	_	_	_	_	_	
+2	Carl	Carl	n:prop	n:prop	_	_	_	_	_	
+3	has	have	aux	aux	3S	_	_	_	_	
+4	dumped	dump	v	v	PAST	_	_	_	_	
+5	the	the	det	det	_	_	_	_	_	
+6	baby	baby	n	n	_	_	_	_	_	
+7	back	back	adv	adv	_	_	_	_	_	
+8	in	in	prep	prep	_	_	_	_	_	
+9	the	the	det	det	_	_	_	_	_	
+10	crib	crib	n	n	_	_	_	_	_	
+11	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	now	now	adv	adv	_	_	_	_	_	
+3	Carl	Carl	n:prop	n:prop	_	_	_	_	_	
+4	is	be	aux	aux	3S	_	_	_	_	
+5	cleaning	clean	part	part	PRESP	_	_	_	_	
+6	up	up	prep	prep	_	_	_	_	_	
+7	everything	everything	pro:indef	pro:indef	_	_	_	_	_	
+8	.	.	Punc	Punc	_	_	_	_	_	
+
+1	he's	he	pro:sub	pro:sub	_	_	_	_	_	
+2	-'s	be	aux	aux	3S	_	_	_	_	
+3	putting	put	part	part	PRESP	_	_	_	_	
+4	everything	everything	pro:indef	pro:indef	_	_	_	_	_	
+5	in	in	prep	prep	_	_	_	_	_	
+6	the	the	det	det	_	_	_	_	_	
+7	trash	trash	n	n	_	_	_	_	_	
+8	and	and	coord	coord	_	_	_	_	_	
+9	licking	lick	part	part	PRESP	_	_	_	_	
+10	off	off	prep	prep	_	_	_	_	_	
+11	anything	anything	pro:indef	pro:indef	_	_	_	_	_	
+12	on	on	prep	prep	_	_	_	_	_	
+13	the	the	det	det	_	_	_	_	_	
+14	floor	floor	n	n	_	_	_	_	_	
+15	.	.	Punc	Punc	_	_	_	_	_	
+
+1	Carl's	Carl	n:prop	n:prop	_	_	_	_	_	
+2	-'s	be	aux	aux	3S	_	_	_	_	
+3	up	up	adv	adv	_	_	_	_	_	
+4	looking	look	n:gerund	n:gerund	PRESP	_	_	_	_	
+5	out	out	prep	prep	_	_	_	_	_	
+6	the	the	det	det	_	_	_	_	_	
+7	window	window	n	n	_	_	_	_	_	
+8	.	.	Punc	Punc	_	_	_	_	_	
+
+1	he's	he	pro:sub	pro:sub	_	_	_	_	_	
+2	-'s	be	aux	aux	3S	_	_	_	_	
+3	made	make	part	part	PASTP	_	_	_	_	
+4	the	the	det	det	_	_	_	_	_	
+5	bed	bed	n	n	_	_	_	_	_	
+6	.	.	Punc	Punc	_	_	_	_	_	
+
+1	Carl_the_dog	Carl_the_dog	n:prop	n:prop	_	_	_	_	_	
+2	has	have	aux	aux	3S	_	_	_	_	
+3	made	make	part	part	PASTP	_	_	_	_	
+4	the	the	det	det	_	_	_	_	_	
+5	bed	bed	n	n	_	_	_	_	_	
+6	that	that	rel	rel	_	_	_	_	_	
+7	they	they	pro:sub	pro:sub	_	_	_	_	_	
+8	were	be	aux	aux	PAST	_	_	_	_	
+9	messing	mess	part	part	PRESP	_	_	_	_	
+10	with	with	prep	prep	_	_	_	_	_	
+11	and	and	coord	coord	_	_	_	_	_	
+12	putting	put	part	part	PRESP	_	_	_	_	
+13	the	the	det	det	_	_	_	_	_	
+14	powderpuff	powder+puff	n	n	_	_	_	_	_	
+15	back	back	adv	adv	_	_	_	_	_	
+16	up	up	prep	prep	_	_	_	_	_	
+17	there	there	adv	adv	_	_	_	_	_	
+18	obviously	obvious	adv	adv	dadj|LY	_	_	_	_	
+19	cleaning	clean	part	part	PRESP	_	_	_	_	
+20	out	out	prep	prep	_	_	_	_	_	
+21	the	the	det	det	_	_	_	_	_	
+22	dresser	dresser	n	n	_	_	_	_	_	
+23	.	.	Punc	Punc	_	_	_	_	_	
+
+1	he's	he	pro:sub	pro:sub	_	_	_	_	_	
+2	-'s	be	aux	aux	3S	_	_	_	_	
+3	looking	look	part	part	PRESP	_	_	_	_	
+4	out	out	prep	prep	_	_	_	_	_	
+5	the	the	det	det	_	_	_	_	_	
+6	window	window	n	n	_	_	_	_	_	
+7	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	there's	there	pro:exist	pro:exist	_	_	_	_	_	
+3	-'s	be	cop	cop	3S	_	_	_	_	
+4	the	the	det	det	_	_	_	_	_	
+5	mom	mom	n	n	_	_	_	_	_	
+6	coming	come	adj	adj	PRESP	_	_	_	_	
+7	through	through	prep	prep	_	_	_	_	_	
+8	the	the	det	det	_	_	_	_	_	
+9	gate	gate	n	n	_	_	_	_	_	
+10	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	there's	there	pro:exist	pro:exist	_	_	_	_	_	
+3	-'s	be	cop	cop	3S	_	_	_	_	
+4	another	another	qn	qn	_	_	_	_	_	
+5	dog	dog	n	n	_	_	_	_	_	
+6	down	down	adv	adv	_	_	_	_	_	
+7	there	there	adv	adv	_	_	_	_	_	
+8	.	.	Punc	Punc	_	_	_	_	_	
+
+1	so	so	co	co	_	_	_	_	_	
+2	anyway	anyway	adv	adv	_	_	_	_	_	
+3	they're	they	pro:sub	pro:sub	_	_	_	_	_	
+4	-'re	be	cop	cop	PRES	_	_	_	_	
+5	peacefully	peace	adv	adv	dadj|FULL|LY	_	_	_	_	
+6	underneath	underneath	prep	prep	_	_	_	_	_	
+7	a	a	det	det	_	_	_	_	_	
+8	blanket	blanket	n	n	_	_	_	_	_	
+9	.	.	Punc	Punc	_	_	_	_	_	
+
+1	looks	look	v	v	3S	_	_	_	_	
+2	like	like	rel	rel	_	_	_	_	_	
+3	he's	he	pro:sub	pro:sub	_	_	_	_	_	
+4	-'s	be	aux	aux	3S	_	_	_	_	
+5	got	get	part	part	PASTP	_	_	_	_	
+6	a	a	det	det	_	_	_	_	_	
+7	bottle	bottle	n	n	_	_	_	_	_	
+8	the	the	det	det	_	_	_	_	_	
+9	baby	baby	n	n	_	_	_	_	_	
+10	in	in	prep	prep	_	_	_	_	_	
+11	the	the	det	det	_	_	_	_	_	
+12	crib	crib	n	n	_	_	_	_	_	
+13	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	Carl's	Carl	n:prop	n:prop	_	_	_	_	_	
+3	-'s	be	aux	aux	3S	_	_	_	_	
+4	just	just	adv:int	adv:int	_	_	_	_	_	
+5	sitting	sit	part	part	PRESP	_	_	_	_	
+6	there	there	adv	adv	_	_	_	_	_	
+7	right	right	adv	adv	_	_	_	_	_	
+8	next_to	next_to	prep	prep	_	_	_	_	_	
+9	it	it	pro	pro	_	_	_	_	_	
+10	like	like	rel	rel	_	_	_	_	_	
+11	they	they	pro:sub	pro:sub	_	_	_	_	_	
+12	haven't	have	aux	aux	_	_	_	_	_	
+13	-'n't	not	neg	neg	_	_	_	_	_	
+14	gotten	get	part	part	PASTP	_	_	_	_	
+15	into	into	prep	prep	_	_	_	_	_	
+16	anything	anything	pro:indef	pro:indef	_	_	_	_	_	
+17	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	there's	there	pro:exist	pro:exist	_	_	_	_	_	
+3	-'s	be	cop	cop	3S	_	_	_	_	
+4	Carl	Carl	n:prop	n:prop	_	_	_	_	_	
+5	just	just	adv:int	adv:int	_	_	_	_	_	
+6	looking	look	adj	adj	PRESP	_	_	_	_	
+7	like	like	prep	prep	_	_	_	_	_	
+8	+"/.	+"/.	Punc	Punc	_	_	_	_	_	
+
+1	I've	I	pro:sub	pro:sub	_	_	_	_	_	
+2	-'ve	have	aux	aux	_	_	_	_	_	
+3	been	be	cop	cop	PASTP	_	_	_	_	
+4	so	so	adv:int	adv:int	_	_	_	_	_	
+5	good	good	adj	adj	_	_	_	_	_	
+6	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	then	then	adv:tem	adv:tem	_	_	_	_	_	
+3	mom	mom	n	n	_	_	_	_	_	
+4	is	be	aux	aux	3S	_	_	_	_	
+5	praising	praise	part	part	PRESP	_	_	_	_	
+6	Carl	Carl	n:prop	n:prop	_	_	_	_	_	
+7	for	for	prep	prep	_	_	_	_	_	
+8	being	be	n:gerund	n:gerund	PRESP	_	_	_	_	
+9	such	such	qn	qn	_	_	_	_	_	
+10	a	a	det	det	_	_	_	_	_	
+11	good	good	adj	adj	_	_	_	_	_	
+12	dog	dog	n	n	_	_	_	_	_	
+13	taking	take	adj	adj	PRESP	_	_	_	_	
+14	care	care	n	n	_	_	_	_	_	
+15	of	of	prep	prep	_	_	_	_	_	
+16	the	the	det	det	_	_	_	_	_	
+17	baby	baby	n	n	_	_	_	_	_	
+18	.	.	Punc	Punc	_	_	_	_	_	
+
+1	I'm	I	pro:sub	pro:sub	_	_	_	_	_	
+2	-'m	be	aux	aux	1S	_	_	_	_	
+3	taking	take	part	part	PRESP	_	_	_	_	
+4	this	this	det	det	_	_	_	_	_	
+5	home	home	n	n	_	_	_	_	_	
+6	.	.	Punc	Punc	_	_	_	_	_	
+
+1	a	a	det	det	_	_	_	_	_	
+2	whole	whole	adj	adj	_	_	_	_	_	
+3	family	family	n	n	_	_	_	_	_	
+4	of	of	prep	prep	_	_	_	_	_	
+5	them	them	pro:obj	pro:obj	_	_	_	_	_	
+6	are	be	aux	aux	PRES	_	_	_	_	
+7	getting	get	part	part	PRESP	_	_	_	_	
+8	into	into	prep	prep	_	_	_	_	_	
+9	a	a	det	det	_	_	_	_	_	
+10	red	red	n	n	_	_	_	_	_	
+11	truck	truck	n	n	_	_	_	_	_	
+12	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	they're	they	pro:sub	pro:sub	_	_	_	_	_	
+3	-'re	be	aux	aux	PRES	_	_	_	_	
+4	all	all	post	post	_	_	_	_	_	
+5	in	in	prep	prep	_	_	_	_	_	
+6	there	there	pro:dem	pro:dem	_	_	_	_	_	
+7	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	they're	they	pro:sub	pro:sub	_	_	_	_	_	
+3	-'re	be	aux	aux	PRES	_	_	_	_	
+4	going	go	part	part	PRESP	_	_	_	_	
+5	down	down	prep	prep	_	_	_	_	_	
+6	the	the	det	det	_	_	_	_	_	
+7	rocky	rock	adj	adj	dn|Y	_	_	_	_	
+8	bumpy	bump	adj	adj	dn|Y	_	_	_	_	
+9	road	road	n	n	_	_	_	_	_	
+10	.	.	Punc	Punc	_	_	_	_	_	
+
+1	some	some	pro:indef	pro:indef	_	_	_	_	_	
+2	are	be	cop	cop	PRES	_	_	_	_	
+3	in	in	prep	prep	_	_	_	_	_	
+4	the	the	det	det	_	_	_	_	_	
+5	back	back	n	n	_	_	_	_	_	
+6	of	of	prep	prep	_	_	_	_	_	
+7	the	the	det	det	_	_	_	_	_	
+8	pickup	pick+up	n	n	_	_	_	_	_	
+9	.	.	Punc	Punc	_	_	_	_	_	
+
+1	some	some	pro:indef	pro:indef	_	_	_	_	_	
+2	are	be	cop	cop	PRES	_	_	_	_	
+3	in	in	prep	prep	_	_	_	_	_	
+4	the	the	det	det	_	_	_	_	_	
+5	front	front	n	n	_	_	_	_	_	
+6	.	.	Punc	Punc	_	_	_	_	_	
+
+1	so	so	co	co	_	_	_	_	_	
+2	they	they	pro:sub	pro:sub	_	_	_	_	_	
+3	hit	hit	v	v	ZERO	_	_	_	_	
+4	a	a	det	det	_	_	_	_	_	
+5	big	big	adj	adj	_	_	_	_	_	
+6	bump	bump	n	n	_	_	_	_	_	
+7	.	.	Punc	Punc	_	_	_	_	_	
+
+1	this	this	pro:dem	pro:dem	_	_	_	_	_	
+2	looks	look	v	v	3S	_	_	_	_	
+3	like	like	prep	prep	_	_	_	_	_	
+4	a	a	det	det	_	_	_	_	_	
+5	little	little	adj	adj	_	_	_	_	_	
+6	one	one	pro:indef	pro:indef	_	_	_	_	_	
+7	.	.	Punc	Punc	_	_	_	_	_	
+
+1	a	a	det	det	_	_	_	_	_	
+2	little	little	adj	adj	_	_	_	_	_	
+3	baby	baby	n	n	_	_	_	_	_	
+4	holding	hold	adj	adj	PRESP	_	_	_	_	
+5	a	a	det	det	_	_	_	_	_	
+6	toy	toy	n	n	_	_	_	_	_	
+7	mouse	mouse	n	n	_	_	_	_	_	
+8	falls	fall	n	n	PL	_	_	_	_	
+9	out_of	out_of	prep	prep	_	_	_	_	_	
+10	the	the	det	det	_	_	_	_	_	
+11	back	back	n	n	_	_	_	_	_	
+12	of	of	prep	prep	_	_	_	_	_	
+13	the	the	det	det	_	_	_	_	_	
+14	truck	truck	n	n	_	_	_	_	_	
+15	when	when	conj	conj	_	_	_	_	_	
+16	they	they	pro:sub	pro:sub	_	_	_	_	_	
+17	hit	hit	v	v	ZERO	_	_	_	_	
+18	a	a	det	det	_	_	_	_	_	
+19	bump	bump	n	n	_	_	_	_	_	
+20	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	he's	he	pro:sub	pro:sub	_	_	_	_	_	
+3	-'s	be	aux	aux	3S	_	_	_	_	
+4	laying	lay	part	part	PRESP	_	_	_	_	
+5	there	there	adv	adv	_	_	_	_	_	
+6	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	he's	he	pro:sub	pro:sub	_	_	_	_	_	
+3	-'s	be	aux	aux	3S	_	_	_	_	
+4	going	go	part	part	PRESP	_	_	_	_	
+5	+"/.	+"/.	Punc	Punc	_	_	_	_	_	
+
+1	uhoh	uhoh	co	co	_	_	_	_	_	
+2	.	.	Punc	Punc	_	_	_	_	_	
+
+1	the	the	det	det	_	_	_	_	_	
+2	truck's	truck	n	n	_	_	_	_	_	
+3	-'s	be	aux	aux	3S	_	_	_	_	
+4	all	all	qn	qn	_	_	_	_	_	
+5	the	the	det	det	_	_	_	_	_	
+6	way	way	n	n	_	_	_	_	_	
+7	going	go	part	part	PRESP	_	_	_	_	
+8	down	down	prep	prep	_	_	_	_	_	
+9	the	the	det	det	_	_	_	_	_	
+10	road	road	n	n	_	_	_	_	_	
+11	.	.	Punc	Punc	_	_	_	_	_	
+
+1	didn't	do	mod	mod	PAST	_	_	_	_	
+2	-'n't	not	neg	neg	_	_	_	_	_	
+3	know	know	v	v	_	_	_	_	_	
+4	that	that	rel	rel	_	_	_	_	_	
+5	he	he	pro:sub	pro:sub	_	_	_	_	_	
+6	fell	fall	v	v	PAST	_	_	_	_	
+7	out	out	adv	adv	_	_	_	_	_	
+8	.	.	Punc	Punc	_	_	_	_	_	
+
+1	so	so	co	co	_	_	_	_	_	
+2	then	then	adv:tem	adv:tem	_	_	_	_	_	
+3	they	they	pro:sub	pro:sub	_	_	_	_	_	
+4	all	all	post	post	_	_	_	_	_	
+5	get	get	v	v	_	_	_	_	_	
+6	to	to	prep	prep	_	_	_	_	_	
+7	the	the	det	det	_	_	_	_	_	
+8	picnic	picnic	n	n	_	_	_	_	_	
+9	area	area	n	n	_	_	_	_	_	
+10	except	except	prep	prep	_	_	_	_	_	
+11	the	the	det	det	_	_	_	_	_	
+12	little	little	adj	adj	_	_	_	_	_	
+13	one	one	pro:indef	pro:indef	_	_	_	_	_	
+14	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	they're	they	pro:sub	pro:sub	_	_	_	_	_	
+3	-'re	be	aux	aux	PRES	_	_	_	_	
+4	getting	get	part	part	PRESP	_	_	_	_	
+5	out_of	out_of	prep	prep	_	_	_	_	_	
+6	the	the	det	det	_	_	_	_	_	
+7	truck	truck	n	n	_	_	_	_	_	
+8	and	and	coord	coord	_	_	_	_	_	
+9	running	run	part	part	PRESP	_	_	_	_	
+10	all	all	adv:int	adv:int	_	_	_	_	_	
+11	over	over	adv	adv	_	_	_	_	_	
+12	by	by	prep	prep	_	_	_	_	_	
+13	the	the	det	det	_	_	_	_	_	
+14	trees	tree	n	n	PL	_	_	_	_	
+15	and	and	coord	coord	_	_	_	_	_	
+16	the	the	det	det	_	_	_	_	_	
+17	grass	grass	n	n	_	_	_	_	_	
+18	and	and	coord	coord	_	_	_	_	_	
+19	everything	everything	pro:indef	pro:indef	_	_	_	_	_	
+20	like	like	prep	prep	_	_	_	_	_	
+21	that	that	pro:dem	pro:dem	_	_	_	_	_	
+22	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	oh	oh	co	co	_	_	_	_	_	
+3	they're	they	pro:sub	pro:sub	_	_	_	_	_	
+4	-'re	be	aux	aux	PRES	_	_	_	_	
+5	playing	play	part	part	PRESP	_	_	_	_	
+6	.	.	Punc	Punc	_	_	_	_	_	
+
+1	even	even	adv:int	adv:int	_	_	_	_	_	
+2	got	get	v	v	PAST	_	_	_	_	
+3	a	a	det	det	_	_	_	_	_	
+4	little	little	adj	adj	_	_	_	_	_	
+5	walkout	walkout	n	n	_	_	_	_	_	
+6	area	area	n	n	_	_	_	_	_	
+7	to	to	prep	prep	_	_	_	_	_	
+8	the	the	det	det	_	_	_	_	_	
+9	water	water	n	n	_	_	_	_	_	
+10	.	.	Punc	Punc	_	_	_	_	_	
+
+1	everybody's	everybody	pro:indef	pro:indef	_	_	_	_	_	
+2	-'s	be	aux	aux	3S	_	_	_	_	
+3	playing	play	part	part	PRESP	_	_	_	_	
+4	.	.	Punc	Punc	_	_	_	_	_	
+
+1	now	now	adv	adv	_	_	_	_	_	
+2	they're	they	pro:sub	pro:sub	_	_	_	_	_	
+3	-'re	be	aux	aux	PRES	_	_	_	_	
+4	getting	get	part	part	PRESP	_	_	_	_	
+5	ready	ready	adj	adj	_	_	_	_	_	
+6	to	to	inf	inf	_	_	_	_	_	
+7	have	have	v	v	_	_	_	_	_	
+8	a	a	det	det	_	_	_	_	_	
+9	picnic	picnic	n	n	_	_	_	_	_	
+10	.	.	Punc	Punc	_	_	_	_	_	
+
+1	they're	they	pro:sub	pro:sub	_	_	_	_	_	
+2	-'re	be	aux	aux	PRES	_	_	_	_	
+3	putting	put	part	part	PRESP	_	_	_	_	
+4	a	a	det	det	_	_	_	_	_	
+5	picnic	picnic	n	n	_	_	_	_	_	
+6	basket	basket	n	n	_	_	_	_	_	
+7	down	down	adv	adv	_	_	_	_	_	
+8	on	on	prep	prep	_	_	_	_	_	
+9	the	the	det	det	_	_	_	_	_	
+10	tablecloth	table+cloth	n	n	_	_	_	_	_	
+11	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	they're	they	pro:sub	pro:sub	_	_	_	_	_	
+3	-'re	be	aux	aux	PRES	_	_	_	_	
+4	just	just	adv:int	adv:int	_	_	_	_	_	
+5	playing	play	part	part	PRESP	_	_	_	_	
+6	,	cm	cm	cm	_	_	_	_	_	
+7	picking	pick	adj	adj	PRESP	_	_	_	_	
+8	flowers	flower	n	n	PL	_	_	_	_	
+9	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	everybody	everybody	pro:indef	pro:indef	_	_	_	_	_	
+3	is	be	aux	aux	3S	_	_	_	_	
+4	playing	play	part	part	PRESP	_	_	_	_	
+5	baseball	baseball	n	n	_	_	_	_	_	
+6	.	.	Punc	Punc	_	_	_	_	_	
+
+1	evidently	evident	adv	adv	dadj|LY	_	_	_	_	
+2	they've	they	pro:sub	pro:sub	_	_	_	_	_	
+3	-'ve	have	aux	aux	_	_	_	_	_	
+4	already	already	adv	adv	_	_	_	_	_	
+5	eaten	eat	part	part	PASTP	_	_	_	_	
+6	.	.	Punc	Punc	_	_	_	_	_	
+
+1	playing	play	adj	adj	PRESP	_	_	_	_	
+2	in	in	prep	prep	_	_	_	_	_	
+3	the	the	det	det	_	_	_	_	_	
+4	trees	tree	n	n	PL	_	_	_	_	
+5	.	.	Punc	Punc	_	_	_	_	_	
+
+1	playing	play	n:gerund	n:gerund	PRESP	_	_	_	_	
+2	some	some	qn	qn	_	_	_	_	_	
+3	music	music	n	n	_	_	_	_	_	
+4	.	.	Punc	Punc	_	_	_	_	_	
+
+1	playing	play	adj	adj	PRESP	_	_	_	_	
+2	baseball	baseball	n	n	_	_	_	_	_	
+3	+...	+...	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	the	the	det	det	_	_	_	_	_	
+3	poor	poor	adj	adj	_	_	_	_	_	
+4	little	little	adj	adj	_	_	_	_	_	
+5	one's	one	pro:indef	pro:indef	_	_	_	_	_	
+6	-'s	be	aux	aux	3S	_	_	_	_	
+7	just	just	adv:int	adv:int	_	_	_	_	_	
+8	sitting	sit	part	part	PRESP	_	_	_	_	
+9	there	there	adv	adv	_	_	_	_	_	
+10	where	where	adv:wh	adv:wh	_	_	_	_	_	
+11	evidently	evident	adv	adv	dadj|LY	_	_	_	_	
+12	he	he	pro:sub	pro:sub	_	_	_	_	_	
+13	fell	fall	v	v	PAST	_	_	_	_	
+14	out	out	adv	adv	_	_	_	_	_	
+15	with	with	prep	prep	_	_	_	_	_	
+16	his	his	pro:poss:det	pro:poss:det	_	_	_	_	_	
+17	little	little	adj	adj	_	_	_	_	_	
+18	toy	toy	n	n	_	_	_	_	_	
+19	crying	cry	adj	adj	PRESP	_	_	_	_	
+20	.	.	Punc	Punc	_	_	_	_	_	
+
+1	he's	he	pro:sub	pro:sub	_	_	_	_	_	
+2	-'s	be	cop	cop	3S	_	_	_	_	
+3	so	so	adv:int	adv:int	_	_	_	_	_	
+4	sad	sad	adj	adj	_	_	_	_	_	
+5	because	because	conj	conj	_	_	_	_	_	
+6	nobody	nobody	pro:indef	pro:indef	_	_	_	_	_	
+7	missed	miss	v	v	PAST	_	_	_	_	
+8	him	him	pro:obj	pro:obj	_	_	_	_	_	
+9	or	or	coord	coord	_	_	_	_	_	
+10	nobody's	nobody	pro:indef	pro:indef	_	_	_	_	_	
+11	-'s	be	aux	aux	3S	_	_	_	_	
+12	coming	come	part	part	PRESP	_	_	_	_	
+13	back	back	adv	adv	_	_	_	_	_	
+14	.	.	Punc	Punc	_	_	_	_	_	
+
+1	just	just	adv:int	adv:int	_	_	_	_	_	
+2	probably	probable	adv	adv	dadj|LY	_	_	_	_	
+3	doesn't	do	mod	mod	3S	_	_	_	_	
+4	-'n't	not	neg	neg	_	_	_	_	_	
+5	know	know	v	v	_	_	_	_	_	
+6	where	where	adv:wh	adv:wh	_	_	_	_	_	
+7	he	he	pro:sub	pro:sub	_	_	_	_	_	
+8	is	be	cop	cop	3S	_	_	_	_	
+9	.	.	Punc	Punc	_	_	_	_	_	
+
+1	okay	okay	co	co	_	_	_	_	_	
+2	now	now	adv	adv	_	_	_	_	_	
+3	he	he	pro:sub	pro:sub	_	_	_	_	_	
+4	stands	stand	v	v	3S	_	_	_	_	
+5	up	up	adv	adv	_	_	_	_	_	
+6	and	and	coord	coord	_	_	_	_	_	
+7	he's	he	pro:sub	pro:sub	_	_	_	_	_	
+8	-'s	be	aux	aux	3S	_	_	_	_	
+9	looking	look	part	part	PRESP	_	_	_	_	
+10	around	around	adv	adv	_	_	_	_	_	
+11	just	just	adv:int	adv:int	_	_	_	_	_	
+12	looking	look	part	part	PRESP	_	_	_	_	
+13	around	around	adv	adv	_	_	_	_	_	
+14	.	.	Punc	Punc	_	_	_	_	_	
+
+1	look	look	v	v	_	_	_	_	_	
+2	at	at	prep	prep	_	_	_	_	_	
+3	the	the	det	det	_	_	_	_	_	
+4	flowers	flower	n	n	PL	_	_	_	_	
+5	.	.	Punc	Punc	_	_	_	_	_	
+
+1	just	just	adv:int	adv:int	_	_	_	_	_	
+2	looking	look	part	part	PRESP	_	_	_	_	
+3	in	in	prep	prep	_	_	_	_	_	
+4	the	the	det	det	_	_	_	_	_	
+5	pathway	pathway	n	n	_	_	_	_	_	
+6	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	oh	oh	co	co	_	_	_	_	_	
+3	there's	there	pro:exist	pro:exist	_	_	_	_	_	
+4	-'s	be	cop	cop	3S	_	_	_	_	
+5	everybody	everybody	pro:indef	pro:indef	_	_	_	_	_	
+6	back	back	adv	adv	_	_	_	_	_	
+7	at	at	prep	prep	_	_	_	_	_	
+8	the	the	det	det	_	_	_	_	_	
+9	picnic	picnic	n	n	_	_	_	_	_	
+10	area	area	n	n	_	_	_	_	_	
+11	just	just	adv:int	adv:int	_	_	_	_	_	
+12	playing	play	part	part	PRESP	_	_	_	_	
+13	and	and	coord	coord	_	_	_	_	_	
+14	eating	eat	part	part	PRESP	_	_	_	_	
+15	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	they	they	pro:sub	pro:sub	_	_	_	_	_	
+3	still	still	adv	adv	_	_	_	_	_	
+4	haven't	have	aux	aux	_	_	_	_	_	
+5	-'n't	not	neg	neg	_	_	_	_	_	
+6	noticed	notice	part	part	PASTP	_	_	_	_	
+7	that	that	rel	rel	_	_	_	_	_	
+8	he's	he	pro:sub	pro:sub	_	_	_	_	_	
+9	-'s	be	aux	aux	3S	_	_	_	_	
+10	gone	go	part	part	PASTP	_	_	_	_	
+11	.	.	Punc	Punc	_	_	_	_	_	
+
+1	so	so	co	co	_	_	_	_	_	
+2	now	now	adv	adv	_	_	_	_	_	
+3	the	the	det	det	_	_	_	_	_	
+4	little	little	adj	adj	_	_	_	_	_	
+5	one	one	pro:indef	pro:indef	_	_	_	_	_	
+6	is	be	cop	cop	3S	_	_	_	_	
+7	just	just	adv:int	adv:int	_	_	_	_	_	
+8	picking	pick	part	part	PRESP	_	_	_	_	
+9	+//.	+//.	Punc	Punc	_	_	_	_	_	
+
+1	looks	look	n	n	PL	_	_	_	_	
+2	like	like	prep	prep	_	_	_	_	_	
+3	raspberries	raspberry	n	n	PL	_	_	_	_	
+4	.	.	Punc	Punc	_	_	_	_	_	
+
+1	must	must	mod	mod	_	_	_	_	_	
+2	be	be	cop	cop	_	_	_	_	_	
+3	hungry	hungry	adj	adj	_	_	_	_	_	
+4	.	.	Punc	Punc	_	_	_	_	_	
+
+1	picking	pick	part	part	PRESP	_	_	_	_	
+2	raspberries	raspberry	n	n	PL	_	_	_	_	
+3	and	and	coord	coord	_	_	_	_	_	
+4	eating	eat	part	part	PRESP	_	_	_	_	
+5	them	them	pro:obj	pro:obj	_	_	_	_	_	
+6	all	all	post	post	_	_	_	_	_	
+7	.	.	Punc	Punc	_	_	_	_	_	
+
+1	same	same	adj	adj	_	_	_	_	_	
+2	spot	spot	n	n	_	_	_	_	_	
+3	he	he	pro:sub	pro:sub	_	_	_	_	_	
+4	was	be	cop	cop	PAST|13S	_	_	_	_	
+5	before	before	adv	adv	_	_	_	_	_	
+6	.	.	Punc	Punc	_	_	_	_	_	
+
+1	okay	okay	co	co	_	_	_	_	_	
+2	now	now	adv	adv	_	_	_	_	_	
+3	all	all	qn	qn	_	_	_	_	_	
+4	the	the	det	det	_	_	_	_	_	
+5	children	child	n	n	PL	_	_	_	_	
+6	are	be	aux	aux	PRES	_	_	_	_	
+7	obviously	obvious	adv	adv	dadj|LY	_	_	_	_	
+8	lying	lie	part	part	PRESP	_	_	_	_	
+9	down	down	adv	adv	_	_	_	_	_	
+10	by	by	prep	prep	_	_	_	_	_	
+11	the	the	det	det	_	_	_	_	_	
+12	picnic	picnic	n	n	_	_	_	_	_	
+13	table	table	n	n	_	_	_	_	_	
+14	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	the	the	det	det	_	_	_	_	_	
+3	elders	elder	n	n	PL	_	_	_	_	
+4	are	be	cop	cop	PRES	_	_	_	_	
+5	just	just	adv:int	adv:int	_	_	_	_	_	
+6	looking	look	part	part	PRESP	_	_	_	_	
+7	around	around	adv	adv	_	_	_	_	_	
+8	.	.	Punc	Punc	_	_	_	_	_	
+
+1	now	now	adv	adv	_	_	_	_	_	
+2	mom	mom	n	n	_	_	_	_	_	
+3	seems	seem	v	v	3S	_	_	_	_	
+4	to	to	inf	inf	_	_	_	_	_	
+5	be	be	cop	cop	_	_	_	_	_	
+6	a_little	a_little	adv	adv	_	_	_	_	_	
+7	alert	alert	adj	adj	_	_	_	_	_	
+8	that	that	rel	rel	_	_	_	_	_	
+9	something's	something	pro:indef	pro:indef	_	_	_	_	_	
+10	-'s	be	cop	cop	3S	_	_	_	_	
+11	wrong	wrong	adj	adj	_	_	_	_	_	
+12	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	then	then	adv:tem	adv:tem	_	_	_	_	_	
+3	she	she	pro:sub	pro:sub	_	_	_	_	_	
+4	counted	count	v	v	PAST	_	_	_	_	
+5	the	the	det	det	_	_	_	_	_	
+6	children	child	n	n	PL	_	_	_	_	
+7	.	.	Punc	Punc	_	_	_	_	_	
+
+1	now	now	adv	adv	_	_	_	_	_	
+2	everybody's	everybody	pro:indef	pro:indef	_	_	_	_	_	
+3	-'s	be	cop	cop	3S	_	_	_	_	
+4	really	real	adv	adv	dadj|LY	_	_	_	_	
+5	upset	upset	adj	adj	_	_	_	_	_	
+6	.	.	Punc	Punc	_	_	_	_	_	
+
+1	they're	they	pro:sub	pro:sub	_	_	_	_	_	
+2	-'re	be	aux	aux	PRES	_	_	_	_	
+3	calling	call	part	part	PRESP	_	_	_	_	
+4	and	and	coord	coord	_	_	_	_	_	
+5	calling	call	part	part	PRESP	_	_	_	_	
+6	for	for	prep	prep	_	_	_	_	_	
+7	the	the	det	det	_	_	_	_	_	
+8	little	little	adj	adj	_	_	_	_	_	
+9	one	one	pro:indef	pro:indef	_	_	_	_	_	
+10	.	.	Punc	Punc	_	_	_	_	_	
+
+1	looking	look	adj	adj	PRESP	_	_	_	_	
+2	all	all	adv:int	adv:int	_	_	_	_	_	
+3	over	over	adv	adv	_	_	_	_	_	
+4	.	.	Punc	Punc	_	_	_	_	_	
+
+1	one	one	det:num	det:num	_	_	_	_	_	
+2	child's	child	n	n	_	_	_	_	_	
+3	-'s	be	aux	aux	3S	_	_	_	_	
+4	crying	cry	part	part	PRESP	_	_	_	_	
+5	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	they're	they	pro:sub	pro:sub	_	_	_	_	_	
+3	-'re	be	aux	aux	PRES	_	_	_	_	
+4	just	just	adv:int	adv:int	_	_	_	_	_	
+5	looking	look	part	part	PRESP	_	_	_	_	
+6	looking	look	part	part	PRESP	_	_	_	_	
+7	looking	look	part	part	PRESP	_	_	_	_	
+8	.	.	Punc	Punc	_	_	_	_	_	
+
+1	they	they	pro:sub	pro:sub	_	_	_	_	_	
+2	can't	can	mod	mod	_	_	_	_	_	
+3	-'n't	not	neg	neg	_	_	_	_	_	
+4	figure	figure	v	v	_	_	_	_	_	
+5	out	out	adv	adv	_	_	_	_	_	
+6	well	well	co	co	_	_	_	_	_	
+7	where	where	adv:wh	adv:wh	_	_	_	_	_	
+8	did	do	mod	mod	PAST	_	_	_	_	
+9	he	he	pro:sub	pro:sub	_	_	_	_	_	
+10	go	go	v	v	_	_	_	_	_	
+11	.	.	Punc	Punc	_	_	_	_	_	
+
+1	so	so	co	co	_	_	_	_	_	
+2	they	they	pro:sub	pro:sub	_	_	_	_	_	
+3	gathered	gather	v	v	PAST	_	_	_	_	
+4	up	up	prep	prep	_	_	_	_	_	
+5	everything	everything	pro:indef	pro:indef	_	_	_	_	_	
+6	with	with	prep	prep	_	_	_	_	_	
+7	concern	concern	n	n	_	_	_	_	_	
+8	and	and	coord	coord	_	_	_	_	_	
+9	headed	head	v	v	PAST	_	_	_	_	
+10	back	back	adv	adv	_	_	_	_	_	
+11	towards	towards	prep	prep	_	_	_	_	_	
+12	the	the	det	det	_	_	_	_	_	
+13	truck	truck	n	n	_	_	_	_	_	
+14	.	.	Punc	Punc	_	_	_	_	_	
+
+1	now	now	adv	adv	_	_	_	_	_	
+2	the	the	det	det	_	_	_	_	_	
+3	little	little	adj	adj	_	_	_	_	_	
+4	mouse	mouse	n	n	_	_	_	_	_	
+5	has	have	aux	aux	3S	_	_	_	_	
+6	got	get	part	part	PASTP	_	_	_	_	
+7	his	his	pro:poss:det	pro:poss:det	_	_	_	_	_	
+8	tummy	tummy	n	n	_	_	_	_	_	
+9	full	full	adv	adv	_	_	_	_	_	
+10	.	.	Punc	Punc	_	_	_	_	_	
+
+1	he's	he	pro:sub	pro:sub	_	_	_	_	_	
+2	-'s	be	aux	aux	3S	_	_	_	_	
+3	laying	lay	part	part	PRESP	_	_	_	_	
+4	in	in	prep	prep	_	_	_	_	_	
+5	some	some	qn	qn	_	_	_	_	_	
+6	grass	grass	n	n	_	_	_	_	_	
+7	upside+down	upside+down	adv	adv	_	_	_	_	_	
+8	.	.	Punc	Punc	_	_	_	_	_	
+
+1	now	now	adv	adv	_	_	_	_	_	
+2	he	he	pro:sub	pro:sub	_	_	_	_	_	
+3	looks	look	v	v	3S	_	_	_	_	
+4	like	like	rel	rel	_	_	_	_	_	
+5	he's	he	pro:sub	pro:sub	_	_	_	_	_	
+6	-'s	be	aux	aux	3S	_	_	_	_	
+7	just	just	adv:int	adv:int	_	_	_	_	_	
+8	going	go	part	part	PRESP	_	_	_	_	
+9	to	to	inf	inf	_	_	_	_	_	
+10	rest	rest	v	v	_	_	_	_	_	
+11	a	a	det	det	_	_	_	_	_	
+12	little	little	adj	adj	_	_	_	_	_	
+13	bit	bit	n	n	_	_	_	_	_	
+14	.	.	Punc	Punc	_	_	_	_	_	
+
+1	he's	he	pro:sub	pro:sub	_	_	_	_	_	
+2	-'s	be	cop	cop	3S	_	_	_	_	
+3	+"/.	+"/.	Punc	Punc	_	_	_	_	_	
+
+1	well	well	co	co	_	_	_	_	_	
+2	I'm	I	pro:sub	pro:sub	_	_	_	_	_	
+3	-'m	be	cop	cop	1S	_	_	_	_	
+4	content	content	adj	adj	_	_	_	_	_	
+5	.	.	Punc	Punc	_	_	_	_	_	
+
+1	okay	okay	co	co	_	_	_	_	_	
+2	and	and	coord	coord	_	_	_	_	_	
+3	there's	there	pro:exist	pro:exist	_	_	_	_	_	
+4	-'s	be	cop	cop	3S	_	_	_	_	
+5	everybody	everybody	pro:indef	pro:indef	_	_	_	_	_	
+6	in	in	prep	prep	_	_	_	_	_	
+7	the	the	det	det	_	_	_	_	_	
+8	truck	truck	n	n	_	_	_	_	_	
+9	back+tracking	back+track	n:gerund	n:gerund	PRESP	_	_	_	_	
+10	all	all	qn	qn	_	_	_	_	_	
+11	the	the	det	det	_	_	_	_	_	
+12	way	way	n	n	_	_	_	_	_	
+13	back	back	adv	adv	_	_	_	_	_	
+14	through	through	prep	prep	_	_	_	_	_	
+15	the	the	det	det	_	_	_	_	_	
+16	trails	trail	n	n	PL	_	_	_	_	
+17	and	and	coord	coord	_	_	_	_	_	
+18	looking	look	part	part	PRESP	_	_	_	_	
+19	out	out	prep	prep	_	_	_	_	_	
+20	you_know	you_know	co	co	_	_	_	_	_	
+21	of	of	prep	prep	_	_	_	_	_	
+22	the	the	det	det	_	_	_	_	_	
+23	truck	truck	n	n	_	_	_	_	_	
+24	and	and	coord	coord	_	_	_	_	_	
+25	stuff	stuff	n	n	_	_	_	_	_	
+26	looking	look	adj	adj	PRESP	_	_	_	_	
+27	for	for	prep	prep	_	_	_	_	_	
+28	him	him	pro:obj	pro:obj	_	_	_	_	_	
+29	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	it	it	pro	pro	_	_	_	_	_	
+3	looks	look	v	v	3S	_	_	_	_	
+4	like	like	rel	rel	_	_	_	_	_	
+5	he	he	pro:sub	pro:sub	_	_	_	_	_	
+6	might	might	mod	mod	_	_	_	_	_	
+7	have	have	aux	aux	_	_	_	_	_	
+8	heard	hear	part	part	PASTP	_	_	_	_	
+9	his	his	pro:poss:det	pro:poss:det	_	_	_	_	_	
+10	name	name	n	n	_	_	_	_	_	
+11	or	or	coord	coord	_	_	_	_	_	
+12	something	something	pro:indef	pro:indef	_	_	_	_	_	
+13	.	.	Punc	Punc	_	_	_	_	_	
+
+1	because	because	conj	conj	_	_	_	_	_	
+2	he	he	pro:sub	pro:sub	_	_	_	_	_	
+3	kind_of	kind_of	adv:int	adv:int	_	_	_	_	_	
+4	got	get	v	v	PAST	_	_	_	_	
+5	up	up	adv	adv	_	_	_	_	_	
+6	looking	look	n:gerund	n:gerund	PRESP	_	_	_	_	
+7	alert	alert	adj	adj	_	_	_	_	_	
+8	and	and	coord	coord	_	_	_	_	_	
+9	everything	everything	pro:indef	pro:indef	_	_	_	_	_	
+10	like	like	prep	prep	_	_	_	_	_	
+11	that	that	pro:dem	pro:dem	_	_	_	_	_	
+12	.	.	Punc	Punc	_	_	_	_	_	
+
+1	now	now	adv	adv	_	_	_	_	_	
+2	he	he	pro:sub	pro:sub	_	_	_	_	_	
+3	looks	look	v	v	3S	_	_	_	_	
+4	like	like	rel	rel	_	_	_	_	_	
+5	he's	he	pro:sub	pro:sub	_	_	_	_	_	
+6	-'s	be	aux	aux	3S	_	_	_	_	
+7	walking	walk	part	part	PRESP	_	_	_	_	
+8	a	a	det	det	_	_	_	_	_	
+9	little	little	adj	adj	_	_	_	_	_	
+10	bit	bit	n	n	_	_	_	_	_	
+11	through	through	prep	prep	_	_	_	_	_	
+12	the	the	det	det	_	_	_	_	_	
+13	grass	grass	n	n	_	_	_	_	_	
+14	and	and	coord	coord	_	_	_	_	_	
+15	stuff	stuff	n	n	_	_	_	_	_	
+16	.	.	Punc	Punc	_	_	_	_	_	
+
+1	oops	oops	co	co	_	_	_	_	_	
+2	.	.	Punc	Punc	_	_	_	_	_	
+
+1	here	here	adv	adv	_	_	_	_	_	
+2	he	he	pro:sub	pro:sub	_	_	_	_	_	
+3	came	come	v	v	PAST	_	_	_	_	
+4	to	to	prep	prep	_	_	_	_	_	
+5	the	the	det	det	_	_	_	_	_	
+6	road	road	n	n	_	_	_	_	_	
+7	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	there's	there	pro:exist	pro:exist	_	_	_	_	_	
+3	-'s	be	cop	cop	3S	_	_	_	_	
+4	the	the	det	det	_	_	_	_	_	
+5	truck	truck	n	n	_	_	_	_	_	
+6	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	he	he	pro:sub	pro:sub	_	_	_	_	_	
+3	looks	look	v	v	3S	_	_	_	_	
+4	like	like	prep	prep	_	_	_	_	_	
+5	+"/.	+"/.	Punc	Punc	_	_	_	_	_	
+
+1	oh_my_goodness	oh_my_goodness	co	co	_	_	_	_	_	
+2	I'm	I	pro:sub	pro:sub	_	_	_	_	_	
+3	-'m	be	cop	cop	1S	_	_	_	_	
+4	found	find	v	v	PAST	_	_	_	_	
+5	.	.	Punc	Punc	_	_	_	_	_	
+
+1	I'm	I	pro:sub	pro:sub	_	_	_	_	_	
+2	-'m	be	cop	cop	1S	_	_	_	_	
+3	happy	happy	adj	adj	_	_	_	_	_	
+4	my	my	pro:poss:det	pro:poss:det	_	_	_	_	_	
+5	family's	family	n	n	_	_	_	_	_	
+6	-'s	be	cop	cop	3S	_	_	_	_	
+7	here	here	adv	adv	_	_	_	_	_	
+8	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	everybody	everybody	pro:indef	pro:indef	_	_	_	_	_	
+3	in	in	prep	prep	_	_	_	_	_	
+4	the	the	det	det	_	_	_	_	_	
+5	truck	truck	n	n	_	_	_	_	_	
+6	the	the	det	det	_	_	_	_	_	
+7	whole	whole	adj	adj	_	_	_	_	_	
+8	family	family	n	n	_	_	_	_	_	
+9	just	just	adv:int	adv:int	_	_	_	_	_	
+10	waving	wave	part	part	PRESP	_	_	_	_	
+11	and	and	coord	coord	_	_	_	_	_	
+12	yelling	yell	part	part	PRESP	_	_	_	_	
+13	and	and	coord	coord	_	_	_	_	_	
+14	oh_my_goodness	oh_my_goodness	co	co	_	_	_	_	_	
+15	.	.	Punc	Punc	_	_	_	_	_	
+
+1	they	they	pro:sub	pro:sub	_	_	_	_	_	
+2	found	find	v	v	PAST	_	_	_	_	
+3	him	him	pro:obj	pro:obj	_	_	_	_	_	
+4	.	.	Punc	Punc	_	_	_	_	_	
+
+1	they're	they	pro:sub	pro:sub	_	_	_	_	_	
+2	-'re	be	aux	aux	PRES	_	_	_	_	
+3	all	all	post	post	_	_	_	_	_	
+4	hugging	hug	part	part	PRESP	_	_	_	_	
+5	him	him	pro:obj	pro:obj	_	_	_	_	_	
+6	and	and	coord	coord	_	_	_	_	_	
+7	turning	turn	part	part	PRESP	_	_	_	_	
+8	somersaults	somersault	n	n	PL	_	_	_	_	
+9	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	oh	oh	co	co	_	_	_	_	_	
+3	everybody's	everybody	pro:indef	pro:indef	_	_	_	_	_	
+4	-'s	be	cop	cop	3S	_	_	_	_	
+5	just	just	adv:int	adv:int	_	_	_	_	_	
+6	so	so	adv:int	adv:int	_	_	_	_	_	
+7	happy	happy	adj	adj	_	_	_	_	_	
+8	.	.	Punc	Punc	_	_	_	_	_	
+
+1	but	but	conj	conj	_	_	_	_	_	
+2	the	the	det	det	_	_	_	_	_	
+3	little	little	adj	adj	_	_	_	_	_	
+4	one	one	pro:indef	pro:indef	_	_	_	_	_	
+5	looks	look	v	v	3S	_	_	_	_	
+6	a_little	a_little	dadv	dadv	_	_	_	_	_	
+7	worried	worry	adj	adj	PASTP	_	_	_	_	
+8	because	because	conj	conj	_	_	_	_	_	
+9	he	he	pro:sub	pro:sub	_	_	_	_	_	
+10	doesn't	do	mod	mod	3S	_	_	_	_	
+11	-'n't	not	neg	neg	_	_	_	_	_	
+12	have	have	v	v	_	_	_	_	_	
+13	his	his	pro:poss:det	pro:poss:det	_	_	_	_	_	
+14	little	little	adj	adj	_	_	_	_	_	
+15	toy	toy	n	n	_	_	_	_	_	
+16	mouse	mouse	n	n	_	_	_	_	_	
+17	pink	pink	adj	adj	_	_	_	_	_	
+18	.	.	Punc	Punc	_	_	_	_	_	
+
+1	so	so	co	co	_	_	_	_	_	
+2	he	he	pro:sub	pro:sub	_	_	_	_	_	
+3	looks	look	v	v	3S	_	_	_	_	
+4	worried	worry	adj	adj	PASTP	_	_	_	_	
+5	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	then	then	adv:tem	adv:tem	_	_	_	_	_	
+3	he's	he	pro:sub	pro:sub	_	_	_	_	_	
+4	-'s	be	aux	aux	3S	_	_	_	_	
+5	going	go	part	part	PRESP	_	_	_	_	
+6	through	through	prep	prep	_	_	_	_	_	
+7	all	all	qn	qn	_	_	_	_	_	
+8	the	the	det	det	_	_	_	_	_	
+9	brush	brush	n	n	_	_	_	_	_	
+10	and	and	coord	coord	_	_	_	_	_	
+11	everything	everything	pro:indef	pro:indef	_	_	_	_	_	
+12	like	like	prep	prep	_	_	_	_	_	
+13	that	that	pro:dem	pro:dem	_	_	_	_	_	
+14	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	then	then	adv:tem	adv:tem	_	_	_	_	_	
+3	he	he	pro:sub	pro:sub	_	_	_	_	_	
+4	found	find	v	v	PAST	_	_	_	_	
+5	him	him	pro:obj	pro:obj	_	_	_	_	_	
+6	and	and	coord	coord	_	_	_	_	_	
+7	he	he	pro:sub	pro:sub	_	_	_	_	_	
+8	hugs	hug	v	v	3S	_	_	_	_	
+9	him	him	pro:obj	pro:obj	_	_	_	_	_	
+10	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	he's	he	pro:sub	pro:sub	_	_	_	_	_	
+3	-'s	be	aux	aux	3S	_	_	_	_	
+4	just	just	adv:int	adv:int	_	_	_	_	_	
+5	so	so	adv:int	adv:int	_	_	_	_	_	
+6	happy	happy	adj	adj	_	_	_	_	_	
+7	.	.	Punc	Punc	_	_	_	_	_	
+
+1	so	so	co	co	_	_	_	_	_	
+2	they	they	pro:sub	pro:sub	_	_	_	_	_	
+3	all	all	post	post	_	_	_	_	_	
+4	went	go	v	v	PAST	_	_	_	_	
+5	back	back	adv	adv	_	_	_	_	_	
+6	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	they're	they	pro:sub	pro:sub	_	_	_	_	_	
+3	-'re	be	aux	aux	PRES	_	_	_	_	
+4	going	go	part	part	PRESP	_	_	_	_	
+5	to	to	inf	inf	_	_	_	_	_	
+6	eat	eat	v	v	_	_	_	_	_	
+7	again	again	adv	adv	_	_	_	_	_	
+8	evidently	evident	adv	adv	dadj|LY	_	_	_	_	
+9	.	.	Punc	Punc	_	_	_	_	_	
+
+1	but	but	conj	conj	_	_	_	_	_	
+2	he's	he	pro:sub	pro:sub	_	_	_	_	_	
+3	-'s	be	cop	cop	3S	_	_	_	_	
+4	so	so	adv:int	adv:int	_	_	_	_	_	
+5	full	full	adj	adj	_	_	_	_	_	
+6	it	it	pro	pro	_	_	_	_	_	
+7	doesn't	do	mod	mod	3S	_	_	_	_	
+8	-'n't	not	neg	neg	_	_	_	_	_	
+9	look	look	v	v	_	_	_	_	_	
+10	like	like	rel	rel	_	_	_	_	_	
+11	he	he	pro:sub	pro:sub	_	_	_	_	_	
+12	wants	want	v	v	3S	_	_	_	_	
+13	anything	anything	pro:indef	pro:indef	_	_	_	_	_	
+14	anyway	anyway	adv	adv	_	_	_	_	_	
+15	.	.	Punc	Punc	_	_	_	_	_	
+
+1	but	but	conj	conj	_	_	_	_	_	
+2	they're	they	pro:sub	pro:sub	_	_	_	_	_	
+3	-'re	be	cop	cop	PRES	_	_	_	_	
+4	all	all	post	post	_	_	_	_	_	
+5	very	very	adv:int	adv:int	_	_	_	_	_	
+6	very	very	adv:int	adv:int	_	_	_	_	_	
+7	happy	happy	adj	adj	_	_	_	_	_	
+8	.	.	Punc	Punc	_	_	_	_	_	
+
+1	okay	okay	co	co	_	_	_	_	_	
+2	.	.	Punc	Punc	_	_	_	_	_	
+
+1	that's	that	pro:dem	pro:dem	_	_	_	_	_	
+2	-'s	be	cop	cop	3S	_	_	_	_	
+3	good	good	adj	adj	_	_	_	_	_	
+4	too	too	post	post	_	_	_	_	_	
+5	.	.	Punc	Punc	_	_	_	_	_	
+
+1	tell	tell	v	v	_	_	_	_	_	
+2	me	me	pro:obj	pro:obj	_	_	_	_	_	
+3	what	what	pro:wh	pro:wh	_	_	_	_	_	
+4	you	you	pro	pro	_	_	_	_	_	
+5	did	do	v	v	PAST	_	_	_	_	
+6	last	last	adj	adj	_	_	_	_	_	
+7	weekend	week+end	n	n	_	_	_	_	_	
+8	.	.	Punc	Punc	_	_	_	_	_	
+
+1	me	me	pro:obj	pro:obj	_	_	_	_	_	
+2	and	and	coord	coord	_	_	_	_	_	
+3	a	a	det	det	_	_	_	_	_	
+4	girl+friend	girl+friend	n	n	_	_	_	_	_	
+5	of	of	prep	prep	_	_	_	_	_	
+6	mine	mine	pro:poss	pro:poss	_	_	_	_	_	
+7	we	we	pro:sub	pro:sub	_	_	_	_	_	
+8	belong	belong	v	v	_	_	_	_	_	
+9	to	to	prep	prep	_	_	_	_	_	
+10	a	a	det	det	_	_	_	_	_	
+11	club	club	n	n	_	_	_	_	_	
+12	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	so	so	co	co	_	_	_	_	_	
+3	we	we	pro:sub	pro:sub	_	_	_	_	_	
+4	decided	decide	v	v	PAST	_	_	_	_	
+5	that	that	rel	rel	_	_	_	_	_	
+6	we	we	pro:sub	pro:sub	_	_	_	_	_	
+7	were	be	aux	aux	PAST	_	_	_	_	
+8	going	go	part	part	PRESP	_	_	_	_	
+9	to	to	inf	inf	_	_	_	_	_	
+10	go	go	v	v	_	_	_	_	_	
+11	to	to	prep	prep	_	_	_	_	_	
+12	Vegas	Vegas	n:prop	n:prop	_	_	_	_	_	
+13	.	.	Punc	Punc	_	_	_	_	_	
+
+1	okay	okay	co	co	_	_	_	_	_	
+2	.	.	Punc	Punc	_	_	_	_	_	
+
+1	drive	drive	n	n	_	_	_	_	_	
+2	to	to	prep	prep	_	_	_	_	_	
+3	Vegas	Vegas	n:prop	n:prop	_	_	_	_	_	
+4	.	.	Punc	Punc	_	_	_	_	_	
+
+1	so	so	co	co	_	_	_	_	_	
+2	we	we	pro:sub	pro:sub	_	_	_	_	_	
+3	took	take	v	v	PAST	_	_	_	_	
+4	her	her	pro:poss:det	pro:poss:det	_	_	_	_	_	
+5	car	car	n	n	_	_	_	_	_	
+6	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	she	she	pro:sub	pro:sub	_	_	_	_	_	
+3	was	be	aux	aux	PAST|13S	_	_	_	_	
+4	driving	drive	part	part	PRESP	_	_	_	_	
+5	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	we	we	pro:sub	pro:sub	_	_	_	_	_	
+3	drove	drive	v	v	PAST	_	_	_	_	
+4	to	to	prep	prep	_	_	_	_	_	
+5	Vegas	Vegas	n:prop	n:prop	_	_	_	_	_	
+6	which	which	rel	rel	_	_	_	_	_	
+7	took	take	v	v	PAST	_	_	_	_	
+8	probably	probable	adv	adv	dadj|LY	_	_	_	_	
+9	about	about	prep	prep	_	_	_	_	_	
+10	seven	seven	det:num	det:num	_	_	_	_	_	
+11	eight	eight	det:num	det:num	_	_	_	_	_	
+12	hours	hour	n	n	PL	_	_	_	_	
+13	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	went	go	v	v	PAST	_	_	_	_	
+3	and	and	coord	coord	_	_	_	_	_	
+4	got	get	v	v	PAST	_	_	_	_	
+5	a	a	det	det	_	_	_	_	_	
+6	reasonable	reason	adj	adj	dv|ABLE	_	_	_	_	
+7	hotel	hotel	n	n	_	_	_	_	_	
+8	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	then	then	adv:tem	adv:tem	_	_	_	_	_	
+3	went	go	v	v	PAST	_	_	_	_	
+4	down	down	adv	adv	_	_	_	_	_	
+5	on	on	prep	prep	_	_	_	_	_	
+6	the	the	det	det	_	_	_	_	_	
+7	Strip	Strip	n:prop	n:prop	_	_	_	_	_	
+8	and	and	coord	coord	_	_	_	_	_	
+9	went	go	v	v	PAST	_	_	_	_	
+10	around	around	adv	adv	_	_	_	_	_	
+11	for	for	prep	prep	_	_	_	_	_	
+12	a	a	det	det	_	_	_	_	_	
+13	while	while	n	n	_	_	_	_	_	
+14	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	then	then	adv:tem	adv:tem	_	_	_	_	_	
+3	we	we	pro:sub	pro:sub	_	_	_	_	_	
+4	got	get	aux	aux	PAST	_	_	_	_	
+5	tired	tire	part	part	PASTP	_	_	_	_	
+6	.	.	Punc	Punc	_	_	_	_	_	
+
+1	we	we	pro:sub	pro:sub	_	_	_	_	_	
+2	gambled	gamble	v	v	PAST	_	_	_	_	
+3	.	.	Punc	Punc	_	_	_	_	_	
+
+1	you_know	you_know	co	co	_	_	_	_	_	
+2	lost	lose	v	v	PAST	_	_	_	_	
+3	some	some	qn	qn	_	_	_	_	_	
+4	money	money	n	n	_	_	_	_	_	
+5	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	then	then	adv:tem	adv:tem	_	_	_	_	_	
+3	got	get	v	v	PAST	_	_	_	_	
+4	a	a	det	det	_	_	_	_	_	
+5	couple	couple	n	n	_	_	_	_	_	
+6	hours	hour	n	n	PL	_	_	_	_	
+7	sleep	sleep	n	n	_	_	_	_	_	
+8	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	then	then	adv:tem	adv:tem	_	_	_	_	_	
+3	got	get	v	v	PAST	_	_	_	_	
+4	up	up	adv	adv	_	_	_	_	_	
+5	and	and	coord	coord	_	_	_	_	_	
+6	then	then	adv:tem	adv:tem	_	_	_	_	_	
+7	went	go	v	v	PAST	_	_	_	_	
+8	gambling	gamble	n:gerund	n:gerund	PRESP	_	_	_	_	
+9	a	a	det	det	_	_	_	_	_	
+10	little	little	adj	adj	_	_	_	_	_	
+11	bit	bit	n	n	_	_	_	_	_	
+12	and	and	coord	coord	_	_	_	_	_	
+13	ate	eat	v	v	PAST	_	_	_	_	
+14	some	some	qn	qn	_	_	_	_	_	
+15	breakfast	breakfast	n	n	_	_	_	_	_	
+16	and	and	coord	coord	_	_	_	_	_	
+17	stuff	stuff	n	n	_	_	_	_	_	
+18	like	like	prep	prep	_	_	_	_	_	
+19	that	that	pro:dem	pro:dem	_	_	_	_	_	
+20	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	then	then	adv:tem	adv:tem	_	_	_	_	_	
+3	it	it	pro	pro	_	_	_	_	_	
+4	was	be	cop	cop	PAST|13S	_	_	_	_	
+5	time	time	n	n	_	_	_	_	_	
+6	to	to	inf	inf	_	_	_	_	_	
+7	leave	leave	v	v	_	_	_	_	_	
+8	again	again	adv	adv	_	_	_	_	_	
+9	because_of	because_of	prep	prep	_	_	_	_	_	
+10	the	the	det	det	_	_	_	_	_	
+11	long	long	adj	adj	_	_	_	_	_	
+12	drive	drive	n	n	_	_	_	_	_	
+13	home	home	n	n	_	_	_	_	_	
+14	.	.	Punc	Punc	_	_	_	_	_	
+
+1	so	so	co	co	_	_	_	_	_	
+2	then	then	adv:tem	adv:tem	_	_	_	_	_	
+3	we	we	pro:sub	pro:sub	_	_	_	_	_	
+4	left	leave	v	v	PAST	_	_	_	_	
+5	broke	broke	adj	adj	_	_	_	_	_	
+6	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	so	so	co	co	_	_	_	_	_	
+3	drove	drive	v	v	PAST	_	_	_	_	
+4	all	all	qn	qn	_	_	_	_	_	
+5	the	the	det	det	_	_	_	_	_	
+6	way	way	n	n	_	_	_	_	_	
+7	home	home	n	n	_	_	_	_	_	
+8	.	.	Punc	Punc	_	_	_	_	_	
+
+1	but	but	conj	conj	_	_	_	_	_	
+2	it	it	pro	pro	_	_	_	_	_	
+3	was	be	cop	cop	PAST|13S	_	_	_	_	
+4	a	a	det	det	_	_	_	_	_	
+5	good	good	adj	adj	_	_	_	_	_	
+6	weekend	week+end	n	n	_	_	_	_	_	
+7	for	for	prep	prep	_	_	_	_	_	
+8	that	that	pro:dem	pro:dem	_	_	_	_	_	
+9	.	.	Punc	Punc	_	_	_	_	_	
+
+1	to	to	inf	inf	_	_	_	_	_	
+2	be	be	cop	cop	_	_	_	_	_	
+3	broke	broke	adj	adj	_	_	_	_	_	
+4	.	.	Punc	Punc	_	_	_	_	_	
+
+1	tell	tell	v	v	_	_	_	_	_	
+2	me	me	pro:obj	pro:obj	_	_	_	_	_	
+3	about	about	prep	prep	_	_	_	_	_	
+4	your	your	pro:poss:det	pro:poss:det	_	_	_	_	_	
+5	last	last	adj	adj	_	_	_	_	_	
+6	vacation	vacation	n	n	_	_	_	_	_	
+7	.	.	Punc	Punc	_	_	_	_	_	
+
+1	my	my	pro:poss:det	pro:poss:det	_	_	_	_	_	
+2	last	last	adj	adj	_	_	_	_	_	
+3	vacation	vacation	n	n	_	_	_	_	_	
+4	?	?	Punc	Punc	_	_	_	_	_	
+
+1	went	go	v	v	PAST	_	_	_	_	
+2	on	on	prep	prep	_	_	_	_	_	
+3	a	a	det	det	_	_	_	_	_	
+4	cruise	cruise	n	n	_	_	_	_	_	
+5	.	.	Punc	Punc	_	_	_	_	_	
+
+1	can	can	mod	mod	_	_	_	_	_	
+2	you	you	pro	pro	_	_	_	_	_	
+3	tell	tell	v	v	_	_	_	_	_	
+4	me	me	pro:obj	pro:obj	_	_	_	_	_	
+5	more	more	pro:indef	pro:indef	_	_	_	_	_	
+6	?	?	Punc	Punc	_	_	_	_	_	
+
+1	I've	I	pro:sub	pro:sub	_	_	_	_	_	
+2	-'ve	have	aux	aux	_	_	_	_	_	
+3	never	never	adv	adv	_	_	_	_	_	
+4	been	be	cop	cop	PASTP	_	_	_	_	
+5	on	on	prep	prep	_	_	_	_	_	
+6	a	a	det	det	_	_	_	_	_	
+7	vacation	vacation	n	n	_	_	_	_	_	
+8	.	.	Punc	Punc	_	_	_	_	_	
+
+1	I	I	pro:sub	pro:sub	_	_	_	_	_	
+2	don't	do	mod	mod	_	_	_	_	_	
+3	-'n't	not	neg	neg	_	_	_	_	_	
+4	know	know	v	v	_	_	_	_	_	
+5	.	.	Punc	Punc	_	_	_	_	_	
+
+1	my	my	pro:poss:det	pro:poss:det	_	_	_	_	_	
+2	kids	kid	n	n	PL	_	_	_	_	
+3	are	be	cop	cop	PRES	_	_	_	_	
+4	older	old	adj	adj	CP	_	_	_	_	
+5	.	.	Punc	Punc	_	_	_	_	_	
+
+1	so	so	co	co	_	_	_	_	_	
+2	we	we	pro:sub	pro:sub	_	_	_	_	_	
+3	decided	decide	v	v	PAST	_	_	_	_	
+4	that	that	rel	rel	_	_	_	_	_	
+5	it	it	pro	pro	_	_	_	_	_	
+6	was	be	cop	cop	PAST|13S	_	_	_	_	
+7	time	time	n	n	_	_	_	_	_	
+8	for	for	prep	prep	_	_	_	_	_	
+9	me	me	pro:obj	pro:obj	_	_	_	_	_	
+10	to	to	inf	inf	_	_	_	_	_	
+11	take	take	v	v	_	_	_	_	_	
+12	a	a	det	det	_	_	_	_	_	
+13	vacation	vacation	n	n	_	_	_	_	_	
+14	because	because	conj	conj	_	_	_	_	_	
+15	I'm	I	pro:sub	pro:sub	_	_	_	_	_	
+16	-'m	be	cop	cop	1S	_	_	_	_	
+17	older	old	adj	adj	CP	_	_	_	_	
+18	and	and	coord	coord	_	_	_	_	_	
+19	I've	I	pro:sub	pro:sub	_	_	_	_	_	
+20	-'ve	have	aux	aux	_	_	_	_	_	
+21	never	never	adv	adv	_	_	_	_	_	
+22	really	real	adv	adv	dadj|LY	_	_	_	_	
+23	had	have	part	part	PASTP	_	_	_	_	
+24	one	one	pro:indef	pro:indef	_	_	_	_	_	
+25	.	.	Punc	Punc	_	_	_	_	_	
+
+1	so	so	conj	conj	_	_	_	_	_	
+2	we	we	pro:sub	pro:sub	_	_	_	_	_	
+3	decided	decide	v	v	PAST	_	_	_	_	
+4	to	to	inf	inf	_	_	_	_	_	
+5	take	take	v	v	_	_	_	_	_	
+6	a	a	det	det	_	_	_	_	_	
+7	little	little	adj	adj	_	_	_	_	_	
+8	cruise	cruise	n	n	_	_	_	_	_	
+9	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	we	we	pro:sub	pro:sub	_	_	_	_	_	
+3	went	go	v	v	PAST	_	_	_	_	
+4	to	to	prep	prep	_	_	_	_	_	
+5	the	the	det	det	_	_	_	_	_	
+6	Bahamas	Bahamas	n:prop	n:prop	_	_	_	_	_	
+7	.	.	Punc	Punc	_	_	_	_	_	
+
+1	actually	actual	adv	adv	dadj|LY	_	_	_	_	
+2	no	no	co	co	_	_	_	_	_	
+3	it	it	pro	pro	_	_	_	_	_	
+4	wasn't	be	cop	cop	PAST|13S	_	_	_	_	
+5	-'n't	not	neg	neg	_	_	_	_	_	
+6	the	the	det	det	_	_	_	_	_	
+7	Bahamas	Bahamas	n:prop	n:prop	_	_	_	_	_	
+8	.	.	Punc	Punc	_	_	_	_	_	
+
+1	forgive	forgive	v	v	_	_	_	_	_	
+2	me	me	pro:obj	pro:obj	_	_	_	_	_	
+3	.	.	Punc	Punc	_	_	_	_	_	
+
+1	it	it	pro	pro	_	_	_	_	_	
+2	was	be	cop	cop	PAST|13S	_	_	_	_	
+3	to	to	prep	prep	_	_	_	_	_	
+4	Mexico	Mexico	n:prop	n:prop	_	_	_	_	_	
+5	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	we	we	pro:sub	pro:sub	_	_	_	_	_	
+3	were	be	aux	aux	PAST	_	_	_	_	
+4	going	go	part	part	PRESP	_	_	_	_	
+5	to	to	inf	inf	_	_	_	_	_	
+6	be	be	aux	aux	_	_	_	_	_	
+7	gone	go	part	part	PASTP	_	_	_	_	
+8	a_week	a_week	adv:tem	adv:tem	_	_	_	_	_	
+9	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	on	on	prep	prep	_	_	_	_	_	
+3	the	the	det	det	_	_	_	_	_	
+4	trip	trip	n	n	_	_	_	_	_	
+5	we	we	pro:sub	pro:sub	_	_	_	_	_	
+6	had	have	v	v	PAST	_	_	_	_	
+7	a	a	det	det	_	_	_	_	_	
+8	couple	couple	n	n	_	_	_	_	_	
+9	of	of	prep	prep	_	_	_	_	_	
+10	different	different	adj	adj	_	_	_	_	_	
+11	stops	stop	n	n	PL	_	_	_	_	
+12	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	got	get	v	v	PAST	_	_	_	_	
+3	a	a	det	det	_	_	_	_	_	
+4	chance	chance	n	n	_	_	_	_	_	
+5	to	to	inf	inf	_	_	_	_	_	
+6	go	go	v	v	_	_	_	_	_	
+7	shopping	shop	part	part	PRESP	_	_	_	_	
+8	.	.	Punc	Punc	_	_	_	_	_	
+
+1	Mexico	Mexico	n:prop	n:prop	_	_	_	_	_	
+2	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	see	see	v	v	_	_	_	_	_	
+3	some	some	qn	qn	_	_	_	_	_	
+4	of	of	prep	prep	_	_	_	_	_	
+5	the	the	det	det	_	_	_	_	_	
+6	land	land	n	n	_	_	_	_	_	
+7	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	meet	meet	v	v	_	_	_	_	_	
+3	some	some	qn	qn	_	_	_	_	_	
+4	of	of	prep	prep	_	_	_	_	_	
+5	the	the	det	det	_	_	_	_	_	
+6	people	person	n	n	PL	_	_	_	_	
+7	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	it	it	pro	pro	_	_	_	_	_	
+3	was	be	cop	cop	PAST|13S	_	_	_	_	
+4	very	very	adv:int	adv:int	_	_	_	_	_	
+5	exciting	excite	adj	adj	PRESP	_	_	_	_	
+6	.	.	Punc	Punc	_	_	_	_	_	
+
+1	enjoyed	enjoy	v	v	PAST	_	_	_	_	
+2	it	it	pro	pro	_	_	_	_	_	
+3	very	very	adv:int	adv:int	_	_	_	_	_	
+4	much	much	qn	qn	_	_	_	_	_	
+5	.	.	Punc	Punc	_	_	_	_	_	
+
+1	probably	probable	adv	adv	dadj|LY	_	_	_	_	
+2	would	will	mod	mod	COND	_	_	_	_	
+3	do	do	v	v	_	_	_	_	_	
+4	it	it	pro	pro	_	_	_	_	_	
+5	again	again	adv	adv	_	_	_	_	_	
+6	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	lasted	last	v	v	PAST	_	_	_	_	
+3	about	about	prep	prep	_	_	_	_	_	
+4	a	a	det	det	_	_	_	_	_	
+5	week	week	n	n	_	_	_	_	_	
+6	.	.	Punc	Punc	_	_	_	_	_	
+
+1	we	we	pro:sub	pro:sub	_	_	_	_	_	
+2	stayed	stay	v	v	PAST	_	_	_	_	
+3	on	on	prep	prep	_	_	_	_	_	
+4	the	the	det	det	_	_	_	_	_	
+5	ship	ship	n	n	_	_	_	_	_	
+6	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	shopped	shop	v	v	PAST	_	_	_	_	
+3	and	and	coord	coord	_	_	_	_	_	
+4	ate	eat	v	v	PAST	_	_	_	_	
+5	actually	actual	adv	adv	dadj|LY	_	_	_	_	
+6	.	.	Punc	Punc	_	_	_	_	_	
+
+1	that	that	pro:dem	pro:dem	_	_	_	_	_	
+2	was	be	cop	cop	PAST|13S	_	_	_	_	
+3	about	about	prep	prep	_	_	_	_	_	
+4	it	it	pro	pro	_	_	_	_	_	
+5	.	.	Punc	Punc	_	_	_	_	_	
+
+1	so	so	co	co	_	_	_	_	_	
+2	then	then	adv:tem	adv:tem	_	_	_	_	_	
+3	we	we	pro:sub	pro:sub	_	_	_	_	_	
+4	came	come	v	v	PAST	_	_	_	_	
+5	home	home	n	n	_	_	_	_	_	
+6	.	.	Punc	Punc	_	_	_	_	_	
+
+1	enjoyed	enjoy	v	v	PAST	_	_	_	_	
+2	it	it	pro	pro	_	_	_	_	_	
+3	.	.	Punc	Punc	_	_	_	_	_	
+
+1	tell	tell	v	v	_	_	_	_	_	
+2	me	me	pro:obj	pro:obj	_	_	_	_	_	
+3	what	what	pro:wh	pro:wh	_	_	_	_	_	
+4	you	you	pro	pro	_	_	_	_	_	
+5	did	do	v	v	PAST	_	_	_	_	
+6	this	this	det	det	_	_	_	_	_	
+7	past	past	adj	adj	_	_	_	_	_	
+8	Christmas	Christmas	n:prop	n:prop	_	_	_	_	_	
+9	.	.	Punc	Punc	_	_	_	_	_	
+
+1	moved	move	v	v	PAST	_	_	_	_	
+2	.	.	Punc	Punc	_	_	_	_	_	
+
+1	I	I	pro:sub	pro:sub	_	_	_	_	_	
+2	moved	move	v	v	PAST	_	_	_	_	
+3	but	but	conj	conj	_	_	_	_	_	
+4	+//.	+//.	Punc	Punc	_	_	_	_	_	
+
+1	yeah	yeah	co	co	_	_	_	_	_	
+2	okay	okay	co	co	_	_	_	_	_	
+3	.	.	Punc	Punc	_	_	_	_	_	
+
+1	it	it	pro	pro	_	_	_	_	_	
+2	was	be	cop	cop	PAST|13S	_	_	_	_	
+3	around	around	prep	prep	_	_	_	_	_	
+4	Christmas	Christmas	n:prop	n:prop	_	_	_	_	_	
+5	time	time	n	n	_	_	_	_	_	
+6	and	and	coord	coord	_	_	_	_	_	
+7	I	I	pro:sub	pro:sub	_	_	_	_	_	
+8	moved	move	v	v	PAST	_	_	_	_	
+9	back	back	adv	adv	_	_	_	_	_	
+10	in	in	adv	adv	_	_	_	_	_	
+11	with	with	prep	prep	_	_	_	_	_	
+12	my	my	pro:poss:det	pro:poss:det	_	_	_	_	_	
+13	son	son	n	n	_	_	_	_	_	
+14	and	and	coord	coord	_	_	_	_	_	
+15	my	my	pro:poss:det	pro:poss:det	_	_	_	_	_	
+16	daughter	daughter	n	n	_	_	_	_	_	
+17	and	and	coord	coord	_	_	_	_	_	
+18	my	my	pro:poss:det	pro:poss:det	_	_	_	_	_	
+19	grandson	son	n	n	grand	_	_	_	_	
+20	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	so	so	co	co	_	_	_	_	_	
+3	we	we	pro:sub	pro:sub	_	_	_	_	_	
+4	were	be	cop	cop	PAST	_	_	_	_	
+5	kind_of	kind_of	adv:int	adv:int	_	_	_	_	_	
+6	in	in	prep	prep	_	_	_	_	_	
+7	the	the	det	det	_	_	_	_	_	
+8	process	process	n	n	_	_	_	_	_	
+9	still	still	adv	adv	_	_	_	_	_	
+10	moving	move	part	part	PRESP	_	_	_	_	
+11	when	when	conj	conj	_	_	_	_	_	
+12	we	we	pro:sub	pro:sub	_	_	_	_	_	
+13	had	have	v	v	PAST	_	_	_	_	
+14	Christmas	Christmas	n:prop	n:prop	_	_	_	_	_	
+15	.	.	Punc	Punc	_	_	_	_	_	
+
+1	we	we	pro:sub	pro:sub	_	_	_	_	_	
+2	moved	move	v	v	PAST	_	_	_	_	
+3	into	into	prep	prep	_	_	_	_	_	
+4	a	a	det	det	_	_	_	_	_	
+5	bigger	big	adj	adj	CP	_	_	_	_	
+6	house	house	n	n	_	_	_	_	_	
+7	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	so	so	co	co	_	_	_	_	_	
+3	it	it	pro	pro	_	_	_	_	_	
+4	was	be	cop	cop	PAST|13S	_	_	_	_	
+5	kind_of	kind_of	adv:int	adv:int	_	_	_	_	_	
+6	hectic	hectic	adj	adj	_	_	_	_	_	
+7	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	so	so	co	co	_	_	_	_	_	
+3	we	we	pro:sub	pro:sub	_	_	_	_	_	
+4	had	have	v	v	PAST	_	_	_	_	
+5	some	some	qn	qn	_	_	_	_	_	
+6	company	company	n	n	_	_	_	_	_	
+7	over	over	adv	adv	_	_	_	_	_	
+8	.	.	Punc	Punc	_	_	_	_	_	
+
+1	but	but	conj	conj	_	_	_	_	_	
+2	it	it	pro	pro	_	_	_	_	_	
+3	was	be	cop	cop	PAST|13S	_	_	_	_	
+4	still	still	adv	adv	_	_	_	_	_	
+5	like	like	rel	rel	_	_	_	_	_	
+6	the	the	det	det	_	_	_	_	_	
+7	house	house	n	n	_	_	_	_	_	
+8	was	be	cop	cop	PAST|13S	_	_	_	_	
+9	still	still	adv	adv	_	_	_	_	_	
+10	a	a	det	det	_	_	_	_	_	
+11	mess	mess	n	n	_	_	_	_	_	
+12	.	.	Punc	Punc	_	_	_	_	_	
+
+1	this	this	pro:dem	pro:dem	_	_	_	_	_	
+2	is	be	cop	cop	3S	_	_	_	_	
+3	a	a	det	det	_	_	_	_	_	
+4	true	true	adj	adj	_	_	_	_	_	
+5	story	story	n	n	_	_	_	_	_	
+6	.	.	Punc	Punc	_	_	_	_	_	
+
+1	but	but	conj	conj	_	_	_	_	_	
+2	we	we	pro:sub	pro:sub	_	_	_	_	_	
+3	enjoy	enjoy	v	v	_	_	_	_	_	
+4	.	.	Punc	Punc	_	_	_	_	_	
+
+1	we	we	pro:sub	pro:sub	_	_	_	_	_	
+2	open	open	v	v	_	_	_	_	_	
+3	presents	present	n	n	PL	_	_	_	_	
+4	and	and	coord	coord	_	_	_	_	_	
+5	cooked	cook	v	v	PAST	_	_	_	_	
+6	and	and	coord	coord	_	_	_	_	_	
+7	ate	eat	v	v	PAST	_	_	_	_	
+8	and	and	coord	coord	_	_	_	_	_	
+9	blessed	bless	v	v	PAST	_	_	_	_	
+10	people	person	n	n	PL	_	_	_	_	
+11	that	that	rel	rel	_	_	_	_	_	
+12	weren't	be	cop	cop	PAST	_	_	_	_	
+13	-'n't	not	neg	neg	_	_	_	_	_	
+14	there	there	adv	adv	_	_	_	_	_	
+15	that	that	rel	rel	_	_	_	_	_	
+16	have	have	aux	aux	_	_	_	_	_	
+17	already	already	adv	adv	_	_	_	_	_	
+18	gone	go	part	part	PASTP	_	_	_	_	
+19	on	on	adv	adv	_	_	_	_	_	
+20	or	or	coord	coord	_	_	_	_	_	
+21	you_know	you_know	co	co	_	_	_	_	_	
+22	passed	pass	v	v	PAST	_	_	_	_	
+23	on	on	adv	adv	_	_	_	_	_	
+24	and	and	coord	coord	_	_	_	_	_	
+25	stuff	stuff	n	n	_	_	_	_	_	
+26	which	which	rel	rel	_	_	_	_	_	
+27	we	we	pro:sub	pro:sub	_	_	_	_	_	
+28	had	have	v	v	PAST	_	_	_	_	
+29	a	a	det	det	_	_	_	_	_	
+30	few	few	qn	qn	_	_	_	_	_	
+31	that	that	det	det	_	_	_	_	_	
+32	year	year	n	n	_	_	_	_	_	
+33	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	just	just	adv:int	adv:int	_	_	_	_	_	
+3	kind_of	kind_of	adv:int	adv:int	_	_	_	_	_	
+4	put	put	v	v	ZERO	_	_	_	_	
+5	the	the	det	det	_	_	_	_	_	
+6	boxes	box	n	n	PL	_	_	_	_	
+7	aside	aside	adv	adv	_	_	_	_	_	
+8	you_know	you_know	co	co	_	_	_	_	_	
+9	.	.	Punc	Punc	_	_	_	_	_	
+
+1	put	put	v	v	ZERO	_	_	_	_	
+2	them	them	pro:obj	pro:obj	_	_	_	_	_	
+3	away	away	adv	adv	_	_	_	_	_	
+4	.	.	Punc	Punc	_	_	_	_	_	
+
+1	just	just	adv:int	adv:int	_	_	_	_	_	
+2	left	leave	v	v	PAST	_	_	_	_	
+3	them	them	pro:obj	pro:obj	_	_	_	_	_	
+4	there	there	adv	adv	_	_	_	_	_	
+5	actually	actual	adv	adv	dadj|LY	_	_	_	_	
+6	.	.	Punc	Punc	_	_	_	_	_	
+
+1	said	say	v	v	PAST	_	_	_	_	
+2	+"/.	+"/.	Punc	Punc	_	_	_	_	_	
+
+1	we'll	we	pro:sub	pro:sub	_	_	_	_	_	
+2	-'ll	will	mod	mod	_	_	_	_	_	
+3	do	do	v	v	_	_	_	_	_	
+4	this	this	pro:dem	pro:dem	_	_	_	_	_	
+5	in	in	prep	prep	_	_	_	_	_	
+6	a	a	det	det	_	_	_	_	_	
+7	couple	couple	n	n	_	_	_	_	_	
+8	days	day	n	n	PL	_	_	_	_	
+9	you_know	you_know	co	co	_	_	_	_	_	
+10	.	.	Punc	Punc	_	_	_	_	_	
+
+1	so	so	co	co	_	_	_	_	_	
+2	we	we	pro:sub	pro:sub	_	_	_	_	_	
+3	just	just	adv:int	adv:int	_	_	_	_	_	
+4	did	do	v	v	PAST	_	_	_	_	
+5	what	what	pro:wh	pro:wh	_	_	_	_	_	
+6	we	we	pro:sub	pro:sub	_	_	_	_	_	
+7	usually	usual	adv	adv	dadj|LY	_	_	_	_	
+8	do	do	v	v	_	_	_	_	_	
+9	.	.	Punc	Punc	_	_	_	_	_	
+
+1	it	it	pro	pro	_	_	_	_	_	
+2	was	be	cop	cop	PAST|13S	_	_	_	_	
+3	just	just	adv:int	adv:int	_	_	_	_	_	
+4	hectic	hectic	adj	adj	_	_	_	_	_	
+5	on_account_of	on_account_of	conj	conj	_	_	_	_	_	
+6	it	it	pro	pro	_	_	_	_	_	
+7	was	be	cop	cop	PAST|13S	_	_	_	_	
+8	a_little	a_little	adv	adv	_	_	_	_	_	
+9	scattered	scatter	v	v	PAST	_	_	_	_	
+10	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	that	that	pro:dem	pro:dem	_	_	_	_	_	
+3	was	be	cop	cop	PAST|13S	_	_	_	_	
+4	it	it	pro	pro	_	_	_	_	_	
+5	.	.	Punc	Punc	_	_	_	_	_	
+
+1	have	have	aux	aux	_	_	_	_	_	
+2	you	you	pro	pro	_	_	_	_	_	
+3	ever	ever	adv	adv	_	_	_	_	_	
+4	been	be	cop	cop	PASTP	_	_	_	_	
+5	sick	sick	adj	adj	_	_	_	_	_	
+6	any	any	qn	qn	_	_	_	_	_	
+7	times	time	n	n	PL	_	_	_	_	
+8	that	that	rel	rel	_	_	_	_	_	
+9	+..?	+..?	Punc	Punc	_	_	_	_	_	
+
+1	not	not	neg	neg	_	_	_	_	_	
+2	really	real	adv	adv	dadj|LY	_	_	_	_	
+3	bad	bad	adj	adj	_	_	_	_	_	
+4	no	no	co	co	_	_	_	_	_	
+5	.	.	Punc	Punc	_	_	_	_	_	
+
+1	I've	I	pro:sub	pro:sub	_	_	_	_	_	
+2	-'ve	have	aux	aux	_	_	_	_	_	
+3	just	just	adv:int	adv:int	_	_	_	_	_	
+4	had	have	v	v	PAST	_	_	_	_	
+5	like	like	co	co	_	_	_	_	_	
+6	the	the	det	det	_	_	_	_	_	
+7	flu	flu	n	n	_	_	_	_	_	
+8	and	and	coord	coord	_	_	_	_	_	
+9	stuff	stuff	n	n	_	_	_	_	_	
+10	like	like	prep	prep	_	_	_	_	_	
+11	that	that	pro:dem	pro:dem	_	_	_	_	_	
+12	and	and	coord	coord	_	_	_	_	_	
+13	+...	+...	Punc	Punc	_	_	_	_	_	
+
+1	oh	oh	co	co	_	_	_	_	_	
+2	I	I	pro:sub	pro:sub	_	_	_	_	_	
+3	brought	bring	v	v	PAST	_	_	_	_	
+4	+//.	+//.	Punc	Punc	_	_	_	_	_	
+
+1	okay	okay	co	co	_	_	_	_	_	
+2	.	.	Punc	Punc	_	_	_	_	_	
+
+1	I	I	pro:sub	pro:sub	_	_	_	_	_	
+2	was	be	aux	aux	PAST|13S	_	_	_	_	
+3	playing	play	part	part	PRESP	_	_	_	_	
+4	with	with	prep	prep	_	_	_	_	_	
+5	my	my	pro:poss:det	pro:poss:det	_	_	_	_	_	
+6	kids	kid	n	n	PL	_	_	_	_	
+7	.	.	Punc	Punc	_	_	_	_	_	
+
+1	it	it	pro	pro	_	_	_	_	_	
+2	was	be	cop	cop	PAST|13S	_	_	_	_	
+3	about	about	prep	prep	_	_	_	_	_	
+4	seven	seven	det:num	det:num	_	_	_	_	_	
+5	years	year	n	n	PL	_	_	_	_	
+6	ago	ago	adv	adv	_	_	_	_	_	
+7	or	or	coord	coord	_	_	_	_	_	
+8	eight	eight	det:num	det:num	_	_	_	_	_	
+9	years	year	n	n	PL	_	_	_	_	
+10	ago	ago	adv	adv	_	_	_	_	_	
+11	.	.	Punc	Punc	_	_	_	_	_	
+
+1	I	I	pro:sub	pro:sub	_	_	_	_	_	
+2	don't	do	mod	mod	_	_	_	_	_	
+3	-'n't	not	neg	neg	_	_	_	_	_	
+4	even	even	adv:int	adv:int	_	_	_	_	_	
+5	remember	remember	v	v	_	_	_	_	_	
+6	.	.	Punc	Punc	_	_	_	_	_	
+
+1	but	but	conj	conj	_	_	_	_	_	
+2	they	they	pro:sub	pro:sub	_	_	_	_	_	
+3	were	be	aux	aux	PAST	_	_	_	_	
+4	playing	play	part	part	PRESP	_	_	_	_	
+5	out	out	adv	adv	_	_	_	_	_	
+6	in	in	prep	prep	_	_	_	_	_	
+7	the	the	det	det	_	_	_	_	_	
+8	backyard	back+yard	n	n	_	_	_	_	_	
+9	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	my	my	pro:poss:det	pro:poss:det	_	_	_	_	_	
+3	grandson	son	n	n	grand	_	_	_	_	
+4	+//.	+//.	Punc	Punc	_	_	_	_	_	
+
+1	we	we	pro:sub	pro:sub	_	_	_	_	_	
+2	had	have	v	v	PAST	_	_	_	_	
+3	apartments	apartment	n	n	PL	_	_	_	_	
+4	at	at	prep	prep	_	_	_	_	_	
+5	that	that	det	det	_	_	_	_	_	
+6	time	time	n	n	_	_	_	_	_	
+7	that	that	rel	rel	_	_	_	_	_	
+8	were	be	cop	cop	PAST	_	_	_	_	
+9	together	together	adv	adv	_	_	_	_	_	
+10	.	.	Punc	Punc	_	_	_	_	_	
+
+1	my	my	pro:poss:det	pro:poss:det	_	_	_	_	_	
+2	daughter	daughter	n	n	_	_	_	_	_	
+3	and	and	coord	coord	_	_	_	_	_	
+4	my	my	pro:poss:det	pro:poss:det	_	_	_	_	_	
+5	grandson	son	n	n	grand	_	_	_	_	
+6	and	and	coord	coord	_	_	_	_	_	
+7	me	me	pro:obj	pro:obj	_	_	_	_	_	
+8	and	and	coord	coord	_	_	_	_	_	
+9	my	my	pro:poss:det	pro:poss:det	_	_	_	_	_	
+10	son	son	n	n	_	_	_	_	_	
+11	.	.	Punc	Punc	_	_	_	_	_	
+
+1	okay	okay	co	co	_	_	_	_	_	
+2	?	?	Punc	Punc	_	_	_	_	_	
+
+1	but	but	conj	conj	_	_	_	_	_	
+2	we	we	pro:sub	pro:sub	_	_	_	_	_	
+3	had	have	aux	aux	PAST	_	_	_	_	
+4	shared	share	part	part	PASTP	_	_	_	_	
+5	the	the	det	det	_	_	_	_	_	
+6	same	same	adj	adj	_	_	_	_	_	
+7	backyard	back+yard	n	n	_	_	_	_	_	
+8	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	the	the	det	det	_	_	_	_	_	
+3	grandson	son	n	n	grand	_	_	_	_	
+4	Mike	Mike	n:prop	n:prop	_	_	_	_	_	
+5	was	be	cop	cop	PAST|13S	_	_	_	_	
+6	a	a	det	det	_	_	_	_	_	
+7	toddler	toddle	n	n	dv|AGT	_	_	_	_	
+8	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	we	we	pro:sub	pro:sub	_	_	_	_	_	
+3	had	have	aux	aux	PAST	_	_	_	_	
+4	just	just	adv:int	adv:int	_	_	_	_	_	
+5	bought	buy	v	v	PAST	_	_	_	_	
+6	him	him	pro:obj	pro:obj	_	_	_	_	_	
+7	one	one	pro:indef	pro:indef	_	_	_	_	_	
+8	of	of	prep	prep	_	_	_	_	_	
+9	those	those	det	det	_	_	_	_	_	
+10	pools	pool	n	n	PL	_	_	_	_	
+11	.	.	Punc	Punc	_	_	_	_	_	
+
+1	you_know	you_know	co	co	_	_	_	_	_	
+2	the	the	det	det	_	_	_	_	_	
+3	outside	outside	adj	adj	_	_	_	_	_	
+4	pools	pool	n	n	PL	_	_	_	_	
+5	just	just	adv:int	adv:int	_	_	_	_	_	
+6	to	to	inf	inf	_	_	_	_	_	
+7	play	play	v	v	_	_	_	_	_	
+8	in	in	adv	adv	_	_	_	_	_	
+9	you_know	you_know	co	co	_	_	_	_	_	
+10	like	like	prep	prep	_	_	_	_	_	
+11	children	child	n	n	PL	_	_	_	_	
+12	?	?	Punc	Punc	_	_	_	_	_	
+
+1	mhm	yes	co	co	_	_	_	_	_	
+2	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	we	we	pro:sub	pro:sub	_	_	_	_	_	
+3	all	all	post	post	_	_	_	_	_	
+4	were	be	cop	cop	PAST	_	_	_	_	
+5	out	out	adv	adv	_	_	_	_	_	
+6	there	there	adv	adv	_	_	_	_	_	
+7	.	.	Punc	Punc	_	_	_	_	_	
+
+1	my	my	pro:poss:det	pro:poss:det	_	_	_	_	_	
+2	daughter	daughter	n	n	_	_	_	_	_	
+3	Stacy	Stacy	n:prop	n:prop	_	_	_	_	_	
+4	,	cm	cm	cm	_	_	_	_	_	
+5	Jason	Jason	n:prop	n:prop	_	_	_	_	_	
+6	my	my	pro:poss:det	pro:poss:det	_	_	_	_	_	
+7	son	son	n	n	_	_	_	_	_	
+8	,	cm	cm	cm	_	_	_	_	_	
+9	Michael	Michael	n:prop	n:prop	_	_	_	_	_	
+10	my	my	pro:poss:det	pro:poss:det	_	_	_	_	_	
+11	grandson	son	n	n	grand	_	_	_	_	
+12	,	cm	cm	cm	_	_	_	_	_	
+13	and	and	coord	coord	_	_	_	_	_	
+14	me	me	pro:obj	pro:obj	_	_	_	_	_	
+15	.	.	Punc	Punc	_	_	_	_	_	
+
+1	we	we	pro:sub	pro:sub	_	_	_	_	_	
+2	were	be	aux	aux	PAST	_	_	_	_	
+3	playing	play	part	part	PRESP	_	_	_	_	
+4	around	around	adv	adv	_	_	_	_	_	
+5	you_know	you_know	co	co	_	_	_	_	_	
+6	.	.	Punc	Punc	_	_	_	_	_	
+
+1	mhm	yes	co	co	_	_	_	_	_	
+2	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	then	then	adv:tem	adv:tem	_	_	_	_	_	
+3	things	thing	n	n	PL	_	_	_	_	
+4	got	get	v	v	PAST	_	_	_	_	
+5	a_little	a_little	adv	adv	_	_	_	_	_	
+6	hectic	hectic	adj	adj	_	_	_	_	_	
+7	I'd	I	pro:sub	pro:sub	_	_	_	_	_	
+8	-'d	genmod	mod	mod	_	_	_	_	_	
+9	say	say	v	v	_	_	_	_	_	
+10	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	anyway	anyway	adv	adv	_	_	_	_	_	
+3	so	so	co	co	_	_	_	_	_	
+4	we	we	pro:sub	pro:sub	_	_	_	_	_	
+5	were	be	aux	aux	PAST	_	_	_	_	
+6	splashing	splash	part	part	PRESP	_	_	_	_	
+7	each_other	each_other	pro:refl	pro:refl	_	_	_	_	_	
+8	and	and	coord	coord	_	_	_	_	_	
+9	everything	everything	pro:indef	pro:indef	_	_	_	_	_	
+10	like	like	prep	prep	_	_	_	_	_	
+11	that	that	pro:dem	pro:dem	_	_	_	_	_	
+12	and	and	coord	coord	_	_	_	_	_	
+13	everything	everything	pro:indef	pro:indef	_	_	_	_	_	
+14	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	somehow	somehow	adv	adv	_	_	_	_	_	
+3	one	one	pro:indef	pro:indef	_	_	_	_	_	
+4	of	of	prep	prep	_	_	_	_	_	
+5	them	them	pro:obj	pro:obj	_	_	_	_	_	
+6	bumped	bump	v	v	PAST	_	_	_	_	
+7	me	me	pro:obj	pro:obj	_	_	_	_	_	
+8	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	I	I	pro:sub	pro:sub	_	_	_	_	_	
+3	fell	fall	v	v	PAST	_	_	_	_	
+4	in	in	prep	prep	_	_	_	_	_	
+5	the	the	det	det	_	_	_	_	_	
+6	pool	pool	n	n	_	_	_	_	_	
+7	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	then	then	adv:tem	adv:tem	_	_	_	_	_	
+3	my	my	pro:poss:det	pro:poss:det	_	_	_	_	_	
+4	son	son	n	n	_	_	_	_	_	
+5	fell	fall	v	v	PAST	_	_	_	_	
+6	on	on	prep	prep	_	_	_	_	_	
+7	top	top	n	n	_	_	_	_	_	
+8	of	of	prep	prep	_	_	_	_	_	
+9	me	me	pro:obj	pro:obj	_	_	_	_	_	
+10	.	.	Punc	Punc	_	_	_	_	_	
+
+1	but	but	conj	conj	_	_	_	_	_	
+2	what	what	pro:wh	pro:wh	_	_	_	_	_	
+3	he'd	he	pro:sub	pro:sub	_	_	_	_	_	
+4	-'d	genmod	mod	mod	_	_	_	_	_	
+5	done	do	part	part	PASTP	_	_	_	_	
+6	was	be	cop	cop	PAST|13S	_	_	_	_	
+7	like	like	co	co	_	_	_	_	_	
+8	fell	fall	v	v	PAST	_	_	_	_	
+9	on	on	prep	prep	_	_	_	_	_	
+10	my	my	pro:poss:det	pro:poss:det	_	_	_	_	_	
+11	knee	knee	n	n	_	_	_	_	_	
+12	.	.	Punc	Punc	_	_	_	_	_	
+
+1	oh	oh	co	co	_	_	_	_	_	
+2	.	.	Punc	Punc	_	_	_	_	_	
+
+1	so	so	co	co	_	_	_	_	_	
+2	it	it	pro	pro	_	_	_	_	_	
+3	kind_of	kind_of	adv:int	adv:int	_	_	_	_	_	
+4	like	like	co	co	_	_	_	_	_	
+5	shattered	shatter	v	v	PAST	_	_	_	_	
+6	and	and	coord	coord	_	_	_	_	_	
+7	tore	tear	v	v	PAST	_	_	_	_	
+8	the	the	det	det	_	_	_	_	_	
+9	ligaments	ligament	n	n	PL	_	_	_	_	
+10	.	.	Punc	Punc	_	_	_	_	_	
+
+1	you_know	you_know	co	co	_	_	_	_	_	
+2	and	and	coord	coord	_	_	_	_	_	
+3	fractured	fracture	v	v	PAST	_	_	_	_	
+4	it	it	pro	pro	_	_	_	_	_	
+5	actually	actual	adv	adv	dadj|LY	_	_	_	_	
+6	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	all	all	qn	qn	_	_	_	_	_	
+3	the	the	det	det	_	_	_	_	_	
+4	ligaments	ligament	n	n	PL	_	_	_	_	
+5	and	and	coord	coord	_	_	_	_	_	
+6	everything	everything	pro:indef	pro:indef	_	_	_	_	_	
+7	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	it	it	pro	pro	_	_	_	_	_	
+3	was	be	cop	cop	PAST|13S	_	_	_	_	
+4	so	so	adv:int	adv:int	_	_	_	_	_	
+5	funny	fun	adj	adj	dn|Y	_	_	_	_	
+6	because	because	conj	conj	_	_	_	_	_	
+7	we	we	pro:sub	pro:sub	_	_	_	_	_	
+8	all	all	post	post	_	_	_	_	_	
+9	fell	fall	v	v	PAST	_	_	_	_	
+10	like	like	prep	prep	_	_	_	_	_	
+11	that	that	pro:dem	pro:dem	_	_	_	_	_	
+12	you_know	you_know	co	co	_	_	_	_	_	
+13	.	.	Punc	Punc	_	_	_	_	_	
+
+1	we	we	pro:sub	pro:sub	_	_	_	_	_	
+2	were	be	aux	aux	PAST	_	_	_	_	
+3	all	all	post	post	_	_	_	_	_	
+4	laughing	laugh	part	part	PRESP	_	_	_	_	
+5	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	everybody's	everybody	pro:indef	pro:indef	_	_	_	_	_	
+3	-'s	be	aux	aux	3S	_	_	_	_	
+4	laughing	laugh	part	part	PRESP	_	_	_	_	
+5	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	I'm	I	pro:sub	pro:sub	_	_	_	_	_	
+3	-'m	be	aux	aux	1S	_	_	_	_	
+4	going	go	part	part	PRESP	_	_	_	_	
+5	+".	+".	Punc	Punc	_	_	_	_	_	
+
+1	get	get	v	v	_	_	_	_	_	
+2	off	off	prep	prep	_	_	_	_	_	
+3	me	me	pro:obj	pro:obj	_	_	_	_	_	
+4	.	.	Punc	Punc	_	_	_	_	_	
+
+1	you_know	you_know	co	co	_	_	_	_	_	
+2	I'm	I	pro:sub	pro:sub	_	_	_	_	_	
+3	-'m	be	cop	cop	1S	_	_	_	_	
+4	really	real	adv	adv	dadj|LY	_	_	_	_	
+5	in	in	prep	prep	_	_	_	_	_	
+6	pain	pain	n	n	_	_	_	_	_	
+7	.	.	Punc	Punc	_	_	_	_	_	
+
+1	you_know	you_know	co	co	_	_	_	_	_	
+2	I'm	I	pro:sub	pro:sub	_	_	_	_	_	
+3	-'m	be	cop	cop	1S	_	_	_	_	
+4	really	real	adv	adv	dadj|LY	_	_	_	_	
+5	seriously	serious	adv	adv	dadj|LY	_	_	_	_	
+6	in	in	prep	prep	_	_	_	_	_	
+7	pain	pain	n	n	_	_	_	_	_	
+8	here	here	adv	adv	_	_	_	_	_	
+9	.	.	Punc	Punc	_	_	_	_	_	
+
+1	I'm	I	pro:sub	pro:sub	_	_	_	_	_	
+2	-'m	be	cop	cop	1S	_	_	_	_	
+3	on	on	prep	prep	_	_	_	_	_	
+4	the	the	det	det	_	_	_	_	_	
+5	bottom	bottom	n	n	_	_	_	_	_	
+6	of	of	prep	prep	_	_	_	_	_	
+7	this	this	pro:dem	pro:dem	_	_	_	_	_	
+8	you_know	you_know	co	co	_	_	_	_	_	
+9	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	they	they	pro:sub	pro:sub	_	_	_	_	_	
+3	thought	think	v	v	PAST	_	_	_	_	
+4	I	I	pro:sub	pro:sub	_	_	_	_	_	
+5	was	be	cop	cop	PAST|13S	_	_	_	_	
+6	just	just	adv:int	adv:int	_	_	_	_	_	
+7	trying	try	part	part	PRESP	_	_	_	_	
+8	to	to	inf	inf	_	_	_	_	_	
+9	get	get	v	v	_	_	_	_	_	
+10	up	up	adv	adv	_	_	_	_	_	
+11	and	and	coord	coord	_	_	_	_	_	
+12	just	just	adv:int	adv:int	_	_	_	_	_	
+13	kidding	kid	part	part	PRESP	_	_	_	_	
+14	around	around	adv	adv	_	_	_	_	_	
+15	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	I'm	I	pro:sub	pro:sub	_	_	_	_	_	
+3	-'m	be	aux	aux	1S	_	_	_	_	
+4	started	start	part	part	PASTP	_	_	_	_	
+5	you_know	you_know	co	co	_	_	_	_	_	
+6	like	like	prep	prep	_	_	_	_	_	
+7	saying	say	n:gerund	n:gerund	PRESP	_	_	_	_	
+8	+".	+".	Punc	Punc	_	_	_	_	_	
+
+1	hey	hey	co	co	_	_	_	_	_	
+2	no	no	co	co	_	_	_	_	_	
+3	seriously	serious	adv	adv	dadj|LY	_	_	_	_	
+4	something's	something	pro:indef	pro:indef	_	_	_	_	_	
+5	-'s	be	cop	cop	3S	_	_	_	_	
+6	wrong	wrong	adj	adj	_	_	_	_	_	
+7	here	here	adv	adv	_	_	_	_	_	
+8	.	.	Punc	Punc	_	_	_	_	_	
+
+1	you_know	you_know	co	co	_	_	_	_	_	
+2	.	.	Punc	Punc	_	_	_	_	_	
+
+1	so	so	co	co	_	_	_	_	_	
+2	finally	final	adv	adv	dadj|LY	_	_	_	_	
+3	they	they	pro:sub	pro:sub	_	_	_	_	_	
+4	got	get	v	v	PAST	_	_	_	_	
+5	up	up	adv	adv	_	_	_	_	_	
+6	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	then	then	adv:tem	adv:tem	_	_	_	_	_	
+3	it	it	pro	pro	_	_	_	_	_	
+4	was	be	cop	cop	PAST|13S	_	_	_	_	
+5	like	like	prep	prep	_	_	_	_	_	
+6	being	be	n:gerund	n:gerund	PRESP	_	_	_	_	
+7	a	a	det	det	_	_	_	_	_	
+8	big	big	adj	adj	_	_	_	_	_	
+9	blob	blob	n	n	_	_	_	_	_	
+10	in	in	prep	prep	_	_	_	_	_	
+11	this	this	det	det	_	_	_	_	_	
+12	little	little	adj	adj	_	_	_	_	_	
+13	pool	pool	n	n	_	_	_	_	_	
+14	you_know	you_know	co	co	_	_	_	_	_	
+15	.	.	Punc	Punc	_	_	_	_	_	
+
+1	but	but	conj	conj	_	_	_	_	_	
+2	I	I	pro:sub	pro:sub	_	_	_	_	_	
+3	couldn't	could	mod	mod	_	_	_	_	_	
+4	-'n't	not	neg	neg	_	_	_	_	_	
+5	move	move	v	v	_	_	_	_	_	
+6	my	my	pro:poss:det	pro:poss:det	_	_	_	_	_	
+7	knee	knee	n	n	_	_	_	_	_	
+8	.	.	Punc	Punc	_	_	_	_	_	
+
+1	I	I	pro:sub	pro:sub	_	_	_	_	_	
+2	couldn't	could	mod	mod	_	_	_	_	_	
+3	-'n't	not	neg	neg	_	_	_	_	_	
+4	get	get	v	v	_	_	_	_	_	
+5	up	up	adv	adv	_	_	_	_	_	
+6	.	.	Punc	Punc	_	_	_	_	_	
+
+1	anyway	anyway	adv	adv	_	_	_	_	_	
+2	so	so	co	co	_	_	_	_	_	
+3	they	they	pro:sub	pro:sub	_	_	_	_	_	
+4	all	all	post	post	_	_	_	_	_	
+5	straightened	straighten	v	v	PAST	_	_	_	_	
+6	up	up	adv	adv	_	_	_	_	_	
+7	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	anyway	anyway	adv	adv	_	_	_	_	_	
+3	they	they	pro:sub	pro:sub	_	_	_	_	_	
+4	helped	help	v	v	PAST	_	_	_	_	
+5	me	me	pro:obj	pro:obj	_	_	_	_	_	
+6	get	get	v	v	_	_	_	_	_	
+7	up	up	adv	adv	_	_	_	_	_	
+8	out_of	out_of	prep	prep	_	_	_	_	_	
+9	the	the	det	det	_	_	_	_	_	
+10	pool	pool	n	n	_	_	_	_	_	
+11	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	then	then	adv:tem	adv:tem	_	_	_	_	_	
+3	they	they	pro:sub	pro:sub	_	_	_	_	_	
+4	had	have	v	v	PAST	_	_	_	_	
+5	to	to	inf	inf	_	_	_	_	_	
+6	almost	almost	adv	adv	_	_	_	_	_	
+7	carry	carry	v	v	_	_	_	_	_	
+8	me	me	pro:obj	pro:obj	_	_	_	_	_	
+9	into	into	prep	prep	_	_	_	_	_	
+10	the	the	det	det	_	_	_	_	_	
+11	house	house	n	n	_	_	_	_	_	
+12	.	.	Punc	Punc	_	_	_	_	_	
+
+1	then	then	adv:tem	adv:tem	_	_	_	_	_	
+2	I	I	pro:sub	pro:sub	_	_	_	_	_	
+3	had	have	v	v	PAST	_	_	_	_	
+4	to	to	inf	inf	_	_	_	_	_	
+5	go	go	v	v	_	_	_	_	_	
+6	to	to	prep	prep	_	_	_	_	_	
+7	the	the	det	det	_	_	_	_	_	
+8	emergency	emergency	n	n	_	_	_	_	_	
+9	room	room	n	n	_	_	_	_	_	
+10	because	because	conj	conj	_	_	_	_	_	
+11	it	it	pro	pro	_	_	_	_	_	
+12	was	be	cop	cop	PAST|13S	_	_	_	_	
+13	like	like	prep	prep	_	_	_	_	_	
+14	you_know	you_know	co	co	_	_	_	_	_	
+15	+...	+...	Punc	Punc	_	_	_	_	_	
+
+1	but	but	conj	conj	_	_	_	_	_	
+2	it	it	pro	pro	_	_	_	_	_	
+3	was	be	cop	cop	PAST|13S	_	_	_	_	
+4	just	just	adv:int	adv:int	_	_	_	_	_	
+5	odd	odd	adj	adj	_	_	_	_	_	
+6	because	because	conj	conj	_	_	_	_	_	
+7	you	you	pro	pro	_	_	_	_	_	
+8	know	know	v	v	_	_	_	_	_	
+9	how	how	adv:wh	adv:wh	_	_	_	_	_	
+10	you're	you	pro	pro	_	_	_	_	_	
+11	-'re	be	aux	aux	PRES	_	_	_	_	
+12	playing	play	part	part	PRESP	_	_	_	_	
+13	and	and	coord	coord	_	_	_	_	_	
+14	laughing	laugh	part	part	PRESP	_	_	_	_	
+15	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	it	it	pro	pro	_	_	_	_	_	
+3	was	be	cop	cop	PAST|13S	_	_	_	_	
+4	such	such	qn	qn	_	_	_	_	_	
+5	an	a	det	det	_	_	_	_	_	
+6	odd	odd	adj	adj	_	_	_	_	_	
+7	accident	accident	n	n	_	_	_	_	_	
+8	that	that	rel	rel	_	_	_	_	_	
+9	it	it	pro	pro	_	_	_	_	_	
+10	was	be	cop	cop	PAST|13S	_	_	_	_	
+11	just	just	adv:int	adv:int	_	_	_	_	_	
+12	weird	weird	adj	adj	_	_	_	_	_	
+13	.	.	Punc	Punc	_	_	_	_	_	
+
+1	otherwise	otherwise	adv	adv	_	_	_	_	_	
+2	than	than	prep	prep	_	_	_	_	_	
+3	that	that	pro:dem	pro:dem	_	_	_	_	_	
+4	just	just	adv:int	adv:int	_	_	_	_	_	
+5	childbirth	childbirth	n	n	_	_	_	_	_	
+6	.	.	Punc	Punc	_	_	_	_	_	
+
+1	sure	sure	adj	adj	_	_	_	_	_	
+2	you	you	pro	pro	_	_	_	_	_	
+3	don't	do	mod	mod	_	_	_	_	_	
+4	-'n't	not	neg	neg	_	_	_	_	_	
+5	want	want	v	v	_	_	_	_	_	
+6	to	to	inf	inf	_	_	_	_	_	
+7	hear	hear	v	v	_	_	_	_	_	
+8	about	about	prep	prep	_	_	_	_	_	
+9	that	that	pro:dem	pro:dem	_	_	_	_	_	
+10	.	.	Punc	Punc	_	_	_	_	_	
+
+1	I	I	pro:sub	pro:sub	_	_	_	_	_	
+2	took	take	v	v	PAST	_	_	_	_	
+3	care	care	n	n	_	_	_	_	_	
+4	+...	+...	Punc	Punc	_	_	_	_	_	
+
+1	I	I	pro:sub	pro:sub	_	_	_	_	_	
+2	have	have	v	v	_	_	_	_	_	
+3	my	my	pro:poss:det	pro:poss:det	_	_	_	_	_	
+4	own	own	adj	adj	_	_	_	_	_	
+5	house	house	n	n	_	_	_	_	_	
+6	cleaning	clean	adj	adj	PRESP	_	_	_	_	
+7	business	business	n	n	_	_	_	_	_	
+8	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	I've	I	pro:sub	pro:sub	_	_	_	_	_	
+3	-'ve	have	aux	aux	_	_	_	_	_	
+4	had	have	part	part	PASTP	_	_	_	_	
+5	it	it	pro	pro	_	_	_	_	_	
+6	for	for	prep	prep	_	_	_	_	_	
+7	a	a	det	det	_	_	_	_	_	
+8	few	few	qn	qn	_	_	_	_	_	
+9	years	year	n	n	PL	_	_	_	_	
+10	which	which	rel	rel	_	_	_	_	_	
+11	I've	I	pro:sub	pro:sub	_	_	_	_	_	
+12	-'ve	have	aux	aux	_	_	_	_	_	
+13	slowed	slow	part	part	PASTP	_	_	_	_	
+14	down	down	adv	adv	_	_	_	_	_	
+15	now	now	adv	adv	_	_	_	_	_	
+16	.	.	Punc	Punc	_	_	_	_	_	
+
+1	but	but	conj	conj	_	_	_	_	_	
+2	I	I	pro:sub	pro:sub	_	_	_	_	_	
+3	used	use	v	v	PAST	_	_	_	_	
+4	to	to	inf	inf	_	_	_	_	_	
+5	take	take	v	v	_	_	_	_	_	
+6	care	care	n	n	_	_	_	_	_	
+7	of	of	prep	prep	_	_	_	_	_	
+8	this	this	det	det	_	_	_	_	_	
+9	older	old	adj	adj	CP	_	_	_	_	
+10	woman	woman	n	n	_	_	_	_	_	
+11	not	not	neg	neg	_	_	_	_	_	
+12	that	that	rel	rel	_	_	_	_	_	
+13	she	she	pro:sub	pro:sub	_	_	_	_	_	
+14	was	be	cop	cop	PAST|13S	_	_	_	_	
+15	really	real	adv	adv	dadj|LY	_	_	_	_	
+16	old	old	adj	adj	_	_	_	_	_	
+17	.	.	Punc	Punc	_	_	_	_	_	
+
+1	but	but	conj	conj	_	_	_	_	_	
+2	she	she	pro:sub	pro:sub	_	_	_	_	_	
+3	had	have	v	v	PAST	_	_	_	_	
+4	a	a	det	det	_	_	_	_	_	
+5	hard	hard	adj	adj	_	_	_	_	_	
+6	problem	problem	n	n	_	_	_	_	_	
+7	with	with	prep	prep	_	_	_	_	_	
+8	people	person	n	n	PL	_	_	_	_	
+9	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	so	so	co	co	_	_	_	_	_	
+3	when	when	conj	conj	_	_	_	_	_	
+4	I	I	pro:sub	pro:sub	_	_	_	_	_	
+5	started	start	v	v	PAST	_	_	_	_	
+6	cleaning	clean	n:gerund	n:gerund	PRESP	_	_	_	_	
+7	her	her	pro:poss:det	pro:poss:det	_	_	_	_	_	
+8	house	house	n	n	_	_	_	_	_	
+9	because	because	conj	conj	_	_	_	_	_	
+10	my	my	pro:poss:det	pro:poss:det	_	_	_	_	_	
+11	sister	sister	n	n	_	_	_	_	_	
+12	worked	work	v	v	PAST	_	_	_	_	
+13	for	for	prep	prep	_	_	_	_	_	
+14	them	them	pro:obj	pro:obj	_	_	_	_	_	
+15	+//.	+//.	Punc	Punc	_	_	_	_	_	
+
+1	they	they	pro:sub	pro:sub	_	_	_	_	_	
+2	owned	own	v	v	PAST	_	_	_	_	
+3	a	a	det	det	_	_	_	_	_	
+4	restaurant	restaurant	n	n	_	_	_	_	_	
+5	in	in	prep	prep	_	_	_	_	_	
+6	town	town	n	n	_	_	_	_	_	
+7	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	she	she	pro:sub	pro:sub	_	_	_	_	_	
+3	was	be	cop	cop	PAST|13S	_	_	_	_	
+4	just	just	adv:int	adv:int	_	_	_	_	_	
+5	having	have	part	part	PRESP	_	_	_	_	
+6	a	a	det	det	_	_	_	_	_	
+7	hard	hard	adj	adj	_	_	_	_	_	
+8	time	time	n	n	_	_	_	_	_	
+9	communicating	communicate	adj	adj	PRESP	_	_	_	_	
+10	to	to	prep	prep	_	_	_	_	_	
+11	anybody	anybody	pro:indef	pro:indef	_	_	_	_	_	
+12	.	.	Punc	Punc	_	_	_	_	_	
+
+1	strangers	stranger	n	n	PL	_	_	_	_	
+2	coming	come	part	part	PRESP	_	_	_	_	
+3	in	in	adv	adv	_	_	_	_	_	
+4	+...	+...	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	she	she	pro:sub	pro:sub	_	_	_	_	_	
+3	hadn't	have	aux	aux	PAST	_	_	_	_	
+4	-'n't	not	neg	neg	_	_	_	_	_	
+5	been	be	cop	cop	PASTP	_	_	_	_	
+6	out	out	adv	adv	_	_	_	_	_	
+7	in	in	prep	prep	_	_	_	_	_	
+8	a	a	det	det	_	_	_	_	_	
+9	long	long	adj	adj	_	_	_	_	_	
+10	time	time	n	n	_	_	_	_	_	
+11	.	.	Punc	Punc	_	_	_	_	_	
+
+1	you_know	you_know	co	co	_	_	_	_	_	
+2	she	she	pro:sub	pro:sub	_	_	_	_	_	
+3	just	just	adv:int	adv:int	_	_	_	_	_	
+4	was	be	aux	aux	PAST|13S	_	_	_	_	
+5	getting	get	part	part	PRESP	_	_	_	_	
+6	old	old	adj	adj	_	_	_	_	_	
+7	.	.	Punc	Punc	_	_	_	_	_	
+
+1	she	she	pro:sub	pro:sub	_	_	_	_	_	
+2	was	be	aux	aux	PAST|13S	_	_	_	_	
+3	embarrassed	embarrass	part	part	PASTP	_	_	_	_	
+4	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	she	she	pro:sub	pro:sub	_	_	_	_	_	
+3	didn't	do	mod	mod	PAST	_	_	_	_	
+4	-'n't	not	neg	neg	_	_	_	_	_	
+5	like	like	v	v	_	_	_	_	_	
+6	people	person	n	n	PL	_	_	_	_	
+7	coming	come	adj	adj	PRESP	_	_	_	_	
+8	over	over	adv	adv	_	_	_	_	_	
+9	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	she	she	pro:sub	pro:sub	_	_	_	_	_	
+3	couldn't	could	mod	mod	_	_	_	_	_	
+4	-'n't	not	neg	neg	_	_	_	_	_	
+5	get	get	v	v	_	_	_	_	_	
+6	what	what	pro:wh	pro:wh	_	_	_	_	_	
+7	she	she	pro:sub	pro:sub	_	_	_	_	_	
+8	wanted	want	v	v	PAST	_	_	_	_	
+9	to	to	inf	inf	_	_	_	_	_	
+10	get	get	v	v	_	_	_	_	_	
+11	done	do	part	part	PASTP	_	_	_	_	
+12	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	she	she	pro:sub	pro:sub	_	_	_	_	_	
+3	had	have	v	v	PAST	_	_	_	_	
+4	a	a	det	det	_	_	_	_	_	
+5	hard	hard	adj	adj	_	_	_	_	_	
+6	time	time	n	n	_	_	_	_	_	
+7	with	with	prep	prep	_	_	_	_	_	
+8	people	person	n	n	PL	_	_	_	_	
+9	.	.	Punc	Punc	_	_	_	_	_	
+
+1	I	I	pro:sub	pro:sub	_	_	_	_	_	
+2	guess	guess	v	v	_	_	_	_	_	
+3	all	all	qn	qn	_	_	_	_	_	
+4	her	her	pro:poss:det	pro:poss:det	_	_	_	_	_	
+5	life	life	n	n	_	_	_	_	_	
+6	.	.	Punc	Punc	_	_	_	_	_	
+
+1	but	but	conj	conj	_	_	_	_	_	
+2	anyway	anyway	adv	adv	_	_	_	_	_	
+3	when	when	conj	conj	_	_	_	_	_	
+4	I	I	pro:sub	pro:sub	_	_	_	_	_	
+5	started	start	v	v	PAST	_	_	_	_	
+6	cleaning	clean	n:gerund	n:gerund	PRESP	_	_	_	_	
+7	her	her	pro:poss:det	pro:poss:det	_	_	_	_	_	
+8	house	house	n	n	_	_	_	_	_	
+9	+//.	+//.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	we	we	pro:sub	pro:sub	_	_	_	_	_	
+3	really	real	adv	adv	dadj|LY	_	_	_	_	
+4	developed	develop	v	v	PAST	_	_	_	_	
+5	a	a	det	det	_	_	_	_	_	
+6	very	very	adv:int	adv:int	_	_	_	_	_	
+7	very	very	adv:int	adv:int	_	_	_	_	_	
+8	good	good	adj	adj	_	_	_	_	_	
+9	relationship	relationship	n	n	_	_	_	_	_	
+10	with	with	prep	prep	_	_	_	_	_	
+11	her	her	pro:obj	pro:obj	_	_	_	_	_	
+12	.	.	Punc	Punc	_	_	_	_	_	
+
+1	alright	alright	co	co	_	_	_	_	_	
+2	.	.	Punc	Punc	_	_	_	_	_	
+
+1	is	be	cop	cop	3S	_	_	_	_	
+2	there	there	adv	adv	_	_	_	_	_	
+3	anything	anything	pro:indef	pro:indef	_	_	_	_	_	
+4	you	you	pro	pro	_	_	_	_	_	
+5	want	want	v	v	_	_	_	_	_	
+6	to	to	inf	inf	_	_	_	_	_	
+7	add	add	v	v	_	_	_	_	_	
+8	about	about	prep	prep	_	_	_	_	_	
+9	the	the	det	det	_	_	_	_	_	
+10	problems	problem	n	n	PL	_	_	_	_	
+11	or	or	coord	coord	_	_	_	_	_	
+12	what	what	pro:wh	pro:wh	_	_	_	_	_	
+13	you	you	pro	pro	_	_	_	_	_	
+14	did	do	v	v	PAST	_	_	_	_	
+15	about	about	prep	prep	_	_	_	_	_	
+16	them	them	pro:obj	pro:obj	_	_	_	_	_	
+17	?	?	Punc	Punc	_	_	_	_	_	
+
+1	with	with	prep	prep	_	_	_	_	_	
+2	her	her	pro:obj	pro:obj	_	_	_	_	_	
+3	?	?	Punc	Punc	_	_	_	_	_	
+
+1	mhm	yes	co	co	_	_	_	_	_	
+2	.	.	Punc	Punc	_	_	_	_	_	
+
+1	yeah	yeah	co	co	_	_	_	_	_	
+2	.	.	Punc	Punc	_	_	_	_	_	
+
+1	I	I	pro:sub	pro:sub	_	_	_	_	_	
+2	sat	sit	v	v	PAST	_	_	_	_	
+3	and	and	coord	coord	_	_	_	_	_	
+4	talked	talk	v	v	PAST	_	_	_	_	
+5	to	to	prep	prep	_	_	_	_	_	
+6	her	her	pro:obj	pro:obj	_	_	_	_	_	
+7	a_lot	a_lot	adv	adv	_	_	_	_	_	
+8	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	I	I	pro:sub	pro:sub	_	_	_	_	_	
+3	told	tell	v	v	PAST	_	_	_	_	
+4	her	her	pro:obj	pro:obj	_	_	_	_	_	
+5	+"/.	+"/.	Punc	Punc	_	_	_	_	_	
+
+1	it's	it	pro	pro	_	_	_	_	_	
+2	-'s	be	cop	cop	3S	_	_	_	_	
+3	okay	okay	adj	adj	_	_	_	_	_	
+4	.	.	Punc	Punc	_	_	_	_	_	
+
+1	you_know	you_know	co	co	_	_	_	_	_	
+2	she	she	pro:sub	pro:sub	_	_	_	_	_	
+3	says	say	v	v	3S	_	_	_	_	
+4	she	she	pro:sub	pro:sub	_	_	_	_	_	
+5	can't	can	mod	mod	_	_	_	_	_	
+6	-'n't	not	neg	neg	_	_	_	_	_	
+7	communicate	communicate	v	v	_	_	_	_	_	
+8	with	with	prep	prep	_	_	_	_	_	
+9	people	person	n	n	PL	_	_	_	_	
+10	.	.	Punc	Punc	_	_	_	_	_	
+
+1	you_know	you_know	co	co	_	_	_	_	_	
+2	of_course	of_course	co	co	_	_	_	_	_	
+3	owning	own	n:gerund	n:gerund	PRESP	_	_	_	_	
+4	restaurants	restaurant	n	n	PL	_	_	_	_	
+5	for	for	prep	prep	_	_	_	_	_	
+6	years	year	n	n	PL	_	_	_	_	
+7	and	and	coord	coord	_	_	_	_	_	
+8	years	year	n	n	PL	_	_	_	_	
+9	and	and	coord	coord	_	_	_	_	_	
+10	years	year	n	n	PL	_	_	_	_	
+11	when	when	conj	conj	_	_	_	_	_	
+12	she	she	pro:sub	pro:sub	_	_	_	_	_	
+13	was	be	cop	cop	PAST|13S	_	_	_	_	
+14	a_lot	a_lot	adv	adv	_	_	_	_	_	
+15	younger	young	adj	adj	CP	_	_	_	_	
+16	and	and	coord	coord	_	_	_	_	_	
+17	her	her	pro:poss:det	pro:poss:det	_	_	_	_	_	
+18	husband	husband	n	n	_	_	_	_	_	
+19	was	be	cop	cop	PAST|13S	_	_	_	_	
+20	alive	alive	adj	adj	_	_	_	_	_	
+21	which	which	rel	rel	_	_	_	_	_	
+22	he	he	pro:sub	pro:sub	_	_	_	_	_	
+23	had	have	v	v	PAST	_	_	_	_	
+24	emphysema	emphysema	n	n	_	_	_	_	_	
+25	.	.	Punc	Punc	_	_	_	_	_	
+
+1	she	she	pro:sub	pro:sub	_	_	_	_	_	
+2	was	be	cop	cop	PAST|13S	_	_	_	_	
+3	sort_of	sort_of	adv:int	adv:int	_	_	_	_	_	
+4	like	like	co	co	_	_	_	_	_	
+5	in	in	prep	prep	_	_	_	_	_	
+6	the	the	det	det	_	_	_	_	_	
+7	house	house	n	n	_	_	_	_	_	
+8	all	all	qn	qn	_	_	_	_	_	
+9	the	the	det	det	_	_	_	_	_	
+10	time	time	n	n	_	_	_	_	_	
+11	so	so	co	co	_	_	_	_	_	
+12	+...	+...	Punc	Punc	_	_	_	_	_	
+
+1	but	but	conj	conj	_	_	_	_	_	
+2	her	her	pro:poss:det	pro:poss:det	_	_	_	_	_	
+3	daughter	daughter	n	n	_	_	_	_	_	
+4	and	and	coord	coord	_	_	_	_	_	
+5	son	son	n	n	_	_	_	_	_	
+6	took	take	v	v	PAST	_	_	_	_	
+7	care	care	n	n	_	_	_	_	_	
+8	of	of	prep	prep	_	_	_	_	_	
+9	the	the	det	det	_	_	_	_	_	
+10	businesses	business	n	n	PL	_	_	_	_	
+11	.	.	Punc	Punc	_	_	_	_	_	
+
+1	but	but	conj	conj	_	_	_	_	_	
+2	they	they	pro:sub	pro:sub	_	_	_	_	_	
+3	overpowered	power	v	v	over|PAST	_	_	_	_	
+4	her	her	pro:obj	pro:obj	_	_	_	_	_	
+5	.	.	Punc	Punc	_	_	_	_	_	
+
+1	so	so	co	co	_	_	_	_	_	
+2	through	through	prep	prep	_	_	_	_	_	
+3	the	the	det	det	_	_	_	_	_	
+4	years	year	n	n	PL	_	_	_	_	
+5	she	she	pro:sub	pro:sub	_	_	_	_	_	
+6	was	be	aux	aux	PAST|13S	_	_	_	_	
+7	having	have	part	part	PRESP	_	_	_	_	
+8	problems	problem	n	n	PL	_	_	_	_	
+9	.	.	Punc	Punc	_	_	_	_	_	
+
+1	she	she	pro:sub	pro:sub	_	_	_	_	_	
+2	didn't	do	mod	mod	PAST	_	_	_	_	
+3	-'n't	not	neg	neg	_	_	_	_	_	
+4	want	want	v	v	_	_	_	_	_	
+5	to	to	inf	inf	_	_	_	_	_	
+6	go	go	v	v	_	_	_	_	_	
+7	to	to	prep	prep	_	_	_	_	_	
+8	the	the	det	det	_	_	_	_	_	
+9	restaurant	restaurant	n	n	_	_	_	_	_	
+10	like	like	prep	prep	_	_	_	_	_	
+11	she	she	pro:sub	pro:sub	_	_	_	_	_	
+12	used	use	v	v	PAST	_	_	_	_	
+13	to	to	inf	inf	_	_	_	_	_	
+14	and	and	coord	coord	_	_	_	_	_	
+15	visit	visit	v	v	_	_	_	_	_	
+16	the	the	det	det	_	_	_	_	_	
+17	people	person	n	n	PL	_	_	_	_	
+18	and	and	coord	coord	_	_	_	_	_	
+19	oversee	see	v	v	over	_	_	_	_	
+20	.	.	Punc	Punc	_	_	_	_	_	
+
+1	I	I	pro:sub	pro:sub	_	_	_	_	_	
+2	mean	mean	v	v	_	_	_	_	_	
+3	she	she	pro:sub	pro:sub	_	_	_	_	_	
+4	owned	own	v	v	PAST	_	_	_	_	
+5	them	them	pro:obj	pro:obj	_	_	_	_	_	
+6	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	I	I	pro:sub	pro:sub	_	_	_	_	_	
+3	told	tell	v	v	PAST	_	_	_	_	
+4	her	her	pro:obj	pro:obj	_	_	_	_	_	
+5	+"/.	+"/.	Punc	Punc	_	_	_	_	_	
+
+1	you_know	you_know	co	co	_	_	_	_	_	
+2	you	you	pro	pro	_	_	_	_	_	
+3	shouldn't	should	mod	mod	_	_	_	_	_	
+4	-'n't	not	neg	neg	_	_	_	_	_	
+5	be	be	cop	cop	_	_	_	_	_	
+6	+...	+...	Punc	Punc	_	_	_	_	_	
+
+1	you_know	you_know	co	co	_	_	_	_	_	
+2	she	she	pro:sub	pro:sub	_	_	_	_	_	
+3	was	be	aux	aux	PAST|13S	_	_	_	_	
+4	having	have	part	part	PRESP	_	_	_	_	
+5	a	a	det	det	_	_	_	_	_	
+6	hard	hard	adj	adj	_	_	_	_	_	
+7	time	time	n	n	_	_	_	_	_	
+8	.	.	Punc	Punc	_	_	_	_	_	
+
+1	I	I	pro:sub	pro:sub	_	_	_	_	_	
+2	says	say	v	v	3S	_	_	_	_	
+3	+"/.	+"/.	Punc	Punc	_	_	_	_	_	
+
+1	you	you	pro	pro	_	_	_	_	_	
+2	can't	can	mod	mod	_	_	_	_	_	
+3	-'n't	not	neg	neg	_	_	_	_	_	
+4	be	be	aux	aux	_	_	_	_	_	
+5	embarrassed	embarrass	part	part	PASTP	_	_	_	_	
+6	about	about	adv	adv	_	_	_	_	_	
+7	+...	+...	Punc	Punc	_	_	_	_	_	
+
+1	because	because	conj	conj	_	_	_	_	_	
+2	you	you	pro	pro	_	_	_	_	_	
+3	can't	can	mod	mod	_	_	_	_	_	
+4	-'n't	not	neg	neg	_	_	_	_	_	
+5	get	get	v	v	_	_	_	_	_	
+6	around	around	adv	adv	_	_	_	_	_	
+7	as	as	adv	adv	_	_	_	_	_	
+8	much	much	qn	qn	_	_	_	_	_	
+9	+/.	+/.	Punc	Punc	_	_	_	_	_	
+
+1	mhm	yes	co	co	_	_	_	_	_	
+2	.	.	Punc	Punc	_	_	_	_	_	
+
+1	you_know	you_know	co	co	_	_	_	_	_	
+2	on	on	prep	prep	_	_	_	_	_	
+3	a	a	det	det	_	_	_	_	_	
+4	walker	walk	n	n	dv|AGT	_	_	_	_	
+5	you	you	pro	pro	_	_	_	_	_	
+6	don't	do	mod	mod	_	_	_	_	_	
+7	-'n't	not	neg	neg	_	_	_	_	_	
+8	want	want	v	v	_	_	_	_	_	
+9	the	the	det	det	_	_	_	_	_	
+10	neighbors	neighbor	n	n	PL	_	_	_	_	
+11	to	to	inf	inf	_	_	_	_	_	
+12	see	see	v	v	_	_	_	_	_	
+13	you	you	pro	pro	_	_	_	_	_	
+14	outside	outside	adv	adv	_	_	_	_	_	
+15	.	.	Punc	Punc	_	_	_	_	_	
+
+1	I'll	I	pro:sub	pro:sub	_	_	_	_	_	
+2	-'ll	will	mod	mod	_	_	_	_	_	
+3	roll	roll	v	v	_	_	_	_	_	
+4	you	you	pro	pro	_	_	_	_	_	
+5	around	around	adv	adv	_	_	_	_	_	
+6	in	in	prep	prep	_	_	_	_	_	
+7	a	a	det	det	_	_	_	_	_	
+8	wheelchair	wheel+chair	n	n	_	_	_	_	_	
+9	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	I	I	pro:sub	pro:sub	_	_	_	_	_	
+3	says	say	v	v	3S	_	_	_	_	
+4	+"/.	+"/.	Punc	Punc	_	_	_	_	_	
+
+1	we	we	pro:sub	pro:sub	_	_	_	_	_	
+2	can	can	mod	mod	_	_	_	_	_	
+3	go	go	v	v	_	_	_	_	_	
+4	visit	visit	v	v	_	_	_	_	_	
+5	your	your	pro:poss:det	pro:poss:det	_	_	_	_	_	
+6	neighbors	neighbor	n	n	PL	_	_	_	_	
+7	.	.	Punc	Punc	_	_	_	_	_	
+
+1	you_know	you_know	co	co	_	_	_	_	_	
+2	.	.	Punc	Punc	_	_	_	_	_	
+
+1	that's	that	pro:dem	pro:dem	_	_	_	_	_	
+2	-'s	be	cop	cop	3S	_	_	_	_	
+3	because	because	conj	conj	_	_	_	_	_	
+4	you	you	pro	pro	_	_	_	_	_	
+5	got_to	got_to	mod:aux	mod:aux	_	_	_	_	_	
+6	keep	keep	v	v	_	_	_	_	_	
+7	communicating	communicate	part	part	PRESP	_	_	_	_	
+8	to	to	inf	inf	_	_	_	_	_	
+9	keep	keep	v	v	_	_	_	_	_	
+10	your	your	pro:poss:det	pro:poss:det	_	_	_	_	_	
+11	mind	mind	n	n	_	_	_	_	_	
+12	active	active	adj	adj	_	_	_	_	_	
+13	you_know	you_know	co	co	_	_	_	_	_	
+14	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	I	I	pro:sub	pro:sub	_	_	_	_	_	
+3	says	say	v	v	3S	_	_	_	_	
+4	+"/.	+"/.	Punc	Punc	_	_	_	_	_	
+
+1	you're	you	pro	pro	_	_	_	_	_	
+2	-'re	be	cop	cop	PRES	_	_	_	_	
+3	fine	fine	adj	adj	_	_	_	_	_	
+4	with	with	prep	prep	_	_	_	_	_	
+5	me	me	pro:obj	pro:obj	_	_	_	_	_	
+6	because	because	conj	conj	_	_	_	_	_	
+7	we	we	pro:sub	pro:sub	_	_	_	_	_	
+8	developed	develop	v	v	PAST	_	_	_	_	
+9	this	this	det	det	_	_	_	_	_	
+10	special	special	n	n	_	_	_	_	_	
+11	friendship	friendship	n	n	_	_	_	_	_	
+12	.	.	Punc	Punc	_	_	_	_	_	
+
+1	you_know	you_know	co	co	_	_	_	_	_	
+2	I'm	I	pro:sub	pro:sub	_	_	_	_	_	
+3	-'m	be	cop	cop	1S	_	_	_	_	
+4	here	here	adv	adv	_	_	_	_	_	
+5	twice	twice	adv	adv	_	_	_	_	_	
+6	a_week	a_week	adv:tem	adv:tem	_	_	_	_	_	
+7	.	.	Punc	Punc	_	_	_	_	_	
+
+1	mhm	yes	co	co	_	_	_	_	_	
+2	.	.	Punc	Punc	_	_	_	_	_	
+
+1	you_know	you_know	co	co	_	_	_	_	_	
+2	and	and	coord	coord	_	_	_	_	_	
+3	it's	it	pro	pro	_	_	_	_	_	
+4	-'s	be	cop	cop	3S	_	_	_	_	
+5	easy	ease	adj	adj	dn|Y	_	_	_	_	
+6	to	to	inf	inf	_	_	_	_	_	
+7	talk	talk	v	v	_	_	_	_	_	
+8	to	to	prep	prep	_	_	_	_	_	
+9	me	me	pro:obj	pro:obj	_	_	_	_	_	
+10	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	I'm	I	pro:sub	pro:sub	_	_	_	_	_	
+3	-'m	be	aux	aux	1S	_	_	_	_	
+4	cleaning	clean	part	part	PRESP	_	_	_	_	
+5	your	your	pro:poss:det	pro:poss:det	_	_	_	_	_	
+6	house	house	n	n	_	_	_	_	_	
+7	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	you_know	you_know	co	co	_	_	_	_	_	
+3	we	we	pro:sub	pro:sub	_	_	_	_	_	
+4	have	have	v	v	_	_	_	_	_	
+5	lunch	lunch	n	n	_	_	_	_	_	
+6	.	.	Punc	Punc	_	_	_	_	_	
+
+1	I	I	pro:sub	pro:sub	_	_	_	_	_	
+2	take	take	v	v	_	_	_	_	_	
+3	you	you	pro	pro	_	_	_	_	_	
+4	to	to	prep	prep	_	_	_	_	_	
+5	the	the	det	det	_	_	_	_	_	
+6	doctor	doctor	n	n	_	_	_	_	_	
+7	.	.	Punc	Punc	_	_	_	_	_	
+
+1	which	which	rel	rel	_	_	_	_	_	
+2	she	she	pro:sub	pro:sub	_	_	_	_	_	
+3	didn't	do	mod	mod	PAST	_	_	_	_	
+4	-'n't	not	neg	neg	_	_	_	_	_	
+5	like	like	v	v	_	_	_	_	_	
+6	to	to	inf	inf	_	_	_	_	_	
+7	go	go	v	v	_	_	_	_	_	
+8	because	because	conj	conj	_	_	_	_	_	
+9	she	she	pro:sub	pro:sub	_	_	_	_	_	
+10	just	just	adv:int	adv:int	_	_	_	_	_	
+11	still	still	adv	adv	_	_	_	_	_	
+12	feels	feel	v	v	3S	_	_	_	_	
+13	awkward	awkward	adj	adj	_	_	_	_	_	
+14	.	.	Punc	Punc	_	_	_	_	_	
+
+1	you_know	you_know	co	co	_	_	_	_	_	
+2	getting	get	adj	adj	PRESP	_	_	_	_	
+3	old	old	adj	adj	_	_	_	_	_	
+4	.	.	Punc	Punc	_	_	_	_	_	
+
+1	it's	it	pro	pro	_	_	_	_	_	
+2	-'s	be	cop	cop	3S	_	_	_	_	
+3	hard	hard	adj	adj	_	_	_	_	_	
+4	to	to	inf	inf	_	_	_	_	_	
+5	explain	explain	v	v	_	_	_	_	_	
+6	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	I	I	pro:sub	pro:sub	_	_	_	_	_	
+3	said	say	v	v	PAST	_	_	_	_	
+4	+"/.	+"/.	Punc	Punc	_	_	_	_	_	
+
+1	maybe	maybe	adv	adv	_	_	_	_	_	
+2	we	we	pro:sub	pro:sub	_	_	_	_	_	
+3	could	could	mod	mod	_	_	_	_	_	
+4	go	go	v	v	_	_	_	_	_	
+5	down	down	adv	adv	_	_	_	_	_	
+6	to	to	prep	prep	_	_	_	_	_	
+7	the	the	det	det	_	_	_	_	_	
+8	restaurant	restaurant	n	n	_	_	_	_	_	
+9	.	.	Punc	Punc	_	_	_	_	_	
+
+1	you_know	you_know	co	co	_	_	_	_	_	
+2	.	.	Punc	Punc	_	_	_	_	_	
+
+1	yeah	yeah	co	co	_	_	_	_	_	
+2	.	.	Punc	Punc	_	_	_	_	_	
+
+1	you_know	you_know	co	co	_	_	_	_	_	
+2	I	I	pro:sub	pro:sub	_	_	_	_	_	
+3	got	get	v	v	PAST	_	_	_	_	
+4	a	a	det	det	_	_	_	_	_	
+5	car	car	n	n	_	_	_	_	_	
+6	.	.	Punc	Punc	_	_	_	_	_	
+
+1	I'll	I	pro:sub	pro:sub	_	_	_	_	_	
+2	-'ll	will	mod	mod	_	_	_	_	_	
+3	drive	drive	v	v	_	_	_	_	_	
+4	you	you	pro	pro	_	_	_	_	_	
+5	.	.	Punc	Punc	_	_	_	_	_	
+
+1	you	you	pro	pro	_	_	_	_	_	
+2	get	get	v	v	_	_	_	_	_	
+3	in	in	adv	adv	_	_	_	_	_	
+4	.	.	Punc	Punc	_	_	_	_	_	
+
+1	we'll	we	pro:sub	pro:sub	_	_	_	_	_	
+2	-'ll	will	mod	mod	_	_	_	_	_	
+3	go	go	v	v	_	_	_	_	_	
+4	visit	visit	n	n	_	_	_	_	_	
+5	you_know	you_know	co	co	_	_	_	_	_	
+6	the	the	det	det	_	_	_	_	_	
+7	girls	girl	n	n	PL	_	_	_	_	
+8	that	that	rel	rel	_	_	_	_	_	
+9	worked	work	v	v	PAST	_	_	_	_	
+10	for	for	prep	prep	_	_	_	_	_	
+11	you	you	pro	pro	_	_	_	_	_	
+12	for	for	prep	prep	_	_	_	_	_	
+13	like	like	co	co	_	_	_	_	_	
+14	fifteen	fifteen	det:num	det:num	_	_	_	_	_	
+15	years	year	n	n	PL	_	_	_	_	
+16	and	and	coord	coord	_	_	_	_	_	
+17	the	the	det	det	_	_	_	_	_	
+18	people	person	n	n	PL	_	_	_	_	
+19	that	that	rel	rel	_	_	_	_	_	
+20	you've	you	pro	pro	_	_	_	_	_	
+21	-'ve	have	aux	aux	_	_	_	_	_	
+22	known	know	part	part	PASTP	_	_	_	_	
+23	and	and	coord	coord	_	_	_	_	_	
+24	they	they	pro:sub	pro:sub	_	_	_	_	_	
+25	know	know	v	v	_	_	_	_	_	
+26	you	you	pro	pro	_	_	_	_	_	
+27	.	.	Punc	Punc	_	_	_	_	_	
+
+1	you_know	you_know	co	co	_	_	_	_	_	
+2	just	just	adv:int	adv:int	_	_	_	_	_	
+3	trying	try	part	part	PRESP	_	_	_	_	
+4	to	to	inf	inf	_	_	_	_	_	
+5	get	get	v	v	_	_	_	_	_	
+6	her	her	pro:obj	pro:obj	_	_	_	_	_	
+7	to	to	inf	inf	_	_	_	_	_	
+8	open	open	v	v	_	_	_	_	_	
+9	up	up	adv	adv	_	_	_	_	_	
+10	and	and	coord	coord	_	_	_	_	_	
+11	like	like	co	co	_	_	_	_	_	
+12	visit	visit	n	n	_	_	_	_	_	
+13	or	or	coord	coord	_	_	_	_	_	
+14	you_know	you_know	co	co	_	_	_	_	_	
+15	.	.	Punc	Punc	_	_	_	_	_	
+
+1	yeah	yeah	co	co	_	_	_	_	_	
+2	.	.	Punc	Punc	_	_	_	_	_	
+
+1	it's	it	pro	pro	_	_	_	_	_	
+2	-'s	be	cop	cop	3S	_	_	_	_	
+3	okay	okay	adj	adj	_	_	_	_	_	
+4	if	if	conj	conj	_	_	_	_	_	
+5	you're	you	pro	pro	_	_	_	_	_	
+6	-'re	be	cop	cop	PRES	_	_	_	_	
+7	out	out	prep	prep	_	_	_	_	_	
+8	in	in	prep	prep	_	_	_	_	_	
+9	a	a	det	det	_	_	_	_	_	
+10	wheelchair	wheel+chair	n	n	_	_	_	_	_	
+11	.	.	Punc	Punc	_	_	_	_	_	
+
+1	I'll	I	pro:sub	pro:sub	_	_	_	_	_	
+2	-'ll	will	mod	mod	_	_	_	_	_	
+3	push	push	v	v	_	_	_	_	_	
+4	you	you	pro	pro	_	_	_	_	_	
+5	around	around	adv	adv	_	_	_	_	_	
+6	.	.	Punc	Punc	_	_	_	_	_	
+
+1	you've	you	pro	pro	_	_	_	_	_	
+2	-'ve	have	aux	aux	_	_	_	_	_	
+3	lived	live	part	part	PASTP	_	_	_	_	
+4	in	in	prep	prep	_	_	_	_	_	
+5	this	this	det	det	_	_	_	_	_	
+6	neighborhood	neighborhood	n	n	_	_	_	_	_	
+7	for	for	prep	prep	_	_	_	_	_	
+8	a	a	det	det	_	_	_	_	_	
+9	long	long	adj	adj	_	_	_	_	_	
+10	time	time	n	n	_	_	_	_	_	
+11	.	.	Punc	Punc	_	_	_	_	_	
+
+1	people	person	n	n	PL	_	_	_	_	
+2	don't	do	mod	mod	_	_	_	_	_	
+3	-'n't	not	neg	neg	_	_	_	_	_	
+4	foresee	foresee	v	v	_	_	_	_	_	
+5	you	you	pro	pro	_	_	_	_	_	
+6	as	as	adv	adv	_	_	_	_	_	
+7	crippled	cripple	adj	adj	PASTP	_	_	_	_	
+8	up	up	prep	prep	_	_	_	_	_	
+9	old	old	adj	adj	_	_	_	_	_	
+10	lady	lady	n	n	_	_	_	_	_	
+11	that	that	rel	rel	_	_	_	_	_	
+12	you_know	you_know	co	co	_	_	_	_	_	
+13	is	be	aux	aux	3S	_	_	_	_	
+14	getting	get	part	part	PRESP	_	_	_	_	
+15	older	old	adj	adj	CP	_	_	_	_	
+16	.	.	Punc	Punc	_	_	_	_	_	
+
+1	mhm	yes	co	co	_	_	_	_	_	
+2	.	.	Punc	Punc	_	_	_	_	_	
+
+1	yeah	yeah	co	co	_	_	_	_	_	
+2	.	.	Punc	Punc	_	_	_	_	_	
+
+1	so	so	conj	conj	_	_	_	_	_	
+2	we	we	pro:sub	pro:sub	_	_	_	_	_	
+3	discussed	discuss	v	v	PAST	_	_	_	_	
+4	those	those	det	det	_	_	_	_	_	
+5	type	type	n	n	_	_	_	_	_	
+6	of	of	prep	prep	_	_	_	_	_	
+7	problems	problem	n	n	PL	_	_	_	_	
+8	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	settled	settle	v	v	PAST	_	_	_	_	
+3	them	them	pro:obj	pro:obj	_	_	_	_	_	
+4	pretty	pretty	adv:int	adv:int	_	_	_	_	_	
+5	much	much	qn	qn	_	_	_	_	_	
+6	.	.	Punc	Punc	_	_	_	_	_	
+
+1	oh	oh	co	co	_	_	_	_	_	
+2	that	that	pro:dem	pro:dem	_	_	_	_	_	
+3	was	be	cop	cop	PAST|13S	_	_	_	_	
+4	nice	nice	adj	adj	_	_	_	_	_	
+5	of	of	prep	prep	_	_	_	_	_	
+6	you	you	pro	pro	_	_	_	_	_	
+7	.	.	Punc	Punc	_	_	_	_	_	
+
+1	she	she	pro:sub	pro:sub	_	_	_	_	_	
+2	a	a	det	det	_	_	_	_	_	
+3	beautiful	beautiful	adj	adj	_	_	_	_	_	
+4	woman	woman	n	n	_	_	_	_	_	
+5	.	.	Punc	Punc	_	_	_	_	_	
+
+1	that	that	pro:dem	pro:dem	_	_	_	_	_	
+2	would	will	mod	mod	COND	_	_	_	_	
+3	be	be	cop	cop	_	_	_	_	_	
+4	my	my	pro:poss:det	pro:poss:det	_	_	_	_	_	
+5	marriage	marriage	n	n	_	_	_	_	_	
+6	but	but	conj	conj	_	_	_	_	_	
+7	I	I	pro:sub	pro:sub	_	_	_	_	_	
+8	am	be	aux	aux	1S	_	_	_	_	
+9	not	not	neg	neg	_	_	_	_	_	
+10	going	go	part	part	PRESP	_	_	_	_	
+11	to	to	inf	inf	_	_	_	_	_	
+12	go	go	v	v	_	_	_	_	_	
+13	into	into	prep	prep	_	_	_	_	_	
+14	that	that	pro:dem	pro:dem	_	_	_	_	_	
+15	.	.	Punc	Punc	_	_	_	_	_	
+
+1	I	I	pro:sub	pro:sub	_	_	_	_	_	
+2	think	think	v	v	_	_	_	_	_	
+3	an	a	det	det	_	_	_	_	_	
+4	accident	accident	n	n	_	_	_	_	_	
+5	in	in	prep	prep	_	_	_	_	_	
+6	a	a	det	det	_	_	_	_	_	
+7	car	car	n	n	_	_	_	_	_	
+8	that	that	rel	rel	_	_	_	_	_	
+9	I	I	pro:sub	pro:sub	_	_	_	_	_	
+10	was	be	cop	cop	PAST|13S	_	_	_	_	
+11	in	in	adv	adv	_	_	_	_	_	
+12	.	.	Punc	Punc	_	_	_	_	_	
+
+1	my	my	pro:poss:det	pro:poss:det	_	_	_	_	_	
+2	daughter	daughter	n	n	_	_	_	_	_	
+3	was	be	aux	aux	PAST|13S	_	_	_	_	
+4	driving	drive	part	part	PRESP	_	_	_	_	
+5	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	so	so	co	co	_	_	_	_	_	
+3	we	we	pro:sub	pro:sub	_	_	_	_	_	
+4	were	be	aux	aux	PAST	_	_	_	_	
+5	driving	drive	part	part	PRESP	_	_	_	_	
+6	down	down	prep	prep	_	_	_	_	_	
+7	the	the	det	det	_	_	_	_	_	
+8	street	street	n	n	_	_	_	_	_	
+9	.	.	Punc	Punc	_	_	_	_	_	
+
+1	the	the	det	det	_	_	_	_	_	
+2	grandson	son	n	n	grand	_	_	_	_	
+3	of_course	of_course	co	co	_	_	_	_	_	
+4	is	be	cop	cop	3S	_	_	_	_	
+5	the	the	det	det	_	_	_	_	_	
+6	baby	baby	n	n	_	_	_	_	_	
+7	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	we	we	pro:sub	pro:sub	_	_	_	_	_	
+3	were	be	cop	cop	PAST	_	_	_	_	
+4	in	in	prep	prep	_	_	_	_	_	
+5	the	the	det	det	_	_	_	_	_	
+6	car	car	n	n	_	_	_	_	_	
+7	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	you	you	pro	pro	_	_	_	_	_	
+3	could	could	mod	mod	_	_	_	_	_	
+4	see	see	v	v	_	_	_	_	_	
+5	this	this	det	det	_	_	_	_	_	
+6	guy	guy	n	n	_	_	_	_	_	
+7	coming	come	adj	adj	PRESP	_	_	_	_	
+8	from	from	prep	prep	_	_	_	_	_	
+9	+//.	+//.	Punc	Punc	_	_	_	_	_	
+
+1	we	we	pro:sub	pro:sub	_	_	_	_	_	
+2	were	be	aux	aux	PAST	_	_	_	_	
+3	stopped	stop	part	part	PASTP	_	_	_	_	
+4	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	then	then	adv:tem	adv:tem	_	_	_	_	_	
+3	we	we	pro:sub	pro:sub	_	_	_	_	_	
+4	pull	pull	v	v	_	_	_	_	_	
+5	up	up	adv	adv	_	_	_	_	_	
+6	but	but	conj	conj	_	_	_	_	_	
+7	the	the	det	det	_	_	_	_	_	
+8	guy	guy	n	n	_	_	_	_	_	
+9	didn't	do	mod	mod	PAST	_	_	_	_	
+10	-'n't	not	neg	neg	_	_	_	_	_	
+11	stop	stop	n	n	_	_	_	_	_	
+12	.	.	Punc	Punc	_	_	_	_	_	
+
+1	so	so	co	co	_	_	_	_	_	
+2	you	you	pro	pro	_	_	_	_	_	
+3	could	could	mod	mod	_	_	_	_	_	
+4	see	see	v	v	_	_	_	_	_	
+5	him	him	pro:obj	pro:obj	_	_	_	_	_	
+6	you_know	you_know	co	co	_	_	_	_	_	
+7	coming	come	n:gerund	n:gerund	PRESP	_	_	_	_	
+8	towards	towards	prep	prep	_	_	_	_	_	
+9	you	you	pro	pro	_	_	_	_	_	
+10	.	.	Punc	Punc	_	_	_	_	_	
+
+1	nothing	nothing	pro:indef	pro:indef	_	_	_	_	_	
+2	you	you	pro	pro	_	_	_	_	_	
+3	can	can	mod	mod	_	_	_	_	_	
+4	do	do	v	v	_	_	_	_	_	
+5	.	.	Punc	Punc	_	_	_	_	_	
+
+1	nothing	nothing	pro:indef	pro:indef	_	_	_	_	_	
+2	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	it's	it	pro	pro	_	_	_	_	_	
+3	-'s	be	cop	cop	3S	_	_	_	_	
+4	probably	probable	adv	adv	dadj|LY	_	_	_	_	
+5	the	the	det	det	_	_	_	_	_	
+6	third	third	adj	adj	_	_	_	_	_	
+7	scariest	scare	adj	adj	dn|Y|SP	_	_	_	_	
+8	thing	thing	n	n	_	_	_	_	_	
+9	I	I	pro:sub	pro:sub	_	_	_	_	_	
+10	think	think	v	v	_	_	_	_	_	
+11	I've	I	pro:sub	pro:sub	_	_	_	_	_	
+12	-'ve	have	aux	aux	_	_	_	_	_	
+13	ever	ever	adv	adv	_	_	_	_	_	
+14	experienced	experience	v	v	PAST	_	_	_	_	
+15	because	because	conj	conj	_	_	_	_	_	
+16	you	you	pro	pro	_	_	_	_	_	
+17	can't	can	mod	mod	_	_	_	_	_	
+18	-'n't	not	neg	neg	_	_	_	_	_	
+19	do	do	v	v	_	_	_	_	_	
+20	anything	anything	pro:indef	pro:indef	_	_	_	_	_	
+21	about	about	prep	prep	_	_	_	_	_	
+22	it	it	pro	pro	_	_	_	_	_	
+23	.	.	Punc	Punc	_	_	_	_	_	
+
+1	you	you	pro	pro	_	_	_	_	_	
+2	cannot	can	mod	mod	_	_	_	_	_	
+3	-'cannot	not	neg	neg	_	_	_	_	_	
+4	do	do	v	v	_	_	_	_	_	
+5	anything	anything	pro:indef	pro:indef	_	_	_	_	_	
+6	about	about	prep	prep	_	_	_	_	_	
+7	it	it	pro	pro	_	_	_	_	_	
+8	.	.	Punc	Punc	_	_	_	_	_	
+
+1	hello	hello	co	co	_	_	_	_	_	
+2	.	.	Punc	Punc	_	_	_	_	_	
+
+1	hit	hit	v	v	ZERO	_	_	_	_	
+2	me	me	pro:obj	pro:obj	_	_	_	_	_	
+3	you_know	you_know	co	co	_	_	_	_	_	
+4	.	.	Punc	Punc	_	_	_	_	_	
+
+1	anyway	anyway	adv	adv	_	_	_	_	_	
+2	their	their	pro:poss:det	pro:poss:det	_	_	_	_	_	
+3	s_u_v	s_u_v	n	n	_	_	_	_	_	
+4	turned	turn	v	v	PAST	_	_	_	_	
+5	over	over	adv	adv	_	_	_	_	_	
+6	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	I	I	pro:sub	pro:sub	_	_	_	_	_	
+3	was	be	aux	aux	PAST|13S	_	_	_	_	
+4	more	more	adv	adv	_	_	_	_	_	
+5	frightened	frighten	part	part	PASTP	_	_	_	_	
+6	for	for	prep	prep	_	_	_	_	_	
+7	my	my	pro:poss:det	pro:poss:det	_	_	_	_	_	
+8	grandson	son	n	n	grand	_	_	_	_	
+9	than	than	prep	prep	_	_	_	_	_	
+10	anything	anything	pro:indef	pro:indef	_	_	_	_	_	
+11	.	.	Punc	Punc	_	_	_	_	_	
+
+1	but	but	conj	conj	_	_	_	_	_	
+2	that's	that	pro:dem	pro:dem	_	_	_	_	_	
+3	-'s	be	aux	aux	3S	_	_	_	_	
+4	frightening	frighten	part	part	PRESP	_	_	_	_	
+5	when	when	conj	conj	_	_	_	_	_	
+6	you	you	pro	pro	_	_	_	_	_	
+7	know	know	v	v	_	_	_	_	_	
+8	you	you	pro	pro	_	_	_	_	_	
+9	can't	can	mod	mod	_	_	_	_	_	
+10	-'n't	not	neg	neg	_	_	_	_	_	
+11	control	control	v	v	_	_	_	_	_	
+12	+//.	+//.	Punc	Punc	_	_	_	_	_	
+
+1	if	if	conj	conj	_	_	_	_	_	
+2	you	you	pro	pro	_	_	_	_	_	
+3	cannot	can	mod	mod	_	_	_	_	_	
+4	-'cannot	not	neg	neg	_	_	_	_	_	
+5	control	control	v	v	_	_	_	_	_	
+6	your	your	pro:poss:det	pro:poss:det	_	_	_	_	_	
+7	situation	situation	n	n	_	_	_	_	_	
+8	like	like	prep	prep	_	_	_	_	_	
+9	that	that	pro:dem	pro:dem	_	_	_	_	_	
+10	and	and	coord	coord	_	_	_	_	_	
+11	you	you	pro	pro	_	_	_	_	_	
+12	know	know	v	v	_	_	_	_	_	
+13	something	something	pro:indef	pro:indef	_	_	_	_	_	
+14	bad	bad	adj	adj	_	_	_	_	_	
+15	is	be	aux	aux	3S	_	_	_	_	
+16	going	go	part	part	PRESP	_	_	_	_	
+17	to	to	inf	inf	_	_	_	_	_	
+18	run	run	v	v	_	_	_	_	_	
+19	into	into	prep	prep	_	_	_	_	_	
+20	you	you	pro	pro	_	_	_	_	_	
+21	it's	it	pro	pro	_	_	_	_	_	
+22	-'s	be	cop	cop	3S	_	_	_	_	
+23	very	very	adv:int	adv:int	_	_	_	_	_	
+24	difficult	difficult	adj	adj	_	_	_	_	_	
+25	.	.	Punc	Punc	_	_	_	_	_	
+
+1	it's	it	pro	pro	_	_	_	_	_	
+2	-'s	be	cop	cop	3S	_	_	_	_	
+3	scary	scare	adj	adj	dn|Y	_	_	_	_	
+4	.	.	Punc	Punc	_	_	_	_	_	
+
+1	because	because	conj	conj	_	_	_	_	_	
+2	you	you	pro	pro	_	_	_	_	_	
+3	know	know	v	v	_	_	_	_	_	
+4	it	it	pro	pro	_	_	_	_	_	
+5	.	.	Punc	Punc	_	_	_	_	_	
+
+1	yeah	yeah	co	co	_	_	_	_	_	
+2	.	.	Punc	Punc	_	_	_	_	_	
+
+1	it	it	pro	pro	_	_	_	_	_	
+2	looks	look	v	v	3S	_	_	_	_	
+3	like	like	rel	rel	_	_	_	_	_	
+4	there's	there	pro:exist	pro:exist	_	_	_	_	_	
+5	-'s	be	cop	cop	3S	_	_	_	_	
+6	a	a	det	det	_	_	_	_	_	
+7	+...	+...	Punc	Punc	_	_	_	_	_	
+
+1	I	I	pro:sub	pro:sub	_	_	_	_	_	
+2	was	be	aux	aux	PAST|13S	_	_	_	_	
+3	gonna	go	part	part	PRESP	_	_	_	_	
+4	-'gonna	to	inf	inf	_	_	_	_	_	
+5	say	say	v	v	_	_	_	_	_	
+6	she	she	pro:sub	pro:sub	_	_	_	_	_	
+7	looks	look	v	v	3S	_	_	_	_	
+8	like	like	prep	prep	_	_	_	_	_	
+9	a	a	det	det	_	_	_	_	_	
+10	young	young	adj	adj	_	_	_	_	_	
+11	child	child	n	n	_	_	_	_	_	
+12	.	.	Punc	Punc	_	_	_	_	_	
+
+1	I	I	pro:sub	pro:sub	_	_	_	_	_	
+2	don't	do	mod	mod	_	_	_	_	_	
+3	-'n't	not	neg	neg	_	_	_	_	_	
+4	know	know	v	v	_	_	_	_	_	
+5	.	.	Punc	Punc	_	_	_	_	_	
+
+1	not	not	neg	neg	_	_	_	_	_	
+2	young	young	adj	adj	_	_	_	_	_	
+3	young	young	adj	adj	_	_	_	_	_	
+4	but	but	conj	conj	_	_	_	_	_	
+5	+...	+...	Punc	Punc	_	_	_	_	_	
+
+1	she's	she	pro:sub	pro:sub	_	_	_	_	_	
+2	-'s	be	aux	aux	3S	_	_	_	_	
+3	stuck	stick	part	part	PASTP	_	_	_	_	
+4	in	in	prep	prep	_	_	_	_	_	
+5	the	the	det	det	_	_	_	_	_	
+6	water	water	n	n	_	_	_	_	_	
+7	.	.	Punc	Punc	_	_	_	_	_	
+
+1	it	it	pro	pro	_	_	_	_	_	
+2	looks	look	v	v	3S	_	_	_	_	
+3	like	like	rel	rel	_	_	_	_	_	
+4	after	after	prep	prep	_	_	_	_	_	
+5	a	a	det	det	_	_	_	_	_	
+6	flood	flood	n	n	_	_	_	_	_	
+7	.	.	Punc	Punc	_	_	_	_	_	
+
+1	she's	she	pro:sub	pro:sub	_	_	_	_	_	
+2	-'s	be	aux	aux	3S	_	_	_	_	
+3	very	very	adv:int	adv:int	_	_	_	_	_	
+4	stressed	stress	part	part	PASTP	_	_	_	_	
+5	.	.	Punc	Punc	_	_	_	_	_	
+
+1	scared	scare	adj	adj	PASTP	_	_	_	_	
+2	half	half	n	n	_	_	_	_	_	
+3	to	to	prep	prep	_	_	_	_	_	
+4	death	death	n	n	_	_	_	_	_	
+5	no	no	qn	qn	_	_	_	_	_	
+6	doubt	doubt	n	n	_	_	_	_	_	
+7	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	I'd	I	pro:sub	pro:sub	_	_	_	_	_	
+3	-'d	genmod	mod	mod	_	_	_	_	_	
+4	venture	venture	v	v	_	_	_	_	_	
+5	to	to	inf	inf	_	_	_	_	_	
+6	guess	guess	v	v	_	_	_	_	_	
+7	that	that	rel	rel	_	_	_	_	_	
+8	this	this	pro:dem	pro:dem	_	_	_	_	_	
+9	would	will	mod	mod	COND	_	_	_	_	
+10	be	be	cop	cop	_	_	_	_	_	
+11	a	a	det	det	_	_	_	_	_	
+12	rescue	rescue	n	n	_	_	_	_	_	
+13	person	person	n	n	_	_	_	_	_	
+14	who's	who	rel	rel	_	_	_	_	_	
+15	-'s	be	aux	aux	3S	_	_	_	_	
+16	hanging	hang	part	part	PRESP	_	_	_	_	
+17	on	on	prep	prep	_	_	_	_	_	
+18	a	a	det	det	_	_	_	_	_	
+19	tree	tree	n	n	_	_	_	_	_	
+20	limb	limb	n	n	_	_	_	_	_	
+21	trying	try	part	part	PRESP	_	_	_	_	
+22	to	to	inf	inf	_	_	_	_	_	
+23	get	get	v	v	_	_	_	_	_	
+24	to	to	prep	prep	_	_	_	_	_	
+25	her	her	pro:obj	pro:obj	_	_	_	_	_	
+26	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	he's	he	pro:sub	pro:sub	_	_	_	_	_	
+3	-'s	be	aux	aux	3S	_	_	_	_	
+4	got	get	part	part	PASTP	_	_	_	_	
+5	his	his	pro:poss:det	pro:poss:det	_	_	_	_	_	
+6	life	life	n	n	_	_	_	_	_	
+7	jacket	jacket	n	n	_	_	_	_	_	
+8	on	on	adv	adv	_	_	_	_	_	
+9	and	and	coord	coord	_	_	_	_	_	
+10	stuff	stuff	n	n	_	_	_	_	_	
+11	like	like	prep	prep	_	_	_	_	_	
+12	that	that	pro:dem	pro:dem	_	_	_	_	_	
+13	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	they're	they	pro:sub	pro:sub	_	_	_	_	_	
+3	-'re	be	cop	cop	PRES	_	_	_	_	
+4	really	real	adv	adv	dadj|LY	_	_	_	_	
+5	really	real	adv	adv	dadj|LY	_	_	_	_	
+6	struggling	struggle	part	part	PRESP	_	_	_	_	
+7	in	in	prep	prep	_	_	_	_	_	
+8	this	this	det	det	_	_	_	_	_	
+9	water	water	n	n	_	_	_	_	_	
+10	that	that	rel	rel	_	_	_	_	_	
+11	is	be	aux	aux	3S	_	_	_	_	
+12	just	just	adv:int	adv:int	_	_	_	_	_	
+13	like	like	prep	prep	_	_	_	_	_	
+14	terminal	terminal	adj	adj	_	_	_	_	_	
+15	.	.	Punc	Punc	_	_	_	_	_	
+
+1	looks	look	v	v	3S	_	_	_	_	
+2	like	like	prep	prep	_	_	_	_	_	
+3	a	a	det	det	_	_	_	_	_	
+4	flash	flash	n	n	_	_	_	_	_	
+5	flood	flood	n	n	_	_	_	_	_	
+6	or	or	coord	coord	_	_	_	_	_	
+7	something	something	pro:indef	pro:indef	_	_	_	_	_	
+8	like	like	prep	prep	_	_	_	_	_	
+9	that	that	pro:dem	pro:dem	_	_	_	_	_	
+10	.	.	Punc	Punc	_	_	_	_	_	
+
+1	he's	he	pro:sub	pro:sub	_	_	_	_	_	
+2	-'s	be	aux	aux	3S	_	_	_	_	
+3	really	real	adv	adv	dadj|LY	_	_	_	_	
+4	trying	try	part	part	PRESP	_	_	_	_	
+5	to	to	inf	inf	_	_	_	_	_	
+6	get	get	v	v	_	_	_	_	_	
+7	a	a	det	det	_	_	_	_	_	
+8	hold	hold	n	n	_	_	_	_	_	
+9	of	of	prep	prep	_	_	_	_	_	
+10	her	her	pro:obj	pro:obj	_	_	_	_	_	
+11	there	there	adv	adv	_	_	_	_	_	
+12	and	and	coord	coord	_	_	_	_	_	
+13	trying	try	part	part	PRESP	_	_	_	_	
+14	to	to	inf	inf	_	_	_	_	_	
+15	get	get	v	v	_	_	_	_	_	
+16	her	her	pro:obj	pro:obj	_	_	_	_	_	
+17	going	go	adj	adj	PRESP	_	_	_	_	
+18	.	.	Punc	Punc	_	_	_	_	_	
+
+1	I	I	pro:sub	pro:sub	_	_	_	_	_	
+2	couldn't	could	mod	mod	_	_	_	_	_	
+3	-'n't	not	neg	neg	_	_	_	_	_	
+4	tell	tell	v	v	_	_	_	_	_	
+5	you	you	pro	pro	_	_	_	_	_	
+6	what	what	pro:wh	pro:wh	_	_	_	_	_	
+7	the	the	det	det	_	_	_	_	_	
+8	end	end	n	n	_	_	_	_	_	
+9	of	of	prep	prep	_	_	_	_	_	
+10	it	it	pro	pro	_	_	_	_	_	
+11	is	be	cop	cop	3S	_	_	_	_	
+12	.	.	Punc	Punc	_	_	_	_	_	
+
+1	he	he	pro:sub	pro:sub	_	_	_	_	_	
+2	has	have	aux	aux	3S	_	_	_	_	
+3	not	not	neg	neg	_	_	_	_	_	
+4	got	get	part	part	PASTP	_	_	_	_	
+5	her	her	pro:obj	pro:obj	_	_	_	_	_	
+6	out	out	adv	adv	_	_	_	_	_	
+7	yet	yet	adv	adv	_	_	_	_	_	
+8	but	but	conj	conj	_	_	_	_	_	
+9	it	it	pro	pro	_	_	_	_	_	
+10	looks	look	v	v	3S	_	_	_	_	
+11	like	like	rel	rel	_	_	_	_	_	
+12	they're	they	pro:sub	pro:sub	_	_	_	_	_	
+13	-'re	be	aux	aux	PRES	_	_	_	_	
+14	going	go	part	part	PRESP	_	_	_	_	
+15	to	to	inf	inf	_	_	_	_	_	
+16	manage	manage	v	v	_	_	_	_	_	
+17	to	to	inf	inf	_	_	_	_	_	
+18	do	do	v	v	_	_	_	_	_	
+19	this	this	pro:dem	pro:dem	_	_	_	_	_	
+20	.	.	Punc	Punc	_	_	_	_	_	
+
+1	difficult	difficult	adj	adj	_	_	_	_	_	
+2	time	time	n	n	_	_	_	_	_	
+3	there	there	adv	adv	_	_	_	_	_	
+4	.	.	Punc	Punc	_	_	_	_	_	
+
+1	well	well	co	co	_	_	_	_	_	
+2	there's	there	pro:exist	pro:exist	_	_	_	_	_	
+3	-'s	be	cop	cop	3S	_	_	_	_	
+4	a	a	det	det	_	_	_	_	_	
+5	boy	boy	n	n	_	_	_	_	_	
+6	playing	play	adj	adj	PRESP	_	_	_	_	
+7	soccer	soccer	n	n	_	_	_	_	_	
+8	outside	outside	adv	adv	_	_	_	_	_	
+9	kicking	kick	adj	adj	PRESP	_	_	_	_	
+10	the	the	det	det	_	_	_	_	_	
+11	ball	ball	n	n	_	_	_	_	_	
+12	around	around	adv	adv	_	_	_	_	_	
+13	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	he's	he	pro:sub	pro:sub	_	_	_	_	_	
+3	-'s	be	aux	aux	3S	_	_	_	_	
+4	playing	play	part	part	PRESP	_	_	_	_	
+5	and	and	coord	coord	_	_	_	_	_	
+6	having	have	part	part	PRESP	_	_	_	_	
+7	a	a	det	det	_	_	_	_	_	
+8	good	good	adj	adj	_	_	_	_	_	
+9	time	time	n	n	_	_	_	_	_	
+10	and	and	coord	coord	_	_	_	_	_	
+11	all	all	qn	qn	_	_	_	_	_	
+12	that	that	pro:dem	pro:dem	_	_	_	_	_	
+13	and	and	coord	coord	_	_	_	_	_	
+14	everything	everything	pro:indef	pro:indef	_	_	_	_	_	
+15	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	he	he	pro:sub	pro:sub	_	_	_	_	_	
+3	kicks	kick	v	v	3S	_	_	_	_	
+4	the	the	det	det	_	_	_	_	_	
+5	ball	ball	n	n	_	_	_	_	_	
+6	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	it	it	pro	pro	_	_	_	_	_	
+3	goes	go	v	v	3S	_	_	_	_	
+4	through	through	prep	prep	_	_	_	_	_	
+5	a	a	det	det	_	_	_	_	_	
+6	window	window	n	n	_	_	_	_	_	
+7	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	he's	he	pro:sub	pro:sub	_	_	_	_	_	
+3	-'s	be	aux	aux	3S	_	_	_	_	
+4	probably	probable	adv	adv	dadj|LY	_	_	_	_	
+5	going	go	part	part	PRESP	_	_	_	_	
+6	+"/.	+"/.	Punc	Punc	_	_	_	_	_	
+
+1	uhoh	uhoh	co	co	_	_	_	_	_	
+2	.	.	Punc	Punc	_	_	_	_	_	
+
+1	I'm	I	pro:sub	pro:sub	_	_	_	_	_	
+2	-'m	be	cop	cop	1S	_	_	_	_	
+3	in	in	prep	prep	_	_	_	_	_	
+4	trouble	trouble	n	n	_	_	_	_	_	
+5	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	in	in	prep	prep	_	_	_	_	_	
+3	the	the	det	det	_	_	_	_	_	
+4	home	home	n	n	_	_	_	_	_	
+5	you	you	pro	pro	_	_	_	_	_	
+6	can	can	mod	mod	_	_	_	_	_	
+7	see	see	v	v	_	_	_	_	_	
+8	the	the	det	det	_	_	_	_	_	
+9	ball	ball	n	n	_	_	_	_	_	
+10	coming	come	adj	adj	PRESP	_	_	_	_	
+11	through	through	adv	adv	_	_	_	_	_	
+12	.	.	Punc	Punc	_	_	_	_	_	
+
+1	break	break	v	v	_	_	_	_	_	
+2	the	the	det	det	_	_	_	_	_	
+3	lamp	lamp	n	n	_	_	_	_	_	
+4	.	.	Punc	Punc	_	_	_	_	_	
+
+1	a	a	det	det	_	_	_	_	_	
+2	gentleman	gentleman	n	n	_	_	_	_	_	
+3	is	be	aux	aux	3S	_	_	_	_	
+4	sitting	sit	part	part	PRESP	_	_	_	_	
+5	in	in	prep	prep	_	_	_	_	_	
+6	a	a	det	det	_	_	_	_	_	
+7	chair	chair	n	n	_	_	_	_	_	
+8	.	.	Punc	Punc	_	_	_	_	_	
+
+1	it's	it	pro	pro	_	_	_	_	_	
+2	-'s	be	aux	aux	3S	_	_	_	_	
+3	coming	come	part	part	PRESP	_	_	_	_	
+4	through	through	adv	adv	_	_	_	_	_	
+5	there	there	adv	adv	_	_	_	_	_	
+6	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	he's	he	pro:sub	pro:sub	_	_	_	_	_	
+3	-'s	be	aux	aux	3S	_	_	_	_	
+4	standing	stand	part	part	PRESP	_	_	_	_	
+5	up	up	prep	prep	_	_	_	_	_	
+6	of_course	of_course	co	co	_	_	_	_	_	
+7	looking	look	n:gerund	n:gerund	PRESP	_	_	_	_	
+8	out	out	prep	prep	_	_	_	_	_	
+9	the	the	det	det	_	_	_	_	_	
+10	window	window	n	n	_	_	_	_	_	
+11	with	with	prep	prep	_	_	_	_	_	
+12	the	the	det	det	_	_	_	_	_	
+13	ball	ball	n	n	_	_	_	_	_	
+14	in	in	prep	prep	_	_	_	_	_	
+15	his	his	pro:poss:det	pro:poss:det	_	_	_	_	_	
+16	hand	hand	n	n	_	_	_	_	_	
+17	trying	try	adj	adj	PRESP	_	_	_	_	
+18	to	to	prep	prep	_	_	_	_	_	
+19	figure	figure	n	n	_	_	_	_	_	
+20	out	out	adv	adv	_	_	_	_	_	
+21	who	who	pro:wh	pro:wh	_	_	_	_	_	
+22	and	and	coord	coord	_	_	_	_	_	
+23	where	where	adv:wh	adv:wh	_	_	_	_	_	
+24	this	this	det	det	_	_	_	_	_	
+25	ball	ball	n	n	_	_	_	_	_	
+26	came	come	v	v	PAST	_	_	_	_	
+27	through	through	adv	adv	_	_	_	_	_	
+28	.	.	Punc	Punc	_	_	_	_	_	
+
+1	so	so	co	co	_	_	_	_	_	
+2	I	I	pro:sub	pro:sub	_	_	_	_	_	
+3	would	will	mod	mod	COND	_	_	_	_	
+4	imagine	imagine	v	v	_	_	_	_	_	
+5	the	the	det	det	_	_	_	_	_	
+6	ending	ending	n	n	_	_	_	_	_	
+7	would	will	mod	mod	COND	_	_	_	_	
+8	be	be	cop	cop	_	_	_	_	_	
+9	he's	he	pro:sub	pro:sub	_	_	_	_	_	
+10	-'s	be	aux	aux	3S	_	_	_	_	
+11	going	go	part	part	PRESP	_	_	_	_	
+12	to	to	inf	inf	_	_	_	_	_	
+13	go	go	v	v	_	_	_	_	_	
+14	out	out	adv	adv	_	_	_	_	_	
+15	and	and	coord	coord	_	_	_	_	_	
+16	the	the	det	det	_	_	_	_	_	
+17	boy's	boy	n	n	_	_	_	_	_	
+18	-'s	be	aux	aux	3S	_	_	_	_	
+19	going	go	part	part	PRESP	_	_	_	_	
+20	to	to	inf	inf	_	_	_	_	_	
+21	be	be	cop	cop	_	_	_	_	_	
+22	in	in	prep	prep	_	_	_	_	_	
+23	trouble	trouble	n	n	_	_	_	_	_	
+24	.	.	Punc	Punc	_	_	_	_	_	
+
+1	it's	it	pro	pro	_	_	_	_	_	
+2	-'s	be	cop	cop	3S	_	_	_	_	
+3	a	a	det	det	_	_	_	_	_	
+4	school	school	n	n	_	_	_	_	_	
+5	morning	morning	n	n	_	_	_	_	_	
+6	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	the	the	det	det	_	_	_	_	_	
+3	boy	boy	n	n	_	_	_	_	_	
+4	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	he's	he	pro:sub	pro:sub	_	_	_	_	_	
+3	-'s	be	aux	aux	3S	_	_	_	_	
+4	got	get	part	part	PASTP	_	_	_	_	
+5	his	his	pro:poss:det	pro:poss:det	_	_	_	_	_	
+6	back+pack	back+pack	n	n	_	_	_	_	_	
+7	on	on	adv	adv	_	_	_	_	_	
+8	.	.	Punc	Punc	_	_	_	_	_	
+
+1	his	his	pro:poss:det	pro:poss:det	_	_	_	_	_	
+2	mom's	mom	n	n	_	_	_	_	_	
+3	-'s	be	aux	aux	3S	_	_	_	_	
+4	got	get	part	part	PASTP	_	_	_	_	
+5	the	the	det	det	_	_	_	_	_	
+6	umbrella	umbrella	n	n	_	_	_	_	_	
+7	in	in	prep	prep	_	_	_	_	_	
+8	her	her	pro:poss:det	pro:poss:det	_	_	_	_	_	
+9	hand	hand	n	n	_	_	_	_	_	
+10	because	because	conj	conj	_	_	_	_	_	
+11	she's	she	pro:sub	pro:sub	_	_	_	_	_	
+12	-'s	be	aux	aux	3S	_	_	_	_	
+13	saying	say	part	part	PRESP	_	_	_	_	
+14	+"/.	+"/.	Punc	Punc	_	_	_	_	_	
+
+1	it	it	pro	pro	_	_	_	_	_	
+2	probably	probable	adv	adv	dadj|LY	_	_	_	_	
+3	will	will	mod	mod	_	_	_	_	_	
+4	rain	rain	v	v	_	_	_	_	_	
+5	.	.	Punc	Punc	_	_	_	_	_	
+
+1	you	you	pro	pro	_	_	_	_	_	
+2	need	need	v	v	_	_	_	_	_	
+3	to	to	inf	inf	_	_	_	_	_	
+4	take	take	v	v	_	_	_	_	_	
+5	this	this	det	det	_	_	_	_	_	
+6	umbrella	umbrella	n	n	_	_	_	_	_	
+7	with	with	prep	prep	_	_	_	_	_	
+8	you	you	pro	pro	_	_	_	_	_	
+9	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	the	the	det	det	_	_	_	_	_	
+3	boy	boy	n	n	_	_	_	_	_	
+4	is	be	aux	aux	3S	_	_	_	_	
+5	saying	say	part	part	PRESP	_	_	_	_	
+6	+"/.	+"/.	Punc	Punc	_	_	_	_	_	
+
+1	no	no	co	co	_	_	_	_	_	
+2	no	no	co	co	_	_	_	_	_	
+3	I'll	I	pro:sub	pro:sub	_	_	_	_	_	
+4	-'ll	will	mod	mod	_	_	_	_	_	
+5	be	be	cop	cop	_	_	_	_	_	
+6	fine	fine	adj	adj	_	_	_	_	_	
+7	.	.	Punc	Punc	_	_	_	_	_	
+
+1	it's	it	pro	pro	_	_	_	_	_	
+2	-'s	be	cop	cop	3S	_	_	_	_	
+3	not	not	neg	neg	_	_	_	_	_	
+4	going	go	part	part	PRESP	_	_	_	_	
+5	to	to	inf	inf	_	_	_	_	_	
+6	rain	rain	v	v	_	_	_	_	_	
+7	.	.	Punc	Punc	_	_	_	_	_	
+
+1	I'm	I	pro:sub	pro:sub	_	_	_	_	_	
+2	-'m	be	cop	cop	1S	_	_	_	_	
+3	tough	tough	adj	adj	_	_	_	_	_	
+4	.	.	Punc	Punc	_	_	_	_	_	
+
+1	I'll	I	pro:sub	pro:sub	_	_	_	_	_	
+2	-'ll	will	mod	mod	_	_	_	_	_	
+3	be	be	cop	cop	_	_	_	_	_	
+4	okay	okay	adj	adj	_	_	_	_	_	
+5	.	.	Punc	Punc	_	_	_	_	_	
+
+1	so	so	co	co	_	_	_	_	_	
+2	he	he	pro:sub	pro:sub	_	_	_	_	_	
+3	leaves	leave	v	v	3S	_	_	_	_	
+4	the	the	det	det	_	_	_	_	_	
+5	house	house	n	n	_	_	_	_	_	
+6	without	without	prep	prep	_	_	_	_	_	
+7	the	the	det	det	_	_	_	_	_	
+8	umbrella	umbrella	n	n	_	_	_	_	_	
+9	.	.	Punc	Punc	_	_	_	_	_	
+
+1	so	so	co	co	_	_	_	_	_	
+2	as	as	conj	conj	_	_	_	_	_	
+3	he's	he	pro:sub	pro:sub	_	_	_	_	_	
+4	-'s	be	aux	aux	3S	_	_	_	_	
+5	walking	walk	part	part	PRESP	_	_	_	_	
+6	along	along	adv	adv	_	_	_	_	_	
+7	to	to	inf	inf	_	_	_	_	_	
+8	school	school	v	v	_	_	_	_	_	
+9	it	it	pro	pro	_	_	_	_	_	
+10	starts	start	v	v	3S	_	_	_	_	
+11	to	to	inf	inf	_	_	_	_	_	
+12	rain	rain	v	v	_	_	_	_	_	
+13	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	he's	he	pro:sub	pro:sub	_	_	_	_	_	
+3	-'s	be	aux	aux	3S	_	_	_	_	
+4	going	go	part	part	PRESP	_	_	_	_	
+5	+"/.	+"/.	Punc	Punc	_	_	_	_	_	
+
+1	oh_no	oh_no	co	co	_	_	_	_	_	
+2	.	.	Punc	Punc	_	_	_	_	_	
+
+1	then	then	adv:tem	adv:tem	_	_	_	_	_	
+2	it's	it	pro	pro	_	_	_	_	_	
+3	-'s	be	aux	aux	3S	_	_	_	_	
+4	really	real	adv	adv	dadj|LY	_	_	_	_	
+5	starting	start	part	part	PRESP	_	_	_	_	
+6	to	to	inf	inf	_	_	_	_	_	
+7	rain	rain	v	v	_	_	_	_	_	
+8	a_lot	a_lot	adv	adv	_	_	_	_	_	
+9	harder	hard	adj	adj	CP	_	_	_	_	
+10	.	.	Punc	Punc	_	_	_	_	_	
+
+1	I	I	pro:sub	pro:sub	_	_	_	_	_	
+2	mean	mean	v	v	_	_	_	_	_	
+3	there's	there	pro:exist	pro:exist	_	_	_	_	_	
+4	-'s	be	cop	cop	3S	_	_	_	_	
+5	even	even	adv:int	adv:int	_	_	_	_	_	
+6	puddles	puddle	n	n	PL	_	_	_	_	
+7	.	.	Punc	Punc	_	_	_	_	_	
+
+1	now	now	adv	adv	_	_	_	_	_	
+2	he's	he	pro:sub	pro:sub	_	_	_	_	_	
+3	-'s	be	aux	aux	3S	_	_	_	_	
+4	running	run	part	part	PRESP	_	_	_	_	
+5	back	back	adv	adv	_	_	_	_	_	
+6	home	home	n	n	_	_	_	_	_	
+7	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	he	he	pro:sub	pro:sub	_	_	_	_	_	
+3	went	go	v	v	PAST	_	_	_	_	
+4	in	in	prep	prep	_	_	_	_	_	
+5	his	his	pro:poss:det	pro:poss:det	_	_	_	_	_	
+6	house	house	n	n	_	_	_	_	_	
+7	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	his	his	pro:poss:det	pro:poss:det	_	_	_	_	_	
+3	mom	mom	n	n	_	_	_	_	_	
+4	looks	look	v	v	3S	_	_	_	_	
+5	like	like	prep	prep	_	_	_	_	_	
+6	+"/.	+"/.	Punc	Punc	_	_	_	_	_	
+
+1	well	well	co	co	_	_	_	_	_	
+2	see	see	co	co	_	_	_	_	_	
+3	‡	beg	beg	beg	_	_	_	_	_	
+4	I	I	pro:sub	pro:sub	_	_	_	_	_	
+5	told	tell	v	v	PAST	_	_	_	_	
+6	you	you	pro	pro	_	_	_	_	_	
+7	.	.	Punc	Punc	_	_	_	_	_	
+
+1	it	it	pro	pro	_	_	_	_	_	
+2	was	be	aux	aux	PAST|13S	_	_	_	_	
+3	going	go	part	part	PRESP	_	_	_	_	
+4	to	to	inf	inf	_	_	_	_	_	
+5	rain	rain	v	v	_	_	_	_	_	
+6	.	.	Punc	Punc	_	_	_	_	_	
+
+1	you	you	pro	pro	_	_	_	_	_	
+2	needed	need	v	v	PAST	_	_	_	_	
+3	an	a	det	det	_	_	_	_	_	
+4	umbrella	umbrella	n	n	_	_	_	_	_	
+5	.	.	Punc	Punc	_	_	_	_	_	
+
+1	he's	he	pro:sub	pro:sub	_	_	_	_	_	
+2	-'s	be	aux	aux	3S	_	_	_	_	
+3	standing	stand	part	part	PRESP	_	_	_	_	
+4	there	there	adv	adv	_	_	_	_	_	
+5	looking	look	part	part	PRESP	_	_	_	_	
+6	just	just	adv:int	adv:int	_	_	_	_	_	
+7	drenched	drench	part	part	PASTP	_	_	_	_	
+8	and	and	coord	coord	_	_	_	_	_	
+9	pathetic	pathetic	adj	adj	_	_	_	_	_	
+10	like	like	prep	prep	_	_	_	_	_	
+11	+"/.	+"/.	Punc	Punc	_	_	_	_	_	
+
+1	ugh	ugh	co	co	_	_	_	_	_	
+2	.	.	Punc	Punc	_	_	_	_	_	
+
+1	I'm	I	pro:sub	pro:sub	_	_	_	_	_	
+2	-'m	be	cop	cop	1S	_	_	_	_	
+3	not	not	neg	neg	_	_	_	_	_	
+4	as	as	prep	prep	_	_	_	_	_	
+5	tough	tough	adj	adj	_	_	_	_	_	
+6	as	as	prep	prep	_	_	_	_	_	
+7	I	I	pro:sub	pro:sub	_	_	_	_	_	
+8	thought	think	v	v	PAST	_	_	_	_	
+9	I	I	pro:sub	pro:sub	_	_	_	_	_	
+10	was	be	cop	cop	PAST|13S	_	_	_	_	
+11	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	then	then	adv:tem	adv:tem	_	_	_	_	_	
+3	he's	he	pro:sub	pro:sub	_	_	_	_	_	
+4	-'s	be	aux	aux	3S	_	_	_	_	
+5	leaving	leave	part	part	PRESP	_	_	_	_	
+6	again	again	adv	adv	_	_	_	_	_	
+7	with	with	prep	prep	_	_	_	_	_	
+8	the	the	det	det	_	_	_	_	_	
+9	umbrella	umbrella	n	n	_	_	_	_	_	
+10	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	he's	he	pro:sub	pro:sub	_	_	_	_	_	
+3	-'s	be	aux	aux	3S	_	_	_	_	
+4	happily	happy	adv	adv	dadj|LY	_	_	_	_	
+5	walking	walk	part	part	PRESP	_	_	_	_	
+6	in	in	prep	prep	_	_	_	_	_	
+7	the	the	det	det	_	_	_	_	_	
+8	rain	rain	n	n	_	_	_	_	_	
+9	now	now	adv	adv	_	_	_	_	_	
+10	.	.	Punc	Punc	_	_	_	_	_	
+
+1	at	at	prep	prep	_	_	_	_	_	
+2	least	least	n	n	_	_	_	_	_	
+3	he	he	pro:sub	pro:sub	_	_	_	_	_	
+4	isn't	be	aux	aux	3S	_	_	_	_	
+5	-'n't	not	neg	neg	_	_	_	_	_	
+6	getting	get	part	part	PRESP	_	_	_	_	
+7	wet	wet	adj	adj	PASTP	_	_	_	_	
+8	.	.	Punc	Punc	_	_	_	_	_	
+
+1	on	on	adv	adv	_	_	_	_	_	
+2	to	to	prep	prep	_	_	_	_	_	
+3	school	school	n	n	_	_	_	_	_	
+4	.	.	Punc	Punc	_	_	_	_	_	
+
+1	okay	okay	co	co	_	_	_	_	_	
+2	this	this	pro:dem	pro:dem	_	_	_	_	_	
+3	is	be	cop	cop	3S	_	_	_	_	
+4	the	the	det	det	_	_	_	_	_	
+5	story	story	n	n	_	_	_	_	_	
+6	about	about	prep	prep	_	_	_	_	_	
+7	Cinderella	Cinderella	n:prop	n:prop	_	_	_	_	_	
+8	who	who	rel	rel	_	_	_	_	_	
+9	was	be	cop	cop	PAST|13S	_	_	_	_	
+10	kind_of	kind_of	adv:int	adv:int	_	_	_	_	_	
+11	young	young	adj	adj	_	_	_	_	_	
+12	girl	girl	n	n	_	_	_	_	_	
+13	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	she	she	pro:sub	pro:sub	_	_	_	_	_	
+3	had	have	v	v	PAST	_	_	_	_	
+4	a	a	det	det	_	_	_	_	_	
+5	stepmother	mother	n	n	step	_	_	_	_	
+6	and	and	coord	coord	_	_	_	_	_	
+7	two	two	det:num	det:num	_	_	_	_	_	
+8	stepsisters	sister	n	n	step|PL	_	_	_	_	
+9	.	.	Punc	Punc	_	_	_	_	_	
+
+1	that	that	rel	rel	_	_	_	_	_	
+2	she	she	pro:sub	pro:sub	_	_	_	_	_	
+3	was	be	cop	cop	PAST|13S	_	_	_	_	
+4	in	in	prep	prep	_	_	_	_	_	
+5	this	this	det	det	_	_	_	_	_	
+6	family	family	n	n	_	_	_	_	_	
+7	and	and	coord	coord	_	_	_	_	_	
+8	everything	everything	pro:indef	pro:indef	_	_	_	_	_	
+9	.	.	Punc	Punc	_	_	_	_	_	
+
+1	but	but	conj	conj	_	_	_	_	_	
+2	the	the	det	det	_	_	_	_	_	
+3	stepmother	mother	n	n	step	_	_	_	_	
+4	treated	treat	v	v	PAST	_	_	_	_	
+5	the	the	det	det	_	_	_	_	_	
+6	stepsisters	sister	n	n	step|PL	_	_	_	_	
+7	very	very	adv:int	adv:int	_	_	_	_	_	
+8	good	good	adj	adj	_	_	_	_	_	
+9	and	and	coord	coord	_	_	_	_	_	
+10	treated	treat	v	v	PAST	_	_	_	_	
+11	her	her	pro:obj	pro:obj	_	_	_	_	_	
+12	very	very	adv:int	adv:int	_	_	_	_	_	
+13	bad	bad	adj	adj	_	_	_	_	_	
+14	.	.	Punc	Punc	_	_	_	_	_	
+
+1	I	I	pro:sub	pro:sub	_	_	_	_	_	
+2	mean	mean	v	v	_	_	_	_	_	
+3	she	she	pro:sub	pro:sub	_	_	_	_	_	
+4	had	have	v	v	PAST	_	_	_	_	
+5	to	to	inf	inf	_	_	_	_	_	
+6	clean	clean	v	v	_	_	_	_	_	
+7	everything	everything	pro:indef	pro:indef	_	_	_	_	_	
+8	.	.	Punc	Punc	_	_	_	_	_	
+
+1	she	she	pro:sub	pro:sub	_	_	_	_	_	
+2	had	have	v	v	PAST	_	_	_	_	
+3	to	to	inf	inf	_	_	_	_	_	
+4	do	do	v	v	_	_	_	_	_	
+5	all	all	qn	qn	_	_	_	_	_	
+6	the	the	det	det	_	_	_	_	_	
+7	work	work	n	n	_	_	_	_	_	
+8	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	she	she	pro:sub	pro:sub	_	_	_	_	_	
+3	was	be	cop	cop	PAST|13S	_	_	_	_	
+4	just	just	adv:int	adv:int	_	_	_	_	_	
+5	treated	treat	part	part	PASTP	_	_	_	_	
+6	like	like	prep	prep	_	_	_	_	_	
+7	no	no	qn	qn	_	_	_	_	_	
+8	good	good	adj	adj	_	_	_	_	_	
+9	.	.	Punc	Punc	_	_	_	_	_	
+
+1	so	so	co	co	_	_	_	_	_	
+2	that's	that	pro:dem	pro:dem	_	_	_	_	_	
+3	-'s	be	cop	cop	3S	_	_	_	_	
+4	the	the	det	det	_	_	_	_	_	
+5	way	way	n	n	_	_	_	_	_	
+6	it	it	pro	pro	_	_	_	_	_	
+7	went	go	v	v	PAST	_	_	_	_	
+8	all	all	qn	qn	_	_	_	_	_	
+9	the	the	det	det	_	_	_	_	_	
+10	time	time	n	n	_	_	_	_	_	
+11	.	.	Punc	Punc	_	_	_	_	_	
+
+1	it	it	pro	pro	_	_	_	_	_	
+2	was	be	cop	cop	PAST|13S	_	_	_	_	
+3	continually	continual	adv	adv	dadj|LY	_	_	_	_	
+4	.	.	Punc	Punc	_	_	_	_	_	
+
+1	there	there	adv	adv	_	_	_	_	_	
+2	was	be	cop	cop	PAST|13S	_	_	_	_	
+3	nothing	nothing	pro:indef	pro:indef	_	_	_	_	_	
+4	she	she	pro:sub	pro:sub	_	_	_	_	_	
+5	could	could	mod	mod	_	_	_	_	_	
+6	do	do	v	v	_	_	_	_	_	
+7	about	about	prep	prep	_	_	_	_	_	
+8	it	it	pro	pro	_	_	_	_	_	
+9	.	.	Punc	Punc	_	_	_	_	_	
+
+1	but	but	conj	conj	_	_	_	_	_	
+2	she	she	pro:sub	pro:sub	_	_	_	_	_	
+3	enjoyed	enjoy	v	v	PAST	_	_	_	_	
+4	the	the	det	det	_	_	_	_	_	
+5	animals	animal	n	n	PL	_	_	_	_	
+6	.	.	Punc	Punc	_	_	_	_	_	
+
+1	you_know	you_know	co	co	_	_	_	_	_	
+2	the	the	det	det	_	_	_	_	_	
+3	dog	dog	n	n	_	_	_	_	_	
+4	and	and	coord	coord	_	_	_	_	_	
+5	the	the	det	det	_	_	_	_	_	
+6	cat	cat	n	n	_	_	_	_	_	
+7	and	and	coord	coord	_	_	_	_	_	
+8	the	the	det	det	_	_	_	_	_	
+9	mouse	mouse	n	n	_	_	_	_	_	
+10	and	and	coord	coord	_	_	_	_	_	
+11	+...	+...	Punc	Punc	_	_	_	_	_	
+
+1	she	she	pro:sub	pro:sub	_	_	_	_	_	
+2	was	be	cop	cop	PAST|13S	_	_	_	_	
+3	just	just	adv:int	adv:int	_	_	_	_	_	
+4	very	very	adv:int	adv:int	_	_	_	_	_	
+5	nice	nice	adj	adj	_	_	_	_	_	
+6	young	young	adj	adj	_	_	_	_	_	
+7	lady	lady	n	n	_	_	_	_	_	
+8	.	.	Punc	Punc	_	_	_	_	_	
+
+1	did	do	v	v	PAST	_	_	_	_	
+2	what	what	pro:wh	pro:wh	_	_	_	_	_	
+3	she	she	pro:sub	pro:sub	_	_	_	_	_	
+4	was	be	aux	aux	PAST|13S	_	_	_	_	
+5	supposed	suppose	part	part	PASTP	_	_	_	_	
+6	to	to	inf	inf	_	_	_	_	_	
+7	do	do	v	v	_	_	_	_	_	
+8	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	then	then	adv:tem	adv:tem	_	_	_	_	_	
+3	there	there	pro:exist	pro:exist	_	_	_	_	_	
+4	was	be	cop	cop	PAST|13S	_	_	_	_	
+5	a	a	det	det	_	_	_	_	_	
+6	ball	ball	n	n	_	_	_	_	_	
+7	coming	come	adj	adj	PRESP	_	_	_	_	
+8	up	up	adv	adv	_	_	_	_	_	
+9	that	that	rel	rel	_	_	_	_	_	
+10	they	they	pro:sub	pro:sub	_	_	_	_	_	
+11	were	be	aux	aux	PAST	_	_	_	_	
+12	all	all	post	post	_	_	_	_	_	
+13	invited	invite	v	v	PAST	_	_	_	_	
+14	to	to	prep	prep	_	_	_	_	_	
+15	the	the	det	det	_	_	_	_	_	
+16	whole	whole	adj	adj	_	_	_	_	_	
+17	family	family	n	n	_	_	_	_	_	
+18	.	.	Punc	Punc	_	_	_	_	_	
+
+1	but	but	conj	conj	_	_	_	_	_	
+2	the	the	det	det	_	_	_	_	_	
+3	stepmother	mother	n	n	step	_	_	_	_	
+4	wouldn't	will	mod	mod	COND	_	_	_	_	
+5	-'n't	not	neg	neg	_	_	_	_	_	
+6	let	let	v	v	ZERO	_	_	_	_	
+7	her	her	pro:obj	pro:obj	_	_	_	_	_	
+8	go	go	v	v	_	_	_	_	_	
+9	.	.	Punc	Punc	_	_	_	_	_	
+
+1	she	she	pro:sub	pro:sub	_	_	_	_	_	
+2	said	say	v	v	PAST	_	_	_	_	
+3	she	she	pro:sub	pro:sub	_	_	_	_	_	
+4	had	have	v	v	PAST	_	_	_	_	
+5	to	to	inf	inf	_	_	_	_	_	
+6	stay	stay	v	v	_	_	_	_	_	
+7	home	home	n	n	_	_	_	_	_	
+8	and	and	coord	coord	_	_	_	_	_	
+9	clean	clean	v	v	_	_	_	_	_	
+10	the	the	det	det	_	_	_	_	_	
+11	fireplace	fire+place	n	n	_	_	_	_	_	
+12	and	and	coord	coord	_	_	_	_	_	
+13	do	do	v	v	_	_	_	_	_	
+14	chores	chore	n	n	PL	_	_	_	_	
+15	and	and	coord	coord	_	_	_	_	_	
+16	that	that	rel	rel	_	_	_	_	_	
+17	she	she	pro:sub	pro:sub	_	_	_	_	_	
+18	could	could	mod	mod	_	_	_	_	_	
+19	not	not	neg	neg	_	_	_	_	_	
+20	go	go	v	v	_	_	_	_	_	
+21	.	.	Punc	Punc	_	_	_	_	_	
+
+1	it	it	pro	pro	_	_	_	_	_	
+2	didn't	do	mod	mod	PAST	_	_	_	_	
+3	-'n't	not	neg	neg	_	_	_	_	_	
+4	matter	matter	n	n	_	_	_	_	_	
+5	.	.	Punc	Punc	_	_	_	_	_	
+
+1	so	so	co	co	_	_	_	_	_	
+2	while	while	conj	conj	_	_	_	_	_	
+3	the	the	det	det	_	_	_	_	_	
+4	stepmother	mother	n	n	step	_	_	_	_	
+5	and	and	coord	coord	_	_	_	_	_	
+6	the	the	det	det	_	_	_	_	_	
+7	two	two	det:num	det:num	_	_	_	_	_	
+8	stepsisters	sister	n	n	step|PL	_	_	_	_	
+9	were	be	aux	aux	PAST	_	_	_	_	
+10	getting	get	part	part	PRESP	_	_	_	_	
+11	all	all	adv:int	adv:int	_	_	_	_	_	
+12	ready	ready	adj	adj	_	_	_	_	_	
+13	to	to	inf	inf	_	_	_	_	_	
+14	go	go	v	v	_	_	_	_	_	
+15	and	and	coord	coord	_	_	_	_	_	
+16	got	get	v	v	PAST	_	_	_	_	
+17	all	all	adv:int	adv:int	_	_	_	_	_	
+18	new	new	adj	adj	_	_	_	_	_	
+19	dresses	dress	n	n	PL	_	_	_	_	
+20	and	and	coord	coord	_	_	_	_	_	
+21	jewelry	jewelry	n	n	_	_	_	_	_	
+22	and	and	coord	coord	_	_	_	_	_	
+23	you_know	you_know	co	co	_	_	_	_	_	
+24	were	be	aux	aux	PAST	_	_	_	_	
+25	getting	get	part	part	PRESP	_	_	_	_	
+26	all	all	adv:int	adv:int	_	_	_	_	_	
+27	ready	ready	adj	adj	_	_	_	_	_	
+28	to	to	inf	inf	_	_	_	_	_	
+29	go	go	v	v	_	_	_	_	_	
+30	to	to	prep	prep	_	_	_	_	_	
+31	it	it	pro	pro	_	_	_	_	_	
+32	she	she	pro:sub	pro:sub	_	_	_	_	_	
+33	got	get	v	v	PAST	_	_	_	_	
+34	really	real	adv	adv	dadj|LY	_	_	_	_	
+35	sad	sad	adj	adj	_	_	_	_	_	
+36	.	.	Punc	Punc	_	_	_	_	_	
+
+1	she	she	pro:sub	pro:sub	_	_	_	_	_	
+2	was	be	cop	cop	PAST|13S	_	_	_	_	
+3	very	very	adv:int	adv:int	_	_	_	_	_	
+4	sad	sad	adj	adj	_	_	_	_	_	
+5	,	cm	cm	cm	_	_	_	_	_	
+6	very	very	adv:int	adv:int	_	_	_	_	_	
+7	very	very	adv:int	adv:int	_	_	_	_	_	
+8	sad	sad	adj	adj	_	_	_	_	_	
+9	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	so	so	co	co	_	_	_	_	_	
+3	the	the	det	det	_	_	_	_	_	
+4	stepmom	mom	n	n	step	_	_	_	_	
+5	and	and	coord	coord	_	_	_	_	_	
+6	two	two	det:num	det:num	_	_	_	_	_	
+7	stepsisters	sister	n	n	step|PL	_	_	_	_	
+8	left	leave	v	v	PAST	_	_	_	_	
+9	to	to	inf	inf	_	_	_	_	_	
+10	go	go	v	v	_	_	_	_	_	
+11	to	to	prep	prep	_	_	_	_	_	
+12	the	the	det	det	_	_	_	_	_	
+13	ball	ball	n	n	_	_	_	_	_	
+14	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	this	this	pro:dem	pro:dem	_	_	_	_	_	
+3	was	be	cop	cop	PAST|13S	_	_	_	_	
+4	a	a	det	det	_	_	_	_	_	
+5	prince's	prince	n	n	_	_	_	_	_	
+6	-'s	s	poss	poss	_	_	_	_	_	
+7	ball	ball	n	n	_	_	_	_	_	
+8	.	.	Punc	Punc	_	_	_	_	_	
+
+1	it	it	pro	pro	_	_	_	_	_	
+2	was	be	cop	cop	PAST|13S	_	_	_	_	
+3	actually	actual	adv	adv	dadj|LY	_	_	_	_	
+4	a	a	det	det	_	_	_	_	_	
+5	king's	king	n	n	_	_	_	_	_	
+6	-'s	s	poss	poss	_	_	_	_	_	
+7	ball	ball	n	n	_	_	_	_	_	
+8	but	but	conj	conj	_	_	_	_	_	
+9	I	I	pro:sub	pro:sub	_	_	_	_	_	
+10	mean	mean	v	v	_	_	_	_	_	
+11	you_know	you_know	co	co	_	_	_	_	_	
+12	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	so	so	co	co	_	_	_	_	_	
+3	she	she	pro:sub	pro:sub	_	_	_	_	_	
+4	went	go	v	v	PAST	_	_	_	_	
+5	outside	outside	adv	adv	_	_	_	_	_	
+6	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	I	I	pro:sub	pro:sub	_	_	_	_	_	
+3	believe	believe	v	v	_	_	_	_	_	
+4	she	she	pro:sub	pro:sub	_	_	_	_	_	
+5	was	be	cop	cop	PAST|13S	_	_	_	_	
+6	probably	probable	adv	adv	dadj|LY	_	_	_	_	
+7	crying	cry	part	part	PRESP	_	_	_	_	
+8	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	then	then	adv:tem	adv:tem	_	_	_	_	_	
+3	the	the	det	det	_	_	_	_	_	
+4	like	like	co	co	_	_	_	_	_	
+5	fairy	fairy	n	n	_	_	_	_	_	
+6	godmother	god+mother	n	n	_	_	_	_	_	
+7	came	come	v	v	PAST	_	_	_	_	
+8	along	along	adv	adv	_	_	_	_	_	
+9	and	and	coord	coord	_	_	_	_	_	
+10	was	be	aux	aux	PAST|13S	_	_	_	_	
+11	sitting	sit	part	part	PRESP	_	_	_	_	
+12	out	out	adv	adv	_	_	_	_	_	
+13	in	in	prep	prep	_	_	_	_	_	
+14	the	the	det	det	_	_	_	_	_	
+15	garden	garden	n	n	_	_	_	_	_	
+16	and	and	coord	coord	_	_	_	_	_	
+17	everything	everything	pro:indef	pro:indef	_	_	_	_	_	
+18	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	was	be	aux	aux	PAST|13S	_	_	_	_	
+3	talking	talk	part	part	PRESP	_	_	_	_	
+4	to	to	prep	prep	_	_	_	_	_	
+5	her	her	pro:obj	pro:obj	_	_	_	_	_	
+6	and	and	coord	coord	_	_	_	_	_	
+7	says	say	v	v	3S	_	_	_	_	
+8	+"/.	+"/.	Punc	Punc	_	_	_	_	_	
+
+1	you_know	you_know	co	co	_	_	_	_	_	
+2	do	do	mod	mod	_	_	_	_	_	
+3	you	you	pro	pro	_	_	_	_	_	
+4	want	want	v	v	_	_	_	_	_	
+5	to	to	inf	inf	_	_	_	_	_	
+6	go	go	v	v	_	_	_	_	_	
+7	?	?	Punc	Punc	_	_	_	_	_	
+
+1	we'll	we	pro:sub	pro:sub	_	_	_	_	_	
+2	-'ll	will	mod	mod	_	_	_	_	_	
+3	make	make	v	v	_	_	_	_	_	
+4	it	it	pro	pro	_	_	_	_	_	
+5	so	so	conj	conj	_	_	_	_	_	
+6	you	you	pro	pro	_	_	_	_	_	
+7	can	can	mod	mod	_	_	_	_	_	
+8	go	go	v	v	_	_	_	_	_	
+9	and	and	coord	coord	_	_	_	_	_	
+10	everything	everything	pro:indef	pro:indef	_	_	_	_	_	
+11	.	.	Punc	Punc	_	_	_	_	_	
+
+1	I'll	I	pro:sub	pro:sub	_	_	_	_	_	
+2	-'ll	will	mod	mod	_	_	_	_	_	
+3	fix	fix	v	v	_	_	_	_	_	
+4	everything	everything	pro:indef	pro:indef	_	_	_	_	_	
+5	with	with	prep	prep	_	_	_	_	_	
+6	my	my	pro:poss:det	pro:poss:det	_	_	_	_	_	
+7	magic	magic	n	n	_	_	_	_	_	
+8	wand	wand	n	n	_	_	_	_	_	
+9	.	.	Punc	Punc	_	_	_	_	_	
+
+1	anyway	anyway	adv	adv	_	_	_	_	_	
+2	and	and	coord	coord	_	_	_	_	_	
+3	so	so	co	co	_	_	_	_	_	
+4	she	she	pro:sub	pro:sub	_	_	_	_	_	
+5	waved	wave	v	v	PAST	_	_	_	_	
+6	her	her	pro:poss:det	pro:poss:det	_	_	_	_	_	
+7	wand	wand	n	n	_	_	_	_	_	
+8	at	at	prep	prep	_	_	_	_	_	
+9	Cinderella	Cinderella	n:prop	n:prop	_	_	_	_	_	
+10	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	she	she	pro:sub	pro:sub	_	_	_	_	_	
+3	had	have	v	v	PAST	_	_	_	_	
+4	this	this	det	det	_	_	_	_	_	
+5	beautiful	beautiful	adj	adj	_	_	_	_	_	
+6	dress	dress	n	n	_	_	_	_	_	
+7	that	that	rel	rel	_	_	_	_	_	
+8	you_know	you_know	co	co	_	_	_	_	_	
+9	appeared	appear	v	v	PAST	_	_	_	_	
+10	on	on	prep	prep	_	_	_	_	_	
+11	her	her	pro:obj	pro:obj	_	_	_	_	_	
+12	,	cm	cm	cm	_	_	_	_	_	
+13	and	and	coord	coord	_	_	_	_	_	
+14	beautiful	beautiful	adj	adj	_	_	_	_	_	
+15	shoes	shoe	n	n	PL	_	_	_	_	
+16	,	cm	cm	cm	_	_	_	_	_	
+17	and	and	coord	coord	_	_	_	_	_	
+18	her	her	pro:poss:det	pro:poss:det	_	_	_	_	_	
+19	hair	hair	n	n	_	_	_	_	_	
+20	in	in	prep	prep	_	_	_	_	_	
+21	the	the	det	det	_	_	_	_	_	
+22	little	little	adj	adj	_	_	_	_	_	
+23	+//.	+//.	Punc	Punc	_	_	_	_	_	
+
+1	I	I	pro:sub	pro:sub	_	_	_	_	_	
+2	can't	can	mod	mod	_	_	_	_	_	
+3	-'n't	not	neg	neg	_	_	_	_	_	
+4	think	think	v	v	_	_	_	_	_	
+5	of	of	prep	prep	_	_	_	_	_	
+6	what	what	pro:wh	pro:wh	_	_	_	_	_	
+7	that	that	det	det	_	_	_	_	_	
+8	thing	thing	n	n	_	_	_	_	_	
+9	is	be	cop	cop	3S	_	_	_	_	
+10	.	.	Punc	Punc	_	_	_	_	_	
+
+1	tiara	tiara	n	n	_	_	_	_	_	
+2	and	and	coord	coord	_	_	_	_	_	
+3	everything	everything	pro:indef	pro:indef	_	_	_	_	_	
+4	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	then	then	adv:tem	adv:tem	_	_	_	_	_	
+3	they	they	pro:sub	pro:sub	_	_	_	_	_	
+4	went	go	v	v	PAST	_	_	_	_	
+5	outside	outside	adv	adv	_	_	_	_	_	
+6	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	they	they	pro:sub	pro:sub	_	_	_	_	_	
+3	turned	turn	v	v	PAST	_	_	_	_	
+4	the	the	det	det	_	_	_	_	_	
+5	mice	mouse	n	n	PL	_	_	_	_	
+6	and	and	coord	coord	_	_	_	_	_	
+7	pumpkins	pumpkin	n	n	PL	_	_	_	_	
+8	into	into	prep	prep	_	_	_	_	_	
+9	this	this	det	det	_	_	_	_	_	
+10	great	great	adj	adj	_	_	_	_	_	
+11	big	big	adj	adj	_	_	_	_	_	
+12	beautiful	beautiful	adj	adj	_	_	_	_	_	
+13	carriage	carriage	n	n	_	_	_	_	_	
+14	with	with	prep	prep	_	_	_	_	_	
+15	horses	horse	n	n	PL	_	_	_	_	
+16	and	and	coord	coord	_	_	_	_	_	
+17	with	with	prep	prep	_	_	_	_	_	
+18	like	like	co	co	_	_	_	_	_	
+19	a	a	det	det	_	_	_	_	_	
+20	pumpkin	pumpkin	n	n	_	_	_	_	_	
+21	carriage	carriage	n	n	_	_	_	_	_	
+22	and	and	coord	coord	_	_	_	_	_	
+23	everything	everything	pro:indef	pro:indef	_	_	_	_	_	
+24	for	for	prep	prep	_	_	_	_	_	
+25	her	her	pro:obj	pro:obj	_	_	_	_	_	
+26	to	to	inf	inf	_	_	_	_	_	
+27	go	go	v	v	_	_	_	_	_	
+28	and	and	coord	coord	_	_	_	_	_	
+29	you_know	you_know	co	co	_	_	_	_	_	
+30	.	.	Punc	Punc	_	_	_	_	_	
+
+1	so	so	co	co	_	_	_	_	_	
+2	she	she	pro:sub	pro:sub	_	_	_	_	_	
+3	got	get	v	v	PAST	_	_	_	_	
+4	in	in	prep	prep	_	_	_	_	_	
+5	the	the	det	det	_	_	_	_	_	
+6	carriage	carriage	n	n	_	_	_	_	_	
+7	.	.	Punc	Punc	_	_	_	_	_	
+
+1	but	but	conj	conj	_	_	_	_	_	
+2	the	the	det	det	_	_	_	_	_	
+3	fairy	fairy	n	n	_	_	_	_	_	
+4	godmother	god+mother	n	n	_	_	_	_	_	
+5	said	say	v	v	PAST	_	_	_	_	
+6	+"/.	+"/.	Punc	Punc	_	_	_	_	_	
+
+1	you	you	pro	pro	_	_	_	_	_	
+2	have_to	have_to	mod:aux	mod:aux	_	_	_	_	_	
+3	be	be	cop	cop	_	_	_	_	_	
+4	back	back	adv	adv	_	_	_	_	_	
+5	by	by	prep	prep	_	_	_	_	_	
+6	twelve	twelve	det:num	det:num	_	_	_	_	_	
+7	midnight	midnight	n	n	_	_	_	_	_	
+8	.	.	Punc	Punc	_	_	_	_	_	
+
+1	you_know	you_know	co	co	_	_	_	_	_	
+2	,	cm	cm	cm	_	_	_	_	_	
+3	you	you	pro	pro	_	_	_	_	_	
+4	really	real	adv	adv	dadj|LY	_	_	_	_	
+5	have_to	have_to	mod:aux	mod:aux	_	_	_	_	_	
+6	be	be	cop	cop	_	_	_	_	_	
+7	back	back	adv	adv	_	_	_	_	_	
+8	.	.	Punc	Punc	_	_	_	_	_	
+
+1	don't	do	mod	mod	_	_	_	_	_	
+2	-'n't	not	neg	neg	_	_	_	_	_	
+3	be	be	cop	cop	_	_	_	_	_	
+4	late	late	adj	adj	_	_	_	_	_	
+5	.	.	Punc	Punc	_	_	_	_	_	
+
+1	you	you	pro	pro	_	_	_	_	_	
+2	have_to	have_to	mod:aux	mod:aux	_	_	_	_	_	
+3	be	be	cop	cop	_	_	_	_	_	
+4	back	back	adv	adv	_	_	_	_	_	
+5	.	.	Punc	Punc	_	_	_	_	_	
+
+1	she's	she	pro:sub	pro:sub	_	_	_	_	_	
+2	-'s	be	cop	cop	3S	_	_	_	_	
+3	+"/.	+"/.	Punc	Punc	_	_	_	_	_	
+
+1	okay	okay	co	co	_	_	_	_	_	
+2	I	I	pro:sub	pro:sub	_	_	_	_	_	
+3	won't	will	mod	mod	_	_	_	_	_	
+4	-'n't	not	neg	neg	_	_	_	_	_	
+5	.	.	Punc	Punc	_	_	_	_	_	
+
+1	I	I	pro:sub	pro:sub	_	_	_	_	_	
+2	won't	will	mod	mod	_	_	_	_	_	
+3	-'n't	not	neg	neg	_	_	_	_	_	
+4	.	.	Punc	Punc	_	_	_	_	_	
+
+1	she	she	pro:sub	pro:sub	_	_	_	_	_	
+2	was	be	cop	cop	PAST|13S	_	_	_	_	
+3	all	all	adv:int	adv:int	_	_	_	_	_	
+4	excited	excite	part	part	PASTP	_	_	_	_	
+5	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	she	she	pro:sub	pro:sub	_	_	_	_	_	
+3	looked	look	v	v	PAST	_	_	_	_	
+4	so	so	adv:int	adv:int	_	_	_	_	_	
+5	beautiful	beautiful	adj	adj	_	_	_	_	_	
+6	and	and	coord	coord	_	_	_	_	_	
+7	everything	everything	pro:indef	pro:indef	_	_	_	_	_	
+8	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	she	she	pro:sub	pro:sub	_	_	_	_	_	
+3	was	be	aux	aux	PAST|13S	_	_	_	_	
+4	going	go	part	part	PRESP	_	_	_	_	
+5	to	to	inf	inf	_	_	_	_	_	
+6	have	have	v	v	_	_	_	_	_	
+7	a	a	det	det	_	_	_	_	_	
+8	good	good	adj	adj	_	_	_	_	_	
+9	time	time	n	n	_	_	_	_	_	
+10	and	and	coord	coord	_	_	_	_	_	
+11	everything	everything	pro:indef	pro:indef	_	_	_	_	_	
+12	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	they	they	pro:sub	pro:sub	_	_	_	_	_	
+3	went	go	v	v	PAST	_	_	_	_	
+4	on	on	adv	adv	_	_	_	_	_	
+5	to	to	prep	prep	_	_	_	_	_	
+6	the	the	det	det	_	_	_	_	_	
+7	ball	ball	n	n	_	_	_	_	_	
+8	at	at	prep	prep	_	_	_	_	_	
+9	the	the	det	det	_	_	_	_	_	
+10	king's	king	n	n	_	_	_	_	_	
+11	-'s	s	poss	poss	_	_	_	_	_	
+12	palace	palace	n	n	_	_	_	_	_	
+13	and	and	coord	coord	_	_	_	_	_	
+14	all	all	qn	qn	_	_	_	_	_	
+15	that	that	pro:dem	pro:dem	_	_	_	_	_	
+16	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	then	then	adv:tem	adv:tem	_	_	_	_	_	
+3	she	she	pro:sub	pro:sub	_	_	_	_	_	
+4	met	meet	v	v	PAST	_	_	_	_	
+5	the	the	det	det	_	_	_	_	_	
+6	prince	prince	n	n	_	_	_	_	_	
+7	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	they	they	pro:sub	pro:sub	_	_	_	_	_	
+3	danced	dance	v	v	PAST	_	_	_	_	
+4	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	they	they	pro:sub	pro:sub	_	_	_	_	_	
+3	just	just	adv:int	adv:int	_	_	_	_	_	
+4	really	real	adv	adv	dadj|LY	_	_	_	_	
+5	really	real	adv	adv	dadj|LY	_	_	_	_	
+6	liked	like	v	v	PAST	_	_	_	_	
+7	each_other	each_other	pro:refl	pro:refl	_	_	_	_	_	
+8	very	very	adv:int	adv:int	_	_	_	_	_	
+9	very	very	adv:int	adv:int	_	_	_	_	_	
+10	much	much	qn	qn	_	_	_	_	_	
+11	.	.	Punc	Punc	_	_	_	_	_	
+
+1	you	you	pro	pro	_	_	_	_	_	
+2	could	could	mod	mod	_	_	_	_	_	
+3	tell	tell	v	v	_	_	_	_	_	
+4	.	.	Punc	Punc	_	_	_	_	_	
+
+1	so	so	co	co	_	_	_	_	_	
+2	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	everything	everything	pro:indef	pro:indef	_	_	_	_	_	
+3	.	.	Punc	Punc	_	_	_	_	_	
+
+1	so	so	co	co	_	_	_	_	_	
+2	she	she	pro:sub	pro:sub	_	_	_	_	_	
+3	was	be	aux	aux	PAST|13S	_	_	_	_	
+4	out	out	adv	adv	_	_	_	_	_	
+5	dancing	dance	part	part	PRESP	_	_	_	_	
+6	and	and	coord	coord	_	_	_	_	_	
+7	talking	talk	part	part	PRESP	_	_	_	_	
+8	to	to	prep	prep	_	_	_	_	_	
+9	him	him	pro:obj	pro:obj	_	_	_	_	_	
+10	and	and	coord	coord	_	_	_	_	_	
+11	the	the	det	det	_	_	_	_	_	
+12	stuff	stuff	n	n	_	_	_	_	_	
+13	like	like	prep	prep	_	_	_	_	_	
+14	that	that	pro:dem	pro:dem	_	_	_	_	_	
+15	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	then	then	adv:tem	adv:tem	_	_	_	_	_	
+3	it	it	pro	pro	_	_	_	_	_	
+4	rang	ring	v	v	PAST	_	_	_	_	
+5	at	at	prep	prep	_	_	_	_	_	
+6	twelve	twelve	det:num	det:num	_	_	_	_	_	
+7	midnight	midnight	n	n	_	_	_	_	_	
+8	.	.	Punc	Punc	_	_	_	_	_	
+
+1	she's	she	pro:sub	pro:sub	_	_	_	_	_	
+2	-'s	be	cop	cop	3S	_	_	_	_	
+3	+"/.	+"/.	Punc	Punc	_	_	_	_	_	
+
+1	I	I	pro:sub	pro:sub	_	_	_	_	_	
+2	gotta	gotta	mod:aux	mod:aux	_	_	_	_	_	
+3	go	go	v	v	_	_	_	_	_	
+4	.	.	Punc	Punc	_	_	_	_	_	
+
+1	I	I	pro:sub	pro:sub	_	_	_	_	_	
+2	gotta	gotta	mod:aux	mod:aux	_	_	_	_	_	
+3	go	go	v	v	_	_	_	_	_	
+4	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	he's	he	pro:sub	pro:sub	_	_	_	_	_	
+3	-'s	be	cop	cop	3S	_	_	_	_	
+4	+"/.	+"/.	Punc	Punc	_	_	_	_	_	
+
+1	don't	do	mod	mod	_	_	_	_	_	
+2	-'n't	not	neg	neg	_	_	_	_	_	
+3	go	go	v	v	_	_	_	_	_	
+4	.	.	Punc	Punc	_	_	_	_	_	
+
+1	don't	do	mod	mod	_	_	_	_	_	
+2	-'n't	not	neg	neg	_	_	_	_	_	
+3	go	go	v	v	_	_	_	_	_	
+4	.	.	Punc	Punc	_	_	_	_	_	
+
+1	I	I	pro:sub	pro:sub	_	_	_	_	_	
+2	don't	do	mod	mod	_	_	_	_	_	
+3	-'n't	not	neg	neg	_	_	_	_	_	
+4	want	want	v	v	_	_	_	_	_	
+5	you	you	pro	pro	_	_	_	_	_	
+6	to	to	inf	inf	_	_	_	_	_	
+7	go	go	v	v	_	_	_	_	_	
+8	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	she	she	pro:sub	pro:sub	_	_	_	_	_	
+3	you_know	you_know	co	co	_	_	_	_	_	
+4	ran	run	v	v	PAST	_	_	_	_	
+5	down	down	prep	prep	_	_	_	_	_	
+6	the	the	det	det	_	_	_	_	_	
+7	steps	step	n	n	PL	_	_	_	_	
+8	to	to	inf	inf	_	_	_	_	_	
+9	get	get	v	v	_	_	_	_	_	
+10	to	to	prep	prep	_	_	_	_	_	
+11	her	her	pro:poss:det	pro:poss:det	_	_	_	_	_	
+12	you_know	you_know	co	co	_	_	_	_	_	
+13	coach	coach	n	n	_	_	_	_	_	
+14	and	and	coord	coord	_	_	_	_	_	
+15	that	that	pro:dem	pro:dem	_	_	_	_	_	
+16	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	she	she	pro:sub	pro:sub	_	_	_	_	_	
+3	dropped	drop	v	v	PAST	_	_	_	_	
+4	one	one	det:num	det:num	_	_	_	_	_	
+5	shoe	shoe	n	n	_	_	_	_	_	
+6	.	.	Punc	Punc	_	_	_	_	_	
+
+1	they	they	pro:sub	pro:sub	_	_	_	_	_	
+2	were	be	cop	cop	PAST	_	_	_	_	
+3	like	like	co	co	_	_	_	_	_	
+4	glass	glass	n	n	_	_	_	_	_	
+5	slippers	slipper	n	n	PL	_	_	_	_	
+6	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	so	so	co	co	_	_	_	_	_	
+3	she	she	pro:sub	pro:sub	_	_	_	_	_	
+4	dropped	drop	v	v	PAST	_	_	_	_	
+5	one	one	pro:indef	pro:indef	_	_	_	_	_	
+6	and	and	coord	coord	_	_	_	_	_	
+7	he	he	pro:sub	pro:sub	_	_	_	_	_	
+8	picked	pick	v	v	PAST	_	_	_	_	
+9	it	it	pro	pro	_	_	_	_	_	
+10	up	up	adv	adv	_	_	_	_	_	
+11	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	then	then	adv:tem	adv:tem	_	_	_	_	_	
+3	she	she	pro:sub	pro:sub	_	_	_	_	_	
+4	was	be	aux	aux	PAST|13S	_	_	_	_	
+5	gone	go	part	part	PASTP	_	_	_	_	
+6	you_know	you_know	co	co	_	_	_	_	_	
+7	.	.	Punc	Punc	_	_	_	_	_	
+
+1	I	I	pro:sub	pro:sub	_	_	_	_	_	
+2	mean	mean	v	v	_	_	_	_	_	
+3	she	she	pro:sub	pro:sub	_	_	_	_	_	
+4	had	have	v	v	PAST	_	_	_	_	
+5	to	to	inf	inf	_	_	_	_	_	
+6	get	get	v	v	_	_	_	_	_	
+7	home	home	n	n	_	_	_	_	_	
+8	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	everything	everything	pro:indef	pro:indef	_	_	_	_	_	
+3	turned	turn	v	v	PAST	_	_	_	_	
+4	back	back	adv	adv	_	_	_	_	_	
+5	to	to	prep	prep	_	_	_	_	_	
+6	normal	normal	adj	adj	_	_	_	_	_	
+7	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	she	she	pro:sub	pro:sub	_	_	_	_	_	
+3	was	be	cop	cop	PAST|13S	_	_	_	_	
+4	just	just	adv:int	adv:int	_	_	_	_	_	
+5	to	to	prep	prep	_	_	_	_	_	
+6	herself	herself	pro:refl	pro:refl	_	_	_	_	_	
+7	while	while	conj	conj	_	_	_	_	_	
+8	she	she	pro:sub	pro:sub	_	_	_	_	_	
+9	was	be	aux	aux	PAST|13S	_	_	_	_	
+10	doing	do	part	part	PRESP	_	_	_	_	
+11	her	her	pro:poss:det	pro:poss:det	_	_	_	_	_	
+12	chores	chore	n	n	PL	_	_	_	_	
+13	you_know	you_know	co	co	_	_	_	_	_	
+14	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	thinking	think	part	part	PRESP	_	_	_	_	
+3	about	about	prep	prep	_	_	_	_	_	
+4	that	that	pro:dem	pro:dem	_	_	_	_	_	
+5	and	and	coord	coord	_	_	_	_	_	
+6	talking	talk	part	part	PRESP	_	_	_	_	
+7	to	to	prep	prep	_	_	_	_	_	
+8	her	her	pro:poss:det	pro:poss:det	_	_	_	_	_	
+9	little	little	adj	adj	_	_	_	_	_	
+10	animals	animal	n	n	PL	_	_	_	_	
+11	,	cm	cm	cm	_	_	_	_	_	
+12	the	the	det	det	_	_	_	_	_	
+13	little	little	adj	adj	_	_	_	_	_	
+14	mice	mouse	n	n	PL	_	_	_	_	
+15	and	and	coord	coord	_	_	_	_	_	
+16	stuff	stuff	n	n	_	_	_	_	_	
+17	and	and	coord	coord	_	_	_	_	_	
+18	everything	everything	pro:indef	pro:indef	_	_	_	_	_	
+19	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	came	come	v	v	PAST	_	_	_	_	
+3	a	a	det	det	_	_	_	_	_	
+4	knock	knock	n	n	_	_	_	_	_	
+5	at	at	prep	prep	_	_	_	_	_	
+6	the	the	det	det	_	_	_	_	_	
+7	door	door	n	n	_	_	_	_	_	
+8	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	it	it	pro	pro	_	_	_	_	_	
+3	was	be	cop	cop	PAST|13S	_	_	_	_	
+4	the	the	det	det	_	_	_	_	_	
+5	prince	prince	n	n	_	_	_	_	_	
+6	and	and	coord	coord	_	_	_	_	_	
+7	the	the	det	det	_	_	_	_	_	
+8	people	person	n	n	PL	_	_	_	_	
+9	from	from	prep	prep	_	_	_	_	_	
+10	the	the	det	det	_	_	_	_	_	
+11	palace	palace	n	n	_	_	_	_	_	
+12	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	they	they	pro:sub	pro:sub	_	_	_	_	_	
+3	were	be	aux	aux	PAST	_	_	_	_	
+4	going	go	part	part	PRESP	_	_	_	_	
+5	all	all	adv:int	adv:int	_	_	_	_	_	
+6	over	over	prep	prep	_	_	_	_	_	
+7	the	the	det	det	_	_	_	_	_	
+8	town	town	n	n	_	_	_	_	_	
+9	looking	look	adj	adj	PRESP	_	_	_	_	
+10	for	for	prep	prep	_	_	_	_	_	
+11	whoever	whoever	pro:wh	pro:wh	_	_	_	_	_	
+12	this	this	det	det	_	_	_	_	_	
+13	shoe	shoe	n	n	_	_	_	_	_	
+14	should	should	mod	mod	_	_	_	_	_	
+15	belong	belong	v	v	_	_	_	_	_	
+16	to	to	prep	prep	_	_	_	_	_	
+17	you_know	you_know	co	co	_	_	_	_	_	
+18	the	the	det	det	_	_	_	_	_	
+19	glass	glass	n	n	_	_	_	_	_	
+20	slipper	slipper	n	n	_	_	_	_	_	
+21	actually	actual	adv	adv	dadj|LY	_	_	_	_	
+22	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	they	they	pro:sub	pro:sub	_	_	_	_	_	
+3	were	be	aux	aux	PAST	_	_	_	_	
+4	trying	try	part	part	PRESP	_	_	_	_	
+5	it	it	pro	pro	_	_	_	_	_	
+6	on	on	prep	prep	_	_	_	_	_	
+7	everybody	everybody	pro:indef	pro:indef	_	_	_	_	_	
+8	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	of_course	of_course	co	co	_	_	_	_	_	
+3	they	they	pro:sub	pro:sub	_	_	_	_	_	
+4	tried	try	v	v	PAST	_	_	_	_	
+5	it	it	pro	pro	_	_	_	_	_	
+6	on	on	prep	prep	_	_	_	_	_	
+7	the	the	det	det	_	_	_	_	_	
+8	stepsisters	sister	n	n	step|PL	_	_	_	_	
+9	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	you_know	you_know	co	co	_	_	_	_	_	
+3	there's	there	pro:exist	pro:exist	_	_	_	_	_	
+4	-'s	be	cop	cop	3S	_	_	_	_	
+5	no	no	qn	qn	_	_	_	_	_	
+6	way	way	n	n	_	_	_	_	_	
+7	they	they	pro:sub	pro:sub	_	_	_	_	_	
+8	could	could	mod	mod	_	_	_	_	_	
+9	cram	cram	v	v	_	_	_	_	_	
+10	their	their	pro:poss:det	pro:poss:det	_	_	_	_	_	
+11	foot	foot	n	n	_	_	_	_	_	
+12	in	in	prep	prep	_	_	_	_	_	
+13	there	there	adv	adv	_	_	_	_	_	
+14	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	it	it	pro	pro	_	_	_	_	_	
+3	didn't	do	mod	mod	PAST	_	_	_	_	
+4	-'n't	not	neg	neg	_	_	_	_	_	
+5	fit	fit	v	v	ZERO	_	_	_	_	
+6	either	either	qn	qn	_	_	_	_	_	
+7	one	one	pro:indef	pro:indef	_	_	_	_	_	
+8	of	of	prep	prep	_	_	_	_	_	
+9	them	them	pro:obj	pro:obj	_	_	_	_	_	
+10	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	then	then	adv:tem	adv:tem	_	_	_	_	_	
+3	they	they	pro:sub	pro:sub	_	_	_	_	_	
+4	said	say	v	v	PAST	_	_	_	_	
+5	+"/.	+"/.	Punc	Punc	_	_	_	_	_	
+
+1	well	well	co	co	_	_	_	_	_	
+2	then	then	adv:tem	adv:tem	_	_	_	_	_	
+3	who	who	pro:wh	pro:wh	_	_	_	_	_	
+4	is	be	cop	cop	3S	_	_	_	_	
+5	she	she	pro:sub	pro:sub	_	_	_	_	_	
+6	you_know	you_know	co	co	_	_	_	_	_	
+7	?	?	Punc	Punc	_	_	_	_	_	
+
+1	oh	oh	co	co	_	_	_	_	_	
+2	she's	she	pro:sub	pro:sub	_	_	_	_	_	
+3	-'s	be	cop	cop	3S	_	_	_	_	
+4	nothing	nothing	pro:indef	pro:indef	_	_	_	_	_	
+5	.	.	Punc	Punc	_	_	_	_	_	
+
+1	you	you	pro	pro	_	_	_	_	_	
+2	don't	do	mod	mod	_	_	_	_	_	
+3	-'n't	not	neg	neg	_	_	_	_	_	
+4	have_to	have_to	mod:aux	mod:aux	_	_	_	_	_	
+5	do	do	v	v	_	_	_	_	_	
+6	it	it	pro	pro	_	_	_	_	_	
+7	for	for	prep	prep	_	_	_	_	_	
+8	her	her	pro:obj	pro:obj	_	_	_	_	_	
+9	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	he	he	pro:sub	pro:sub	_	_	_	_	_	
+3	said	say	v	v	PAST	_	_	_	_	
+4	+".	+".	Punc	Punc	_	_	_	_	_	
+
+1	no	no	co	co	_	_	_	_	_	
+2	we're	we	pro:sub	pro:sub	_	_	_	_	_	
+3	-'re	be	aux	aux	PRES	_	_	_	_	
+4	going	go	part	part	PRESP	_	_	_	_	
+5	to	to	inf	inf	_	_	_	_	_	
+6	try	try	v	v	_	_	_	_	_	
+7	everybody	everybody	pro:indef	pro:indef	_	_	_	_	_	
+8	.	.	Punc	Punc	_	_	_	_	_	
+
+1	so	so	conj	conj	_	_	_	_	_	
+2	she	she	pro:sub	pro:sub	_	_	_	_	_	
+3	sat	sit	v	v	PAST	_	_	_	_	
+4	down	down	adv	adv	_	_	_	_	_	
+5	.	.	Punc	Punc	_	_	_	_	_	
+
+1	the	the	det	det	_	_	_	_	_	
+2	prince	prince	n	n	_	_	_	_	_	
+3	tried	try	v	v	PAST	_	_	_	_	
+4	on	on	prep	prep	_	_	_	_	_	
+5	the	the	det	det	_	_	_	_	_	
+6	slipper	slipper	n	n	_	_	_	_	_	
+7	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	it	it	pro	pro	_	_	_	_	_	
+3	fit	fit	v	v	ZERO	_	_	_	_	
+4	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	they	they	pro:sub	pro:sub	_	_	_	_	_	
+3	were	be	aux	aux	PAST	_	_	_	_	
+4	just	just	adv:int	adv:int	_	_	_	_	_	
+5	astounded	astound	part	part	PASTP	_	_	_	_	
+6	.	.	Punc	Punc	_	_	_	_	_	
+
+1	I	I	pro:sub	pro:sub	_	_	_	_	_	
+2	think	think	v	v	_	_	_	_	_	
+3	that	that	rel	rel	_	_	_	_	_	
+4	they're	they	pro:sub	pro:sub	_	_	_	_	_	
+5	-'re	be	aux	aux	PRES	_	_	_	_	
+6	all	all	post	post	_	_	_	_	_	
+7	going	go	part	part	PRESP	_	_	_	_	
+8	to	to	inf	inf	_	_	_	_	_	
+9	have	have	v	v	_	_	_	_	_	
+10	a	a	det	det	_	_	_	_	_	
+11	stroke	stroke	n	n	_	_	_	_	_	
+12	or	or	coord	coord	_	_	_	_	_	
+13	something	something	pro:indef	pro:indef	_	_	_	_	_	
+14	you_know	you_know	co	co	_	_	_	_	_	
+15	.	.	Punc	Punc	_	_	_	_	_	
+
+1	but	but	conj	conj	_	_	_	_	_	
+2	anyway	anyway	adv	adv	_	_	_	_	_	
+3	+...	+...	Punc	Punc	_	_	_	_	_	
+
+1	so	so	conj	conj	_	_	_	_	_	
+2	he	he	pro:sub	pro:sub	_	_	_	_	_	
+3	found	find	v	v	PAST	_	_	_	_	
+4	his	his	pro:poss:det	pro:poss:det	_	_	_	_	_	
+5	princess	princess	n	n	_	_	_	_	_	
+6	and	and	coord	coord	_	_	_	_	_	
+7	she	she	pro:sub	pro:sub	_	_	_	_	_	
+8	found	find	v	v	PAST	_	_	_	_	
+9	her	her	pro:poss:det	pro:poss:det	_	_	_	_	_	
+10	prince	prince	n	n	_	_	_	_	_	
+11	.	.	Punc	Punc	_	_	_	_	_	
+
+1	and	and	coord	coord	_	_	_	_	_	
+2	they	they	pro:sub	pro:sub	_	_	_	_	_	
+3	got	get	aux	aux	PAST	_	_	_	_	
+4	married	marry	part	part	PASTP	_	_	_	_	
+5	and	and	coord	coord	_	_	_	_	_	
+6	lived	live	v	v	PAST	_	_	_	_	
+7	happily	happy	adv	adv	dadj|LY	_	_	_	_	
+8	ever	ever	adv	adv	_	_	_	_	_	
+9	after	after	adv:tem	adv:tem	_	_	_	_	_	
+10	.	.	Punc	Punc	_	_	_	_	_	
+
+1	alright	alright	co	co	_	_	_	_	_	
+2	.	.	Punc	Punc	_	_	_	_	_	
+
+1	I'm	I	pro:sub	pro:sub	_	_	_	_	_	
+2	-'m	be	cop	cop	1S	_	_	_	_	
+3	not	not	neg	neg	_	_	_	_	_	
+4	a	a	det	det	_	_	_	_	_	
+5	good	good	adj	adj	_	_	_	_	_	
+6	storyteller	story+tell	n	n	dv|AGT	_	_	_	_	
+7	.	.	Punc	Punc	_	_	_	_	_	
+

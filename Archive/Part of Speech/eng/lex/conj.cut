@@ -1,0 +1,32 @@
+@UTF8
+after {[scat conj]}
+albeit {[scat conj]}
+although {[scat conj]}
+and {[scat conj]}
+as {[scat conj]}
+because {[scat conj]}
+before {[scat conj]}
+but {[scat conj]}
+either {[scat conj]}
+for {[scat conj]}
+except {[scat conj]} % illiterate usage
+if {[scat conj]}
+lest {[scat conj]}
+neither {[scat conj]}
+nor {[scat conj]}
+once {[scat conj]}
+or {[scat conj]}
+since {[scat conj]}
+so {[scat conj]}
+though {[scat conj]}
+unless {[scat conj]}
+until {[scat conj]}
+when {[scat conj]}
+whereas {[scat conj]}
+whereupon {[scat conj]}
+whether {[scat conj]}
+while {[scat conj]}
+whilst {[scat conj]}
+yet {[scat conj]}
+
+

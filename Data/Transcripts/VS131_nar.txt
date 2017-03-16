@@ -1,0 +1,99 @@
+@Unicode
+@Begin
+@Languages:	eng
+@Participants:	MOT Jassie_Teo Mother, CHI Charlotte_Lee Child
+@ID:	eng||MOT||female|||Mother|||
+@ID:	eng||CHI|1;0.13|female|||Child|||
+@Date:	03-AUG-2016
+@Location:	Home Testing
+@Comment:	duration of recording 3 minutes 42 seconds
+@Comment:	transcribed by Elsie, checked by Sihui, checked by Nadiah
+@Start
+*MOT:	baby!
+*MOT:	what is this?
+*MOT:	this is have you seen my duckling?
+*MOT:	let me read it to you.
+*MOT:	early one morning.
+*MOT:	there's two, four, six, seven.
+*MOT:	baby, early one morning.
+*MOT:	there are seven ducklings.
+*MOT:	yes, what is this?
+*MOT:	this is the duckling and the butterfly.
+*MOT:	what is this?
+*MOT:	this is the mother duck.
+*MOT:	let's count the ducklings.
+*MOT:	one, two, three, four, five, six, seven!
+*MOT:	and, there's another one!
+*MOT:	eight!
+*MOT:	and there is a butterfly too with it.
+*MOT:	look, yes.
+*MOT:	this is the mother duck.
+*MOT:	what does mother duck do?
+*MOT:	mother duck swims to the ducklings.
+*MOT:	let's count the ducklings again.
+*MOT:	baby, come.
+*MOT:	mummy count for you.
+*MOT:	come, hold the book.
+*MOT:	one, two, three, four, five, six, seven!
+*MOT:	seven ducklings!
+*MOT:	and the eighth duckling is at the top!
+*MOT:	charlotte.
+*MOT:	i just read, right?
+*MOT:	charlotte, baby.
+*MOT:	look.
+*MOT:	the ducklings start to swim together.
+*MOT:	with the mother duck.
+*MOT:	yes, what is this?
+*MOT:	this is the mother duck.
+*MOT:	look!
+*MOT:	mother duck.
+*MOT:	have you seen my duckling?
+*MOT:	baby.
+*MOT:	the mother duck is asking the xxx.
+*MOT:	have you seen my duckling?
+*MOT:	the mother duck keeps looking for the duckling.
+*MOT:	and &keep also asking the tortoise.
+*MOT:	have you seen my duckling?
+*MOT:	and the, baby.
+*MOT:	one, two, three, four, five, six.
+*CHI:	&=cries.
+*MOT:	six ducklings!
+*MOT:	look!
+*CHI:	&=vocalises.
+*MOT:	baby, see.
+*MOT:	have you seen the duckling?
+*MOT:	come sit still.
+*MOT:	where is the duckling?
+*CHI:	&=vocalises.
+*MOT:	where?
+*CHI:	&=cries.
+*MOT:	and asked the fish.
+*MOT:	where is the duckling?
+*MOT:	and the pet fish here.
+*MOT:	there is a little frog here and the tortoise.
+*MOT:	where is my duckling?
+*CHI:	&=cries.
+*MOT:	have you seen my little duckling?
+*CHI:	mama!
+*MOT:	where is this duckling?
+*MOT:	<what is>[x 2].
+*MOT:	this &ah.
+*MOT:	look, this is duckling.
+*MOT:	this is another.
+*MOT:	this is a kingfisher.
+*MOT:	baby, where is the duckling?
+*MOT:	look at the tortoise!
+*MOT:	the duckling is with the tortoise, baby.
+*MOT:	charlotte!
+*MOT:	where is this?
+*MOT:	it's over here!
+*MOT:	look.
+*MOT:	there, there's the tortoise with another duckling.
+*MOT:	and the duck swims to the mother duck and they go off they go.
+*CHI:	&=cries.
+*MOT:	and the mother duck keep the ducklings warm at night.
+*MOT:	goodnight.
+*CHI:	&=cries.
+*MOT:	okay, baby.
+*MOT:	this is the mother duck.
+@End.

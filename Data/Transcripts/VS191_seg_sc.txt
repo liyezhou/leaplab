@@ -1,0 +1,191 @@
+@Unicode
+@Begin
+@Languages:	eng, zho
+@Participants:	MOT Goh_Yen_Fang Mother, FAT Father, CHI Grace_Lai_Jia_Ern Child
+@ID:	eng||MOT||female|||Mother|||
+@ID:	eng||CHI|1;1.21|female|||Child|||
+@Date:	10-DEC-2016
+@Location:	Lab/BrainFit Testing
+@Comment:	duration of recording 7 minutes 18 seconds
+@Comment:	transcribed by Debbie, checked by XinYun, checked by Joseph
+@Start
+*MOT:	okay, what book is this, it's a new book eh.
+*MOT:	&huh, have you seen my duckling?
+*MOT:	what is this that you see [?].
+*CHI:	&=vocalises.
+*MOT:	duck [x 2].
+*MOT:	you want to open the book already, want to flip already &huh?
+*MOT:	see, mama duck, okay?
+*MOT:	&wow, what is this!
+*MOT:	okay, you flip [x 4], okay flip, flip one by one.
+*CHI:	&=vocalises.
+*MOT:	early one morning, you see how many &err little ducks are there?
+*MOT:	one, two, three.
+*CHI:	four.
+*MOT:	four, five, six.
+*CHI:	six.
+*MOT:	seven, eight!
+*CHI:	eight!
+*MOT:	you turn [x 2], to the next page.
+*MOT:	you turn to the next page, <you see> [x 2].
+*MOT:	you see, mama duck, swim in the river, and then she see <her little> [x 2] chicks!
+*MOT:	&oh not chicks &ah, little ducks.
+*MOT:	you come and see, baby, you come and see here, you see.
+*FAT:	grace, come [x 2]. [+ bch]
+*MOT:	where is the mama duck?
+*FAT:	hey cannot touch &ah, hello. [+ bch]
+*MOT:	baby, where is the mama duck?
+*MOT:	&=laughs, distracted by the switch.
+*FAT:	mama duck, donald duck &eh, where's the donald duck, come. [+ bch]
+*MOT:	come [x 2] here, <come here> [x 2] <you see> [x 2], this one look like your donald duck you know.
+*MOT:	baby, you see this one look like your donald duck, you come and see.
+*FAT:	&eeyer. [+ bch]
+*MOT:	come and <sit here> [x 2], &wah, <you see> [x 2].
+*MOT:	you don't want ah, you don't want the book &ah?
+*MOT:	what you want? don't want, &=laughs.
+*MOT:	why you don't want?
+*MOT:	come! see! this one is a new book, you see.
+*MOT:	you see what is this, &wow!
+*MOT:	mama duck and, you see mama duck kiss [x 2], kiss [x 2] the little ducks.
+*FAT:	&=kisses. [+ bch]
+*MOT:	how to kiss [x 2]?
+*MOT:	muack@o [x 2]! okay?
+*MOT:	you see there is one duck hiding you know, somewhere.
+*MOT:	here, how come here got one duck?
+*MOT:	how come the duck never come here? how come the duck is here?
+*FAT:	why? [+ bch]
+*MOT:	aiyo@s:sce, where &ah? &wah then you see, <all the> [x 2] little ducks are swimming here.
+*MOT:	you see there is one more duck up here you know.
+*MOT:	how come this duck is here?
+*MOT:	&huh? call the duck come back.
+*MOT:	come back!
+*FAT:	quack@o [x 3]. [+ bch]
+*MOT:	little duck come back!
+*FAT:	quack@o [x 2]. [+ bch]
+*MOT:	then mama is searching for the, the missing duckling.
+*MOT:	<have you seen my> [x 2] duckling?
+*MOT:	how come there is one that is missing? where is one missing?
+*FAT:	one, two three four fix six seven! [+ bch].
+*CHI:	&=vocalises.
+*MOT:	<you see> [x 3]!
+*MOT:	[- zho] zai4 zhe4 li3, you@s:eng see@s:eng.
+*MOT:	grace, you see.
+*FAT:	&aw. [+ bch]
+*CHI:	&=vocalises.
+*MOT:	grace, you see, <you see here> [x 2]. come you see here.
+*FAT:	you see. [+ bch]
+*MOT:	you see, how come here got one?
+*MOT:	what is this duck doing here?
+*FAT:	what is that? [+ bch]
+*MOT:	it is hiding in the flower you know?
+*MOT:	<where is the flower> [x 2], you come here.
+*MOT:	you tell me <where is the flower> [x 2].
+*CHI:	here.
+*MOT:	oh! that is not the flower, that is the bird.
+*MOT:	<where is the flower> [x 2]?
+*FAT:	yes. [+ bch]
+*MOT:	&yeah, very good! that is the white flower.
+*MOT:	did you see the duck inside the white flower or not, you see?
+*MOT:	you see here.
+*CHI:	&=vocalises.
+*MOT:	okay [x 2], you turn to the next page come.
+*CHI:	&=vocalises.
+*MOT:	you turn to the next page first , you see.
+*MOT:	wah! what is this, you see.
+*FAT:	&woo [+ bch]
+*MOT:	wah, what is that.
+*MOT:	that is a what, tortoise &eh, then you see the mama duck ask the tortoise, have you seen my duckling?.
+*FAT:	have you seen my duckling? [+ bch]
+*MOT:	have you seen my duckling?.
+*CHI:	&=cries.
+*MOT:	aiyo@s:sce okay, why, where you wanna go?
+*MOT:	you see, and then this one, what is this, fat [x 2] one.
+*CHI:	&=vocalises.
+*MOT:	it is eating the wood xxx, can you see or not?
+*CHI:	&=whimpers.
+*MOT:	where you want to go?
+*MOT:	&huh? jia ern, you want the book or not?
+*MOT:	<you want> [x 2], to read the book or not?
+*CHI:	&=whimpers.
+*MOT:	jia ern you see, &=gasps.
+*MOT:	&ooh, what is this fat [x 2] one doing?
+*MOT:	&oh &=laughs, it is [x 2] pushing a log, you see, and then.
+*CHI:	&=whimpers.
+*MOT:	&=laughs, okay you take that, give mama, give that to mama.
+*MOT:	jia ern, give that to mama.
+*FAT:	take that to mama. [+ bch]
+*MOT:	jia ern, give mama.
+*CHI:	&=vocalises.
+*MOT:	okay, &oh, some more ah?
+*MOT:	jia ern can you come and see the duck [x 2]?
+*FAT:	come.[+ bch]
+*MOT:	wow what is this, you see, the frog you know?
+*CHI:	&=vocalises.
+*FAT:	<thank you> [x 3]. [+ bch]
+*MOT:	yeah, baby, baby come here.
+*FAT:	baby. [+ bch]
+*CHI:	&=whimpers.
+*MOT:	baby &ah.
+*MOT:	baby you see, see what is it.
+*CHI:	&wah.
+*MOT:	&wah, &=gasp , what is this you see.
+*MOT:	<you see> [x 2], there is a fish, there is a lizard, there is a frog, there is a beetle.
+*CHI:	&=whimpers.
+*MOT:	where is the missing duck?
+*MOT:	<can you see the missing duck here> [x 2] or not?
+*MOT:	&huh, can you see or not?
+*CHI:	&oh.
+*MOT:	&oh! can you see here?
+*CHI:	&nah.
+*MOT:	okay, you give mama the water &ah, okay thank you.
+*CHI:	xie4@s:zho [x 2].
+*MOT:	thank you.
+*MOT:	xie4@s:zho [x 2].
+*CHI:	&=vocalises.
+*MOT:	okay, <put this back> [x 2] on the table, put back on the table come.
+*CHI:	&=vocalises.
+*MOT:	don't want &ah, why?
+*MOT:	why don't want, <you see> [x 2] after that, mama duck.
+*CHI:	&=whines.
+*MOT:	you see, what is this you see, mama duck, see another mama duck and then ask the mama duck have you seen my duckling?.
+*MOT:	where is the duckling? where is the missing duckling? you see here, here.
+*CHI:	&=whimpers.
+*MOT:	you see here [x 3].
+*MOT:	okay, and then after that.
+*MOT:	after that what?
+*MOT:	mama duck turn around and look, and she saw her missing duckling!
+*CHI:	&=vocalises.
+*FAT:	thank you &ah. [+ bch]
+*MOT:	the turtle, the [x 2] tortoise bring the missing duckling to mama duck, correct or not?
+*MOT:	<where is the> [x 2] tortoise you see.
+*MOT:	tortoise is here, can you see the tortoise here .
+*FAT:	<wu1@s:zho gui1@s:zho> [x 2] [+ bch].
+*CHI:	&oh.
+*MOT:	you see, &oh and?
+*MOT:	the missing duckling follow, swim together with other ducks together hor@s:sce?
+*CHI:	&=vocalises.
+*MOT:	and then &oh, and then.
+*CHI:	&=whines.
+*FAT:	&sh. [+ bch]
+*MOT:	later mama open for you. [+ bch]
+*MOT:	&huh then after that they xxx.
+*CHI:	&=screams.
+*MOT:	<you see> [x 2] the duck <orh>@s:sce [x 2] already, you see the duck <orh@s:sce> [x 2] already.
+*FAT:	where is the moon? [+ bch]
+*MOT:	&huh, xxx see, where is the duck, can you see the duck?
+*CHI:	&=vocalises.
+*MOT:	here [x 2].
+*CHI:	here [x 2].
+*MOT:	&oh, i flip ah, okay where is the frog, can you see the frog here?
+*MOT:	can you see the frog or not, &huh, frog hor@s:sce?
+*MOT:	okay! the end!
+*MOT:	can you close the book or not, close the book.
+*MOT:	close the book, &ah, close.
+*MOT:	bye [x 2], bye [x 2].
+*MOT:	thank you!
+*MOT:	<xie4@s> [x 2], hello, <xie4@s> [x 2].
+*CHI:	thank you.
+*MOT:	okay.
+*CHI:	&=vocalises.
+*FAT:	no more finish. [+ bch]
+@End

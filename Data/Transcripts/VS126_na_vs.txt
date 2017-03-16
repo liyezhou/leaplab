@@ -1,0 +1,222 @@
+@Unicode
+@Begin
+@Languages:	eng
+@Participants:	MOT Michelle Mother, CHI Isaiah_Toh Child
+@ID:	eng||MOT||female|||Mother|||
+@ID:	eng||CHI|1;6.6|male|||Child|||
+@Date:	24-JUL-2016
+@Location:	Lab Testing
+@Comment:	duration of recording 8 minutes 31 seconds
+@Comment:	transcribed by Carol, checked by Wenqi, checked by Elsie
+@Start
+*MOT:	you see, what's that?
+*MOT:	what's this?
+*MOT:	what's this?
+*MOT:	what's that?
+*MOT:	duck.
+*MOT:	quack [x 2]!
+*MOT:	have you seen my duckling?
+*CHI:	&=vocalises.
+*MOT:	have you seen my duckling?
+*MOT:	what they doing?
+*MOT:	what's the duckling doing?
+*CHI:	&=vocalises.
+*MOT:	it's okay.
+*MOT:	daddy will come back later, okay?
+*MOT:	&ooh, bye [x 2] duckling!
+*MOT:	where's the duckling going?
+*MOT:	early one morning.
+*CHI:	&=vocalises.
+*MOT:	&oh, you see the baby duck swim away already.
+*MOT:	quack [x 2]!
+*MOT:	<where is he going> [x 2]?
+*MOT:	&oh, who's that?
+*MOT:	mummy duck came back!
+*MOT:	quack [x 2].
+*MOT:	oh, see!
+*MOT:	oh, mummy duck asks.
+*MOT:	hello everybody.
+*MOT:	let's count how many ducklings there are.
+*MOT:	one, no?
+*MOT:	you're not gonna count?
+*MOT:	okay.
+*MOT:	where they going?
+*MOT:	are they going to find their friend?
+*MOT:	are they going to find the missing duckling?
+*MOT:	they are swimming right?
+*MOT:	have you seen my duckling?
+*MOT:	what's that?
+*MOT:	<a bird> [x 2].
+*MOT:	a kingfisher.
+*MOT:	you see the beak very long.
+*MOT:	you see this one?
+*MOT:	the beak.
+*MOT:	xxx slowly.
+*MOT:	we're missing out some pages.
+*MOT:	see, &ooh.
+*MOT:	what's that?
+*MOT:	have you seen my duckling?
+*MOT:	we saw this in the other book, right?
+*MOT:	tortoise [x 2]!
+*CHI:	duck [x 2].
+*MOT:	duck, quack [x 2].
+*MOT:	there, the ducks are here.
+*MOT:	one two three four five six!
+*MOT:	quack [x 3].
+*CHI:	there [x 2].
+*MOT:	there?
+*MOT:	yeah, there's so many ducks there also.
+*MOT:	quack [x 3].
+*MOT:	what's that?
+*CHI:	rabbit.
+*MOT:	rabbit?
+*MOT:	it looks like a rabbit but it's not.
+*MOT:	it's a beaver!
+*MOT:	you see?
+*CHI:	beaver.
+*MOT:	beaver!
+*MOT:	it's chewing on the log.
+*MOT:	there's one duckling hiding.
+*MOT:	can you find the duckling?
+*MOT:	see, there's one duckling hiding.
+*MOT:	where is it?
+*MOT:	quack [x 2].
+*MOT:	where is it?
+*MOT:	&ooh.
+*MOT:	can you see?
+*MOT:	look, there's one hiding behind mummy.
+*MOT:	look!
+*MOT:	quack [x 2]!
+*MOT:	<this way> [x 3].
+*MOT:	have you seen my duckling?
+*MOT:	what's that?
+*CHI:	&=vocalises.
+*MOT:	xxx.
+*MOT:	what's this, remember?
+*MOT:	you said rabbit.
+*CHI:	&=vocalises rabbit.
+*MOT:	oh, that's not a rabbit.
+*MOT:	that's a duck.
+*CHI:	duck.
+*MOT:	duck.
+*MOT:	this one, beaver!
+*CHI:	&=vocalizes.
+*MOT:	beaver!
+*CHI:	duck.
+*MOT:	this is yeah.
+*MOT:	that's a duck.
+*MOT:	duckling.
+*CHI:	there [x 2]!
+*MOT:	baby duck called a duckling.
+*MOT:	&oh!
+*CHI:	dak@b [x 2].
+*MOT:	quack [x 2]!
+*MOT:	you see all the ducks put their head in the water.
+*MOT:	what can they see in the water?
+*MOT:	have you seen my duckling?
+*MOT:	what's this?
+*MOT:	fish!
+*MOT:	&=sings all the fishes swimming in the water.
+*MOT:	then what happen?
+*MOT:	bubble.
+*MOT:	bubble, splash!
+*CHI:	duck, boom!
+*MOT:	duck, boom?
+*MOT:	what's this?
+*MOT:	just now we saw the.
+*MOT:	this is the terrapin.
+*MOT:	just now.
+*CHI:	duck [x 2].
+*MOT:	duck.
+*MOT:	yeah there are so many coloured ducks there.
+*CHI:	&=vocalises.
+*MOT:	you see the ducks?
+*MOT:	different colour right.
+*MOT:	this one?
+*MOT:	frog.
+*MOT:	that day we saw the frog, remember?
+*MOT:	you wanna go and see the frog again?
+*MOT:	no, don't want?
+*MOT:	why?
+*MOT:	oh, look at that.
+*MOT:	&=vocalises you wanna touch it?
+*MOT:	&=squeals i think it's a salamander.
+*MOT:	&=squeals, &=laughs.
+*CHI:	&=vocalises.
+*MOT:	duck, where's the duck head?
+*MOT:	you see the duck heads are all in the water.
+*MOT:	and then they put their bum [x 2] up.
+*MOT:	the tail so high.
+*MOT:	and there's one little duck hiding there.
+*MOT:	quack [x 2] &shh!
+*MOT:	quack [x 2] the duck run away.
+*MOT:	the duck is playing hide and seek!
+*MOT:	are you ready xxx?
+*MOT:	&ooh!
+*MOT:	oh, what's this?
+*CHI:	&=vocalises.
+*MOT:	what's this?
+*MOT:	is there a duck?
+*CHI:	duck.
+*MOT:	is this a duck?
+*MOT:	do you think that's a duck?
+*CHI:	duck, where?
+*MOT:	could it be a different duck [x 2]?
+*MOT:	duck, and baby ducklings!
+*MOT:	you see, baby duck are called ducklings!
+*CHI:	&=vocalises.
+*MOT:	duck there.
+*MOT:	what's this?
+*MOT:	<fly [x 3], the butterfly>@si.
+*MOT:	the duck is hiding again.
+*MOT:	&shh, cheeky [x 2] duck, hiding there.
+*MOT:	this one, is how many?
+*MOT:	one two three four!
+*CHI:	&=cries.
+*MOT:	hey [x 3] where do you want to go?
+*MOT:	where do you want to go, you tell mummy first.
+*CHI:	&=vocalizes.
+*MOT:	you see the ducks are swimming.
+*MOT:	<all the ducklings swimming in the water>@si.
+*MOT:	what did they see?
+*CHI:	&=cries.
+*MOT:	&aww, what did they see?
+*MOT:	you see, what did mama duck see?
+*MOT:	what are they looking at?
+*MOT:	quack [x 2], quack [x 2]!
+*CHI:	&=cries.
+*MOT:	where do you wanna go?
+*CHI:	to dat@b [x 2].
+*MOT:	go there and touch the duck?
+*MOT:	you want to touch the duck is it?
+*MOT:	can we finish the book first then we go and touch the duck?
+*MOT:	so fast?
+*MOT:	okay one more, two more pages, two more.
+*MOT:	let's go really quickly.
+*MOT:	&=vocalises where they going?
+*MOT:	are they going home?
+*CHI:	&=vocalises.
+*MOT:	are the ducks going home?
+*MOT:	yes?
+*MOT:	can the ducks go home?
+*MOT:	oh, it's night time.
+*MOT:	it's night time, what are the ducks doing?
+*MOT:	&=snores.
+*CHI:	&=laughs.
+*MOT:	what are the ducks doing?
+*MOT:	sleeping!
+*MOT:	&=snores.
+*CHI:	bear [x 3]!
+*MOT:	bear?
+*MOT:	<where's the bear> [x 2].
+*CHI:	bear.
+*MOT:	okay, can you say bye [x 2] book?
+*MOT:	bye [x 2] book!
+*MOT:	bye [x 2] duck!
+*MOT:	see you again!
+*MOT:	okay put the book here okay?
+*MOT:	are we done?
+*MOT:	let's go!
+*MOT:	&=vocalises.
+*MOT:	we're done!
+@End

@@ -1,0 +1,92 @@
+@Unicode
+@Begin
+@Languages:	eng
+@Participants:	MOT Jolene_Ang Mother, CHI Tan_Yen_Leng_Emily Child
+@ID:	eng||MOT||female|||Mother|||
+@ID:	eng||CHI|1;5.18|female|||Child|||
+@Date:	16-SEP-2016
+@Location:	Lab Testing
+@Comment:	duration of recording 3 minutes 40 seconds
+@Comment:	transcribed by Xin Yun, checked by Nadiah, checked by Monique
+@Start
+*MOT:	emily what's this?
+*MOT:	duck [x 2].
+*MOT:	have you seen my duckling?
+*MOT:	emily look duck.
+*MOT:	see how many ducks are there?
+*MOT:	how many ducks?
+*MOT:	one two three four five ready?
+*MOT:	oh what is this?
+*MOT:	early one morning.
+*MOT:	<what's happening> [x 2]?
+*MOT:	early one morning?
+*CHI:	&=vocalises.
+*MOT:	I know, see mama duck.
+*MOT:	mama duck is going to take the baby &s ducks out for a swim.
+*MOT:	and mama duck told the ducklings.
+*MOT:	we are going for our morning exercise.
+*MOT:	emily, do you want to go for morning exercise?
+*CHI:	&=vocalises.
+*MOT:	no?
+*MOT:	and so all the little ducklings follow their mummy out to the pond.
+*MOT:	to explore to see what's there?
+*MOT:	what other animals were there!
+*MOT:	and as they walked, they realised that one of their sibling was lost.
+*MOT:	so mama duck asked the bird, have you seen my duckling?
+*MOT:	emily?
+*MOT:	and the birds answered, no, I haven't.
+*CHI:	&=vocalises.
+*MOT:	and mama duck went ahead and asked the beaver, have you seen my duckling?
+*MOT:	and the mister beaver answered, no, I haven't.
+*CHI:	&=vocalises.
+*MOT:	mama duck went on.
+*CHI:	&=whimpers.
+*MOT:	to ask mister otter.
+*CHI:	mama.
+*CHI:	mama.
+*MOT:	mama yes, have you seen my duckling?
+*CHI:	&=whimpers.
+*MOT:	and what did mister otter say?
+*MOT:	no, baby say no.
+*MOT:	and finally, mama duck asked the fishes, underwater, have you seen my duckling?
+*MOT:	and <what did the fish say> [x 3].
+*CHI:	&=vocalises.
+*MOT:	yes lizard.
+*MOT:	no, and what's this?
+*CHI:	&=vocalises.
+*MOT:	fish yes fish.
+*MOT:	yes many fish.
+*CHI:	&=squeals.
+*MOT:	&=laughs.
+*MOT:	and then after that they all said no.
+*MOT:	and mama duck went to ask.
+*MOT:	oh this looks like a very, &a &v very unique bird.
+*MOT:	I don't know what bird is this.
+*MOT:	this is a XXX XXX XXX.
+*CHI:	&=vocalises.
+*MOT:	have you seen my duckling?
+*MOT:	and the other ducks said no.
+*CHI:	ma &=whimpers.
+*MOT:	and mama duck was very [x 2] worried by now.
+*CHI:	&=cries duck.
+*MOT:	duck yes.
+*CHI:	&=cries.
+*MOT:	looking around, she found.
+*CHI:	&=whimpers.
+*MOT:	the last duckling, and they all swam away happily home.
+*CHI:	&=whimpers.
+*MOT:	<the end> [x 2].
+*MOT:	finish.
+*MOT:	<where's the moon> [x 3]?
+*MOT:	moon <where's the moon> [x 2]?
+*CHI:	&=vocalises.
+*MOT:	the moon is here look.
+*MOT:	what is mama duck doing?
+*MOT:	yes she is sleeping.
+*CHI:	bye [x 2].
+*MOT:	bye [x 2].
+*MOT:	&=laughs that's right bye [x 2].
+*MOT:	okay we're done.
+*CHI:	&=vocalises.
+*MOT:	okay right now we open the door.
+@End.

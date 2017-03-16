@@ -1,0 +1,138 @@
+@Unicode
+@Begin
+@Languages:	eng, zho
+@Participants:	MOT Wendy_Sim Mother CHI Tan_Zhi_Yi_Charlotte Child
+@ID:	eng||MOT||female|||Mother|||
+@ID:	eng||CHI|3;0.23|female|||Child|||
+@Date:	10-AUG-2015
+@Location:	Home
+@Comment:	duration of recording 7 minutes 4 seconds
+@Comment:	begin at 0 minutes 32 seconds
+@Comment:	transcribed by Yezhou checked by Ashley
+@Comment:	narration of wordless picture book
+@Start
+*MOT:	&eh we are going to read this book okay?
+*MOT:	mm.
+*CHI:	where did my friend go?
+*MOT:	your friend is waiting outside!
+*MOT:	okay, we are going to tell the story of this mama duck!
+*CHI:	yeah.
+*MOT:	you see how many ducklings?
+*CHI:	mama duck!
+*MOT:	how many the ducklings?
+*MOT:	come, one.
+*CHI:	one.
+*MOT:	two.
+*CHI:	two.
+*MOT:	three.
+*CHI:	three.
+*MOT:	four.
+*CHI:	four.
+*MOT:	five.
+*CHI:	five.
+*MOT:	six.
+*CHI:	six.
+*MOT:	seven.
+*CHI:	seven.
+*MOT:	eight!
+*CHI:	eight.
+*MOT:	come we see what happen.
+*MOT:	early one morning.
+*MOT:	you see!
+*MOT:	one of the duckling go and chase the, butterfly!
+*CHI:	butterfly.
+*MOT:	yeah then the rest of the, jiejie@s and meimei@s keep on looking at the duckling!
+%COM:	jiejie and meimei are elder and younger sisters respectively, in Mandarin.
+*MOT:	where did the duckling, go?
+*MOT:	uh oh!
+*MOT:	then you see, she is busy chasing the butterfly.
+*MOT:	then the mama come!
+*MOT:	mama duck come already.
+*MOT:	mama duck come and the rest of the korkor@s jiejie@s call.
+%COM:	korkor is elder brother in Cantonese.
+*MOT:	mama mama!
+*MOT:	meimei go and chase duckling, ah chase the butterfly already!
+*MOT:	then the, mama duck come.
+*MOT:	&m mama duck come.
+*MOT:	mama duck know or not?
+*MOT:	i think mama duck don't know the duckling run away!
+*MOT:	oh dear!
+*MOT:	how is it?
+*MOT:	oh.
+*CHI:	there duckie there!
+*MOT:	oh the duckling is actually, far away already.
+*MOT:	then the mama duck bring the rest of the duckling go gaigai already!
+*CHI:	mama, here xxx!
+%COM:	gaigai is Singlish slang for going out for leisure
+*MOT:	yeah!
+*MOT:	then what happen to this duck?
+*CHI:	duck!
+*MOT:	what happen to the duckling?
+*CHI:	xxx the duckie!
+*MOT:	huh the mama duck.
+*MOT:	oh that mama duck go and find the little duckling.
+*MOT:	go and ask this bird.
+*MOT:	ask, have you seen my duckling?
+*MOT:	he say no, i didn't see your duckling!
+*MOT:	oh,  mama duck very sad.
+*MOT:	you know the mama duck go and find oh go and ask the tortoise.
+*MOT:	have you seen my duckling.
+*MOT:	no no no.
+*MOT:	i have not seen your duckling.
+*MOT:	then what about this.
+*MOT:	is this a beaver.
+*MOT:	yes have you seen my duckling.
+*MOT:	ya then the mama say have you seen my duckling?
+*MOT:	then the this beaver.
+*MOT:	what is this beaver doing by chewing all the wood or something right?
+*MOT:	then the mama duckling still ask.
+*MOT:	mama duck have you seen my duckling?
+*MOT:	oh mama duck look under the water.
+*MOT:	you see every duckling look under the water?
+*MOT:	you see the fish?
+*MOT:	ask the fish ask the tortoise.
+*MOT:	no it's not the case.
+*MOT:	it is a water spider or something like that.
+*MOT:	the fish the tortoise ask the fish.
+*MOT:	have you seen my duckling?
+*MOT:	oh mama is giving up.
+*MOT:	you see mama duck go and she go to a beach and fought this.
+*MOT:	what is this?
+*MOT:	this is another type of creature.
+*MOT:	it looks like a duck.
+*MOT:	maybe it's a cousin of the duck.
+*MOT:	then suddenly suddenly mama found something.
+*MOT:	is this is this the duckling?
+*MOT:	darling darling is this the duckling?
+*MOT:	ya so the tortoise manage to find the duckling.
+*MOT:	yay they are so happy.
+*MOT:	butterfly.
+*MOT:	see the butterfly.
+*MOT:	so they manage to find the duckling.
+*MOT:	that see that.
+*MOT:	they are going home already you see.
+*MOT:	because it's late already.
+*MOT:	they are going back home to have dinner and sleep.
+*MOT:	ya she still wants to chase after the butterfly.
+*MOT:	she still want to talk to the butterfly.
+*MOT:	i think she wants to make friend with the butterfly.
+*MOT:	you saw the butterfly downstairs just now right?
+*MOT:	is that the butterfly?
+*MOT:	ya ok.
+*MOT:	you see late already.
+*MOT:	the wind is blowing.
+*MOT:	you can see the little little fly here.
+*MOT:	ya so cute.
+*MOT:	what is this?
+*MOT:	a frog this is a frog!
+*MOT:	so everyone is sleeping.
+*MOT:	then the mama duck protect the little duckling just like mama protect baby.
+*MOT:	mama protect baby or not?
+*MOT:	mama protect baby you see the baby duckling.
+*MOT:	she is closing her eyes and everybody's close their eyes.
+*MOT:	because it's at night.
+*MOT:	she say goodnight duck goodnight mama duck goodnight duckling.
+*MOT:	say goodnight goodnight.
+*MOT:	oh have you seen my ducklings?
+*MOT:	you see that is so cute.
+@End

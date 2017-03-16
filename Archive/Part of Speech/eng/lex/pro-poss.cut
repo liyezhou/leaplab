@@ -1,0 +1,16 @@
+@UTF8
+her {[scat pro:poss:det]}
+hers {[scat pro:poss]}
+his {[scat pro:poss:det]}
+its {[scat pro:poss:det]}
+mine {[scat pro:poss]}
+my {[scat pro:poss:det]}
+our {[scat pro:poss:det]}
+ours {[scat pro:poss]}
+their {[scat pro:poss:det]}
+theirs {[scat pro:poss]}
+thine {[scat pro:poss]}
+thy {[scat pro:poss:det]}
+yer {[scat pro:poss:det]} "your"
+your {[scat pro:poss:det]}
+yours {[scat pro:poss]}

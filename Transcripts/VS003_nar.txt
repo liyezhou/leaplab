@@ -1,0 +1,91 @@
+@Unicode
+@Begin
+@Languages:	eng
+@Participants:	MOT Karen_Ho Mother, CHI Felicity_Grace_Sim Child
+@ID:	eng||MOT||female|||Mother|||
+@ID:	eng||CHI|1;1.23|female|||Child|||
+@Date:	18-DEC-2014
+@Location:	Lab
+@Comment:	duration of recording 4 minutes 30 seconds
+@Comment:	transcribed by Galston, collated by Junyi, checked by Ashley
+@Situation:	narration of wordless picture book (PDF on screen) in NTU Babylab
+@Start
+*MOT:	butterfly!
+*MOT:	can you see?
+*MOT:	butterfly!
+*MOT:	okay, you wanna see?
+*MOT:	early one morning.
+*MOT:	&s see what happens, baby &=vocalises baby.
+*MOT:	sorry ah.
+*MOT:	let's close the curtains.
+*MOT:	okay.
+*MOT:	have you seen my duckling?
+*MOT:	have you seen the duckling?
+*MOT:	how many ducklings are there?
+*MOT:	one two three four five six seven and, eight ducklings!
+*MOT:	so early one morning.
+*MOT:	what happens.
+*MOT:	you have one two three four five six seven!
+*MOT:	and this little one has decided to go and explore!
+*MOT:	so the mother comes along	and ask the one two three four five six seven.
+*MOT:	&=gasps where's my duckling?
+*MOT:	where's the little one &=laughs?
+*MOT:	yes!
+*MOT:	okay, then.
+*MOT:	and she says, you know what, I think we should go and look for him!
+*MOT:	because he's lost right!
+*MOT:	one two three four five six seven!
+*MOT:	the last one is not there anymore!
+*MOT:	so but actually baby is just here.
+*MOT:	they are in this part of they with the, of their home.
+*MOT:	and this little duckling is on the other side, gone to explore the world!
+*MOT:	yes.
+*MOT:	you want to go and find together?
+*MOT:	shall we go and find the duckling together?
+*MOT:	so she goes and swims and she asks this um I don't know is it a heron?
+*MOT:	it's an another kind of bird.
+*MOT:	have you seen my duckling.
+*MOT:	and this heron.
+*MOT:	I don't know whether the heron says yes, maybe he says no.
+*MOT:	&sh try someone else.
+*MOT:	so lets see the next slide, she goes to the walrus!
+*MOT:	&d she asks the walrus.
+*MOT:	have you seen my duckling!
+*MOT:	this big brown little thing, and.
+*MOT:	the walrus goes, and he grabs a log and he says.
+*MOT:	come, I'll help you find him!
+*MOT:	what happens next.
+*MOT:	she asks this little green fish!
+*MOT:	have you seen my duckling!
+*MOT:	and everybody is very very kan2 chiong1, and they go, and try swimming!
+%com:	kan chiong means panicky in Cantonese
+*MOT:	along in the lake to find the little duckling!
+*MOT:	(o)kay, the mother duck comes to the next one.
+*MOT:	she herself is a mother can you see she has many babies.
+*MOT:	I can see one two and here one more, three babies!
+*MOT:	so as they go swimming swimming swimming and look, the turtle has found the duckling!
+*MOT:	the turtle.
+*MOT:	we gonna get jie3 jie3 a turtle for christmas.
+%com:	jie3 jie3 refers to elder sister
+*MOT:	the turtle has found the duckling!
+*MOT:	okay what happens next.
+*MOT:	once the mommy has found, you see this is one two three four five six seven ducks!
+*MOT:	the last one has been found, by the turtle yay!
+*MOT:	is it good job?
+*MOT:	good job mei2 mei2.
+%com:	mei2 mei2 means younger sister.
+*MOT:	what's next page.
+*MOT:	what's the next page?
+%MOT:	what's the next page mei mei!
+*MOT:	and, oops.
+*MOT:	and what happens on the last page?
+*MOT:	are they all reunited happily, ever after?
+*MOT:	this is page eleven of thirteen.
+*MOT:	what's twelve of thirteen.
+*MOT:	tweive of thirteen?
+*MOT:	oh.
+*MOT:	what are you eating.
+*MOT:	mei2 mei2, what are you eating?
+*MOT:	you are distracted.
+*MOT:	&=vocalises.
+@End

@@ -1,0 +1,52 @@
+@Unicode
+@Begin
+@Languages:	zho, eng
+@Participants:	MOT Zhang_Qiaoqiao Mother, CHI Liang_Yunxi Child
+@ID:	zho||MOT||female|||Mother|||
+@ID:	zho||CHI|1;0.14|female|||Child|||
+@Date:	22-MAY-2015
+@Location:	Lab Testing
+@Comment:	duration of recording 3 minutes 57 seconds
+@Comment:	transcribed by Joseph, checked by Wenqi, checked by
+@Start
+*MOT:	kuai4 dian3, kuai4 dian3 lai2.
+*MOT:	du2 gu4 shi4 gei3 ni3 ting1 lai2.
+*MOT:	wo3 lai2 du2 a.
+*MOT:	xxx, ni3 kan4 xiao3 ya1 zi3.
+*MOT:	xiao3 ya1 zi3.
+*MOT:	xxx, ni3 kan4, ni3 kan4 zhe4 ge4 xiao3 ya1 zi3.
+*MOT:	<ni3 kan4> [x 3] zhe4 ge4.
+*MOT:	xiao3 ya1 zi3 ni3 kan4.
+*MOT:	zhe4 shi4 yi1 qun2 xiao3 ya1 zi3.
+*MOT:	yi1 tian1 zao3 chen2.
+*MOT:	<ni3 kan4> [x 2], yi4 qun2 xiao3 ya1 zi3.
+*MOT:	<ni3 kan4> [x 2], ji3 zhi1.
+*MOT:	yi1, er4, san1.
+*MOT:	kuai4 dian3, <ni3 kan4> [x 2].
+*MOT:	ya1 ma1 ma lai2.
+*MOT:	xiao3 bao3 bao.
+*MOT:	kuai4, <ni3 kan4> [x 2] yi3 qun2 xiao3 ya1 zi3.
+*MOT:	ya1 ma1 ma lai2 zhao3 ta1 men2 le, ni3 kan4.
+*MOT:	zhe4 you3 yi1 qun2 xiao3 ya1.
+*MOT:	zhe4 li3 hai2 you3 yi1 zhi1 ya1 zi3.
+*MOT:	ni3 kan4 dao3 mei2 you3?
+*MOT:	ai1 ya1, <ni3 kan4> [x 4] ma1 ma xxx.
+%COM: mother tries to get the child seated before resuming the story.
+*MOT:	yi1 ge4, liang3 ge4, san1 ge4, si4 ge4, wu3 ge4, liu4 ge4 xiao3 ya1 zi3.
+*MOT:	liu4 zhi1 xiao3 ya1 zi3.
+*MOT:	ni3 kan4 xiao3 ya1 zi3 diu1 le, ya1 ma1 ma wen4 ta1.
+*MOT:	ni3 kan4, xiao3 niao3.
+*MOT:	ya1 ma1 ma wen4 ta1.
+*MOT:	ni3 you3 mei2 you3 kan4 dao4 wo3 de4 xiao3 ya1 zi3 a?
+*MOT:	diu1 le4 yi4 zhi1 xiao3 ya1 zi3.
+*MOT:	ni3 kan4, zhe4 shi4 shen3 me4?
+*MOT:	flower@s:eng.
+*MOT:	flower@s:eng, hua1, flower@s:eng, hua1.
+*MOT:	ni3 kan4, ya1 ma1 ma you4 wen4 zhe4 ge4 xiao3 wu1 gui1.
+*MOT:	ni3 you3 mei2 you3 kan4 dao4 wo3 de4 xiao3 ya2 zi3 a?
+*MOT:	xiao3 ya1 zi3 diu1 le yi1 zhi1.
+%COM: mother tries to regain the child's attention before resuming the story.
+*MOT:	ni3 kan4 yu2, xiao3 ya1 zi3 bu4 jian4 le, qu4 zhao3 yu2.
+*MOT:	ni3 kan4 zhe4 ge4, you3 yi1 zhi1 da4 niao3.
+%COM: child stopped listening to story.
+@End

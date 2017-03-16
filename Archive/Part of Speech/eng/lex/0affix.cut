@@ -1,0 +1,141 @@
+@UTF8
+% *********** affixes for words	not already morphemicized
+% *** derivational prefixes that maintain part of speech
+% possible should add: micro, mono, sub, tele, trans, tri, uni
+a- {[scat pfx][pcat v][block a-]} "PROG"
+anti {[scat pfx][pcat n][block anti]}
+anti {[scat pfx][pcat n][block anti]}
+anti- {[scat pfx][pcat n][block anti]} "anti"
+bi {[scat pfx][pcat n][block bi]}
+co {[scat pfx][pcat v][block co]}
+co {[scat pfx][pcat n][block co]}
+counter {[scat pfx][pcat adj][block counter]}
+counter {[scat pfx][pcat n][block counter]}
+de {[scat pfx][pcat v][block de]}
+dis {[scat pfx][pcat v][block dis]}
+dis {[scat pfx][pcat n][block dis]}
+dis {[scat pfx][pcat part][block dis]}
+ex {[scat pfx][pcat n][block ex]}
+ex- {[scat pfx][pcat n][block ex-]}
+grand {[scat pfx][pcat n][block step]}
+great {[scat pfx][pcat n][block step]}
+in {[scat pfx][pcat v][block in]}
+in {[scat pfx][pcat n][block in]}
+in {[scat pfx][pcat adj][block in]}
+in {[scat pfx][pcat part][block in]}
+mis {[scat pfx][pcat v][block mis]}
+mis {[scat pfx][pcat part][block mis]}
+mega {[scat pfx][pcat n][block mega]}
+mini {[scat pfx][pcat n][block mini]}
+mis {[scat pfx][pcat n][block mis]}
+multi {[scat pfx][pcat adj][block multi]}
+non {[scat pfx][pcat adj][block non]}
+non {[scat pfx][pcat n][block non]}
+non- {[scat pfx][pcat n][block non]}
+non {[scat pfx][pcat v][block non]}
+out {[scat pfx][pcat v][block out]}
+out {[scat pfx][pcat part][block out]}
+over {[scat pfx][pcat v][block over]}
+over {[scat pfx][pcat part][block over]}
+over {[scat pfx][pcat adj][block over]}
+pre {[scat pfx][pcat v][block pre]}
+pre {[scat pfx][pcat n][block pre]}
+pre- {[scat pfx][pcat n][block pre]}
+re {[scat pfx][pcat v][block re]}
+re {[scat pfx][pcat part][block re]}
+semi {[scat pfx][pcat n][block semi]}
+semi {[scat pfx][pcat adj][block semi]}
+step {[scat pfx][pcat n][block step]}
+sub {[scat pfx][pcat n][block sub]}
+super {[scat pfx][pcat n][block super]}
+super {[scat pfx][pcat adj][block super]}
+un {[scat pfx][pcat adj][block un]}
+un {[scat pfx][pcat n][block un]}
+un {[scat pfx][pcat v][block un]}
+un {[scat pfx][pcat part][block un]}
+up {[scat pfx][pcat v][block up]}
+under {[scat pfx][pcat n][block under]}
+under {[scat pfx][pcat v][block under]}
+under {[scat pfx][pcat part][block under]}
+vice {[scat pfx][pcat n][block vice]}
+vice- {[scat pfx][pcat n][block vice-]}
+
+%derivational prefixes that change part of speech
+multi {[scat pfx][pcat adj:n][block multi]}
+mid {[scat pfx][pcat adj:n][block mid]}
+
+% derivational suffixes that maintain part of speech
+ie {[scat ndimsfx][allo OR n0 nGb nSa nVa nYb nHb ][block ie]} "DIM"
+ful {[scat ndsfx][allo OR n0 nGa nHa nSa nYa nM][block ful]} "FUL"
+ness {[scat ndsfx][allo OR n0 nGa nHa nYa nM][block ness]} "NESS"
+al {[scat adjsfx][allo aICa][block al]} "AL"
+y {[scat adjsfx][allo OR a0 aHb aVEa aYa aLa aLLa aICa][block y]} "Y"
+i {[scat adjsfx][allo OR a0 aHb aVEa aYa aLa aLLa aICa][block y][bare no]} "Y"
+
+% derivational suffixes that change part of speech
+% these create unambiguous forms that are not a challenge to POST
+er {[dcat n:v][deriv dv][allo OR v0 vHb vVEb vYb vS][block er]} "AGT"
+ness {[dcat n:adj][deriv dadj][allo OR a0 aHa aVEa aYb aLa aLLa aICa][block ness]} "NESS"
+ie {[dcat n:adj][deriv dadj][allo OR a0 aHb aVEa aYa aLa aLLa aICa ][block ie]} "DIM"
+
+ish {[dcat adj:n][deriv dn][allo OR n0 nGa nHa nSa nYa nM][block ish]} "ISH"
+less {[dcat adj:n][deriv dn][allo OR n0 nGa nHa nSa nYa nM][block less]} "LESS"
+like {[dcat adj:n][deriv dn][allo OR n0 nGa nHa nSa nYa nM][block like]} "LIKE"
+ful {[dcat adj:n][deriv dn][allo OR n0 nGa nHa nSa nYa nM][block full]} "FULL"  % as in "harmful"
+
+ly {[dcat adj:n][deriv dn][allo OR n0 nGa nHa nYa nM nSa][block ly]} "LY"
+li {[dcat adj:n][deriv dn][allo OR n0 nHa nGa nYa nM nSa][bare no][block ly]} "LY"
+ly {[dcat adv:adj][deriv dadj][allo OR a0 aHa aVEa aYb aLb aLc aLLa aICa][block ly]} "LY"
+y {[dcat adj:n][deriv dn][allo OR n0 nGb nHb nM nSa nVb][block y]} "Y"
+i {[dcat adj:n][deriv dn][allo OR n0 nGb nHb nSa][bare no][block y]} "Y"
+y {[dcat adj:v][deriv dv][allo OR v0 vHb vVEb vYb vS][block y]} "Y"
+i {[dcat adj:v][deriv dv][allo OR v0 vHb vVEb vYb vS][bare no][block y]} "Y"
+
+y {[scat adjsfx][allo OR a0 aHb aVEb aYb aLb aLLa aICb][block y]} "Y"
+i {[scat adjsfx][allo OR a0 aHb aVEb aYb aLb aLLa aICb][bare no][block y]} "Y"
+er {[scat adjsfx][allo OR a0 aHb aVEb aYb aLb aLLa aICb][degree cp][block er]} "CP"
+est {[scat adjsfx][allo OR a0 aHb aVEb aYb aLb aLLa aICb][degree sp][block est]} "SP"
+ish {[scat adjsfx][allo OR a0 aHb aYb][block ish]} "ISH"
+
+wise {[dcat adj:n][deriv dn][allo OR n0 nGa nHa nYa nSa][block wise]} "WISE"
+able {[dcat adj:v][deriv dv][allo OR v0 vHa vHb vVEb vEEa vYb vS][block able]} "ABLE"
+ab {[dcat adj:v][deriv dv][allo OR v0 vHa vHb vVEb vYb vS][block able][bare no]} "ABLE"
+
+% *** inflectional suffixes
+
+% noun suffixes
+s {[scat npsfx][num pl][allo OR n0 nGa nHa nYa nPOT a0 aICa aLa aLLa aYa aHa][block s]} "PL"
+es {[scat npsfx][num pl][allo OR nVb nHB nYb nSa a0 aYb aHb][block es]} "PL"
+sie {[scat ndsfx][num pl][allo OR n0 nYa nHa][block sie]} "PL-DIM"
+
+% **** dashes after letters and special forms 
+-s {[scat npsfx][num pl][allo OR n0 nHa]} "PL"
+-es {[scat n-cl][vcat aux][vform prog][allo OR n0 nHa]} "aux|be&3S"
+
+% verb suffixes
+s {[scat vsfx][num sg][tense pres][allo OR v0 vHa vEEa vIEa vYc]} "3S"
+es {[scat vsfx][num sg][tense pres][allo OR vHb vS]} "3S"
+ed {[scat vsfx][deriv v][allo OR v0 vHb vEEb vIEb vYb vS][tense past][block ed]} "PAST"
+
+% participials
+ing {[scat part][allo OR n0 nGb nHb v0 vHb vEEa vIEc vYa vS][tense pres][bare no][block ing]} "PRESP"
+ing {[scat n:gerund][allo OR n0 nGb nHb v0 vHb vEEa vIEc vYa vS][tense pres][bare no][block ing]} "PRESP"
+ed {[scat part][allo OR n0 nGb nHb v0 vHb vEEb vIEb vYb vS][tense past][bare no][block ed]} "PASTP"
+
+% *** unmarked clitics
+'d {[scat n-cl][vcat mod][vform perf]} "mod|genmod"
+'s {[scat n-cl][vcat main][vform bare]} "cop|be&3S" 
+'s {[scat n-cl][vcat aux][vform prog]} "aux|be&3S" % merged "has" with "be"
+'s {[scat n-cl][vcat poss][vform poss]} "poss|s"
+' {[scat n-cl][vcat poss][vform poss]} "poss|s"
+'m {[scat n-cl][vcat main][vform bare]} "cop|be&1S"
+'m {[scat n-cl][vcat aux][vform prog]} "aux|be&1S"
+'re {[scat n-cl][vcat main][vform bare]} "cop|be&PRES"
+'re {[scat n-cl][vcat aux][vform OR prog perf]} "aux|be&PRES"
+'ve {[scat n-cl][vcat aux][vform perf]} "aux|have"
+'ll {[scat n-cl][vcat mod][vform bare]} "mod|will"
+n't {[scat v-cl][neg +]} "neg|not"
+% It would be good to remove these clitics on main verbs and the mv-cl rule too
+% 's {[scat n-cl][vcat main][vform bare]} "v|have&3S" 
+% 's {[scat n-cl][vcat mod][vform bare]} "mod|do&3S"
+% 've {[scat n-cl][vcat main][vform bare]} "v|have"

@@ -1,0 +1,15 @@
+@UTF8
+ain't {[scat v][tense pres][agr 1s]} "be&1S~neg|not"
+gonna {[scat part][tense pres]} "go-PRESP~inf|to"
+lemme {[scat v]} "let~pro:obj|me"
+let's {[scat v]} "let~pro:obj|us"
+looka {[scat v]} "look~prep|at"
+needa {[scat v][vform bare]} "need~inf|to"
+needn't {[scat v][vform bare]} "need~neg|not"
+wanna {[scat v][vform bare]} "want~inf|to"
+sposta {[scat v][vform bare]} "suppose~inf|to"
+getcha {[scat v][vform bare]} "get~inf|you"
+dunno {[scat mod][vform bare]} "do~neg|no~v|know"
+wait'll {[scat v][vform bare]} "wait~conj:subor|until"
+gimme {[scat v]} "give~pro:obj|me"
+

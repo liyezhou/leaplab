@@ -1,0 +1,44 @@
+Unicode
+@Begin
+@Languages:	eng, zho
+@Participants:	MOT Caroline Sim Mother, CHI Amber Poh Xuan Ming
+@ID:	eng||MOT||female|||Mother|||
+@ID:	eng||CHI|1;2;30|male||Child|||
+@Date:	06-April-2016
+@Location:	Home
+@Comment:	duration of recording 4 minute 30 seconds
+@Comment:	transcribed by Yijun
+@Situation:	narration of wordless picture book PDF on screen
+@Start
+*MOT:	ok amber come here, you want to read books right?
+*MOT:	ok mommy read books for you to hear ok?
+*MOT:	have you seen my duckling?
+*MOT:	early one morning, the duckling went to chase a butterfly
+*MOT:	and when the mommy duck comes back
+*MOT:	she counted, there is one missing duckling!
+*CHI:	&=cries
+*MOT:	so how many ducklings were there in the first place?
+*MOT:	lets count
+*MOT:	one two three four five six seven eight!
+*MOT:	one went to chase a butterfly
+*MOT:	mommy duckling comes back and count her little ducklings
+*MOT:	one two three four five six seven!
+*MOT:	where's the number 8?
+*CHI:	&=vocalises
+*MOT:	where's the number 8?
+*MOT:	where's the number 8 duckling?
+*MOT:	so all the little ducklings told mommy duck that one of the ducklings went to chase a butterfly
+*MOT:	right?
+*MOT:	the mommy duck brought the other 7 ducklings to look for duckling number 8
+*MOT:	mommy duckling came onto a bird and asked: have you seen my duckling?
+*MOT:	the bird says no
+*MOT:	mommy duck asks the turtle: have you seen my duckling?
+*MOT:	and the turtle says no
+*MOT:	mommy duck asks the beaver: have you seen my duckling?
+*MOT:	the beaver says no
+*MOT:	mommy duck dives into the water and asks the fishes: have you seen my duckling?
+*MOT:	and they say no
+*CHI:	&=vocalises
+*MOT:	finally, at the corner of the pond, mommy duck found the 8th!
+*MOT:	and they all went home together
+@End

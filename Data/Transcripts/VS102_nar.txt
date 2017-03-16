@@ -1,0 +1,81 @@
+@Unicode
+@Begin
+@Languages:	eng
+@Participants:	MOT Marcella_Jeffrey Mother, CHI Maolie_O'Shea Child
+@ID:	eng||MOT||female|||Mother|||
+@ID:	eng||CHI|1;5.23|female|||Child|||
+@Date:	30-MAY-2016
+@Location:	Home
+@Comment:	duration of recording 6 minutes 57 seconds
+@Comment:	transcribed by Xin Yun, checked by Sihui, checked by Z
+@Start
+*MOT:	have you seen my duckling?
+*CHI:	&=vocalises.
+*MOT:	have you seen my duckling?
+*MOT:	by nancy tafuri.
+*MOT:	early one morning.
+*MOT:	the mummy duck went off to find chase a butterfly.
+*MOT:	and a little duckling sat there next to it.
+*MOT:	she went chasing around the little butterfly.
+*MOT:	and then another duckling came along.
+*MOT:	and all the little ducklings sitting in the nest.
+*MOT:	cheep@o[x 4].
+*MOT:	the big mama duckling.
+*MOT:	these ducklings.
+*MOT:	mama duck's counting her baby ducklings.
+*MOT:	there's one, two, three, four, five, six, seven?
+*MOT:	hang on?
+*MOT:	where is my other number eight duckling?
+*MOT:	mummy duckling went looking for her.
+*MOT:	where's her number eight baby?
+*MOT:	so all the little baby ducklings had to go looking for their brother.
+*MOT:	where's that naughty little duckling gone?
+*MOT:	have you seen my duckling?
+*MOT:	she asked the birdie that lives in the river bank.
+*MOT:	no, i haven't seen your duckling.
+*MOT:	but there was movement over in the reeds.
+*MOT:	mummy duckling got after near the reeds.
+*MOT:	have you seen my ducklings?
+*MOT:	she asked mummy turtle.
+*MOT:	&hmm i haven't seen your duckling.
+*MOT:	but the flowers over there looked like something has disturbed them.
+*CHI:	&=vocalises.
+*MOT:	have you seen my duckling?
+*MOT:	she asked mister beaver.
+*CHI:	duck [x 2].
+*MOT:	no i haven't seen your little duckling.
+*MOT:	but i have been very busy eating my tree.
+*MOT:	can you come and help me find my duckling?
+*MOT:	so all seven ducklings.
+*CHI:	&=vocalises.
+*MOT:	&wow what's happening now?
+*MOT:	only six ducklings.
+*MOT:	oh no, there's the other one.
+*MOT:	seven.
+*MOT:	went looking for number eight duckling.
+*CHI:	&=cries.
+*MOT:	even that little froggie went looking for her.
+*CHI:	&=vocalises.
+*MOT:	have you seen my duckling, mister fish?
+*CHI:	&=vocalises.
+*MOT:	no i haven't seen your duckling.
+*CHI:	&=cries.
+*MOT:	he is not under the water.
+*CHI:	&=cries.
+*MOT:	have you seen my duckling?
+*MOT:	she asked the other mummy.
+*MOT:	no, i haven't seen your duckling today.
+*CHI:	&=vocalises.
+*MOT:	aww, where's my duckling?
+*MOT:	hang on?
+*MOT:	what's that noise back over there?
+*CHI:	&=vocalises.
+*MOT:	there is our little duckling.
+*MOT:	mister turtle had found the duckling.
+*CHI:	&=vocalises.
+*MOT:	here's the ducklings all back together again.
+*MOT:	ready to go home and snuggle into their nest falling asleep.
+*MOT:	night [x 2] little ducklings.
+*MOT:	bye [x 2].
+*CHI:	bye [x 2].
+@End.

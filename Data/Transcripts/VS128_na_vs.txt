@@ -1,0 +1,140 @@
+@Unicode
+@Begin
+@Languages:	eng
+@Participants:	MOT Geraldine_Guo Mother, CHI Jordan_Tang Child
+@ID:	eng||MOT||female|||Mother|||
+@ID:	eng||CHI|1;6.11|male|||Child|||
+@Date:	27-JUL-2016
+@Location:	Home Testing
+@Comment:	duration of recording 5 minutes 27 seconds
+@Comment:	transcribed by Debbie, checked by XinYun, checked by ChaoMin
+@Start
+*MOT:	by nancy tafuri.
+*MOT:	&ooh look at this.
+*MOT:	<mama duck> [x 2].
+*MOT:	where's the mama duck?
+*MOT:	and the baby duck.
+*MOT:	it's called duckling.
+*MOT:	okay, see here.
+*MOT:	look.
+*MOT:	have you seen my duckling?
+*MOT:	early one morning.
+*MOT:	&wah, &=chirp [x 4].
+*MOT:	you see where is.
+*MOT:	see the little duckling?
+*MOT:	okay, see the mama duck.
+*CHI:	&=vocalises.
+*MOT:	&ooh, mama duck.
+*MOT:	and her little ducklings, &ooh.
+*MOT:	one baby has, swam away, look.
+*CHI:	&=whines.
+*MOT:	one baby swam away, you see?
+*MOT:	and mama duck wants to look for the lost duckling.
+*MOT:	let's see, &=sings, &=gasps.
+*MOT:	and okay all of you are here.
+*MOT:	&hmm, how many, one, two, three, four, five, six, seven.
+*MOT:	&ah why are you here, where's the lost duckling?
+*MOT:	where, tell mama, where's the lost duckling.
+*CHI:	&=vocalises.
+*MOT:	&oh, okay sit.
+*MOT:	okay sit down.
+*MOT:	never see duckling where?
+*MOT:	tell me where's the lost duckling?
+*MOT:	where is it?
+*MOT:	&=sings.
+*MOT:	okay here, did you see?
+*MOT:	distracted by the phone, &=laughs.
+*MOT:	okay come and sit here.
+*MOT:	okay here later you see.
+*MOT:	&=sings.
+*CHI:	&=vocalises.
+*MOT:	&oh you see the little duck.
+*MOT:	you see the little duck run so far away.
+*CHI:	&=vocalises.
+*MOT:	okay, did you find the little duck?
+*MOT:	let's say.
+*MOT:	have you seen my duckling.
+*MOT:	mama say.
+*MOT:	where's the xxx my little duckling?
+*MOT:	he asked.
+*MOT:	she asked the bird right?
+*MOT:	the bird say no.
+*MOT:	i didn't see your baby.
+*CHI:	&=vocalises.
+*MOT:	okay, let's sing.
+*MOT:	&=sings.
+*CHI:	&=vocalises.
+*MOT:	and mama duck asked.
+*MOT:	have you seen my little duckling?
+*CHI:	&=vocalises.
+*MOT:	&hm?
+*MOT:	have you seen my duckling?
+*MOT:	jordan you want to see where's the little duckling?
+*MOT:	&oh, i think it's here you know?
+*MOT:	you see, &=sings.
+*MOT:	come[x 2] and help me find my baby duckling.
+*MOT:	come[x 2], mama show you.
+*MOT:	you want to see, where's baby duck?
+*MOT:	jordan, have you seen my duckling?
+*MOT:	jordan, where is it?
+*MOT:	jordan, jonas, come!
+*MOT:	see where is it?
+*MOT:	where?
+*MOT:	&ooh, nobody's interested &huh?
+*MOT:	&=laughs.
+*MOT:	think they are not very keen &=laughs.
+*MOT:	i read more than half of the book.
+*MOT:	sorry &ah, okay.
+*MOT:	they want to read like the same xxx.
+*MOT:	they stop at, here.
+*MOT:	or want to read other, their own books?
+*MOT:	try and carry on &ah.
+*MOT:	okay, see this one.
+*MOT:	jordan, sit here.
+*MOT:	okay, mummum@f.
+*MOT:	jordan, &huh, okay you read.
+*MOT:	see[x 2], have you seen my duckling?
+*MOT:	where, where's the little duckling?
+*MOT:	there!
+*MOT:	where is it?
+*MOT:	oh no, i didn't see your little duckling.
+*MOT:	have you seen my duckling?
+*MOT:	&hmm?
+*MOT:	do you know where is it?
+*MOT:	is it this one, this one?
+*MOT:	oh!
+*MOT:	this one?
+*MOT:	&ah, no nobody has seen the little duckling.
+*MOT:	&eh!
+*MOT:	is it here?
+*MOT:	&oh!
+*MOT:	&ah okay.
+*MOT:	how about this.
+*MOT:	have you seen my little duckling?
+*MOT:	no?
+*MOT:	oh no haven't?
+*MOT:	where [x 3] is it?
+*MOT:	okay help me find.
+*MOT:	is it here [x 2]?
+*MOT:	&=tada!
+*MOT:	&oh, &=sings.
+*MOT:	okay where's the next duckling?
+*MOT:	&=tada, can you see [x 2]?
+*MOT:	okay <you tell>[x 2] mummy where.
+*MOT:	swim away already.
+*MOT:	you see turtle following them.
+*MOT:	<you see> [x 2].
+*MOT:	okay you flip the page, you flip.
+*MOT:	turn &ah, &=gasp.
+*MOT:	you found the duckling!
+*MOT:	they are sleeping with the mama.
+*CHI:	&=vocalises.
+*MOT:	you see sleep already.
+*MOT:	say goodnight!
+*MOT:	&=whimpers.
+*MOT:	goodnight!
+*MOT:	&=laughs.
+*MOT:	you want?
+*MOT:	you want to read book [x 2]?
+*MOT:	<you want> [x 2] read book [x 2]?
+@End

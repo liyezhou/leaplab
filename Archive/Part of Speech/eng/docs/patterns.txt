@@ -1,0 +1,97 @@
+February 2, 2012
+
+part|stem-PROG:
+1. follows aux or mod
+(the dog is barking)
+2.  can follow aux adv, aux qn, aux post, aux neg
+(the baby is now crying)
+(the babies are both crying) 
+(the babies are all crying)
+(the baby is not crying)
+3. can follow aux and prepositional phrase
+(the bird is in the tree chirping)
+(the daughter is down on the beach building a very nice sandcastle)
+4.  multiples must have coord
+(they were dancing and talking all night long)
+
+
+n:gerund|stem-PROG:
+1.  follows a prep or prep adv
+(she went back to digging the hole to plant the tree)
+(he got a ticket for breaking the law)
+2.  functions as the direct object 
+(there was some vomiting)
+(the best part was waking up and eating a big breakfast) 
+3.  follows a verb or verb plus verb participle
+(I remember making sounds)
+(the farmer went on planting his tree)
+(I like playing games in the water with him)
+*** PROBLEM *** -- need to distinguish sentences like this where the -ing word should be adj:part-PROG not n:gerund-PROG -- "she kneels, trying look under the couch" ****
+4.  may follow a determiner unless the determiner is followed by another noun
+(they made her do all the cooking and cleaning)
+5.  follows a possessive determiner
+(in the middle of his digging, there's the car again)
+6.  functions as the subject
+(knitting is my favorite hobby)
+7.  follows a conjunction
+(I spread the bread with peanut butter after getting out a knife)
+
+
+adj:part|stem-PROG:
+1.  after a noun, modifying it
+(a neighbor, hearing her, tries to help)
+2.  comes between a det and a noun
+(the man was startled by the breaking window)
+3.  in initial positions of incomplete utterances 
+(picking raspberries and eating them all)
+4.  head of subordinate clause
+(they take off, driving down the road)
+(there's the car again and the couple again, going the same way)
+5.  following v and predicate nominative
+(Cinderella is a young girl living with her father)
+(she had a hard time communicating to anybody)
+(there's a couple, fighting)
+6.  before a noun, modifying it
+(hearing impairment)
+(diving board)
+(walking distance)
+
+
+part|stem-PERF
+1.  follows an aux 
+(the dog was brushed)
+(he had seen this before)
+2.  can follow aux adv, aux qn, aux post, aux neg, aux co
+(the flower was already planted)
+(they had not noticed)
+(we have all received invitations)
+(the stepmother had you_know harmed Cinderella)
+3.  can follow mod aux
+(I should have taken that umbrella)
+4.  multiples must have coord
+(the ball had smashed the window and broken the lamp) 
+
+
+adj:part|stem-PERF
+1.  comes before a noun
+(she held her stuffed animal)
+(try to find related words)
+(I had a broken arm when I was a little girl)
+2.  comes after a noun or pronoun (can have intervening adv)
+(a young boy named Johnny was kicking a ball)
+(Carl looks cute with the mother's beads strung over his head)
+3.  comes after a verb
+(mother did not look concerned)
+
+
+cop vs. aux:
+if "to be" verb is followed by a word that can be a participle, code as aux
+
+
+prep vs. adv
+if a noun or pronoun follows a word that could be prep or adv:loc, code the word in question as prep; if no noun, code it as adv or adv:loc
+
+
+
+
+

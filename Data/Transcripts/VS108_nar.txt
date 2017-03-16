@@ -1,0 +1,82 @@
+@Unicode
+@Begin
+@Languages:	eng
+@Participants:	MOT Elaine Mother, CHI Lan_Wen_Wei Child
+@ID:	eng||MOT||female|||Mother|||
+@ID:	eng||CHI|0;9.27|female|||Child|||
+@Date:	08-JUN-2016
+@Location:	Home Testing
+@Comment:	duration of recording 5 minutes 31 seconds
+@Comment:	transcribed by Chao_Min, checked by Xin_Yun, checked by Elsie
+@Start
+*MOT:	come, elaine.
+*MOT:	sit sit.
+*MOT:	have you seen my duckling?
+*MOT:	early one morning.
+*MOT:	<have you seen my duckling> [x 3]?
+*CHI:	&=vocalises.
+*MOT:	<have you seen my duckling> [x 2].
+*MOT:	&hm?
+*MOT:	&ah.
+*MOT:	i finished already &eh.
+*MOT:	just read the wordings only right?
+*MOT:	okay, come!
+*MOT:	baby come.
+*MOT:	have you seen my duckling?
+*MOT:	early one morning.
+*CHI:	&=vocalises.
+*MOT:	mother duck come to look for her ducklings.
+*MOT:	do you see, ducklings!
+*CHI:	&=vocalises.
+*MOT:	&yeah &huh?
+*MOT:	mother ducks with the ducklings!
+*MOT:	you see, baby, mother duck with the ducklings!
+*MOT:	the ducklings are swimming over the ponds.
+*MOT:	look here.
+*MOT:	have you seen my duckling?
+*MOT:	the mama duck asked.
+*MOT:	&eh, you see here, baby.
+*MOT:	have you seen my duckling?
+*MOT:	the mama duck asked the tortoise.
+*CHI:	&=vocalises.
+*MOT:	you see, mama duck asked the tortoise!
+*CHI:	&=vocalises.
+*MOT:	okay [x 2]!
+*MOT:	&uhm, &hm, you see!
+*CHI:	&=vocalises.
+*MOT:	okay [x 3]!
+*MOT:	you see, mama duck went to find the ducklings.
+*MOT:	have you seen my ducklings?
+*CHI:	&=vocalises.
+*MOT:	okay [x 3] come.
+*MOT:	see how many ducks are there?
+*MOT:	one, two, how many ducklings are there?
+*MOT:	one, two, three, four, five, six, seven!
+*MOT:	&oh.
+*MOT:	have you seen my duckling?
+*MOT:	<mama duck> [x 2] asked the fishes.
+*MOT:	&oh can you see xxx?
+*CHI:	&=vocalises.
+*MOT:	xxx.
+*MOT:	have you seen my ducklings?
+*CHI:	&=vocalises.
+*MOT:	mama duck asked.
+*MOT:	what is this?
+*CHI:	&=vocalises.
+*MOT:	this is the butterfly!
+*CHI:	&=vocalises.
+*MOT:	&oh see.
+*MOT:	have you seen my ducklings?
+*MOT:	baby, you see where's the duckling?
+*MOT:	is the duckling over there?
+*MOT:	baby, you see where the tortoise?
+*CHI:	&=vocalises.
+*MOT:	you see, mama duck continue to find the ducklings.
+*MOT:	the turtles follow her behind, the butterfly is over here!
+*MOT:	so, did mama duck find her ducklings?
+*MOT:	the mama duck are sleeping already.
+*MOT:	baby see, &huh?
+*CHI:	&=vocalises.
+*MOT:	&hmm?
+*CHI:	&=vocalises.
+@End

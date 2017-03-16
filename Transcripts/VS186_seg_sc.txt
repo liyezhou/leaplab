@@ -1,0 +1,111 @@
+@Unicode
+@Begin
+@Languages:	eng
+@Participants:	MOT Yvette_Koh Mother, CHI Matthias_Sin Child
+@ID:	eng||MOT||female|||Mother|||
+@ID:	eng||CHI|1;1.29|male|||Child|||
+@Date:	6-DEC-2016
+@Location:	Lab Testing
+@Comment:	duration of recording 7 minutes 34 seconds
+@Comment:	transcribed by Nadiah, checked by XinYun, checked by Y
+@Start
+*MOT: "have you seen my duckling?" by Nancy Tafuri.
+*MOT: "have you seen my duckling?".
+*MOT: &=gasps where the duckling?
+*MOT: early one morning.
+*MOT: &ooh?
+*MOT: what is this?
+*MOT: a mama duck, a mama duck coming to find her ducklings.
+*MOT: say hello duckling, hello babies!
+*MOT: let's count.
+*MOT: baby, point.
+*MOT: &a one, two, three, four five six seven.
+*MOT: seven ducklings.
+*MOT: &oh, look, there's one duckling here!
+*CHI: &=vocalises.
+*MOT: where you going?
+*CHI: &=vocalises.
+*MOT: &oh!
+*MOT: where the ducklings go?
+*MOT: <they're swimming> [x2]!
+*MOT: they're following their mummy.
+*MOT: "have you seen my duckling?".
+*MOT: <do you see the duckling?> [x2].
+*MOT: where's the duckling?
+*MOT: can you find the missing duckling?
+*CHI: &=vocalises.
+*MOT: "have you seen my duckling?".
+*CHI: &=vocalises.
+*MOT: "have you seen my duckling?" XXX asking the turtle.
+*MOT: "have you seen my duckling?", where is it?
+*MOT: do you see?
+*MOT: mummy saw it, over here.
+*MOT: &=gasps, there it is.
+*MOT: &mm.
+*CHI: &=whimpers.
+*MOT: okay, i'll let you have it.
+*MOT: <you want to hold it> [x3]?
+*MOT: okay <here you go> [x2].
+*CHI: &=coughs.
+*MOT: you don't feel well? are you okay?
+*CHI: &=coughs, &=cries.
+*MOT: where you going?
+*CHI: &=vocalises.
+*MOT: where you going?
+*CHI: &=vocalises.
+*MOT: you wanna [: want to] come back?
+*MOT: come.
+*MOT: come, let's go find the duckling!
+*MOT: come on baby.
+*MOT: Matty.
+*MOT: &ah, you almost fall down. come.
+*CHI: &=vocalises.
+*MOT: I think he's not interested, he run off [+bch].
+*MOT: &yeah he keep, he keep running away from me [+bch].
+*CHI: &=cries.
+*MOT: &oh okay alright [+bch].
+*MOT: where's the duckling?
+*MOT: we haven't find the duckling yet.
+*CHI: &=vocalises.
+*MOT: see, where's my duckling?
+*MOT: can you see the duckling dear?
+*MOT: where is it?
+*MOT: &oh?
+*MOT: &=gasps what's this?
+*MOT: you don't take people's computer, come here.
+*MOT: come [x 4] &chacha [x 4].
+*MOT: Matty [x 2].
+*MOT: "have you seen my duckling?".
+*MOT: have you seen the duckling not, Matty?
+*MOT: where is it?
+*MOT: come here, XXX.
+*MOT: do you see the little frog?
+*MOT: do you see the little frog here?
+*MOT: froggy!
+*MOT: &uh now she ask the little fish, "have you seen my duckling?".
+*MOT: "have you seen my duckling?".
+*MOT: &oh what's this, what's this beautiful animal here?
+*MOT: what's this called?
+*MOT: is it a swan?
+*MOT: &oh look the mummy turn behind!
+*MOT: she saw someone, who is it?
+*MOT: look mama found someone!
+*CHI: &=whimpers.
+*MOT: &yeah, it's the baby duckling.
+*MOT: she found the little duckling.
+*MOT: see the little duckling say bye bye to the tortoise.
+*MOT: say "bye bye"!
+*MOT: bye bye tortoise thank you for taking care of me!
+*MOT: then see, duck sleep.
+*MOT: &=imit:snore.
+*MOT: ducky sleep XXX.
+*MOT: &=imit:snore.
+*MOT: sleeping duckling, see?
+*MOT: XXX.
+*CHI: &=whimpers &=coughs.
+*MOT: &oh &oh &oh.
+*MOT: (o)kay? you like this story?
+*CHI: &=vocalises.
+*MOT: yes?
+*CHI: &=vocalises.
+@End

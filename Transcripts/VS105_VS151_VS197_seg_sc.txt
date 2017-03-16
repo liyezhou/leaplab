@@ -1,0 +1,106 @@
+@Unicode
+@Begin
+@Languages:	eng
+@Participants:	MOT June_Wang Mother, CHI Chng_Song_Zhe_Oliver Child
+@ID:	eng||MOT||female|||Mother|||
+@ID:	eng||CHI|0;10.11|male|||Child|||
+@Date:	08-JUN-2016
+@Location:	Home Testing
+@Comment:	duration of recording 2 minutes 57 seconds
+@Comment:	transcribed by Debbie, checked by Wenqi, checked by Nadiah
+@Start
+*MOT: oh okay.
+*MOT: you see.
+*MOT: have you seen my duckling!
+*MOT: how many ducks are there.
+*MOT: &oh see,see.
+*MOT: one early morning.
+*MOT: how many ducks are there darling?
+*MOT: one,two,three,four,five,six,seven!
+*MOT: the ducklings are in the nest!
+*MOT: okay,you want to turn the next page.
+*MOT: okay.
+*MOT: who's,who's this?
+*MOT: look at this big duckling.
+*MOT: the mummy duckling right?
+*MOT: okay.
+*MOT: oh,you want to finish the book already?
+*MOT: okay,let's turn the next page okay?
+*MOT: &hmm,you see the mummy duckling swim over to the duck.
+*MOT: baby duckling!
+*MOT: see all the baby duckling are happy to see mummy duckling.
+*MOT: right?
+*MOT: you like to see mummy or not.
+*MOT: when you wake up right?
+*CHI: &=vocalises.
+*MOT: &ooh,don't want &ah.
+*MOT: you see,all the baby ducklings are swimming.
+*CHI: &=vocalises.
+*MOT: you see,baby ducklings are swimming.
+*MOT: you see,xxx,xxx,xxx.
+*MOT: the baby ducklings are following mummy duckling.
+*MOT: where are they going?
+*MOT: let's turn the next page and see okay.
+*CHI: &=vocalises.
+*MOT: &=eh,next page.
+*MOT: want to see what?
+*MOT: where did the mummy duckling bring them?
+*CHI: &=vocalises.
+*MOT: have you seen my duckling?
+*MOT: mummy duckling asked the bird.
+*MOT: have you seen my duckling?
+*MOT: do you think?
+*MOT: the duckling is hiding over here,can you see?
+*MOT: can you tell mummy duckling that.
+*MOT: yes,I see the duckling.
+*MOT: it's over here.
+*CHI: &=vocalises.
+*MOT: yes,huh.
+*MOT: okay,next page.
+*MOT: &ooh.
+*MOT: when you see.
+*MOT: when you ask.
+*MOT: mummy duckling ask the turtle.
+*MOT: did you see my duckling?
+*MOT: &eh <wait>[x 2].
+*MOT: &oh,<wait>[x 2].
+*MOT: duckling
+*MOT: <wait>[x 2].
+*MOT: darling.
+*MOT: have you see my duckling?
+*MOT: &oh.
+*CHI: &=whines.
+*MOT: okay[x 3]
+*MOT: wait[x 3].
+*CHI: &=whines.
+*MOT: can you see?
+*MOT: oh,okay[x 2].
+*MOT: there you see.
+*MOT: have you seen my duckling?
+*CHI: &=whines.
+*MOT: nobody's seen the duckling.
+*MOT: see,duckling is hiding over here.
+*CHI: &=whines.
+*MOT: okay[x 2]
+*MOT: darling.
+*CHI: &=cries.
+*MOT: okay[x 2].
+*MOT: why[x 3].
+*MOT: okay[x 4].
+*CHI: &=cries.
+*MOT: xxx.
+*MOT: okay see.
+*MOT: have you seen my duckling?
+*CHI: &=cries.
+*MOT: why[x 3].
+*MOT: why,you don't like the book huh.
+*MOT: okay.
+*MOT: you see[x 2].
+*CHI: &=cries.
+*MOT: okay,finish the book okay[x 6].
+*MOT: okay.
+*CHI: &=cries.
+*MOT: okay.
+*MOT: <don't want>[x 4].
+*MOT: he doesn't want already.
+@End

@@ -1,0 +1,73 @@
+@Unicode	
+@Begin	
+@Languages:	eng	
+@Participants:	MOT Target_Mother *CHI Child	
+@ID:	eng|Lara|MOT|||||Target_Mother|||	
+@ID:	eng|Lara|CHI|||||Child|||	
+@Date:		
+@Location:	
+@Comment:	Filename:	VS088_Narration Transcript_Yezhou.txt	
+@Comment:	210 seconds	
+@Comment:	transcribed by Yezhou	
+@Situation:	
+@Start
+*MOT:	early one morning.
+*MOT:	the mummy duckling has come back now.
+*MOT:	ya, the mummy duckling is coming back, oh oh.
+*MOT:	hello my little baby, hello my little ducklings.
+*MOT:	and you see this is the nest.
+*MOT:	and they only have seven ducklings.
+*MOT:	and all the ducklings are so happy to see them mummy duckling.
+*MOT:	hi, mummy.
+*MOT:	and then, let's see what happens okay?
+*CHI:	&=vocalizes.
+*MOT:	okay.
+*MOT:	then you see, the mummy duck comes and say, hello my little duckling.
+*CHI:	&=cries.
+*MOT:	&=kisses kiss the duckling.
+*MOT:	the ducklings are so happy.
+*MOT:	hi mummy, so happy to see you.
+*MOT:	xxx.
+*MOT:	and then, the, the mummy ducking says, okay.
+*MOT:	let's go now, ehm, we are going swimming.
+*MOT:	and so, all the seven ducklings go mummy.
+*MOT:	mummy see, oh, where is my number eight little duckling?
+*MOT:	where is my number eight little duckling?
+*MOT:	&=vocalizes the little duckling goes around the lake.
+*CHI:	&=coughs.
+*MOT:	and she sees the bird.
+*MOT:	excuse me, xxx.
+*MOT:	have you seen my duckling?
+*MOT:	where is the duckling>?
+*MOT:	oh the duckling is on the xxx.
+*MOT:	the mummy duckling is xxx.
+*MOT:	the mummy duckling and the seven little ducklings go around.
+*MOT:	they go around the lake and they meet other other animals xxx.
+*MOT:	excuse me, have you seen my duckling?
+*MOT:	you see, they saw already a tortoise, a tortoise.
+*MOT:	and you have fish in here.
+*MOT:	have you seen my duckling?
+*MOT:	they say, no, sorry, i haven't seen your duckling.
+*MOT:	and then the mummy duckling meets the beaver.
+*CHI:	&=cries.
+*MOT:	excuse me, have you seen my duckling.
+*MOT:	no, i have not you seen my duckling.
+*MOT:	oh, the mummy's so sad.
+*MOT:	the seven duckling and mummy keep going to look for the duckling.
+*MOT:	mummy duckling and seven little duckling go around.
+*MOT:	have you seen the fish.
+*MOT:	hello, fish, have you seen my little duckling?
+*MOT:	where is my little duckling?
+*MOT:	there is a frog and there is a other fish.
+*MOT:	and there is a tortoise.
+*MOT:	there is a sorts of animals that they meet.
+*MOT:	but they haven't seen the little duckling.
+*MOT:	where is the missing duckling hiding?
+*MOT:	where see, where?
+*MOT:	there you see another duck, another,family of duck.
+*MOT:	and they ask, excuse me, have you seen my duckling?
+*MOT:	xxx. the other mummy duckling says no, sorry, i didn't see the duckling.
+*MOT:	where is the duckling hiding?
+*MOT:	the duckling is hiding behind the xxx.
+*MOT:	and they finally find the little duckling and they all go home to sleep, m.
+@End 

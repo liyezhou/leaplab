@@ -1,0 +1,108 @@
+@Unicode
+@Begin
+@Languages:			eng
+@Participants:	MOT Cheris Mother, CHI Foo Yin Child
+@ID: 				eng||MOT||female|||Mother|||
+@ID: 				eng||CHI|1;1.28|female|||Child|||
+@Date: 			8-JUl-2016
+@Location:		Lab Testing
+@Comment:			duration of the recording is 5 minutes 45 seconds
+@Comment:			video starts at 1 minute 30 seconds
+@Comment:			transcribed by Yijun
+@Situation:		narration of wordless picture book in the lab
+@Start
+*MOT:	alright yin yin.
+*MOT:	mommy read you a book ok?
+*MOT:	lets see.
+*MOT:	have you seen my duckling?
+*MOT:	this is the mother duck.
+*MOT:	these are the ducklings.
+*MOT:	can you count with mama how many ducklings?
+*MOT:	count!
+*MOT:	one two three four five six seven eight.
+*MOT:	you want to open the book.
+*MOT:	ok, come let's open the book!
+*MOT:	see, one two three four five six seven eight.
+*MOT:	eight ducklings!
+*MOT:	where's the duckling?
+*MOT:	where are the ducklings?
+*MOT:	here right, yin yin?
+*MOT:	ok, where is the butterfly?
+*MOT:	butterfly.
+*MOT:	now there is one duckling who saw the butterfly.
+*MOT:	and the duckling went to chase after the butterfly.
+*MOT:	you see!
+*MOT:	you see that?
+*MOT:	then what happened?
+*MOT:	oh, and the rest of the ducklings were here.
+*MOT:	what did you say?
+*MOT:	<come back> [x 2]!
+*CHI:	duck [x 2].
+*MOT:	duck, yes.
+*MOT:	see, come back.
+*MOT:	quack [x 6].
+*MOT:	right?
+*MOT:	then mother duck.
+*MOT:	mother duck says quack [x 4].
+*MOT:	then she sees.
+*MOT:	how come are there only seven ducklings?
+*MOT:	where is one more duckling?
+*MOT:	its gone missing!
+*MOT:	then what does mother duck do?
+*MOT:	oh, she asks.
+*MOT:	did you see the other duckling?
+*MOT:	did you see gor gor?
+*MOT:	where is gor gor?
+*MOT:	gor gor has gone missing!
+*MOT:	where's the duck?
+*MOT:	can you see the duck?
+*MOT:	gor gor is here, right?
+*MOT:	so, what did mother duck do?
+*MOT:	mother duck ask all the xxx come [x 2].
+*MOT:	come with mama.
+*MOT:	lets go and find the other duckling.
+*CHI:	&=vocalises.
+*MOT:	yeah duck!
+*MOT:	and what did they do?
+*MOT:	quack [x 6].
+*MOT:	the mother duck goes around finding.
+*MOT:	and then all of them starting looking for the missing duck.
+*MOT:	and she says.
+*MOT:	have you seen my duckling?
+*MOT:	she xxx.
+*MOT:	what is this?
+*MOT:	can you see?
+*MOT:	bird, yin.
+*MOT:	where's the bird?
+*MOT:	bird, can you say bird?
+*MOT:	see, they ask the turtle.
+*MOT:	have you seen my duckling?
+*CHI:	&=vocalises.
+*MOT:	<where's the duckling> [x 2].
+*MOT:	yin, lets flip the page.
+*MOT:	mother duck xxx because nobody saw the duckling.
+*CHI:	&=vocalises.
+*MOT:	oh, from here.
+*MOT:	mother duck went around asking.
+*MOT:	have you seen my duckling?
+*CHI:	&=vocalises.
+*MOT:	okay, look at the fish.
+*MOT:	look at the frog!
+*MOT:	mother duck ask.
+*MOT:	have you seen my duckling?
+*MOT:	where's the duckling?
+*MOT:	then she went [x 2] went around asking.
+*MOT:	can you see the hidden duckling?
+*MOT:	darling, where is the duckling?
+*MOT:	she asked all the other animals.
+*MOT:	have you seen my duckling?
+*MOT:	duckling!
+*MOT:	oh no, where are you?
+*MOT:	and then the turtle managed to help mother duck find the duckling!
+*MOT:	you see, can you see?
+*MOT:	wow!
+*CHI:	&=laughs.
+*MOT:	yay, we found the duckling!
+*MOT:	see, and all of them are so happy!
+*CHI:	&=cries.
+@End

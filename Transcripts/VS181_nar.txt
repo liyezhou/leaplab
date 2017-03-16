@@ -1,0 +1,185 @@
+@Unicode
+@Begin
+@Languages:     eng
+@Participants:  MOT Chrilyn Mother ,CHI Low_Rui_Heng_Reus Child
+@ID:    eng||MOT||female|||Mother|||
+@ID:    eng||CHI|1;6.0|male|||Child|||
+@Date:  20-NOV-2016
+@Location:    Lab Testing
+@Comment:     duration of recording 6 minutes 20 seconds
+@Comment:     there appears to be another child in the room who at some point
+speaks loudly. however, the mother does not respond to him/her and hence this is
+not transcribed.
+@Comment:     transcribed by Sihui, checked by Elsie ,checked by Debbie
+@Start
+*MOT: okay.
+*MOT: okay.
+*MOT: you want to read?
+*MOT: yes?
+*MOT: okay, what's the title?
+*MOT: "have you seen my duckling?".
+*CHI: no?
+*MOT: by Nancy Tafuri!
+*MOT: where's the duck?
+*MOT: yes.
+*MOT: what's this?
+*MOT: duck, this one duckling!
+*MOT: this mummy duck.
+*MOT: these are baby ducks!
+*MOT: (o)kay?
+*CHI: &=vocalises.
+*MOT: baby ducklings!
+*MOT: (o)kay, early one morning.
+*MOT: the ducks are, looking for their mummy!
+*MOT: where's the mummy?
+*MOT: <where's the mummy duck?> [x 2].
+*MOT: yes.
+*MOT: where's the baby duck?
+*MOT: here.
+*MOT: how many are there?
+*MOT: one, two, three, four, five, six, seven!
+*MOT: where are the duck(s)?
+*MOT: one more duck!
+*MOT: where's one more duck?
+*MOT: where?
+*MOT: can you see where's the duck?
+*MOT: yes, the duck.
+*MOT: where's one more duck?
+*MOT: yes, here.
+*MOT: so where did they go?
+*MOT: yeah, see the mummy duck come.
+*MOT: the mummy duck come to look for the baby duck.
+*CHI: &=vocalises.
+*MOT: duckling!
+*MOT: yes!
+*MOT: how many are there?
+*CHI: &=vocalises.
+*MOT: what's this over here?
+*MOT: what's this over here?
+*MOT: Reus, what's this?
+*CHI: a duck!
+*MOT: duck.
+*MOT: how many duck?
+*MOT: one, two, three, four, five, six, seven!
+*MOT: where's one more duck!
+*MOT: where's another duck?
+*MOT: so they ran off swimming one by one, following their mummy to look for
+  their sibling.
+*CHI: &=vocalises.
+*MOT: <di4 di4>@s:zho sit here first.
+*MOT: <di4 di4>@s:zho.
+*CHI: &=vocalises.
+*MOT: okay.
+*MOT: then how many ducks?
+*MOT: one of the duck.
+*CHI: &=vocalises.
+*MOT: &ooh see!
+*MOT: mummy duck and baby duckling, they went to find their sibling!
+*MOT: "have you seen my duckling"?
+*MOT: what's this?
+*MOT: what's this?
+*CHI: &=vocalises.
+*MOT: a, bird!
+*MOT: so <what did> [?] the bird told the duckling "no, I didn't see your
+  sibling"!
+*CHI: &=vocalises.
+*MOT: "I didn't see your duckling"!
+*CHI: &=vocalises.
+*MOT: <di4 di4>@s:zho come here.
+*CHI: &=whines.
+*MOT: okay.
+*MOT: put inside.
+*MOT: wait [x2].
+*MOT: okay, wait.
+*MOT: put there first.
+*MOT: <di4 di4>@s:zho.
+*MOT: okay [x2], sit down first.
+*MOT: you want to listen to story first?
+*CHI: &=vocalises.
+*MOT: okay, then sit down first.
+*MOT: okay.
+*MOT: again &ah, okay?
+*MOT: have you seen my duckling, by Nancy Tafuri.
+*MOT: have you seen my duckling?
+*MOT: early one morning.
+*MOT: the ducklings are looking for their mummy.
+*MOT: <where's the mummy duck?> [x 2].
+*MOT: here.
+*MOT: okay.
+*MOT: so the mummy duck.
+*MOT: the mummy duck are counting.
+*MOT: one, two, three, four, five, six, seven!
+*MOT: seven ducklings!
+*MOT: where are another duckling?
+*MOT: where are your siblings?
+*MOT: they couldn't find!
+*MOT: they don't know where!
+*CHI: &=vocalises.
+*MOT: so they went off to look for their another sibling!
+*CHI: &=vocalises.
+*MOT: where?
+*MOT: do you find the duck?
+*MOT: so the duckling follow their mummy, one by one, off into the water, to look
+  for their siblings.
+*MOT: "have you seen my duckling"?
+*CHI: no!
+*MOT: no.
+*MOT: where are they?
+*MOT: and now that they saw the beaver.
+*MOT: "have you seen the duckling"?
+*MOT: no!
+*MOT: where's the duckling?
+*MOT: mummy duck ask the turtle, "have you seen my duckling"?
+*MOT: no.
+*MOT: so they went off to another place.
+*CHI: wowowowowo@b.
+*MOT: and they asked again.
+*MOT: they saw the sea otter.
+*MOT: "have you seen my duckling"?
+*MOT: no!
+*MOT: what's this?
+*CHI: &=vocalises.
+*MOT: a beaver!
+*MOT: so the duck, the mummy duck asked, "have you seen my duckling"?
+*MOT: the beaver said, "no"!
+*MOT: so they dived into the sea.
+*MOT: then they asked, "have you seen my duckling"?
+*MOT: the fish told the duck, mummy duck, "no".
+*MOT: so where are the ducklings?
+*MOT: they look around.
+*CHI: &=vocalises.
+*MOT: so they look around.
+*MOT: where are you, where are you?
+*MOT: have you seen my duckling?
+*CHI: sopad@b.
+*MOT: they search the whole day from morning until night, but they still yet to
+  find the sibling.
+*CHI: &=whines.
+*CHI: &=giggles.
+*MOT: what's this?
+*MOT: what's this?
+*MOT: see what ,ya what's this?
+*MOT: a?
+*CHI: <what happen to you?> [?]
+*MOT: no [x2], don't touch.
+*CHI: &=vocalises.
+*MOT: what?
+*CHI: &=vocalises.
+*MOT: you don't want to xxx listen?
+*MOT: oh!
+*CHI: &=vocalises.
+*MOT: xxx.
+*MOT: you see another time.
+*MOT: have you seen my duckling?
+*MOT: no!
+*CHI: &=vocalises.
+*CHI: see!
+*MOT: okay.
+*MOT: okay, you see.
+*MOT: &ah, where is another duck?
+*MOT: &ah, they found the duck!
+*MOT: another duck, xxx duckling is actually behind.
+*CHI: &=vocalises.
+*MOT: yeah, he kind of distracted. [+ bch]
+*MOT: &=laughs. [+ bch]
+@End

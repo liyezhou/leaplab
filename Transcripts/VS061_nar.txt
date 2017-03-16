@@ -1,0 +1,139 @@
+@Unicode
+@Begin
+@Languages:	eng
+@Participants:	MOT Mother, CHI Lionel Child
+@ID:	eng||MOT||female|||Mother|||
+@ID:	eng||CHI|2;0.8|female|||Child|||
+@Date:	29-Nov-2015
+@Location:	Home Testing
+@Comment:	duration of recording 6 minutes 20 seconds
+@Comment:	start at 22 seconds
+@Comment:	transcribed by Yezhou, not checked yet
+@Comment:	narration of wordless picture book
+@Start
+*MOT:	okay, see, what's this?
+*MOT:	mummy ducks, and so many?
+*MOT:	so many baby ducks.
+*MOT:	have you seen my duckling?
+*MOT:	have you seen my duckling?
+*MOT:	where is the ducklings?
+*CHI:	there.
+*MOT:	so many, so many little ducklings.
+*CHI:	the butterfly.
+*MOT:	yeah, that is a butterfly.
+*MOT:	see, early one morning, oh?
+*MOT:	see all the ducklings woke up.
+*CHI:	&=vocalizes.
+*MOT:	hmm.
+*CHI:	&=vocalizes.
+*MOT:	yes, wake up, so what is these ducklings doing?
+*CHI:	&=vocalizes.
+*MOT:	they went to chase after the?
+*MOT:	butterfly, swim away.
+*MOT:	oh, then the mummy came back, the mummy duck.
+*CHI:	came back.
+*MOT:	you see, see how many ducks?
+*MOT:	one two three four.
+*CHI:	&=vocalizes.
+*MOT:	we finish reading the book then we play with the hammer, okay?
+*MOT:	see, one two three four five six seven, &=gasp, seven ducks.
+*MOT:	where is one more duck?
+*CHI:	there.
+*MOT:	where is one more duck hiding?
+*CHI:	&=vocalizes.
+*MOT:	oh, there is one more duck hiding, right?
+*CHI:	hmm.
+*MOT:	mummy duck came back.
+*MOT:	you see, the mummy duck says, oh, hello.
+*MOT:	hello my children, have you all waken up, are you hungry?
+*MOT:	so all the children say, oh, hungry.
+*MOT:	then the mummy duck node, oh oh.
+*MOT:	where is, one two three four five six seven.
+*MOT:	where are one, where are one baby duck gone.
+*MOT:	there.
+*MOT:	oh no, the baby duck has have, the baby duck is hiding.
+*MOT:	chasing after the butterfly.
+*MOT:	so the mummy duck say, oh no, we need to go and find the?
+*MOT:	we are going to find the, one of the baby ducks.
+*MOT:	with all the baby ducks following the mummy duck.
+*MOT:	let's go and find the brother.
+*MOT:	where is the brother, let's go and find the brother duck, okay?
+*MOT:	so, and then the babies duck say, have you seen my duckling?
+*MOT:	after that, have you seen my duckling?
+*MOT:	what did the bird say?
+*MOT:	oh, no, i havn't seen the duckling.
+*MOT:	so the mummy duck go and find again.
+*MOT:	ask the tortoise, have you seen my duckling?
+*MOT:	all the brothers and sisters say, have you seen my duckling?
+*CHI:	&=vocalizes.
+*MOT:	okay, see the duckling?
+*CHI:	&=vocalizes.
+*MOT:	where is it?
+*CHI:	&=vocalizes.
+*MOT:	oh, there is a beaver.
+*CHI:	beaver.
+*MOT:	yes, there is a beaver, yes.
+*MOT:	where is the duckling, can you find?
+*CHI:	&=vocalizes.
+*MOT:	&=laughs, never, the duckling is hiding.
+*CHI:	&=vocalizes.
+*MOT:	&=vocalizes, ya, it is hiding.
+*MOT:	there, oh, the mama duck, mummy duck asks the beaver, have you seen my duckling?
+*CHI:	&=vocalizes.
+*MOT:	oh, the frog too.
+*MOT:	can you spot the duckling hiding?
+*CHI:	&=vocalizes.
+*MOT:	where is it hiding?
+*CHI:	&=vocalizes.
+*MOT:	&=grins the duckling is hiding inside.
+*MOT:	no, oh, and then they go under the water, you see they put the head inside the water?
+*MOT:	they ask the fish.
+*MOT:	have you seen my duckling?
+*MOT:	&=vocalizes.
+*MOT:	no, the fish also say no.
+*MOT:	i don't know where the duckling go.
+*MOT:	what happen havn't seen the duckling, you see.
+*MOT:	so many fish in here, the frog also swimming.
+*MOT:	can you find?
+*CHI:	&=vocalizes.
+*MOT:	there is a insect.
+*MOT:	that's a insect.
+*MOT:	hm, that's a, lizard, a swimming lizard.
+*CHI:	&=vocalizes.
+*MOT:	yeah, the lizard swimming.
+*CHI:	&=vocalizes.
+*MOT:	can you find the baby duck that is hiding?
+*CHI:	&=vocalizes.
+*MOT:	ya, it's hiding behind the, the weeds ah, the weeds.
+*MOT:	oh, and the mummy duck so sad.
+*MOT:	have you seen my duckling, asked the mammy bird?
+*MOT:	see all the baby birds.
+*MOT:	where is the duckling, have you seen my duckling?
+*MOT:	the birds say no, i havn't seen the duckling.
+*MOT:	where is it, and then can, can you see where is the duckling?
+*CHI:	&=vocalizes.
+*MOT:	&=vocalizes.
+*MOT:	oh, oh, then oh, the mummy duck saw, turn around and look.
+*MOT:	oh, there is the baby duck, with the tortoise.
+*MOT:	the baby duck say, i'm here, mummy, i'm here.
+*MOT:	then the mummy duck come and see, woah.
+*MOT:	i finally found you, i found you!
+*MOT:	so, oh, so all the ducks go and, now go back and follow the mummy duck.
+*MOT:	the tortoise also follows the mummy duck.
+*MOT:	and the, oh, the butterfly also follow the duck, now?
+*CHI:	&=vocalizes.
+*MOT:	ya, oh, you see all the ducks.
+*MOT:	all the baby ducks so tired, swimming everywhere to look for the duckling.
+*MOT:	so they all, go and sleep.
+*MOT:	cause it's night time, so they say, goodnight.
+*MOT:	these are the fireflies.
+*MOT:	so many fireflies.
+*MOT:	many fireflies.
+*MOT:	so it's night time, what happeng?
+*MOT:	everybody so tired.
+*CHI:	&=vocalizes.
+*MOT:	yes, that is the mummy's dark eyes.
+*MOT:	so they are all sleeping.
+*MOT:	say, good night.
+*CHI:	good night.
+@End

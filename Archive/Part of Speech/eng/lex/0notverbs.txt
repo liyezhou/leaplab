@@ -1,0 +1,14 @@
+@UTF8
+% words that are almost always really nouns and should be forced to be so by POSTMORTEM
+% these have been taken out of v.cut
+father {[scat v]}
+finger {[scat v]}
+foot {[scat v]}
+mother {[scat v]}
+people {[scat v]}
+saw {[scat v]}
+shoe {[scat v]}
+hoof {[scat v]}
+bed {[scat v]}
+baby {[scat v]}
+clam {[scat v]}

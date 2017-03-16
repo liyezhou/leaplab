@@ -1,0 +1,231 @@
+@Unicode
+@Begin
+@Languages:	eng
+@Participants:	MOT Olivia_Chiong Mother CHI Zoey_Chiong Child
+@ID:	eng||MOT||female|||Mother|||
+@ID:	eng||CHI|2;4.25|female|||Child|||
+@Date:	05-AUG-2015
+@Location:	Home
+@Comment:	duration of recording 9 minutes 34 seconds
+@Comment:	begin at 0 minutes 20 seconds
+@Comment:	transcribed by Yezhou checked by Ashley
+@Comment:	narration of wordless picture book
+@Start
+*MOT:	okay, come zoey.
+*MOT:	shall we read, have you seen my duckling?
+*MOT:	where's the duckling?
+*MOT:	okay, and this one?
+*MOT:	this is the mama?
+*CHI:	duck.
+*MOT:	yeah mama duck.
+*MOT:	early one morning.
+*MOT:	oh how many ducks are there?
+*MOT:	can you count?
+*CHI:	&m mama duck.
+*MOT:	where's the mama duck.
+*MOT:	hm, where's the mama duck?
+*MOT:	it's not there?
+*CHI:	&k.
+*MOT:	can you count how many ducklings there are?
+*MOT:	let's count.
+*CHI:	&=vocalizes.
+*MOT:	okay you see, come.
+*MOT:	one.
+*MOT:	this one?
+*CHI:	two.
+*MOT:	two.
+*CHI:	two, four five six seven.
+*MOT:	yeah!
+*MOT:	seven ducks!
+*CHI:	&da &da ducks.
+*MOT:	yeah.
+*MOT:	and how about that one?
+*MOT:	what's that?
+*CHI:	butterfly.
+*MOT:	that's correct.
+*MOT:	&=gasps oh and what's happen?
+*MOT:	who's that?
+*CHI:	oh mama duck.
+*MOT:	okay what's the mama duck doing?
+*CHI:	swimming.
+*MOT:	swimming and then who this?
+*CHI:	the baby duck.
+*MOT:	okay can you count how many baby ducks are there?
+*MOT:	can we count together?
+*MOT:	yeah, you take your hand.
+*MOT:	count together, come on.
+*MOT:	oh this is?
+*CHI:	one two three four five six seven, nine ten!
+*MOT:	&=laughs that's not ten!
+*MOT:	that's is only seven!
+*MOT:	oh i know what's the mama duck doing.
+*MOT:	what's she doing?
+*MOT:	she cuddling &th with the little ducks?
+*MOT:	no?
+*MOT:	what's she doing?
+*MOT:	is she hugging the little duck?
+*CHI:	xxx ducks cannot swim.
+*MOT:	oh the baby duck cannot swim?
+*CHI:	yeah.
+*MOT:	you wanna [: want to] teach the baby ducks how to swim?
+*MOT:	oh look!
+*MOT:	what's happening?
+*CHI:	cannot xxx.
+*MOT:	they can swim?
+*CHI:	cannot swim this one.
+*MOT:	oh this little duck cannot swim?
+*MOT:	well the little duck is getting into the water.
+*MOT:	why the little ducklings getting into the water?
+*CHI:	&=vocalizes.
+*MOT:	okay, and then what's gonna [:going to] happen?
+*MOT:	oh she's asking, have you seen my duckling?
+*CHI:	oh the duck cannot xxx.
+*MOT:	yeah who's that?
+*CHI:	bird.
+*MOT:	yeah, the bird.
+*MOT:	so the &d the mama duck's asking, have you seen my duckling?
+*MOT:	right?
+*MOT:	have you seen the duckling?
+*MOT:	where's the duckling?
+*MOT:	that's the bird.
+*MOT:	where's the, where's the missing duckling?
+*MOT:	that's the mama duck.
+*MOT:	where's the missing duckling?
+*MOT:	&h wait you count how many ducklings are there first.
+*MOT:	you count.
+*CHI:	xxx.
+*MOT:	oh that's the missing duckling there right?
+*MOT:	but the missing duckling is hiding!
+*MOT:	and then what's happening now?
+*MOT:	she's asking, have you seen my duckling?
+*MOT:	who's she asking?
+*CHI:	the crab.
+*MOT:	is that a crab?
+*MOT:	i think it looks like a tortoise.
+*MOT:	okay?
+*CHI:	xxx a tortoise.
+*MOT:	this is the tortoise.
+*MOT:	and who's this?
+*CHI:	&=vocalizes.
+*MOT:	this is the beaver.
+*CHI:	xxx a &b &ah.
+*MOT:	the beaver.
+*CHI:	beaver.
+*MOT:	yeah and who's that.
+*CHI:	&=laughs a flower.
+*MOT:	and this one?
+*CHI:	butterfly.
+*MOT:	yeah and where's the little, little naughty duckling?
+*MOT:	where's the little naughty duckling hiding?
+*MOT:	can you see the little naughty duckling hiding?
+*MOT:	where?
+*MOT:	is that the little naughty duckling?
+*MOT:	yeah?
+*MOT:	okay.
+*CHI:	why xxx no swimming.
+*MOT:	no swimming?
+*MOT:	i think because they're out of the pond.
+*CHI:	xxx the pond.
+*MOT:	&=gasps oh look at that!
+*CHI:	&=vocalizes.
+*MOT:	yeah.
+*CHI:	where's the mama?
+*MOT:	where's the mama duck?
+*CHI:	xxx xxx all the bad duck.
+*MOT:	yeah and then how many ducklings are there?
+*MOT:	can we count?
+*MOT:	you count.
+*MOT:	this one?
+*CHI:	this one the baby &d.
+*MOT:	yeah, this one?
+*CHI:	two then the.
+*MOT:	oh that one is it?
+*MOT:	and who's this?
+*CHI:	frog.
+*MOT:	the frog jumping into the?
+*CHI:	water.
+*MOT:	that's right.
+*MOT:	&=gasps look at that!
+*MOT:	she go under the water and she ask have you seen my duckling right?
+*CHI:	&m where's the duckling &s swimming?
+*MOT:	yeah where's all the ducks?
+*CHI:	all the ducks swimming.
+*MOT:	and who's this?
+*MOT:	who's this?
+*CHI:	fish.
+*MOT:	and then this one?
+*CHI:	the crab.
+*MOT:	the turtle!
+*MOT:	that's not a crab.
+*CHI:	crab.
+*MOT:	that's a turtle.
+*CHI:	turtle.
+*MOT:	and who's that?
+*CHI:	a frog.
+*MOT:	and how many ducklings are there?
+*MOT:	can you count, how many ducklings?
+*CHI:	xxx xxx xxx xxx xxx.
+*MOT:	yeah, the ducklings are looking under the water right?
+*MOT:	and then she ask again.
+*MOT:	mama &a mama duck ask, have you seen my duckling?
+*MOT:	where's the ducklings?
+*MOT:	she ask, who's this.
+*MOT:	this looks like a swan!
+*MOT:	does it look like a swan?
+*CHI:	&=vocalizes.
+*MOT:	so let's count how many ducklings are there.
+*MOT:	come on.
+*CHI:	xxx xxx cannot move.
+*MOT:	oh the duck cannot move.
+*MOT:	yes so mama help you move okay?
+*MOT:	and who's, what's this?
+*MOT:	where's the missing duckling.
+*MOT:	can you see the naughty duckling?
+*MOT:	where's the naughty duckling hiding?
+*MOT:	that's not there.
+*MOT:	&=whispers it's here!
+*MOT:	where's the missing duckling?
+*MOT:	yeah, the naughty duckling just like zoey?
+*CHI:	bumble bee.
+*MOT:	butterfly!
+*MOT:	and then the mama duckling looks behind!
+*MOT:	and who has she found!
+*CHI:	the butterfly &d inside.
+*MOT:	the butterfly inside the flower?
+*MOT:	oh, and.
+*MOT:	yay, look!
+*MOT:	all the ducklings are together again, right?
+*CHI:	xxx xxx all the swimming.
+*MOT:	yeah all of them are swimming.
+*CHI:	xxx xxx mama swimming.
+*MOT:	yeah everybody's swimming right.
+*CHI:	the crab also swimming.
+*MOT:	that's not a crab, that's a turtle!
+*CHI:	the turtle also xxx.
+*MOT:	okay so can you, can we count, finally?
+*CHI:	xxx xxx xxx xxx.
+*MOT:	what's this?
+*CHI:	the xxx.
+*MOT:	the big flower right?
+*CHI:	yup.
+*MOT:	how many flowers are there?
+*CHI:	xxx xxx the sleeping xxx.
+*MOT:	the flower's sleeping.
+*CHI:	mama!
+*MOT:	and look!
+*MOT:	what, is it night time now?
+*MOT:	zoey.
+*CHI:	&=vocalizes.
+*MOT:	is it night time?
+*CHI:	yeah.
+*MOT:	and what's this?
+*CHI:	xxx the baby duck xxx xxx sleeping.
+*MOT:	yeah the baby ducks are sleeping right?
+*MOT:	like the mama duck right?
+*CHI:	xxx the frog xxx xxx sleep.
+*MOT:	yeah the frog is gonna [:going to] sleep as well.
+*MOT:	okay?
+*MOT:	alright!
+*MOT:	&=whispers oh look!
+*CHI:	&=laughs.
+@End

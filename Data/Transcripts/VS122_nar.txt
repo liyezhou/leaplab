@@ -1,0 +1,146 @@
+@Unicode
+@Begin
+@Languages:	zho, eng
+@Participants:	FAT Ng_Cheng_Boon Father, CHI Alvis_Ng_Jun_Ping Child
+@ID:	zho||FAT||male|||Father|||
+@ID:	zho||CHI|1;7.0|male|||Child|||
+@Date:	02-JUL-2016
+@Location:	Home Testing
+@Comment:	duration of recording 4 minutes 35 seconds
+@Comment: start at 31 seconds
+@Comment:	transcribed by Xin Yun, checked by Debbie, checked by Joseph
+@Start
+*FAT:	[-eng] have you seen my duckling?.
+*FAT:	kan4 ya1 zi3 [?].
+*FAT:	<zuo4 zuo4> [x4].
+*FAT:	&hm?
+*CHI:	&=whimpers.
+*FAT:	[-zho] early one morning.
+*FAT:	ni3 kan4, ni3 kan4 [x4].
+*FAT:	kan4 ya1 zi1 yao4 qu4 you1 yong3 liao3.
+*FAT:	swimming@s:eng, &eh [x3], ya1 zi1.
+*FAT:	you1 mei2 you1?
+*FAT:	you1 hor@s:sce?
+*CHI:	you1.
+*FAT:	you1 hor@sce?
+*FAT:	[-eng] early one morning..
+*FAT:	[-eng] duckling go swimming.
+*FAT:	xxx.
+*FAT:	zhe4 shi4, <mother duck>@s:eng!
+*CHI:	[-eng] mother duck.
+*FAT:	[-eng] mother duck hor@s:sce mother duck xxx xxx.
+*CHI:	&=vocalises.
+*FAT:	&eh, duckling@s zai4 na1 li3 leh@s:sce?
+*FAT:	xxx zhe4 ge4 you2 ji3 zhi1?
+*CHI:	&=vocalises.
+*FAT:	[-eng] one two three four five six seven eight.
+*FAT:	&tadah, mother@s duck@s zai4 zhao3 duck@s.
+*FAT:	[-eng] one two three four five six seven.
+*FAT:	ling4 wai4 yi1 zhi1 ya1 zi1 leh@s:sce?
+*CHI:	ge1 [x2].
+*FAT:	ling4 wai4 yi1 zhi1 ya1 zi3 zai4 na2 li3?
+*CHI:	ge1 [x2].
+*FAT:	duck@s:eng [x2], zai4 na2 li3?
+*CHI:	[-eng] auntie.
+*FAT:	ling4 wai4 ya1 zi1.
+*CHI:	[-eng] auntie.
+*FAT:	ling4 wai4 ya1 zi1 zai4 na2 li3?
+*CHI:	[-eng] auntie.
+*FAT:	<zuo4 zuo4> [x3].
+*CHI:	[-eng] auntie.
+*FAT:	zuo4 [x2].
+*CHI:	[-eng] auntie.
+*FAT:	<there mother duck>@s:eng zai4 zhao3 ya1 zi3.
+*CHI:	zai4 na4 bian1.
+*FAT:	<there mother duck>@s:eng zai4 zhao3 ya1 zi3.
+*CHI:	ge1 [x 2].
+*FAT:	[-eng] one two three four five six seven.
+*FAT:	[-eng] oh no.
+*CHI:	jie3 [x 2].
+*FAT:	duckling@s:eng zai4 na2 li3 leh@s:sce, &hmm?
+*FAT:	<then mother duck>@s:sce you2 yong3.
+*FAT:	&eh, duckling@s xue2 gen1 zhe4 ma1 ma1 you2 yong3 you3 mei2 you3?
+*CHI:	you2 yong3.
+*FAT:	you2 yong3 hor@s:sce.
+*FAT:	[-eng] swimming [x 2].
+*FAT:	[-eng] <ji3 ge4>@s:zho count one two three four five six seven.
+*FAT:	[-eng] oh no.
+*CHI:	[-eng] auntie [x 2].
+*FAT:	[-eng] xxx xxx.
+*CHI:	&=cries.
+*FAT:	<mother duck>@s:eng wen4 xiao3 niao3.
+*FAT:	&eh xiao3 niao3, <did you>@s:eng?
+*FAT:	[-eng] have you seen my duckling?.
+*CHI:	[-eng] auntie [x 2], &=cries.
+*FAT:	<zuo4 hao3 hao3> [x 2], &eh.
+*FAT:	[-eng] have you seen my ducklings?.
+*FAT:	wen4 xiao2 niao3.
+*CHI:	&=cries.
+*FAT:	&eh xiao2 niao3.
+*CHI:	&=cries.
+*FAT:	[-eng] xxx have you seen my duckling?
+*FAT:	there@s ni3 kan4, zhe4 ge4 shi4, zhe4 ge4 shi4 otter@s:eng.
+*CHI:	&oh otter@s:eng.
+*FAT:	otter@s:eng.
+*CHI:	otter@s:eng.
+*FAT:	[-eng] &eh have you seen my duckling?.
+*CHI:	&=vocalises.
+*FAT:	mei2 you3.
+*FAT:	mei2 you3 ren2 kan4 dao4 ni3 kan4.
+*FAT:	[-eng] one two three four five.
+*CHI:	ge1 [x 2].
+*FAT:	[-eng] five six seven aiyo@s:sce.
+*CHI:	ge1 [x 5].
+*FAT:	zhe4 shi4 shen3 me1?
+*CHI:	ge1 [x 2].
+*FAT:	zhe4 shi4 shen3 me1?
+*CHI:	&=vocalises, ge1 [x 2].
+*FAT:	&ahuh &hm.
+*FAT:	[-eng] have you seen my duckling?, &wah!
+*FAT:	<ni3 kan4> [x 3], you3 shen3 me4?
+*CHI:	&=vocalises.
+*FAT:	ni3 kan4 zhe4 shen3 me4?
+*FAT:	<zhe4 shi4 shen3 me4?> [x 2]. [+bch]
+*CHI:	&=vocalises.
+*FAT:	&hmm?
+*CHI:	&=vocalises.
+*FAT:	&hmm zhe4 ge4 leh@s:sce?
+*CHI:	&g &=vocalises.
+*FAT:	&hm zhe4 ge4 leh@s:sce?
+*FAT:	[-eng] &hm have you seen my duckling?.
+*FAT:	&ch xxx.
+*FAT:	zhe4 ge4 shen3 me4?
+*CHI:	[-eng] uncle.
+*FAT:	[-eng] uncle?
+*FAT:	zhe4 na2 li3 shi4 uncle@s:eng?
+*FAT:	zhe4 shi4 ya1 zi3.
+*FAT:	&oh &zheng.
+*CHI:	ge1 [x 2].
+*FAT:	[-eng] oh no, one two three four five six seven.
+*FAT:	zao3 bu4 dao4.
+*CHI:	&=vocalises.
+*FAT:	&hmm.
+*CHI:	&=vocalises.
+*FAT:	&hm have you seen my duckling?.
+*CHI:	&=vocalises.
+*FAT:	&mmhm &yeah.
+*CHI:	&meh [x 4].
+*FAT:	<zhe4 shi4 shen3 me4?> [x 2]
+*CHI:	&=vocalises.
+*FAT:	&hm, &eh &cheng.
+*CHI:	&=laughs.
+*FAT:	&tada.
+*CHI:	&tada.
+*FAT:	&eh, zhao3 dao4 liao3 lo@s:sce.
+*FAT:	there@s:eng quan2 bu4 hui2 jia1 shui4 jiao4 liao3 ni3 kan4.
+*FAT:	xxx you3?
+*CHI:	you3.
+*FAT:	[-eng] &eh one two three four five six seven eight.
+*CHI:	&=vocalises.
+*FAT:	&uh &oh, &um [x 2], liao3 shui4 jiao4 liao3, ni3 kan4, &um [x 2] liao3.
+*CHI:	&um [x 2].
+*FAT:	[-eng] have you seen my duckling?.
+*CHI:	&um [x 2].
+*FAT:	&um [x 2], liao3 hor@s:sce?
+*FAT:	[-eng] yeah, okay finish.
+@End

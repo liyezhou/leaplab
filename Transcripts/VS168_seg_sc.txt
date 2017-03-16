@@ -1,0 +1,71 @@
+@Unicode
+@Begin
+@Languages:	zho, eng
+@Participants:	MOT Wu_Yue Mother, CHI Fu_Mao_Han Child
+@ID:	eng||MOT||female|||Mother|||
+@ID:	eng||CHI|1;0.26|female|||Child|||
+@Date:	22-OCT-2016
+@Location:	Lab Testing
+@Comment:	duration of recording 3 minutes 31 seconds
+@Comment: recording starts at 25 seconds
+@Comment:	transcribed by Xin_Yun, checked by Wenqi, checked by Elsie
+@Start
+*MOT: "ni3 kan4 dao4 wo3 de4 ya1 zi3 le4 ma1?"
+*MOT: Nancy@s Tafuri@s xie3 de4 &oh.
+*MOT: ni3 kan4, Nancy@s Tafuri@s.
+*CHI: &=vocalises.
+*MOT: ma1 ma1 zai4 zhe4 li3.
+*MOT: &=sings &eh yi1 ge4 zao3 chen2 ni3 kan4.
+*MOT: wa1 quack [x 5] hao3 duo1 ya1 zi3 &oh.
+*MOT: guan4 yong4 de4 zhe4 shi4.
+*MOT: &=laughs hao3 duo1 ya1 zi3 &oh.
+*MOT: yi1 zhi1 ya1 zi3, qu4 zhui1 hu2 die2 qu4 &oh.
+*MOT: wa1 kan4, ya1 zi3 ma1 ma1 lai2 le4.
+*MOT: quack [x 5].
+*MOT: quack [x 3].
+*MOT: ya1 zi3 ma1 ma lai2 zhao3 xiao3 ya1 zi3 le4.
+*MOT: kan4 ya1 zi1 ma1 ma1.
+*MOT: gen1 xiao3 ya1 zi3 zai4 yi1 qi3.
+*CHI: &=cries.
+*MOT: &mmhm.
+*MOT: you3 yi1 zhi1 xiao3 ya1 zi3 ni3 kan4, zou3 diu1 le4.
+*MOT: qi2 ta1 xiao3 ya1 zi3 dou1 gen1 zhe4 ma1 ma1 zou3.
+*MOT: dan4 you3 yi1 zhi1 xiao3 ya1 zi3 zou3 diu1 le4.
+*MOT: &yi2 ta1 men jiu4 qu4 wen4 le yi1 ge4 lv4 lu4.
+*MOT: "&eh ni1 kan4 dao4 le wo1 de3 xiao3 ya1 zi3 le4 ma1?".
+*CHI: &=vocalises.
+*MOT: "kan4 &jian4 dao4 le4 wo1 de3 xiao3 ya1 zi3 le ma?".
+*MOT: lv4 lu4 shuo1, "aiyo@s:sce mei2 you3 kan4 dao4 &eh.".
+*MOT: &mmhm ta1 you4 qu4 wen4 tu3 bo1 shu3.
+*MOT: "ni3 kan4 dao4 wo3 de4 xiao3 ya1 zi3 le ma?".
+*MOT: tu3 bo1 shu3 shuo3, "mei2 you3 kan4 dao4 &eh.".
+*MOT: &yeah.
+*MOT: tu3 bo1 shu3 zheng4 zai4 chi1, ge4, mu4 tou2.
+*MOT: tu3 bo1 shu3 shuo3, "mei2 you3 kan4 dao4 &eh.".
+*MOT: &oh ta1 men2 you4 dao4 shui3 li3 qu4 wen4.
+*MOT: wen4 wu1 gui1, wen4 yu2, wen4 lian2 yu2, wen4 qing1 wa1.
+*MOT: wen4 "kan4 dao4 wo3 de3 xiao3 ya1 zi3 le4 ma1?".
+*MOT: wa1 ma1 ma1 hen3 zhao2 ji2.
+*MOT: dou1 shuo1 "mei2 you3 kan4 dao4 &eh".
+*MOT: suo3 yi3 wen4 dao4 bie2 de3 ya1 zi3.
+*MOT: shui3 niao3 [x 2], shuo1 "a1 ni3 kan4 dao4 wo3 de3 xiao3 ya1 zi3."
+*MOT: ni3 kan4 xiao3 hu2 die2 hai1 zai4 zhe4 li3 &eh ni3 kan4.
+*MOT: xiao3 ya1 zi3 &h ken3 cang2 zai4 shu4 hou4 mian4 de4, shui3 cao3 (li3)
+  mian4 de4.
+*MOT: ta1 men ye1 jiang3 mei2 you2 kan4 dao4 &eh.
+*MOT: na4 (zhi1) xiao3 ya1 zi3 hen3 tiao2 pi1 &cai1 ta1 qu4 zhui1 hu2 die2 qu4
+  le.
+*MOT: &yeah ta1 men1 you3 kan4 dao4 le4 yi1 zhi1 wu1 gui1.
+*MOT: ta1 men jiu4 <zhao3 a1> x3.
+*MOT: wen4 wu1 gui1 "you3 (mei2 you3) kan4 dao4 wo3 de3 xiao3 ya1 zi3 a1?"
+*MOT: wu1 gui1 jiu4 gen1 ta1 men qu4 zhao3.
+*MOT: jie2 guo3 dao4 le4 wan3 shang4.
+*MOT: tian1 hei1 le4.
+*MOT: ya1 zi3 ma1 ma1 dou1 shui4 le4.
+*MOT: &oh ta1 men jiu4 zhao3 dao4 le xiao3 ya1 zi3 le4.
+*MOT: &eh xiao3 ya1 zi3 jiu4 gen1 zhe4 hu2 die2.
+*MOT: hu2 die2 fei1 hui2 lai2 le4.
+*MOT: xiao3 ya1 zi3 gen1 zhe4 hu2 die2 yi1 qi3 hui2 lai2 le4.
+*MOT: ni3 kan4, gu4 shi4 jiu4 zhe4 yang4 jie3 shu4 le4 la1.
+*MOT: &hmm, jie2 shu4 la1.
+@End

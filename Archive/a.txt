@@ -1,0 +1,75 @@
+@Unicode	
+@Begin	
+@Languages:	English
+@Participants:	*MOT Target_Mother|*CHI Child
+@ID:	eng|Lara|MOT|3;0011||||Target_Mother|||
+@ID:	eng|Lara|CHI|||||Child|||
+@Date:	Unknown
+@Location:	Unknown
+@Filename:	VS012_Narration Transcript_Dilu.txt
+@Comment:	time duration
+@Comment:	transcribed by Yezhou
+@Reference:	VS012
+@Situation:	Unknown
+@Start	
+*MOT:	early one morning
+*MOT:	look at the ducks
+*MOT:	mama duck and little duck
+*MOT:	mama duck is paddling towards the baby duck
+*MOT:	more ducks
+*MOT:	more ducks ya
+*MOT:	what happened to the little duck over there
+*MOT:	this yes
+*MOT:	it's going away
+*MOT:	see how many ducks do we have in the net one two three four five six seven
+*MOT:	seven ducks
+*MOT:	more ducks okay
+*MOT:	look what are the ducks doing
+*MOT:	they going swimming
+*MOT:	wait mother duck
+*MOT:	more ducks
+*MOT:	ya so many ducks
+*MOT:	and then the mama duck
+*MOT:	have you seen my duckling cause one is missing
+*MOT:	the mama duck is asking the little bird
+*MOT:	have you seen my duckling
+*MOT:	more ok 
+*MOT:	and then mama duck went away ask
+*MOT:	have you seen my duckling
+*MOT:	look at the forest
+*MOT:	this a forest that
+*MOT:	that's a beaver 
+*MOT:	have you seen
+*MOT:	more ducks
+*MOT:	have you seen my duckling
+*MOT:	what is this
+*MOT:	oh what is that
+*MOT:	duck look at the moose
+*MOT:	there is no moose that's a hiding duck 
+*MOT:	have you seen my duckling
+*MOT:	can you see the duck
+*MOT:	one two three four five six seven
+*MOT:	what are all these
+*MOT:	what's that a fish
+*MOT:	is that a fish
+*MOT:	and this frog
+*MOT:	have you seen my duckling
+*MOT:	is that the duck
+*MOT:	where is the duck hiding
+*MOT:	can you see the hiding duck
+*MOT:	that's a different kind of duck
+*MOT:	ya that’s right
+*MOT:	it hiding there
+*MOT:	behind the grass
+*MOT:	kwek kwek kwek
+*MOT:	oh ya
+*MOT:	right there at the forest
+*MOT:	and there we go
+*MOT:	kwek kwek
+*MOT:	went back to meet the mummy brother and sisters
+*MOT:	and it's time to see
+*MOT:	cause is nighttime 
+*MOT:	what is that
+*MOT:	moon that's right
+*MOT:	what is that
+*MOT:	a frog
