@@ -1,0 +1,1032 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 10.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     41778,       1023]
+NotebookOptionsPosition[     40931,        993]
+NotebookOutlinePosition[     41286,       1009]
+CellTagsIndexPosition[     41243,       1006]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"(*", 
+   RowBox[{"Constant", " ", "Declaration"}], "*)"}], "\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"ReferenceCode", "=", "\"\<VS001\>\""}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"ColumnInterested", "=", 
+     RowBox[{"{", 
+      RowBox[{
+      "\"\<Sex:\>\"", ",", "\"\<MOTHER\>\"", ",", "\"\<FATHER\>\"", ",", 
+       "\"\<% English\>\"", ",", "\"\<Today's date:\>\"", ",", 
+       "\"\<Date of birth\>\""}], "}"}]}], ";"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"ChiName", "=", "\"\<CHI\>\""}], ";"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+    "Dir", "=", "\"\</Users/liyezhou/Google Drive/Mac Sync/NRP/Data\>\""}], 
+    ";"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"TranscriptFile", "=", 
+     RowBox[{
+     "Dir", "<>", "\"\</Transcript/\>\"", "<>", "ReferenceCode", "<>", 
+      "\"\<.txt\>\""}]}], ";"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"BackgroundFile", "=", 
+     RowBox[{
+     "Dir", "<>", 
+      "\"\</Background/Language and Social Background Questionnaire \
+(Responses2).xlsx\>\""}]}], ";"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"OptionFile", "=", 
+     RowBox[{"Dir", "<>", "\"\</Background/Options.xlsx\>\""}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{"(*", "Import", "*)"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"RawD", "=", 
+     RowBox[{
+      RowBox[{"Import", "[", "BackgroundFile", "]"}], "[", 
+      RowBox[{"[", "1", "]"}], "]"}]}], ";"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"RawOpt", "=", 
+     RowBox[{
+      RowBox[{"Import", "[", "OptionFile", "]"}], "[", 
+      RowBox[{"[", "1", "]"}], "]"}]}], ";"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"TranscriptRaw", "=", 
+     RowBox[{"Import", "[", "TranscriptFile", "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{"(*", 
+    RowBox[{"Option", " ", "Mapping"}], "*)"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"OptMap", "=", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"Rule", "[", 
+        RowBox[{"#1", ",", 
+         RowBox[{"#2", "//", "Round"}]}], "]"}], "&"}], "@@@", "RawOpt"}]}], 
+    ";"}], "\[IndentingNewLine]", 
+   RowBox[{"(*", 
+    RowBox[{"Background", " ", "Info", " ", "Tabulation"}], "*)"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"Header", "=", 
+     RowBox[{"RawD", "[", 
+      RowBox[{"[", "1", "]"}], "]"}]}], ";"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"Data", "=", 
+     RowBox[{"RawD", "[", 
+      RowBox[{"[", 
+       RowBox[{"2", ";;"}], "]"}], "]"}]}], ";"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"row", "=", 
+     RowBox[{
+      RowBox[{"Position", "[", 
+       RowBox[{"Data", ",", "ReferenceCode"}], "]"}], "[", 
+      RowBox[{"[", 
+       RowBox[{"1", ",", "1"}], "]"}], "]"}]}], ";"}], "\[IndentingNewLine]", 
+   
+   RowBox[{
+    RowBox[{"col", "=", 
+     RowBox[{
+      RowBox[{"(", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"Position", "[", 
+          RowBox[{"Header", ",", "#"}], "]"}], "&"}], "/@", 
+        "ColumnInterested"}], ")"}], "//", "Flatten"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"BGInfo", "=", 
+     RowBox[{"Data", "[", 
+      RowBox[{"[", 
+       RowBox[{"row", ",", "col"}], "]"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"BGInfoN", "=", 
+     RowBox[{"BGInfo", "/.", "OptMap"}]}], ";"}], "\[IndentingNewLine]", 
+   RowBox[{"(*", "Analysis", "*)"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"NoW", "=", 
+     RowBox[{"NumberOfWords", "[", 
+      RowBox[{"TranscriptRaw", ",", "ChiName"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"PoSFreq", "=", 
+     RowBox[{"PartOfSpeechFreq", "[", 
+      RowBox[{"TranscriptRaw", ",", "ChiName"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"EduLevel", "=", 
+     RowBox[{
+      RowBox[{"Mean", "[", 
+       RowBox[{"BGInfoN", "[", 
+        RowBox[{"[", 
+         RowBox[{"2", ";;", "3"}], "]"}], "]"}], "]"}], "//", "N"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"PcEng", "=", 
+     RowBox[{"BGInfoN", "[", 
+      RowBox[{"[", "4", "]"}], "]"}]}], ";"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"OriText", "=", 
+     RowBox[{"TrimmedText", "[", 
+      RowBox[{"TranscriptRaw", ",", "ChiName"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"PoSText", "=", 
+     RowBox[{"TransformToPartOfSpeechText", "[", 
+      RowBox[{"TranscriptRaw", ",", "ChiName"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"AgeInMonth", "=", 
+     RowBox[{"DateDifference", "[", 
+      RowBox[{
+       RowBox[{"BGInfo", "[", 
+        RowBox[{"[", "6", "]"}], "]"}], ",", 
+       RowBox[{"BGInfo", "[", 
+        RowBox[{"[", "5", "]"}], "]"}], ",", "\"\<Month\>\""}], "]"}]}], 
+    ";"}], "\[IndentingNewLine]", 
+   RowBox[{"(*", 
+    RowBox[{"Page", " ", "1", " ", "Output", " ", "Formatting"}], "*)"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"ExcelPage1", "=", 
+     RowBox[{"{", "}"}]}], ";"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"ExcelPage1", "~", "AppendTo", "~", 
+     RowBox[{"{", 
+      RowBox[{"\"\<ReferenceCode\>\"", ",", "ReferenceCode"}], "}"}]}], ";"}],
+    "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"ExcelPage1", "~", "AppendTo", "~", 
+     RowBox[{"{", "}"}]}], ";"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"ExcelPage1", "~", "AppendTo", "~", 
+     RowBox[{"{", "\"\<Background Information\>\"", "}"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"ExcelPage1", "~", "AppendTo", "~", 
+     RowBox[{"{", 
+      RowBox[{
+      "\"\<Parental Education Level\>\"", ",", "EduLevel", ",", 
+       "\"\<A scale from 1 to 5, 5 being the highest\>\""}], "}"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"ExcelPage1", "~", "AppendTo", "~", 
+     RowBox[{"{", 
+      RowBox[{"\"\<% English\>\"", ",", "PcEng"}], "}"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"ExcelPage1", "~", "AppendTo", "~", 
+     RowBox[{"{", 
+      RowBox[{"\"\<Age in Months\>\"", ",", 
+       RowBox[{"AgeInMonth", "//", "ToString"}]}], "}"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"ExcelPage1", "~", "AppendTo", "~", 
+     RowBox[{"{", "}"}]}], ";"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"ExcelPage1", "~", "AppendTo", "~", 
+     RowBox[{"{", "\"\<Basic Analysis\>\"", "}"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"ExcelPage1", "~", "AppendTo", "~", 
+     RowBox[{"{", 
+      RowBox[{
+      "\"\<Words\>\"", ",", "NoW", ",", 
+       "\"\<Only included legitimate English Words\>\""}], "}"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"ExcelPage1", "~", "AppendTo", "~", 
+     RowBox[{"{", "}"}]}], ";"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"ExcelPage1", "~", "AppendTo", "~", 
+     RowBox[{"{", "\"\<Part Of Speech Analysis\>\"", "}"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"ExcelPage1", "~", "AppendTo", "~", 
+     RowBox[{"{", 
+      RowBox[{
+      "\"\<Part Of Speech\>\"", ",", "\"\<Occurance\>\"", ",", 
+       "\"\<Frequency\>\""}], "}"}]}], ";"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"ExcelPage1", "=", 
+     RowBox[{"ExcelPage1", "~", "Join", "~", "PoSFreq"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{"ExcelPage1", "//", "TableForm"}], "\[IndentingNewLine]", 
+   RowBox[{"(*", 
+    RowBox[{"Page", " ", "2", " ", "Output", " ", "Formatting"}], "*)"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"ExcelPage2", "=", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", "\"\<Copy the following out to TextEdit\>\"", "}"}], ",", 
+       
+       RowBox[{"{", "OriText", "}"}], ",", 
+       RowBox[{"{", "PoSText", "}"}]}], "}"}]}], ";"}], "\[IndentingNewLine]", 
+   RowBox[{"(*", "Output", "*)"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"ExcelOut", "=", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"\"\<Analysis\>\"", "->", "ExcelPage1"}], ",", 
+       RowBox[{"\"\<Converted Text\>\"", "->", "ExcelPage2"}]}], "}"}]}], 
+    ";"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"FileDir", "=", 
+     RowBox[{
+     "Dir", "<>", "\"\</Analysis/Ana_\>\"", "<>", "ReferenceCode", "<>", 
+      "\"\<.xlsx\>\""}]}], ";"}], "\[IndentingNewLine]", 
+   RowBox[{"Export", "[", 
+    RowBox[{"FileDir", ",", "ExcelOut"}], "]"}]}]}]], "Input",
+ CellChangeTimes->{{3.6492870566216803`*^9, 3.649287065206895*^9}, {
+   3.649287284342586*^9, 3.6492873136785097`*^9}, {3.649290173130769*^9, 
+   3.649290230795676*^9}, {3.649290293000704*^9, 3.649290299095009*^9}, {
+   3.6492904066492233`*^9, 3.649290457318088*^9}, {3.649290493326522*^9, 
+   3.6492905385710907`*^9}, {3.649290592589243*^9, 3.6492906009850903`*^9}, {
+   3.649290664785412*^9, 3.649290675758194*^9}, {3.649290720100874*^9, 
+   3.6492907278416452`*^9}, {3.649290779004383*^9, 3.649290786436219*^9}, {
+   3.649290828978853*^9, 3.649290859168439*^9}, {3.649290915062612*^9, 
+   3.649290928573921*^9}, {3.649290986921788*^9, 3.649291057571148*^9}, {
+   3.649291146863031*^9, 3.6492911801584997`*^9}, {3.649291212838237*^9, 
+   3.649291213132407*^9}, {3.649291251282927*^9, 3.6492912717083397`*^9}, {
+   3.649298270633697*^9, 3.6492982723040323`*^9}, {3.649298992516144*^9, 
+   3.649299022413498*^9}, {3.6492990570243397`*^9, 3.649299155862509*^9}, {
+   3.649299197230544*^9, 3.649299301344529*^9}, {3.649299527249981*^9, 
+   3.6492995944413223`*^9}, {3.649299631138361*^9, 3.649299698731161*^9}, {
+   3.649301349828342*^9, 3.649301364371244*^9}, {3.649301400931056*^9, 
+   3.649301418272036*^9}, {3.6493014825073357`*^9, 3.649301487567225*^9}, {
+   3.649301889590661*^9, 3.649302008005653*^9}, {3.6493021195778217`*^9, 
+   3.649302425553384*^9}, {3.649302457142651*^9, 3.649302500478509*^9}, {
+   3.649302574686637*^9, 3.649302574796167*^9}, {3.649302613787017*^9, 
+   3.649302710262374*^9}, {3.64930279784408*^9, 3.6493028725983877`*^9}, {
+   3.649302943526016*^9, 3.649303044456504*^9}, {3.6493031227789783`*^9, 
+   3.649303134013328*^9}, {3.649303204797678*^9, 3.649303221795321*^9}, {
+   3.6493032598121233`*^9, 3.649303285765305*^9}, {3.649303368808641*^9, 
+   3.649303428332588*^9}, {3.649303666629923*^9, 3.649303732953336*^9}, {
+   3.649303844520521*^9, 3.649303854958501*^9}, {3.649303988202365*^9, 
+   3.6493039884260483`*^9}, {3.649304558688339*^9, 3.6493045905493937`*^9}, {
+   3.649304819676825*^9, 3.649304909482274*^9}, {3.64930499616114*^9, 
+   3.64930505228127*^9}, {3.649305313194195*^9, 3.6493053862188377`*^9}, {
+   3.649305760760487*^9, 3.649305764044561*^9}, 3.649305878923435*^9, {
+   3.64930601468532*^9, 3.649306038395904*^9}, {3.649306100714291*^9, 
+   3.6493061219537163`*^9}, {3.649306283324823*^9, 3.649306304435549*^9}, {
+   3.649306495271669*^9, 3.649306520252706*^9}, {3.649306900546125*^9, 
+   3.6493069009994164`*^9}, {3.649411838542148*^9, 3.649411866729171*^9}, {
+   3.649412145866892*^9, 3.6494121570811443`*^9}, {3.649412217305109*^9, 
+   3.649412271925003*^9}, {3.6494123235559072`*^9, 3.649412337617999*^9}}],
+
+Cell[BoxData[
+ InterpretationBox[GridBox[{
+    {"\<\"ReferenceCode\"\>", "\<\"VS001\"\>", "\<\"\"\>"},
+    {"\<\"\"\>", "\<\"\"\>", "\<\"\"\>"},
+    {"\<\"Background Information\"\>", "\<\"\"\>", "\<\"\"\>"},
+    {"\<\"Parental Education Level\"\>", 
+     "4.5`", "\<\"A scale from 1 to 5, 5 being the highest\"\>"},
+    {"\<\"% English\"\>", "41.25809523809524`", "\<\"\"\>"},
+    {"\<\"Age in Months\"\>", "\<\"14.8387 months\"\>", "\<\"\"\>"},
+    {"\<\"\"\>", "\<\"\"\>", "\<\"\"\>"},
+    {"\<\"Basic Analysis\"\>", "\<\"\"\>", "\<\"\"\>"},
+    {"\<\"Words\"\>", "344", "\<\"Only included legitimate English Words\"\>"},
+    {"\<\"\"\>", "\<\"\"\>", "\<\"\"\>"},
+    {"\<\"Part Of Speech Analysis\"\>", "\<\"\"\>", "\<\"\"\>"},
+    {"\<\"Part Of Speech\"\>", "\<\"Occurance\"\>", "\<\"Frequency\"\>"},
+    {"\<\"Adjective\"\>", "28", "0.08139534883720931`"},
+    {"\<\"Adverb\"\>", "42", "0.12209302325581395`"},
+    {"\<\"Conjunction\"\>", "27", "0.07848837209302326`"},
+    {"\<\"Determiner\"\>", "41", "0.11918604651162791`"},
+    {"\<\"Interjection\"\>", "21", "0.061046511627906974`"},
+    {"\<\"Noun\"\>", "81", "0.23546511627906977`"},
+    {"\<\"Preposition\"\>", "9", "0.02616279069767442`"},
+    {"\<\"Pronoun\"\>", "35", "0.10174418604651163`"},
+    {"\<\"Verb\"\>", "60", "0.1744186046511628`"}
+   },
+   GridBoxAlignment->{
+    "Columns" -> {{Left}}, "ColumnsIndexed" -> {}, "Rows" -> {{Baseline}}, 
+     "RowsIndexed" -> {}},
+   GridBoxSpacings->{"Columns" -> {
+       Offset[0.27999999999999997`], {
+        Offset[2.0999999999999996`]}, 
+       Offset[0.27999999999999997`]}, "ColumnsIndexed" -> {}, "Rows" -> {
+       Offset[0.2], {
+        Offset[0.4]}, 
+       Offset[0.2]}, "RowsIndexed" -> {}}],
+  TableForm[{{"ReferenceCode", "VS001"}, {}, {"Background Information"}, {
+    "Parental Education Level", 4.5, 
+     "A scale from 1 to 5, 5 being the highest"}, {
+    "% English", 41.25809523809524}, {
+    "Age in Months", "14.8387 months"}, {}, {"Basic Analysis"}, {
+    "Words", 344, "Only included legitimate English Words"}, {}, {
+    "Part Of Speech Analysis"}, {
+    "Part Of Speech", "Occurance", "Frequency"}, {
+    "Adjective", 28, 0.08139534883720931}, {
+    "Adverb", 42, 0.12209302325581395`}, {
+    "Conjunction", 27, 0.07848837209302326}, {
+    "Determiner", 41, 0.11918604651162791`}, {
+    "Interjection", 21, 0.061046511627906974`}, {
+    "Noun", 81, 0.23546511627906977`}, {
+    "Preposition", 9, 0.02616279069767442}, {
+    "Pronoun", 35, 0.10174418604651163`}, {
+    "Verb", 60, 0.1744186046511628}}]]], "Output",
+ CellChangeTimes->{{3.649287289284037*^9, 3.649287295146838*^9}, {
+   3.649290202050214*^9, 3.649290231900917*^9}, 3.649290458074834*^9, {
+   3.649290489437976*^9, 3.649290542534896*^9}, {3.6492905960616493`*^9, 
+   3.649290601231737*^9}, 3.649290992722692*^9, {3.6492910292215242`*^9, 
+   3.649291057926772*^9}, {3.64929114936464*^9, 3.649291180443048*^9}, 
+   3.649291272478179*^9, 3.649298989277905*^9, 3.64929903368777*^9, {
+   3.649299068382132*^9, 3.649299083009857*^9}, {3.649299148347497*^9, 
+   3.6492991561504374`*^9}, {3.649299190997755*^9, 3.649299283726111*^9}, 
+   3.6492995072438*^9, 3.649299601225946*^9, 3.6493014205273037`*^9, 
+   3.6493014884422703`*^9, 3.649301891573226*^9, 3.649302002549171*^9, {
+   3.649302259551158*^9, 3.6493022655066633`*^9}, 3.649302711946484*^9, 
+   3.649302805610386*^9, 3.649302873837696*^9, {3.649302951322942*^9, 
+   3.6493030036903477`*^9}, 3.649303047131939*^9, 3.6493030895917673`*^9, 
+   3.649303135000876*^9, 3.6493032226442547`*^9, {3.649303260134429*^9, 
+   3.649303282018622*^9}, {3.649303397588273*^9, 3.649303428673208*^9}, 
+   3.649303734778123*^9, 3.6493037680931396`*^9, {3.64930384504836*^9, 
+   3.64930385524087*^9}, {3.649303982615344*^9, 3.64930398883923*^9}, {
+   3.649304554545643*^9, 3.64930459080054*^9}, {3.649304767360569*^9, 
+   3.649304793490992*^9}, 3.649304997174734*^9, {3.6493050275684433`*^9, 
+   3.6493050794656467`*^9}, {3.649305352475107*^9, 3.649305386741993*^9}, {
+   3.649305873664867*^9, 3.6493058806086197`*^9}, 3.6493060432827044`*^9, {
+   3.6493063074055634`*^9, 3.649306314298379*^9}, {3.649306496456313*^9, 
+   3.649306521249488*^9}, {3.649306902198094*^9, 3.649306910693622*^9}, 
+   3.6494118276650257`*^9, 3.649411967520522*^9, {3.649412238827251*^9, 
+   3.6494122728278646`*^9}, {3.649412325031328*^9, 3.6494123386931458`*^9}}],
+
+Cell[BoxData["\<\"/Users/liyezhou/Google Drive/Mac \
+Sync/NRP/Data/Analysis/Ana_VS001.xlsx\"\>"], "Output",
+ CellChangeTimes->{{3.649287289284037*^9, 3.649287295146838*^9}, {
+   3.649290202050214*^9, 3.649290231900917*^9}, 3.649290458074834*^9, {
+   3.649290489437976*^9, 3.649290542534896*^9}, {3.6492905960616493`*^9, 
+   3.649290601231737*^9}, 3.649290992722692*^9, {3.6492910292215242`*^9, 
+   3.649291057926772*^9}, {3.64929114936464*^9, 3.649291180443048*^9}, 
+   3.649291272478179*^9, 3.649298989277905*^9, 3.64929903368777*^9, {
+   3.649299068382132*^9, 3.649299083009857*^9}, {3.649299148347497*^9, 
+   3.6492991561504374`*^9}, {3.649299190997755*^9, 3.649299283726111*^9}, 
+   3.6492995072438*^9, 3.649299601225946*^9, 3.6493014205273037`*^9, 
+   3.6493014884422703`*^9, 3.649301891573226*^9, 3.649302002549171*^9, {
+   3.649302259551158*^9, 3.6493022655066633`*^9}, 3.649302711946484*^9, 
+   3.649302805610386*^9, 3.649302873837696*^9, {3.649302951322942*^9, 
+   3.6493030036903477`*^9}, 3.649303047131939*^9, 3.6493030895917673`*^9, 
+   3.649303135000876*^9, 3.6493032226442547`*^9, {3.649303260134429*^9, 
+   3.649303282018622*^9}, {3.649303397588273*^9, 3.649303428673208*^9}, 
+   3.649303734778123*^9, 3.6493037680931396`*^9, {3.64930384504836*^9, 
+   3.64930385524087*^9}, {3.649303982615344*^9, 3.64930398883923*^9}, {
+   3.649304554545643*^9, 3.64930459080054*^9}, {3.649304767360569*^9, 
+   3.649304793490992*^9}, 3.649304997174734*^9, {3.6493050275684433`*^9, 
+   3.6493050794656467`*^9}, {3.649305352475107*^9, 3.649305386741993*^9}, {
+   3.649305873664867*^9, 3.6493058806086197`*^9}, 3.6493060432827044`*^9, {
+   3.6493063074055634`*^9, 3.649306314298379*^9}, {3.649306496456313*^9, 
+   3.649306521249488*^9}, {3.649306902198094*^9, 3.649306910693622*^9}, 
+   3.6494118276650257`*^9, 3.649411967520522*^9, {3.649412238827251*^9, 
+   3.6494122728278646`*^9}, {3.649412325031328*^9, 3.649412338730654*^9}}]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{"SystemOpen", "[", 
+  "\"\</Users/liyezhou/Google Drive/Mac Sync/NRP/Data/Analysis/Ana_VS009.xlsx\
+\>\"", "]"}]], "Input",
+ NumberMarks->False],
+
+Cell[BoxData[
+ RowBox[{"SystemOpen", "[", 
+  "\"\</Users/liyezhou/Google Drive/Mac Sync/NRP/Data/Analysis/Ana_VS007.xlsx\
+\>\"", "]"}]], "Input",
+ NumberMarks->False],
+
+Cell[BoxData[
+ RowBox[{"SystemOpen", "[", 
+  "\"\</Users/liyezhou/Google Drive/Mac Sync/NRP/Data/Analysis/Ana_VS007.xlsx\
+\>\"", "]"}]], "Input",
+ NumberMarks->False],
+
+Cell[BoxData[
+ RowBox[{"SystemOpen", "[", 
+  "\"\</Users/liyezhou/Google Drive/Mac Sync/NRP/Data/Analysis/Ana_VS007.xlsx\
+\>\"", "]"}]], "Input",
+ NumberMarks->False],
+
+Cell[BoxData[
+ RowBox[{"SystemOpen", "[", 
+  "\"\</Users/liyezhou/Google Drive/Mac Sync/NRP/Data/Analysis/Ana_VS007.xlsx\
+\>\"", "]"}]], "Input",
+ NumberMarks->False],
+
+Cell[BoxData[
+ RowBox[{"SystemOpen", "[", 
+  "\"\</Users/liyezhou/Google Drive/Mac Sync/NRP/Data/Analysis/Ana_VS007.xlsx\
+\>\"", "]"}]], "Input",
+ NumberMarks->False],
+
+Cell[BoxData[
+ RowBox[{"SystemOpen", "[", 
+  "\"\</Users/liyezhou/Google Drive/Mac Sync/NRP/Data/Analysis/Ana_VS007.xlsx\
+\>\"", "]"}]], "Input",
+ NumberMarks->False],
+
+Cell[BoxData[
+ RowBox[{"SystemOpen", "[", 
+  "\"\</Users/liyezhou/Google Drive/Mac Sync/NRP/Data/Analysis/Ana_VS007.xlsx\
+\>\"", "]"}]], "Input",
+ NumberMarks->False],
+
+Cell[BoxData[
+ RowBox[{"SystemOpen", "[", 
+  "\"\</Users/liyezhou/Google Drive/Mac Sync/NRP/Data/Analysis/Ana_VS007.xlsx\
+\>\"", "]"}]], "Input",
+ NumberMarks->False],
+
+Cell[BoxData[
+ RowBox[{"SystemOpen", "[", 
+  "\"\</Users/liyezhou/Google Drive/Mac Sync/NRP/Data/Analysis/Ana_VS007.xlsx\
+\>\"", "]"}]], "Input",
+ NumberMarks->False],
+
+Cell[BoxData[
+ RowBox[{"SystemOpen", "[", 
+  "\"\</Users/liyezhou/Google Drive/Mac Sync/NRP/Data/Analysis/Ana_VS003.xlsx\
+\>\"", "]"}]], "Input",
+ NumberMarks->False],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"(*", 
+   RowBox[{"Function", " ", "Declaration"}], "*)"}], "\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{
+    RowBox[{
+     RowBox[{"FreqList", "[", "Word_", "]"}], ":=", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{"#", "[", 
+          RowBox[{"[", 
+           RowBox[{"1", ",", "2"}], "]"}], "]"}], "\[Rule]", 
+         RowBox[{"#", "[", 
+          RowBox[{"[", "2", "]"}], "]"}]}], ")"}], "&"}], "/@", 
+      RowBox[{"WordData", "[", 
+       RowBox[{"Word", ",", "\"\<ConceptWeight\>\""}], "]"}]}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"LexiList", "[", "Word_", "]"}], ":=", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"#", "[", 
+        RowBox[{"[", 
+         RowBox[{"1", ",", "1"}], "]"}], "]"}], "&"}], "/@", 
+      RowBox[{"Gather", "[", 
+       RowBox[{
+        RowBox[{"FreqList", "[", "Word", "]"}], ",", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"#1", "[", 
+           RowBox[{"[", "1", "]"}], "]"}], "===", 
+          RowBox[{"#2", "[", 
+           RowBox[{"[", "1", "]"}], "]"}]}], "&"}]}], "]"}]}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"Freq", "[", "Word_", "]"}], ":=", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"Total", "[", 
+        RowBox[{"#", "[", 
+         RowBox[{"[", 
+          RowBox[{";;", ",", "2"}], "]"}], "]"}], "]"}], "&"}], "/@", 
+      RowBox[{"Gather", "[", 
+       RowBox[{
+        RowBox[{"FreqList", "[", "Word", "]"}], ",", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"#1", "[", 
+           RowBox[{"[", "1", "]"}], "]"}], "===", 
+          RowBox[{"#2", "[", 
+           RowBox[{"[", "1", "]"}], "]"}]}], "&"}]}], "]"}]}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"GetMostFrequentPartOfSpeech", "[", "Word_", "]"}], ":=", 
+     RowBox[{"Block", "[", 
+      RowBox[{
+       RowBox[{"{", "}"}], ",", "\[IndentingNewLine]", 
+       RowBox[{"If", "[", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"WordData", "[", "Word", "]"}], "\[NotEqual]", 
+          RowBox[{"{", "}"}]}], ",", "\[IndentingNewLine]", 
+         RowBox[{
+          RowBox[{"LexiList", "[", "Word", "]"}], "[", 
+          RowBox[{"[", 
+           RowBox[{
+            RowBox[{"Ordering", "[", 
+             RowBox[{
+              RowBox[{"Freq", "[", "Word", "]"}], ",", 
+              RowBox[{"-", "1"}]}], "]"}], "[", 
+            RowBox[{"[", "1", "]"}], "]"}], "]"}], "]"}], ",", 
+         "\[IndentingNewLine]", "\"\<Unknown\>\""}], "\[IndentingNewLine]", 
+        "]"}]}], "\[IndentingNewLine]", "]"}]}], ";"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"TransformToPartOfSpeechText", "[", 
+     RowBox[{"Txt_", ",", "ChiName_"}], "]"}], ":=", 
+    RowBox[{"Block", "[", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{
+       "Dat", ",", "Sentence", ",", "Person", ",", "Utter", ",", "Words", ",",
+         "PoS", ",", "PoSwithSpace", ",", "SentenceN", ",", "DataProcessed", 
+        ",", "PersonList", ",", "SentenceD", ",", "ChiPosi", ",", "PersonD"}],
+        "}"}], ",", "\[IndentingNewLine]", 
+      RowBox[{
+       RowBox[{"Dat", "=", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"StringSplit", "[", 
+           RowBox[{"Txt", ",", "\"\<@Start\>\""}], "]"}], "[", 
+          RowBox[{"[", "2", "]"}], "]"}], "//", "StringTrim"}]}], ";", 
+       "\[IndentingNewLine]", 
+       RowBox[{"Sentence", "=", 
+        RowBox[{"StringSplit", "[", 
+         RowBox[{"Dat", ",", "\"\<\\n\>\""}], "]"}]}], ";", 
+       "\[IndentingNewLine]", 
+       RowBox[{"Person", "=", 
+        RowBox[{
+         RowBox[{
+          RowBox[{
+           RowBox[{"StringSplit", "[", 
+            RowBox[{"#", ",", "\"\<:\>\""}], "]"}], "[", 
+           RowBox[{"[", "1", "]"}], "]"}], "&"}], "/@", "Sentence"}]}], ";", 
+       "\[IndentingNewLine]", 
+       RowBox[{"PersonList", "=", 
+        RowBox[{"Tally", "[", "Person", "]"}]}], ";", "\[IndentingNewLine]", 
+       RowBox[{"ChiPosi", "=", 
+        RowBox[{
+         RowBox[{"Reap", "[", 
+          RowBox[{"For", "[", 
+           RowBox[{
+            RowBox[{"i", "=", "1"}], ",", 
+            RowBox[{"i", "\[LessEqual]", 
+             RowBox[{"Length", "[", "Person", "]"}]}], ",", 
+            RowBox[{"i", "++"}], ",", "\[IndentingNewLine]", 
+            RowBox[{"If", "[", 
+             RowBox[{
+              RowBox[{
+               RowBox[{"Person", "[", 
+                RowBox[{"[", "i", "]"}], "]"}], "\[Equal]", "ChiName"}], ",", 
+              
+              RowBox[{"Sow", "[", "i", "]"}]}], "]"}]}], 
+           "\[IndentingNewLine]", "]"}], "\[IndentingNewLine]", "]"}], "[", 
+         RowBox[{"[", 
+          RowBox[{"2", ",", "1"}], "]"}], "]"}]}], ";", "\[IndentingNewLine]", 
+       RowBox[{"SentenceD", "=", 
+        RowBox[{"Delete", "[", 
+         RowBox[{"Sentence", ",", 
+          RowBox[{"List", "/@", "ChiPosi"}]}], "]"}]}], ";", 
+       "\[IndentingNewLine]", 
+       RowBox[{"PersonD", "=", 
+        RowBox[{"Delete", "[", 
+         RowBox[{"Person", ",", 
+          RowBox[{"List", "/@", "ChiPosi"}]}], "]"}]}], ";", 
+       "\[IndentingNewLine]", 
+       RowBox[{"Utter", "=", 
+        RowBox[{
+         RowBox[{
+          RowBox[{
+           RowBox[{"StringSplit", "[", 
+            RowBox[{"#", ",", "\"\<:\>\""}], "]"}], "[", 
+           RowBox[{"[", "2", "]"}], "]"}], "&"}], "/@", "SentenceD"}]}], ";", 
+       "\[IndentingNewLine]", 
+       RowBox[{"Words", "=", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"StringTrim", "[", 
+           RowBox[{
+            RowBox[{"ToLowerCase", "[", 
+             RowBox[{"StringTrim", "[", 
+              RowBox[{"StringSplit", "[", 
+               RowBox[{"#", ",", "\"\< \>\""}], "]"}], "]"}], "]"}], ",", 
+            RowBox[{
+             RowBox[{"(", 
+              RowBox[{
+              "\"\<,\>\"", "|", "\"\<.\>\"", "|", "\"\<(\>\"", "|", 
+               "\"\<)\>\"", "|", "\"\<?\>\"", "|", "\"\<!\>\"", "|", 
+               "\"\<\\\"\>\""}], ")"}], "..."}]}], "]"}], "&"}], "/@", 
+         "Utter"}]}], ";", "\[IndentingNewLine]", 
+       RowBox[{"PoS", "=", 
+        RowBox[{"Map", "[", 
+         RowBox[{"GetMostFrequentPartOfSpeech", ",", "Words", ",", 
+          RowBox[{"{", "2", "}"}]}], "]"}]}], ";", "\[IndentingNewLine]", 
+       RowBox[{"PoSwithSpace", "=", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"Riffle", "[", 
+           RowBox[{"#", ",", "\"\< \>\""}], "]"}], "&"}], "/@", "PoS"}]}], 
+       ";", "\[IndentingNewLine]", 
+       RowBox[{"SentenceN", "=", 
+        RowBox[{"Table", "[", 
+         RowBox[{
+          RowBox[{
+           RowBox[{"PersonD", "[", 
+            RowBox[{"[", "i", "]"}], "]"}], "<>", "\"\<:\\t\>\"", "<>", 
+           RowBox[{"StringJoin", "[", 
+            RowBox[{"PoSwithSpace", "[", 
+             RowBox[{"[", "i", "]"}], "]"}], "]"}]}], ",", 
+          RowBox[{"{", 
+           RowBox[{"i", ",", "1", ",", 
+            RowBox[{"Length", "[", "PoSwithSpace", "]"}]}], "}"}]}], "]"}]}], 
+       ";", "\[IndentingNewLine]", 
+       RowBox[{"DataProcessed", "=", 
+        RowBox[{"StringJoin", "[", 
+         RowBox[{"Riffle", "[", 
+          RowBox[{"SentenceN", ",", "\"\<\\n\>\""}], "]"}], "]"}]}]}]}], 
+     "\[IndentingNewLine]", "]"}]}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"TrimmedText", "[", 
+     RowBox[{"Txt_", ",", "ChiName_"}], "]"}], ":=", 
+    RowBox[{"Block", "[", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{
+       "Dat", ",", "Sentence", ",", "Person", ",", "Utter", ",", "Words", ",",
+         "WordsWithSpace", ",", "SentenceN", ",", "DataProcessed", ",", 
+        "PersonList", ",", "SentenceD", ",", "ChiPosi", ",", "PersonD"}], 
+       "}"}], ",", "\[IndentingNewLine]", 
+      RowBox[{
+       RowBox[{"Dat", "=", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"StringSplit", "[", 
+           RowBox[{"Txt", ",", "\"\<@Start\>\""}], "]"}], "[", 
+          RowBox[{"[", "2", "]"}], "]"}], "//", "StringTrim"}]}], ";", 
+       "\[IndentingNewLine]", 
+       RowBox[{"Sentence", "=", 
+        RowBox[{"StringSplit", "[", 
+         RowBox[{"Dat", ",", "\"\<\\n\>\""}], "]"}]}], ";", 
+       "\[IndentingNewLine]", 
+       RowBox[{"Person", "=", 
+        RowBox[{
+         RowBox[{
+          RowBox[{
+           RowBox[{"StringSplit", "[", 
+            RowBox[{"#", ",", "\"\<:\>\""}], "]"}], "[", 
+           RowBox[{"[", "1", "]"}], "]"}], "&"}], "/@", "Sentence"}]}], ";", 
+       "\[IndentingNewLine]", 
+       RowBox[{"PersonList", "=", 
+        RowBox[{"Tally", "[", "Person", "]"}]}], ";", "\[IndentingNewLine]", 
+       RowBox[{"ChiPosi", "=", 
+        RowBox[{
+         RowBox[{"Reap", "[", 
+          RowBox[{"For", "[", 
+           RowBox[{
+            RowBox[{"i", "=", "1"}], ",", 
+            RowBox[{"i", "\[LessEqual]", 
+             RowBox[{"Length", "[", "Person", "]"}]}], ",", 
+            RowBox[{"i", "++"}], ",", "\[IndentingNewLine]", 
+            RowBox[{"If", "[", 
+             RowBox[{
+              RowBox[{
+               RowBox[{"Person", "[", 
+                RowBox[{"[", "i", "]"}], "]"}], "\[Equal]", "ChiName"}], ",", 
+              
+              RowBox[{"Sow", "[", "i", "]"}]}], "]"}]}], 
+           "\[IndentingNewLine]", "]"}], "\[IndentingNewLine]", "]"}], "[", 
+         RowBox[{"[", 
+          RowBox[{"2", ",", "1"}], "]"}], "]"}]}], ";", "\[IndentingNewLine]", 
+       RowBox[{"SentenceD", "=", 
+        RowBox[{"Delete", "[", 
+         RowBox[{"Sentence", ",", 
+          RowBox[{"List", "/@", "ChiPosi"}]}], "]"}]}], ";", 
+       "\[IndentingNewLine]", 
+       RowBox[{"PersonD", "=", 
+        RowBox[{"Delete", "[", 
+         RowBox[{"Person", ",", 
+          RowBox[{"List", "/@", "ChiPosi"}]}], "]"}]}], ";", 
+       "\[IndentingNewLine]", 
+       RowBox[{"Utter", "=", 
+        RowBox[{
+         RowBox[{
+          RowBox[{
+           RowBox[{"StringSplit", "[", 
+            RowBox[{"#", ",", "\"\<:\>\""}], "]"}], "[", 
+           RowBox[{"[", "2", "]"}], "]"}], "&"}], "/@", "SentenceD"}]}], ";", 
+       "\[IndentingNewLine]", 
+       RowBox[{"Words", "=", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"StringTrim", "[", 
+           RowBox[{
+            RowBox[{"ToLowerCase", "[", 
+             RowBox[{"StringTrim", "[", 
+              RowBox[{"StringSplit", "[", 
+               RowBox[{"#", ",", "\"\< \>\""}], "]"}], "]"}], "]"}], ",", 
+            RowBox[{
+             RowBox[{"(", 
+              RowBox[{
+              "\"\<,\>\"", "|", "\"\<.\>\"", "|", "\"\<(\>\"", "|", 
+               "\"\<)\>\"", "|", "\"\<?\>\"", "|", "\"\<!\>\"", "|", 
+               "\"\<\\\"\>\""}], ")"}], "..."}]}], "]"}], "&"}], "/@", 
+         "Utter"}]}], ";", "\[IndentingNewLine]", 
+       RowBox[{"WordsWithSpace", "=", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"Riffle", "[", 
+           RowBox[{"#", ",", "\"\< \>\""}], "]"}], "&"}], "/@", "Words"}]}], 
+       ";", "\[IndentingNewLine]", 
+       RowBox[{"SentenceN", "=", 
+        RowBox[{"Table", "[", 
+         RowBox[{
+          RowBox[{
+           RowBox[{"PersonD", "[", 
+            RowBox[{"[", "i", "]"}], "]"}], "<>", "\"\<:\\t\>\"", "<>", 
+           RowBox[{"StringJoin", "[", 
+            RowBox[{"WordsWithSpace", "[", 
+             RowBox[{"[", "i", "]"}], "]"}], "]"}]}], ",", 
+          RowBox[{"{", 
+           RowBox[{"i", ",", "1", ",", 
+            RowBox[{"Length", "[", "WordsWithSpace", "]"}]}], "}"}]}], 
+         "]"}]}], ";", "\[IndentingNewLine]", 
+       RowBox[{"DataProcessed", "=", 
+        RowBox[{"StringJoin", "[", 
+         RowBox[{"Riffle", "[", 
+          RowBox[{"SentenceN", ",", "\"\<\\n\>\""}], "]"}], "]"}]}]}]}], 
+     "\[IndentingNewLine]", "]"}]}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"PartOfSpeechFreq", "[", 
+     RowBox[{"Txt_", ",", "ChiName_"}], "]"}], ":=", 
+    RowBox[{"Block", "[", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{
+       "Dat", ",", "Sentence", ",", "Person", ",", "Utter", ",", "Words", ",",
+         "PoS", ",", "PoSwithSpace", ",", "SentenceN", ",", "DataProcessed", 
+        ",", "PersonList", ",", "SentenceD", ",", "ChiPosi", ",", "PersonD", 
+        ",", "WordList", ",", "FreqCount", ",", "NoW", ",", "AugFreqCount", 
+        ",", "AugFreqCountSorted"}], "}"}], ",", "\[IndentingNewLine]", 
+      RowBox[{
+       RowBox[{"Dat", "=", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"StringSplit", "[", 
+           RowBox[{"Txt", ",", "\"\<@Start\>\""}], "]"}], "[", 
+          RowBox[{"[", "2", "]"}], "]"}], "//", "StringTrim"}]}], ";", 
+       "\[IndentingNewLine]", 
+       RowBox[{"Sentence", "=", 
+        RowBox[{"StringSplit", "[", 
+         RowBox[{"Dat", ",", "\"\<\\n\>\""}], "]"}]}], ";", 
+       "\[IndentingNewLine]", 
+       RowBox[{"Person", "=", 
+        RowBox[{
+         RowBox[{
+          RowBox[{
+           RowBox[{"StringSplit", "[", 
+            RowBox[{"#", ",", "\"\<:\>\""}], "]"}], "[", 
+           RowBox[{"[", "1", "]"}], "]"}], "&"}], "/@", "Sentence"}]}], ";", 
+       "\[IndentingNewLine]", 
+       RowBox[{"PersonList", "=", 
+        RowBox[{"Tally", "[", "Person", "]"}]}], ";", "\[IndentingNewLine]", 
+       RowBox[{"ChiPosi", "=", 
+        RowBox[{
+         RowBox[{"Reap", "[", 
+          RowBox[{"For", "[", 
+           RowBox[{
+            RowBox[{"i", "=", "1"}], ",", 
+            RowBox[{"i", "\[LessEqual]", 
+             RowBox[{"Length", "[", "Person", "]"}]}], ",", 
+            RowBox[{"i", "++"}], ",", "\[IndentingNewLine]", 
+            RowBox[{"If", "[", 
+             RowBox[{
+              RowBox[{
+               RowBox[{"Person", "[", 
+                RowBox[{"[", "i", "]"}], "]"}], "\[Equal]", "ChiName"}], ",", 
+              
+              RowBox[{"Sow", "[", "i", "]"}]}], "]"}]}], 
+           "\[IndentingNewLine]", "]"}], "\[IndentingNewLine]", "]"}], "[", 
+         RowBox[{"[", 
+          RowBox[{"2", ",", "1"}], "]"}], "]"}]}], ";", "\[IndentingNewLine]", 
+       RowBox[{"SentenceD", "=", 
+        RowBox[{"Delete", "[", 
+         RowBox[{"Sentence", ",", 
+          RowBox[{"List", "/@", "ChiPosi"}]}], "]"}]}], ";", 
+       "\[IndentingNewLine]", 
+       RowBox[{"PersonD", "=", 
+        RowBox[{"Delete", "[", 
+         RowBox[{"Person", ",", 
+          RowBox[{"List", "/@", "ChiPosi"}]}], "]"}]}], ";", 
+       "\[IndentingNewLine]", 
+       RowBox[{"Utter", "=", 
+        RowBox[{
+         RowBox[{
+          RowBox[{
+           RowBox[{"StringSplit", "[", 
+            RowBox[{"#", ",", "\"\<:\>\""}], "]"}], "[", 
+           RowBox[{"[", "2", "]"}], "]"}], "&"}], "/@", "SentenceD"}]}], ";", 
+       "\[IndentingNewLine]", 
+       RowBox[{"Words", "=", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"StringTrim", "[", 
+           RowBox[{
+            RowBox[{"ToLowerCase", "[", 
+             RowBox[{"StringTrim", "[", 
+              RowBox[{"StringSplit", "[", 
+               RowBox[{"#", ",", "\"\< \>\""}], "]"}], "]"}], "]"}], ",", 
+            RowBox[{
+             RowBox[{"(", 
+              RowBox[{
+              "\"\<,\>\"", "|", "\"\<.\>\"", "|", "\"\<(\>\"", "|", 
+               "\"\<)\>\"", "|", "\"\<?\>\"", "|", "\"\<!\>\"", "|", 
+               "\"\<\\\"\>\""}], ")"}], "..."}]}], "]"}], "&"}], "/@", 
+         "Utter"}]}], ";", "\[IndentingNewLine]", 
+       RowBox[{"PoS", "=", 
+        RowBox[{"Map", "[", 
+         RowBox[{"GetMostFrequentPartOfSpeech", ",", "Words", ",", 
+          RowBox[{"{", "2", "}"}]}], "]"}]}], ";", "\[IndentingNewLine]", 
+       RowBox[{"WordList", "=", 
+        RowBox[{"DeleteCases", "[", 
+         RowBox[{
+          RowBox[{"Flatten", "[", "PoS", "]"}], ",", "\"\<Unknown\>\""}], 
+         "]"}]}], ";", "\[IndentingNewLine]", 
+       RowBox[{"FreqCount", "=", 
+        RowBox[{"Tally", "[", "WordList", "]"}]}], ";", "\[IndentingNewLine]", 
+       RowBox[{"NoW", "=", 
+        RowBox[{"Length", "[", "WordList", "]"}]}], ";", 
+       "\[IndentingNewLine]", 
+       RowBox[{"AugFreqCount", "=", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{"#1", ",", "#2", ",", 
+            RowBox[{
+             FractionBox["#2", "NoW"], "//", "N"}]}], "}"}], "&"}], "@@@", 
+         "FreqCount"}]}], ";", "\[IndentingNewLine]", 
+       RowBox[{"AugFreqCountSorted", "=", 
+        RowBox[{"SortBy", "[", 
+         RowBox[{"AugFreqCount", ",", "First"}], "]"}]}]}]}], 
+     "\[IndentingNewLine]", "]"}]}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"NumberOfWords", "[", 
+     RowBox[{"Txt_", ",", "ChiName_"}], "]"}], ":=", 
+    RowBox[{"Block", "[", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{
+       "Dat", ",", "Sentence", ",", "Person", ",", "Utter", ",", "Words", ",",
+         "PoS", ",", "PoSwithSpace", ",", "SentenceN", ",", "DataProcessed", 
+        ",", "PersonList", ",", "SentenceD", ",", "ChiPosi", ",", "PersonD", 
+        ",", "WordList", ",", "FreqCount", ",", "NoW", ",", "AugFreqCount"}], 
+       "}"}], ",", "\[IndentingNewLine]", 
+      RowBox[{
+       RowBox[{"Dat", "=", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"StringSplit", "[", 
+           RowBox[{"Txt", ",", "\"\<@Start\>\""}], "]"}], "[", 
+          RowBox[{"[", "2", "]"}], "]"}], "//", "StringTrim"}]}], ";", 
+       "\[IndentingNewLine]", 
+       RowBox[{"Sentence", "=", 
+        RowBox[{"StringSplit", "[", 
+         RowBox[{"Dat", ",", "\"\<\\n\>\""}], "]"}]}], ";", 
+       "\[IndentingNewLine]", 
+       RowBox[{"Person", "=", 
+        RowBox[{
+         RowBox[{
+          RowBox[{
+           RowBox[{"StringSplit", "[", 
+            RowBox[{"#", ",", "\"\<:\>\""}], "]"}], "[", 
+           RowBox[{"[", "1", "]"}], "]"}], "&"}], "/@", "Sentence"}]}], ";", 
+       "\[IndentingNewLine]", 
+       RowBox[{"PersonList", "=", 
+        RowBox[{"Tally", "[", "Person", "]"}]}], ";", "\[IndentingNewLine]", 
+       RowBox[{"ChiPosi", "=", 
+        RowBox[{
+         RowBox[{"Reap", "[", 
+          RowBox[{"For", "[", 
+           RowBox[{
+            RowBox[{"i", "=", "1"}], ",", 
+            RowBox[{"i", "\[LessEqual]", 
+             RowBox[{"Length", "[", "Person", "]"}]}], ",", 
+            RowBox[{"i", "++"}], ",", "\[IndentingNewLine]", 
+            RowBox[{"If", "[", 
+             RowBox[{
+              RowBox[{
+               RowBox[{"Person", "[", 
+                RowBox[{"[", "i", "]"}], "]"}], "\[Equal]", "ChiName"}], ",", 
+              
+              RowBox[{"Sow", "[", "i", "]"}]}], "]"}]}], 
+           "\[IndentingNewLine]", "]"}], "\[IndentingNewLine]", "]"}], "[", 
+         RowBox[{"[", 
+          RowBox[{"2", ",", "1"}], "]"}], "]"}]}], ";", "\[IndentingNewLine]", 
+       RowBox[{"SentenceD", "=", 
+        RowBox[{"Delete", "[", 
+         RowBox[{"Sentence", ",", 
+          RowBox[{"List", "/@", "ChiPosi"}]}], "]"}]}], ";", 
+       "\[IndentingNewLine]", 
+       RowBox[{"PersonD", "=", 
+        RowBox[{"Delete", "[", 
+         RowBox[{"Person", ",", 
+          RowBox[{"List", "/@", "ChiPosi"}]}], "]"}]}], ";", 
+       "\[IndentingNewLine]", 
+       RowBox[{"Utter", "=", 
+        RowBox[{
+         RowBox[{
+          RowBox[{
+           RowBox[{"StringSplit", "[", 
+            RowBox[{"#", ",", "\"\<:\>\""}], "]"}], "[", 
+           RowBox[{"[", "2", "]"}], "]"}], "&"}], "/@", "SentenceD"}]}], ";", 
+       "\[IndentingNewLine]", 
+       RowBox[{"Words", "=", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"StringTrim", "[", 
+           RowBox[{
+            RowBox[{"ToLowerCase", "[", 
+             RowBox[{"StringTrim", "[", 
+              RowBox[{"StringSplit", "[", 
+               RowBox[{"#", ",", "\"\< \>\""}], "]"}], "]"}], "]"}], ",", 
+            RowBox[{
+             RowBox[{"(", 
+              RowBox[{
+              "\"\<,\>\"", "|", "\"\<.\>\"", "|", "\"\<(\>\"", "|", 
+               "\"\<)\>\"", "|", "\"\<?\>\"", "|", "\"\<!\>\"", "|", 
+               "\"\<\\\"\>\""}], ")"}], "..."}]}], "]"}], "&"}], "/@", 
+         "Utter"}]}], ";", "\[IndentingNewLine]", 
+       RowBox[{"PoS", "=", 
+        RowBox[{"Map", "[", 
+         RowBox[{"GetMostFrequentPartOfSpeech", ",", "Words", ",", 
+          RowBox[{"{", "2", "}"}]}], "]"}]}], ";", "\[IndentingNewLine]", 
+       RowBox[{"WordList", "=", 
+        RowBox[{"DeleteCases", "[", 
+         RowBox[{
+          RowBox[{"Flatten", "[", "PoS", "]"}], ",", "\"\<Unknown\>\""}], 
+         "]"}]}], ";", "\[IndentingNewLine]", 
+       RowBox[{"NoW", "=", 
+        RowBox[{"Length", "[", "WordList", "]"}]}]}]}], "\[IndentingNewLine]",
+      "]"}]}]}]}]], "Input",
+ CellChangeTimes->{{3.649300947595045*^9, 3.649300967431388*^9}, {
+   3.649301108095673*^9, 3.649301158334478*^9}, {3.649301233324437*^9, 
+   3.649301248426824*^9}, {3.649301283274119*^9, 3.649301286249218*^9}, {
+   3.649303085778515*^9, 3.6493030869371634`*^9}, {3.649303525667985*^9, 
+   3.649303548708844*^9}, {3.649303579816987*^9, 3.649303631298245*^9}, 
+   3.649303763284567*^9, {3.6493045340833073`*^9, 3.649304550768528*^9}, {
+   3.649304780633574*^9, 3.649304781105845*^9}, {3.6493061475162497`*^9, 
+   3.649306166884363*^9}, {3.649306203476027*^9, 3.6493062087074223`*^9}, {
+   3.6493062528901253`*^9, 3.649306274601863*^9}}]
+},
+WindowSize->{808, 677},
+WindowMargins->{{201, Automatic}, {38, Automatic}},
+FrontEndVersion->"10.0 for Mac OS X x86 (32-bit, 64-bit Kernel) (June 27, \
+2014)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 11096, 271, 930, "Input"],
+Cell[11679, 295, 4376, 76, 378, "Output"],
+Cell[16058, 373, 1927, 26, 28, "Output"]
+}, Open  ]],
+Cell[18000, 402, 166, 4, 28, "Input"],
+Cell[18169, 408, 166, 4, 28, "Input"],
+Cell[18338, 414, 166, 4, 28, "Input"],
+Cell[18507, 420, 166, 4, 28, "Input"],
+Cell[18676, 426, 166, 4, 28, "Input"],
+Cell[18845, 432, 166, 4, 28, "Input"],
+Cell[19014, 438, 166, 4, 28, "Input"],
+Cell[19183, 444, 166, 4, 28, "Input"],
+Cell[19352, 450, 166, 4, 28, "Input"],
+Cell[19521, 456, 166, 4, 28, "Input"],
+Cell[19690, 462, 166, 4, 28, "Input"],
+Cell[19859, 468, 21068, 523, 1794, "Input"]
+}
+]
+*)
+
+(* End of internal cache information *)

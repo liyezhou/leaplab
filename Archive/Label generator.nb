@@ -1,0 +1,138 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 10.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      4842,        128]
+NotebookOptionsPosition[      4522,        112]
+NotebookOutlinePosition[      4869,        127]
+CellTagsIndexPosition[      4826,        124]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"Data", "=", 
+   RowBox[{
+    RowBox[{"Excel", "[", "\"\<A2:F25\>\"", "]"}], "//", "Transpose"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"Data", "=", 
+   RowBox[{
+    RowBox[{"Data", "[", 
+     RowBox[{"[", 
+      RowBox[{"{", 
+       RowBox[{"1", ",", "3", ",", "5", ",", "6"}], "}"}], "]"}], "]"}], "//",
+     "Transpose"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{"Output", "=", 
+  RowBox[{
+   RowBox[{"Table", "[", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"Data", "[", 
+       RowBox[{"[", 
+        RowBox[{"i", ",", "1"}], "]"}], "]"}], "<>", "\"\<, \>\"", "<>", 
+      RowBox[{"Data", "[", 
+       RowBox[{"[", 
+        RowBox[{"i", ",", "2"}], "]"}], "]"}], "<>", "\"\<\\n#\>\"", "<>", 
+      RowBox[{"Data", "[", 
+       RowBox[{"[", 
+        RowBox[{"i", ",", "3"}], "]"}], "]"}], "<>", "\"\<\\nSingapore \>\"", 
+      "<>", 
+      RowBox[{"ToString", "[", 
+       RowBox[{
+        RowBox[{"Data", "[", 
+         RowBox[{"[", 
+          RowBox[{"i", ",", "4"}], "]"}], "]"}], "//", "Round"}], "]"}], 
+      "<>", "\"\<\\n\>\""}], ",", 
+     RowBox[{"{", 
+      RowBox[{"i", ",", "1", ",", "24"}], "}"}]}], "]"}], "//", 
+   "TableForm"}]}]}], "Input",
+ CellChangeTimes->{{3.6519887800555444`*^9, 3.651989058973042*^9}, {
+  3.651989368878686*^9, 3.6519893910633907`*^9}}],
+
+Cell[BoxData[
+ TagBox[
+  TagBox[GridBox[{
+     {"\<\"Blk 260, Boon Lay Drive \\n#01-527\\nSingapore 640260\\n\"\>"},
+     {"\<\"Blk 207, Boon Lay Place \\n#01-235/237\\nSingapore 640207\\n\"\>"},
+     {"\<\"Blk 190, Boon Lay Dr \\n#01-224/226\\nSingapore 640190\\n\"\>"},
+     {"\<\"Blk 223A, Jurong East Street 21 \\n#01-847\\nSingapore 601223\\n\"\
+\>"},
+     {"\<\"Blk 282, Toh Guan Road \\n#01-231\\nSingapore 600282\\n\"\>"},
+     {"\<\"Blk 337B, Tah Ching Road \\n#01-51\\nSingapore 612337\\n\"\>"},
+     {"\<\"Blk 359, Yung An Road\\n#01-79\\nSingapore 610359\\n\"\>"},
+     {"\<\"Blk 531, Bukit Batok St 51 \\n#01-122\\nSingapore 650531\\n\"\>"},
+     {"\<\"Blk 386, Bukit Batok West Ave 5 \\n#01-360\\nSingapore 650386\\n\"\
+\>"},
+     {"\<\"Blk 225, Bukit Batok Central \\n#01-87\\nSingapore 650225\\n\"\>"},
+     {"\<\"Blk 104, Bukit Batok Central \\n#01-283\\nSingapore 650104\\n\"\>"},
+     {"\<\"Blk 656B, Jurong West St 61 \\n#01-311\\nSingapore 642656\\n\"\>"},
+     {"\<\"Blk 625, Jurong West St 61 \\n#01-161\\nSingapore 640625\\n\"\>"},
+     {"\<\"Blk 682A, Jurong West Central 1 \\n#01-104\\nSingapore 641682\\n\"\
+\>"},
+     {"\<\"Blk 549, Jurong West St 42 \\n#01-215\\nSingapore 640549\\n\"\>"},
+     {"\<\"Blk 513, Jurong West St 52 \\n#01-59\\nSingapore 640513\\n\"\>"},
+     {"\<\"Blk 420A, Clementi Ave 1 \\n#02-02\\nSingapore 121420\\n\"\>"},
+     {"\<\"Blk 608, Clementi West St 1 \\n#01-89\\nSingapore 120608\\n\"\>"},
+     {"\<\"Blk 20, Teban Gardens Road \\n#01-107\\nSingapore 600020\\n\"\>"},
+     {"\<\"Blk 25, Teban Garden Road \\n#01-181\\nSingapore 600025\\n\"\>"},
+     {"\<\"Blk 410, Pandan Garden \\n#01-72\\nSingapore 600410\\n\"\>"},
+     {"\<\"Blk 9 , Holland Ave \\n#01-38/40\\nSingapore 272009\\n\"\>"},
+     {"\<\"Blk 18, Holland Dr \\n#01-02\\nSingapore 271018\\n\"\>"},
+     {"\<\"Blk 118, Commonwealth Crescent \\n#01-23\\nSingapore 140118\\n\"\>"}
+    },
+    GridBoxAlignment->{
+     "Columns" -> {{Left}}, "ColumnsIndexed" -> {}, "Rows" -> {{Baseline}}, 
+      "RowsIndexed" -> {}},
+    GridBoxSpacings->{"Columns" -> {
+        Offset[0.27999999999999997`], {
+         Offset[0.5599999999999999]}, 
+        Offset[0.27999999999999997`]}, "ColumnsIndexed" -> {}, "Rows" -> {
+        Offset[0.2], {
+         Offset[0.4]}, 
+        Offset[0.2]}, "RowsIndexed" -> {}}],
+   Column],
+  Function[BoxForm`e$, 
+   TableForm[BoxForm`e$]]]], "Output",
+ CellChangeTimes->{{3.6519887980127773`*^9, 3.6519888218361053`*^9}, 
+   3.651988936568842*^9, {3.6519889869457808`*^9, 3.6519890592370996`*^9}, {
+   3.6519893698298817`*^9, 3.651989391796646*^9}}]
+}, Open  ]]
+},
+WindowSize->{767, 738},
+WindowMargins->{{Automatic, 124}, {Automatic, 28}},
+FrontEndVersion->"10.0 for Microsoft Windows (64-bit) (September 9, 2014)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 1333, 39, 132, "Input"],
+Cell[1916, 63, 2590, 46, 2027, "Output"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+

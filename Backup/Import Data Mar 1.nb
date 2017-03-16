@@ -1,0 +1,2893 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[    114850,       2885]
+NotebookOptionsPosition[    110208,       2766]
+NotebookOutlinePosition[    110569,       2782]
+CellTagsIndexPosition[    110526,       2779]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"(*", " ", 
+   RowBox[{
+    RowBox[{
+    "This", " ", "script", " ", "is", " ", "written", " ", "for", " ", 
+     "inputting", " ", "and", " ", "formating", " ", "transcripts", " ", "of",
+      " ", "a", " ", "parent", " ", "narrating", " ", "a", " ", "story", " ", 
+     "to", " ", "a", " ", 
+     RowBox[{"child", ".", "\[IndentingNewLine]", "For"}], " ", "format", " ",
+      "of", " ", "the", " ", "transcripts"}], ",", " ", 
+    RowBox[{
+    "refer", " ", "to", " ", "the", " ", "instruction", " ", "document", " ", 
+     "in", " ", "the", " ", 
+     RowBox[{
+     "dropbox", ".", "\[IndentingNewLine]", "\[IndentingNewLine]", "Yezhou", 
+      ".", "\[IndentingNewLine]", "January"}]}], ",", " ", "2017."}], 
+   "\[IndentingNewLine]", "*)"}], "\[IndentingNewLine]", 
+  RowBox[{"(*", 
+   RowBox[{
+   "Save", " ", "A", " ", "Backup", " ", "On", " ", "Each", " ", 
+    "Execution"}], "*)"}], "\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"Export", "[", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"NotebookFileName", "[", "]"}], "<>", "\"\<.backup.nb\>\""}], 
+      ",", 
+      RowBox[{"EvaluationNotebook", "[", "]"}]}], "]"}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{"(*", "Clearing", "*)"}], "\[IndentingNewLine]", 
+   RowBox[{"Clear", "[", "\"\<Global`*\>\"", "]"}], "\[IndentingNewLine]", 
+   RowBox[{"<<", "Init.m"}], "\[IndentingNewLine]", 
+   RowBox[{"(*", "Switches", "*)"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"debugLevel", "=", "2"}], ";"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"exportLog", "=", "True"}], ";"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"printLogOnScreen", "=", "False"}], ";"}], "\[IndentingNewLine]", 
+   
+   RowBox[{
+    RowBox[{"standardExportName", "=", "False"}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"applyLooseSyntax", "=", "True"}], ";"}], "\[IndentingNewLine]", 
+   RowBox[{"(*", "Constants", "*)"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"VSTOTAL", "=", "300"}], ";"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"MAXERROR", "=", "99"}], ";"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"VERSIONNUMBER", "=", "\"\<4.1\>\""}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"RELEASEDATE", "=", "\"\<Mar 3, 2017\>\""}], ";"}], "\n", 
+   RowBox[{"(*", 
+    RowBox[{"Setting", " ", "Up", " ", "the", " ", "Data", " ", "Structure"}],
+     "*)"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"NoError", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "MAXERROR"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"importList", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"importListMatcher", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"transcriptFilesPrint", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"inverseVS", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"transcripts", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"transcriptLines", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"preamblesRequiredCheck", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"preamblesRequiredCheckSum", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"transcriptCommands", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"commandsRequiredCheck", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"emptyLineCheck", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"correctLineEndingCheck", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"multipleLineEndingCheck", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"participantLabelCheck", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"preambleLines", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"utteranceLines", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"derivativeLines", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"transcriptLineParticipants", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"transcriptUniqueParticipants", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"transcriptUniqueNonChildParticipants", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"participantNumberCheck", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"UniqueNonChildParticipantCheck", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"transcriptWords", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"transcriptUtterances", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"unidentifiedSequencesCheck", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"nonEmptyUtteranceLines", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"nonChildParticipantUtteranceLines", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"nonEmptyNonChildParticipantUtteranceLines", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"errorLogs", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"transcriptFileBaseNames", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{"(*", 
+    RowBox[{"Search", " ", "for", " ", "the", " ", "files"}], "*)"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"Dir", "=", 
+     RowBox[{"SetCurrentNoteBookAsDirectory", "[", "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"importListFile", "=", "\"\<Import List.csv\>\""}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"transcriptFolder", "=", 
+     RowBox[{"FileNameJoin", "[", 
+      RowBox[{"{", 
+       RowBox[{"\"\<Data\>\"", ",", "\"\<Transcripts\>\""}], "}"}], "]"}]}], 
+    ";"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"errorLogsFolder", "=", 
+     RowBox[{"FileNameJoin", "[", 
+      RowBox[{"{", 
+       RowBox[{"\"\<Export\>\"", ",", "\"\<Error Logs\>\""}], "}"}], "]"}]}], 
+    ";"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"importListRaw", "=", 
+     RowBox[{"Sort", "[", 
+      RowBox[{"Flatten", "[", 
+       RowBox[{"Import", "[", "importListFile", "]"}], "]"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"VS", "=", 
+     RowBox[{"ToExpression", "[", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"StringReplace", "[", 
+         RowBox[{"#", ",", 
+          RowBox[{"\"\<VS\>\"", "\[Rule]", "\"\<\>\""}]}], "]"}], "&"}], "/@",
+        "importListRaw"}], "]"}]}], ";", 
+    RowBox[{"(*", 
+     RowBox[{"The", " ", "list", " ", "of", " ", "VS", " ", "Numbers"}], 
+     "*)"}], "\[IndentingNewLine]", 
+    RowBox[{
+     RowBox[{"importList", "[", 
+      RowBox[{"[", "VS", "]"}], "]"}], "=", "importListRaw"}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"importListMatcher", "[", 
+      RowBox[{"[", "VS", "]"}], "]"}], "=", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"ToExpression", "[", 
+        RowBox[{"\"\<___~~\\\"\>\"", "<>", "#", "<>", "\"\<\\\"~~___\>\""}], 
+        "]"}], "&"}], "/@", 
+      RowBox[{"importList", "[", 
+       RowBox[{"[", "VS", "]"}], "]"}]}]}], ";"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"NoVS", "=", 
+     RowBox[{"Length", "[", "importListRaw", "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"transcriptFiles", "=", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"FileNames", "[", 
+        RowBox[{"#", ",", "transcriptFolder"}], "]"}], "&"}], "/@", 
+      "importListMatcher"}]}], ";"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"transcriptFiles", "[", 
+      RowBox[{"[", "VS", "]"}], "]"}], "=", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{"First", "[", 
+        RowBox[{
+         RowBox[{"SortBy", "[", 
+          RowBox[{
+           RowBox[{"transcriptFiles", "[", 
+            RowBox[{"[", "n", "]"}], "]"}], ",", 
+           RowBox[{
+            RowBox[{
+             RowBox[{"StringPosition", "[", 
+              RowBox[{
+               RowBox[{"FileNameTake", "[", "#", "]"}], ",", 
+               RowBox[{"IntegerString", "[", 
+                RowBox[{"n", ",", "10", ",", "3"}], "]"}]}], "]"}], "[", 
+             RowBox[{"[", 
+              RowBox[{"1", ",", "1"}], "]"}], "]"}], "&"}]}], "]"}], ",", 
+         "\"\<Error\>\""}], "]"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"n", ",", "VS"}], "}"}]}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"transcriptFilesPrint", "=", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"StringReplace", "[", 
+        RowBox[{
+         RowBox[{"ToString", "[", "#", "]"}], ",", 
+         RowBox[{"\"\<{}\>\"", "\[Rule]", "\"\<\>\""}]}], "]"}], "&"}], "/@", 
+      "transcriptFiles"}]}], ";"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"transcriptFileBaseNames", "[", 
+      RowBox[{"[", "VS", "]"}], "]"}], "=", 
+     RowBox[{"FileBaseName", "/@", 
+      RowBox[{"transcriptFiles", "[", 
+       RowBox[{"[", "VS", "]"}], "]"}]}]}], ";"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"inverseVS", "[", 
+      RowBox[{"[", "VS", "]"}], "]"}], "=", 
+     RowBox[{"Range", "[", 
+      RowBox[{"Length", "[", "VS", "]"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{"(*", 
+    RowBox[{"Import", " ", "the", " ", "text", " ", "files"}], "*)"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"transcripts", "[", 
+      RowBox[{"[", "VS", "]"}], "]"}], "=", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{"Import", "[", 
+        RowBox[{
+         RowBox[{"transcriptFiles", "[", 
+          RowBox[{"[", "n", "]"}], "]"}], ",", "\"\<Text\>\""}], "]"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"n", ",", "VS"}], "}"}]}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{"(*", 
+    RowBox[{"Get", " ", "the", " ", "Lines"}], "*)"}], "\[IndentingNewLine]", 
+   
+   RowBox[{
+    RowBox[{
+     RowBox[{"transcriptLines", "[", 
+      RowBox[{"[", "VS", "]"}], "]"}], "=", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{"StringSplit", "[", 
+        RowBox[{
+         RowBox[{"transcripts", "[", 
+          RowBox[{"[", "n", "]"}], "]"}], ",", "\"\<\\n\>\""}], "]"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"n", ",", "VS"}], "}"}]}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"transcriptLinesOri", "=", "transcriptLines"}], ";", " ", 
+    RowBox[{"(*", 
+     RowBox[{"Back", " ", "up", " ", "original", " ", "transcripts"}], "*)"}],
+     "\[IndentingNewLine]", 
+    RowBox[{"(*", 
+     RowBox[{"Checking", " ", "Syntax"}], "*)"}], "\[IndentingNewLine]", 
+    RowBox[{"generalErrorLog", "=", "\"\<\>\""}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"log", "[", 
+     RowBox[{"n_", ",", "message_", ",", 
+      RowBox[{"debugLevelThreshold_:", "3"}]}], "]"}], ":=", 
+    RowBox[{"If", "[", 
+     RowBox[{
+      RowBox[{"debugLevel", ">=", "debugLevelThreshold"}], ",", 
+      RowBox[{"Module", "[", 
+       RowBox[{
+        RowBox[{"{", "}"}], ",", "\[IndentingNewLine]", 
+        RowBox[{
+         RowBox[{"If", "[", 
+          RowBox[{"printLogOnScreen", ",", 
+           RowBox[{"Print", "[", "message", "]"}]}], "]"}], ";", 
+         "\[IndentingNewLine]", 
+         RowBox[{"If", "[", 
+          RowBox[{
+           RowBox[{"n", "\[Equal]", 
+            RowBox[{"-", "1"}]}], ",", "\[IndentingNewLine]", 
+           RowBox[{
+            RowBox[{"generalErrorLog", "=", 
+             RowBox[{"generalErrorLog", "<>", 
+              RowBox[{"ToString", "[", "message", "]"}], "<>", 
+              "\"\<\\n\>\""}]}], ";"}], "\[IndentingNewLine]", ",", 
+           "\[IndentingNewLine]", 
+           RowBox[{
+            RowBox[{
+             RowBox[{"errorLogs", "[", 
+              RowBox[{"[", "n", "]"}], "]"}], "=", 
+             RowBox[{
+              RowBox[{"errorLogs", "[", 
+               RowBox[{"[", "n", "]"}], "]"}], "<>", 
+              RowBox[{"ToString", "[", "message", "]"}], "<>", 
+              "\"\<\\n\>\""}]}], ";"}]}], "\[IndentingNewLine]", "]"}], 
+         ";"}]}], "\[IndentingNewLine]", "]"}]}], "\[IndentingNewLine]", 
+     "]"}]}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"abortOrContinue", "[", "theErrorCode_", "]"}], ":=", 
+     RowBox[{"If", "[", 
+      RowBox[{
+       RowBox[{"!", 
+        RowBox[{"NoError", "[", 
+         RowBox[{"[", "theErrorCode", "]"}], "]"}]}], ",", 
+       RowBox[{"Module", "[", 
+        RowBox[{
+         RowBox[{"{", "}"}], ",", 
+         RowBox[{"log", "[", 
+          RowBox[{
+           RowBox[{"-", "1"}], ",", 
+           RowBox[{"Style", "[", 
+            RowBox[{"\"\<Error Found! ABORT!\>\"", ",", "Red"}], "]"}], ",", 
+           "3"}], "]"}]}], 
+        RowBox[{"(*", 
+         RowBox[{"Abort", "[", "]"}], "*)"}], "]"}], ",", 
+       RowBox[{"log", "[", 
+        RowBox[{
+         RowBox[{"-", "1"}], ",", 
+         RowBox[{"Style", "[", 
+          RowBox[{"\"\<No Error! Continue!\>\"", ",", 
+           RowBox[{"Darker", "[", "Green", "]"}]}], "]"}], ",", "3"}], 
+        "]"}]}], "]"}]}], ";"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"printCurrentTask", "[", "taskDescription_", "]"}], ":=", 
+     RowBox[{"log", "[", 
+      RowBox[{
+       RowBox[{"-", "1"}], ",", 
+       RowBox[{"Style", "[", 
+        RowBox[{"taskDescription", ",", "Bold"}], "]"}], ",", "2"}], "]"}]}], 
+    ";"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"errorMessageList", "=", 
+     RowBox[{"{", 
+      RowBox[{
+      "\"\<Error 01: Empty Line\>\"", ",", "\[IndentingNewLine]", 
+       "\"\<Error 02: Unidentified Line Command (Run checker again after \
+rectification to check for further errors)\>\"", ",", "\[IndentingNewLine]", 
+       "\"\<Error 03: Missing Preamble Statements (@statements such as \
+@Begin)\>\"", ",", "\[IndentingNewLine]", 
+       "\"\<Error 04: Wrong / Missing Utterance Ending\>\"", ",", 
+       "\[IndentingNewLine]", "\"\<Error 05: Misplaced Utterance Ending\>\"", 
+       ",", "\[IndentingNewLine]", 
+       "\"\<Error 06: Unidentified Participant Label (*MOT: <tab> structure \
+missing)\>\"", ",", "\[IndentingNewLine]", 
+       "\"\<Error 07: More Than 1 Non-Child Participant\>\"", ",", 
+       "\[IndentingNewLine]", 
+       "\"\<Error 08: Unable to parse due to unidentified String Sequences \
+(Possibly due to preceeding errors)\>\""}], "\[IndentingNewLine]", "}"}]}], 
+    ";"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"printError", "[", 
+     RowBox[{"n_", ",", "ErrorCode_"}], "]"}], ":=", 
+    RowBox[{"Module", "[", 
+     RowBox[{
+      RowBox[{"{", "}"}], ",", "\[IndentingNewLine]", 
+      RowBox[{
+       RowBox[{"log", "[", 
+        RowBox[{"n", ",", 
+         RowBox[{"\"\<(VS\>\"", "<>", 
+          RowBox[{"ToString", "[", "n", "]"}], "<>", "\"\<) \>\"", "<>", 
+          RowBox[{"errorMessageList", "[", 
+           RowBox[{"[", "ErrorCode", "]"}], "]"}]}], ",", "1"}], "]"}], 
+       ";"}]}], "\[IndentingNewLine]", "]"}]}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"printErrorMessage", "[", 
+     RowBox[{"n_", ",", "checkResults_", ",", "theErrorCode_"}], "]"}], ":=", 
+    
+    RowBox[{"Module", "[", 
+     RowBox[{
+      RowBox[{"{", "localCheckResultSum", "}"}], ",", "\[IndentingNewLine]", 
+      RowBox[{
+       RowBox[{"localCheckResultSum", "=", 
+        RowBox[{"And", "@@", 
+         RowBox[{"checkResults", "[", 
+          RowBox[{"[", "n", "]"}], "]"}]}]}], ";", "\[IndentingNewLine]", 
+       RowBox[{
+        RowBox[{"NoError", "[", 
+         RowBox[{"[", "theErrorCode", "]"}], "]"}], "=", "True"}], ";", 
+       "\[IndentingNewLine]", 
+       RowBox[{"If", "[", 
+        RowBox[{
+         RowBox[{"!", "localCheckResultSum"}], ",", "\[IndentingNewLine]", 
+         RowBox[{"Module", "[", 
+          RowBox[{
+           RowBox[{"{", 
+            RowBox[{"localCheckResults", "=", 
+             RowBox[{"checkResults", "[", 
+              RowBox[{"[", "n", "]"}], "]"}]}], "}"}], ",", 
+           "\[IndentingNewLine]", 
+           RowBox[{
+            RowBox[{
+             RowBox[{"NoError", "[", 
+              RowBox[{"[", "theErrorCode", "]"}], "]"}], "=", "False"}], ";", 
+            "\[IndentingNewLine]", 
+            RowBox[{"printError", "[", 
+             RowBox[{"n", ",", "theErrorCode"}], "]"}], ";", 
+            "\[IndentingNewLine]", 
+            RowBox[{"Do", "[", 
+             RowBox[{
+              RowBox[{"If", "[", 
+               RowBox[{
+                RowBox[{"!", 
+                 RowBox[{"localCheckResults", "[", 
+                  RowBox[{"[", "i", "]"}], "]"}]}], ",", 
+                RowBox[{"Module", "[", 
+                 RowBox[{
+                  RowBox[{"{", "}"}], ",", "\[IndentingNewLine]", 
+                  RowBox[{
+                   RowBox[{"log", "[", 
+                    RowBox[{"n", ",", 
+                    RowBox[{"\"\<\\tLine \>\"", "<>", 
+                    RowBox[{"ToString", "[", "i", "]"}], "<>", "\"\<:\\t\>\"",
+                     "<>", 
+                    RowBox[{"transcriptLinesOri", "[", 
+                    RowBox[{"[", 
+                    RowBox[{"n", ",", "i"}], "]"}], "]"}]}], ",", "1"}], 
+                    "]"}], ";"}]}], "\[IndentingNewLine]", "]"}]}], 
+               "\[IndentingNewLine]", "]"}], ",", 
+              RowBox[{"{", 
+               RowBox[{"i", ",", "1", ",", 
+                RowBox[{"Length", "[", 
+                 RowBox[{"transcriptLines", "[", 
+                  RowBox[{"[", "n", "]"}], "]"}], "]"}]}], "}"}]}], "]"}], 
+            ";", "\[IndentingNewLine]", 
+            RowBox[{"log", "[", 
+             RowBox[{"n", ",", "\"\<\>\"", ",", "1"}], "]"}]}]}], 
+          "\[IndentingNewLine]", "]"}]}], "\[IndentingNewLine]", "]"}], ";", 
+       "\[IndentingNewLine]", 
+       RowBox[{"abortOrContinue", "[", "theErrorCode", "]"}], ";"}]}], 
+     "\[IndentingNewLine]", "]"}]}], "\[IndentingNewLine]", 
+   RowBox[{"(*", 
+    RowBox[{"ERROR", " ", "01"}], "*)"}], "\[IndentingNewLine]", 
+   RowBox[{"(*", 
+    RowBox[{
+    "Checking", " ", "If", " ", "there", " ", "are", " ", "empty", " ", 
+     "lines"}], "*)"}], "\[IndentingNewLine]", 
+   RowBox[{
+   "printCurrentTask", "[", "\"\<Checking if there are empty lines\>\"", 
+    "]"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"emptyLineCheck", "[", 
+      RowBox[{"[", "VS", "]"}], "]"}], "=", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{
+          RowBox[{
+           RowBox[{"StringTrim", "[", "#", "]"}], "\[NotEqual]", "\"\<\>\""}],
+           "&"}], "/@", 
+         RowBox[{"transcriptLines", "[", 
+          RowBox[{"[", "n", "]"}], "]"}]}], ")"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"n", ",", "VS"}], "}"}]}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{
+      RowBox[{"printErrorMessage", "[", 
+       RowBox[{"#", ",", "emptyLineCheck", ",", "1"}], "]"}], "&"}], "/@", 
+     "VS"}], ";"}], "\[IndentingNewLine]", 
+   RowBox[{"(*", 
+    RowBox[{"Get", " ", "the", " ", "Command", " ", "Symbols"}], "*)"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"transcriptCommands", "[", 
+      RowBox[{"[", "VS", "]"}], "]"}], "=", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"StringTake", "[", 
+           RowBox[{"#", ",", 
+            RowBox[{"UpTo", "[", "1", "]"}]}], "]"}], "&"}], "/@", 
+         RowBox[{"transcriptLines", "[", 
+          RowBox[{"[", "n", "]"}], "]"}]}], ")"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"n", ",", "VS"}], "}"}]}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{"(*", 
+    RowBox[{
+     RowBox[{"Index", " ", "3", " ", "types", " ", "of", " ", "lines"}], ",", 
+     " ", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"i", ".", "e", ".", " ", "the"}], " ", "preamble", " ", 
+       "lines"}], " ", "=", 
+      RowBox[{">", " ", "@"}]}], ",", " ", 
+     RowBox[{"utterance", " ", "=", 
+      RowBox[{">", " ", "*"}]}], ",", " ", 
+     RowBox[{"derivatives", " ", "=", 
+      RowBox[{">", " ", "%"}]}]}], "*)"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"preambleLines", "[", 
+      RowBox[{"[", "VS", "]"}], "]"}], "=", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{"Flatten", "[", 
+        RowBox[{"Position", "[", 
+         RowBox[{
+          RowBox[{
+           RowBox[{
+            RowBox[{"(", 
+             RowBox[{"StringMatchQ", "[", 
+              RowBox[{"#", ",", 
+               RowBox[{"Verbatim", "[", "\"\<@\>\"", "]"}]}], "]"}], ")"}], 
+            "&"}], "/@", 
+           RowBox[{"transcriptCommands", "[", 
+            RowBox[{"[", "n", "]"}], "]"}]}], ",", "True"}], "]"}], "]"}], 
+       ",", 
+       RowBox[{"{", 
+        RowBox[{"n", ",", "VS"}], "}"}]}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"utteranceLines", "[", 
+      RowBox[{"[", "VS", "]"}], "]"}], "=", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{"Flatten", "[", 
+        RowBox[{"Position", "[", 
+         RowBox[{
+          RowBox[{
+           RowBox[{
+            RowBox[{"(", 
+             RowBox[{"StringMatchQ", "[", 
+              RowBox[{"#", ",", 
+               RowBox[{"Verbatim", "[", "\"\<*\>\"", "]"}]}], "]"}], ")"}], 
+            "&"}], "/@", 
+           RowBox[{"transcriptCommands", "[", 
+            RowBox[{"[", "n", "]"}], "]"}]}], ",", "True"}], "]"}], "]"}], 
+       ",", 
+       RowBox[{"{", 
+        RowBox[{"n", ",", "VS"}], "}"}]}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"derivativeLines", "[", 
+      RowBox[{"[", "VS", "]"}], "]"}], "=", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{"Flatten", "[", 
+        RowBox[{"Position", "[", 
+         RowBox[{
+          RowBox[{
+           RowBox[{
+            RowBox[{"(", 
+             RowBox[{"StringMatchQ", "[", 
+              RowBox[{"#", ",", 
+               RowBox[{"Verbatim", "[", "\"\<%\>\"", "]"}]}], "]"}], ")"}], 
+            "&"}], "/@", 
+           RowBox[{"transcriptCommands", "[", 
+            RowBox[{"[", "n", "]"}], "]"}]}], ",", "True"}], "]"}], "]"}], 
+       ",", 
+       RowBox[{"{", 
+        RowBox[{"n", ",", "VS"}], "}"}]}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{"(*", 
+    RowBox[{"ERROR", " ", "02"}], "*)"}], "\[IndentingNewLine]", 
+   RowBox[{"(*", 
+    RowBox[{
+    "Checking", " ", "If", " ", "the", " ", "commands", " ", "are", " ", 
+     "right"}], "*)"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"commandsRequired", "=", 
+     RowBox[{"{", 
+      RowBox[{"\"\<@\>\"", ",", "\"\<*\>\"", ",", "\"\<%\>\""}], "}"}]}], 
+    ";"}], "\[IndentingNewLine]", 
+   RowBox[{
+   "printCurrentTask", "[", 
+    "\"\<Checking whether the line commands are right, i.e., if all the lines \
+start with @ / * / %\>\"", "]"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"commandsRequiredCheck", "[", 
+      RowBox[{"[", "VS", "]"}], "]"}], "=", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{
+        RowBox[{
+         RowBox[{"StringMatchQ", "[", 
+          RowBox[{"#", ",", 
+           RowBox[{"RegularExpression", "[", "\"\<[*@%]\>\"", "]"}]}], "]"}], 
+         "&"}], "/@", 
+        RowBox[{"transcriptCommands", "[", 
+         RowBox[{"[", "n", "]"}], "]"}]}], ",", 
+       RowBox[{"{", 
+        RowBox[{"n", ",", "VS"}], "}"}]}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{
+      RowBox[{"printErrorMessage", "[", 
+       RowBox[{"#", ",", "commandsRequiredCheck", ",", "2"}], "]"}], "&"}], "/@",
+      "VS"}], ";"}], "\[IndentingNewLine]", 
+   RowBox[{"(*", 
+    RowBox[{"ERROR", " ", "03"}], "*)"}], "\[IndentingNewLine]", 
+   RowBox[{"(*", 
+    RowBox[{
+     RowBox[{"Check", " ", "if", " ", "preambles"}], ",", " ", 
+     RowBox[{
+      RowBox[{"i", ".", "e", ".", " ", 
+       RowBox[{"@", "Partcipants"}]}], " ", "etc", " ", "are", " ", 
+      "found"}]}], "*)"}], "\[IndentingNewLine]", 
+   RowBox[{
+   "printCurrentTask", "[", "\"\<Checking the preambles, i.e. @Blah\>\"", 
+    "]"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"preamblesRequired", "=", 
+     RowBox[{"{", 
+      RowBox[{
+      "\"\<@Unicode\>\"", ",", "\"\<@Begin\>\"", ",", "\"\<@Languages\>\"", 
+       ",", "\"\<@Participants\>\"", ",", "\"\<@ID\>\"", ",", "\"\<@Date\>\"",
+        ",", "\"\<@Location\>\"", ",", "\"\<@Comment\>\"", ",", 
+       "\"\<@Start\>\"", ",", "\"\<@End\>\""}], "}"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"preamblesRequiredCheck", "[", 
+      RowBox[{"[", "VS", "]"}], "]"}], "=", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{
+          RowBox[{
+           RowBox[{"Length", "[", 
+            RowBox[{"StringPosition", "[", 
+             RowBox[{
+              RowBox[{"transcripts", "[", 
+               RowBox[{"[", "n", "]"}], "]"}], ",", "#"}], "]"}], "]"}], 
+           "\[NotEqual]", "0"}], "&"}], "/@", "preamblesRequired"}], ")"}], 
+       ",", 
+       RowBox[{"{", 
+        RowBox[{"n", ",", "VS"}], "}"}]}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"preamblesRequiredCheckSum", "[", 
+      RowBox[{"[", "VS", "]"}], "]"}], "=", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{"And", "@@", 
+        RowBox[{"preamblesRequiredCheck", "[", 
+         RowBox[{"[", "n", "]"}], "]"}]}], ",", 
+       RowBox[{"{", 
+        RowBox[{"n", ",", "VS"}], "}"}]}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"NoError", "[", 
+      RowBox[{"[", "3", "]"}], "]"}], "=", "True"}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"fpreamblesRequiredCheck", "[", "n_", "]"}], ":=", 
+    RowBox[{"If", "[", 
+     RowBox[{
+      RowBox[{"!", 
+       RowBox[{"preamblesRequiredCheckSum", "[", 
+        RowBox[{"[", "n", "]"}], "]"}]}], ",", "\[IndentingNewLine]", 
+      RowBox[{"Module", "[", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"localPreamblesRequiredCheck", "=", 
+          RowBox[{"preamblesRequiredCheck", "[", 
+           RowBox[{"[", "n", "]"}], "]"}]}], "}"}], ",", 
+        "\[IndentingNewLine]", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"NoError", "[", 
+           RowBox[{"[", "3", "]"}], "]"}], "=", "False"}], ";", 
+         "\[IndentingNewLine]", 
+         RowBox[{"printError", "[", 
+          RowBox[{"n", ",", "3"}], "]"}], ";", "\[IndentingNewLine]", 
+         RowBox[{"Do", "[", 
+          RowBox[{
+           RowBox[{"!", 
+            RowBox[{"If", "[", 
+             RowBox[{
+              RowBox[{"!", 
+               RowBox[{"localPreamblesRequiredCheck", "[", 
+                RowBox[{"[", "i", "]"}], "]"}]}], ",", 
+              RowBox[{"log", "[", 
+               RowBox[{"n", ",", 
+                RowBox[{"\"\<\\t\>\"", "<>", 
+                 RowBox[{"preamblesRequired", "[", 
+                  RowBox[{"[", "i", "]"}], "]"}], "<>", 
+                 "\"\< is missing.\>\""}], ",", "1"}], "]"}]}], "]"}]}], ",", 
+           
+           RowBox[{"{", 
+            RowBox[{"i", ",", "1", ",", 
+             RowBox[{"Length", "[", "preamblesRequired", "]"}]}], "}"}]}], 
+          "]"}], ";", "\[IndentingNewLine]", 
+         RowBox[{"log", "[", 
+          RowBox[{"n", ",", "\"\<\>\"", ",", "1"}], "]"}]}]}], 
+       "\[IndentingNewLine]", "]"}]}], "\[IndentingNewLine]", "]"}]}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"fpreamblesRequiredCheck", "/@", "VS"}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{"abortOrContinue", "[", "3", "]"}], "\[IndentingNewLine]", 
+   RowBox[{"(*", 
+    RowBox[{"Expanding", " ", "Repetitions"}], "*)"}], "\[IndentingNewLine]", 
+   
+   RowBox[{"(*", 
+    RowBox[{
+     RowBox[{
+      RowBox[{
+      "Process", " ", "block", " ", "repetitions", " ", "first", " ", 
+       RowBox[{"e", ".", "g", ".", " ", "those"}], " ", "in"}], " ", "<", 
+      "blah", ">"}], ",", " ", 
+     RowBox[{"expand", " ", "to", " ", "repeat", " ", "literally"}]}], "*)"}],
+    "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"expandBlockRepetition", "[", "text_", "]"}], ":=", 
+    RowBox[{"StringReplace", "[", 
+     RowBox[{"text", ",", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"Shortest", "[", 
+          RowBox[{"\"\<<\>\"", "~~", 
+           RowBox[{"x", ":", "__"}], "~~", "\"\<>\>\""}], "]"}], "~~", 
+         "\"\< \>\"", "~~", "\"\<[x \>\"", "~~", 
+         RowBox[{"y", ":", 
+          RowBox[{"DigitCharacter", ".."}]}], "~~", "\"\<]\>\""}], ":>", 
+        RowBox[{"StringRiffle", "[", 
+         RowBox[{
+          RowBox[{"ConstantArray", "[", 
+           RowBox[{"x", ",", 
+            RowBox[{"ToExpression", "[", "y", "]"}]}], "]"}], ",", 
+          "\"\< \>\""}], "]"}]}], "}"}]}], "]"}]}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"transcriptLines", "[", 
+      RowBox[{"[", "VS", "]"}], "]"}], "=", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{"Table", "[", 
+        RowBox[{
+         RowBox[{"If", "[", 
+          RowBox[{
+           RowBox[{
+            RowBox[{"transcriptCommands", "[", 
+             RowBox[{"[", 
+              RowBox[{"n", ",", "i"}], "]"}], "]"}], "\[Equal]", 
+            "\"\<*\>\""}], ",", 
+           RowBox[{"expandBlockRepetition", "[", 
+            RowBox[{"transcriptLines", "[", 
+             RowBox[{"[", 
+              RowBox[{"n", ",", "i"}], "]"}], "]"}], "]"}], ",", 
+           RowBox[{"transcriptLines", "[", 
+            RowBox[{"[", 
+             RowBox[{"n", ",", "i"}], "]"}], "]"}]}], "]"}], ",", 
+         RowBox[{"{", 
+          RowBox[{"i", ",", "1", ",", 
+           RowBox[{"Length", "[", 
+            RowBox[{"transcriptLines", "[", 
+             RowBox[{"[", "n", "]"}], "]"}], "]"}]}], "}"}]}], "]"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"n", ",", "VS"}], "}"}]}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{"(*", 
+    RowBox[{
+    "Process", " ", "single", " ", "word", " ", "repetitions", " ", "expand", 
+     " ", "to", " ", "repeat", " ", "literally"}], "*)"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"expandSingleWordRepetition", "[", "text_", "]"}], ":=", 
+    RowBox[{"StringReplace", "[", 
+     RowBox[{"text", ",", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"x", ":", 
+          RowBox[{
+           RowBox[{"Except", "[", "WhitespaceCharacter", "]"}], ".."}]}], 
+         "~~", "\"\< \>\"", "~~", "\"\<[x \>\"", "~~", 
+         RowBox[{"y", ":", 
+          RowBox[{"DigitCharacter", ".."}]}], "~~", "\"\<]\>\""}], ":>", 
+        RowBox[{"StringRiffle", "[", 
+         RowBox[{
+          RowBox[{"ConstantArray", "[", 
+           RowBox[{"x", ",", 
+            RowBox[{"ToExpression", "[", "y", "]"}]}], "]"}], ",", 
+          "\"\< \>\""}], "]"}]}], "}"}]}], "]"}]}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"transcriptLines", "[", 
+      RowBox[{"[", "VS", "]"}], "]"}], "=", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{"Table", "[", 
+        RowBox[{
+         RowBox[{"If", "[", 
+          RowBox[{
+           RowBox[{
+            RowBox[{"transcriptCommands", "[", 
+             RowBox[{"[", 
+              RowBox[{"n", ",", "i"}], "]"}], "]"}], "\[Equal]", 
+            "\"\<*\>\""}], ",", 
+           RowBox[{"expandSingleWordRepetition", "[", 
+            RowBox[{"transcriptLines", "[", 
+             RowBox[{"[", 
+              RowBox[{"n", ",", "i"}], "]"}], "]"}], "]"}], ",", 
+           RowBox[{"transcriptLines", "[", 
+            RowBox[{"[", 
+             RowBox[{"n", ",", "i"}], "]"}], "]"}]}], "]"}], ",", 
+         RowBox[{"{", 
+          RowBox[{"i", ",", "1", ",", 
+           RowBox[{"Length", "[", 
+            RowBox[{"transcriptLines", "[", 
+             RowBox[{"[", "n", "]"}], "]"}], "]"}]}], "}"}]}], "]"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"n", ",", "VS"}], "}"}]}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{"(*", 
+    RowBox[{"Remove", " ", "unwanted", " ", "syntaxs"}], "*)"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{"(*", 
+    RowBox[{
+     RowBox[{
+      RowBox[{
+       RowBox[{
+        RowBox[{"List", " ", "of", " ", "Unwanted", " ", 
+         RowBox[{"Syntax", ":", " ", 
+          RowBox[{
+           RowBox[{
+            RowBox[{"(", "1", ")"}], " ", "[", 
+            RowBox[{"x", " ", "2"}], "]"}], "     ", 
+           RowBox[{"(", "2", ")"}]}]}]}], " ", "&"}], "blah", "     ", 
+       RowBox[{"(", "3", ")"}]}], " ", "&"}], "=", 
+     RowBox[{
+      RowBox[{"blah", "     ", 
+       RowBox[{"(", "4", ")"}], " ", "change"}], " ", "<", "blah", ">", " ", 
+      RowBox[{"to", " ", "blah", "     ", 
+       RowBox[{
+        RowBox[{"(", "5", ")"}], " ", "[", 
+        RowBox[{":", "blah"}], "]"}], "   ", 
+       RowBox[{"(", "6", ")"}], " ", "remove", " ", "comma", "    ", 
+       RowBox[{"(", "7", ")"}], " ", 
+       RowBox[{"remove", " ", "'"}], "blah"}]}]}], " ", "*)"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"removalSubstitutionTable", "=", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"\"\<[x \>\"", "~~", "DigitCharacter", "~~", "\"\<]\>\""}], 
+         ",", "\"\<\>\"", ",", "\"\<\>\""}], "}"}], ",", 
+       "\[IndentingNewLine]", 
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"Shortest", "[", 
+          RowBox[{"\"\<<\>\"", "~~", 
+           RowBox[{"x", ":", "__"}], "~~", "\"\<>\>\""}], "]"}], ",", "x", 
+         ",", "\"\<\>\""}], "}"}], ",", "\[IndentingNewLine]", 
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"Shortest", "[", 
+          RowBox[{"\"\<[:\>\"", "~~", "__", "~~", "\"\<]\>\""}], "]"}], ",", 
+         "\"\<\>\"", ",", "\"\<\>\""}], "}"}], ",", "\[IndentingNewLine]", 
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"\"\<&\>\"", "~~", 
+          RowBox[{"LetterCharacter", ".."}]}], ",", "\"\<\>\"", ",", 
+         "\"\<\>\""}], "}"}], ",", "\[IndentingNewLine]", 
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"\"\<&=\>\"", "~~", 
+          RowBox[{"LetterCharacter", ".."}]}], ",", "\"\<\>\"", ",", 
+         "\"\<These sounds are not processed\>\""}], "}"}], ",", 
+       "\[IndentingNewLine]", 
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"\"\<@\>\"", "~~", 
+          RowBox[{
+           RowBox[{"{", 
+            RowBox[{"\"\<:\>\"", ",", "LetterCharacter"}], "}"}], "..."}]}], 
+         ",", "\"\<\>\"", ",", "\"\<\>\""}], "}"}], ",", 
+       "\[IndentingNewLine]", 
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"\"\<'\>\"", "~~", 
+          RowBox[{
+           RowBox[{"{", 
+            RowBox[{"\"\<:\>\"", ",", "LetterCharacter"}], "}"}], "..."}]}], 
+         ",", "\"\<\>\"", ",", "\"\<\>\""}], "}"}], ",", 
+       "\[IndentingNewLine]", 
+       RowBox[{"{", 
+        RowBox[{"\"\<,\>\"", ",", "\"\<\>\"", ",", "\"\<\>\""}], "}"}], ",", 
+       "\[IndentingNewLine]", 
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"\"\<(\>\"", "~~", 
+          RowBox[{"x", ":", 
+           RowBox[{"Shortest", "[", "__", "]"}]}], "~~", "\"\<)\>\""}], ",", 
+         "x", ",", "\"\<\>\""}], "}"}], ",", "\[IndentingNewLine]", 
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"\"\<[- \>\"", "~~", 
+          RowBox[{"Shortest", "[", "__", "]"}], "~~", "\"\<]\>\""}], ",", 
+         "\"\<\>\"", ",", "\"\<[+ lang] is currently not supported\>\""}], 
+        "}"}], ",", "\[IndentingNewLine]", 
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"\"\<[- \>\"", "~~", 
+          RowBox[{"Shortest", "[", "__", "]"}], "~~", "\"\<]\>\""}], ",", 
+         "\"\<\>\"", ",", "\"\<[+ bch] is currently ignored\>\""}], "}"}]}], 
+      "}"}]}], ";", " ", 
+    RowBox[{"(*", 
+     RowBox[{
+      RowBox[{"Format", ":", " ", 
+       RowBox[{"on", " ", "each", " ", "line"}]}], ",", " ", 
+      RowBox[{"#1", " ", "is", " ", "substituted", " ", "by", " ", "#2"}], 
+      ",", " ", 
+      RowBox[{
+      "#3", " ", "is", " ", "the", " ", "additional", " ", "information", " ",
+        "attached", " ", "in", " ", "the", " ", "export", " ", "log"}]}], 
+     "*)"}], "\[IndentingNewLine]", 
+    RowBox[{
+     RowBox[{"removeUnwantedText", "[", "text_", "]"}], ":=", 
+     RowBox[{"StringReplace", "[", 
+      RowBox[{"text", ",", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"#1", "\[Rule]", "#2"}], "&"}], "@@@", 
+        "removalSubstitutionTable"}]}], "]"}]}]}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"transcriptLines", "[", 
+      RowBox[{"[", "VS", "]"}], "]"}], "=", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{"Table", "[", 
+        RowBox[{
+         RowBox[{"If", "[", 
+          RowBox[{
+           RowBox[{
+            RowBox[{"transcriptCommands", "[", 
+             RowBox[{"[", 
+              RowBox[{"n", ",", "i"}], "]"}], "]"}], "\[Equal]", 
+            "\"\<*\>\""}], ",", 
+           RowBox[{"removeUnwantedText", "[", 
+            RowBox[{"transcriptLines", "[", 
+             RowBox[{"[", 
+              RowBox[{"n", ",", "i"}], "]"}], "]"}], "]"}], ",", 
+           RowBox[{"transcriptLines", "[", 
+            RowBox[{"[", 
+             RowBox[{"n", ",", "i"}], "]"}], "]"}]}], "]"}], ",", 
+         RowBox[{"{", 
+          RowBox[{"i", ",", "1", ",", 
+           RowBox[{"Length", "[", 
+            RowBox[{"transcriptLines", "[", 
+             RowBox[{"[", "n", "]"}], "]"}], "]"}]}], "}"}]}], "]"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"n", ",", "VS"}], "}"}]}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{"(*", 
+    RowBox[{"ERROR", " ", "04"}], "*)"}], "\[IndentingNewLine]", 
+   RowBox[{"(*", 
+    RowBox[{
+     RowBox[{
+     "Check", " ", "if", " ", "*", "lines", " ", "have", " ", "the", " ", 
+      "correct", " ", "ending"}], ",", " ", 
+     RowBox[{"i", ".", "e", ".", " ", 
+      RowBox[{"!", " ", 
+       RowBox[{"/", " ", 
+        RowBox[{"?", " ", 
+         RowBox[{"/", " ", "."}]}]}]}]}]}], " ", "*)"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+   "printCurrentTask", "[", "\"\<Checking if lines end with ! / ? / *\>\"", 
+    "]"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"correctLineEndingCheck", "[", 
+      RowBox[{"[", "VS", "]"}], "]"}], "=", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{
+          RowBox[{
+           RowBox[{"(", 
+            RowBox[{"!", 
+             RowBox[{"StringMatchQ", "[", 
+              RowBox[{
+               RowBox[{"StringTake", "[", 
+                RowBox[{"#", ",", 
+                 RowBox[{"UpTo", "[", "1", "]"}]}], "]"}], ",", 
+               RowBox[{"Verbatim", "[", "\"\<*\>\"", "]"}]}], "]"}]}], ")"}], 
+           "||", 
+           RowBox[{"StringMatchQ", "[", 
+            RowBox[{
+             RowBox[{"StringTake", "[", 
+              RowBox[{"#", ",", 
+               RowBox[{"-", "1"}]}], "]"}], ",", 
+             RowBox[{"Characters", "[", "\"\<!?.\>\"", "]"}]}], "]"}]}], 
+          "&"}], "/@", 
+         RowBox[{"transcriptLines", "[", 
+          RowBox[{"[", "n", "]"}], "]"}]}], ")"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"n", ",", "VS"}], "}"}]}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{
+      RowBox[{"printErrorMessage", "[", 
+       RowBox[{"#", ",", "correctLineEndingCheck", ",", "4"}], "]"}], "&"}], "/@",
+      "VS"}], ";"}], "\[IndentingNewLine]", 
+   RowBox[{"(*", 
+    RowBox[{"ERROR", " ", "05"}], "*)"}], "\[IndentingNewLine]", 
+   RowBox[{"(*", 
+    RowBox[{"Check", " ", "if", " ", "*", "lines", " ", 
+     RowBox[{
+      RowBox[{"have", " ", "!"}], " ", "/", " ", 
+      RowBox[{"?", " ", 
+       RowBox[{
+        RowBox[{"/", " ", 
+         RowBox[{".", " ", "before"}]}], " ", "the", " ", "last", " ", 
+        "character"}]}]}]}], "*)"}], "\[IndentingNewLine]", 
+   RowBox[{
+   "printCurrentTask", "[", 
+    "\"\<Checking if lines contain misplaced ! / ? / * before the last \
+character\>\"", "]"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"multipleLineEndingCheck", "[", 
+      RowBox[{"[", "VS", "]"}], "]"}], "=", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{
+          RowBox[{
+           RowBox[{"(", 
+            RowBox[{"!", 
+             RowBox[{"StringMatchQ", "[", 
+              RowBox[{
+               RowBox[{"StringTake", "[", 
+                RowBox[{"#", ",", 
+                 RowBox[{"UpTo", "[", "1", "]"}]}], "]"}], ",", 
+               RowBox[{"Verbatim", "[", "\"\<*\>\"", "]"}]}], "]"}]}], ")"}], 
+           "||", 
+           RowBox[{"!", 
+            RowBox[{"StringContainsQ", "[", 
+             RowBox[{
+              RowBox[{"StringTake", "[", 
+               RowBox[{"#", ",", 
+                RowBox[{"{", 
+                 RowBox[{"1", ",", 
+                  RowBox[{"-", "2"}]}], "}"}]}], "]"}], ",", 
+              RowBox[{"Characters", "[", "\"\<!?.\>\"", "]"}]}], "]"}]}]}], 
+          "&"}], "/@", 
+         RowBox[{"transcriptLines", "[", 
+          RowBox[{"[", "n", "]"}], "]"}]}], ")"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"n", ",", "VS"}], "}"}]}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{
+      RowBox[{"printErrorMessage", "[", 
+       RowBox[{"#", ",", "multipleLineEndingCheck", ",", "5"}], "]"}], "&"}], 
+     "/@", "VS"}], ";"}], "\[IndentingNewLine]", 
+   RowBox[{"(*", 
+    RowBox[{"ERROR", " ", "06"}], "*)"}], "\[IndentingNewLine]", 
+   RowBox[{"(*", 
+    RowBox[{
+    "Check", " ", "if", " ", "*", "lines", " ", "have", " ", "the", " ", 
+     "correct", " ", "partcipant", " ", "label", " ", "and", " ", "tab", " ", 
+     "before", " ", "utterances"}], "*)"}], "\[IndentingNewLine]", 
+   RowBox[{
+   "printCurrentTask", "[", 
+    "\"\<Checking if lines start with the correct partipant label and the tab \
+before utterances, i.e. *MOT: <tab>\>\"", "]"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"participantLabelCheck", "[", 
+      RowBox[{"[", "VS", "]"}], "]"}], "=", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{
+          RowBox[{
+           RowBox[{"(", 
+            RowBox[{"!", 
+             RowBox[{"StringMatchQ", "[", 
+              RowBox[{
+               RowBox[{"StringTake", "[", 
+                RowBox[{"#", ",", 
+                 RowBox[{"UpTo", "[", "1", "]"}]}], "]"}], ",", 
+               RowBox[{"Verbatim", "[", "\"\<*\>\"", "]"}]}], "]"}]}], ")"}], 
+           "||", 
+           RowBox[{"StringContainsQ", "[", 
+            RowBox[{"#", ",", 
+             RowBox[{
+              RowBox[{"Verbatim", "[", "\"\<*\>\"", "]"}], "~~", 
+              RowBox[{"Repeated", "[", 
+               RowBox[{"LetterCharacter", ",", 
+                RowBox[{"{", "3", "}"}]}], "]"}], "~~", "\"\<:\\t\>\""}]}], 
+            "]"}]}], "&"}], "/@", 
+         RowBox[{"transcriptLines", "[", 
+          RowBox[{"[", "n", "]"}], "]"}]}], ")"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"n", ",", "VS"}], "}"}]}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{
+      RowBox[{"printErrorMessage", "[", 
+       RowBox[{"#", ",", "participantLabelCheck", ",", "6"}], "]"}], "&"}], "/@",
+      "VS"}], ";"}], "\[IndentingNewLine]", 
+   RowBox[{"(*", 
+    RowBox[{"Extract", " ", "the", " ", "participants"}], "*)"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"transcriptLines", "=", 
+     RowBox[{"StringTrim", "/@", "transcriptLines"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"transcriptLineParticipants", "[", 
+      RowBox[{"[", "VS", "]"}], "]"}], "=", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"First", "[", 
+           RowBox[{
+            RowBox[{"StringCases", "[", 
+             RowBox[{"#", ",", 
+              RowBox[{
+               RowBox[{
+                RowBox[{"Verbatim", "[", "\"\<*\>\"", "]"}], "~~", 
+                RowBox[{"x", ":", 
+                 RowBox[{"Repeated", "[", 
+                  RowBox[{"LetterCharacter", ",", 
+                   RowBox[{"{", "3", "}"}]}], "]"}]}], "~~", 
+                RowBox[{"If", "[", 
+                 RowBox[{"applyLooseSyntax", ",", 
+                  RowBox[{
+                   RowBox[{"\"\<:\>\"", "..."}], "~~", 
+                   RowBox[{"WhitespaceCharacter", "..."}]}], ",", 
+                  RowBox[{"\"\<:\>\"", "~~", "Whitespace"}]}], "]"}]}], 
+               "\[Rule]", "x"}]}], "]"}], ",", "\"\<\>\""}], "]"}], "&"}], "/@", 
+         RowBox[{"transcriptLines", "[", 
+          RowBox[{"[", "n", "]"}], "]"}]}], ")"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"n", ",", "VS"}], "}"}]}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"transcriptUniqueParticipants", "[", 
+      RowBox[{"[", "VS", "]"}], "]"}], "=", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{"Sort", "[", 
+        RowBox[{"DeleteDuplicates", "[", 
+         RowBox[{"Flatten", "[", 
+          RowBox[{"(", 
+           RowBox[{
+            RowBox[{
+             RowBox[{"StringCases", "[", 
+              RowBox[{"#", ",", 
+               RowBox[{
+                RowBox[{
+                 RowBox[{"Verbatim", "[", "\"\<*\>\"", "]"}], "~~", 
+                 RowBox[{"x", ":", 
+                  RowBox[{"Repeated", "[", 
+                   RowBox[{"LetterCharacter", ",", 
+                    RowBox[{"{", "3", "}"}]}], "]"}]}], "~~", "\"\<:\>\"", "~~",
+                  "Whitespace"}], "\[Rule]", "x"}]}], "]"}], "&"}], "/@", 
+            RowBox[{"transcriptLines", "[", 
+             RowBox[{"[", "n", "]"}], "]"}]}], ")"}], "]"}], "]"}], "]"}], 
+       ",", 
+       RowBox[{"{", 
+        RowBox[{"n", ",", "VS"}], "}"}]}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"transcriptUniqueNonChildParticipants", "[", 
+      RowBox[{"[", "VS", "]"}], "]"}], "=", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"First", "[", 
+        RowBox[{
+         RowBox[{"Cases", "[", 
+          RowBox[{"#", ",", 
+           RowBox[{"Except", "[", "\"\<CHI\>\"", "]"}]}], "]"}], ",", 
+         "\"\<ERROR\>\""}], "]"}], "&"}], "/@", 
+      RowBox[{"transcriptUniqueParticipants", "[", 
+       RowBox[{"[", "VS", "]"}], "]"}]}]}], ";"}], "\[IndentingNewLine]", 
+   RowBox[{"(*", 
+    RowBox[{"ERROR", " ", "07"}], "*)"}], "\[IndentingNewLine]", 
+   RowBox[{
+   "printCurrentTask", "[", 
+    "\"\<Checking if the transcripts have only one non-child partipant.\>\"", 
+    "]"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"participantNumberCheck", "[", 
+      RowBox[{"[", "VS", "]"}], "]"}], "=", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{
+          RowBox[{
+           RowBox[{"(", 
+            RowBox[{"StringMatchQ", "[", 
+             RowBox[{"#", ",", "\"\<\>\""}], "]"}], ")"}], "||", 
+           RowBox[{"StringMatchQ", "[", 
+            RowBox[{"#", ",", 
+             RowBox[{"Append", "[", 
+              RowBox[{
+               RowBox[{"{", 
+                RowBox[{"First", "[", 
+                 RowBox[{
+                  RowBox[{"Cases", "[", 
+                   RowBox[{
+                    RowBox[{"transcriptUniqueParticipants", "[", 
+                    RowBox[{"[", "n", "]"}], "]"}], ",", 
+                    RowBox[{"Except", "[", "\"\<CHI\>\"", "]"}]}], "]"}], 
+                  ",", "\"\<ERROR\>\""}], "]"}], "}"}], ",", "\"\<CHI\>\""}], 
+              "]"}]}], "]"}]}], "&"}], "/@", 
+         RowBox[{"transcriptLineParticipants", "[", 
+          RowBox[{"[", "n", "]"}], "]"}]}], ")"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"n", ",", "VS"}], "}"}]}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{
+      RowBox[{"printErrorMessage", "[", 
+       RowBox[{"#", ",", "participantNumberCheck", ",", "7"}], "]"}], "&"}], "/@",
+      "VS"}], ";"}], "\[IndentingNewLine]", 
+   RowBox[{"(*", 
+    RowBox[{"Extract", " ", "the", " ", "Utterances"}], "*)"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"transcriptUtterances", "[", 
+      RowBox[{"[", "VS", "]"}], "]"}], "=", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{"StringReplace", "[", 
+        RowBox[{
+         RowBox[{"StringTrim", "[", 
+          RowBox[{"(", 
+           RowBox[{
+            RowBox[{
+             RowBox[{"StringReplace", "[", 
+              RowBox[{"#", ",", 
+               RowBox[{
+                RowBox[{
+                 RowBox[{"Verbatim", "[", "\"\<*\>\"", "]"}], "~~", 
+                 RowBox[{"Repeated", "[", 
+                  RowBox[{"LetterCharacter", ",", 
+                   RowBox[{"{", "3", "}"}]}], "]"}], "~~", "\"\<:\>\"", "~~", 
+                 "Whitespace"}], "\[Rule]", "\"\<\>\""}]}], "]"}], "&"}], "/@", 
+            RowBox[{"transcriptLines", "[", 
+             RowBox[{"[", "n", "]"}], "]"}]}], ")"}], "]"}], ",", 
+         RowBox[{
+          RowBox[{"Characters", "[", "\"\<.?!\>\"", "]"}], "\[Rule]", 
+          "\"\<\>\""}]}], "]"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"n", ",", "VS"}], "}"}]}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"transcriptUtterances", "[", 
+      RowBox[{"[", "VS", "]"}], "]"}], "=", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{
+        RowBox[{
+         RowBox[{"If", "[", 
+          RowBox[{
+           RowBox[{
+            RowBox[{"transcriptCommands", "[", 
+             RowBox[{"[", 
+              RowBox[{"n", ",", "#"}], "]"}], "]"}], "\[Equal]", 
+            "\"\<*\>\""}], ",", 
+           RowBox[{"transcriptUtterances", "[", 
+            RowBox[{"[", 
+             RowBox[{"n", ",", "#"}], "]"}], "]"}], ",", "\"\<\>\""}], "]"}], 
+         "&"}], "/@", 
+        RowBox[{"Range", "[", 
+         RowBox[{"Length", "[", 
+          RowBox[{"transcriptCommands", "[", 
+           RowBox[{"[", "n", "]"}], "]"}], "]"}], "]"}]}], ",", 
+       RowBox[{"{", 
+        RowBox[{"n", ",", "VS"}], "}"}]}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{"(*", 
+    RowBox[{
+    "Split", " ", "the", " ", "utterances", " ", "into", " ", "words"}], 
+    "*)"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"transcriptWords", "[", 
+      RowBox[{"[", "VS", "]"}], "]"}], "=", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{
+        RowBox[{
+         RowBox[{"StringTrim", "[", 
+          RowBox[{"StringSplit", "[", 
+           RowBox[{"#", ",", "Whitespace"}], "]"}], "]"}], "&"}], "/@", 
+        RowBox[{"transcriptUtterances", "[", 
+         RowBox[{"[", "n", "]"}], "]"}]}], ",", 
+       RowBox[{"{", 
+        RowBox[{"n", ",", "VS"}], "}"}]}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{"(*", 
+    RowBox[{"ERROR", " ", "08"}], "*)"}], "\[IndentingNewLine]", 
+   RowBox[{
+   "printCurrentTask", "[", 
+    "\"\<Checking for unidentified control sequences.\>\"", "]"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"unidentifiedSequencesCheck", "[", 
+      RowBox[{"[", "VS", "]"}], "]"}], "=", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{
+        RowBox[{
+         RowBox[{"(", 
+          RowBox[{"And", "@@", 
+           RowBox[{"(", 
+            RowBox[{
+             RowBox[{
+              RowBox[{"StringMatchQ", "[", 
+               RowBox[{"#", ",", 
+                RowBox[{"LetterCharacter", ".."}]}], "]"}], "&"}], "/@", 
+             "#"}], ")"}]}], ")"}], "&"}], "/@", 
+        RowBox[{"transcriptWords", "[", 
+         RowBox[{"[", "n", "]"}], "]"}]}], ",", 
+       RowBox[{"{", 
+        RowBox[{"n", ",", "VS"}], "}"}]}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{
+      RowBox[{"printErrorMessage", "[", 
+       RowBox[{"#", ",", "unidentifiedSequencesCheck", ",", "8"}], "]"}], 
+      "&"}], "/@", "VS"}], ";"}], "\[IndentingNewLine]", 
+   RowBox[{"(*", 
+    RowBox[{
+     RowBox[{"Index", " ", "the", " ", "non"}], "-", 
+     RowBox[{"empty", " ", "utterance", " ", "lines"}]}], "*)"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"nonEmptyUtteranceLines", "[", 
+      RowBox[{"[", "VS", "]"}], "]"}], "=", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{"Intersection", "[", 
+        RowBox[{
+         RowBox[{"Flatten", "[", 
+          RowBox[{"Position", "[", 
+           RowBox[{
+            RowBox[{
+             RowBox[{
+              RowBox[{"(", 
+               RowBox[{"StringMatchQ", "[", 
+                RowBox[{"#", ",", 
+                 RowBox[{"Verbatim", "[", "\"\<*\>\"", "]"}]}], "]"}], ")"}], 
+              "&"}], "/@", 
+             RowBox[{"transcriptCommands", "[", 
+              RowBox[{"[", "n", "]"}], "]"}]}], ",", "True"}], "]"}], "]"}], 
+         ",", 
+         RowBox[{"Flatten", "[", 
+          RowBox[{"Position", "[", 
+           RowBox[{
+            RowBox[{"Length", "/@", 
+             RowBox[{"transcriptWords", "[", 
+              RowBox[{"[", "n", "]"}], "]"}]}], ",", 
+            RowBox[{"Except", "[", "0", "]"}]}], "]"}], "]"}]}], "]"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"n", ",", "VS"}], "}"}]}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{"(*", 
+    RowBox[{
+     RowBox[{"Index", " ", "the", " ", "non"}], "-", 
+     RowBox[{"child", " ", "participant", " ", "utterance", " ", "lines"}]}], 
+    "*)"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"nonChildParticipantUtteranceLines", "[", 
+      RowBox[{"[", "VS", "]"}], "]"}], "=", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{"Flatten", "[", 
+        RowBox[{"Position", "[", 
+         RowBox[{
+          RowBox[{
+           RowBox[{
+            RowBox[{"(", 
+             RowBox[{"StringMatchQ", "[", 
+              RowBox[{"#", ",", 
+               RowBox[{"transcriptUniqueNonChildParticipants", "[", 
+                RowBox[{"[", "n", "]"}], "]"}]}], "]"}], ")"}], "&"}], "/@", 
+           RowBox[{"transcriptLineParticipants", "[", 
+            RowBox[{"[", "n", "]"}], "]"}]}], ",", "True"}], "]"}], "]"}], 
+       ",", 
+       RowBox[{"{", 
+        RowBox[{"n", ",", "VS"}], "}"}]}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{"(*", 
+    RowBox[{
+     RowBox[{"Index", " ", "the", " ", "non"}], "-", 
+     RowBox[{"empty", " ", "non"}], "-", 
+     RowBox[{"child", " ", "participant", " ", "utterance", " ", "lines"}]}], 
+    "*)"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"nonEmptyNonChildParticipantUtteranceLines", "[", 
+      RowBox[{"[", "VS", "]"}], "]"}], "=", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{"Intersection", "[", 
+        RowBox[{
+         RowBox[{"nonEmptyUtteranceLines", "[", 
+          RowBox[{"[", "n", "]"}], "]"}], ",", 
+         RowBox[{"nonChildParticipantUtteranceLines", "[", 
+          RowBox[{"[", "n", "]"}], "]"}]}], "]"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"n", ",", "VS"}], "}"}]}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{"(*", 
+    RowBox[{"Export", " ", "Error", " ", "Logs"}], "*)"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"longSeparator", "=", 
+     RowBox[{"StringRepeat", "[", 
+      RowBox[{"\"\<*\>\"", ",", "50"}], "]"}]}], ";"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"printVersionName", "=", 
+     RowBox[{
+     "longSeparator", "<>", 
+      "\"\<\\nGenerated by LEAP LAB chat file checker, version \>\"", "<>", 
+      "VERSIONNUMBER", "<>", 
+      "\"\<\\nOptimised for checking narration transcripts of \\\"Have you \
+seen my ducklings\\\".\\nLimited support for other types of \
+transcripts.\\nDeveloped by Li Yezhou.\\nUpdated \>\"", "<>", "RELEASEDATE", 
+      "<>", "\"\<.\\n\>\"", "<>", "longSeparator", "<>", "\"\<\\n\\n\>\""}]}],
+     ";"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"noErrorMessage", "=", "\"\<No Error Found!\\n\\n\>\""}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"printAllPossibleError", "=", 
+     RowBox[{
+     "\"\<All possible error types currently supported are as follow:\\n\>\"",
+       "<>", 
+      RowBox[{"StringRiffle", "[", 
+       RowBox[{"errorMessageList", ",", "\"\<\\n\>\""}], "]"}]}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"printSubstitutionTable", "=", 
+     RowBox[{"StringReplace", "[", 
+      RowBox[{
+       RowBox[{"StringReplace", "[", 
+        RowBox[{
+         RowBox[{"StringRiffle", "[", 
+          RowBox[{
+           RowBox[{
+            RowBox[{
+             RowBox[{
+              RowBox[{"If", "[", 
+               RowBox[{
+                RowBox[{
+                 RowBox[{"ToString", "[", "#2", "]"}], "\[NotEqual]", 
+                 "\"\<\>\""}], ",", 
+                RowBox[{"\"\<Changed \>\"", "<>", "\"\<\:25ca\>\"", "<>", 
+                 RowBox[{"ToString", "[", "#1", "]"}], "<>", "\"\<\:25ca\>\"",
+                  "<>", "\"\< to \>\"", "<>", "\"\<\:25ca\>\"", "<>", 
+                 RowBox[{"ToString", "[", "#2", "]"}], "<>", 
+                 "\"\<\:25ca\>\""}], ",", 
+                RowBox[{
+                "\"\<Removed all \>\"", "<>", "\"\<\:25ca\>\"", "<>", 
+                 RowBox[{"ToString", "[", "#1", "]"}], "<>", 
+                 "\"\<\:25ca\>\""}]}], "]"}], "<>", "\"\<\\t\\t\>\"", "<>", 
+              "#3"}], "&"}], "@@@", "removalSubstitutionTable"}], ",", 
+           "\"\<\\n\>\""}], "]"}], ",", 
+         RowBox[{"{", 
+          RowBox[{
+           RowBox[{"Shortest", "[", 
+            RowBox[{"\"\<Shortest[\>\"", "~~", 
+             RowBox[{"x", ":", "__"}], "~~", "\"\<]\>\""}], "]"}], "\[Rule]", 
+           "x"}], "}"}]}], "]"}], ",", 
+       RowBox[{"\"\<~\>\"", "\[Rule]", "\"\<\>\""}]}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{"Do", "[", 
+    RowBox[{
+     RowBox[{"Module", "[", 
+      RowBox[{
+       RowBox[{"{", "}"}], ",", "\[IndentingNewLine]", 
+       RowBox[{"Export", "[", 
+        RowBox[{
+         RowBox[{"FileNameJoin", "[", 
+          RowBox[{"{", 
+           RowBox[{"errorLogsFolder", ",", 
+            RowBox[{"If", "[", 
+             RowBox[{"standardExportName", ",", 
+              RowBox[{"\"\<VS\>\"", "<>", 
+               RowBox[{"IntegerString", "[", 
+                RowBox[{"n", ",", "10", ",", "3"}], "]"}], "<>", 
+               "\"\<_Error_Logs.txt\>\""}], ",", 
+              RowBox[{
+               RowBox[{"transcriptFileBaseNames", "[", 
+                RowBox[{"[", "n", "]"}], "]"}], "<>", 
+               "\"\<_Error_Logs.txt\>\""}]}], "]"}]}], "}"}], "]"}], ",", 
+         RowBox[{
+         "printVersionName", "<>", 
+          "\"\<*Transcript Information*\\nFile Name:  \>\"", "<>", 
+          RowBox[{"FileNameTake", "[", 
+           RowBox[{"transcriptFilesPrint", "[", 
+            RowBox[{"[", "n", "]"}], "]"}], "]"}], "<>", "\"\<\\n\>\"", "<>", 
+          "\"\<VS Reference Number:  VS\>\"", "<>", 
+          RowBox[{"IntegerString", "[", 
+           RowBox[{"n", ",", "10", ",", "3"}], "]"}], "<>", 
+          "\"\<\\n\\n*Error Information*\\n\>\"", "<>", 
+          RowBox[{"If", "[", 
+           RowBox[{
+            RowBox[{
+             RowBox[{"errorLogs", "[", 
+              RowBox[{"[", "n", "]"}], "]"}], "\[NotEqual]", "\"\<\>\""}], 
+            ",", 
+            RowBox[{"errorLogs", "[", 
+             RowBox[{"[", "n", "]"}], "]"}], ",", "noErrorMessage"}], "]"}], 
+          "<>", "\"\<*Appendix 1*\\n\>\"", "<>", "printAllPossibleError", 
+          "<>", "\"\<\\n\\n*Appendix 2*\\n\>\"", "<>", 
+          
+          "\"\<The following transformations have been applied to the \
+transcripts (\:25ca shows string boundary)\\n\>\"", "<>", 
+          "printSubstitutionTable"}]}], "]"}]}], "\[IndentingNewLine]", "]"}],
+      ",", 
+     RowBox[{"{", 
+      RowBox[{"n", ",", "VS"}], "}"}]}], "]"}]}]}]], "Input",
+ CellChangeTimes->{{3.693704848812245*^9, 3.6937048563879747`*^9}, {
+   3.693705180394073*^9, 3.693705219042163*^9}, {3.6937052493904543`*^9, 
+   3.693705305468459*^9}, {3.693705414369897*^9, 3.6937054167744083`*^9}, {
+   3.693705739387856*^9, 3.693705753288501*^9}, {3.693705790487409*^9, 
+   3.6937059385736856`*^9}, {3.693706181059553*^9, 3.6937062136643887`*^9}, {
+   3.693706320429563*^9, 3.693706495474058*^9}, {3.6937076438432217`*^9, 
+   3.693707660143902*^9}, {3.6937080333316298`*^9, 3.6937080563235493`*^9}, {
+   3.693708143535211*^9, 3.693708146606876*^9}, {3.693708278471929*^9, 
+   3.6937082989663677`*^9}, {3.6937085039679737`*^9, 3.693708527622651*^9}, {
+   3.6937086242354593`*^9, 3.6937087743294697`*^9}, {3.693709358506205*^9, 
+   3.69370935895154*^9}, {3.693711533049528*^9, 3.693711542354335*^9}, {
+   3.693711626963163*^9, 3.693711630698283*^9}, {3.693711675800571*^9, 
+   3.693711682367025*^9}, {3.693711831201391*^9, 3.693711832446089*^9}, {
+   3.693712521841543*^9, 3.693712532835787*^9}, {3.693712606897954*^9, 
+   3.693712672967506*^9}, {3.693712741283761*^9, 3.6937127444969873`*^9}, {
+   3.693712778546248*^9, 3.693712780238962*^9}, {3.6937128262532883`*^9, 
+   3.693712854070139*^9}, {3.693713715312015*^9, 3.693713721434688*^9}, {
+   3.693716754844472*^9, 3.693716871524746*^9}, {3.6937169835057907`*^9, 
+   3.693717040131462*^9}, {3.693717651738649*^9, 3.6937176681836967`*^9}, {
+   3.693717831713181*^9, 3.6937178923979073`*^9}, {3.6937179995512733`*^9, 
+   3.693718262664033*^9}, {3.693718299728231*^9, 3.693718312821598*^9}, {
+   3.693718374269765*^9, 3.693718383089142*^9}, {3.693718454600204*^9, 
+   3.6937185072788687`*^9}, {3.693718552490981*^9, 3.6937185758305893`*^9}, {
+   3.693718626637498*^9, 3.693718671624301*^9}, {3.693718709273218*^9, 
+   3.693718847198357*^9}, {3.693718890570369*^9, 3.693718893204856*^9}, {
+   3.693726351095047*^9, 3.693726440470817*^9}, {3.69373111528907*^9, 
+   3.6937311439659033`*^9}, {3.6937312168505383`*^9, 
+   3.6937312683055353`*^9}, {3.6937313974850283`*^9, 3.693731397663892*^9}, 
+   3.6937314756038733`*^9, {3.6937315083269567`*^9, 3.693731530242427*^9}, {
+   3.693731595895454*^9, 3.6937316245550327`*^9}, {3.693731693154655*^9, 
+   3.693731764424849*^9}, {3.693731890005722*^9, 3.6937319972441683`*^9}, {
+   3.693732075430459*^9, 3.69373216963857*^9}, {3.693732200436409*^9, 
+   3.693732617533513*^9}, {3.6937327193278418`*^9, 3.693732756834676*^9}, {
+   3.693732860225877*^9, 3.693732895933381*^9}, 3.693732933778303*^9, {
+   3.693733079357695*^9, 3.693733148266815*^9}, {3.69373337499083*^9, 
+   3.693733395806624*^9}, {3.693733555815103*^9, 3.6937336169863567`*^9}, 
+   3.6937336555226507`*^9, {3.693733716814582*^9, 3.693733723883748*^9}, {
+   3.693733759265812*^9, 3.693733798421543*^9}, {3.693733876650737*^9, 
+   3.693733889584502*^9}, {3.6937344456458406`*^9, 3.6937344552627563`*^9}, {
+   3.6937344855200787`*^9, 3.69373450743591*^9}, {3.6937346802081947`*^9, 
+   3.693734851828807*^9}, {3.693734884354103*^9, 3.6937349565048237`*^9}, {
+   3.693735011779551*^9, 3.693735052360959*^9}, {3.693735087419931*^9, 
+   3.693735111702128*^9}, {3.693735200773978*^9, 3.693735201544525*^9}, {
+   3.693735319811778*^9, 3.6937353230493793`*^9}, {3.6937359745357237`*^9, 
+   3.6937360005321207`*^9}, {3.693736089238097*^9, 3.693736109789791*^9}, {
+   3.69373614351083*^9, 3.693736152590931*^9}, {3.693736193675447*^9, 
+   3.693736195317194*^9}, {3.6937365164985933`*^9, 3.69373661673949*^9}, {
+   3.693736679188065*^9, 3.693736792643909*^9}, {3.6937368409198027`*^9, 
+   3.693736848363443*^9}, {3.6937368880616503`*^9, 3.693736943643384*^9}, {
+   3.693737036776906*^9, 3.69373707304534*^9}, {3.693737217218066*^9, 
+   3.693737221593083*^9}, {3.6937372725488453`*^9, 3.693737331775312*^9}, {
+   3.693737402120306*^9, 3.693737407329483*^9}, {3.6937374970898*^9, 
+   3.6937375149540052`*^9}, {3.693737579296941*^9, 3.693737598981604*^9}, {
+   3.693737650366724*^9, 3.693737652812503*^9}, {3.693737695046523*^9, 
+   3.693737699419828*^9}, 3.694141598819097*^9, {3.6941416575715714`*^9, 
+   3.69414166276552*^9}, {3.69414175211541*^9, 3.6941417526347923`*^9}, {
+   3.694141787603141*^9, 3.69414192114281*^9}, {3.6941420045508633`*^9, 
+   3.694142030194681*^9}, {3.694142129693986*^9, 3.6941421553399076`*^9}, {
+   3.694142225400715*^9, 3.6941422871688643`*^9}, {3.6941424275993643`*^9, 
+   3.694142431844842*^9}, {3.694142712794343*^9, 3.694142720101882*^9}, {
+   3.694142779589369*^9, 3.694142815807147*^9}, {3.694142851610222*^9, 
+   3.694142852698649*^9}, {3.694142915257456*^9, 3.694142983733667*^9}, {
+   3.69414311106408*^9, 3.6941431204730053`*^9}, {3.694143181664711*^9, 
+   3.6941431822680883`*^9}, {3.694143218548409*^9, 3.694143236296734*^9}, {
+   3.694143269771504*^9, 3.6941432842128897`*^9}, {3.694143350509389*^9, 
+   3.6941433927420883`*^9}, {3.6941435835024776`*^9, 3.694143586301032*^9}, {
+   3.694143641936968*^9, 3.6941436706795797`*^9}, {3.694143712128323*^9, 
+   3.694143869922675*^9}, {3.694143918657976*^9, 3.694144116355259*^9}, {
+   3.694144149258863*^9, 3.694144202955785*^9}, {3.6941442705976152`*^9, 
+   3.694144275614011*^9}, {3.694144366780971*^9, 3.694144383917789*^9}, {
+   3.694144553562681*^9, 3.6941447648193417`*^9}, {3.6941447962020283`*^9, 
+   3.6941448062941837`*^9}, {3.694144952947489*^9, 3.694144969023644*^9}, {
+   3.694145006076386*^9, 3.694145061156201*^9}, {3.694145329159191*^9, 
+   3.694145424017014*^9}, {3.694145643184284*^9, 3.6941456640942717`*^9}, {
+   3.694145715314987*^9, 3.694145721495069*^9}, {3.694145937625736*^9, 
+   3.6941460236207314`*^9}, {3.694146166688118*^9, 3.694146169356992*^9}, 
+   3.694146206428508*^9, {3.694146375721479*^9, 3.69414637914501*^9}, 
+   3.6941464914120502`*^9, {3.69414751443545*^9, 3.6941475184115143`*^9}, {
+   3.694147565675858*^9, 3.69414758643015*^9}, {3.694150875318974*^9, 
+   3.694150916744796*^9}, {3.6943228153088217`*^9, 3.69432281871557*^9}, {
+   3.694323319880227*^9, 3.694323320687693*^9}, {3.6943233510856943`*^9, 
+   3.6943233564525967`*^9}, {3.6943235154878807`*^9, 
+   3.6943235389706697`*^9}, {3.694323768781818*^9, 3.6943237924710093`*^9}, 
+   3.6943243359096622`*^9, {3.6943250880301733`*^9, 3.69432510065383*^9}, {
+   3.6943252360117073`*^9, 3.694325239932448*^9}, {3.69432532965831*^9, 
+   3.6943253768776503`*^9}, {3.69432549099125*^9, 3.6943256183549633`*^9}, {
+   3.694767573884186*^9, 3.694767608979814*^9}, {3.694767651415473*^9, 
+   3.694767673843658*^9}, {3.694768147250454*^9, 3.694768159559743*^9}, {
+   3.694768300329776*^9, 3.694768336628056*^9}, {3.694768379349793*^9, 
+   3.694768385829234*^9}, {3.6947684259349813`*^9, 3.6947684599167433`*^9}, {
+   3.694768511598207*^9, 3.694768609627293*^9}, 3.694768896135026*^9, {
+   3.694769420438079*^9, 3.694769422965864*^9}, {3.6947694589882383`*^9, 
+   3.694769476403359*^9}, {3.694769669565855*^9, 3.694769738646017*^9}, {
+   3.6947699266690607`*^9, 3.694769957997325*^9}, {3.6947701489733133`*^9, 
+   3.69477016308176*^9}, {3.6947708403159113`*^9, 3.694770840436195*^9}, {
+   3.694771556602726*^9, 3.694771571352517*^9}, {3.6947716114338827`*^9, 
+   3.6947716767257357`*^9}, {3.694771715946916*^9, 3.694771718385895*^9}, {
+   3.694771865844895*^9, 3.6947718869070377`*^9}, {3.694817730117921*^9, 
+   3.6948177517241*^9}, {3.694817782662031*^9, 3.694817782931431*^9}, 
+   3.694817956469602*^9, {3.694818388503883*^9, 3.694818391998014*^9}, {
+   3.694818496345669*^9, 3.694818562141501*^9}, {3.694818645456712*^9, 
+   3.694818698617093*^9}, {3.694819479243372*^9, 3.69481957271527*^9}, {
+   3.694819911371562*^9, 3.694819987855577*^9}, {3.694839115105402*^9, 
+   3.694839408811578*^9}, {3.694839444115263*^9, 3.6948394639993553`*^9}, {
+   3.694839505941196*^9, 3.6948398425965443`*^9}, {3.694839880396049*^9, 
+   3.6948398996135893`*^9}, {3.694839950914109*^9, 3.69483999077356*^9}, {
+   3.694840027855948*^9, 3.6948401555062838`*^9}, {3.694840213237311*^9, 
+   3.694840237035714*^9}, {3.694840274386306*^9, 3.694840302811214*^9}, {
+   3.6948403600715723`*^9, 3.6948403904989567`*^9}, {3.694840613168069*^9, 
+   3.694840722955729*^9}, {3.694840774272183*^9, 3.694841160686637*^9}, {
+   3.694841194822653*^9, 3.6948411953104553`*^9}, {3.694842149734293*^9, 
+   3.694842161742165*^9}, {3.69484266354449*^9, 3.6948426646336117`*^9}, {
+   3.694842914681384*^9, 3.6948429581658983`*^9}, 3.694844003305594*^9, {
+   3.694857771130766*^9, 3.6948577747644787`*^9}, {3.694859090391902*^9, 
+   3.694859114808845*^9}, {3.694859156237008*^9, 3.69485918072831*^9}, {
+   3.6952675712173367`*^9, 3.6952675729127417`*^9}, {3.695267618124741*^9, 
+   3.695267620995615*^9}, {3.695267682120685*^9, 3.695267694979382*^9}, {
+   3.695290431044715*^9, 3.695290434492928*^9}, {3.695290519395135*^9, 
+   3.6952906282142277`*^9}, {3.69529072737253*^9, 3.6952907608568487`*^9}, {
+   3.695290809599721*^9, 3.69529081269473*^9}, {3.695290941924692*^9, 
+   3.695290944924973*^9}, 3.695290976324833*^9, {3.695291070363018*^9, 
+   3.6952910719676847`*^9}, {3.695291151581039*^9, 3.695291161372395*^9}, {
+   3.695291313854287*^9, 3.695291341854678*^9}, {3.695291827589518*^9, 
+   3.695291830281595*^9}, {3.6952918721246862`*^9, 3.695291888612784*^9}, {
+   3.695291932271318*^9, 3.695291936228841*^9}, {3.6952923484705057`*^9, 
+   3.695292385257854*^9}, {3.695292566350045*^9, 3.695292583505042*^9}, {
+   3.6952927661075497`*^9, 3.6952927665382833`*^9}, {3.695292890448267*^9, 
+   3.695292895276222*^9}, {3.695292967185195*^9, 3.6952929683053703`*^9}, 
+   3.695293144699733*^9, 3.695293235182613*^9, {3.695293313729211*^9, 
+   3.695293318365859*^9}, {3.695293615895385*^9, 3.695293648830131*^9}, {
+   3.6952937788337593`*^9, 3.695293809574067*^9}, {3.695293916081819*^9, 
+   3.695293923746697*^9}, {3.695294857339576*^9, 3.695294865113989*^9}, {
+   3.695294896253449*^9, 3.695294943211788*^9}, {3.695294977533643*^9, 
+   3.695295001006444*^9}, {3.69529525019418*^9, 3.695295405941464*^9}, {
+   3.695295451372942*^9, 3.6952954777354097`*^9}, {3.695295531100212*^9, 
+   3.69529557469139*^9}, {3.695299368836503*^9, 3.6952993941314583`*^9}, {
+   3.6952994538867493`*^9, 3.695299481741605*^9}, 3.695299677208762*^9, {
+   3.69529999068793*^9, 3.695300144621571*^9}, {3.695300176704158*^9, 
+   3.695300194518147*^9}, {3.695300295773213*^9, 3.69530032747682*^9}, {
+   3.695300361182501*^9, 3.6953003613989964`*^9}, {3.695348148278675*^9, 
+   3.695348169493621*^9}, {3.695425238388479*^9, 3.695425263004195*^9}, {
+   3.6954252962582617`*^9, 3.695425418004383*^9}, {3.6954255547112007`*^9, 
+   3.695425566105901*^9}, 3.6954351539972277`*^9, {3.695435589297188*^9, 
+   3.695435615195784*^9}, {3.69543576178485*^9, 3.695435773840335*^9}, 
+   3.6968564996490383`*^9, {3.696857497941867*^9, 3.69685750273706*^9}, {
+   3.696857700932826*^9, 3.696857711836193*^9}, {3.696858345278801*^9, 
+   3.696858363208001*^9}, {3.696858484505546*^9, 3.69685849613124*^9}, 
+   3.696858641597189*^9, {3.696858840592507*^9, 3.696858856375153*^9}, {
+   3.696858957922008*^9, 3.696858964649013*^9}, {3.696859198446813*^9, 
+   3.6968591986361713`*^9}, {3.696859295318919*^9, 3.6968593361599607`*^9}, {
+   3.696859445115172*^9, 3.696859446311226*^9}, {3.69685966494771*^9, 
+   3.696859665123157*^9}, {3.696859928055591*^9, 3.696859935747558*^9}, {
+   3.696860326369966*^9, 3.696860341208014*^9}, {3.6973504296002827`*^9, 
+   3.6973504405491467`*^9}, {3.697350492374776*^9, 3.697350518089837*^9}, {
+   3.697350696093031*^9, 3.697350740475177*^9}, {3.6975323270532846`*^9, 
+   3.697532332570073*^9}, {3.697532377350504*^9, 3.6975323826651287`*^9}, {
+   3.6975324344861917`*^9, 3.697532440327217*^9}, {3.6975325181845913`*^9, 
+   3.697532539639873*^9}, 3.697532608509263*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Import","nffil",
+   "\"File not found during \\!\\(\\*RowBox[{\\\"Import\\\"}]\\).\"",2,171,
+   100,26072572745650510257,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.697532496337048*^9, 3.6975325432036123`*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Flatten","normal",
+   "\"Nonatomic expression expected at position \
+\\!\\(\\*RowBox[{\\\"1\\\"}]\\) in \\!\\(\\*RowBox[{\\\"Flatten\\\", \
+\\\"[\\\", \\\"$Failed\\\", \\\"]\\\"}]\\).\"",2,171,101,26072572745650510257,
+   "Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.697532496337048*^9, 3.697532543222031*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "StringReplace","strse",
+   "\"String or list of strings expected at position \\!\\(\\*RowBox[{\\\"1\\\
+\"}]\\) in \\!\\(\\*RowBox[{\\\"StringReplace\\\", \\\"[\\\", \
+RowBox[{\\\"$Failed\\\", \\\",\\\", RowBox[{\\\"\\\\\\\"VS\\\\\\\"\\\", \\\"\
+\[Rule]\\\", \\\"\\\\\\\"\\\\\\\"\\\"}]}], \\\"]\\\"}]\\).\"",2,172,102,
+   26072572745650510257,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.697532496337048*^9, 3.697532543237266*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "ToExpression","notstrbox",
+   "\"\\!\\(\\*RowBox[{\\\"StringReplace\\\", \\\"[\\\", \
+RowBox[{\\\"$Failed\\\", \\\",\\\", RowBox[{\\\"\\\\\\\"VS\\\\\\\"\\\", \\\"\
+\[Rule]\\\", \\\"\\\\\\\"\\\\\\\"\\\"}]}], \\\"]\\\"}]\\) is not a string or \
+a box. ToExpression can only interpret strings or boxes as Wolfram Language \
+input.\"",2,172,103,26072572745650510257,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.697532496337048*^9, 3.697532543252738*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Set","pkspec1",
+   "\"The expression \\!\\(\\*RowBox[{\\\"$Failed\\\"}]\\) cannot be used as \
+a part specification.\"",2,172,104,26072572745650510257,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.697532496337048*^9, 3.697532543268702*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Part","pkspec1",
+   "\"The expression \\!\\(\\*RowBox[{\\\"$Failed\\\"}]\\) cannot be used as \
+a part specification.\"",2,173,105,26072572745650510257,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.697532496337048*^9, 3.6975325432845078`*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "StringJoin","string",
+   "\"String expected at position \\!\\(\\*RowBox[{\\\"2\\\"}]\\) in \
+\\!\\(\\*RowBox[{\\\"\\\\\\\"___~~\\\\\\\\\\\\\\\"\\\\\\\"\\\", \\\"<>\\\", \
+\\\"$Failed\\\", \\\"<>\\\", \
+\\\"\\\\\\\"\\\\\\\\\\\\\\\"~~___\\\\\\\"\\\"}]\\).\"",2,173,106,
+   26072572745650510257,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.697532496337048*^9, 3.6975325433008337`*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "ToExpression","notstrbox",
+   "\"\\!\\(\\*RowBox[{\\\"\\\\\\\"___~~\\\\\\\\\\\\\\\"\\\\\\\"\\\", \
+\\\"<>\\\", \\\"$Failed\\\", \\\"<>\\\", \
+\\\"\\\\\\\"\\\\\\\\\\\\\\\"~~___\\\\\\\"\\\"}]\\) is not a string or a box. \
+ToExpression can only interpret strings or boxes as Wolfram Language \
+input.\"",2,173,107,26072572745650510257,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.697532496337048*^9, 3.697532543317162*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Part","pkspec1",
+   "\"The expression \\!\\(\\*RowBox[{\\\"$Failed\\\"}]\\) cannot be used as \
+a part specification.\"",2,173,108,26072572745650510257,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.697532496337048*^9, 3.697532543333474*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Set","pkspec1",
+   "\"The expression \\!\\(\\*RowBox[{\\\"$Failed\\\"}]\\) cannot be used as \
+a part specification.\"",2,173,109,26072572745650510257,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.697532496337048*^9, 3.6975325433496857`*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Table","iterb",
+   "\"Iterator \\!\\(\\*RowBox[{\\\"{\\\", RowBox[{\\\"n\\\", \\\",\\\", \
+\\\"$Failed\\\"}], \\\"}\\\"}]\\) does not have appropriate bounds.\"",2,176,
+   110,26072572745650510257,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.697532496337048*^9, 3.6975325433665*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Table","iterb",
+   "\"Iterator \\!\\(\\*RowBox[{\\\"{\\\", RowBox[{\\\"n\\\", \\\",\\\", \
+\\\"$Failed\\\"}], \\\"}\\\"}]\\) does not have appropriate bounds.\"",2,176,
+   111,26072572745650510257,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.697532496337048*^9, 3.697532543383234*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Set","pkspec1",
+   "\"The expression \\!\\(\\*RowBox[{\\\"$Failed\\\"}]\\) cannot be used as \
+a part specification.\"",2,176,112,26072572745650510257,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.697532496337048*^9, 3.6975325433997393`*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Part","pkspec1",
+   "\"The expression \\!\\(\\*RowBox[{\\\"$Failed\\\"}]\\) cannot be used as \
+a part specification.\"",2,178,113,26072572745650510257,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.697532496337048*^9, 3.697532543415926*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Part","pkspec1",
+   "\"The expression \\!\\(\\*RowBox[{\\\"FileBaseName\\\", \\\"[\\\", \
+\\\"$Failed\\\", \\\"]\\\"}]\\) cannot be used as a part specification.\"",2,
+   178,114,26072572745650510257,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.697532496337048*^9, 3.697532543432222*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Set","pkspec1",
+   "\"The expression \\!\\(\\*RowBox[{\\\"$Failed\\\"}]\\) cannot be used as \
+a part specification.\"",2,178,115,26072572745650510257,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.697532496337048*^9, 3.697532543449004*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Set","pkspec1",
+   "\"The expression \\!\\(\\*RowBox[{\\\"$Failed\\\"}]\\) cannot be used as \
+a part specification.\"",2,179,116,26072572745650510257,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.697532496337048*^9, 3.6975325434651127`*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Table","iterb",
+   "\"Iterator \\!\\(\\*RowBox[{\\\"{\\\", RowBox[{\\\"n\\\", \\\",\\\", \
+\\\"$Failed\\\"}], \\\"}\\\"}]\\) does not have appropriate bounds.\"",2,180,
+   117,26072572745650510257,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.697532496337048*^9, 3.6975325434810963`*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Table","iterb",
+   "\"Iterator \\!\\(\\*RowBox[{\\\"{\\\", RowBox[{\\\"n\\\", \\\",\\\", \
+\\\"$Failed\\\"}], \\\"}\\\"}]\\) does not have appropriate bounds.\"",2,180,
+   118,26072572745650510257,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.697532496337048*^9, 3.697532543494318*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Set","pkspec1",
+   "\"The expression \\!\\(\\*RowBox[{\\\"$Failed\\\"}]\\) cannot be used as \
+a part specification.\"",2,180,119,26072572745650510257,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.697532496337048*^9, 3.697532543508101*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Table","iterb",
+   "\"Iterator \\!\\(\\*RowBox[{\\\"{\\\", RowBox[{\\\"n\\\", \\\",\\\", \
+\\\"$Failed\\\"}], \\\"}\\\"}]\\) does not have appropriate bounds.\"",2,181,
+   120,26072572745650510257,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.697532496337048*^9, 3.697532543522121*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Table","iterb",
+   "\"Iterator \\!\\(\\*RowBox[{\\\"{\\\", RowBox[{\\\"n\\\", \\\",\\\", \
+\\\"$Failed\\\"}], \\\"}\\\"}]\\) does not have appropriate bounds.\"",2,181,
+   121,26072572745650510257,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.697532496337048*^9, 3.6975325435359163`*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Set","pkspec1",
+   "\"The expression \\!\\(\\*RowBox[{\\\"$Failed\\\"}]\\) cannot be used as \
+a part specification.\"",2,181,122,26072572745650510257,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.697532496337048*^9, 3.6975325435494328`*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Table","iterb",
+   "\"Iterator \\!\\(\\*RowBox[{\\\"{\\\", RowBox[{\\\"n\\\", \\\",\\\", \
+\\\"$Failed\\\"}], \\\"}\\\"}]\\) does not have appropriate bounds.\"",2,190,
+   123,26072572745650510257,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.697532496337048*^9, 3.69753254366743*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Table","iterb",
+   "\"Iterator \\!\\(\\*RowBox[{\\\"{\\\", RowBox[{\\\"n\\\", \\\",\\\", \
+\\\"$Failed\\\"}], \\\"}\\\"}]\\) does not have appropriate bounds.\"",2,190,
+   124,26072572745650510257,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.697532496337048*^9, 3.6975325436866293`*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Set","pkspec1",
+   "\"The expression \\!\\(\\*RowBox[{\\\"$Failed\\\"}]\\) cannot be used as \
+a part specification.\"",2,190,125,26072572745650510257,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.697532496337048*^9, 3.697532543704492*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Table","iterb",
+   "\"Iterator \\!\\(\\*RowBox[{\\\"{\\\", RowBox[{\\\"n\\\", \\\",\\\", \
+\\\"$Failed\\\"}], \\\"}\\\"}]\\) does not have appropriate bounds.\"",2,192,
+   126,26072572745650510257,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.697532496337048*^9, 3.697532543722685*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Table","iterb",
+   "\"Iterator \\!\\(\\*RowBox[{\\\"{\\\", RowBox[{\\\"n\\\", \\\",\\\", \
+\\\"$Failed\\\"}], \\\"}\\\"}]\\) does not have appropriate bounds.\"",2,192,
+   127,26072572745650510257,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.697532496337048*^9, 3.697532543739871*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Set","pkspec1",
+   "\"The expression \\!\\(\\*RowBox[{\\\"$Failed\\\"}]\\) cannot be used as \
+a part specification.\"",2,192,128,26072572745650510257,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.697532496337048*^9, 3.697532543757793*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Table","iterb",
+   "\"Iterator \\!\\(\\*RowBox[{\\\"{\\\", RowBox[{\\\"n\\\", \\\",\\\", \
+\\\"$Failed\\\"}], \\\"}\\\"}]\\) does not have appropriate bounds.\"",2,193,
+   129,26072572745650510257,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.697532496337048*^9, 3.697532543776359*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Table","iterb",
+   "\"Iterator \\!\\(\\*RowBox[{\\\"{\\\", RowBox[{\\\"n\\\", \\\",\\\", \
+\\\"$Failed\\\"}], \\\"}\\\"}]\\) does not have appropriate bounds.\"",2,193,
+   130,26072572745650510257,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.697532496337048*^9, 3.6975325437948027`*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Set","pkspec1",
+   "\"The expression \\!\\(\\*RowBox[{\\\"$Failed\\\"}]\\) cannot be used as \
+a part specification.\"",2,193,131,26072572745650510257,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.697532496337048*^9, 3.697532543813765*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Table","iterb",
+   "\"Iterator \\!\\(\\*RowBox[{\\\"{\\\", RowBox[{\\\"n\\\", \\\",\\\", \
+\\\"$Failed\\\"}], \\\"}\\\"}]\\) does not have appropriate bounds.\"",2,194,
+   132,26072572745650510257,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.697532496337048*^9, 3.697532543832654*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Table","iterb",
+   "\"Iterator \\!\\(\\*RowBox[{\\\"{\\\", RowBox[{\\\"n\\\", \\\",\\\", \
+\\\"$Failed\\\"}], \\\"}\\\"}]\\) does not have appropriate bounds.\"",2,194,
+   133,26072572745650510257,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.697532496337048*^9, 3.697532543839575*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Set","pkspec1",
+   "\"The expression \\!\\(\\*RowBox[{\\\"$Failed\\\"}]\\) cannot be used as \
+a part specification.\"",2,194,134,26072572745650510257,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.697532496337048*^9, 3.697532543855042*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Table","iterb",
+   "\"Iterator \\!\\(\\*RowBox[{\\\"{\\\", RowBox[{\\\"n\\\", \\\",\\\", \
+\\\"$Failed\\\"}], \\\"}\\\"}]\\) does not have appropriate bounds.\"",2,195,
+   135,26072572745650510257,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.697532496337048*^9, 3.697532543870927*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Table","iterb",
+   "\"Iterator \\!\\(\\*RowBox[{\\\"{\\\", RowBox[{\\\"n\\\", \\\",\\\", \
+\\\"$Failed\\\"}], \\\"}\\\"}]\\) does not have appropriate bounds.\"",2,195,
+   136,26072572745650510257,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.697532496337048*^9, 3.69753254388657*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Set","pkspec1",
+   "\"The expression \\!\\(\\*RowBox[{\\\"$Failed\\\"}]\\) cannot be used as \
+a part specification.\"",2,195,137,26072572745650510257,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.697532496337048*^9, 3.6975325439016447`*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Table","iterb",
+   "\"Iterator \\!\\(\\*RowBox[{\\\"{\\\", RowBox[{\\\"n\\\", \\\",\\\", \
+\\\"$Failed\\\"}], \\\"}\\\"}]\\) does not have appropriate bounds.\"",2,198,
+   138,26072572745650510257,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.697532496337048*^9, 3.697532543916834*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Table","iterb",
+   "\"Iterator \\!\\(\\*RowBox[{\\\"{\\\", RowBox[{\\\"n\\\", \\\",\\\", \
+\\\"$Failed\\\"}], \\\"}\\\"}]\\) does not have appropriate bounds.\"",2,198,
+   139,26072572745650510257,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.697532496337048*^9, 3.6975325439322433`*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Set","pkspec1",
+   "\"The expression \\!\\(\\*RowBox[{\\\"$Failed\\\"}]\\) cannot be used as \
+a part specification.\"",2,198,140,26072572745650510257,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.697532496337048*^9, 3.6975325439479313`*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Table","iterb",
+   "\"Iterator \\!\\(\\*RowBox[{\\\"{\\\", RowBox[{\\\"n\\\", \\\",\\\", \
+\\\"$Failed\\\"}], \\\"}\\\"}]\\) does not have appropriate bounds.\"",2,202,
+   141,26072572745650510257,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.697532496337048*^9, 3.69753254396462*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Table","iterb",
+   "\"Iterator \\!\\(\\*RowBox[{\\\"{\\\", RowBox[{\\\"n\\\", \\\",\\\", \
+\\\"$Failed\\\"}], \\\"}\\\"}]\\) does not have appropriate bounds.\"",2,202,
+   142,26072572745650510257,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.697532496337048*^9, 3.69753254398022*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Set","pkspec1",
+   "\"The expression \\!\\(\\*RowBox[{\\\"$Failed\\\"}]\\) cannot be used as \
+a part specification.\"",2,202,143,26072572745650510257,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.697532496337048*^9, 3.697532544079669*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Table","iterb",
+   "\"Iterator \\!\\(\\*RowBox[{\\\"{\\\", RowBox[{\\\"n\\\", \\\",\\\", \
+\\\"$Failed\\\"}], \\\"}\\\"}]\\) does not have appropriate bounds.\"",2,203,
+   144,26072572745650510257,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.697532496337048*^9, 3.6975325440939283`*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Table","iterb",
+   "\"Iterator \\!\\(\\*RowBox[{\\\"{\\\", RowBox[{\\\"n\\\", \\\",\\\", \
+\\\"$Failed\\\"}], \\\"}\\\"}]\\) does not have appropriate bounds.\"",2,203,
+   145,26072572745650510257,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.697532496337048*^9, 3.6975325441075478`*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Set","pkspec1",
+   "\"The expression \\!\\(\\*RowBox[{\\\"$Failed\\\"}]\\) cannot be used as \
+a part specification.\"",2,203,146,26072572745650510257,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.697532496337048*^9, 3.697532544121578*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Table","iterb",
+   "\"Iterator \\!\\(\\*RowBox[{\\\"{\\\", RowBox[{\\\"n\\\", \\\",\\\", \
+\\\"$Failed\\\"}], \\\"}\\\"}]\\) does not have appropriate bounds.\"",2,209,
+   147,26072572745650510257,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.697532496337048*^9, 3.6975325441357183`*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Table","iterb",
+   "\"Iterator \\!\\(\\*RowBox[{\\\"{\\\", RowBox[{\\\"n\\\", \\\",\\\", \
+\\\"$Failed\\\"}], \\\"}\\\"}]\\) does not have appropriate bounds.\"",2,209,
+   148,26072572745650510257,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.697532496337048*^9, 3.697532544149311*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Set","pkspec1",
+   "\"The expression \\!\\(\\*RowBox[{\\\"$Failed\\\"}]\\) cannot be used as \
+a part specification.\"",2,209,149,26072572745650510257,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.697532496337048*^9, 3.697532544163314*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Table","iterb",
+   "\"Iterator \\!\\(\\*RowBox[{\\\"{\\\", RowBox[{\\\"n\\\", \\\",\\\", \
+\\\"$Failed\\\"}], \\\"}\\\"}]\\) does not have appropriate bounds.\"",2,211,
+   150,26072572745650510257,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.697532496337048*^9, 3.697532544177081*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Table","iterb",
+   "\"Iterator \\!\\(\\*RowBox[{\\\"{\\\", RowBox[{\\\"n\\\", \\\",\\\", \
+\\\"$Failed\\\"}], \\\"}\\\"}]\\) does not have appropriate bounds.\"",2,211,
+   151,26072572745650510257,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.697532496337048*^9, 3.697532544191111*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Set","pkspec1",
+   "\"The expression \\!\\(\\*RowBox[{\\\"$Failed\\\"}]\\) cannot be used as \
+a part specification.\"",2,211,152,26072572745650510257,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.697532496337048*^9, 3.697532544205723*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Table","iterb",
+   "\"Iterator \\!\\(\\*RowBox[{\\\"{\\\", RowBox[{\\\"n\\\", \\\",\\\", \
+\\\"$Failed\\\"}], \\\"}\\\"}]\\) does not have appropriate bounds.\"",2,213,
+   153,26072572745650510257,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.697532496337048*^9, 3.697532544219421*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Table","iterb",
+   "\"Iterator \\!\\(\\*RowBox[{\\\"{\\\", RowBox[{\\\"n\\\", \\\",\\\", \
+\\\"$Failed\\\"}], \\\"}\\\"}]\\) does not have appropriate bounds.\"",2,213,
+   154,26072572745650510257,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.697532496337048*^9, 3.697532544233529*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Set","pkspec1",
+   "\"The expression \\!\\(\\*RowBox[{\\\"$Failed\\\"}]\\) cannot be used as \
+a part specification.\"",2,213,155,26072572745650510257,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.697532496337048*^9, 3.697532544246785*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Table","iterb",
+   "\"Iterator \\!\\(\\*RowBox[{\\\"{\\\", RowBox[{\\\"n\\\", \\\",\\\", \
+\\\"$Failed\\\"}], \\\"}\\\"}]\\) does not have appropriate bounds.\"",2,215,
+   156,26072572745650510257,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.697532496337048*^9, 3.6975325442605124`*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Table","iterb",
+   "\"Iterator \\!\\(\\*RowBox[{\\\"{\\\", RowBox[{\\\"n\\\", \\\",\\\", \
+\\\"$Failed\\\"}], \\\"}\\\"}]\\) does not have appropriate bounds.\"",2,215,
+   157,26072572745650510257,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.697532496337048*^9, 3.6975325442745247`*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Set","pkspec1",
+   "\"The expression \\!\\(\\*RowBox[{\\\"$Failed\\\"}]\\) cannot be used as \
+a part specification.\"",2,215,158,26072572745650510257,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.697532496337048*^9, 3.697532544288384*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Table","iterb",
+   "\"Iterator \\!\\(\\*RowBox[{\\\"{\\\", RowBox[{\\\"n\\\", \\\",\\\", \
+\\\"$Failed\\\"}], \\\"}\\\"}]\\) does not have appropriate bounds.\"",2,218,
+   159,26072572745650510257,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.697532496337048*^9, 3.697532544302127*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Table","iterb",
+   "\"Iterator \\!\\(\\*RowBox[{\\\"{\\\", RowBox[{\\\"n\\\", \\\",\\\", \
+\\\"$Failed\\\"}], \\\"}\\\"}]\\) does not have appropriate bounds.\"",2,218,
+   160,26072572745650510257,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.697532496337048*^9, 3.697532544315716*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Set","pkspec1",
+   "\"The expression \\!\\(\\*RowBox[{\\\"$Failed\\\"}]\\) cannot be used as \
+a part specification.\"",2,218,161,26072572745650510257,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.697532496337048*^9, 3.6975325443290577`*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Table","iterb",
+   "\"Iterator \\!\\(\\*RowBox[{\\\"{\\\", RowBox[{\\\"n\\\", \\\",\\\", \
+\\\"$Failed\\\"}], \\\"}\\\"}]\\) does not have appropriate bounds.\"",2,221,
+   162,26072572745650510257,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.697532496337048*^9, 3.697532544342078*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Table","iterb",
+   "\"Iterator \\!\\(\\*RowBox[{\\\"{\\\", RowBox[{\\\"n\\\", \\\",\\\", \
+\\\"$Failed\\\"}], \\\"}\\\"}]\\) does not have appropriate bounds.\"",2,221,
+   163,26072572745650510257,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.697532496337048*^9, 3.697532544355348*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Set","pkspec1",
+   "\"The expression \\!\\(\\*RowBox[{\\\"$Failed\\\"}]\\) cannot be used as \
+a part specification.\"",2,221,164,26072572745650510257,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.697532496337048*^9, 3.697532544368556*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Table","iterb",
+   "\"Iterator \\!\\(\\*RowBox[{\\\"{\\\", RowBox[{\\\"n\\\", \\\",\\\", \
+\\\"$Failed\\\"}], \\\"}\\\"}]\\) does not have appropriate bounds.\"",2,224,
+   165,26072572745650510257,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.697532496337048*^9, 3.697532544381959*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Table","iterb",
+   "\"Iterator \\!\\(\\*RowBox[{\\\"{\\\", RowBox[{\\\"n\\\", \\\",\\\", \
+\\\"$Failed\\\"}], \\\"}\\\"}]\\) does not have appropriate bounds.\"",2,224,
+   166,26072572745650510257,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.697532496337048*^9, 3.697532544395706*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Set","pkspec1",
+   "\"The expression \\!\\(\\*RowBox[{\\\"$Failed\\\"}]\\) cannot be used as \
+a part specification.\"",2,224,167,26072572745650510257,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.697532496337048*^9, 3.697532544409588*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Table","iterb",
+   "\"Iterator \\!\\(\\*RowBox[{\\\"{\\\", RowBox[{\\\"n\\\", \\\",\\\", \
+\\\"$Failed\\\"}], \\\"}\\\"}]\\) does not have appropriate bounds.\"",2,225,
+   168,26072572745650510257,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.697532496337048*^9, 3.697532544512507*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Table","iterb",
+   "\"Iterator \\!\\(\\*RowBox[{\\\"{\\\", RowBox[{\\\"n\\\", \\\",\\\", \
+\\\"$Failed\\\"}], \\\"}\\\"}]\\) does not have appropriate bounds.\"",2,225,
+   169,26072572745650510257,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.697532496337048*^9, 3.6975325445285473`*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Set","pkspec1",
+   "\"The expression \\!\\(\\*RowBox[{\\\"$Failed\\\"}]\\) cannot be used as \
+a part specification.\"",2,225,170,26072572745650510257,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.697532496337048*^9, 3.697532544541687*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Part","pkspec1",
+   "\"The expression \\!\\(\\*RowBox[{\\\"$Failed\\\"}]\\) cannot be used as \
+a part specification.\"",2,226,171,26072572745650510257,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.697532496337048*^9, 3.697532544554728*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Part","pspec1",
+   "\"Part specification \\!\\(\\*RowBox[{\\\"\\\\\\\"ERROR\\\\\\\"\\\"}]\\) \
+is not applicable.\"",2,226,172,26072572745650510257,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.697532496337048*^9, 3.697532544567884*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Set","pkspec1",
+   "\"The expression \\!\\(\\*RowBox[{\\\"$Failed\\\"}]\\) cannot be used as \
+a part specification.\"",2,226,173,26072572745650510257,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.697532496337048*^9, 3.697532544581038*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Table","iterb",
+   "\"Iterator \\!\\(\\*RowBox[{\\\"{\\\", RowBox[{\\\"n\\\", \\\",\\\", \
+\\\"$Failed\\\"}], \\\"}\\\"}]\\) does not have appropriate bounds.\"",2,228,
+   174,26072572745650510257,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.697532496337048*^9, 3.697532544593856*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Table","iterb",
+   "\"Iterator \\!\\(\\*RowBox[{\\\"{\\\", RowBox[{\\\"n\\\", \\\",\\\", \
+\\\"$Failed\\\"}], \\\"}\\\"}]\\) does not have appropriate bounds.\"",2,228,
+   175,26072572745650510257,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.697532496337048*^9, 3.697532544607131*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Set","pkspec1",
+   "\"The expression \\!\\(\\*RowBox[{\\\"$Failed\\\"}]\\) cannot be used as \
+a part specification.\"",2,228,176,26072572745650510257,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.697532496337048*^9, 3.697532544620249*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Table","iterb",
+   "\"Iterator \\!\\(\\*RowBox[{\\\"{\\\", RowBox[{\\\"n\\\", \\\",\\\", \
+\\\"$Failed\\\"}], \\\"}\\\"}]\\) does not have appropriate bounds.\"",2,230,
+   177,26072572745650510257,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.697532496337048*^9, 3.697532544633461*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Table","iterb",
+   "\"Iterator \\!\\(\\*RowBox[{\\\"{\\\", RowBox[{\\\"n\\\", \\\",\\\", \
+\\\"$Failed\\\"}], \\\"}\\\"}]\\) does not have appropriate bounds.\"",2,230,
+   178,26072572745650510257,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.697532496337048*^9, 3.697532544648291*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Set","pkspec1",
+   "\"The expression \\!\\(\\*RowBox[{\\\"$Failed\\\"}]\\) cannot be used as \
+a part specification.\"",2,230,179,26072572745650510257,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.697532496337048*^9, 3.69753254466171*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Table","iterb",
+   "\"Iterator \\!\\(\\*RowBox[{\\\"{\\\", RowBox[{\\\"n\\\", \\\",\\\", \
+\\\"$Failed\\\"}], \\\"}\\\"}]\\) does not have appropriate bounds.\"",2,231,
+   180,26072572745650510257,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.697532496337048*^9, 3.697532544674692*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Table","iterb",
+   "\"Iterator \\!\\(\\*RowBox[{\\\"{\\\", RowBox[{\\\"n\\\", \\\",\\\", \
+\\\"$Failed\\\"}], \\\"}\\\"}]\\) does not have appropriate bounds.\"",2,231,
+   181,26072572745650510257,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.697532496337048*^9, 3.6975325446879463`*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Set","pkspec1",
+   "\"The expression \\!\\(\\*RowBox[{\\\"$Failed\\\"}]\\) cannot be used as \
+a part specification.\"",2,231,182,26072572745650510257,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.697532496337048*^9, 3.6975325447016487`*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Table","iterb",
+   "\"Iterator \\!\\(\\*RowBox[{\\\"{\\\", RowBox[{\\\"n\\\", \\\",\\\", \
+\\\"$Failed\\\"}], \\\"}\\\"}]\\) does not have appropriate bounds.\"",2,232,
+   183,26072572745650510257,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.697532496337048*^9, 3.697532544715248*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Table","iterb",
+   "\"Iterator \\!\\(\\*RowBox[{\\\"{\\\", RowBox[{\\\"n\\\", \\\",\\\", \
+\\\"$Failed\\\"}], \\\"}\\\"}]\\) does not have appropriate bounds.\"",2,232,
+   184,26072572745650510257,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.697532496337048*^9, 3.697532544728549*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Set","pkspec1",
+   "\"The expression \\!\\(\\*RowBox[{\\\"$Failed\\\"}]\\) cannot be used as \
+a part specification.\"",2,232,185,26072572745650510257,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.697532496337048*^9, 3.697532544742113*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Table","iterb",
+   "\"Iterator \\!\\(\\*RowBox[{\\\"{\\\", RowBox[{\\\"n\\\", \\\",\\\", \
+\\\"$Failed\\\"}], \\\"}\\\"}]\\) does not have appropriate bounds.\"",2,234,
+   186,26072572745650510257,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.697532496337048*^9, 3.6975325447554502`*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Table","iterb",
+   "\"Iterator \\!\\(\\*RowBox[{\\\"{\\\", RowBox[{\\\"n\\\", \\\",\\\", \
+\\\"$Failed\\\"}], \\\"}\\\"}]\\) does not have appropriate bounds.\"",2,234,
+   187,26072572745650510257,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.697532496337048*^9, 3.6975325447694197`*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Set","pkspec1",
+   "\"The expression \\!\\(\\*RowBox[{\\\"$Failed\\\"}]\\) cannot be used as \
+a part specification.\"",2,234,188,26072572745650510257,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.697532496337048*^9, 3.697532544782942*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Table","iterb",
+   "\"Iterator \\!\\(\\*RowBox[{\\\"{\\\", RowBox[{\\\"n\\\", \\\",\\\", \
+\\\"$Failed\\\"}], \\\"}\\\"}]\\) does not have appropriate bounds.\"",2,236,
+   189,26072572745650510257,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.697532496337048*^9, 3.697532544796398*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Table","iterb",
+   "\"Iterator \\!\\(\\*RowBox[{\\\"{\\\", RowBox[{\\\"n\\\", \\\",\\\", \
+\\\"$Failed\\\"}], \\\"}\\\"}]\\) does not have appropriate bounds.\"",2,236,
+   190,26072572745650510257,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.697532496337048*^9, 3.697532544810437*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Set","pkspec1",
+   "\"The expression \\!\\(\\*RowBox[{\\\"$Failed\\\"}]\\) cannot be used as \
+a part specification.\"",2,236,191,26072572745650510257,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.697532496337048*^9, 3.6975325448241663`*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Table","iterb",
+   "\"Iterator \\!\\(\\*RowBox[{\\\"{\\\", RowBox[{\\\"n\\\", \\\",\\\", \
+\\\"$Failed\\\"}], \\\"}\\\"}]\\) does not have appropriate bounds.\"",2,237,
+   192,26072572745650510257,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.697532496337048*^9, 3.697532544837723*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Table","iterb",
+   "\"Iterator \\!\\(\\*RowBox[{\\\"{\\\", RowBox[{\\\"n\\\", \\\",\\\", \
+\\\"$Failed\\\"}], \\\"}\\\"}]\\) does not have appropriate bounds.\"",2,237,
+   193,26072572745650510257,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.697532496337048*^9, 3.697532544851832*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Set","pkspec1",
+   "\"The expression \\!\\(\\*RowBox[{\\\"$Failed\\\"}]\\) cannot be used as \
+a part specification.\"",2,237,194,26072572745650510257,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.697532496337048*^9, 3.697532544865703*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Table","iterb",
+   "\"Iterator \\!\\(\\*RowBox[{\\\"{\\\", RowBox[{\\\"n\\\", \\\",\\\", \
+\\\"$Failed\\\"}], \\\"}\\\"}]\\) does not have appropriate bounds.\"",2,238,
+   195,26072572745650510257,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.697532496337048*^9, 3.6975325450125027`*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Table","iterb",
+   "\"Iterator \\!\\(\\*RowBox[{\\\"{\\\", RowBox[{\\\"n\\\", \\\",\\\", \
+\\\"$Failed\\\"}], \\\"}\\\"}]\\) does not have appropriate bounds.\"",2,238,
+   196,26072572745650510257,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.697532496337048*^9, 3.697532545026842*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Set","pkspec1",
+   "\"The expression \\!\\(\\*RowBox[{\\\"$Failed\\\"}]\\) cannot be used as \
+a part specification.\"",2,238,197,26072572745650510257,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.697532496337048*^9, 3.697532545040682*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Do","iterb",
+   "\"Iterator \\!\\(\\*RowBox[{\\\"{\\\", RowBox[{\\\"n\\\", \\\",\\\", \
+\\\"VS\\\"}], \\\"}\\\"}]\\) does not have appropriate bounds.\"",2,244,198,
+   26072572745650510257,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.697532496337048*^9, 3.6975325450565443`*^9}],
+
+Cell[BoxData[
+ RowBox[{"Do", "[", 
+  RowBox[{
+   RowBox[{"Module", "[", 
+    RowBox[{
+     RowBox[{"{", "}"}], ",", 
+     RowBox[{"Export", "[", 
+      RowBox[{
+       RowBox[{"FileNameJoin", "[", 
+        RowBox[{"{", 
+         RowBox[{"errorLogsFolder", ",", 
+          RowBox[{"If", "[", 
+           RowBox[{"standardExportName", ",", 
+            RowBox[{"\<\"VS\"\>", "<>", 
+             RowBox[{"IntegerString", "[", 
+              RowBox[{"n", ",", "10", ",", "3"}], "]"}], 
+             "<>", "\<\"_Error_Logs.txt\"\>"}], ",", 
+            RowBox[{
+             RowBox[{
+             "transcriptFileBaseNames", "\[LeftDoubleBracket]", "n", 
+              "\[RightDoubleBracket]"}], "<>", "\<\"_Error_Logs.txt\"\>"}]}], 
+           "]"}]}], "}"}], "]"}], ",", 
+       RowBox[{
+       "printVersionName", 
+        "<>", "\<\"*Transcript Information*\\nFile Name:  \"\>", "<>", 
+        RowBox[{"FileNameTake", "[", 
+         RowBox[{
+         "transcriptFilesPrint", "\[LeftDoubleBracket]", "n", 
+          "\[RightDoubleBracket]"}], "]"}], "<>", "\<\"\\n\"\>", 
+        "<>", "\<\"VS Reference Number:  VS\"\>", "<>", 
+        RowBox[{"IntegerString", "[", 
+         RowBox[{"n", ",", "10", ",", "3"}], "]"}], 
+        "<>", "\<\"\\n\\n*Error Information*\\n\"\>", "<>", 
+        RowBox[{"If", "[", 
+         RowBox[{
+          RowBox[{
+           RowBox[{
+           "errorLogs", "\[LeftDoubleBracket]", "n", 
+            "\[RightDoubleBracket]"}], "\[NotEqual]", "\<\"\"\>"}], ",", 
+          RowBox[{
+          "errorLogs", "\[LeftDoubleBracket]", "n", "\[RightDoubleBracket]"}],
+           ",", "noErrorMessage"}], "]"}], "<>", "\<\"*Appendix 1*\\n\"\>", "<>",
+         "printAllPossibleError", "<>", "\<\"\\n\\n*Appendix 2*\\n\"\>", 
+        "<>", "\<\"The following transformations have been applied to the \
+transcripts (\:25ca shows string boundary)\\n\"\>", "<>", 
+        "printSubstitutionTable"}]}], "]"}]}], "]"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"n", ",", "VS"}], "}"}]}], "]"}]], "Output",
+ CellChangeTimes->{3.697532498241543*^9, 3.697532545071086*^9}]
+}, Open  ]],
+
+Cell[BoxData["\[GreaterEqual]"], "Input",
+ CellChangeTimes->{3.697532498703396*^9}],
+
+Cell[BoxData[" "], "Input",
+ CellChangeTimes->{3.695294090222838*^9}],
+
+Cell[BoxData[""], "Input",
+ CellChangeTimes->{{3.695292975357984*^9, 3.6952929763700943`*^9}}]
+},
+WindowSize->{1440, 785},
+WindowMargins->{{-21, Automatic}, {-8, Automatic}},
+FrontEndVersion->"11.0 for Mac OS X x86 (32-bit, 64-bit Kernel) (September \
+21, 2016)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 74189, 1820, 5325, "Input"],
+Cell[74772, 1844, 269, 6, 24, "Message"],
+Cell[75044, 1852, 368, 8, 24, "Message"],
+Cell[75415, 1862, 488, 9, 24, "Message"],
+Cell[75906, 1873, 508, 9, 24, "Message"],
+Cell[76417, 1884, 297, 6, 24, "Message"],
+Cell[76717, 1892, 300, 6, 24, "Message"],
+Cell[77020, 1900, 440, 9, 24, "Message"],
+Cell[77463, 1911, 479, 9, 24, "Message"],
+Cell[77945, 1922, 298, 6, 24, "Message"],
+Cell[78246, 1930, 299, 6, 24, "Message"],
+Cell[78548, 1938, 341, 7, 24, "Message"],
+Cell[78892, 1947, 343, 7, 24, "Message"],
+Cell[79238, 1956, 299, 6, 24, "Message"],
+Cell[79540, 1964, 298, 6, 24, "Message"],
+Cell[79841, 1972, 346, 7, 24, "Message"],
+Cell[80190, 1981, 297, 6, 24, "Message"],
+Cell[80490, 1989, 299, 6, 24, "Message"],
+Cell[80792, 1997, 345, 7, 24, "Message"],
+Cell[81140, 2006, 343, 7, 24, "Message"],
+Cell[81486, 2015, 297, 6, 24, "Message"],
+Cell[81786, 2023, 343, 7, 24, "Message"],
+Cell[82132, 2032, 345, 7, 24, "Message"],
+Cell[82480, 2041, 299, 6, 24, "Message"],
+Cell[82782, 2049, 342, 7, 24, "Message"],
+Cell[83127, 2058, 345, 7, 24, "Message"],
+Cell[83475, 2067, 297, 6, 24, "Message"],
+Cell[83775, 2075, 343, 7, 24, "Message"],
+Cell[84121, 2084, 343, 7, 24, "Message"],
+Cell[84467, 2093, 297, 6, 24, "Message"],
+Cell[84767, 2101, 343, 7, 24, "Message"],
+Cell[85113, 2110, 345, 7, 24, "Message"],
+Cell[85461, 2119, 297, 6, 24, "Message"],
+Cell[85761, 2127, 343, 7, 24, "Message"],
+Cell[86107, 2136, 343, 7, 24, "Message"],
+Cell[86453, 2145, 297, 6, 24, "Message"],
+Cell[86753, 2153, 343, 7, 24, "Message"],
+Cell[87099, 2162, 342, 7, 24, "Message"],
+Cell[87444, 2171, 299, 6, 24, "Message"],
+Cell[87746, 2179, 343, 7, 24, "Message"],
+Cell[88092, 2188, 345, 7, 24, "Message"],
+Cell[88440, 2197, 299, 6, 24, "Message"],
+Cell[88742, 2205, 342, 7, 24, "Message"],
+Cell[89087, 2214, 342, 7, 24, "Message"],
+Cell[89432, 2223, 297, 6, 24, "Message"],
+Cell[89732, 2231, 345, 7, 24, "Message"],
+Cell[90080, 2240, 345, 7, 24, "Message"],
+Cell[90428, 2249, 297, 6, 24, "Message"],
+Cell[90728, 2257, 345, 7, 24, "Message"],
+Cell[91076, 2266, 343, 7, 24, "Message"],
+Cell[91422, 2275, 297, 6, 24, "Message"],
+Cell[91722, 2283, 343, 7, 24, "Message"],
+Cell[92068, 2292, 343, 7, 24, "Message"],
+Cell[92414, 2301, 297, 6, 24, "Message"],
+Cell[92714, 2309, 343, 7, 24, "Message"],
+Cell[93060, 2318, 343, 7, 24, "Message"],
+Cell[93406, 2327, 297, 6, 24, "Message"],
+Cell[93706, 2335, 345, 7, 24, "Message"],
+Cell[94054, 2344, 345, 7, 24, "Message"],
+Cell[94402, 2353, 297, 6, 24, "Message"],
+Cell[94702, 2361, 343, 7, 24, "Message"],
+Cell[95048, 2370, 343, 7, 24, "Message"],
+Cell[95394, 2379, 299, 6, 24, "Message"],
+Cell[95696, 2387, 343, 7, 24, "Message"],
+Cell[96042, 2396, 343, 7, 24, "Message"],
+Cell[96388, 2405, 297, 6, 24, "Message"],
+Cell[96688, 2413, 343, 7, 24, "Message"],
+Cell[97034, 2422, 343, 7, 24, "Message"],
+Cell[97380, 2431, 297, 6, 24, "Message"],
+Cell[97680, 2439, 343, 7, 24, "Message"],
+Cell[98026, 2448, 345, 7, 24, "Message"],
+Cell[98374, 2457, 297, 6, 24, "Message"],
+Cell[98674, 2465, 298, 6, 24, "Message"],
+Cell[98975, 2473, 294, 6, 24, "Message"],
+Cell[99272, 2481, 297, 6, 24, "Message"],
+Cell[99572, 2489, 343, 7, 24, "Message"],
+Cell[99918, 2498, 343, 7, 24, "Message"],
+Cell[100264, 2507, 297, 6, 24, "Message"],
+Cell[100564, 2515, 343, 7, 24, "Message"],
+Cell[100910, 2524, 343, 7, 24, "Message"],
+Cell[101256, 2533, 296, 6, 24, "Message"],
+Cell[101555, 2541, 343, 7, 24, "Message"],
+Cell[101901, 2550, 345, 7, 24, "Message"],
+Cell[102249, 2559, 299, 6, 24, "Message"],
+Cell[102551, 2567, 343, 7, 24, "Message"],
+Cell[102897, 2576, 343, 7, 24, "Message"],
+Cell[103243, 2585, 297, 6, 24, "Message"],
+Cell[103543, 2593, 345, 7, 24, "Message"],
+Cell[103891, 2602, 345, 7, 24, "Message"],
+Cell[104239, 2611, 297, 6, 24, "Message"],
+Cell[104539, 2619, 343, 7, 24, "Message"],
+Cell[104885, 2628, 343, 7, 24, "Message"],
+Cell[105231, 2637, 299, 6, 24, "Message"],
+Cell[105533, 2645, 343, 7, 24, "Message"],
+Cell[105879, 2654, 343, 7, 24, "Message"],
+Cell[106225, 2663, 297, 6, 24, "Message"],
+Cell[106525, 2671, 345, 7, 24, "Message"],
+Cell[106873, 2680, 343, 7, 24, "Message"],
+Cell[107219, 2689, 297, 6, 24, "Message"],
+Cell[107519, 2697, 337, 7, 24, "Message"],
+Cell[107859, 2706, 2078, 48, 264, "Output"]
+}, Open  ]],
+Cell[109952, 2757, 83, 1, 32, "Input"],
+Cell[110038, 2760, 69, 1, 32, "Input"],
+Cell[110110, 2763, 94, 1, 32, "Input"]
+}
+]
+*)
+

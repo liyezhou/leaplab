@@ -1,0 +1,541 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     20532,        533]
+NotebookOptionsPosition[     19527,        495]
+NotebookOutlinePosition[     19885,        511]
+CellTagsIndexPosition[     19842,        508]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[""], "Input",
+ CellChangeTimes->{{3.697788674321274*^9, 3.697788675145208*^9}, 
+   3.697789192162361*^9}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"newTranscriptFolder", "=", 
+   RowBox[{"FileNameJoin", "[", 
+    RowBox[{"{", 
+     RowBox[{
+     "\"\<Export\>\"", ",", "\"\<New Transcripts With Correct Cap\>\""}], 
+     "}"}], "]"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{"If", "[", 
+  RowBox[{
+   RowBox[{"DirectoryQ", "[", "newTranscriptFolder", "]"}], ",", 
+   RowBox[{"DeleteDirectory", "[", 
+    RowBox[{"newTranscriptFolder", ",", 
+     RowBox[{"DeleteContents", "\[Rule]", "True"}]}], "]"}]}], 
+  "]"}], "\[IndentingNewLine]", 
+ RowBox[{"CreateDirectory", "[", "newTranscriptFolder", 
+  "]"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"transcriptLinesOri2", "=", "transcriptLinesOri"}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{"Do", "[", "\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{
+    RowBox[{
+     RowBox[{"transcriptLinesOri2", "[", 
+      RowBox[{"[", 
+       RowBox[{
+        RowBox[{"VS", "[", 
+         RowBox[{"[", "n", "]"}], "]"}], ",", 
+        RowBox[{"utteranceLines", "[", 
+         RowBox[{"[", 
+          RowBox[{"VS", "[", 
+           RowBox[{"[", "n", "]"}], "]"}], "]"}], "]"}]}], "]"}], "]"}], "=", 
+     
+     RowBox[{
+      RowBox[{
+       RowBox[{"#1", "<>", "#2"}], "&"}], "@@@", 
+      RowBox[{"Transpose", "[", 
+       RowBox[{"{", "\[IndentingNewLine]", 
+        RowBox[{
+         RowBox[{"ToUpperCase", "[", 
+          RowBox[{"StringTake", "[", 
+           RowBox[{
+            RowBox[{"transcriptLinesOri", "[", 
+             RowBox[{"[", 
+              RowBox[{
+               RowBox[{"VS", "[", 
+                RowBox[{"[", "n", "]"}], "]"}], ",", 
+               RowBox[{"utteranceLines", "[", 
+                RowBox[{"[", 
+                 RowBox[{"VS", "[", 
+                  RowBox[{"[", "n", "]"}], "]"}], "]"}], "]"}]}], "]"}], 
+             "]"}], ",", 
+            RowBox[{"{", 
+             RowBox[{"1", ",", "4"}], "}"}]}], "]"}], "]"}], ",", 
+         "\[IndentingNewLine]", 
+         RowBox[{"ToLowerCase", "[", 
+          RowBox[{"StringTake", "[", 
+           RowBox[{
+            RowBox[{"transcriptLinesOri", "[", 
+             RowBox[{"[", 
+              RowBox[{
+               RowBox[{"VS", "[", 
+                RowBox[{"[", "n", "]"}], "]"}], ",", 
+               RowBox[{"utteranceLines", "[", 
+                RowBox[{"[", 
+                 RowBox[{"VS", "[", 
+                  RowBox[{"[", "n", "]"}], "]"}], "]"}], "]"}]}], "]"}], 
+             "]"}], ",", 
+            RowBox[{"{", 
+             RowBox[{"5", ",", 
+              RowBox[{"-", "1"}]}], "}"}]}], "]"}], "]"}]}], 
+        "\[IndentingNewLine]", "}"}], "]"}]}]}], ";"}], "\[IndentingNewLine]",
+    ",", 
+   RowBox[{"{", 
+    RowBox[{"n", ",", 
+     RowBox[{"Length", "[", "VS", "]"}]}], "}"}]}], 
+  "]"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{
+    RowBox[{"transcripts2", "[", 
+     RowBox[{"[", "VS", "]"}], "]"}], "=", 
+    RowBox[{"Table", "[", 
+     RowBox[{
+      RowBox[{"StringReplace", "[", 
+       RowBox[{
+        RowBox[{"StringRiffle", "[", 
+         RowBox[{
+          RowBox[{"transcriptLinesOri2", "[", 
+           RowBox[{"[", "n", "]"}], "]"}], ",", "\"\<\\n\>\""}], "]"}], ",", 
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"\"\<\\\"\>\"", "\[Rule]", "\"\<\>\""}], ",", 
+          RowBox[{"\"\<(\>\"", "\[Rule]", "\"\<\>\""}], ",", 
+          RowBox[{"\"\<)\>\"", "\[Rule]", "\"\<\>\""}], ",", 
+          RowBox[{
+           RowBox[{"\"\<*\>\"", "~~", 
+            RowBox[{"x", ":", 
+             RowBox[{"Repeated", "[", 
+              RowBox[{"LetterCharacter", ",", "3"}], "]"}]}], "~~", 
+            "\"\<: \>\""}], ":>", 
+           RowBox[{"\"\<*\>\"", "<>", "x", "<>", "\"\<:\\t\>\""}]}]}], 
+         "}"}]}], "]"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"n", ",", "VS"}], "}"}]}], "]"}]}], ";"}], 
+  "\[IndentingNewLine]", 
+  RowBox[{"(*", 
+   RowBox[{"Exporting", " ", "Transcripts"}], "*)"}]}], "\[IndentingNewLine]", 
+ RowBox[{"Do", "[", 
+  RowBox[{
+   RowBox[{"Module", "[", 
+    RowBox[{
+     RowBox[{"{", "}"}], ",", "\[IndentingNewLine]", 
+     RowBox[{"Export", "[", 
+      RowBox[{
+       RowBox[{"FileNameJoin", "[", 
+        RowBox[{"{", 
+         RowBox[{"newTranscriptFolder", ",", 
+          RowBox[{
+           RowBox[{"transcriptFileBaseNames", "[", 
+            RowBox[{"[", 
+             RowBox[{"VS", "[", 
+              RowBox[{"[", "n", "]"}], "]"}], "]"}], "]"}], "<>", 
+           "\"\<.txt\>\""}]}], "}"}], "]"}], ",", 
+       RowBox[{"transcripts2", "[", 
+        RowBox[{"[", 
+         RowBox[{"VS", "[", 
+          RowBox[{"[", "n", "]"}], "]"}], "]"}], "]"}]}], "]"}]}], 
+    "\[IndentingNewLine]", "]"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"n", ",", "1", ",", 
+     RowBox[{"Length", "[", "VS", "]"}]}], "}"}]}], "]"}]}], "Input",
+ CellChangeTimes->{{3.6977879900788517`*^9, 3.6977879985439577`*^9}, {
+   3.697788063756885*^9, 3.6977883016031723`*^9}, {3.697788499866077*^9, 
+   3.697788576440633*^9}, {3.697788684449839*^9, 3.697788769077181*^9}, {
+   3.697788810739279*^9, 3.697788851416572*^9}, 3.697789063591567*^9, {
+   3.697789113829*^9, 3.697789137116495*^9}, {3.697789189913703*^9, 
+   3.697789279940761*^9}, 3.697789396329615*^9, {3.697789431774619*^9, 
+   3.697789472202702*^9}, {3.697789506026594*^9, 3.6977895824147663`*^9}}],
+
+Cell[BoxData["\<\"/Users/yezhouli/Google Drive/Mac Sync/NRP/Source \
+Files/Export/New Transcripts With Correct Cap\"\>"], "Output",
+ CellChangeTimes->{{3.697789252863969*^9, 3.6977892803035307`*^9}, {
+  3.6977893984756327`*^9, 3.697789403639905*^9}, {3.697789447582405*^9, 
+  3.6977894727609997`*^9}, {3.697789550889434*^9, 3.6977895831739388`*^9}}]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{"SystemOpen", "[", 
+  "\"\</Users/yezhouli/Google Drive/Mac Sync/NRP/Source Files/Export/New \
+Transcripts With Correct Cap\>\"", "]"}]], "Input",
+ NumberMarks->False],
+
+Cell[BoxData[
+ RowBox[{"SystemOpen", "[", 
+  "\"\</Users/yezhouli/Google Drive/Mac Sync/NRP/Source Files/Export/New \
+Transcripts With Correct Cap\>\"", "]"}]], "Input",
+ NumberMarks->False],
+
+Cell[BoxData[
+ RowBox[{"SystemOpen", "[", 
+  "\"\</Users/yezhouli/Google Drive/Mac Sync/NRP/Source Files/Export/New \
+Transcripts With Correct Cap\>\"", "]"}]], "Input",
+ NumberMarks->False],
+
+Cell[BoxData[
+ RowBox[{"SystemOpen", "[", 
+  "\"\</Users/yezhouli/Google Drive/Mac Sync/NRP/Source Files/Export/New \
+Transcripts With Correct Cap\>\"", "]"}]], "Input",
+ NumberMarks->False],
+
+Cell[BoxData[
+ RowBox[{"SystemOpen", "[", 
+  "\"\</Users/yezhouli/Google Drive/Mac Sync/NRP/Source Files/Export/New \
+Transcripts With Correct Cap\>\"", "]"}]], "Input",
+ NumberMarks->False],
+
+Cell[BoxData[
+ RowBox[{"SystemOpen", "[", 
+  "\"\</Users/yezhouli/Google Drive/Mac Sync/NRP/Source Files/Export/New \
+Transcripts With Correct Cap\>\"", "]"}]], "Input",
+ NumberMarks->False],
+
+Cell[BoxData[
+ RowBox[{"SystemOpen", "[", 
+  "\"\</Users/yezhouli/Google Drive/Mac Sync/NRP/Source Files/Export/New \
+Transcripts With Correct Cap\>\"", "]"}]], "Input",
+ NumberMarks->False],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{"n", "=", "9"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"StringRiffle", "[", 
+   RowBox[{
+    RowBox[{"transcriptLinesOri2", "[", 
+     RowBox[{"[", "n", "]"}], "]"}], ",", "\"\<\\n\>\""}], "]"}], "\[Equal]", 
+  
+  RowBox[{"transcripts", "[", 
+   RowBox[{"[", "n", "]"}], "]"}]}]}], "Input",
+ CellChangeTimes->{{3.6977888593767853`*^9, 3.697788918095099*^9}, {
+   3.697789065694425*^9, 3.6977890659262867`*^9}, 3.697789096014225*^9}],
+
+Cell[BoxData["9"], "Output",
+ CellChangeTimes->{{3.6977888579204903`*^9, 3.697788916216544*^9}, {
+  3.697789066212048*^9, 3.6977890961994963`*^9}}],
+
+Cell[BoxData["True"], "Output",
+ CellChangeTimes->{{3.6977888579204903`*^9, 3.697788916216544*^9}, {
+  3.697789066212048*^9, 3.6977890962100153`*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[""], "Input",
+ CellChangeTimes->{{3.697788703535906*^9, 3.697788720943409*^9}}],
+
+Cell[BoxData["True"], "Output",
+ CellChangeTimes->{3.697788711937538*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"u", "//", "TableForm"}]], "Input",
+ CellChangeTimes->{{3.6977885024240427`*^9, 3.697788506100869*^9}}],
+
+Cell[BoxData[
+ TagBox[
+  TagBox[GridBox[{
+     {"\<\"*MOT:\\tmummy read this book for you okay?\"\>"},
+     {"\<\"*CHI:\\tduck [x 2].\"\>"},
+     {"\<\"*MOT:\\tyeah, duck [x 2].\"\>"},
+     {"\<\"*MOT:\\tit says have you seen my duckling?\"\>"},
+     {"\<\"*MOT:\\twhat is this?\"\>"},
+     {"\<\"*CHI:\\tduck.\"\>"},
+     {"\<\"*MOT:\\tlet us count the ducks okay?\"\>"},
+     {"\<\"*MOT:\\thow many ducks are there?\"\>"},
+     {"\<\"*CHI:\\t&=moans.\"\>"},
+     {"\<\"*MOT:\\tok wait, baby.\"\>"},
+     {"\<\"*MOT:\\twe play with this later okay?\"\>"},
+     {"\<\"*MOT:\\tcome, we read the book first.\"\>"},
+     {"\<\"*MOT:\\tone.\"\>"},
+     {"\<\"*MOT:\\tyou count the ducks with mummy.\"\>"},
+     {"\<\"*MOT:\\ttwo.\"\>"},
+     {"\<\"*MOT:\\tbaby [x 2].\"\>"},
+     {"\<\"*MOT:\\tare you counting?\"\>"},
+     {"\<\"*MOT:\\tthree, four, five, six.\"\>"},
+     {"\<\"*CHI:\\tfive.\"\>"},
+     {"\<\"*MOT:\\tseven.\"\>"},
+     {"\<\"*CHI:\\teight!\"\>"},
+     {"\<\"*MOT:\\teight, yes!\"\>"},
+     {"\<\"*MOT:\\teight duckling!\"\>"},
+     {"\<\"*CHI:\\tnine.\"\>"},
+     {"\<\"*MOT:\\tnine, and?\"\>"},
+     {"\<\"*CHI:\\tten!\"\>"},
+     {"\<\"*MOT:\\tyes!\"\>"},
+     {"\<\"*MOT:\\tand what is this?\"\>"},
+     {"\<\"*CHI:\\t&=vocalises.\"\>"},
+     {"\<\"*MOT:\\t&=laughs butterfly.\"\>"},
+     {"\<\"*CHI:\\tduck [x 2].\"\>"},
+     {"\<\"*MOT:\\tok yeah duck [x 2].\"\>"},
+     {"\<\"*MOT:\\tthen what is this?\"\>"},
+     {"\<\"*MOT:\\tokay we read.\"\>"},
+     {"\<\"*MOT:\\twe play later.\"\>"},
+     {"\<\"*MOT:\\twe read this first, okay.\"\>"},
+     {"\<\"*MOT:\\tthat says have you seen my duckling?\"\>"},
+     {"\<\"*MOT:\\tthese are ducklings baby.\"\>"},
+     {"\<\"*MOT:\\tthey are baby ducks.\"\>"},
+     {"\<\"*MOT:\\tsmall [x 2] ducks.\"\>"},
+     {"\<\"*MOT:\\tokay.\"\>"},
+     {"\<\"*CHI:\\t&=vocalises.\"\>"},
+     {"\<\"*MOT:\\twhat are these?\"\>"},
+     {"\<\"*CHI:\\t&=moans.\"\>"},
+     {"\<\"*MOT:\\tokay wait, you see it says, early one morning.\"\>"},
+     {"\<\"*MOT:\\twhat happen?\"\>"},
+     {"\<\"*MOT:\\tthis is the mother duck.\"\>"},
+     {"\<\"*MOT:\\tso, the mother duck brought the baby ducks.\"\>"},
+     {"\<\"*MOT:\\tbaby sit down, let mummy read the book to you please.\"\>"},
+     {"\<\"*MOT:\\tsee the mother duck brought the baby ducks down to swim!\"\
+\>"},
+     {"\<\"*MOT:\\tthey went to swim!\"\>"},
+     {"\<\"*MOT:\\tyou see?\"\>"},
+     {"\<\"*MOT:\\tin the river.\"\>"},
+     {"\<\"*CHI:\\towl.\"\>"},
+     {"\<\"*MOT:\\triver!\"\>"},
+     {"\<\"*MOT:\\tokay they swim.\"\>"},
+     {"\<\"*CHI:\\towl.\"\>"},
+     {"\<\"*MOT:\\tthey went to swim, baby look at.\"\>"},
+     {"\<\"*CHI:\\towl!\"\>"},
+     {"\<\"*MOT:\\tbaby.\"\>"},
+     {"\<\"*MOT:\\tokay, yes, owl.\"\>"},
+     {"\<\"*MOT:\\tyou see, heart [x 2].\"\>"},
+     {"\<\"*CHI:\\t&=vocalises.\"\>"},
+     {"\<\"*MOT:\\tpanda, yes.\"\>"},
+     {"\<\"*MOT:\\tokay now we read this book baby.\"\>"},
+     {"\<\"*CHI:\\t&=whines.\"\>"},
+     {"\<\"*MOT:\\tbaby, come, mummy read the book to you.\"\>"},
+     {"\<\"*MOT:\\tyou do not like him?\"\>"},
+     {"\<\"*MOT:\\tokay come we read this book okay.\"\>"},
+     {"\<\"*MOT:\\tso early one morning.\"\>"},
+     {"\<\"*CHI:\\tpanda.\"\>"},
+     {"\<\"*MOT:\\tyes baby.\"\>"},
+     {"\<\"*CHI:\\tpanda.\"\>"},
+     {"\<\"*MOT:\\tyes, okay.\"\>"},
+     {"\<\"*MOT:\\tso you see, baby.\"\>"},
+     {"\<\"*MOT:\\tthe mother duck brought the baby duck down to walk.\"\>"},
+     {"\<\"*MOT:\\tto swim, okay?\"\>"},
+     {"\<\"*CHI:\\t&=vocalises.\"\>"},
+     {"\<\"*MOT:\\tyes.\"\>"},
+     {"\<\"*CHI:\\t&=vocalises.\"\>"},
+     {"\<\"*MOT:\\tand then what happened?\"\>"},
+     {"\<\"*MOT:\\tyou see, the mother duck went down with the ducklings \
+baby.\"\>"},
+     {"\<\"*MOT:\\tbaby.\"\>"},
+     {"\<\"*MOT:\\tyou see they were the nest!\"\>"},
+     {"\<\"*MOT:\\tyou see, baby?\"\>"},
+     {"\<\"*MOT:\\tthey went down for a swim!\"\>"},
+     {"\<\"*MOT:\\tin the river.\"\>"},
+     {"\<\"*MOT:\\tand then what happen?\"\>"},
+     {"\<\"*MOT:\\tyou see baby, this little duckling where is he going?\"\>"},
+     {"\<\"*MOT:\\twhere is he going baby?\"\>"},
+     {"\<\"*MOT:\\tyou see where this little duckling.\"\>"},
+     {"\<\"*MOT:\\the said bye bye!\"\>"},
+     {"\<\"*MOT:\\tthen he went off.\"\>"},
+     {"\<\"*MOT:\\tyou think he's going to the market?\"\>"},
+     {"\<\"*MOT:\\tsee all the ducklings are here.\"\>"},
+     {"\<\"*MOT:\\tbut this duckling went away!\"\>"},
+     {"\<\"*MOT:\\the went away from the mummy!\"\>"},
+     {"\<\"*MOT:\\tthis is the mummy duckling.\"\>"},
+     {"\<\"*MOT:\\tthis baby duckling went away.\"\>"},
+     {"\<\"*CHI:\\tpanda, heart.\"\>"},
+     {"\<\"*MOT:\\tyes panda heart okay.\"\>"},
+     {"\<\"*MOT:\\tthere you see?\"\>"},
+     {"\<\"*CHI:\\theart [x 3].\"\>"},
+     {"\<\"*MOT:\\tyes heart.\"\>"},
+     {"\<\"*MOT:\\tand then what's that on the wall?\"\>"},
+     {"\<\"*CHI:\\txxx.\"\>"},
+     {"\<\"*MOT:\\tyes, that one?\"\>"},
+     {"\<\"*CHI:\\theart.\"\>"},
+     {"\<\"*MOT:\\tyes, okay you see what happen.\"\>"},
+     {"\<\"*MOT:\\tyou see baby.\"\>"},
+     {"\<\"*MOT:\\tall the ducklings were following the mother duck.\"\>"},
+     {"\<\"*MOT:\\tyou see one, two, three, four, five.\"\>"},
+     {"\<\"*MOT:\\twhat?\"\>"},
+     {"\<\"*CHI:\\tsix.\"\>"},
+     {"\<\"*MOT:\\tand seven!\"\>"},
+     {"\<\"*MOT:\\tthen this one, this little duckling, he went away!\"\>"},
+     {"\<\"*MOT:\\the went off.\"\>"},
+     {"\<\"*MOT:\\the gone off already.\"\>"},
+     {"\<\"*MOT:\\twhat happen to him?\"\>"},
+     {"\<\"*MOT:\\the did not follow the duck [x 2].\"\>"},
+     {"\<\"*MOT:\\the did not follow his mummy.\"\>"},
+     {"\<\"*MOT:\\tthen the mama, then the mummy duckling found.\"\>"},
+     {"\<\"*MOT:\\tyou see?\"\>"},
+     {"\<\"*MOT:\\tthe ducklings are here.\"\>"},
+     {"\<\"*MOT:\\tyou count?\"\>"},
+     {"\<\"*MOT:\\tone, two, three.\"\>"},
+     {"\<\"*CHI:\\tfour.\"\>"},
+     {"\<\"*MOT:\\tfive.\"\>"},
+     {"\<\"*MOT:\\tyou see?\"\>"},
+     {"\<\"*MOT:\\tthis duckling went off.\"\>"},
+     {"\<\"*MOT:\\the did not go with the mummy.\"\>"},
+     {"\<\"*MOT:\\tso the mummy ask.\"\>"},
+     {"\<\"*MOT:\\thave you seen my duckling?\"\>"},
+     {"\<\"*CHI:\\t&=vocalises.\"\>"},
+     {"\<\"*MOT:\\tokay wait.\"\>"},
+     {"\<\"*CHI:\\t&=vocalises.\"\>"},
+     {"\<\"*MOT:\\twait okay wait.\"\>"},
+     {"\<\"*MOT:\\tread the book first baby.\"\>"},
+     {"\<\"*CHI:\\t&=vocalises.\"\>"},
+     {"\<\"*MOT:\\tbaby.\"\>"},
+     {"\<\"*CHI:\\t&=vocalises.\"\>"},
+     {"\<\"*MOT:\\tbaby, see?\"\>"},
+     {"\<\"*MOT:\\tthere is a bird on the tree, baby!\"\>"},
+     {"\<\"*MOT:\\tbaby!\"\>"},
+     {"\<\"*MOT:\\tdarion.\"\>"},
+     {"\<\"*MOT:\\tdarion!\"\>"},
+     {"\<\"*CHI:\\tduck [x 2].\"\>"},
+     {"\<\"*MOT:\\tokay, baby, see?\"\>"},
+     {"\<\"*MOT:\\tthere is a bird on the tree.\"\>"},
+     {"\<\"*MOT:\\tyou see?\"\>"},
+     {"\<\"*MOT:\\tand then, the mummy duck ask the bird [x 2].\"\>"},
+     {"\<\"*MOT:\\thave you seen my duckling?\"\>"},
+     {"\<\"*MOT:\\twow, it is a shape sorter.\"\>"},
+     {"\<\"*MOT:\\tit is a very nice one.\"\>"},
+     {"\<\"*MOT:\\tand then baby, what does it say?\"\>"},
+     {"\<\"*MOT:\\tsee!\"\>"},
+     {"\<\"*MOT:\\tthen the mummy duck ask the otter.\"\>"},
+     {"\<\"*MOT:\\thave you seen my duckling?\"\>"},
+     {"\<\"*MOT:\\t&oh, ask the tortoise first.\"\>"},
+     {"\<\"*MOT:\\tbaby you see?\"\>"},
+     {"\<\"*MOT:\\tbaby!\"\>"},
+     {"\<\"*MOT:\\tand then it ask(ed) otter.\"\>"},
+     {"\<\"*MOT:\\thave you seen my duckling?\"\>"},
+     {"\<\"*MOT:\\t&oh, you kept everything inside.\"\>"},
+     {"\<\"*MOT:\\tokay baby look you see?\"\>"},
+     {"\<\"*MOT:\\task the frog.\"\>"},
+     {"\<\"*MOT:\\tis this a frog?\"\>"},
+     {"\<\"*MOT:\\tno, this is a fish!\"\>"},
+     {"\<\"*MOT:\\tbaby what is this?\"\>"},
+     {"\<\"*MOT:\\tlook at this!\"\>"},
+     {"\<\"*CHI:\\t&=vocalises.\"\>"},
+     {"\<\"*MOT:\\tbaby.\"\>"},
+     {"\<\"*MOT:\\tbaby, see?\"\>"},
+     {"\<\"*MOT:\\tthe mummy duck ask the frog, baby.\"\>"},
+     {"\<\"*CHI:\\t&=vocalises.\"\>"},
+     {"\<\"*MOT:\\tthat is a dice, baby.\"\>"},
+     {"\<\"*MOT:\\tcome here baby.\"\>"},
+     {"\<\"*MOT:\\tdarion, you see?\"\>"},
+     {"\<\"*MOT:\\twhat is this?\"\>"},
+     {"\<\"*MOT:\\tbaby.\"\>"},
+     {"\<\"*MOT:\\tthe mummy duck ask.\"\>"},
+     {"\<\"*MOT:\\tbaby.\"\>"},
+     {"\<\"*MOT:\\tyou see, there is a butterfly here.\"\>"},
+     {"\<\"*MOT:\\tthe mummy duck is asking everybody.\"\>"},
+     {"\<\"*MOT:\\twhere is my little duckling?\"\>"},
+     {"\<\"*MOT:\\tmummy duck cannot find her duckling!\"\>"},
+     {"\<\"*MOT:\\twhere is the duckling?\"\>"},
+     {"\<\"*MOT:\\tsee there is one, two, three.\"\>"},
+     {"\<\"*MOT:\\tbaby.\"\>"},
+     {"\<\"*MOT:\\tyou see then the tortoise.\"\>"},
+     {"\<\"*MOT:\\tis helping the mummy duck look for the duckling!\"\>"},
+     {"\<\"*MOT:\\twhere is the duckling?\"\>"},
+     {"\<\"*MOT:\\tone, two, three, four, five, six, seven.\"\>"},
+     {"\<\"*MOT:\\tthey found the duckling!\"\>"},
+     {"\<\"*MOT:\\tlook, baby.\"\>"},
+     {"\<\"*MOT:\\tthey found!\"\>"},
+     {"\<\"*MOT:\\tyou think the tortoise found him?\"\>"},
+     {"\<\"*MOT:\\tbaby.\"\>"},
+     {"\<\"*MOT:\\tdarion.\"\>"},
+     {"\<\"*MOT:\\tand so they all went home because they found the duckling.\
+\"\>"},
+     {"\<\"*CHI:\\t&=vocalises.\"\>"},
+     {"\<\"*MOT:\\tand then they went home to sleep already, baby.\"\>"},
+     {"\<\"*MOT:\\tbaby, you see the mother duckling?\"\>"},
+     {"\<\"*MOT:\\tthe mother duck and the baby duckling, you see?\"\>"},
+     {"\<\"*MOT:\\tthe mummy duck is sleeping.\"\>"},
+     {"\<\"*MOT:\\tbaby, look.\"\>"},
+     {"\<\"*MOT:\\twhat is the mummy duck doing?\"\>"},
+     {"\<\"*MOT:\\tbaby [x 2].\"\>"},
+     {"\<\"*MOT:\\tand the small ducks, the ducklings what are they \
+doing?\"\>"},
+     {"\<\"*MOT:\\tthey are sleeping already.\"\>"},
+     {"\<\"*MOT:\\tsleep!\"\>"},
+     {"\<\"*CHI:\\tsleep.\"\>"},
+     {"\<\"*MOT:\\tthe end, baby.\"\>"},
+     {"\<\"*MOT:\\tyou like the story?\"\>"},
+     {"\<\"*MOT:\\tbaby.\"\>"},
+     {"\<\"*MOT:\\tdo you like the story?\"\>"}
+    },
+    GridBoxAlignment->{
+     "Columns" -> {{Left}}, "ColumnsIndexed" -> {}, "Rows" -> {{Baseline}}, 
+      "RowsIndexed" -> {}},
+    GridBoxSpacings->{"Columns" -> {
+        Offset[0.27999999999999997`], {
+         Offset[0.5599999999999999]}, 
+        Offset[0.27999999999999997`]}, "ColumnsIndexed" -> {}, "Rows" -> {
+        Offset[0.2], {
+         Offset[0.4]}, 
+        Offset[0.2]}, "RowsIndexed" -> {}}],
+   Column],
+  Function[BoxForm`e$, 
+   TableForm[BoxForm`e$]]]], "Output",
+ CellChangeTimes->{{3.697788502659522*^9, 3.69778850649426*^9}}]
+}, Open  ]]
+},
+WindowSize->{1440, 789},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+FrontEndVersion->"11.0 for Mac OS X x86 (32-bit, 64-bit Kernel) (September \
+21, 2016)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 118, 2, 32, "Input"],
+Cell[CellGroupData[{
+Cell[701, 26, 5260, 139, 369, "Input"],
+Cell[5964, 167, 349, 4, 32, "Output"]
+}, Open  ]],
+Cell[6328, 174, 190, 4, 32, "Input"],
+Cell[6521, 180, 190, 4, 32, "Input"],
+Cell[6714, 186, 190, 4, 32, "Input"],
+Cell[6907, 192, 190, 4, 32, "Input"],
+Cell[7100, 198, 190, 4, 32, "Input"],
+Cell[7293, 204, 190, 4, 32, "Input"],
+Cell[7486, 210, 190, 4, 32, "Input"],
+Cell[CellGroupData[{
+Cell[7701, 218, 462, 11, 54, "Input"],
+Cell[8166, 231, 147, 2, 32, "Output"],
+Cell[8316, 235, 150, 2, 32, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[8503, 242, 92, 1, 32, "Input"],
+Cell[8598, 245, 73, 1, 32, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[8708, 251, 126, 2, 32, "Input"],
+Cell[8837, 255, 10674, 237, 3893, "Output"]
+}, Open  ]]
+}
+]
+*)
+

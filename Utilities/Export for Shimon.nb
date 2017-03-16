@@ -1,0 +1,207 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      9816,        199]
+NotebookOptionsPosition[      9447,        181]
+NotebookOutlinePosition[      9805,        197]
+CellTagsIndexPosition[      9762,        194]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"(*", " ", 
+   RowBox[{
+    RowBox[{
+    "This", " ", "script", " ", "is", " ", "written", " ", "for", " ", 
+     "exporting", " ", "the", " ", "CHAT", " ", "files", " ", "for", " ", 
+     "Shimon", " ", "to", " ", "analyse", " ", "the", " ", 
+     RowBox[{
+     "Varset", ".", "\[IndentingNewLine]", "\[IndentingNewLine]", "Yezhou", 
+      ".", "\[IndentingNewLine]", "Feburary"}]}], ",", " ", "2017."}], 
+   "\[IndentingNewLine]", "*)"}], "\[IndentingNewLine]", 
+  RowBox[{"(*", 
+   RowBox[{"Locating", " ", "the", " ", "files"}], "*)"}], 
+  "\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"shimonTranscriptFolder", "=", 
+     RowBox[{"FileNameJoin", "[", 
+      RowBox[{"{", 
+       RowBox[{"\"\<Export\>\"", ",", "\"\<Shimon Transcripts\>\""}], "}"}], 
+      "]"}]}], ";"}], "\[IndentingNewLine]", 
+   RowBox[{"(*", 
+    RowBox[{"Setting", " ", "Up", " ", "Data", " ", "Structure"}], "*)"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"shimonTranscripts", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"shimonTranscripts", "[", 
+      RowBox[{"[", "VS", "]"}], "]"}], "=", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{"StringRiffle", "[", 
+        RowBox[{
+         RowBox[{"transcriptWords", "[", 
+          RowBox[{"[", 
+           RowBox[{"n", ",", 
+            RowBox[{"nonEmptyNonChildParticipantUtteranceLines", "[", 
+             RowBox[{"[", "n", "]"}], "]"}]}], "]"}], "]"}], ",", 
+         RowBox[{"{", 
+          RowBox[{"\"\<(a) \>\"", ",", "\"\<\\n(a) \>\"", ",", "\"\<\>\""}], 
+          "}"}], ",", "\"\< \>\""}], "]"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"n", ",", "VS"}], "}"}]}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{"(*", 
+    RowBox[{"Exporting", " ", "Transcripts"}], "*)"}], "\[IndentingNewLine]", 
+   
+   RowBox[{"Do", "[", 
+    RowBox[{
+     RowBox[{"Module", "[", 
+      RowBox[{
+       RowBox[{"{", "}"}], ",", "\[IndentingNewLine]", 
+       RowBox[{"Export", "[", 
+        RowBox[{
+         RowBox[{"FileNameJoin", "[", 
+          RowBox[{"{", 
+           RowBox[{"shimonTranscriptFolder", ",", 
+            RowBox[{
+             RowBox[{"transcriptFileBaseNames", "[", 
+              RowBox[{"[", "n", "]"}], "]"}], "<>", 
+             "\"\<_for_shimon.txt\>\""}]}], "}"}], "]"}], ",", 
+         RowBox[{"shimonTranscripts", "[", 
+          RowBox[{"[", "n", "]"}], "]"}]}], "]"}]}], "\[IndentingNewLine]", 
+      "]"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"n", ",", "VS"}], "}"}]}], "]"}]}]}]], "Input",
+ CellChangeTimes->{{3.696857888905799*^9, 3.696857902409584*^9}, {
+  3.696859969968226*^9, 3.696859991146316*^9}, {3.6968600235087337`*^9, 
+  3.696860052003224*^9}, {3.696860087544873*^9, 3.6968600987989683`*^9}, {
+  3.696860147829163*^9, 3.6968602680544024`*^9}, {3.696860345075791*^9, 
+  3.696860511753248*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"shimonTranscripts", "[", 
+  RowBox[{"[", "42", "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.69686025078188*^9, 3.696860254288974*^9}}],
+
+Cell[BoxData["\<\"(a) Tanya\\n(a) Sofie would you like to read a book\\n(a) \
+would you like to read a book about ducklings\\n(a) ducks\\n(a) Sof where are \
+you\\n(a) okay look\\n(a) look he has a book a book jie3 jie brought you \
+Sofie\\n(a) it is not pop goes the weedle it is have you seen my \
+duckling\\n(a) watch out please Sof\\n(a) Tanya are you interested in the \
+book\\n(a) Tanya look look at this\\n(a) Sof do you like to read\\n(a) look \
+at this book\\n(a) you are not being xxx\\n(a) what is is out there \
+Tanya\\n(a) Sofie\\n(a) okay come sit down with mummy\\n(a) can you behave or \
+not\\n(a) Sofie can we please sit down\\n(a) okay so I am just going to tell \
+her the story [+bch]\\n(a) can you wait can you just wait for mummy to turn \
+the page\\n(a) ducks do you like ducks what colours are the ducks\\n(a) Sofie\
+\\n(a) yellow\\n(a) \\\"early one morning\\\"\\n(a) xxx ducks went to look \
+for the little duckling\\n(a) how many ducks are there\\n(a) how many \
+ducklings\\n(a) seven\\n(a) one two three four five six seven\\n(a) seven and \
+there is another one who is missing\\n(a) where is it\\n(a) it is up \
+here\\n(a) is it missing is it\\n(a) is this is the missing one together with \
+all its brother and sisters\\n(a) no\\n(a) no it is all by himself\\n(a) what \
+is this\\n(a) you don know\\n(a) what is flying\\n(a) butterfly\\n(a) the \
+mummy duck goes xxx\\n(a) one two three four five six seven\\n(a) how many \
+how many ducklings are there\\n(a) no it is not ten okay\\n(a) it is \
+seven\\n(a) where is the missing one\\n(a) over here\\n(a) he has gone off by \
+himself\\n(a) so what does the mummy\\n(a) not there right\\n(a) yesterday it \
+was there and now it moves so quickly here\\n(a) wow\\n(a) can you move as \
+fast as the duckling or faster\\n(a) faster of course you are faster \
+right\\n(a) so what does the what does the mummy do\\n(a) where is the mummy \
+duck\\n(a) there one up there\\n(a) that is the baby duckling right\\n(a) is \
+the baby duckling with its brothers and sisters\\n(a) no\\n(a) where is the \
+mummy duckling\\n(a) where is the mummy duck\\n(a) over here that is \
+right\\n(a) can\\n(a) one two three four five six seven they all following \
+mummy duck\\n(a) to look for who\\n(a) no they all following mummy duck to \
+look for who\\n(a) to look for this baby duck right\\n(a) it may seem \
+[+bch]\\n(a) and then what does the mummy duck ask\\n(a) she asked the bird \
+\\\"have you seen my duckling\\\"\\n(a) \\\"have you seen my missing duckling\
+\\\"\\n(a) no\\n(a) is that what the bird said\\n(a) wait hang on\\n(a) now \
+let us see what happens next Sof\\n(a) she ask the what is this\\n(a) what is \
+this\\n(a) turtle yes\\n(a) \\\"hello mister turtle have you seen my duckling\
+\\\"\\n(a) that is is is is it a beaver\\n(a) it is I think it a beaver la \
+not very sure\\n(a) Sofie did you find out the missing duckling\\n(a) behind \
+can you spot the missing duckling you can see the beak\\n(a) where the where \
+is the beak\\n(a) no missing duckling\\n(a) yes there is one here\\n(a) one \
+two three four five six seven okay\\n(a) there are all with the mummy\\n(a) \
+where is the missing one\\n(a) look carefully carefully you can see the \
+beak\\n(a) it is behind the tree\\n(a) there supposed to be another xxx\\n(a) \
+baby\\n(a) so now they join all the other ducklings\\n(a) not mummy duckling \
+mummy duck\\n(a) what is that\\n(a) a frog yes\\n(a) wait wait wait\\n(a) so \
+she is swimming with the beaver and the beaver has a piece of log\\n(a) and \
+one two three four five six seven all seven of them now\\n(a) so where is the \
+missing one where is the missing one\\n(a) is it here\\n(a) yes it behind the \
+stone the rock okay\\n(a) let us turn the page\\n(a) you must look find the \
+missing duckling okay\\n(a) what does the mama ask the fish\\n(a) \\\"have \
+you seen my\\\"\\n(a) missing\\n(a) yes have you seen my missing duck\\n(a) \
+so who else is swimming with mummy and all the other ducklings\\n(a) fish and \
+turtle and this is some kind of reptile okay\\n(a) and what is this\\n(a) \
+mister frog\\n(a) and all the other ducklings\\n(a) and where is the missing \
+where is mister missing duckling\\n(a) where\\n(a) no the missing one\\n(a) \
+so they are swimming swimming swimming swimming and they ask\\n(a) who did \
+they come across\\n(a) \\\"have you seen my missing duck\\\"\\n(a) and \
+then\\n(a) mummy duckling mummy duck saw another another kind of bird\\n(a) \
+she says \\\"have you seen my duckling\\\"\\n(a) the mama duck mummy duck \
+doesn know that right\\n(a) she asked \\\"have you seen my duckling\\\"\\n(a) \
+is she worried\\n(a) she is worried because she needs to find her baby\\n(a) \
+what is this\\n(a) and mummy duck is looking for\\n(a) she turns around and \
+she saw\\n(a) is it the baby duckling\\n(a) xxx can you count how many\\n(a) \
+one two three\\n(a) ten there are not that many okay\\n(a) and all the other \
+ducklings xxx\\n(a) where is the missing duckling\\n(a) [+ bch] not right now\
+\\n(a) no no no the monitor was not working\\n(a) what what sofie\\n(a) one \
+two three four five six seven\\n(a) did the missing duckling appear\\n(a) did \
+they find it\\n(a) yes can you count how many ducklings there are \
+altogether\\n(a) let start with this one one\\n(a) let us count\\n(a) \
+one\\n(a) is that the end\\n(a) and then where do they go\\n(a) where do they \
+go\\n(a) do they go xxx\\n(a) it is night time where do they go\\n(a) to bed \
+right\\n(a) all the little ducklings xxx to bed and sleep\\n(a) then what we \
+say\\n(a) the end\\n(a) you like this book\\n(a) should we buy this \
+book\"\>"], "Output",
+ CellChangeTimes->{{3.696860252925001*^9, 3.696860254634103*^9}}]
+}, Open  ]]
+},
+WindowSize->{1440, 788},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+FrontEndVersion->"11.0 for Mac OS X x86 (32-bit, 64-bit Kernel) (September \
+21, 2016)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 2969, 75, 364, "Input"],
+Cell[CellGroupData[{
+Cell[3552, 99, 159, 3, 32, "Input"],
+Cell[3714, 104, 5717, 74, 3351, "Output"]
+}, Open  ]]
+}
+]
+*)
+

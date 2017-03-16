@@ -1,0 +1,265 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 10.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     10716,        256]
+NotebookOptionsPosition[     10052,        228]
+NotebookOutlinePosition[     10408,        244]
+CellTagsIndexPosition[     10365,        241]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"(*", 
+   RowBox[{"Data2", "=", 
+    RowBox[{
+     RowBox[{"NotebookGet", "[", 
+      RowBox[{"ClipboardNotebook", "[", "]"}], "]"}], "[", 
+     RowBox[{"[", 
+      RowBox[{"1", ",", "1", ",", "1"}], "]"}], "]"}]}], "*)"}], 
+  "\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"Data2", "=", "DD"}], ";"}], "\[IndentingNewLine]", 
+   RowBox[{"Data2", "=", 
+    RowBox[{"Data2", "~", "StringSplit", "~", "\"\<\\n\>\""}]}]}]}]], "Input",\
+
+ CellChangeTimes->{{3.680331755037142*^9, 3.680331782371756*^9}, {
+  3.6803328753391323`*^9, 3.6803328822185717`*^9}, {3.680333033868156*^9, 
+  3.6803330476811657`*^9}, {3.680333101496944*^9, 3.680333109975956*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"\<\"english\"\>", ",", "\<\"english;mandarin;teochew \"\>", 
+   ",", "\<\"english\"\>", ",", "\<\"english;mandarin;malay\"\>", 
+   ",", "\<\"chinese\"\>", ",", "\<\"\\\"mandarin\"\>", 
+   ",", "\<\"hokkien\\\"\"\>", ",", "\<\"hindi english\"\>", 
+   ",", "\<\"hokkien;mandarin;english\"\>", ",", "\<\"english & french\"\>", 
+   ",", "\<\"english\"\>", ",", "\<\"\\\"english\"\>", ",", "\<\"tamil\"\>", 
+   ",", "\<\"malay\\\"\"\>", ",", "\<\"chinese\"\>", ",", "\<\"mandarin\"\>", 
+   ",", "\<\"\\\"shanghai dialect\"\>", ",", "\<\"mandarin\\\"\"\>", 
+   ",", "\<\"\\\"english\"\>", ",", "\<\"chinese\"\>", 
+   ",", "\<\"hainanese\\\"\"\>", ",", "\<\"\\\"english\"\>", 
+   ",", "\<\"german\\\"\"\>", ",", "\<\"mandarin\"\>", 
+   ",", "\<\"\\\"mandarin\"\>", ",", "\<\"hokkien\\\"\"\>", 
+   ",", "\<\"japanese\"\>", ",", "\<\"mandarin\"\>", ",", "\<\"mandarin\"\>", 
+   ",", "\<\"hokkien\"\>", ",", "\<\"english\"\>", 
+   ",", "\<\"mandarin;english. hainanese\"\>", ",", "\<\"chinese\"\>", 
+   ",", "\<\"english;chinese;teochew\"\>", 
+   ",", "\<\"mandarin;english;teochew\"\>", ",", "\<\"english\"\>", 
+   ",", "\<\"mandarin;english;hokkien\"\>", ",", "\<\"\\\"mandarin\"\>", 
+   ",", "\<\"english\\\"\"\>", ",", "\<\"\\\"tamil \"\>", 
+   ",", "\<\"english\\\"\"\>", ",", "\<\"\\\"english\"\>", 
+   ",", "\<\"chinese\"\>", ",", "\<\"cantonese\"\>", 
+   ",", "\<\"hokkien\\\"\"\>", ",", "\<\"vietnamese\"\>", 
+   ",", "\<\"\\\"english\"\>", ",", "\<\"mandarin\"\>", 
+   ",", "\<\"hokkien\\\"\"\>", ",", "\<\"english\"\>", 
+   ",", "\<\"\\\"chinese\"\>", ",", "\<\"hokkien\"\>", 
+   ",", "\<\"english\\\"\"\>", ",", "\<\"\\\"malay\"\>", 
+   ",", "\<\"english\\\"\"\>", ",", "\<\"\\\"malay\"\>", 
+   ",", "\<\"english\\\"\"\>", ",", "\<\"\\\"chinese\"\>", 
+   ",", "\<\"english\"\>", ",", "\<\"cantonese\\\"\"\>", 
+   ",", "\<\"\\\"kannada\"\>", ",", "\<\"english\\\"\"\>", 
+   ",", "\<\"\\\"english\"\>", ",", "\<\"mandarin\\\"\"\>", 
+   ",", "\<\"burmese\"\>", ",", "\<\"\\\"english\"\>", 
+   ",", "\<\"mandarin\"\>", ",", "\<\"cantonese\\\"\"\>", 
+   ",", "\<\"\\\"english\"\>", ",", "\<\"malay\"\>", ",", "\<\"hokkien\"\>", 
+   ",", "\<\"cantonese\\\"\"\>", ",", "\<\"burmese\"\>", 
+   ",", "\<\"\\\"malay\"\>", ",", "\<\"english\\\"\"\>", 
+   ",", "\<\"english\"\>", ",", "\<\"\\\"english\"\>", 
+   ",", "\<\"mandarin\\\"\"\>", ",", "\<\"\\\"teo chew\"\>", 
+   ",", "\<\"bahasa\\\"\"\>", ",", "\<\"\\\"mandarin\"\>", 
+   ",", "\<\"hokkien\\\"\"\>", ",", "\<\"french\"\>", 
+   ",", "\<\"chinese;cantonese,hokkien\"\>", 
+   ",", "\<\"english;chinese;teochew\"\>", ",", "\<\"french\"\>", 
+   ",", "\<\"french;english;vietnamese\"\>", 
+   ",", "\<\"hokkien;english;chinese\"\>", ",", "\<\"mandarin\"\>", 
+   ",", "\<\"english;chinese;hokkien;teochew\"\>", ",", "\<\"malay\"\>", 
+   ",", "\<\"mandarin,english;hokkien\"\>", ",", "\<\"english;hokkien\"\>", 
+   ",", "\<\"mandarin;cantonese\"\>", ",", "\<\"english;mandarin;hokkien\"\>",
+    ",", "\<\"hainanese english mandarin\"\>", 
+   ",", "\<\"english mandarin hainanese\"\>", ",", "\<\"kanada;english\"\>", 
+   ",", "\<\"english;burmese;mandarin;hokkien;malay\"\>", 
+   ",", "\<\"\\\"english\"\>", ",", "\<\"malay\"\>", ",", "\<\"hokkien\"\>", 
+   ",", "\<\"cantonese\\\"\"\>", ",", "\<\"chinese\"\>", 
+   ",", "\<\"english;mandarin\"\>", ",", "\<\"\\\"malay\"\>", 
+   ",", "\<\"english\\\"\"\>", ",", "\<\"hokkien\"\>", 
+   ",", "\<\"mandarin\"\>", ",", "\<\"mandarin;hokkien\"\>", 
+   ",", "\<\"mandarin;hainanese;english\"\>", 
+   ",", "\<\"english;mandarin;hokkien\"\>", 
+   ",", "\<\"mandarin;english;hokkien\"\>", 
+   ",", "\<\"english;mandarin;teochew \"\>", 
+   ",", "\<\"english;mandarin;hokkien\"\>", ",", "\<\"malay\"\>", 
+   ",", "\<\"teo chew;english;mandarin\"\>", ",", "\<\"english;mandarin\"\>", 
+   ",", "\<\"english;mandarin\"\>", ",", "\<\"chinese;cantonese,hokkien\"\>", 
+   ",", "\<\"mandarin;cantonese\"\>", ",", "\<\"english;mandarin;hokkien\"\>",
+    ",", "\<\"bahasa indonesia\"\>", ",", "\<\"english;mandarin\"\>"}], 
+  "}"}]], "Output",
+ CellChangeTimes->{{3.680331755742428*^9, 3.680331782727087*^9}, {
+   3.680332882686349*^9, 3.680332890590468*^9}, 3.680333047966663*^9, {
+   3.6803331061993837`*^9, 3.6803331101539783`*^9}, 3.680333239949091*^9, 
+   3.6803332837147303`*^9, 3.680333344687024*^9}]
+}, Open  ]],
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"k", "=", "0"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"NewList", "=", 
+   RowBox[{"{", "}"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"InNow", "=", "False"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{"For", "[", 
+  RowBox[{
+   RowBox[{"i", "=", "1"}], ",", 
+   RowBox[{"i", "\[LessEqual]", 
+    RowBox[{"Length", "[", "Data2", "]"}]}], ",", 
+   RowBox[{"i", "++"}], ",", "\[IndentingNewLine]", 
+   RowBox[{"Module", "[", 
+    RowBox[{
+     RowBox[{"{", "}"}], ",", "\[IndentingNewLine]", 
+     RowBox[{"If", "[", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"StringTake", "[", 
+         RowBox[{
+          RowBox[{"Data2", "[", 
+           RowBox[{"[", "i", "]"}], "]"}], ",", "1"}], "]"}], "\[Equal]", 
+        "\"\<\\\"\>\""}], ",", "\[IndentingNewLine]", 
+       RowBox[{
+        RowBox[{"InNow", "=", "True"}], ";", 
+        RowBox[{"AppendTo", "[", 
+         RowBox[{"NewList", ",", 
+          RowBox[{"StringTake", "[", 
+           RowBox[{
+            RowBox[{"Data2", "[", 
+             RowBox[{"[", "i", "]"}], "]"}], ",", 
+            RowBox[{"{", 
+             RowBox[{"2", ",", 
+              RowBox[{"-", "1"}]}], "}"}]}], "]"}]}], "]"}], ";"}], ",", 
+       RowBox[{
+        RowBox[{"If", "[", 
+         RowBox[{"InNow", ",", 
+          RowBox[{
+           RowBox[{"NewList", "[", 
+            RowBox[{"[", "k", "]"}], "]"}], "=", 
+           RowBox[{
+            RowBox[{"NewList", "[", 
+             RowBox[{"[", "k", "]"}], "]"}], "<>", "\"\<;\>\"", "<>", 
+            RowBox[{"Data2", "[", 
+             RowBox[{"[", "i", "]"}], "]"}]}]}]}], "]"}], ";"}]}], 
+      "\[IndentingNewLine]", "]"}]}], "\[IndentingNewLine]", "]"}]}], 
+  "\[IndentingNewLine]", "]"}]}], "Input",
+ CellChangeTimes->{{3.68033295403986*^9, 3.680333019802496*^9}, {
+  3.680333119791519*^9, 3.6803331295402412`*^9}, {3.680333370971704*^9, 
+  3.6803336048001966`*^9}},
+ EmphasizeSyntaxErrors->True],
+
+Cell[BoxData["\"\<\>"], "Input",
+ CellChangeTimes->{3.680333579033628*^9}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{"If", "[", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"StringTake", "[", 
+       RowBox[{
+        RowBox[{"Data2", "[", 
+         RowBox[{"[", "#", "]"}], "]"}], ",", "1"}], "]"}], "\[Equal]", 
+      "\"\<\\\"\>\""}], ",", "1", ",", "0"}], "]"}], "&"}], "/@", 
+  RowBox[{"Range", "[", 
+   RowBox[{"Length", "[", "Data2", "]"}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.6803331312450533`*^9, 3.6803332133872423`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+  "0", ",", "0", ",", "0", ",", "0", ",", "0", ",", "1", ",", "0", ",", "0", 
+   ",", "0", ",", "0", ",", "0", ",", "1", ",", "0", ",", "0", ",", "0", ",", 
+   "0", ",", "1", ",", "0", ",", "1", ",", "0", ",", "0", ",", "1", ",", "0", 
+   ",", "0", ",", "1", ",", "0", ",", "0", ",", "0", ",", "0", ",", "0", ",", 
+   "0", ",", "0", ",", "0", ",", "0", ",", "0", ",", "0", ",", "0", ",", "1", 
+   ",", "0", ",", "1", ",", "0", ",", "1", ",", "0", ",", "0", ",", "0", ",", 
+   "0", ",", "1", ",", "0", ",", "0", ",", "0", ",", "1", ",", "0", ",", "0", 
+   ",", "1", ",", "0", ",", "1", ",", "0", ",", "1", ",", "0", ",", "0", ",", 
+   "1", ",", "0", ",", "1", ",", "0", ",", "0", ",", "1", ",", "0", ",", "0", 
+   ",", "1", ",", "0", ",", "0", ",", "0", ",", "0", ",", "1", ",", "0", ",", 
+   "0", ",", "1", ",", "0", ",", "1", ",", "0", ",", "1", ",", "0", ",", "0", 
+   ",", "0", ",", "0", ",", "0", ",", "0", ",", "0", ",", "0", ",", "0", ",", 
+   "0", ",", "0", ",", "0", ",", "0", ",", "0", ",", "0", ",", "0", ",", "0", 
+   ",", "0", ",", "1", ",", "0", ",", "0", ",", "0", ",", "0", ",", "0", ",", 
+   "1", ",", "0", ",", "0", ",", "0", ",", "0", ",", "0", ",", "0", ",", "0", 
+   ",", "0", ",", "0", ",", "0", ",", "0", ",", "0", ",", "0", ",", "0", ",", 
+   "0", ",", "0", ",", "0", ",", "0"}], "}"}]], "Output",
+ CellChangeTimes->{{3.680333158480109*^9, 3.680333213901881*^9}, 
+   3.6803332877320843`*^9, 3.680333349357315*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Data2", "[", 
+  RowBox[{"[", "2", "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.680333230970484*^9, 3.680333244519866*^9}}],
+
+Cell[BoxData["\<\"english, mandarin, malay, cantonese, hokkien \"\>"], \
+"Output",
+ CellChangeTimes->{{3.680333229117446*^9, 3.680333244818536*^9}}]
+}, Open  ]],
+
+Cell[BoxData[""], "Input",
+ CellChangeTimes->{{3.6803334606155567`*^9, 3.680333466352957*^9}}]
+},
+WindowSize->{808, 690},
+WindowMargins->{{158, Automatic}, {-53, Automatic}},
+FrontEndVersion->"10.2 for Mac OS X x86 (32-bit, 64-bit Kernel) (July 29, \
+2015)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 695, 18, 63, "Input"],
+Cell[1278, 42, 4318, 70, 420, "Output"]
+}, Open  ]],
+Cell[5611, 115, 1951, 52, 216, "Input"],
+Cell[7565, 169, 74, 1, 28, "Input"],
+Cell[CellGroupData[{
+Cell[7664, 174, 461, 13, 28, "Input"],
+Cell[8128, 189, 1476, 21, 80, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[9641, 215, 147, 3, 28, "Input"],
+Cell[9791, 220, 148, 2, 28, "Output"]
+}, Open  ]],
+Cell[9954, 225, 94, 1, 28, "Input"]
+}
+]
+*)
+
+(* End of internal cache information *)

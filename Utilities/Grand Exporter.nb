@@ -1,0 +1,125 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      4709,        117]
+NotebookOptionsPosition[      4339,         99]
+NotebookOutlinePosition[      4702,        115]
+CellTagsIndexPosition[      4659,        112]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"(*", "Environment", "*)"}], "\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"grandResultsFile", "=", "\"\<narration_study.csv\>\""}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+    "grandDescriptorFile", "=", "\"\<narration_study_descriptor.pdf\>\""}], 
+    ";"}], "\[IndentingNewLine]", 
+   RowBox[{"(*", 
+    RowBox[{"Combine", " ", "the", " ", "bundles"}], "*)"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"grandBundles", "=", 
+     RowBox[{"Join", "[", 
+      RowBox[{
+      "bundleLingLang", ",", "bundleLing", ",", "bundleLSBQ", ",", 
+       "bundleNarrationLogLong"}], "]"}]}], ";"}], "\n", 
+   RowBox[{"(*", 
+    RowBox[{"Export", " ", "Data", " ", "Files"}], "*)"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{"bundleExport", "[", 
+    RowBox[{
+    "grandBundles", ",", "grandResultsFile", ",", "grandDescriptorFile", ",", 
+     "True", ",", "True"}], "]"}]}]}]], "Input",
+ CellChangeTimes->{{3.69763525193857*^9, 3.697635531787928*^9}, {
+   3.697635703327914*^9, 3.69763585348519*^9}, {3.6976359564734364`*^9, 
+   3.697635968655508*^9}, {3.697635999304681*^9, 3.69763606214898*^9}, {
+   3.6976361312740498`*^9, 3.6976361357678967`*^9}, {3.6976361933274813`*^9, 
+   3.697636303152835*^9}, {3.697636341032015*^9, 3.6976364328990507`*^9}, {
+   3.697636485674312*^9, 3.697636649720336*^9}, {3.697636726667893*^9, 
+   3.6976367701366568`*^9}, {3.69766752955986*^9, 3.697667554388479*^9}, {
+   3.697943849896797*^9, 3.6979438509184923`*^9}, {3.69794760644207*^9, 
+   3.6979476747493677`*^9}, 3.69794771360946*^9, {3.697947891759418*^9, 
+   3.697947910763424*^9}, {3.697947949737434*^9, 3.6979479506964397`*^9}, {
+   3.6979479832022333`*^9, 3.697947986688012*^9}, {3.697949447404031*^9, 
+   3.697949471515777*^9}, {3.6979519232901773`*^9, 3.697951924222642*^9}, {
+   3.698035736931116*^9, 3.698035737098909*^9}, {3.698038902150269*^9, 
+   3.698038902341216*^9}, {3.6980419473026257`*^9, 3.698041947700739*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   ButtonBox["\<\"Launch Results File\"\>",
+    Appearance->Automatic,
+    ButtonFunction:>SystemOpen["narration_study.csv"],
+    Evaluator->Automatic,
+    Method->"Preemptive"], ",", 
+   ButtonBox["\<\"Launch Descriptor File\"\>",
+    Appearance->Automatic,
+    ButtonFunction:>SystemOpen["narration_study_descriptor.pdf"],
+    Evaluator->Automatic,
+    Method->"Preemptive"]}], "}"}]], "Output",
+ CellChangeTimes->{{3.697635726615685*^9, 3.697635750938155*^9}, {
+   3.697635786301979*^9, 3.697635853864484*^9}, {3.697635946192957*^9, 
+   3.697635969079732*^9}, {3.6976360230137177`*^9, 3.697636025378187*^9}, 
+   3.697636097290245*^9, 3.697636136193454*^9, 3.6976362666797667`*^9, 
+   3.697636303611171*^9, 3.697636344034874*^9, 3.6976363748043947`*^9, {
+   3.6976364165712347`*^9, 3.697636421378261*^9}, {3.697636504693206*^9, 
+   3.697636516500114*^9}, 3.697636548695333*^9, 3.697636595980297*^9, 
+   3.697636650037549*^9, {3.6976367296599913`*^9, 3.697636736909902*^9}, 
+   3.697636770572461*^9, 3.6976368039622297`*^9, 3.6976675547655277`*^9, 
+   3.6976755644862337`*^9, 3.697947675160874*^9, 3.6979478937136393`*^9, 
+   3.697947953056972*^9, 3.697947987202436*^9, 3.697948142994534*^9, {
+   3.697949464833552*^9, 3.69794947213371*^9}, 3.6979771977829723`*^9, 
+   3.697977361715898*^9, 3.697978396772911*^9, 3.698035802396084*^9, 
+   3.698038903817053*^9, 3.698038981078773*^9, 3.69803985187329*^9, 
+   3.698040845804997*^9, 3.698041813290103*^9, {3.698041922239746*^9, 
+   3.698041948502606*^9}, {3.6980465818495417`*^9, 3.698046630112261*^9}, 
+   3.698378290973765*^9, 3.698382047300611*^9, 3.6983825487557487`*^9}]
+}, Open  ]],
+
+Cell[BoxData[""], "Input",
+ CellChangeTimes->{{3.69804652582778*^9, 3.698046528929554*^9}}]
+},
+WindowSize->{960, 506},
+WindowMargins->{{-254, Automatic}, {Automatic, -551}},
+FrontEndVersion->"11.0 for Mac OS X x86 (32-bit, 64-bit Kernel) (September \
+21, 2016)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 1983, 40, 159, "Input"],
+Cell[2566, 64, 1663, 29, 43, "Output"]
+}, Open  ]],
+Cell[4244, 96, 91, 1, 32, "Input"]
+}
+]
+*)
+

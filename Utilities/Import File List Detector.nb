@@ -1,0 +1,439 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     19537,        431]
+NotebookOptionsPosition[     18821,        402]
+NotebookOutlinePosition[     19185,        418]
+CellTagsIndexPosition[     19142,        415]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"(*", "Switches", "*)"}], "\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"takeFirstOfAll", "=", "True"}], ";"}], "\[IndentingNewLine]", 
+   RowBox[{"(*", "Main", "*)"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"allPossibleFiles", "=", 
+     RowBox[{"FileNames", "[", 
+      RowBox[{"\"\<*\>\"", ",", "transcriptFolder"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"allPossibleVSRaw", "=", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"StringCases", "[", 
+        RowBox[{"#", ",", 
+         RowBox[{"Repeated", "[", 
+          RowBox[{"DigitCharacter", ",", "3"}], "]"}]}], "]"}], "&"}], "/@", 
+      "allPossibleFiles"}]}], ";"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"If", "[", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"Length", "[", "allPossibleVSRaw", "]"}], "\[NotEqual]", 
+       RowBox[{"Length", "[", 
+        RowBox[{"Flatten", "[", "allPossibleVSRaw", "]"}], "]"}]}], ",", 
+      RowBox[{"Module", "[", 
+       RowBox[{
+        RowBox[{"{", "}"}], ",", "\[IndentingNewLine]", 
+        RowBox[{
+         RowBox[{
+         "Print", "[", 
+          "\"\<Error!!! Multiple Matches Found! Following are the files \
+concerned:\>\"", "]"}], ";", "\[IndentingNewLine]", 
+         RowBox[{"errorFound", "=", "True"}], ";", "\[IndentingNewLine]", 
+         RowBox[{"ambiguousFileNames", "=", 
+          RowBox[{"Table", "[", 
+           RowBox[{
+            RowBox[{"If", "[", 
+             RowBox[{
+              RowBox[{
+               RowBox[{"Length", "[", 
+                RowBox[{"allPossibleVSRaw", "[", 
+                 RowBox[{"[", "n", "]"}], "]"}], "]"}], "\[NotEqual]", "1"}], 
+              ",", 
+              RowBox[{"allPossibleFiles", "[", 
+               RowBox[{"[", "n", "]"}], "]"}], ",", "Nothing"}], "]"}], ",", 
+            RowBox[{"{", 
+             RowBox[{"n", ",", "1", ",", 
+              RowBox[{"Length", "[", "allPossibleFiles", "]"}]}], "}"}]}], 
+           "]"}]}], ";", "\[IndentingNewLine]", 
+         RowBox[{"Print", "[", "ambiguousFileNames", "]"}]}]}], 
+       "\[IndentingNewLine]", "]"}]}], "\[IndentingNewLine]", "]"}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"allPossibleVS", "=", 
+     RowBox[{"If", "[", 
+      RowBox[{"takeFirstOfAll", ",", 
+       RowBox[{"Flatten", "[", 
+        RowBox[{"allPossibleVSRaw", "[", 
+         RowBox[{"[", 
+          RowBox[{";;", ",", "1"}], "]"}], "]"}], "]"}], ",", 
+       RowBox[{"If", "[", 
+        RowBox[{"errorFound", ",", "\"\<ERROR!\>\"", ",", 
+         RowBox[{"Flatten", "[", "allPossibleVSRaw", "]"}]}], "]"}]}], 
+      "]"}]}], ";"}], "\[IndentingNewLine]", 
+   RowBox[{"Print", "[", "\"\<Copied to Clipboard!\>\"", "]"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{"allPossibleVSList", "=", 
+    RowBox[{"StringRiffle", "[", 
+     RowBox[{
+      RowBox[{"Sort", "[", "allPossibleVS", "]"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"\"\<VS\>\"", ",", "\"\<\\nVS\>\"", ",", "\"\<\>\""}], "}"}]}],
+      "]"}]}], "\[IndentingNewLine]", 
+   RowBox[{"CopyToClipboard", "[", "allPossibleVSList", "]"}]}]}]], "Input",
+ CellChangeTimes->{{3.6948414392884817`*^9, 3.694841439591392*^9}, {
+   3.694841490720661*^9, 3.694841531734725*^9}, {3.694841627948489*^9, 
+   3.694841736978849*^9}, {3.6948421883741293`*^9, 3.694842315493146*^9}, {
+   3.694842488800047*^9, 3.6948424954692497`*^9}, {3.694843491088867*^9, 
+   3.694843491288928*^9}, {3.694843567982788*^9, 3.6948437219901457`*^9}, {
+   3.6948437645586233`*^9, 3.694843837104085*^9}, {3.694843869663251*^9, 
+   3.694843909251099*^9}, {3.6948439517230186`*^9, 3.694843955397986*^9}, {
+   3.6948445904827414`*^9, 3.694844628065238*^9}, {3.6948448397584953`*^9, 
+   3.6948448410768967`*^9}, 3.6975260934460363`*^9}],
+
+Cell[BoxData["\<\"Copied to Clipboard!\"\>"], "Print",
+ CellChangeTimes->{
+  3.6948423160940027`*^9, 3.694842495990458*^9, 3.694843212506716*^9, 
+   3.694843491610972*^9, 3.6948435558337317`*^9, 3.69484359891864*^9, {
+   3.694843830581142*^9, 3.694843837453874*^9}, {3.6948438735745068`*^9, 
+   3.6948438933601418`*^9}, {3.69484395302903*^9, 3.694843955698574*^9}, {
+   3.6948446051600723`*^9, 3.69484462858258*^9}, 3.694844841428216*^9, 
+   3.695433829817664*^9, 3.695433881198243*^9, 3.69543430718167*^9, 
+   3.697525728667811*^9, 3.697525802264024*^9, 3.697525972646039*^9, 
+   3.6975260521836767`*^9, 3.69752621888264*^9, 3.697526266428732*^9, 
+   3.6975263149233227`*^9, 3.697526357276288*^9}],
+
+Cell[BoxData["\<\"VS003\\nVS004\\nVS006\\nVS008\\nVS009\\nVS010\\nVS011\\\
+nVS012\\nVS013\\nVS014\\nVS015\\nVS016\\nVS017\\nVS019\\nVS020\\nVS021\\\
+nVS022\\nVS023\\nVS024\\nVS025\\nVS026\\nVS028\\nVS033\\nVS034\\nVS035\\\
+nVS036\\nVS037\\nVS038\\nVS039\\nVS041\\nVS043\\nVS044\\nVS045\\nVS046\\\
+nVS047\\nVS048\\nVS049\\nVS053\\nVS054\\nVS055\\nVS056\\nVS057\\nVS060\\\
+nVS061\\nVS062\\nVS063\\nVS064\\nVS065\\nVS066\\nVS067\\nVS068\\nVS074\\\
+nVS075\\nVS078\\nVS079\\nVS081\\nVS082\\nVS083\\nVS084\\nVS085\\nVS088\\\
+nVS089\\nVS090\\nVS091\\nVS092\\nVS093\\nVS094\\nVS098\\nVS099\\nVS100\\\
+nVS102\\nVS103\\nVS104\\nVS105\\nVS106\\nVS107\\nVS108\\nVS109\\nVS110\\\
+nVS112\\nVS113\\nVS116\\nVS117\\nVS118\\nVS119\\nVS120\\nVS121\\nVS122\\\
+nVS123\\nVS124\\nVS125\\nVS126\\nVS127\\nVS128\\nVS129\\nVS130\\nVS131\\\
+nVS132\\nVS133\\nVS135\\nVS138\\nVS139\\nVS140\\nVS141\\nVS142\\nVS145\\\
+nVS147\\nVS148\\nVS149\\nVS150\\nVS154\\nVS155\\nVS156\\nVS160\\nVS161\\\
+nVS162\\nVS164\\nVS167\\nVS168\\nVS169\\nVS170\\nVS171\\nVS172\\nVS173\\\
+nVS174\\nVS175\\nVS176\\nVS177\\nVS178\\nVS179\\nVS180\\nVS181\\nVS183\\\
+nVS184\\nVS185\\nVS186\\nVS187\\nVS188\\nVS190\\nVS191\"\>"], "Output",
+ CellChangeTimes->{{3.694841497886805*^9, 3.694841509678335*^9}, 
+   3.694841702062913*^9, {3.694842197383122*^9, 3.6948423161002398`*^9}, 
+   3.694842495997891*^9, 3.694843212519655*^9, 3.694843491604314*^9, 
+   3.694843555828018*^9, 3.694843598907909*^9, {3.694843830575404*^9, 
+   3.694843837467721*^9}, {3.694843873589136*^9, 3.694843893378788*^9}, {
+   3.6948439530482616`*^9, 3.694843955717667*^9}, {3.694844605186449*^9, 
+   3.694844628602345*^9}, 3.694844841446314*^9, 3.695433829971875*^9, 
+   3.695433881217474*^9, 3.695434307203104*^9, 3.6975257286755323`*^9, 
+   3.697525802377056*^9, 3.6975259727649117`*^9, 3.697526052324895*^9, 
+   3.69752621893407*^9, 3.697526266524912*^9, 3.697526314931052*^9, 
+   3.697526357282609*^9}]
+}, Open  ]],
+
+Cell[BoxData[""], "Input",
+ CellChangeTimes->{{3.697526091226296*^9, 3.69752609212652*^9}}],
+
+Cell[BoxData[
+ RowBox[{"\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"transcriptFolder", "=", 
+     RowBox[{"FileNameJoin", "[", 
+      RowBox[{"{", 
+       RowBox[{"\"\<Data\>\"", ",", "\"\<Transcripts\>\""}], "}"}], "]"}]}], 
+    ";"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"errorLogsFolder", "=", 
+     RowBox[{"FileNameJoin", "[", 
+      RowBox[{"{", 
+       RowBox[{"\"\<Export\>\"", ",", "\"\<Error Logs\>\""}], "}"}], "]"}]}], 
+    ";"}]}]}]], "Input"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"(", 
+   RowBox[{
+    RowBox[{"(", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"StringCases", "[", 
+        RowBox[{"#", ",", 
+         RowBox[{"\"\<VS\>\"", "~~", 
+          RowBox[{"Repeated", "[", 
+           RowBox[{"DigitCharacter", ",", "3"}], "]"}]}]}], "]"}], "&"}], "/@", 
+      RowBox[{"transcriptFileBaseNames", "[", 
+       RowBox[{"[", "VS", "]"}], "]"}]}], ")"}], "//", "Flatten"}], ")"}], "==", 
+  RowBox[{"StringTake", "[", 
+   RowBox[{"fileNameAdditionCombined", ",", "5"}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.6975272536168423`*^9, 3.697527376568256*^9}}],
+
+Cell[BoxData["True"], "Output",
+ CellChangeTimes->{{3.697527316361815*^9, 3.6975273771642103`*^9}}]
+}, Open  ]],
+
+Cell[BoxData[""], "Input",
+ CellChangeTimes->{{3.697527380034528*^9, 3.6975273893398113`*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"fileNameAdditionCombined", ",", 
+   RowBox[{"transcriptFileBaseNames", "[", 
+    RowBox[{"[", "VS", "]"}], "]"}]}], "}"}]], "Input",
+ CellChangeTimes->{{3.697526898109033*^9, 3.6975269002618103`*^9}, {
+  3.697527023603084*^9, 3.697527094714078*^9}, {3.697527190587421*^9, 
+  3.697527225930254*^9}}],
+
+Cell[BoxData[
+ TagBox[GridBox[{
+    {"\<\"VS003_nar.txt\"\>", "\<\"Copy of VS003_t_ash\"\>"},
+    {"\<\"VS004_nar.txt\"\>", "\<\"Copy of VS004_t_ash\"\>"},
+    {"\<\"VS006_nar.txt\"\>", "\<\"Copy of VS006_checked by debbie_seconded \
+by chaomin\"\>"},
+    {"\<\"VS008_nar.txt\"\>", "\<\"Copy of VS008_checked by xinyun _ joseph\"\
+\>"},
+    {"\<\"VS009_nar.txt\"\>", "\<\"Copy of VS009_t_ash\"\>"},
+    {"\<\"VS010_nar.txt\"\>", "\<\"Copy of VS010_t_ash\"\>"},
+    {"\<\"VS011_nar.txt\"\>", "\<\"Copy of VS011_checked by \
+debbie_monique\"\>"},
+    {"\<\"VS012_nar.txt\"\>", "\<\"Copy of VS012_t_ash\"\>"},
+    {"\<\"VS013_nar.txt\"\>", "\<\"Copy of VS013_t_ash\"\>"},
+    {"\<\"VS014_nar.txt\"\>", "\<\"Copy of VS014_t_ash\"\>"},
+    {"\<\"VS015_nar.txt\"\>", "\<\"Copy of VS015_checked by Wenqi\"\>"},
+    {"\<\"VS016_nar.txt\"\>", "\<\"Copy of VS016_t_ash\"\>"},
+    {"\<\"VS017_seg_vs.txt\"\>", "\<\"Copy of VS017_checked by Wenqi_seconded \
+by chaomin\"\>"},
+    {"\<\"VS019_na_sc.txt\"\>", "\<\"VS019\"\>"},
+    {"\<\"VS020_nar.txt\"\>", "\<\"Copy of VS020_t_ash\"\>"},
+    {"\<\"VS021_nar.txt\"\>", "\<\"Copy of VS021_t_ash\"\>"},
+    {"\<\"VS022_nar.txt\"\>", "\<\"Copy of VS022_t_ash\"\>"},
+    {"\<\"VS023_nar.txt\"\>", "\<\"Copy of VS023\"\>"},
+    {"\<\"VS024_nar.txt\"\>", "\<\"Copy of VS024\"\>"},
+    {"\<\"VS025_nar.txt\"\>", "\<\"Copy of VS025_checked by \
+Wenqi_Monique\"\>"},
+    {"\<\"VS026_VS077_seg_vs.txt\"\>", "\<\"VS026\"\>"},
+    {"\<\"VS028_na_vs.txt\"\>", "\<\"VS028\"\>"},
+    {"\<\"VS033_nar.txt\"\>", "\<\"Copy of VS033\"\>"},
+    {"\<\"VS034_nar.txt\"\>", "\<\"Copy of VS034\"\>"},
+    {"\<\"VS035_nar.txt\"\>", "\<\"Copy of VS035\"\>"},
+    {"\<\"VS036_nar.txt\"\>", "\<\"Copy of VS036\"\>"},
+    {"\<\"VS037_nar.txt\"\>", "\<\"Copy of VS037\"\>"},
+    {"\<\"VS038_nar.txt\"\>", "\<\"Copy of VS038_checked by xinyun_by wenqi\"\
+\>"},
+    {"\<\"VS039_nar.txt\"\>", "\<\"Copy of VS039_checked by wenqi_xinyun\"\>"},
+    {"\<\"VS041_VS042_VS076_na_vs.txt\"\>", "\<\"VS041\"\>"},
+    {"\<\"VS043_nar.txt\"\>", "\<\"Copy of VS043_checkedbyxinyin_ \
+Monique\"\>"},
+    {"\<\"VS044_VS071_seg_vs.txt\"\>", "\<\"VS044\"\>"},
+    {"\<\"VS045_na_sc.txt\"\>", "\<\"VS045_Scrambled_unchecked\"\>"},
+    {"\<\"VS046_VS072 _na_sc.txt\"\>", "\<\"VS046\"\>"},
+    {"\<\"VS047_VS073_seg_vs.txt\"\>", "\<\"VS047\"\>"},
+    {"\<\"VS048_na_sc.txt\"\>", "\<\"VS048_Scrambled_unchecked\"\>"},
+    {"\<\"VS049_nar.txt\"\>", "\<\"Copy of VS049_checked by \
+debbie_xinyun\"\>"},
+    {"\<\"VS053_nar.txt\"\>", "\<\"Copy of VS053\"\>"},
+    {"\<\"VS054_na_sc.txt\"\>", "\<\"VS054_Scrambled_checked\"\>"},
+    {"\<\"VS055_nar.txt\"\>", "\<\"Copy of VS055_checked by wenqi_seconded by \
+debbie\"\>"},
+    {"\<\"VS056_nar.txt\"\>", "\<\"Copy of VS056\"\>"},
+    {"\<\"VS057_VS095_seg_vs.txt\"\>", "\<\"VS057\"\>"},
+    {"\<\"VS060_nar.txt\"\>", "\<\"Copy of VS060\"\>"},
+    {"\<\"VS061_nar.txt\"\>", "\<\"Copy of VS061\"\>"},
+    {"\<\"VS062_nar.txt\"\>", "\<\"Copy of VS062\"\>"},
+    {"\<\"VS063_VS152_na_vs.txt\"\>", "\<\"VS063\"\>"},
+    {"\<\"VS064_VS146_na_vs.txt\"\>", "\<\"VS064\"\>"},
+    {"\<\"VS065_nar.txt\"\>", "\<\"Copy of VS065\"\>"},
+    {"\<\"VS066_nar.txt\"\>", "\<\"Copy of VS066\"\>"},
+    {"\<\"VS067_VS159_na_vs.txt\"\>", "\<\"VS067\"\>"},
+    {"\<\"VS068_VS097_seg_vs.txt\"\>", "\<\"VS068\"\>"},
+    {"\<\"VS074_na_vs.txt\"\>", "\<\"VS074_Varset_checked\"\>"},
+    {"\<\"VS075_nar.txt\"\>", "\<\"Copy of VS075_checkedbyxinyun_seconded by \
+elsie\"\>"},
+    {"\<\"VS078_seg_vs.txt\"\>", "\<\"Copy of VS078\"\>"},
+    {"\<\"VS079_nar.txt\"\>", "\<\"Copy of VS079\"\>"},
+    {"\<\"VS081_VS143_na_sc.txt\"\>", "\<\"VS081\"\>"},
+    {"\<\"VS082_VS158_na_vs.txt\"\>", "\<\"VS082\"\>"},
+    {"\<\"VS083_nar.txt\"\>", "\<\"Copy of VS083\"\>"},
+    {"\<\"VS084_seg_vs.txt\"\>", "\<\"Copy of VS084\"\>"},
+    {"\<\"VS085_nar.txt\"\>", "\<\"Copy of VS085\"\>"},
+    {"\<\"VS088_nar.txt\"\>", "\<\"Copy of VS088\"\>"},
+    {"\<\"VS089_seg_vs.txt\"\>", "\<\"Copy of VS089\"\>"},
+    {"\<\"VS090_nar.txt\"\>", "\<\"Copy of VS090_checked by Wenqi _ \
+Joseph\"\>"},
+    {"\<\"VS091_nar.txt\"\>", "\<\"Copy of VS091\"\>"},
+    {"\<\"VS092_nar.txt\"\>", "\<\"Copy of VS092\"\>"},
+    {"\<\"VS093_nar.txt\"\>", "\<\"Copy of VS093\"\>"},
+    {"\<\"VS094_seg_vs.txt\"\>", "\<\"Copy of VS094\"\>"},
+    {"\<\"VS098_nar.txt\"\>", "\<\"Copy of VS098_checked by Wenqi\"\>"},
+    {"\<\"VS099_nar.txt\"\>", "\<\"Copy of VS099\"\>"},
+    {"\<\"VS100_nar.txt\"\>", "\<\"Copy of VS100\"\>"},
+    {"\<\"VS102_nar.txt\"\>", "\<\"Copy of VS102 \"\>"},
+    {"\<\"VS103_nar.txt\"\>", "\<\"Copy of VS103\"\>"},
+    {"\<\"VS104_nar.txt\"\>", "\<\"Copy of VS104\"\>"},
+    {"\<\"VS105_VS151_seg_sc.txt\"\>", "\<\"VS105\"\>"},
+    {"\<\"VS106_nar.txt\"\>", "\<\"Copy of VS106\"\>"},
+    {"\<\"VS107_nar.txt\"\>", "\<\"Copy of VS107\"\>"},
+    {"\<\"VS108_nar.txt\"\>", "\<\"Copy of VS108\"\>"},
+    {"\<\"VS109_VS166_na_sc.txt\"\>", "\<\"VS109\"\>"},
+    {"\<\"VS110_nar.txt\"\>", "\<\"Copy of VS110\"\>"},
+    {"\<\"VS112_nar.txt\"\>", "\<\"Copy of VS112_checkedbyxinyun\"\>"},
+    {"\<\"VS113_VS157_na_vs.txt\"\>", "\<\"VS113\"\>"},
+    {"\<\"VS116_nar.txt\"\>", "\<\"Copy of VS116_checked by chaomin_seconded \
+by nadiah\"\>"},
+    {"\<\"VS117_nar.txt\"\>", "\<\"Copy of VS117_checkedbyxinyun_seconded by \
+elsie\"\>"},
+    {"\<\"VS118_nar.txt\"\>", "\<\"Copy of VS118_checkedbyxinyun_seconded by \
+elsie\"\>"},
+    {"\<\"VS119_nar.txt\"\>", "\<\"Copy of VS119_checked by \
+nadiah_monique\"\>"},
+    {"\<\"VS121_na_sc.txt\"\>", "\<\"Copy of VS121\"\>"},
+    {"\<\"VS122_nar.txt\"\>", "\<\"Copy of VS122_checked by debbie _ Joseph\"\
+\>"},
+    {"\<\"VS123_seg_sc.txt\"\>", "\<\"Copy of VS123\"\>"},
+    {"\<\"VS124_seg_sc.txt\"\>", "\<\"Copy of VS124\"\>"},
+    {"\<\"VS125_nar.txt\"\>", "\<\"Copy of VS125\"\>"},
+    {"\<\"VS126_na_vs.txt\"\>", "\<\"Copy of VS126\"\>"},
+    {"\<\"VS127_na_sc.txt\"\>", "\<\"Copy of VS127\"\>"},
+    {"\<\"VS128_na_vs.txt\"\>", "\<\"Copy of VS128\"\>"},
+    {"\<\"VS129_na_sc.txt\"\>", "\<\"Copy of VS129\"\>"},
+    {"\<\"VS130_na_vs.txt\"\>", "\<\"Copy of VS130\"\>"},
+    {"\<\"VS131_nar.txt\"\>", "\<\"Copy of VS131\"\>"},
+    {"\<\"VS132_seg_vs.txt\"\>", "\<\"Copy of VS132\"\>"},
+    {"\<\"VS133_nar.txt\"\>", "\<\"Copy of VS133_checked by sihui_seconded by \
+elsie\"\>"},
+    {"\<\"VS135_na_sc.txt\"\>", "\<\"VS135_Scrambled_checked\"\>"},
+    {"\<\"VS138_nar.txt\"\>", "\<\"Copy of VS138_checked by nadiah_seconded \
+by chaomin\"\>"},
+    {"\<\"VS139_nar.txt\"\>", "\<\"Copy of VS139_checkedbyxinyun_seconded by \
+elsie\"\>"},
+    {"\<\"VS140_nar.txt\"\>", "\<\"Copy of VS140_checked by sihui _ \
+Joseph\"\>"},
+    {"\<\"VS141_seg_sc.txt\"\>", "\<\"Copy of VS141_checked by \
+chaomin_seconded by Nadiah\"\>"},
+    {"\<\"VS142_nar.txt\"\>", "\<\"Copy of VS142_checkedbyxinyun _ \
+Joseph\"\>"},
+    {"\<\"VS145_nar.txt\"\>", "\<\"Copy of VS145_checked by \
+nadiah_monique\"\>"},
+    {"\<\"VS147_na_vs.txt\"\>", "\<\"VS147_Varset_checked\"\>"},
+    {"\<\"VS148_seg_sc.txt\"\>", "\<\"Copy of VS148_checked by sihui_seconded \
+by chaomin\"\>"},
+    {"\<\"VS149_seg_sc.txt\"\>", "\<\"VS149\"\>"},
+    {"\<\"VS150_nar.txt\"\>", "\<\"Copy of VS150_checked by Wenqi _ \
+Joseph\"\>"},
+    {"\<\"VS154_nar.txt\"\>", "\<\"Copy of VS154_checked by nadiah_seconded \
+by elsie \"\>"},
+    {"\<\"VS155_na_vs.txt\"\>", "\<\"VS155_Varset_checked\"\>"},
+    {"\<\"VS156_na_sc.txt\"\>", "\<\"VS156_Scrambled_checked\"\>"},
+    {"\<\"VS160_na_sc.txt\"\>", "\<\"VS160_scrambled_checked\"\>"},
+    {"\<\"VS161_na_vs.txt\"\>", "\<\"VS161_varset_checked\"\>"},
+    {"\<\"VS162_seg_sc.txt\"\>", "\<\"Copy of VS162_checked by nadiah_by \
+wenqi\"\>"},
+    {"\<\"VS164_na_vs.txt\"\>", "\<\"VS164_varset_checked\"\>"},
+    {"\<\"VS167_na_sc.txt\"\>", "\<\"VS167_scrambled_checked\"\>"},
+    {"\<\"VS168_seg_sc.txt\"\>", "\<\"Copy of VS168_checked by Wenqi_seconded \
+by Elsie\"\>"},
+    {"\<\"VS169_na_vs.txt\"\>", "\<\"VS169_varset_checked\"\>"},
+    {"\<\"VS170_na_sc.txt\"\>", "\<\"VS170_scrambled_checked\"\>"},
+    {"\<\"VS171_nar.txt\"\>", "\<\"Copy of VS171_checked by Wenqi\"\>"},
+    {"\<\"VS172_na_sc.txt\"\>", "\<\"VS172_Scrambled_unchecked\"\>"},
+    {"\<\"VS173_seg_sc.txt\"\>", "\<\"Copy of VS173_checked by nadiah_by \
+wenqi\"\>"},
+    {"\<\"VS174_seg_sc.txt\"\>", "\<\"Copy of VS174_checked by Elsie_seconded \
+by Nadiah\"\>"},
+    {"\<\"VS175_seg_sc.txt\"\>", "\<\"Copy of VS175\"\>"},
+    {"\<\"VS176_na_sc.txt\"\>", "\<\"VS176_Scrambled_checked\"\>"},
+    {"\<\"VS177_na_sc.txt\"\>", "\<\"VS177_Scrambled_checked\"\>"},
+    {"\<\"VS178_na_vs.txt\"\>", "\<\"VS178_Varset_checked\"\>"},
+    {"\<\"VS179_seg_sc.txt\"\>", "\<\"Copy of VS179_checked by \
+Wenqi_Monique\"\>"},
+    {"\<\"VS180_na_sc.txt\"\>", "\<\"VS180_Scrambled_checked\"\>"},
+    {"\<\"VS181_nar.txt\"\>", "\<\"Copy of VS181_checked by elsie_seconded by \
+debbie\"\>"},
+    {"\<\"VS183_nar.txt\"\>", "\<\"Copy of VS183_checked by Xinyun_by Wenqi\"\
+\>"},
+    {"\<\"VS184_na_vs.txt\"\>", "\<\"VS184_Varset_checked\"\>"},
+    {"\<\"VS185_na_sc.txt\"\>", "\<\"VS185_Scrambled_checked\"\>"},
+    {"\<\"VS186_seg_sc.txt\"\>", "\<\"Copy of VS186_checkedbyxinyun_ \
+secondedbychaomin\"\>"},
+    {"\<\"VS187_na_vs.txt\"\>", "\<\"VS187_Varset_checked\"\>"},
+    {"\<\"VS188_seg_sc.txt\"\>", "\<\"Copy of VS188_checked by Wenqi _ \
+henggee\"\>"},
+    {"\<\"VS190_seg_sc.txt\"\>", "\<\"Copy of VS190_checked by chaomin _ \
+Joseph\"\>"},
+    {"\<\"VS191_seg_sc.txt\"\>", "\<\"Copy of VS191_checkedbyxinyun _ \
+Joseph\"\>"}
+   },
+   GridBoxAlignment->{
+    "Columns" -> {{Left}}, "ColumnsIndexed" -> {}, "Rows" -> {{Baseline}}, 
+     "RowsIndexed" -> {}},
+   GridBoxSpacings->{"Columns" -> {
+       Offset[0.27999999999999997`], {
+        Offset[2.0999999999999996`]}, 
+       Offset[0.27999999999999997`]}, "ColumnsIndexed" -> {}, "Rows" -> {
+       Offset[0.2], {
+        Offset[0.4]}, 
+       Offset[0.2]}, "RowsIndexed" -> {}}],
+  Function[BoxForm`e$, 
+   TableForm[BoxForm`e$]]]], "Output",
+ CellChangeTimes->{{3.697527202038957*^9, 3.697527209456737*^9}}]
+}, Open  ]]
+},
+WindowSize->{1920, 1031},
+WindowMargins->{{Automatic, -226}, {837, Automatic}},
+FrontEndVersion->"11.0 for Mac OS X x86 (32-bit, 64-bit Kernel) (September \
+21, 2016)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 3763, 86, 348, "Input"],
+Cell[4346, 110, 698, 10, 24, "Print"],
+Cell[5047, 122, 1921, 26, 2952, "Output"]
+}, Open  ]],
+Cell[6983, 151, 91, 1, 32, "Input"],
+Cell[7077, 154, 483, 14, 75, "Input"],
+Cell[CellGroupData[{
+Cell[7585, 172, 613, 16, 32, "Input"],
+Cell[8201, 190, 99, 1, 32, "Output"]
+}, Open  ]],
+Cell[8315, 194, 94, 1, 32, "Input"],
+Cell[CellGroupData[{
+Cell[8434, 199, 338, 7, 32, "Input"],
+Cell[8775, 208, 10030, 191, 2514, "Output"]
+}, Open  ]]
+}
+]
+*)
+

@@ -1,0 +1,776 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     28778,        768]
+NotebookOptionsPosition[     28445,        751]
+NotebookOutlinePosition[     28802,        767]
+CellTagsIndexPosition[     28759,        764]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"(*", "Switches", "*)"}], "\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"ifExportLSBQDescriptor", "=", "False"}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{"(*", 
+    RowBox[{"Setting", " ", "Constants"}], "*)"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"LSBQFile", "=", "\"\<Master LSBQ.xlsx\>\""}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"LSBQResultsFile", "=", "\"\<lsbq_results.xlsx\>\""}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+    "LSBQDescriptorFile", "=", "\"\<lsbq_results_descriptor.pdf\>\""}], ";"}],
+    "\[IndentingNewLine]", 
+   RowBox[{"(*", 
+    RowBox[{"Import", " ", "LSBQ"}], "*)"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"LSBQDataRaw", "=", 
+     RowBox[{
+      RowBox[{"Import", "[", "LSBQFile", "]"}], "[", 
+      RowBox[{"[", "4", "]"}], "]"}]}], ";"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"LSBQHeaders", "=", 
+     RowBox[{"LSBQDataRaw", "[", 
+      RowBox[{"[", "3", "]"}], "]"}]}], ";"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"LSBQData", "=", 
+     RowBox[{"LSBQDataRaw", "[", 
+      RowBox[{"[", 
+       RowBox[{"5", ";;"}], "]"}], "]"}]}], ";"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"LSBQColumnNumber", "[", "columnName_", "]"}], ":=", 
+    RowBox[{
+     RowBox[{"Position", "[", 
+      RowBox[{"LSBQHeaders", ",", "columnName"}], "]"}], "[", 
+     RowBox[{"[", 
+      RowBox[{"1", ",", "1"}], "]"}], "]"}]}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"LSBQLen", "=", 
+     RowBox[{"Length", "[", "LSBQData", "]"}]}], ";"}], "\[IndentingNewLine]", 
+   RowBox[{"(*", 
+    RowBox[{"Setting", " ", "up", " ", "data", " ", "structure"}], "*)"}], 
+   "\n", 
+   RowBox[{
+    RowBox[{"LSBQMotEdu", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"LSBQMotL1", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], "\n", 
+   RowBox[{
+    RowBox[{"LSBQMotL2", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], "\n", 
+   RowBox[{
+    RowBox[{"LSBQMotBISub", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], "\n", 
+   RowBox[{
+    RowBox[{"LSBQMotBIDiv", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], "\n", 
+   RowBox[{
+    RowBox[{"LSBQMotBIEdi", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], "\n", 
+   RowBox[{
+    RowBox[{"LSBQFatEdu", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], "\n", 
+   RowBox[{
+    RowBox[{"LSBQFatL1", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], "\n", 
+   RowBox[{
+    RowBox[{"LSBQFatL2", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], "\n", 
+   RowBox[{
+    RowBox[{"LSBQFatBISub", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], "\n", 
+   RowBox[{
+    RowBox[{"LSBQFatBIDiv", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], "\n", 
+   RowBox[{
+    RowBox[{"LSBQFatBIEdi", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], "\n", 
+   RowBox[{
+    RowBox[{"LSBQHHL1", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], "\n", 
+   RowBox[{
+    RowBox[{"LSBQHHL2", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], "\n", 
+   RowBox[{
+    RowBox[{"LSBQHHBISub", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], "\n", 
+   RowBox[{
+    RowBox[{"LSBQHHBIDiv", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], "\n", 
+   RowBox[{
+    RowBox[{"LSBQHHBIEdi", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], "\n", 
+   RowBox[{
+    RowBox[{"LSBQAduEdu", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], "\n", 
+   RowBox[{
+    RowBox[{"LSBQAduL1", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], "\n", 
+   RowBox[{
+    RowBox[{"LSBQAduL2", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"LSBQAduBISub", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], "\n", 
+   RowBox[{
+    RowBox[{"LSBQAduBIDiv", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], "\n", 
+   RowBox[{
+    RowBox[{"LSBQAduBIEdi", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"LSBQDOB", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"LSBQDOT", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], "\n", 
+   RowBox[{
+    RowBox[{"LSBQChiAge", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], "\n", 
+   RowBox[{
+    RowBox[{"LSBQChiL1", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{"(*", 
+    RowBox[{"Spliting", " ", "into", " ", "Lines"}], "*)"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"EmptyReplacer", "=", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"\"\<#DIV/0!\>\"", "\[Rule]", "\"\<na\>\""}], ",", 
+       RowBox[{"\"\<#VALUE!\>\"", "\[Rule]", "\"\<na\>\""}], ",", 
+       RowBox[{"\"\<#REF!\>\"", "\[Rule]", "\"\<na\>\""}]}], "}"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"LSBQMotEdu", "[", 
+      RowBox[{"[", 
+       RowBox[{";;", "LSBQLen"}], "]"}], "]"}], "=", 
+     RowBox[{
+      RowBox[{"LSBQData", "[", 
+       RowBox[{"[", 
+        RowBox[{";;", ",", 
+         RowBox[{"LSBQColumnNumber", "[", "\"\<mot\\\\edu\>\"", "]"}]}], 
+        "]"}], "]"}], "/.", "EmptyReplacer"}]}], ";"}], "\n", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"LSBQMotL1", "[", 
+      RowBox[{"[", 
+       RowBox[{";;", "LSBQLen"}], "]"}], "]"}], "=", 
+     RowBox[{"ToExpression", "[", 
+      RowBox[{
+       RowBox[{"LSBQData", "[", 
+        RowBox[{"[", 
+         RowBox[{";;", ",", 
+          RowBox[{"LSBQColumnNumber", "[", "\"\<mot\\\\l1\>\"", "]"}]}], 
+         "]"}], "]"}], "/.", "EmptyReplacer"}], "]"}]}], ";"}], "\n", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"LSBQMotL2", "[", 
+      RowBox[{"[", 
+       RowBox[{";;", "LSBQLen"}], "]"}], "]"}], "=", 
+     RowBox[{"ToExpression", "[", 
+      RowBox[{
+       RowBox[{"LSBQData", "[", 
+        RowBox[{"[", 
+         RowBox[{";;", ",", 
+          RowBox[{"LSBQColumnNumber", "[", "\"\<mot\\\\l2\>\"", "]"}]}], 
+         "]"}], "]"}], "/.", "EmptyReplacer"}], "]"}]}], ";"}], "\n", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"LSBQMotBISub", "[", 
+      RowBox[{"[", 
+       RowBox[{";;", "LSBQLen"}], "]"}], "]"}], "=", 
+     RowBox[{"ToExpression", "[", 
+      RowBox[{
+       RowBox[{"LSBQData", "[", 
+        RowBox[{"[", 
+         RowBox[{";;", ",", 
+          RowBox[{"LSBQColumnNumber", "[", "\"\<mot\\\\bi_sub\>\"", "]"}]}], 
+         "]"}], "]"}], "/.", "EmptyReplacer"}], "]"}]}], ";"}], "\n", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"LSBQMotBIDiv", "[", 
+      RowBox[{"[", 
+       RowBox[{";;", "LSBQLen"}], "]"}], "]"}], "=", 
+     RowBox[{"ToExpression", "[", 
+      RowBox[{
+       RowBox[{"LSBQData", "[", 
+        RowBox[{"[", 
+         RowBox[{";;", ",", 
+          RowBox[{"LSBQColumnNumber", "[", "\"\<mot\\\\bi_div\>\"", "]"}]}], 
+         "]"}], "]"}], "/.", "EmptyReplacer"}], "]"}]}], ";"}], "\n", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"LSBQMotBIEdi", "[", 
+      RowBox[{"[", 
+       RowBox[{";;", "LSBQLen"}], "]"}], "]"}], "=", 
+     RowBox[{"ToExpression", "[", 
+      RowBox[{
+       RowBox[{"LSBQData", "[", 
+        RowBox[{"[", 
+         RowBox[{";;", ",", 
+          RowBox[{"LSBQColumnNumber", "[", "\"\<mot\\\\bi_edi\>\"", "]"}]}], 
+         "]"}], "]"}], "/.", "EmptyReplacer"}], "]"}]}], ";"}], "\n", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"LSBQFatEdu", "[", 
+      RowBox[{"[", 
+       RowBox[{";;", "LSBQLen"}], "]"}], "]"}], "=", 
+     RowBox[{
+      RowBox[{"LSBQData", "[", 
+       RowBox[{"[", 
+        RowBox[{";;", ",", 
+         RowBox[{"LSBQColumnNumber", "[", "\"\<fat\\\\edu\>\"", "]"}]}], 
+        "]"}], "]"}], "/.", "EmptyReplacer"}]}], ";"}], "\n", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"LSBQFatL1", "[", 
+      RowBox[{"[", 
+       RowBox[{";;", "LSBQLen"}], "]"}], "]"}], "=", 
+     RowBox[{"ToExpression", "[", 
+      RowBox[{
+       RowBox[{"LSBQData", "[", 
+        RowBox[{"[", 
+         RowBox[{";;", ",", 
+          RowBox[{"LSBQColumnNumber", "[", "\"\<fat\\\\l1\>\"", "]"}]}], 
+         "]"}], "]"}], "/.", "EmptyReplacer"}], "]"}]}], ";"}], "\n", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"LSBQFatL2", "[", 
+      RowBox[{"[", 
+       RowBox[{";;", "LSBQLen"}], "]"}], "]"}], "=", 
+     RowBox[{"ToExpression", "[", 
+      RowBox[{
+       RowBox[{"LSBQData", "[", 
+        RowBox[{"[", 
+         RowBox[{";;", ",", 
+          RowBox[{"LSBQColumnNumber", "[", "\"\<fat\\\\l2\>\"", "]"}]}], 
+         "]"}], "]"}], "/.", "EmptyReplacer"}], "]"}]}], ";"}], "\n", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"LSBQFatBISub", "[", 
+      RowBox[{"[", 
+       RowBox[{";;", "LSBQLen"}], "]"}], "]"}], "=", 
+     RowBox[{"ToExpression", "[", 
+      RowBox[{
+       RowBox[{"LSBQData", "[", 
+        RowBox[{"[", 
+         RowBox[{";;", ",", 
+          RowBox[{"LSBQColumnNumber", "[", "\"\<fat\\\\bi_sub\>\"", "]"}]}], 
+         "]"}], "]"}], "/.", "EmptyReplacer"}], "]"}]}], ";"}], "\n", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"LSBQFatBIDiv", "[", 
+      RowBox[{"[", 
+       RowBox[{";;", "LSBQLen"}], "]"}], "]"}], "=", 
+     RowBox[{"ToExpression", "[", 
+      RowBox[{
+       RowBox[{"LSBQData", "[", 
+        RowBox[{"[", 
+         RowBox[{";;", ",", 
+          RowBox[{"LSBQColumnNumber", "[", "\"\<fat\\\\bi_div\>\"", "]"}]}], 
+         "]"}], "]"}], "/.", "EmptyReplacer"}], "]"}]}], ";"}], "\n", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"LSBQFatBIEdi", "[", 
+      RowBox[{"[", 
+       RowBox[{";;", "LSBQLen"}], "]"}], "]"}], "=", 
+     RowBox[{"ToExpression", "[", 
+      RowBox[{
+       RowBox[{"LSBQData", "[", 
+        RowBox[{"[", 
+         RowBox[{";;", ",", 
+          RowBox[{"LSBQColumnNumber", "[", "\"\<fat\\\\bi_edi\>\"", "]"}]}], 
+         "]"}], "]"}], "/.", "EmptyReplacer"}], "]"}]}], ";"}], "\n", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"LSBQHHL1", "[", 
+      RowBox[{"[", 
+       RowBox[{";;", "LSBQLen"}], "]"}], "]"}], "=", 
+     RowBox[{"ToExpression", "[", 
+      RowBox[{
+       RowBox[{"LSBQData", "[", 
+        RowBox[{"[", 
+         RowBox[{";;", ",", 
+          RowBox[{"LSBQColumnNumber", "[", "\"\<exp\\\\l1\>\"", "]"}]}], 
+         "]"}], "]"}], "/.", "EmptyReplacer"}], "]"}]}], ";"}], "\n", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"LSBQHHL2", "[", 
+      RowBox[{"[", 
+       RowBox[{";;", "LSBQLen"}], "]"}], "]"}], "=", 
+     RowBox[{"ToExpression", "[", 
+      RowBox[{
+       RowBox[{"LSBQData", "[", 
+        RowBox[{"[", 
+         RowBox[{";;", ",", 
+          RowBox[{"LSBQColumnNumber", "[", "\"\<exp\\\\l2\>\"", "]"}]}], 
+         "]"}], "]"}], "/.", "EmptyReplacer"}], "]"}]}], ";"}], "\n", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"LSBQHHBISub", "[", 
+      RowBox[{"[", 
+       RowBox[{";;", "LSBQLen"}], "]"}], "]"}], "=", 
+     RowBox[{"ToExpression", "[", 
+      RowBox[{
+       RowBox[{"LSBQData", "[", 
+        RowBox[{"[", 
+         RowBox[{";;", ",", 
+          RowBox[{"LSBQColumnNumber", "[", "\"\<exp\\\\bi_sub\>\"", "]"}]}], 
+         "]"}], "]"}], "/.", "EmptyReplacer"}], "]"}]}], ";"}], "\n", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"LSBQHHBIDiv", "[", 
+      RowBox[{"[", 
+       RowBox[{";;", "LSBQLen"}], "]"}], "]"}], "=", 
+     RowBox[{"ToExpression", "[", 
+      RowBox[{
+       RowBox[{"LSBQData", "[", 
+        RowBox[{"[", 
+         RowBox[{";;", ",", 
+          RowBox[{"LSBQColumnNumber", "[", "\"\<exp\\\\bi_div\>\"", "]"}]}], 
+         "]"}], "]"}], "/.", "EmptyReplacer"}], "]"}]}], ";"}], "\n", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"LSBQHHBIEdi", "[", 
+      RowBox[{"[", 
+       RowBox[{";;", "LSBQLen"}], "]"}], "]"}], "=", 
+     RowBox[{"ToExpression", "[", 
+      RowBox[{
+       RowBox[{"LSBQData", "[", 
+        RowBox[{"[", 
+         RowBox[{";;", ",", 
+          RowBox[{"LSBQColumnNumber", "[", "\"\<exp\\\\bi_edi\>\"", "]"}]}], 
+         "]"}], "]"}], "/.", "EmptyReplacer"}], "]"}]}], ";"}], "\n", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"LSBQDOB", "[", 
+      RowBox[{"[", 
+       RowBox[{";;", "LSBQLen"}], "]"}], "]"}], "=", 
+     RowBox[{
+      RowBox[{"LSBQData", "[", 
+       RowBox[{"[", 
+        RowBox[{";;", ",", 
+         RowBox[{"LSBQColumnNumber", "[", "\"\<chi\\\\birthday\>\"", "]"}]}], 
+        "]"}], "]"}], "/.", "EmptyReplacer"}]}], ";"}], "\n", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"LSBQDOT", "[", 
+      RowBox[{"[", 
+       RowBox[{";;", "LSBQLen"}], "]"}], "]"}], "=", 
+     RowBox[{
+      RowBox[{"LSBQData", "[", 
+       RowBox[{"[", 
+        RowBox[{";;", ",", 
+         RowBox[{"LSBQColumnNumber", "[", "\"\<gen\\\\date\>\"", "]"}]}], 
+        "]"}], "]"}], "/.", "EmptyReplacer"}]}], ";"}], "\n", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"LSBQChiAge", "[", 
+      RowBox[{"[", 
+       RowBox[{";;", "LSBQLen"}], "]"}], "]"}], "=", 
+     RowBox[{"ToExpression", "[", 
+      RowBox[{
+       RowBox[{"LSBQData", "[", 
+        RowBox[{"[", 
+         RowBox[{";;", ",", 
+          RowBox[{"LSBQColumnNumber", "[", "\"\<chi\\\\age\>\"", "]"}]}], 
+         "]"}], "]"}], "/.", "EmptyReplacer"}], "]"}]}], ";"}], "\n", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"LSBQChiL1", "[", 
+      RowBox[{"[", 
+       RowBox[{";;", "LSBQLen"}], "]"}], "]"}], "=", 
+     RowBox[{"ToExpression", "[", 
+      RowBox[{
+       RowBox[{"LSBQData", "[", 
+        RowBox[{"[", 
+         RowBox[{";;", ",", 
+          RowBox[{
+          "LSBQColumnNumber", "[", "\"\<chi\\\\understand1p\>\"", "]"}]}], 
+         "]"}], "]"}], "/.", "EmptyReplacer"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"LSBQAduEdu", "[", 
+      RowBox[{"[", 
+       RowBox[{";;", "LSBQLen"}], "]"}], "]"}], "=", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{"If", "[", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"transcriptUniqueNonChildParticipants", "[", 
+           RowBox[{"[", "n", "]"}], "]"}], "\[Equal]", "\"\<MOT\>\""}], ",", 
+         RowBox[{"LSBQMotEdu", "[", 
+          RowBox[{"[", "n", "]"}], "]"}], ",", 
+         RowBox[{"If", "[", 
+          RowBox[{
+           RowBox[{
+            RowBox[{"transcriptUniqueNonChildParticipants", "[", 
+             RowBox[{"[", "n", "]"}], "]"}], "\[Equal]", "\"\<FAT\>\""}], ",", 
+           RowBox[{"LSBQFatEdu", "[", 
+            RowBox[{"[", "n", "]"}], "]"}], ",", "\"\<na\>\""}], "]"}]}], 
+        "]"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"n", ",", "1", ",", "LSBQLen"}], "}"}]}], "]"}]}], ";"}], 
+   "\n", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"LSBQAduL1", "[", 
+      RowBox[{"[", 
+       RowBox[{";;", "LSBQLen"}], "]"}], "]"}], "=", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{"If", "[", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"transcriptUniqueNonChildParticipants", "[", 
+           RowBox[{"[", "n", "]"}], "]"}], "\[Equal]", "\"\<MOT\>\""}], ",", 
+         RowBox[{"LSBQMotL1", "[", 
+          RowBox[{"[", "n", "]"}], "]"}], ",", 
+         RowBox[{"If", "[", 
+          RowBox[{
+           RowBox[{
+            RowBox[{"transcriptUniqueNonChildParticipants", "[", 
+             RowBox[{"[", "n", "]"}], "]"}], "\[Equal]", "\"\<FAT\>\""}], ",", 
+           RowBox[{"LSBQFatL1", "[", 
+            RowBox[{"[", "n", "]"}], "]"}], ",", "\"\<na\>\""}], "]"}]}], 
+        "]"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"n", ",", "1", ",", "LSBQLen"}], "}"}]}], "]"}]}], ";"}], 
+   "\n", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"LSBQAduL2", "[", 
+      RowBox[{"[", 
+       RowBox[{";;", "LSBQLen"}], "]"}], "]"}], "=", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{"If", "[", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"transcriptUniqueNonChildParticipants", "[", 
+           RowBox[{"[", "n", "]"}], "]"}], "\[Equal]", "\"\<MOT\>\""}], ",", 
+         RowBox[{"LSBQMotL2", "[", 
+          RowBox[{"[", "n", "]"}], "]"}], ",", 
+         RowBox[{"If", "[", 
+          RowBox[{
+           RowBox[{
+            RowBox[{"transcriptUniqueNonChildParticipants", "[", 
+             RowBox[{"[", "n", "]"}], "]"}], "\[Equal]", "\"\<FAT\>\""}], ",", 
+           RowBox[{"LSBQFatL2", "[", 
+            RowBox[{"[", "n", "]"}], "]"}], ",", "\"\<na\>\""}], "]"}]}], 
+        "]"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"n", ",", "1", ",", "LSBQLen"}], "}"}]}], "]"}]}], ";"}], 
+   "\n", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"LSBQAduBISub", "[", 
+      RowBox[{"[", 
+       RowBox[{";;", "LSBQLen"}], "]"}], "]"}], "=", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{"If", "[", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"transcriptUniqueNonChildParticipants", "[", 
+           RowBox[{"[", "n", "]"}], "]"}], "\[Equal]", "\"\<MOT\>\""}], ",", 
+         RowBox[{"LSBQMotBISub", "[", 
+          RowBox[{"[", "n", "]"}], "]"}], ",", 
+         RowBox[{"If", "[", 
+          RowBox[{
+           RowBox[{
+            RowBox[{"transcriptUniqueNonChildParticipants", "[", 
+             RowBox[{"[", "n", "]"}], "]"}], "\[Equal]", "\"\<FAT\>\""}], ",", 
+           RowBox[{"LSBQFatBISub", "[", 
+            RowBox[{"[", "n", "]"}], "]"}], ",", "\"\<na\>\""}], "]"}]}], 
+        "]"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"n", ",", "1", ",", "LSBQLen"}], "}"}]}], "]"}]}], ";"}], 
+   "\n", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"LSBQAduBIDiv", "[", 
+      RowBox[{"[", 
+       RowBox[{";;", "LSBQLen"}], "]"}], "]"}], "=", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{"If", "[", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"transcriptUniqueNonChildParticipants", "[", 
+           RowBox[{"[", "n", "]"}], "]"}], "\[Equal]", "\"\<MOT\>\""}], ",", 
+         RowBox[{"LSBQMotBIDiv", "[", 
+          RowBox[{"[", "n", "]"}], "]"}], ",", 
+         RowBox[{"If", "[", 
+          RowBox[{
+           RowBox[{
+            RowBox[{"transcriptUniqueNonChildParticipants", "[", 
+             RowBox[{"[", "n", "]"}], "]"}], "\[Equal]", "\"\<FAT\>\""}], ",", 
+           RowBox[{"LSBQFatBIDiv", "[", 
+            RowBox[{"[", "n", "]"}], "]"}], ",", "\"\<na\>\""}], "]"}]}], 
+        "]"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"n", ",", "1", ",", "LSBQLen"}], "}"}]}], "]"}]}], ";"}], 
+   "\n", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"LSBQAduBIEdi", "[", 
+      RowBox[{"[", 
+       RowBox[{";;", "LSBQLen"}], "]"}], "]"}], "=", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{"If", "[", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"transcriptUniqueNonChildParticipants", "[", 
+           RowBox[{"[", "n", "]"}], "]"}], "\[Equal]", "\"\<MOT\>\""}], ",", 
+         RowBox[{"LSBQMotBIEdi", "[", 
+          RowBox[{"[", "n", "]"}], "]"}], ",", 
+         RowBox[{"If", "[", 
+          RowBox[{
+           RowBox[{
+            RowBox[{"transcriptUniqueNonChildParticipants", "[", 
+             RowBox[{"[", "n", "]"}], "]"}], "\[Equal]", "\"\<FAT\>\""}], ",", 
+           RowBox[{"LSBQFatBIEdi", "[", 
+            RowBox[{"[", "n", "]"}], "]"}], ",", "\"\<na\>\""}], "]"}]}], 
+        "]"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"n", ",", "1", ",", "LSBQLen"}], "}"}]}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{"(*", 
+    RowBox[{"Check", " ", "for", " ", "Errors"}], "*)"}], "\n", 
+   RowBox[{"(*", 
+    RowBox[{"Checking", " ", "age", " ", "range", " ", "to", " ", "be", " ", 
+     RowBox[{"365", "~", "1098"}]}], "*)"}], "\[IndentingNewLine]", 
+   RowBox[{"(*", 
+    RowBox[{
+     RowBox[{"LSBQChiAge", "=", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"If", "[", 
+         RowBox[{
+          RowBox[{
+           RowBox[{"#", "\[NotEqual]", "\"\<na\>\""}], "&&", 
+           RowBox[{"#", "\[NotEqual]", "\"\<\>\""}], "&&", 
+           RowBox[{"365", "<", 
+            RowBox[{"ToExpression", "[", "#", "]"}], "<", "1097"}]}], ",", 
+          RowBox[{"ToExpression", "[", "#", "]"}], ",", "\"\<na\>\""}], "]"}],
+         "&"}], "/@", "LSBQChiAge"}]}], ";"}], "*)"}], "\n", 
+   RowBox[{"(*", 
+    RowBox[{"Export", " ", "Results"}], "*)"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"bundleLSBQ", "=", 
+     RowBox[{"{", "\[IndentingNewLine]", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{
+        "\"\<lsbq_dob\>\"", ",", "LSBQDOB", ",", 
+         "\"\<Date of birth of the child, retrived from \\\"LSBQ\\\".\>\""}], 
+        "}"}], ",", "\[IndentingNewLine]", 
+       RowBox[{"{", 
+        RowBox[{
+        "\"\<lsbq_dot\>\"", ",", "LSBQDOT", ",", 
+         "\"\<The Day of Testing, retrived from \\\"LSBQ\\\".\>\""}], "}"}], 
+       ",", "\[IndentingNewLine]", 
+       RowBox[{"{", 
+        RowBox[{
+        "\"\<chi_age\>\"", ",", "LSBQChiAge", ",", 
+         "\"\<Age of Child on The Day of Testing, in days.\>\""}], "}"}], ",",
+        "\[IndentingNewLine]", 
+       RowBox[{"{", 
+        RowBox[{
+        "\"\<chi_l1\>\"", ",", "LSBQChiL1", ",", 
+         "\"\<Child's Understanding in L1, i.e. English. (0~1)\>\""}], "}"}], 
+       ",", "\[IndentingNewLine]", 
+       RowBox[{"{", 
+        RowBox[{
+        "\"\<adu_edu\>\"", ",", "LSBQAduEdu", ",", 
+         "\"\<Adult's (The narrator) Education Attainment in Text\>\""}], 
+        "}"}], ",", "\[IndentingNewLine]", 
+       RowBox[{"{", 
+        RowBox[{
+        "\"\<adu_l1\>\"", ",", "LSBQAduL1", ",", 
+         "\"\<Adult (The narrator) Relative Proficiency in L1, i.e. English. \
+(0~1)\>\""}], "}"}], ",", "\[IndentingNewLine]", 
+       RowBox[{"{", 
+        RowBox[{
+        "\"\<adu_l2\>\"", ",", "LSBQAduL2", ",", 
+         "\"\<Adult (The narrator) Relative Proficiency in L2. (0~1)\>\""}], 
+        "}"}], ",", "\[IndentingNewLine]", 
+       RowBox[{"{", 
+        RowBox[{
+        "\"\<adu_bi_sub\>\"", ",", "LSBQAduBISub", ",", 
+         "\"\<Adult (The narrator) Bilingual Index by Subtraction. \
+(0~1)\>\""}], "}"}], ",", "\[IndentingNewLine]", 
+       RowBox[{"{", 
+        RowBox[{
+        "\"\<adu_bi_div\>\"", ",", "LSBQAduBIDiv", ",", 
+         "\"\<Adult (The narrator) Bilingual Index by Division. (0~1)\>\""}], 
+        "}"}], ",", "\[IndentingNewLine]", 
+       RowBox[{"{", 
+        RowBox[{
+        "\"\<adu_bi_edi\>\"", ",", "LSBQAduBIEdi", ",", 
+         "\"\<Adult (The narrator) Bilingual Index by Edinburgh's Formula \
+(L1-L2)/(L1+L2). (-1~1)\>\""}], "}"}], ",", "\[IndentingNewLine]", 
+       RowBox[{"{", 
+        RowBox[{
+        "\"\<hh_l1\>\"", ",", "LSBQHHL1", ",", 
+         "\"\<Household (HH) Use of L1, i.e. English. (0~1)\>\""}], "}"}], 
+       ",", "\[IndentingNewLine]", 
+       RowBox[{"{", 
+        RowBox[{
+        "\"\<hh_l2\>\"", ",", "LSBQHHL2", ",", 
+         "\"\<Household (HH) Use of L2. (0~1)\>\""}], "}"}], ",", 
+       "\[IndentingNewLine]", 
+       RowBox[{"{", 
+        RowBox[{
+        "\"\<hh_bi_sub\>\"", ",", "LSBQHHBISub", ",", 
+         "\"\<Household (HH) Bilingual Index by Subtraction. (0~1)\>\""}], 
+        "}"}], ",", "\[IndentingNewLine]", 
+       RowBox[{"{", 
+        RowBox[{
+        "\"\<hh_bi_div\>\"", ",", "LSBQHHBIDiv", ",", 
+         "\"\<Household (HH) Bilingual Index by Division. (0~1)\>\""}], "}"}],
+        ",", "\[IndentingNewLine]", 
+       RowBox[{"{", 
+        RowBox[{
+        "\"\<hh_bi_edi\>\"", ",", "LSBQHHBIEdi", ",", 
+         "\"\<Household (HH) Bilingual Index by Edinburgh's Formula \
+(L1-L2)/(L1+L2). (-1~1)\>\""}], "}"}]}], "\[IndentingNewLine]", "}"}]}], 
+    ";"}], "\[IndentingNewLine]", 
+   RowBox[{"bundleExport", "[", 
+    RowBox[{
+    "bundleLSBQ", ",", "LSBQResultsFile", ",", "LSBQDescriptorFile", ",", 
+     "False", ",", "True"}], "]"}]}]}]], "Input",
+ CellChangeTimes->{{3.6976028497173357`*^9, 3.697602849869781*^9}, {
+   3.697602998382039*^9, 3.697603045668767*^9}, {3.697603301070418*^9, 
+   3.6976033017018547`*^9}, {3.697603562226528*^9, 3.6976035624413424`*^9}, {
+   3.697603938087071*^9, 3.6976039382317867`*^9}, {3.697633417663732*^9, 
+   3.697633476048967*^9}, {3.6976335232387953`*^9, 3.697633554884757*^9}, {
+   3.697633811321594*^9, 3.697633825858589*^9}, {3.69763393630755*^9, 
+   3.697633937816058*^9}, {3.697634174903286*^9, 3.6976342701071367`*^9}, {
+   3.697634301458152*^9, 3.6976343064164658`*^9}, 3.697634346097589*^9, {
+   3.697634413164823*^9, 3.697634414858007*^9}, {3.6976344629487267`*^9, 
+   3.69763446448981*^9}, {3.6976345294700727`*^9, 3.6976345560126743`*^9}, {
+   3.6976349466605873`*^9, 3.697634954511771*^9}, {3.697635536964493*^9, 
+   3.697635541133494*^9}, {3.697635629560676*^9, 3.69763563601814*^9}, {
+   3.697668743439267*^9, 3.697668754414709*^9}, {3.697675465273993*^9, 
+   3.697675533857308*^9}, {3.6976757556590147`*^9, 3.697675767325815*^9}, {
+   3.697771547559781*^9, 3.697771552610907*^9}, {3.6977716561435432`*^9, 
+   3.6977716583959846`*^9}, {3.697776486921002*^9, 3.697776558140853*^9}, {
+   3.69794375819903*^9, 3.697943759490899*^9}, {3.697943878397148*^9, 
+   3.697943907830284*^9}, {3.69794409299156*^9, 3.697944124088801*^9}, 
+   3.69794421490793*^9, {3.697944270031825*^9, 3.6979442746033792`*^9}, {
+   3.697948152491146*^9, 3.69794821423353*^9}, {3.697948282199396*^9, 
+   3.697948392928279*^9}, {3.697948925826928*^9, 3.697948951360735*^9}, {
+   3.697949085898322*^9, 3.697949087896237*^9}, {3.697949152349978*^9, 
+   3.6979491528721237`*^9}, {3.697949189102721*^9, 3.697949189948543*^9}, {
+   3.69795189801991*^9, 3.6979518990175667`*^9}, {3.697977496544682*^9, 
+   3.697977515530731*^9}, {3.6980357050659924`*^9, 3.698035717648267*^9}, {
+   3.698041421196609*^9, 3.698041434081009*^9}, {3.698041706383967*^9, 
+   3.698041786294589*^9}, 3.6983784631196404`*^9, 3.698378709690708*^9, {
+   3.698380317494635*^9, 3.6983804020856857`*^9}, {3.6983808598723583`*^9, 
+   3.698381168875554*^9}, {3.6983812427524223`*^9, 3.698381250887219*^9}, {
+   3.698381883647584*^9, 3.6983820382993307`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  ButtonBox["\<\"Launch Results File\"\>",
+   Appearance->Automatic,
+   ButtonFunction:>SystemOpen["lsbq_results.xlsx"],
+   Evaluator->Automatic,
+   Method->"Preemptive"], "}"}]], "Output",
+ CellChangeTimes->{
+  3.697944131404888*^9, 3.6979442812354507`*^9, 3.697948155655682*^9, {
+   3.6979483267537603`*^9, 3.6979483418924*^9}, 3.697948398649415*^9, 
+   3.6979489596960793`*^9, 3.69794907479007*^9, {3.6979491563900337`*^9, 
+   3.69794917026377*^9}, 3.697949434408342*^9, 3.697966749601975*^9, 
+   3.697977150084495*^9, 3.69797718680567*^9, 3.697978379361186*^9, 
+   3.698035789859599*^9, 3.6980390343809853`*^9, 3.698039841836953*^9, {
+   3.698041739429414*^9, 3.698041792594821*^9}, 3.698046619898342*^9, 
+   3.6983747000694513`*^9, 3.698374816751751*^9, 3.6983782791666327`*^9, 
+   3.69837847295689*^9, 3.698380348852858*^9, 3.6983810065971603`*^9, {
+   3.698381113642647*^9, 3.698381182039029*^9}, 3.698381256127707*^9, 
+   3.698382045574538*^9, 3.698382545026835*^9}]
+}, Open  ]]
+},
+WindowSize->{720, 790},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+FrontEndVersion->"11.0 for Mac OS X x86 (32-bit, 64-bit Kernel) (September \
+21, 2016)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 26843, 706, 3330, "Input"],
+Cell[27426, 730, 1003, 18, 43, "Output"]
+}, Open  ]]
+}
+]
+*)
+

@@ -1,0 +1,460 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     15548,        452]
+NotebookOptionsPosition[     14730,        418]
+NotebookOutlinePosition[     15088,        434]
+CellTagsIndexPosition[     15045,        431]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["\<\
+Time Reduction by replacing whole Passage Instead of replacing each line\
+\>", "Title",
+ CellChangeTimes->{{3.697762126435858*^9, 3.6977621486140623`*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{"transcriptLines2", "=", 
+  "transcriptLines"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"Do", "[", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"transcriptLines2", "[", 
+      RowBox[{"[", 
+       RowBox[{
+        RowBox[{"VS", "[", 
+         RowBox[{"[", "n", "]"}], "]"}], ",", 
+        RowBox[{"utteranceLines", "[", 
+         RowBox[{"[", 
+          RowBox[{"VS", "[", 
+           RowBox[{"[", "n", "]"}], "]"}], "]"}], "]"}]}], "]"}], "]"}], "=", 
+     
+     RowBox[{"StringSplit", "[", 
+      RowBox[{
+       RowBox[{"removeUnwantedText", "[", 
+        RowBox[{"StringRiffle", "[", 
+         RowBox[{
+          RowBox[{"transcriptLines", "[", 
+           RowBox[{"[", 
+            RowBox[{
+             RowBox[{"VS", "[", 
+              RowBox[{"[", "n", "]"}], "]"}], ",", 
+             RowBox[{"utteranceLines", "[", 
+              RowBox[{"[", 
+               RowBox[{"VS", "[", 
+                RowBox[{"[", "n", "]"}], "]"}], "]"}], "]"}]}], "]"}], "]"}], 
+          ",", "\"\<\\n\>\""}], "]"}], "]"}], ",", "\"\<\\n\>\""}], "]"}]}], 
+    ",", 
+    RowBox[{"{", 
+     RowBox[{"n", ",", 
+      RowBox[{"Length", "[", "VS", "]"}]}], "}"}]}], "]"}], "//", 
+  "AbsoluteTiming"}]}], "Input",
+ CellChangeTimes->{{3.6977614114858513`*^9, 3.697761415655508*^9}, {
+  3.697761465358622*^9, 3.697761572720565*^9}, {3.697761671982375*^9, 
+  3.6977616743558807`*^9}}],
+
+Cell[BoxData[
+ InterpretationBox[
+  TagBox[
+   FrameBox[GridBox[{
+      {
+       ItemBox[
+        TagBox[
+         RowBox[{"{", 
+          RowBox[{"\<\"\"\>", ",", "\<\"\"\>", ",", 
+           TemplateBox[{"296"},
+            "OutputSizeLimit`Skeleton",
+            DisplayFunction->(FrameBox[
+              RowBox[{"\" \[CenterEllipsis]\"", #, "\"\[CenterEllipsis] \""}],
+               Background -> GrayLevel[0.75], 
+              BaseStyle -> {
+               "Deploy", FontColor -> GrayLevel[1], FontSize -> Smaller, 
+                ShowStringCharacters -> False}, BaselinePosition -> Baseline, 
+              ContentPadding -> False, FrameMargins -> {{1, 1}, {1, 2}}, 
+              FrameStyle -> None, RoundingRadius -> 7]& )], ",", "\<\"\"\>", 
+           ",", "\<\"\"\>"}], "}"}],
+         Short[#, 5]& ],
+        BaseStyle->{Deployed -> False},
+        StripOnInput->False]},
+      {GridBox[{
+         {
+          TagBox[
+           TooltipBox[
+            StyleBox[
+             StyleBox[
+              DynamicBox[ToBoxes[
+                FEPrivate`FrontEndResource[
+                "FEStrings", "sizeBriefExplanation"], StandardForm],
+               ImageSizeCache->{58., {2., 8.}}],
+              StripOnInput->False,
+              DynamicUpdating->True], "SuggestionsBarCategory",
+             StripOnInput->False],
+            StyleBox[
+             DynamicBox[
+              ToBoxes[
+               FEPrivate`FrontEndResource["FEStrings", "sizeExplanation"], 
+               StandardForm]], DynamicUpdating -> True, StripOnInput -> 
+             False]],
+           Annotation[#, 
+            Style[
+             Dynamic[
+              FEPrivate`FrontEndResource["FEStrings", "sizeExplanation"]], 
+             DynamicUpdating -> True], "Tooltip"]& ], 
+          ButtonBox[
+           PaneSelectorBox[{False->
+            StyleBox[
+             StyleBox[
+              DynamicBox[ToBoxes[
+                FEPrivate`FrontEndResource["FEStrings", "sizeShowLess"], 
+                StandardForm],
+               ImageSizeCache->{50., {0., 8.}}],
+              StripOnInput->False,
+              DynamicUpdating->True], "SuggestionsBarControl",
+             StripOnInput->False], True->
+            StyleBox[
+             StyleBox[
+              DynamicBox[ToBoxes[
+                FEPrivate`FrontEndResource["FEStrings", "sizeShowLess"], 
+                StandardForm],
+               ImageSizeCache->{50., {0., 8.}}],
+              StripOnInput->False,
+              DynamicUpdating->True], "SuggestionsBarControlActive",
+             StripOnInput->False]}, Dynamic[
+             CurrentValue["MouseOver"]],
+            Alignment->Center,
+            FrameMargins->0,
+            ImageSize->{Automatic, 25}],
+           Appearance->None,
+           
+           ButtonFunction:>OutputSizeLimit`ButtonFunction[
+            OutputSizeLimit`Defer, 1160, 26074066739486676522, 5/2],
+           Enabled->True,
+           Evaluator->Automatic,
+           Method->"Queued"], 
+          ButtonBox[
+           PaneSelectorBox[{False->
+            StyleBox[
+             StyleBox[
+              DynamicBox[ToBoxes[
+                FEPrivate`FrontEndResource["FEStrings", "sizeShowMore"], 
+                StandardForm],
+               ImageSizeCache->{56., {0., 8.}}],
+              StripOnInput->False,
+              DynamicUpdating->True], "SuggestionsBarControl",
+             StripOnInput->False], True->
+            StyleBox[
+             StyleBox[
+              DynamicBox[ToBoxes[
+                FEPrivate`FrontEndResource["FEStrings", "sizeShowMore"], 
+                StandardForm],
+               ImageSizeCache->{56., {0., 8.}}],
+              StripOnInput->False,
+              DynamicUpdating->True], "SuggestionsBarControlActive",
+             StripOnInput->False]}, Dynamic[
+             CurrentValue["MouseOver"]],
+            Alignment->Center,
+            FrameMargins->0,
+            ImageSize->{Automatic, 25}],
+           Appearance->None,
+           
+           ButtonFunction:>OutputSizeLimit`ButtonFunction[
+            OutputSizeLimit`Defer, 1160, 26074066739486676522, 5 2],
+           Enabled->True,
+           Evaluator->Automatic,
+           Method->"Queued"], 
+          ButtonBox[
+           PaneSelectorBox[{False->
+            StyleBox[
+             StyleBox[
+              DynamicBox[ToBoxes[
+                FEPrivate`FrontEndResource["FEStrings", "sizeShowAll"], 
+                StandardForm],
+               ImageSizeCache->{42., {0., 8.}}],
+              StripOnInput->False,
+              DynamicUpdating->True], "SuggestionsBarControl",
+             StripOnInput->False], True->
+            StyleBox[
+             StyleBox[
+              DynamicBox[ToBoxes[
+                FEPrivate`FrontEndResource["FEStrings", "sizeShowAll"], 
+                StandardForm],
+               ImageSizeCache->{42., {0., 8.}}],
+              StripOnInput->False,
+              DynamicUpdating->True], "SuggestionsBarControlActive",
+             StripOnInput->False]}, Dynamic[
+             CurrentValue["MouseOver"]],
+            Alignment->Center,
+            FrameMargins->0,
+            ImageSize->{Automatic, 25}],
+           Appearance->None,
+           
+           ButtonFunction:>OutputSizeLimit`ButtonFunction[
+            OutputSizeLimit`Defer, 1160, 26074066739486676522, Infinity],
+           Enabled->True,
+           Evaluator->Automatic,
+           Method->"Queued"], 
+          ButtonBox[
+           PaneSelectorBox[{False->
+            StyleBox[
+             StyleBox[
+              DynamicBox[ToBoxes[
+                FEPrivate`FrontEndResource["FEStrings", "sizeChangeLimit"], 
+                StandardForm],
+               ImageSizeCache->{74., {0., 8.}}],
+              StripOnInput->False,
+              DynamicUpdating->True], "SuggestionsBarControl",
+             StripOnInput->False], True->
+            StyleBox[
+             StyleBox[
+              DynamicBox[ToBoxes[
+                FEPrivate`FrontEndResource["FEStrings", "sizeChangeLimit"], 
+                StandardForm]],
+              StripOnInput->False,
+              DynamicUpdating->True], "SuggestionsBarControlActive",
+             StripOnInput->False]}, Dynamic[
+             CurrentValue["MouseOver"]],
+            Alignment->Center,
+            FrameMargins->0,
+            ImageSize->{Automatic, 25}],
+           Appearance->None,
+           ButtonFunction:>FrontEndExecute[{
+              FrontEnd`SetOptions[
+              FrontEnd`$FrontEnd, 
+               FrontEnd`PreferencesSettings -> {"Page" -> "Evaluation"}], 
+              FrontEnd`FrontEndToken["PreferencesDialog"]}],
+           Evaluator->None,
+           Method->"Preemptive"]}
+        },
+        AutoDelete->False,
+        FrameStyle->GrayLevel[0.85],
+        GridBoxDividers->{"Columns" -> {False, {True}}},
+        GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+        GridBoxSpacings->{"Columns" -> {{2}}}]}
+     },
+     DefaultBaseStyle->"Column",
+     GridBoxAlignment->{
+      "Columns" -> {{Left}}, "ColumnsIndexed" -> {}, "Rows" -> {{Baseline}}, 
+       "RowsIndexed" -> {}},
+     GridBoxDividers->{
+      "Columns" -> {{False}}, "ColumnsIndexed" -> {}, "Rows" -> {{False}}, 
+       "RowsIndexed" -> {}},
+     GridBoxItemSize->{
+      "Columns" -> {{Automatic}}, "ColumnsIndexed" -> {}, "Rows" -> {{1.}}, 
+       "RowsIndexed" -> {}},
+     GridBoxSpacings->{"Columns" -> {
+         Offset[0.27999999999999997`], {
+          Offset[0.5599999999999999]}, 
+         Offset[0.27999999999999997`]}, "ColumnsIndexed" -> {}, "Rows" -> {
+         Offset[0.2], 
+         Offset[1.2], {
+          Offset[0.4]}, 
+         Offset[0.2]}, "RowsIndexed" -> {}}],
+    Background->RGBColor[0.9657, 0.9753, 0.9802],
+    FrameMargins->{{12, 12}, {0, 15}},
+    FrameStyle->GrayLevel[0.85],
+    RoundingRadius->5,
+    StripOnInput->False],
+   Deploy,
+   DefaultBaseStyle->"Deploy"],
+  Out[1160]]], "Output",
+ CellChangeTimes->{{3.697761573840233*^9, 3.697761599810628*^9}, 
+   3.697761674627326*^9, 3.697761864502521*^9}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"0.066843`", ",", "Null"}], "}"}]], "Output",
+ CellChangeTimes->{{3.697761573840233*^9, 3.697761599810628*^9}, 
+   3.697761674627326*^9, 3.697761864571334*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"Table", "[", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"transcriptLines2", "[", 
+      RowBox[{"[", "k", "]"}], "]"}], "==", 
+     RowBox[{"transcriptLines", "[", 
+      RowBox[{"[", "k", "]"}], "]"}]}], ",", 
+    RowBox[{"{", 
+     RowBox[{"k", ",", "1", ",", 
+      RowBox[{"VS", "[", 
+       RowBox[{"[", 
+        RowBox[{"-", "1"}], "]"}], "]"}], ",", "1"}], "}"}]}], "]"}], "~", 
+  "Position", "~", "False"}]], "Input",
+ CellChangeTimes->{{3.697761581746162*^9, 3.697761657300725*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"{", "4", "}"}], ",", 
+   RowBox[{"{", "11", "}"}], ",", 
+   RowBox[{"{", "20", "}"}], ",", 
+   RowBox[{"{", "29", "}"}], ",", 
+   RowBox[{"{", "46", "}"}], ",", 
+   RowBox[{"{", "54", "}"}], ",", 
+   RowBox[{"{", "55", "}"}], ",", 
+   RowBox[{"{", "99", "}"}], ",", 
+   RowBox[{"{", "103", "}"}], ",", 
+   RowBox[{"{", "105", "}"}], ",", 
+   RowBox[{"{", "107", "}"}], ",", 
+   RowBox[{"{", "111", "}"}], ",", 
+   RowBox[{"{", "113", "}"}], ",", 
+   RowBox[{"{", "126", "}"}], ",", 
+   RowBox[{"{", "130", "}"}], ",", 
+   RowBox[{"{", "132", "}"}], ",", 
+   RowBox[{"{", "150", "}"}], ",", 
+   RowBox[{"{", "178", "}"}], ",", 
+   RowBox[{"{", "186", "}"}], ",", 
+   RowBox[{"{", "187", "}"}], ",", 
+   RowBox[{"{", "191", "}"}]}], "}"}]], "Output",
+ CellChangeTimes->{{3.6977615793360243`*^9, 3.697761657566324*^9}, {
+  3.697761866524932*^9, 3.6977618759187393`*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"n", "=", "11"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"Table", "[", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"transcriptLines2", "[", 
+      RowBox[{"[", 
+       RowBox[{"n", ",", "k"}], "]"}], "]"}], "==", 
+     RowBox[{"transcriptLines", "[", 
+      RowBox[{"[", 
+       RowBox[{"n", ",", "k"}], "]"}], "]"}]}], ",", 
+    RowBox[{"{", 
+     RowBox[{"k", ",", "1", ",", 
+      RowBox[{"Length", "[", 
+       RowBox[{"transcriptLines", "[", 
+        RowBox[{"[", "4", "]"}], "]"}], "]"}], ",", "1"}], "}"}]}], "]"}], 
+  "~", "Position", "~", "False"}]}], "Input",
+ CellChangeTimes->{{3.697761660358246*^9, 3.697761752496509*^9}, {
+  3.697761881181614*^9, 3.697761886562726*^9}, {3.697762017628908*^9, 
+  3.697762025437188*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"{", "60", "}"}], "}"}]], "Output",
+ CellChangeTimes->{
+  3.6977617015838337`*^9, {3.697761746111167*^9, 3.697761752758972*^9}, {
+   3.697761883283242*^9, 3.697761886855864*^9}, {3.69776202339898*^9, 
+   3.6977620257518806`*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"n", "=", "11"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"k", "=", "60"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"{", 
+   RowBox[{
+    RowBox[{"transcriptLines2", "[", 
+     RowBox[{"[", 
+      RowBox[{"n", ",", "k"}], "]"}], "]"}], ",", 
+    RowBox[{"transcriptLines", "[", 
+     RowBox[{"[", 
+      RowBox[{"n", ",", "k"}], "]"}], "]"}], ",", 
+    RowBox[{"transcriptLinesOri", "[", 
+     RowBox[{"[", 
+      RowBox[{"n", ",", "k"}], "]"}], "]"}]}], "}"}], "//", 
+  "TableForm"}]}], "Input",
+ CellChangeTimes->{{3.697761756536181*^9, 3.697761767937644*^9}, {
+  3.697761889459795*^9, 3.697761895162122*^9}, {3.697761978415517*^9, 
+  3.697762037804049*^9}}],
+
+Cell[BoxData[
+ TagBox[
+  TagBox[GridBox[{
+     {"\<\"*MOT: where the mama duck [x2] ?\"\>"},
+     {"\<\"*MOT: where's the mama duck [x2] ?\"\>"},
+     {"\<\"*MOT: <where's the mama duck> [x2] ?\"\>"}
+    },
+    GridBoxAlignment->{
+     "Columns" -> {{Left}}, "ColumnsIndexed" -> {}, "Rows" -> {{Baseline}}, 
+      "RowsIndexed" -> {}},
+    GridBoxSpacings->{"Columns" -> {
+        Offset[0.27999999999999997`], {
+         Offset[0.5599999999999999]}, 
+        Offset[0.27999999999999997`]}, "ColumnsIndexed" -> {}, "Rows" -> {
+        Offset[0.2], {
+         Offset[0.4]}, 
+        Offset[0.2]}, "RowsIndexed" -> {}}],
+   Column],
+  Function[BoxForm`e$, 
+   TableForm[BoxForm`e$]]]], "Output",
+ CellChangeTimes->{{3.697761758759953*^9, 3.697761768191536*^9}, 
+   3.697761815723917*^9, 3.6977618956193867`*^9, {3.6977619847102118`*^9, 
+   3.697762004060055*^9}, 3.697762054336812*^9}]
+}, Open  ]],
+
+Cell[BoxData["transcriptLinesOri"], "Input",
+ CellChangeTimes->{{3.697761974991316*^9, 3.697761975560466*^9}}]
+}, Open  ]]
+},
+WindowSize->{1440, 788},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+FrontEndVersion->"11.0 for Mac OS X x86 (32-bit, 64-bit Kernel) (September \
+21, 2016)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 165, 3, 92, "Title"],
+Cell[CellGroupData[{
+Cell[770, 29, 1388, 39, 75, "Input"],
+Cell[2161, 70, 8023, 205, 95, "Output"],
+Cell[10187, 277, 198, 4, 32, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[10422, 286, 522, 15, 32, "Input"],
+Cell[10947, 303, 919, 25, 32, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[11903, 333, 775, 21, 54, "Input"],
+Cell[12681, 356, 268, 6, 32, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[12986, 367, 717, 20, 75, "Input"],
+Cell[13706, 389, 883, 22, 78, "Output"]
+}, Open  ]],
+Cell[14604, 414, 110, 1, 32, "Input"]
+}, Open  ]]
+}
+]
+*)
+

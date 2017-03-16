@@ -1,0 +1,209 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 10.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      6475,        200]
+NotebookOptionsPosition[      5851,        173]
+NotebookOutlinePosition[      6206,        189]
+CellTagsIndexPosition[      6163,        186]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[
+ RowBox[{"ChangeToNum", ":=", 
+  RowBox[{"Module", "[", 
+   RowBox[{
+    RowBox[{"{", "}"}], ",", "\[IndentingNewLine]", 
+    RowBox[{
+     RowBox[{"Data", "=", 
+      RowBox[{
+       RowBox[{"NotebookGet", "[", 
+        RowBox[{"ClipboardNotebook", "[", "]"}], "]"}], "[", 
+       RowBox[{"[", 
+        RowBox[{"1", ",", "1", ",", "1"}], "]"}], "]"}]}], ";", 
+     "\[IndentingNewLine]", 
+     RowBox[{"Data", "=", 
+      RowBox[{"Data", "~", "StringSplit", "~", "\"\<\\n\>\""}]}], ";", 
+     "\[IndentingNewLine]", 
+     RowBox[{"Data", "=", 
+      RowBox[{
+       RowBox[{
+        RowBox[{
+         RowBox[{"If", "[", 
+          RowBox[{
+           RowBox[{"#", "==", "\"\<na\>\""}], ",", "\"\<na\>\"", ",", 
+           FractionBox[
+            RowBox[{
+             RowBox[{"ToExpression", "[", "#", "]"}], "-", "1"}], "4"]}], 
+          "]"}], "&"}], "/@", "Data"}], "//", "N"}]}], ";", 
+     "\[IndentingNewLine]", 
+     RowBox[{"Data", "=", 
+      RowBox[{"StringRiffle", "[", 
+       RowBox[{"Data", ",", "\"\<\\n\>\""}], "]"}]}], ";", 
+     "\[IndentingNewLine]", 
+     RowBox[{"CopyToClipboard", "[", "Data", "]"}], ";"}]}], 
+   "\[IndentingNewLine]", "]"}]}]], "Input",
+ CellChangeTimes->{{3.6803315919829483`*^9, 3.680331619085146*^9}, {
+   3.6803317910145206`*^9, 3.680332120293975*^9}, {3.6803321726744413`*^9, 
+   3.680332173682061*^9}, {3.6803322566400013`*^9, 3.6803322569996*^9}, {
+   3.680932823635817*^9, 3.680932828542989*^9}, {3.6809328980542707`*^9, 
+   3.6809328994764*^9}, {3.680932981131053*^9, 3.680932982117527*^9}, 
+   3.680937716001405*^9, {3.6809377995097237`*^9, 3.680937822794044*^9}, {
+   3.6809379208055763`*^9, 3.680937920957849*^9}}],
+
+Cell[BoxData[
+ RowBox[{"ChangeToNum2", ":=", 
+  RowBox[{"Module", "[", 
+   RowBox[{
+    RowBox[{"{", "}"}], ",", "\[IndentingNewLine]", 
+    RowBox[{
+     RowBox[{"Data", "=", 
+      RowBox[{
+       RowBox[{"NotebookGet", "[", 
+        RowBox[{"ClipboardNotebook", "[", "]"}], "]"}], "[", 
+       RowBox[{"[", 
+        RowBox[{"1", ",", "1", ",", "1"}], "]"}], "]"}]}], ";", 
+     "\[IndentingNewLine]", 
+     RowBox[{"Data", "=", 
+      RowBox[{"Data", "~", "StringSplit", "~", "\"\<\\n\>\""}]}], ";", 
+     "\[IndentingNewLine]", 
+     RowBox[{"DataTitle", "=", 
+      RowBox[{"Data", "[", 
+       RowBox[{"[", 
+        RowBox[{";;", "4"}], "]"}], "]"}]}], ";", "\[IndentingNewLine]", 
+     RowBox[{"Data", "=", 
+      RowBox[{"Data", "[", 
+       RowBox[{"[", 
+        RowBox[{"5", ";;"}], "]"}], "]"}]}], ";", "\[IndentingNewLine]", 
+     RowBox[{"Data", "=", 
+      RowBox[{
+       RowBox[{
+        RowBox[{
+         RowBox[{"If", "[", 
+          RowBox[{
+           RowBox[{"#", "==", "\"\<na\>\""}], ",", "\"\<na\>\"", ",", 
+           RowBox[{"Round", "[", 
+            RowBox[{
+             RowBox[{
+              RowBox[{"ToExpression", "[", "#", "]"}], "*", "6"}], "+", "1"}],
+             "]"}]}], "]"}], "&"}], "/@", "Data"}], "//", "N"}]}], ";", 
+     "\[IndentingNewLine]", 
+     RowBox[{"Data", "=", 
+      RowBox[{"Flatten", "[", 
+       RowBox[{"{", 
+        RowBox[{"DataTitle", ",", "Data"}], "}"}], "]"}]}], ";", 
+     "\[IndentingNewLine]", 
+     RowBox[{"Data", "=", 
+      RowBox[{"StringRiffle", "[", 
+       RowBox[{"Data", ",", "\"\<\\n\>\""}], "]"}]}], ";", 
+     "\[IndentingNewLine]", 
+     RowBox[{"CopyToClipboard", "[", "Data", "]"}], ";"}]}], 
+   "\[IndentingNewLine]", "]"}]}]], "Input",
+ CellChangeTimes->{{3.680332103890074*^9, 3.680332104510354*^9}, {
+  3.681620876519699*^9, 3.681620881884822*^9}, {3.681621562429336*^9, 
+  3.681621666207121*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Button", "[", 
+  RowBox[{"\"\<Change to number\>\"", ",", "ChangeToNum2"}], "]"}]], "Input",
+ CellChangeTimes->{{3.680332122197731*^9, 3.6803321335570517`*^9}, 
+   3.681620884900494*^9}],
+
+Cell[BoxData[
+ ButtonBox["\<\"Change to number\"\>",
+  Appearance->Automatic,
+  ButtonFunction:>$CellContext`ChangeToNum2,
+  Evaluator->Automatic,
+  Method->"Preemptive"]], "Output",
+ CellChangeTimes->{3.6803321341754017`*^9, 3.680332188350379*^9, 
+  3.68162088532297*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"Data", "=", "\"\<na\nna\nna\n7\n7\n7\n4\>\""}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"Data", "=", 
+   RowBox[{"Data", "~", "StringSplit", "~", "\"\<\\n\>\""}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{"Data", "=", 
+  RowBox[{
+   RowBox[{
+    RowBox[{
+     RowBox[{"If", "[", 
+      RowBox[{
+       RowBox[{"#", "==", "\"\<\>\""}], ",", "\"\<na\>\"", ",", 
+       FractionBox[
+        RowBox[{
+         RowBox[{"ToExpression", "[", "#", "]"}], "-", "1"}], "6"]}], "]"}], 
+     "&"}], "/@", "Data"}], "//", "N"}]}]}], "Input",
+ CellChangeTimes->{{3.680932878101775*^9, 3.6809329698886757`*^9}, {
+  3.6809377689517527`*^9, 3.6809377799324417`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"\<\"na\"\>", ",", "\<\"na\"\>", ",", "\<\"na\"\>", ",", "1.`", ",",
+    "1.`", ",", "1.`", ",", "0.5`"}], "}"}]], "Output",
+ CellChangeTimes->{{3.680932912591599*^9, 3.680932970430664*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"na", "\[NotEqual]", "\"\<na\>\""}]], "Input"],
+
+Cell[BoxData[
+ RowBox[{"na", "\[NotEqual]", "\<\"na\"\>"}]], "Output",
+ CellChangeTimes->{3.6809329559659023`*^9}]
+}, Open  ]]
+},
+WindowSize->{1440, 252},
+WindowMargins->{{0, Automatic}, {132, Automatic}},
+FrontEndVersion->"10.2 for Mac OS X x86 (32-bit, 64-bit Kernel) (July 29, \
+2015)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 1684, 40, 173, "Input"],
+Cell[2245, 62, 1886, 50, 182, "Input"],
+Cell[CellGroupData[{
+Cell[4156, 116, 210, 4, 28, "Input"],
+Cell[4369, 122, 272, 7, 43, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[4678, 134, 702, 20, 186, "Input"],
+Cell[5383, 156, 229, 4, 28, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[5649, 165, 69, 1, 28, "Input"],
+Cell[5721, 168, 114, 2, 28, "Output"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)

@@ -1,0 +1,445 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     15906,        437]
+NotebookOptionsPosition[     15491,        418]
+NotebookOutlinePosition[     15855,        434]
+CellTagsIndexPosition[     15812,        431]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[{
+ RowBox[{"SetOptions", "[", 
+  RowBox[{"$FrontEndSession", ",", 
+   RowBox[{"NotebookAutoSave", "\[Rule]", "True"}]}], "]"}], "\n", 
+ RowBox[{
+  RowBox[{"NotebookSave", "[", "]"}], "\[IndentingNewLine]", 
+  RowBox[{"(*", "Switches", "*)"}]}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"ifExportNarrationLogDescriptor", "=", "False"}], ";"}], 
+  "\[IndentingNewLine]", 
+  RowBox[{"(*", 
+   RowBox[{"Setting", " ", "Constants"}], "*)"}]}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"narrationLogFile", "=", "\"\<Narration Mastersheet.xlsx\>\""}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+  "narrationLogResultsFile", "=", "\"\<narration_log_results.xlsx\>\""}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{
+   "narrationLogDescriptorFile", "=", 
+    "\"\<narration_log_descriptor.pdf\>\""}], ";"}], "\[IndentingNewLine]", 
+  RowBox[{"(*", 
+   RowBox[{"Import", " ", "narrationLog"}], "*)"}]}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"narrationLogDataRaw", "=", 
+   RowBox[{
+    RowBox[{"Import", "[", "narrationLogFile", "]"}], "[", 
+    RowBox[{"[", "1", "]"}], "]"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"narrationLogHeaders", "=", 
+   RowBox[{"narrationLogDataRaw", "[", 
+    RowBox[{"[", "1", "]"}], "]"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"narrationLogData", "=", 
+   RowBox[{"narrationLogDataRaw", "[", 
+    RowBox[{"[", 
+     RowBox[{"2", ";;"}], "]"}], "]"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"narrationLogColumnNumber", "[", "columnName_", "]"}], ":=", 
+  RowBox[{
+   RowBox[{"Position", "[", 
+    RowBox[{"narrationLogHeaders", ",", "columnName"}], "]"}], "[", 
+   RowBox[{"[", 
+    RowBox[{"1", ",", "1"}], "]"}], "]"}]}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"narrationLogLen", "=", 
+    RowBox[{"Length", "[", "narrationLogData", "]"}]}], ";"}], 
+  "\[IndentingNewLine]", 
+  RowBox[{"(*", 
+   RowBox[{"Setting", " ", "up", " ", "data", " ", "structure"}], 
+   "*)"}]}], "\n", 
+ RowBox[{
+  RowBox[{"narrationLogID", "=", 
+   RowBox[{"ConstantArray", "[", 
+    RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], "\n", 
+ RowBox[{
+  RowBox[{"narrationLogAduName", "=", 
+   RowBox[{"ConstantArray", "[", 
+    RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], "\n", 
+ RowBox[{
+  RowBox[{"narrationLogChiName", "=", 
+   RowBox[{"ConstantArray", "[", 
+    RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], "\n", 
+ RowBox[{
+  RowBox[{"narrationLogNarrator", "=", 
+   RowBox[{"ConstantArray", "[", 
+    RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], "\n", 
+ RowBox[{
+  RowBox[{"narrationLogDOB", "=", 
+   RowBox[{"ConstantArray", "[", 
+    RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], "\n", 
+ RowBox[{
+  RowBox[{"narrationLogDOT", "=", 
+   RowBox[{"ConstantArray", "[", 
+    RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], "\n", 
+ RowBox[{
+  RowBox[{"narrationLogLang", "=", 
+   RowBox[{"ConstantArray", "[", 
+    RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], "\n", 
+ RowBox[{
+  RowBox[{"narrationLogLocation", "=", 
+   RowBox[{"ConstantArray", "[", 
+    RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], "\n", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"narrationLogChiAge", "=", 
+    RowBox[{"ConstantArray", "[", 
+     RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], "\n", 
+  RowBox[{"(*", 
+   RowBox[{"Spliting", " ", "into", " ", "Lines"}], 
+   "*)"}]}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"EmptyReplacer", "=", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"\"\<#DIV/0!\>\"", "\[Rule]", "\"\<na\>\""}], ",", 
+     RowBox[{"\"\<#VALUE!\>\"", "\[Rule]", "\"\<na\>\""}], ",", 
+     RowBox[{"\"\<#REF!\>\"", "\[Rule]", "\"\<na\>\""}], ",", 
+     RowBox[{"\"\<\>\"", "\[Rule]", "\"\<na\>\""}]}], "}"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"narrationLogID", "[", 
+    RowBox[{"[", 
+     RowBox[{";;", "narrationLogLen"}], "]"}], "]"}], "=", 
+   RowBox[{
+    RowBox[{"narrationLogData", "[", 
+     RowBox[{"[", 
+      RowBox[{";;", ",", 
+       RowBox[{"narrationLogColumnNumber", "[", "\"\<ID\>\"", "]"}]}], "]"}], 
+     "]"}], "/.", "EmptyReplacer"}]}], ";"}], "\n", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"narrationLogAduName", "[", 
+    RowBox[{"[", 
+     RowBox[{";;", "narrationLogLen"}], "]"}], "]"}], "=", 
+   RowBox[{
+    RowBox[{"narrationLogData", "[", 
+     RowBox[{"[", 
+      RowBox[{";;", ",", 
+       RowBox[{
+       "narrationLogColumnNumber", "[", "\"\<Parent's name\>\"", "]"}]}], 
+      "]"}], "]"}], "/.", "EmptyReplacer"}]}], ";"}], "\n", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"narrationLogChiName", "[", 
+    RowBox[{"[", 
+     RowBox[{";;", "narrationLogLen"}], "]"}], "]"}], "=", 
+   RowBox[{
+    RowBox[{"narrationLogData", "[", 
+     RowBox[{"[", 
+      RowBox[{";;", ",", 
+       RowBox[{
+       "narrationLogColumnNumber", "[", "\"\<Child's name\>\"", "]"}]}], 
+      "]"}], "]"}], "/.", "EmptyReplacer"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"narrationLogNarrator", "[", 
+    RowBox[{"[", 
+     RowBox[{";;", "narrationLogLen"}], "]"}], "]"}], "=", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"narrationLogData", "[", 
+      RowBox[{"[", 
+       RowBox[{";;", ",", 
+        RowBox[{"narrationLogColumnNumber", "[", "\"\<M/F\>\"", "]"}]}], 
+       "]"}], "]"}], "/.", "EmptyReplacer"}], "/.", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"\"\<M\>\"", "\[Rule]", "\"\<MOT\>\""}], ",", 
+      RowBox[{"\"\<F\>\"", "\[Rule]", "\"\<FAT\>\""}]}], "}"}]}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"narrationLogDOB", "[", 
+    RowBox[{"[", 
+     RowBox[{";;", "narrationLogLen"}], "]"}], "]"}], "=", 
+   RowBox[{
+    RowBox[{"narrationLogData", "[", 
+     RowBox[{"[", 
+      RowBox[{";;", ",", 
+       RowBox[{"narrationLogColumnNumber", "[", "\"\<DOB\>\"", "]"}]}], "]"}],
+      "]"}], "/.", "EmptyReplacer"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"narrationLogDOT", "[", 
+    RowBox[{"[", 
+     RowBox[{";;", "narrationLogLen"}], "]"}], "]"}], "=", 
+   RowBox[{
+    RowBox[{"narrationLogData", "[", 
+     RowBox[{"[", 
+      RowBox[{";;", ",", 
+       RowBox[{
+       "narrationLogColumnNumber", "[", "\"\<Date of Test\>\"", "]"}]}], 
+      "]"}], "]"}], "/.", "EmptyReplacer"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"narrationLogLang", "[", 
+    RowBox[{"[", 
+     RowBox[{";;", "narrationLogLen"}], "]"}], "]"}], "=", 
+   RowBox[{
+    RowBox[{"narrationLogData", "[", 
+     RowBox[{"[", 
+      RowBox[{";;", ",", 
+       RowBox[{
+       "narrationLogColumnNumber", "[", "\"\<Language of Narration\>\"", 
+        "]"}]}], "]"}], "]"}], "/.", "EmptyReplacer"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{
+    RowBox[{"narrationLogLocation", "[", 
+     RowBox[{"[", 
+      RowBox[{";;", "narrationLogLen"}], "]"}], "]"}], "=", 
+    RowBox[{
+     RowBox[{"narrationLogData", "[", 
+      RowBox[{"[", 
+       RowBox[{";;", ",", 
+        RowBox[{"narrationLogColumnNumber", "[", "\"\<Location\>\"", "]"}]}], 
+       "]"}], "]"}], "/.", "EmptyReplacer"}]}], ";"}], "\[IndentingNewLine]", 
+  
+  RowBox[{"(*", 
+   RowBox[{"Check", " ", "Reference", " ", "Intactness"}], 
+   "*)"}]}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"If", "[", 
+   RowBox[{
+    RowBox[{"!", 
+     RowBox[{
+      RowBox[{"VSListPrint", "[", 
+       RowBox[{"[", 
+        RowBox[{";;", "narrationLogLen"}], "]"}], "]"}], "==", 
+      RowBox[{"narrationLogID", "[", 
+       RowBox[{"[", 
+        RowBox[{";;", "narrationLogLen"}], "]"}], "]"}]}]}], ",", 
+    RowBox[{"Print", "[", 
+     RowBox[{"Style", "[", 
+      RowBox[{"\"\<ERROR IN VS REFERENCE\>\"", ",", "Red", ",", "Large"}], 
+      "]"}], "]"}]}], "]"}], "\[IndentingNewLine]", 
+  RowBox[{"(*", 
+   RowBox[{"Calculate", " ", "Child", " ", "Age"}], 
+   "*)"}]}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{
+    RowBox[{"narrationLogChiAge", "[", 
+     RowBox[{"[", 
+      RowBox[{";;", "narrationLogLen"}], "]"}], "]"}], "=", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"If", "[", 
+       RowBox[{
+        RowBox[{
+         RowBox[{
+          RowBox[{"narrationLogDOT", "[", 
+           RowBox[{"[", "#", "]"}], "]"}], "!=", "\"\<na\>\""}], "&&", 
+         RowBox[{
+          RowBox[{"narrationLogDOB", "[", 
+           RowBox[{"[", "#", "]"}], "]"}], "!=", "\"\<na\>\""}]}], ",", 
+        RowBox[{"QuantityMagnitude", "[", 
+         RowBox[{
+          RowBox[{
+           RowBox[{"DateObject", "[", 
+            RowBox[{"narrationLogDOT", "[", 
+             RowBox[{"[", "#", "]"}], "]"}], "]"}], "-", 
+           RowBox[{"DateObject", "[", 
+            RowBox[{"narrationLogDOB", "[", 
+             RowBox[{"[", "#", "]"}], "]"}], "]"}]}], ",", "\"\<day\>\""}], 
+         "]"}], ",", "\"\<na\>\""}], "]"}], "&"}], "/@", 
+     RowBox[{"Range", "[", "narrationLogLen", "]"}]}]}], ";"}], 
+  "\[IndentingNewLine]", 
+  RowBox[{"(*", 
+   RowBox[{
+   "Retrive", " ", "Primary", " ", "Language", " ", "and", " ", "Change", " ",
+     "to", " ", "ISO", " ", "Format"}], "*)"}]}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"narrationLogLang", "=", 
+    RowBox[{
+     RowBox[{
+      RowBox[{
+       RowBox[{"First", "[", 
+        RowBox[{
+         RowBox[{"StringCases", "[", 
+          RowBox[{"#", ",", 
+           RowBox[{"StartOfString", "~~", 
+            RowBox[{"LetterCharacter", ".."}]}]}], "]"}], ",", "\"\<na\>\""}],
+         "]"}], "&"}], "/@", "narrationLogLang"}], "/.", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"\"\<English\>\"", "\[Rule]", "\"\<eng\>\""}], ",", 
+       RowBox[{"\"\<French\>\"", "\[Rule]", "\"\<fra\>\""}], ",", 
+       RowBox[{"\"\<Mandarin\>\"", "\[Rule]", "\"\<zho\>\""}]}], "}"}]}]}], 
+   ";"}], "\[IndentingNewLine]", 
+  RowBox[{"(*", 
+   RowBox[{"Export", " ", "Results"}], "*)"}]}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"bundleNarrationLogLong", "=", 
+   RowBox[{"{", "\[IndentingNewLine]", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+      "\"\<nl_adu_name\>\"", ",", "narrationLogAduName", ",", 
+       "\"\<Name of Child, retrived from \\\"Narration Mastersheet\\\" (nl = \
+narration log).\>\""}], "}"}], ",", "\[IndentingNewLine]", 
+     RowBox[{"{", 
+      RowBox[{
+      "\"\<nl_chi_name\>\"", ",", "narrationLogChiName", ",", 
+       "\"\<Name of Narrator, retrived from \\\"Narration \
+Mastersheet\\\".\>\""}], "}"}], ",", "\[IndentingNewLine]", 
+     RowBox[{"{", 
+      RowBox[{
+      "\"\<nl_narrator\>\"", ",", "narrationLogNarrator", ",", 
+       "\"\<Whether the narrator is the father or mother to the child, \
+retrived from \\\"Narration Mastersheet\\\".\>\""}], "}"}], ",", 
+     "\[IndentingNewLine]", 
+     RowBox[{"{", 
+      RowBox[{
+      "\"\<nl_dob\>\"", ",", "narrationLogDOB", ",", 
+       "\"\<Date of birth of the child, retrived from \\\"Narration \
+Mastersheet\\\".\>\""}], "}"}], ",", "\[IndentingNewLine]", 
+     RowBox[{"{", 
+      RowBox[{
+      "\"\<nl_dot\>\"", ",", "narrationLogDOT", ",", 
+       "\"\<The Day of Testing, retrived from \\\"Narration \
+Mastersheet\\\".\>\""}], "}"}], ",", "\[IndentingNewLine]", 
+     RowBox[{"{", 
+      RowBox[{
+      "\"\<nl_lang\>\"", ",", "narrationLogLang", ",", 
+       "\"\<Language of the transcript, retrived from \\\"Narration \
+Mastersheet\\\".\>\""}], "}"}], ",", "\[IndentingNewLine]", 
+     RowBox[{"{", 
+      RowBox[{
+      "\"\<nl_location\>\"", ",", "narrationLogLocation", ",", 
+       "\"\<Location of Testing, retrived from \\\"Narration Mastersheet\\\".\
+\>\""}], "}"}], ",", "\[IndentingNewLine]", 
+     RowBox[{"{", 
+      RowBox[{
+      "\"\<nl_chi_age\>\"", ",", "narrationLogChiAge", ",", 
+       "\"\<AAge of Child on The Day of Testing, retrived from \\\"Narration \
+Mastersheet\\\".\>\""}], "}"}]}], "\[IndentingNewLine]", "}"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"bundleNarrationLog", "=", 
+   RowBox[{"{", "\[IndentingNewLine]", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+      "\"\<nl_narrator\>\"", ",", "narrationLogNarrator", ",", 
+       "\"\<Whether the narrator is the father or mother to the child, \
+retrived from \\\"Narration Mastersheet\\\".\>\""}], "}"}], ",", 
+     "\[IndentingNewLine]", 
+     RowBox[{"{", 
+      RowBox[{
+      "\"\<nl_lang\>\"", ",", "narrationLogLang", ",", 
+       "\"\<Language of the transcript, retrived from \\\"Narration \
+Mastersheet\\\".\>\""}], "}"}], ",", "\[IndentingNewLine]", 
+     RowBox[{"{", 
+      RowBox[{
+      "\"\<nl_location\>\"", ",", "narrationLogLocation", ",", 
+       "\"\<Location of Testing, retrived from \\\"Narration Mastersheet\\\".\
+\>\""}], "}"}], ",", "\[IndentingNewLine]", 
+     RowBox[{"{", 
+      RowBox[{
+      "\"\<nl_chi_age\>\"", ",", "narrationLogChiAge", ",", 
+       "\"\<Age of Child on The Day of Testing, retrived from \\\"Narration \
+Mastersheet\\\".\>\""}], "}"}]}], "\[IndentingNewLine]", "}"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{"bundleExport", "[", 
+  RowBox[{
+  "bundleNarrationLogLong", ",", "narrationLogResultsFile", ",", 
+   "narrationLogDescriptorFile", ",", "True", ",", "True"}], "]"}]}], "Input",\
+
+ CellChangeTimes->{{3.6980351565883503`*^9, 3.698035156589879*^9}, {
+   3.698035300864546*^9, 3.698035311921376*^9}, {3.698035614123757*^9, 
+   3.698035674151452*^9}, {3.698035853389593*^9, 3.698036001017358*^9}, {
+   3.698036039977232*^9, 3.698036132960658*^9}, {3.698036196335589*^9, 
+   3.698036198925397*^9}, {3.6980366077651243`*^9, 3.69803667248085*^9}, {
+   3.698037605212434*^9, 3.6980376565030212`*^9}, {3.6980378011542053`*^9, 
+   3.698037921017906*^9}, {3.698038119998837*^9, 3.698038136402452*^9}, {
+   3.698038257582841*^9, 3.698038493490862*^9}, {3.6980388090532417`*^9, 
+   3.698038885470323*^9}, 3.6980389754530697`*^9, {3.698040378097807*^9, 
+   3.698040405826496*^9}, {3.698040807198737*^9, 3.698040839340873*^9}, {
+   3.698046533012013*^9, 3.698046535333002*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   ButtonBox["\<\"Launch Results File\"\>",
+    Appearance->Automatic,
+    ButtonFunction:>SystemOpen["narration_log_results.xlsx"],
+    Evaluator->Automatic,
+    Method->"Preemptive"], ",", 
+   ButtonBox["\<\"Launch Descriptor File\"\>",
+    Appearance->Automatic,
+    ButtonFunction:>SystemOpen["narration_log_descriptor.pdf"],
+    Evaluator->Automatic,
+    Method->"Preemptive"]}], "}"}]], "Output",
+ CellChangeTimes->{{3.698038443003284*^9, 3.6980384960269823`*^9}, {
+   3.698038826834764*^9, 3.698038977106339*^9}, 3.698039834996978*^9, 
+   3.698040401101717*^9, 3.698040569612097*^9, {3.6980407846267138`*^9, 
+   3.698040842352705*^9}, {3.6980463517553453`*^9, 3.698046354345457*^9}, 
+   3.698046599056108*^9, 3.698378288093338*^9, 3.698382538413563*^9}]
+}, Open  ]],
+
+Cell[BoxData[""], "Input",
+ CellChangeTimes->{{3.698035294648806*^9, 3.698035300162483*^9}}],
+
+Cell[BoxData[""], "Input",
+ CellChangeTimes->{{3.698037709413649*^9, 3.698037712822132*^9}}]
+},
+WindowSize->{960, 506},
+WindowMargins->{{-254, Automatic}, {Automatic, -1080}},
+FrontEndVersion->"11.0 for Mac OS X x86 (32-bit, 64-bit Kernel) (September \
+21, 2016)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 13902, 368, 1629, "Input"],
+Cell[14485, 392, 800, 17, 43, "Output"]
+}, Open  ]],
+Cell[15300, 412, 92, 1, 32, "Input"],
+Cell[15395, 415, 92, 1, 32, "Input"]
+}
+]
+*)
+

@@ -1,0 +1,914 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 10.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     38853,        906]
+NotebookOptionsPosition[     37964,        873]
+NotebookOutlinePosition[     38318,        889]
+CellTagsIndexPosition[     38275,        886]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+  "Data", "=", 
+   "\"\<MOT: Owl be here\\nMOT: Ok. (Zed) We\[CloseCurlyQuote]ll read a book \
+today. It\[CloseCurlyQuote]s called \[OpenCurlyDoubleQuote]Have you seen my \
+duckling?\[CloseCurlyDoubleQuote]\\nMOT: You see it? You are interested in \
+the owl. That\[CloseCurlyQuote]s fine. Usually he just eats the (book all) I \
+guess. You see? The ducklings.\\nMOT: It says, Early one morning, (What is \
+these all) ducklings. 1, 2, 3, 4, 5, 6, 7! 7 of them? What happens\\nMOT: Ah! \
+You see the mummy, coming from far away. You see all the tree, no trees,grass \
+and bushes. And they are at home\\nCHI: Uh\\nMOT: And, here. The mummy \
+is\\nCHI: Uh Huh Err\\nMOT: right by the ducklings. And what are they goingto \
+do next? Can you see them?That\[CloseCurlyQuote]s\\nCHI: Uh\\nMOT: So, Oh! \
+The mummy swam away! And the duckling follows them, follows themummy. And \
+then what happens? The mummy\\nCHI: Uh Uhhhh\\nMOT: ran into a bird.\\nCHI: \
+Uh\\nMOT: And the mummy asked him\\nCHI: Uh Uh Uh Uh Uh Uh Ah Ah\\nMOT: \
+\[OpenCurlyDoubleQuote]Have you seen my ducklings?\[CloseCurlyDoubleQuote] \
+Hmm? You see the flower?\\nCHI: Uh Uh Uh\\nMOT: And the ducklings? Should we \
+count them again? 1, 2, 3, 4, 5, 6, 7. 7 ducklings. And what (happen) \
+next?\\nMOT: And then they ran into a turtle! And mummy alsoasked the \
+question \[OpenCurlyDoubleQuote]Have you seen my duckling?\
+\[CloseCurlyDoubleQuote] And then also see a beaver on the side. What is the \
+beaver doing? The beaver is eating the tree.\\nMOT: And then. They\
+\[CloseCurlyQuote]re following the beaver.\\nCHI: Mmmmm\\nMOT: Where\
+\[CloseCurlyQuote]s the beaver going? And the mama also asks\
+\[OpenCurlyDoubleQuote]Have you seen my ducklings?\\nCHI: Uh Uh\\nMOT: Have \
+you seen my ducklings?\[CloseCurlyDoubleQuote]\\nCHI: Hmm\\nMOT: No? You \
+haven\[CloseCurlyQuote]t?\\nCHI: Hmm\\nMOT: You haven\[CloseCurlyQuote]t? Are \
+you sure?\\nCHI: Uh Huh\\nMOT: See. Here\[CloseCurlyQuote]s the ducklings. \
+Again. 1, 2, 3, 4, 5,6, 7!\\nCHI: Uh Uh Uh Uh Uh\\nMOT: No? Ok, let\
+\[CloseCurlyQuote]s see what happen next.\\nMOT: And then. They\
+\[CloseCurlyQuote]ve seen various animals in the water. See a turtle, a fish \
+and agreen fish! And then a (lizard), a shrimp maybe? And a froggie. \
+Ooh\\nMOT: And then. The mama also asking \[OpenCurlyDoubleQuote]Have you \
+seen myducklings?\[CloseCurlyDoubleQuote]\\nCHI: Uh\\nMOT: Hmm? Next \
+one.\\nMOT: And what happened now? They\[CloseCurlyQuote]re all together. \
+With the mama. And then, they have seen other birds. And other, I don\
+\[CloseCurlyQuote]t know, (blue-der) birds? And mama also asks\\nCHI: Uh Uh \
+Uhhhhh\\nMOT: \[OpenCurlyDoubleQuote]Have you seen my duckling?\
+\[CloseCurlyDoubleQuote]\\nCHI: Uh Uh Ahhhhh\\nMOT: And then. Yar? And \
+then\\nCHI: Uh Uh Uh Ahhhhh\\nMOT: they swim around, the flowers, turtles, \
+(bushes), grass, and more flowers, more butterfly, and then what? Where are \
+they going?\\nMOT: Oh! Suddenly, it\[CloseCurlyQuote]s night time. They are \
+home now. Where are they? What are they doing? You see? \
+They\[CloseCurlyQuote]re sleeping. Sleeping.\\nCHI: Uh. Ah. Ah Ah\\nMOT: \
+Hmmm. You want to sleep too? You want to sleep too? Alright. That\
+\[CloseCurlyQuote]s the end.\>\""}], ";"}]], "Input",
+ CellChangeTimes->{{3.648874618136342*^9, 3.6488746244265223`*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+  "DataText", "=", 
+   "\"\<@Comment\n@Start\n*MOT:\\tthree\n*MOT:\\tso have you got a four\n\
+*MOT:\\tno\n*MOT:\\tthere\n*MOT:\\tthat's a four\n*CHI:\\ta hand\n*MOT:\\ta \
+hand\n*MOT:\\tyes\n*CHI:\\tdo you remember when we went to Emily's party\n\
+*MOT:\\tyesterday\n*MOT:\\tyes\>\""}], ";"}]], "Input",
+ CellChangeTimes->{{3.648870278907468*^9, 3.6488702911356993`*^9}, {
+   3.648872994583453*^9, 3.648873008523655*^9}, 3.64930100117546*^9, {
+   3.649301038760705*^9, 3.649301050445423*^9}, {3.649301313084627*^9, 
+   3.649301314814705*^9}}],
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{
+   RowBox[{"FreqList", "[", "Word_", "]"}], ":=", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"(", 
+      RowBox[{
+       RowBox[{"#", "[", 
+        RowBox[{"[", 
+         RowBox[{"1", ",", "2"}], "]"}], "]"}], "\[Rule]", 
+       RowBox[{"#", "[", 
+        RowBox[{"[", "2", "]"}], "]"}]}], ")"}], "&"}], "/@", 
+    RowBox[{"WordData", "[", 
+     RowBox[{"Word", ",", "\"\<ConceptWeight\>\""}], "]"}]}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"LexiList", "[", "Word_", "]"}], ":=", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"#", "[", 
+      RowBox[{"[", 
+       RowBox[{"1", ",", "1"}], "]"}], "]"}], "&"}], "/@", 
+    RowBox[{"Gather", "[", 
+     RowBox[{
+      RowBox[{"FreqList", "[", "Word", "]"}], ",", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"#1", "[", 
+         RowBox[{"[", "1", "]"}], "]"}], "===", 
+        RowBox[{"#2", "[", 
+         RowBox[{"[", "1", "]"}], "]"}]}], "&"}]}], "]"}]}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"Freq", "[", "Word_", "]"}], ":=", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"Total", "[", 
+      RowBox[{"#", "[", 
+       RowBox[{"[", 
+        RowBox[{";;", ",", "2"}], "]"}], "]"}], "]"}], "&"}], "/@", 
+    RowBox[{"Gather", "[", 
+     RowBox[{
+      RowBox[{"FreqList", "[", "Word", "]"}], ",", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"#1", "[", 
+         RowBox[{"[", "1", "]"}], "]"}], "===", 
+        RowBox[{"#2", "[", 
+         RowBox[{"[", "1", "]"}], "]"}]}], "&"}]}], "]"}]}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"GetMostFrequentPartOfSpeech", "[", "Word_", "]"}], ":=", 
+   RowBox[{"Block", "[", 
+    RowBox[{
+     RowBox[{"{", "}"}], ",", "\[IndentingNewLine]", 
+     RowBox[{"If", "[", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"WordData", "[", "Word", "]"}], "\[NotEqual]", 
+        RowBox[{"{", "}"}]}], ",", "\[IndentingNewLine]", 
+       RowBox[{
+        RowBox[{"LexiList", "[", "Word", "]"}], "[", 
+        RowBox[{"[", 
+         RowBox[{
+          RowBox[{"Ordering", "[", 
+           RowBox[{
+            RowBox[{"Freq", "[", "Word", "]"}], ",", 
+            RowBox[{"-", "1"}]}], "]"}], "[", 
+          RowBox[{"[", "1", "]"}], "]"}], "]"}], "]"}], ",", 
+       "\[IndentingNewLine]", "\"\<Unknown\>\""}], "\[IndentingNewLine]", 
+      "]"}]}], "\[IndentingNewLine]", "]"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"TransformToPartOfSpeechText", "[", 
+   RowBox[{"Txt_", ",", "ChiName_"}], "]"}], ":=", 
+  RowBox[{"Block", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{
+     "Dat", ",", "Sentence", ",", "Person", ",", "Utter", ",", "Words", ",", 
+      "PoS", ",", "PoSwithSpace", ",", "SentenceN", ",", "DataProcessed", ",",
+       "PersonList", ",", "SentenceD", ",", "ChiPosi", ",", "PersonD"}], 
+     "}"}], ",", "\[IndentingNewLine]", 
+    RowBox[{
+     RowBox[{"Dat", "=", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"StringSplit", "[", 
+         RowBox[{"Txt", ",", "\"\<@Start\>\""}], "]"}], "[", 
+        RowBox[{"[", "2", "]"}], "]"}], "//", "StringTrim"}]}], ";", 
+     "\[IndentingNewLine]", 
+     RowBox[{"Sentence", "=", 
+      RowBox[{"StringSplit", "[", 
+       RowBox[{"Dat", ",", "\"\<\\n\>\""}], "]"}]}], ";", 
+     "\[IndentingNewLine]", 
+     RowBox[{"Person", "=", 
+      RowBox[{
+       RowBox[{
+        RowBox[{
+         RowBox[{"StringSplit", "[", 
+          RowBox[{"#", ",", "\"\<:\>\""}], "]"}], "[", 
+         RowBox[{"[", "1", "]"}], "]"}], "&"}], "/@", "Sentence"}]}], ";", 
+     "\[IndentingNewLine]", 
+     RowBox[{"PersonList", "=", 
+      RowBox[{"Tally", "[", "Person", "]"}]}], ";", "\[IndentingNewLine]", 
+     RowBox[{"ChiPosi", "=", 
+      RowBox[{
+       RowBox[{"Reap", "[", 
+        RowBox[{"For", "[", 
+         RowBox[{
+          RowBox[{"i", "=", "1"}], ",", 
+          RowBox[{"i", "\[LessEqual]", 
+           RowBox[{"Length", "[", "Person", "]"}]}], ",", 
+          RowBox[{"i", "++"}], ",", "\[IndentingNewLine]", 
+          RowBox[{"If", "[", 
+           RowBox[{
+            RowBox[{
+             RowBox[{"Person", "[", 
+              RowBox[{"[", "i", "]"}], "]"}], "\[Equal]", "ChiName"}], ",", 
+            RowBox[{"Sow", "[", "i", "]"}]}], "]"}]}], "\[IndentingNewLine]", 
+         "]"}], "\[IndentingNewLine]", "]"}], "[", 
+       RowBox[{"[", 
+        RowBox[{"2", ",", "1"}], "]"}], "]"}]}], ";", "\[IndentingNewLine]", 
+     RowBox[{"SentenceD", "=", 
+      RowBox[{"Delete", "[", 
+       RowBox[{"Sentence", ",", 
+        RowBox[{"List", "/@", "ChiPosi"}]}], "]"}]}], ";", 
+     "\[IndentingNewLine]", 
+     RowBox[{"PersonD", "=", 
+      RowBox[{"Delete", "[", 
+       RowBox[{"Person", ",", 
+        RowBox[{"List", "/@", "ChiPosi"}]}], "]"}]}], ";", 
+     "\[IndentingNewLine]", 
+     RowBox[{"Utter", "=", 
+      RowBox[{
+       RowBox[{
+        RowBox[{
+         RowBox[{"StringSplit", "[", 
+          RowBox[{"#", ",", "\"\<:\>\""}], "]"}], "[", 
+         RowBox[{"[", "2", "]"}], "]"}], "&"}], "/@", "SentenceD"}]}], ";", 
+     "\[IndentingNewLine]", 
+     RowBox[{"Words", "=", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"StringTrim", "[", 
+         RowBox[{
+          RowBox[{"ToLowerCase", "[", 
+           RowBox[{"StringTrim", "[", 
+            RowBox[{"StringSplit", "[", 
+             RowBox[{"#", ",", "\"\< \>\""}], "]"}], "]"}], "]"}], ",", 
+          RowBox[{
+           RowBox[{"(", 
+            RowBox[{
+            "\"\<,\>\"", "|", "\"\<.\>\"", "|", "\"\<(\>\"", "|", "\"\<)\>\"",
+              "|", "\"\<?\>\"", "|", "\"\<!\>\"", "|", "\"\<\\\"\>\""}], 
+            ")"}], "..."}]}], "]"}], "&"}], "/@", "Utter"}]}], ";", 
+     "\[IndentingNewLine]", 
+     RowBox[{"PoS", "=", 
+      RowBox[{"Map", "[", 
+       RowBox[{"GetMostFrequentPartOfSpeech", ",", "Words", ",", 
+        RowBox[{"{", "2", "}"}]}], "]"}]}], ";", "\[IndentingNewLine]", 
+     RowBox[{"PoSwithSpace", "=", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"Riffle", "[", 
+         RowBox[{"#", ",", "\"\< \>\""}], "]"}], "&"}], "/@", "PoS"}]}], ";", 
+     "\[IndentingNewLine]", 
+     RowBox[{"SentenceN", "=", 
+      RowBox[{"Table", "[", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"PersonD", "[", 
+          RowBox[{"[", "i", "]"}], "]"}], "<>", "\"\<:\\t\>\"", "<>", 
+         RowBox[{"StringJoin", "[", 
+          RowBox[{"PoSwithSpace", "[", 
+           RowBox[{"[", "i", "]"}], "]"}], "]"}]}], ",", 
+        RowBox[{"{", 
+         RowBox[{"i", ",", "1", ",", 
+          RowBox[{"Length", "[", "PoSwithSpace", "]"}]}], "}"}]}], "]"}]}], 
+     ";", "\[IndentingNewLine]", 
+     RowBox[{"DataProcessed", "=", 
+      RowBox[{"StringJoin", "[", 
+       RowBox[{"Riffle", "[", 
+        RowBox[{"SentenceN", ",", "\"\<\\n\>\""}], "]"}], "]"}]}]}]}], 
+   "\[IndentingNewLine]", "]"}]}], "\[IndentingNewLine]"}], "Input",
+ CellChangeTimes->{{3.648873697260844*^9, 3.64887378604807*^9}, {
+   3.649161014707868*^9, 3.649161049289468*^9}, {3.649161535003838*^9, 
+   3.6491615379279003`*^9}, {3.649161672596648*^9, 3.649161672932609*^9}, {
+   3.649162188187662*^9, 3.649162208094112*^9}, {3.64916266133529*^9, 
+   3.649162666915248*^9}, 3.649195399900487*^9, 3.649195458573691*^9, {
+   3.649249686908208*^9, 3.6492496961888123`*^9}, {3.649250901467601*^9, 
+   3.649250905980064*^9}, {3.649299745175077*^9, 3.649299749816627*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{"Data", "\[IndentingNewLine]", 
+ RowBox[{"TransformToPartOfSpeechText", "[", 
+  RowBox[{"Data", ",", "\"\<CHI\>\""}], "]"}], "\[IndentingNewLine]", 
+ RowBox[{"PartOfSpeech", "[", 
+  RowBox[{"Data", ",", "\"\<CHI\>\""}], "]"}]}], "Input",
+ CellChangeTimes->{{3.648873788924932*^9, 3.648873803637269*^9}, {
+  3.649249699890318*^9, 3.649249751789917*^9}, {3.649250928777974*^9, 
+  3.649250931056245*^9}, {3.649300889091783*^9, 3.649300897998478*^9}, {
+  3.6493009716669397`*^9, 3.649300972594152*^9}}],
+
+Cell[BoxData["$Aborted"], "Output",
+ CellChangeTimes->{{3.6491954050636787`*^9, 3.649195432500043*^9}, 
+   3.6491954627466307`*^9, {3.649249633952674*^9, 3.649249651093853*^9}, {
+   3.649249707622367*^9, 3.649249709891378*^9}, 3.649249752623436*^9, {
+   3.649250916536158*^9, 3.649250931920878*^9}, 3.6492510338899612`*^9, 
+   3.6493009746517563`*^9}]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{"PartOfSpeechCustom", "[", 
+    RowBox[{"Txt_", ",", "ChiName_"}], "]"}], ":=", 
+   RowBox[{"Block", "[", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"Dat", "=", "Sentence"}], ",", "Person", ",", "Utter", ",", 
+       "Words", ",", "PoS", ",", "PoSwithSpace", ",", "SentenceN", ",", 
+       "DataProcessed", ",", "PersonList", ",", "SentenceD", ",", "ChiPosi", 
+       ",", "PersonD", ",", "WordList", ",", "FreqCount", ",", "NoW", ",", 
+       "AugFreqCount"}], "}"}], ",", "\[IndentingNewLine]", 
+     RowBox[{
+      RowBox[{"Dat", "=", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"StringSplit", "[", 
+          RowBox[{"Txt", ",", "\"\<@Start\>\""}], "]"}], "[", 
+         RowBox[{"[", "2", "]"}], "]"}], "//", "StringTrim"}]}], ";", 
+      "\[IndentingNewLine]", 
+      RowBox[{"Sentence", "=", 
+       RowBox[{"StringSplit", "[", 
+        RowBox[{"Dat", ",", "\"\<\\n\>\""}], "]"}]}], ";", 
+      "\[IndentingNewLine]", 
+      RowBox[{"Person", "=", 
+       RowBox[{
+        RowBox[{
+         RowBox[{
+          RowBox[{"StringSplit", "[", 
+           RowBox[{"#", ",", "\"\<:\>\""}], "]"}], "[", 
+          RowBox[{"[", "1", "]"}], "]"}], "&"}], "/@", "Sentence"}]}], ";", 
+      "\[IndentingNewLine]", 
+      RowBox[{"PersonList", "=", 
+       RowBox[{"Tally", "[", "Person", "]"}]}], ";", "\[IndentingNewLine]", 
+      RowBox[{"ChiPosi", "=", 
+       RowBox[{
+        RowBox[{"Reap", "[", 
+         RowBox[{"For", "[", 
+          RowBox[{
+           RowBox[{"i", "=", "1"}], ",", 
+           RowBox[{"i", "\[LessEqual]", 
+            RowBox[{"Length", "[", "Person", "]"}]}], ",", 
+           RowBox[{"i", "++"}], ",", "\[IndentingNewLine]", 
+           RowBox[{"If", "[", 
+            RowBox[{
+             RowBox[{
+              RowBox[{"Person", "[", 
+               RowBox[{"[", "i", "]"}], "]"}], "\[Equal]", "ChiName"}], ",", 
+             RowBox[{"Sow", "[", "i", "]"}]}], "]"}]}], "\[IndentingNewLine]",
+           "]"}], "\[IndentingNewLine]", "]"}], "[", 
+        RowBox[{"[", 
+         RowBox[{"2", ",", "1"}], "]"}], "]"}]}], ";", "\[IndentingNewLine]", 
+      
+      RowBox[{"SentenceD", "=", 
+       RowBox[{"Delete", "[", 
+        RowBox[{"Sentence", ",", 
+         RowBox[{"List", "/@", "ChiPosi"}]}], "]"}]}], ";", 
+      "\[IndentingNewLine]", 
+      RowBox[{"PersonD", "=", 
+       RowBox[{"Delete", "[", 
+        RowBox[{"Person", ",", 
+         RowBox[{"List", "/@", "ChiPosi"}]}], "]"}]}], ";", 
+      "\[IndentingNewLine]", 
+      RowBox[{"Utter", "=", 
+       RowBox[{
+        RowBox[{
+         RowBox[{
+          RowBox[{"StringSplit", "[", 
+           RowBox[{"#", ",", "\"\<:\>\""}], "]"}], "[", 
+          RowBox[{"[", "2", "]"}], "]"}], "&"}], "/@", "SentenceD"}]}], ";", 
+      "\[IndentingNewLine]", 
+      RowBox[{"Words", "=", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"StringTrim", "[", 
+          RowBox[{
+           RowBox[{"ToLowerCase", "[", 
+            RowBox[{"StringTrim", "[", 
+             RowBox[{"StringSplit", "[", 
+              RowBox[{"#", ",", "\"\< \>\""}], "]"}], "]"}], "]"}], ",", 
+           RowBox[{
+            RowBox[{"(", 
+             RowBox[{
+             "\"\<,\>\"", "|", "\"\<.\>\"", "|", "\"\<(\>\"", "|", 
+              "\"\<)\>\"", "|", "\"\<?\>\"", "|", "\"\<!\>\"", "|", 
+              "\"\<\\\"\>\""}], ")"}], "..."}]}], "]"}], "&"}], "/@", 
+        "Utter"}]}], ";", "\[IndentingNewLine]", 
+      RowBox[{
+       RowBox[{"FreqList", "[", "Word_", "]"}], ":=", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"(", 
+          RowBox[{
+           RowBox[{"#", "[", 
+            RowBox[{"[", 
+             RowBox[{"1", ",", "2"}], "]"}], "]"}], "\[Rule]", 
+           RowBox[{"#", "[", 
+            RowBox[{"[", "2", "]"}], "]"}]}], ")"}], "&"}], "/@", 
+        RowBox[{"WordData", "[", 
+         RowBox[{"Word", ",", "\"\<ConceptWeight\>\""}], "]"}]}]}], ";", 
+      "\[IndentingNewLine]", 
+      RowBox[{
+       RowBox[{"LexiList", "[", "Word_", "]"}], ":=", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"#", "[", 
+          RowBox[{"[", 
+           RowBox[{"1", ",", "1"}], "]"}], "]"}], "&"}], "/@", 
+        RowBox[{"Gather", "[", 
+         RowBox[{
+          RowBox[{"FreqList", "[", "Word", "]"}], ",", 
+          RowBox[{
+           RowBox[{
+            RowBox[{"#1", "[", 
+             RowBox[{"[", "1", "]"}], "]"}], "===", 
+            RowBox[{"#2", "[", 
+             RowBox[{"[", "1", "]"}], "]"}]}], "&"}]}], "]"}]}]}], ";", 
+      "\[IndentingNewLine]", 
+      RowBox[{
+       RowBox[{"Freq", "[", "Word_", "]"}], ":=", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"Total", "[", 
+          RowBox[{"#", "[", 
+           RowBox[{"[", 
+            RowBox[{";;", ",", "2"}], "]"}], "]"}], "]"}], "&"}], "/@", 
+        RowBox[{"Gather", "[", 
+         RowBox[{
+          RowBox[{"FreqList", "[", "Word", "]"}], ",", 
+          RowBox[{
+           RowBox[{
+            RowBox[{"#1", "[", 
+             RowBox[{"[", "1", "]"}], "]"}], "===", 
+            RowBox[{"#2", "[", 
+             RowBox[{"[", "1", "]"}], "]"}]}], "&"}]}], "]"}]}]}], ";", 
+      "\[IndentingNewLine]", 
+      RowBox[{
+       RowBox[{"GetMostFrequentPartOfSpeech", "[", "Word_", "]"}], ":=", 
+       RowBox[{"Block", "[", 
+        RowBox[{
+         RowBox[{"{", "}"}], ",", "\[IndentingNewLine]", 
+         RowBox[{"If", "[", 
+          RowBox[{
+           RowBox[{
+            RowBox[{"WordData", "[", "Word", "]"}], "\[NotEqual]", 
+            RowBox[{"{", "}"}]}], ",", "\[IndentingNewLine]", 
+           RowBox[{
+            RowBox[{"LexiList", "[", "Word", "]"}], "[", 
+            RowBox[{"[", 
+             RowBox[{
+              RowBox[{"Ordering", "[", 
+               RowBox[{
+                RowBox[{"Freq", "[", "Word", "]"}], ",", 
+                RowBox[{"-", "1"}]}], "]"}], "[", 
+              RowBox[{"[", "1", "]"}], "]"}], "]"}], "]"}], ",", 
+           "\[IndentingNewLine]", "\"\<Unknown\>\""}], "\[IndentingNewLine]", 
+          "]"}]}], "\[IndentingNewLine]", "]"}]}], ";", "\[IndentingNewLine]", 
+      RowBox[{"PoS", "=", 
+       RowBox[{"Map", "[", 
+        RowBox[{"GetMostFrequentPartOfSpeech", ",", "Words", ",", 
+         RowBox[{"{", "2", "}"}]}], "]"}]}], ";", "\[IndentingNewLine]", 
+      RowBox[{"WordList", "=", 
+       RowBox[{"DeleteCases", "[", 
+        RowBox[{
+         RowBox[{"Flatten", "[", "PoS", "]"}], ",", "\"\<Unknown\>\""}], 
+        "]"}]}], ";", "\[IndentingNewLine]", 
+      RowBox[{"FreqCount", "=", 
+       RowBox[{"Tally", "[", "WordList", "]"}]}], ";", "\[IndentingNewLine]", 
+      
+      RowBox[{"NoW", "=", 
+       RowBox[{"Length", "[", "WordList", "]"}]}], ";", "\[IndentingNewLine]", 
+      RowBox[{"AugFreqCount", "=", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"{", 
+          RowBox[{"#1", ",", "#2", ",", 
+           FractionBox["#2", "NoW"]}], "}"}], "&"}], "@@@", 
+        "FreqCount"}]}]}]}], "\[IndentingNewLine]", "]"}]}], 
+  "\[IndentingNewLine]"}]], "Input",
+ CellChangeTimes->{{3.649196585143043*^9, 3.649196598158516*^9}, {
+  3.649249726626795*^9, 3.6492497337357397`*^9}, {3.64925070194596*^9, 
+  3.649250724562048*^9}, {3.6492508528128653`*^9, 3.649250855970666*^9}, {
+  3.6492509922401447`*^9, 3.64925102371912*^9}, {3.685313602087596*^9, 
+  3.6853136027972317`*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"(*", 
+   RowBox[{
+   "Below", " ", "are", " ", "the", " ", "Codes", " ", "of", " ", "each", " ",
+     "section"}], "*)"}], "\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"Sentence", "=", 
+     RowBox[{"StringSplit", "[", 
+      RowBox[{"Data", ",", "\"\<\\n\>\""}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"Person", "=", 
+     RowBox[{
+      RowBox[{
+       RowBox[{
+        RowBox[{"StringSplit", "[", 
+         RowBox[{"#", ",", "\"\<:\>\""}], "]"}], "[", 
+        RowBox[{"[", "1", "]"}], "]"}], "&"}], "/@", "Sentence"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"Utter", "=", 
+     RowBox[{
+      RowBox[{
+       RowBox[{
+        RowBox[{"StringSplit", "[", 
+         RowBox[{"#", ",", "\"\<:\>\""}], "]"}], "[", 
+        RowBox[{"[", "2", "]"}], "]"}], "&"}], "/@", "Sentence"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"Words", "=", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"StringTrim", "[", 
+        RowBox[{
+         RowBox[{"ToLowerCase", "[", 
+          RowBox[{"StringTrim", "[", 
+           RowBox[{"StringSplit", "[", 
+            RowBox[{"#", ",", "\"\< \>\""}], "]"}], "]"}], "]"}], ",", 
+         RowBox[{
+          RowBox[{"(", 
+           RowBox[{
+           "\"\<,\>\"", "|", "\"\<.\>\"", "|", "\"\<(\>\"", "|", "\"\<)\>\"", 
+            "|", "\"\<?\>\"", "|", "\"\<!\>\""}], ")"}], "..."}]}], "]"}], 
+       "&"}], "/@", "Utter"}]}], ";", 
+    RowBox[{
+     RowBox[{"GetFrequentLexi", "[", "word_", "]"}], ":=", 
+     RowBox[{"Block", "[", 
+      RowBox[{
+       RowBox[{"{", "}"}], ",", "\[IndentingNewLine]", 
+       RowBox[{"Ordering", "[", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"WordData", "[", "word", "]"}], "/.", 
+          RowBox[{"WordData", "[", 
+           RowBox[{"word", ",", "\"\<ConceptWeight\>\""}], "]"}]}], ",", 
+         RowBox[{"-", "1"}]}], "]"}]}], "\[IndentingNewLine]", "]"}]}]}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"FreqList", "[", "Word_", "]"}], ":=", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"(", 
+       RowBox[{
+        RowBox[{"#", "[", 
+         RowBox[{"[", 
+          RowBox[{"1", ",", "2"}], "]"}], "]"}], "\[Rule]", 
+        RowBox[{"#", "[", 
+         RowBox[{"[", "2", "]"}], "]"}]}], ")"}], "&"}], "/@", 
+     RowBox[{"WordData", "[", 
+      RowBox[{"Word", ",", "\"\<ConceptWeight\>\""}], "]"}]}]}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"LexiList", "[", "Word_", "]"}], ":=", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"#", "[", 
+       RowBox[{"[", 
+        RowBox[{"1", ",", "1"}], "]"}], "]"}], "&"}], "/@", 
+     RowBox[{"Gather", "[", 
+      RowBox[{
+       RowBox[{"FreqList", "[", "Word", "]"}], ",", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"#1", "[", 
+          RowBox[{"[", "1", "]"}], "]"}], "===", 
+         RowBox[{"#2", "[", 
+          RowBox[{"[", "1", "]"}], "]"}]}], "&"}]}], "]"}]}]}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"Freq", "[", "Word_", "]"}], ":=", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"Total", "[", 
+       RowBox[{"#", "[", 
+        RowBox[{"[", 
+         RowBox[{";;", ",", "2"}], "]"}], "]"}], "]"}], "&"}], "/@", 
+     RowBox[{"Gather", "[", 
+      RowBox[{
+       RowBox[{"FreqList", "[", "Word", "]"}], ",", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"#1", "[", 
+          RowBox[{"[", "1", "]"}], "]"}], "===", 
+         RowBox[{"#2", "[", 
+          RowBox[{"[", "1", "]"}], "]"}]}], "&"}]}], "]"}]}]}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"GetMostFrequentPartOfSpeech", "[", "Word_", "]"}], ":=", 
+    RowBox[{"Block", "[", 
+     RowBox[{
+      RowBox[{"{", "}"}], ",", "\[IndentingNewLine]", 
+      RowBox[{"If", "[", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"WordData", "[", "Word", "]"}], "\[NotEqual]", 
+         RowBox[{"{", "}"}]}], ",", "\[IndentingNewLine]", 
+        RowBox[{
+         RowBox[{"LexiList", "[", "Word", "]"}], "[", 
+         RowBox[{"[", 
+          RowBox[{
+           RowBox[{"Ordering", "[", 
+            RowBox[{
+             RowBox[{"Freq", "[", "Word", "]"}], ",", 
+             RowBox[{"-", "1"}]}], "]"}], "[", 
+           RowBox[{"[", "1", "]"}], "]"}], "]"}], "]"}], ",", 
+        "\[IndentingNewLine]", "\"\<Unknown\>\""}], "\[IndentingNewLine]", 
+       "]"}]}], "\[IndentingNewLine]", "]"}]}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"PoS", "=", 
+     RowBox[{"Map", "[", 
+      RowBox[{"GetMostFrequentPartOfSpeech", ",", "Words", ",", 
+       RowBox[{"{", "2", "}"}]}], "]"}]}], ";"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"PoSwithSpace", "=", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"Riffle", "[", 
+        RowBox[{"#", ",", "\"\< \>\""}], "]"}], "&"}], "/@", "PoS"}]}], ";"}],
+    "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"SentenceN", "=", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"Person", "[", 
+         RowBox[{"[", "i", "]"}], "]"}], "<>", "\"\<:\\t\>\"", "<>", 
+        RowBox[{"StringJoin", "[", 
+         RowBox[{"PoSwithSpace", "[", 
+          RowBox[{"[", "i", "]"}], "]"}], "]"}]}], ",", 
+       RowBox[{"{", 
+        RowBox[{"i", ",", "1", ",", 
+         RowBox[{"Length", "[", "PoSwithSpace", "]"}]}], "}"}]}], "]"}]}], 
+    ";"}], "\[IndentingNewLine]", 
+   RowBox[{"DataProcessed", "=", 
+    RowBox[{"StringJoin", "[", 
+     RowBox[{"Riffle", "[", 
+      RowBox[{"SentenceN", ",", "\"\<\\n\>\""}], "]"}], "]"}]}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"WordList", "=", 
+     RowBox[{"DeleteCases", "[", 
+      RowBox[{
+       RowBox[{"Flatten", "[", "PoS", "]"}], ",", "\"\<Unknown\>\""}], 
+      "]"}]}], ";"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"FreqCount", "=", 
+     RowBox[{"Tally", "[", "WordList", "]"}]}], ";"}], "\[IndentingNewLine]", 
+   
+   RowBox[{
+    RowBox[{"NoW", "=", 
+     RowBox[{"Length", "[", "WordList", "]"}]}], ";"}], "\[IndentingNewLine]", 
+   RowBox[{"AugFreqCount", "=", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"#1", ",", "#2", ",", 
+        FractionBox["#2", "NoW"]}], "}"}], "&"}], "@@@", 
+     "FreqCount"}]}]}]}]], "Input",
+ CellChangeTimes->{{3.648871196104569*^9, 3.648871247002738*^9}, {
+   3.6488712812818613`*^9, 3.648871298288261*^9}, {3.648871377304347*^9, 
+   3.648871377590173*^9}, {3.6488714077730007`*^9, 3.648871418514512*^9}, {
+   3.648871456234992*^9, 3.648871480904106*^9}, {3.648871534870934*^9, 
+   3.64887155960592*^9}, {3.648872116450878*^9, 3.648872131233185*^9}, 
+   3.6488722185592127`*^9, {3.6488723243253317`*^9, 3.648872331712573*^9}, {
+   3.648872371111965*^9, 3.6488724191551723`*^9}, {3.648872479235462*^9, 
+   3.648872497945788*^9}, {3.6488725645616693`*^9, 3.648872575007936*^9}, {
+   3.648873189932132*^9, 3.6488732487902527`*^9}, {3.6492498059729443`*^9, 
+   3.649249848821618*^9}, 3.649250696553914*^9}],
+
+Cell[BoxData["\<\"MOT:\\tNoun Verb Adverb\\nMOT:\\tAdjective Noun Unknown \
+Verb Determiner Noun Adverb Unknown Verb Unknown Pronoun Verb Interjection \
+Unknown\\nMOT:\\tPronoun Verb Pronoun Pronoun Noun Adjective Adjective \
+Determiner Noun Unknown Adjective Adverb Interjection Adverb Noun Determiner \
+Noun Adjective Adjective Verb Pronoun Verb Determiner \
+Unknown\\nMOT:\\tPronoun Verb Adjective Adjective Noun Interjection Verb \
+Determiner Adjective Unknown Adjective Adjective Adjective Adjective \
+Adjective Adjective Noun Noun Preposition Determiner Interjection Verb\\nMOT:\
+\\tInterjection Pronoun Verb Determiner Noun Noun Preposition Adverb Adverb \
+Pronoun Verb Adjective Determiner Noun Adverb Unknown Conjunction Noun \
+Conjunction Pronoun Noun Preposition \
+Noun\\nCHI:\\tUnknown\\nMOT:\\tConjunction Adverb Determiner Noun Verb\\nCHI:\
+\\tUnknown Interjection Verb\\nMOT:\\tAdjective Adverb Determiner Unknown \
+Conjunction Interjection Noun Pronoun Unknown Verb Adjective Noun Pronoun \
+Verb Unknown\\nCHI:\\tUnknown\\nMOT:\\tAdverb Interjection Determiner Noun \
+Verb Adverb Conjunction Determiner Noun Verb Determiner Verb Unknown \
+Conjunction Adverb Interjection Verb Determiner Noun\\nCHI:\\tUnknown Unknown\
+\\nMOT:\\tVerb Preposition Determiner \
+Noun\\nCHI:\\tUnknown\\nMOT:\\tConjunction Determiner Noun Verb \
+Pronoun\\nCHI:\\tUnknown Unknown Unknown Unknown Unknown Unknown Interjection \
+Interjection\\nMOT:\\tUnknown Pronoun Verb Interjection Unknown Unknown \
+Pronoun Verb Determiner Noun\\nCHI:\\tUnknown Unknown \
+Unknown\\nMOT:\\tConjunction Determiner Unknown Unknown Pronoun Verb \
+Determiner Adverb Adjective Adjective Adjective Adjective Adjective Adjective \
+Noun Noun Unknown Conjunction Interjection Verb \
+Adjective\\nMOT:\\tConjunction Adverb Pronoun Verb Preposition Determiner \
+Verb Conjunction Noun Unknown Determiner Noun Unknown Pronoun Verb \
+Interjection Unknown Conjunction Adverb Adverb Verb Determiner Noun Adverb \
+Determiner Noun Interjection Verb Determiner Noun Verb Determiner Noun Verb \
+Noun Determiner Noun\\nMOT:\\tConjunction Adverb Unknown Adjective Determiner \
+Noun\\nCHI:\\tUnknown\\nMOT:\\tUnknown Determiner Noun Noun Conjunction \
+Determiner Noun Adverb Unknown Pronoun Verb Interjection \
+Unknown\\nCHI:\\tUnknown Unknown\\nMOT:\\tVerb Pronoun Verb Interjection \
+Unknown\\nCHI:\\tUnknown\\nMOT:\\tAdverb Pronoun \
+Unknown\\nCHI:\\tUnknown\\nMOT:\\tPronoun Unknown Noun Pronoun \
+Adjective\\nCHI:\\tUnknown Interjection\\nMOT:\\tVerb Unknown Determiner \
+Unknown Adverb Adjective Adjective Adjective Adjective Unknown \
+Noun\\nCHI:\\tUnknown Unknown Unknown Unknown Unknown\\nMOT:\\tAdverb \
+Adjective Unknown Verb Interjection Verb Adjective\\nMOT:\\tConjunction \
+Adverb Unknown Verb Adjective Noun Adjective Determiner Noun Verb Determiner \
+Verb Determiner Verb Conjunction Unknown Verb Conjunction Adverb Determiner \
+Noun Determiner Noun Adverb Conjunction Determiner Unknown \
+Interjection\\nMOT:\\tConjunction Adverb Determiner Noun Adverb Noun Unknown \
+Pronoun Verb Unknown\\nCHI:\\tUnknown\\nMOT:\\tUnknown Adjective \
+Adjective\\nMOT:\\tConjunction Interjection Verb Adverb Unknown Adjective \
+Adverb Preposition Determiner Noun Conjunction Adverb Pronoun Verb Verb \
+Adjective Noun Conjunction Adjective Adjective Unknown Verb Unknown Noun \
+Conjunction Noun Adverb Verb\\nCHI:\\tUnknown Unknown \
+Unknown\\nMOT:\\tUnknown Pronoun Verb Interjection Unknown\\nCHI:\\tUnknown \
+Unknown Unknown\\nMOT:\\tConjunction Adverb Unknown Conjunction Adverb\\nCHI:\
+\\tUnknown Unknown Unknown Unknown\\nMOT:\\tPronoun Verb Adverb Determiner \
+Noun Verb Noun Verb Conjunction Adverb Noun Adverb Verb Conjunction Adverb \
+Interjection Pronoun Noun Pronoun Noun\\nMOT:\\tInterjection Adverb Unknown \
+Noun Noun Pronoun Noun Noun Adverb Pronoun Noun Pronoun Interjection Noun \
+Pronoun Verb Pronoun Verb Unknown Noun Noun\\nCHI:\\tUnknown Interjection \
+Interjection Interjection\\nMOT:\\tUnknown Pronoun Verb Preposition Verb \
+Adverb Pronoun Verb Preposition Verb Adverb Adverb Unknown Determiner \
+Noun\"\>"], "Output",
+ CellChangeTimes->{{3.649249824560746*^9, 3.649249849101482*^9}, 
+   3.685313634216614*^9, 3.685313999931635*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Set","wrsym",
+   "\"Symbol \\!\\(\\*RowBox[{\\\"WordList\\\"}]\\) is Protected.\"",2,106,66,
+   25992430295080206603,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.685313634224745*^9, 3.685313999944057*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Tally","list",
+   "\"List expected at position \\!\\(\\*RowBox[{\\\"1\\\"}]\\) in \
+\\!\\(\\*RowBox[{\\\"Tally\\\", \\\"[\\\", \\\"WordList\\\", \
+\\\"]\\\"}]\\).\"",2,107,67,25992430295080206603,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.685313634224745*^9, 3.685313999961153*^9}],
+
+Cell[BoxData[
+ RowBox[{"Tally", "[", "WordList", "]"}]], "Output",
+ CellChangeTimes->{{3.649249824560746*^9, 3.649249849101482*^9}, 
+   3.685313634216614*^9, 3.685313999974936*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"Data", "=", 
+   RowBox[{"Import", "[", 
+    RowBox[{"SystemDialogInput", "[", "\"\<FileOpen\>\"", "]"}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{"PoS", "=", 
+  RowBox[{"PartOfSpeech", "[", 
+   RowBox[{"Data", ",", "\"\<CHI\>\""}], "]"}]}], "\[IndentingNewLine]", 
+ RowBox[{"ExcelOut", "=", 
+  RowBox[{"Prepend", "[", 
+   RowBox[{"PoS", ",", "FileNames"}], "]"}]}]}], "Input",
+ CellChangeTimes->{{3.649250226296665*^9, 3.649250229436672*^9}, {
+   3.649250315364862*^9, 3.649250321439618*^9}, {3.6492504665912*^9, 
+   3.649250502060013*^9}, {3.6492505565883217`*^9, 3.649250565747394*^9}, {
+   3.649250619098925*^9, 3.649250621259709*^9}, {3.649251105210573*^9, 
+   3.64925113283739*^9}, 3.6853140214344873`*^9}],
+
+Cell[BoxData["\<\"@Unicode\\n@Begin\\n@Languages: eng\\n@Participants:\\tMOT \
+Target_Mother  CHI \
+Child\\n@ID:\\teng|Lara|MOT|3;0011||||Target_Mother|||\\n@ID:\\teng|Lara|CHI||\
+|||Child|||\\n@Date:\\tUNKNOWN\\n@Location:\\t\\n@Comment:\\tFiltra\\nename: \
+VS004_Narration Transcript_Dilu.txt\\n@Comment:\\ttime duration \
+\\n@Comment:\\ttranscribed by Dilu (collated by \
+Junyi)\\n@Situation:\\t\\n@Start\\nMOT:\\tlook grace \\nMOT:\\tthere are so \
+many ducklings here \\nMOT:\\tearly one morning one little duckling ran away \
+chasing a butterfly \\nMOT:\\tand mommy duckling came over to have a look \
+\\nMOT:\\tand try to uh uh figure out where is the other duckling go to \
+\\nMOT:\\tlook the other duckling actually ran away chasing the butterfly \
+\\nMOT:\\tand the mommy duckling\\nCHI:\\t\\t(vocalises)\\nMOT:\\tuh is \
+asking where are the rest \\nMOT:\\twhere are the other small duckling \
+\\nMOT:\\tand then the baby ducklings told the mommy \\nMOT:\\tuh the other \
+duckling actually ran away to chase the butterfly \\nMOT:\\tand all of them \
+go over uh to find the little duckling \\nMOT:\\tthat ran away with the \
+butterfly \\nMOT:\\tum they are behind um the lost duckling actually behind \
+the grass \\nMOT:\\tcan you see that hah \\nMOT:\\tand then the mommy \
+duckling um go and ask the bird \\nMOT:\\thave you seen my little duckling \
+\\nMOT:\\tand uh you can see that the bird say  \\nMOT:\\ti dont know but you \
+can see over here \\nMOT:\\tthe little duckling is actually hiding behind a \
+lotus \\nMOT:\\tbut mummy duckling \\nCHI:\\t\\t(vocalises)\\nMOT:\\tand the \
+rest of the baby ducklings didnt know that \\nMOT:\\tand keep trying to \
+search for the rest uh \\nMOT:\\tthe lost duckling and then the mommy \
+duckling go and ask a turtle \\nMOT:\\thave you seen my little duckling \
+\\nMOT:\\tand the turtle say i do not know i havent seen any \\nMOT:\\tand we \
+can see actually mummy duckling didnt realize that \\nMOT:\\tthe lost \
+duckling is actually behind the flowers with a butterfly yeah \\nMOT:\\tand \
+whats this animal called\\nFAT:\\tbeaver\\nMOT:\\tbeaver yeah and mummy \
+duckling go over to ask the beaver \\nMOT:\\thave you seen my little duckling \
+\\nMOT:\\tand the beaver said i dont know and \\nMOT:\\tlook actually the \
+little lost duckling is behind the frog \\nMOT:\\thowever the mummy duckling \
+still doesnt know that \\nMOT:\\tand uh the mummy duckling go under the water \
+to ask all the underwater creature \\nMOT:\\twhere is my little duckling \
+\\nMOT:\\thave you seen my little duckling \\nMOT:\\tand they say no i dont \
+know i havent seen any and \\nMOT:\\tlook look its actually behind the grass \
+\\nCHI:\\t\\t(vocalises)\\nMOT:\\tbehind the grass but mummy duckling doesnt \
+know that yeah \\nMOT:\\tand mummy duckling continue to search uh \
+\\nMOT:\\tfor the lost duckling and mummy duckling met this \\nMOT:\\tthis \
+animal\\nCHI:\\t\\t(fussing)\\nMOT:\\tthis \
+mandarin\\nFAT:\\tduck\\nMOT:\\tmandarin\\nFAT:\\ti dont know\\nMOT:\\tthis \
+another i dont know duck\\nFAT:\\tbird\\nMOT:\\tanother bird um and have  \
+\\nMOT:\\tthe mummy duckling asks \\nMOT:\\thave you seen my little duckling \
+\\nMOT:\\tand they say i dont know \
+however\\nCHI:\\t\\t(fussing)\\nMOT:\\tlook look its actually behind a \
+pole\\nCHI:\\t\\t(fussing begins to cry)\\nMOT:\\twait wait wait ah look look \
+look with a butterfly \\nMOT:\\tand um mummy duckling still searching \\nMOT:\
+\\tand finally mummy duckling found the little lost duckling \\nMOT:\\tits \
+actually together with a turtle ah ah\\nCHI:\\t\\tfussing\\nMOT:\\tand look \
+look and mummy duckling finally feels so happy \\nMOT:\\tand uh theyre all \
+going home with the all baby \\nMOT:\\twith the little duckling and uh to \
+find the nest look \\nCHI:\\t\\t(vocalises)\\nMOT:\\ttheyre all going cosy \
+together and happy uh sleeping together thank you\\n\"\>"], "Output",
+ CellChangeTimes->{3.649250126006844*^9, 3.649250606196019*^9, 
+  3.64925079700105*^9, 3.649250867407854*^9, 3.6492510830169764`*^9}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"\<\"Verb\"\>", ",", "105", ",", 
+     FractionBox["35", "151"]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"\<\"Noun\"\>", ",", "93", ",", 
+     FractionBox["31", "151"]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"\<\"Adverb\"\>", ",", "47", ",", 
+     FractionBox["47", "453"]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"\<\"Determiner\"\>", ",", "71", ",", 
+     FractionBox["71", "453"]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"\<\"Adjective\"\>", ",", "50", ",", 
+     FractionBox["50", "453"]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"\<\"Conjunction\"\>", ",", "37", ",", 
+     FractionBox["37", "453"]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"\<\"Preposition\"\>", ",", "18", ",", 
+     FractionBox["6", "151"]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"\<\"Pronoun\"\>", ",", "17", ",", 
+     FractionBox["17", "453"]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"\<\"Interjection\"\>", ",", "15", ",", 
+     FractionBox["5", "151"]}], "}"}]}], "}"}]], "Output",
+ CellChangeTimes->{3.649250126006844*^9, 3.649250606196019*^9, 
+  3.64925079700105*^9, 3.649250867407854*^9, 3.6492510832436047`*^9}]
+}, Open  ]]
+},
+WindowSize->{808, 677},
+WindowMargins->{{Automatic, 73}, {21, Automatic}},
+FrontEndVersion->"11.0 for Mac OS X x86 (32-bit, 64-bit Kernel) (July 28, \
+2016)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 3356, 48, 810, "Input"],
+Cell[3917, 70, 578, 11, 285, "Input"],
+Cell[4498, 83, 7309, 194, 705, "Input"],
+Cell[CellGroupData[{
+Cell[11832, 281, 512, 8, 75, "Input"],
+Cell[12347, 291, 351, 5, 32, "Output"]
+}, Open  ]],
+Cell[12713, 299, 7309, 185, 758, "Input"],
+Cell[CellGroupData[{
+Cell[20047, 488, 6869, 189, 617, "Input"],
+Cell[26919, 679, 4209, 59, 1482, "Output"],
+Cell[31131, 740, 263, 6, 24, "Message"],
+Cell[31397, 748, 342, 7, 24, "Message"],
+Cell[31742, 757, 180, 3, 32, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[31959, 765, 758, 16, 75, "Input"],
+Cell[32720, 783, 4029, 54, 1839, "Output"],
+Cell[36752, 839, 1196, 31, 127, "Output"]
+}, Open  ]]
+}
+]
+*)
+

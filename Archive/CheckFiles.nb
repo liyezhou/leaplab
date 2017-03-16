@@ -1,0 +1,419 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 10.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     15894,        410]
+NotebookOptionsPosition[     14782,        366]
+NotebookOutlinePosition[     15139,        382]
+CellTagsIndexPosition[     15096,        379]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{"SetCurrentNoteBookAsDirectory", "[", "]"}]], "Input",
+ CellChangeTimes->{{3.657254690378373*^9, 3.6572546919359922`*^9}}],
+
+Cell[BoxData["\<\"/Users/liyezhou/Google Drive/Mac Sync/NRP/Source \
+Files/\"\>"], "Output",
+ CellChangeTimes->{3.65725469214536*^9, 3.657257493258363*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData["\"\</Users/liyezhou/Google Drive/Mac \
+Sync/NRP/Data/Workplace/Transcripts\>\""], "Input",
+ CellChangeTimes->{{3.658459462607842*^9, 3.658459462608863*^9}}],
+
+Cell[BoxData["\<\"/Users/liyezhou/Google Drive/Mac \
+Sync/NRP/Data/Workplace/Transcripts\"\>"], "Output",
+ CellChangeTimes->{3.6584594711579*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"(*", "Yezhou", "*)"}], "\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{"FileNum", "=", 
+    RowBox[{"{", "1", "}"}]}], "\[IndentingNewLine]", 
+   RowBox[{"For", "[", 
+    RowBox[{
+     RowBox[{"n", "=", "1"}], ",", 
+     RowBox[{"n", "\[LessEqual]", 
+      RowBox[{"Length", "[", "FileNum", "]"}]}], ",", 
+     RowBox[{"n", "++"}], ",", "\[IndentingNewLine]", 
+     RowBox[{
+      RowBox[{"FileName", "=", 
+       RowBox[{
+       "\"\</Users/liyezhou/Google Drive/Mac \
+Sync/NRP/Data/Workplace/Transcripts/VS0\>\"", "<>", 
+        RowBox[{"ToString", "[", 
+         RowBox[{"FileNum", "[", 
+          RowBox[{"[", "n", "]"}], "]"}], "]"}], "<>", 
+        "\"\<_Narration Transcript_Yezhou\>\""}]}], ";", 
+      "\[IndentingNewLine]", 
+      RowBox[{"OutName", "=", 
+       RowBox[{
+       "\"\</Users/liyezhou/Google Drive/Mac \
+Sync/NRP/Data/Workplace/Transcripts_t/VS0\>\"", "<>", 
+        RowBox[{"ToString", "[", 
+         RowBox[{"FileNum", "[", 
+          RowBox[{"[", "n", "]"}], "]"}], "]"}], "<>", 
+        "\"\<_Narration Transcript_Yezhou\>\""}]}], ";", 
+      "\[IndentingNewLine]", 
+      RowBox[{"Txt", "=", 
+       RowBox[{"Import", "[", 
+        RowBox[{"FileName", "<>", "\"\<.txt\>\""}], "]"}]}], ";", 
+      "\[IndentingNewLine]", 
+      RowBox[{"Lines", "=", 
+       RowBox[{"StringSplit", "[", 
+        RowBox[{"Txt", ",", "\"\<\\n\>\""}], "]"}]}], ";", 
+      "\[IndentingNewLine]", 
+      RowBox[{"TLines", "=", 
+       RowBox[{"StringReplace", "[", 
+        RowBox[{"Lines", ",", 
+         RowBox[{"{", 
+          RowBox[{
+           RowBox[{"\"\<T\\t\>\"", "\[Rule]", "\"\<T: \>\""}], ",", 
+           RowBox[{"\"\<T:\\t\>\"", "\[Rule]", "\"\<T: \>\""}], ",", 
+           RowBox[{"\"\<I\\t\>\"", "\[Rule]", "\"\<I: \>\""}], ",", 
+           RowBox[{"\"\<I:\\t\>\"", "\[Rule]", "\"\<I: \>\""}], ",", 
+           RowBox[{"\"\< s \>\"", "\[Rule]", "\"\<'s \>\""}], ",", 
+           RowBox[{"\"\< t \>\"", "\[Rule]", "\"\<'t \>\""}], ",", 
+           RowBox[{
+           "\"\<1 2 3 4 5 6\>\"", "\[Rule]", 
+            "\"\<one two three four five six\>\""}], ",", 
+           RowBox[{"\"\<7 8\>\"", "\[Rule]", "\"\<seven eight\>\""}], ",", 
+           RowBox[{"\"\< 7\>\"", "\[Rule]", "\"\< seven\>\""}]}], "}"}]}], 
+        "]"}]}], ";", "\[IndentingNewLine]", 
+      RowBox[{"Export", "[", 
+       RowBox[{
+        RowBox[{"OutName", "<>", "\"\<.txt\>\""}], ",", "TLines"}], "]"}]}]}],
+     "\[IndentingNewLine]", "]"}]}]}]], "Input",
+ CellChangeTimes->{{3.657251244673006*^9, 3.6572512460561047`*^9}, {
+   3.6572512806075497`*^9, 3.657251319444076*^9}, {3.6572540513932734`*^9, 
+   3.6572540541848383`*^9}, {3.65725416610705*^9, 3.657254304824896*^9}, {
+   3.657254345958102*^9, 3.657254349861521*^9}, {3.657254383179702*^9, 
+   3.6572543843953753`*^9}, {3.657254422746533*^9, 3.6572545138189507`*^9}, {
+   3.657254559897184*^9, 3.6572546643044577`*^9}, {3.657254696358367*^9, 
+   3.657254796552368*^9}, 3.6572548577402363`*^9, {3.657254914776969*^9, 
+   3.657254915744935*^9}, {3.657255848610998*^9, 3.6572558689450912`*^9}, {
+   3.657255952386244*^9, 3.657255958209322*^9}, {3.657257510213079*^9, 
+   3.657257514739414*^9}, {3.657258022962987*^9, 3.65725802540526*^9}, {
+   3.6572580748571053`*^9, 3.657258097496633*^9}, {3.6572588899176826`*^9, 
+   3.657258899178916*^9}, {3.6575122273290167`*^9, 3.657512262333297*^9}, {
+   3.658459478426298*^9, 3.65845949278069*^9}, {3.658459526326467*^9, 
+   3.658459534726315*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+  "12", ",", "13", ",", "14", ",", "16", ",", "20", ",", "21", ",", "22", ",",
+    "23"}], "}"}]], "Output",
+ CellChangeTimes->{{3.657254283807494*^9, 3.657254305300151*^9}, 
+   3.65725435279198*^9, 3.657254384667568*^9, {3.657254611529846*^9, 
+   3.6572546513006573`*^9}, 3.657254708176929*^9, {3.657254781768635*^9, 
+   3.657254796822854*^9}, 3.657255869623762*^9, {3.657255959638658*^9, 
+   3.657255964379406*^9}, 3.657258028222412*^9, 3.657258900447981*^9, 
+   3.657512265543866*^9}]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{"SystemOpen", "[", "\"\<a.txt\>\"", "]"}]], "Input",
+ NumberMarks->False],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"(*", "Sherry", "*)"}], "\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{"FileNum", "=", 
+    RowBox[{"{", 
+     RowBox[{
+     "26", ",", "33", ",", "34", ",", "35", ",", "36", ",", "37", ",", 
+      "24025"}], "}"}]}], "\[IndentingNewLine]", 
+   RowBox[{"For", "[", 
+    RowBox[{
+     RowBox[{"n", "=", "1"}], ",", 
+     RowBox[{"n", "\[LessEqual]", 
+      RowBox[{"Length", "[", "FileNum", "]"}]}], ",", 
+     RowBox[{"n", "++"}], ",", "\[IndentingNewLine]", 
+     RowBox[{
+      RowBox[{"FileName", "=", 
+       RowBox[{"\"\</Users/liyezhou/Downloads/Transcripts/VS0\>\"", "<>", 
+        RowBox[{"ToString", "[", 
+         RowBox[{"FileNum", "[", 
+          RowBox[{"[", "n", "]"}], "]"}], "]"}], "<>", 
+        "\"\<_Narration Transcript_Sherry\>\""}]}], ";", 
+      "\[IndentingNewLine]", 
+      RowBox[{"Txt", "=", 
+       RowBox[{"Import", "[", 
+        RowBox[{"FileName", "<>", "\"\<.txt\>\""}], "]"}]}], ";", 
+      "\[IndentingNewLine]", 
+      RowBox[{"Lines", "=", 
+       RowBox[{"StringSplit", "[", 
+        RowBox[{"Txt", ",", "\"\<\\n\>\""}], "]"}]}], ";", 
+      "\[IndentingNewLine]", 
+      RowBox[{"TLines", "=", 
+       RowBox[{"StringReplace", "[", 
+        RowBox[{"Lines", ",", 
+         RowBox[{"{", 
+          RowBox[{
+           RowBox[{"\"\<T\\t\>\"", "\[Rule]", "\"\<T: \>\""}], ",", 
+           RowBox[{"\"\<T:\\t\>\"", "\[Rule]", "\"\<T: \>\""}], ",", 
+           RowBox[{"\"\<I\\t\>\"", "\[Rule]", "\"\<I: \>\""}], ",", 
+           RowBox[{"\"\<I:\\t\>\"", "\[Rule]", "\"\<I: \>\""}], ",", 
+           RowBox[{"\"\< s \>\"", "\[Rule]", "\"\<'s \>\""}], ",", 
+           RowBox[{"\"\< t \>\"", "\[Rule]", "\"\<'t \>\""}], ",", 
+           RowBox[{
+           "\"\<1 2 3 4 5 6\>\"", "\[Rule]", 
+            "\"\<one two three four five six\>\""}], ",", 
+           RowBox[{"\"\<7 8\>\"", "\[Rule]", "\"\<seven eight\>\""}], ",", 
+           RowBox[{"\"\< 7\>\"", "\[Rule]", "\"\< seven\>\""}]}], "}"}]}], 
+        "]"}]}], ";", "\[IndentingNewLine]", 
+      RowBox[{"Export", "[", 
+       RowBox[{
+        RowBox[{"FileName", "<>", "\"\<_t\>\"", "<>", "\"\<.txt\>\""}], ",", 
+        "TLines"}], "]"}]}]}], "\[IndentingNewLine]", "]"}]}]}]], "Input",
+ CellChangeTimes->{{3.657257519475576*^9, 3.657257529019022*^9}, {
+   3.657257621259325*^9, 3.6572576406734037`*^9}, {3.657257671720532*^9, 
+   3.6572577113799686`*^9}, {3.6572577588163147`*^9, 
+   3.6572578457231407`*^9}, {3.657258152001708*^9, 3.657258245121625*^9}, {
+   3.657258419192378*^9, 3.6572584520461063`*^9}, 3.6575122232117167`*^9}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+  "26", ",", "33", ",", "34", ",", "35", ",", "36", ",", "37", ",", "24025"}],
+   "}"}]], "Output",
+ CellChangeTimes->{{3.657257772103537*^9, 3.657257846098133*^9}, {
+   3.657258102318486*^9, 3.657258113600458*^9}, {3.657258175270276*^9, 
+   3.657258245513624*^9}, 3.6572583978533907`*^9, {3.657258430806192*^9, 
+   3.657258452392685*^9}, 3.65725890436655*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"(*", "Dilu", "*)"}], "\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{"FileNum", "=", 
+    RowBox[{"{", 
+     RowBox[{"1", ",", "3", ",", "4", ",", "7", ",", "9"}], "}"}]}], 
+   "\[IndentingNewLine]", 
+   RowBox[{"For", "[", 
+    RowBox[{
+     RowBox[{"n", "=", "1"}], ",", 
+     RowBox[{"n", "\[LessEqual]", 
+      RowBox[{"Length", "[", "FileNum", "]"}]}], ",", 
+     RowBox[{"n", "++"}], ",", "\[IndentingNewLine]", 
+     RowBox[{
+      RowBox[{"FileName", "=", 
+       RowBox[{
+       "\"\</Users/liyezhou/Google Drive/Mac \
+Sync/NRP/Data/Transcript/VS00\>\"", "<>", 
+        RowBox[{"ToString", "[", 
+         RowBox[{"FileNum", "[", 
+          RowBox[{"[", "n", "]"}], "]"}], "]"}], "<>", "\"\<\>\""}]}], ";", 
+      "\[IndentingNewLine]", 
+      RowBox[{"Txt", "=", 
+       RowBox[{"Import", "[", 
+        RowBox[{"FileName", "<>", "\"\<.txt\>\""}], "]"}]}], ";", 
+      "\[IndentingNewLine]", 
+      RowBox[{"Lines", "=", 
+       RowBox[{"StringSplit", "[", 
+        RowBox[{"Txt", ",", "\"\<\\n\>\""}], "]"}]}], ";", 
+      "\[IndentingNewLine]", 
+      RowBox[{"TLines", "=", 
+       RowBox[{"StringReplace", "[", 
+        RowBox[{"Lines", ",", 
+         RowBox[{"{", 
+          RowBox[{
+           RowBox[{"\"\<T\\t\>\"", "\[Rule]", "\"\<T: \>\""}], ",", 
+           RowBox[{"\"\<T:\\t\>\"", "\[Rule]", "\"\<T: \>\""}], ",", 
+           RowBox[{"\"\<I\\t\>\"", "\[Rule]", "\"\<I: \>\""}], ",", 
+           RowBox[{"\"\<I:\\t\>\"", "\[Rule]", "\"\<I: \>\""}], ",", 
+           RowBox[{"\"\< s \>\"", "\[Rule]", "\"\<'s \>\""}], ",", 
+           RowBox[{"\"\< t \>\"", "\[Rule]", "\"\<'t \>\""}], ",", 
+           RowBox[{
+           "\"\<1 2 3 4 5 6\>\"", "\[Rule]", 
+            "\"\<one two three four five six\>\""}], ",", 
+           RowBox[{"\"\<7 8\>\"", "\[Rule]", "\"\<seven eight\>\""}], ",", 
+           RowBox[{"\"\< 7\>\"", "\[Rule]", "\"\< seven\>\""}]}], "}"}]}], 
+        "]"}]}], ";", "\[IndentingNewLine]", 
+      RowBox[{"Export", "[", 
+       RowBox[{
+        RowBox[{"FileName", "<>", "\"\<_t\>\"", "<>", "\"\<.txt\>\""}], ",", 
+        "TLines"}], "]"}]}]}], "\[IndentingNewLine]", "]"}]}]}]], "Input",
+ CellChangeTimes->{{3.657257519475576*^9, 3.657257529019022*^9}, {
+  3.657257621259325*^9, 3.6572576406734037`*^9}, {3.657257671720532*^9, 
+  3.6572577113799686`*^9}, {3.6572577588163147`*^9, 3.6572578457231407`*^9}, {
+  3.657258152001708*^9, 3.657258245121625*^9}, {3.657258419192378*^9, 
+  3.6572584520461063`*^9}, {3.65725879890854*^9, 3.6572588052019444`*^9}, {
+  3.6572588517751093`*^9, 3.657258873724888*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"1", ",", "3", ",", "4", ",", "7", ",", "9"}], "}"}]], "Output",
+ CellChangeTimes->{3.65725887519627*^9, 3.657258906713953*^9}]
+}, Open  ]],
+
+Cell[BoxData["\"\</Users/liyezhou/Google Drive/Mac \
+Sync/NRP/Data/Transcript/VS009.txt\>\""], "Input",
+ CellChangeTimes->{{3.657258854885872*^9, 3.657258854886733*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"(*", 
+   RowBox[{"Add", " ", "*"}], " ", "*)"}], "\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{"FileNum", "=", 
+    RowBox[{"{", 
+     RowBox[{
+     "36", ",", "37", ",", "33", ",", "34", ",", "35", ",", "24", ",", "26"}],
+      "}"}]}], "\[IndentingNewLine]", 
+   RowBox[{"For", "[", 
+    RowBox[{
+     RowBox[{"n", "=", "1"}], ",", 
+     RowBox[{"n", "\[LessEqual]", 
+      RowBox[{"Length", "[", "FileNum", "]"}]}], ",", 
+     RowBox[{"n", "++"}], ",", "\[IndentingNewLine]", 
+     RowBox[{
+      RowBox[{"FileName", "=", 
+       RowBox[{
+       "\"\</Users/liyezhou/Google Drive/Mac \
+Sync/NRP/Data/Workplace/Transcripts/\>\"", "<>", 
+        RowBox[{"GetRefCode", "[", 
+         RowBox[{"FileNum", "[", 
+          RowBox[{"[", "n", "]"}], "]"}], "]"}], "<>", "\"\<.txt\>\""}]}], 
+      ";", "\[IndentingNewLine]", 
+      RowBox[{"OutName", "=", 
+       RowBox[{
+       "\"\</Users/liyezhou/Google Drive/Mac \
+Sync/NRP/Data/Workplace/Transcripts copy/\>\"", "<>", 
+        RowBox[{"GetRefCode", "[", 
+         RowBox[{"FileNum", "[", 
+          RowBox[{"[", "n", "]"}], "]"}], "]"}], "<>", "\"\<.txt\>\""}]}], 
+      ";", "\[IndentingNewLine]", 
+      RowBox[{"Txt", "=", 
+       RowBox[{"Import", "[", "FileName", "]"}]}], ";", "\[IndentingNewLine]", 
+      RowBox[{"Lines", "=", 
+       RowBox[{"StringSplit", "[", 
+        RowBox[{"Txt", ",", "\"\<\\n\>\""}], "]"}]}], ";", 
+      "\[IndentingNewLine]", 
+      RowBox[{"TLines", "=", 
+       RowBox[{"StringReplace", "[", 
+        RowBox[{"Lines", ",", 
+         RowBox[{"{", 
+          RowBox[{
+          "\"\<@Situation:\>\"", "\[Rule]", 
+           "\"\<@Situation:\\t\\n@Start\>\""}], "}"}]}], "]"}]}], ";", 
+      "\[IndentingNewLine]", 
+      RowBox[{"Export", "[", 
+       RowBox[{"OutName", ",", "TLines"}], "]"}]}]}], "\[IndentingNewLine]", 
+    "]"}]}]}]], "Input",
+ CellChangeTimes->{{3.658459543790513*^9, 3.658459630980762*^9}, {
+  3.6584597686784*^9, 3.6584598101409082`*^9}, {3.6584598552067738`*^9, 
+  3.658459875268828*^9}, {3.658459929525117*^9, 3.658460020591072*^9}, {
+  3.658460056125276*^9, 3.65846005626116*^9}, {3.658460099094499*^9, 
+  3.6584601706927767`*^9}, {3.6584603180306396`*^9, 3.658460333693962*^9}, {
+  3.658460377302704*^9, 3.658460378172779*^9}, {3.658487204347883*^9, 
+  3.658487260041533*^9}, {3.658487484672578*^9, 3.658487526778022*^9}, {
+  3.658487573051754*^9, 3.658487684777478*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+  "36", ",", "37", ",", "33", ",", "34", ",", "35", ",", "24", ",", "26"}], 
+  "}"}]], "Output",
+ CellChangeTimes->{
+  3.658459599402652*^9, 3.658459812368113*^9, {3.658459847692202*^9, 
+   3.658459901699065*^9}, 3.658459938240509*^9, 3.658460026056965*^9, 
+   3.658460099354993*^9, 3.658460183459127*^9, 3.658460334957471*^9, 
+   3.6584603785930243`*^9, 3.65848726285119*^9, {3.658487629384028*^9, 
+   3.658487648786408*^9}, 3.658487685472*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData["FileName"], "Input",
+ CellChangeTimes->{{3.658459818742107*^9, 3.658459824011672*^9}}],
+
+Cell[BoxData["\<\"/Users/liyezhou/Google Drive/Mac \
+Sync/NRP/Data/Workplace/Transcripts/VS001.txt\"\>"], "Output",
+ CellChangeTimes->{3.658459824290357*^9}]
+}, Open  ]],
+
+Cell[BoxData["\"\</Users/liyezhou/Google Drive/Mac \
+Sync/NRP/Data/Workplace/Transcripts/VS001.txt\>\""], "Input",
+ CellChangeTimes->{{3.658459837703915*^9, 3.6584598377050047`*^9}}]
+},
+WindowSize->{808, 690},
+WindowMargins->{{196, Automatic}, {-180, Automatic}},
+FrontEndVersion->"10.2 for Mac OS X x86 (32-bit, 64-bit Kernel) (July 29, \
+2015)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 145, 2, 28, "Input"],
+Cell[728, 26, 155, 2, 28, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[920, 33, 170, 2, 28, "Input"],
+Cell[1093, 37, 145, 2, 28, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1275, 44, 3479, 73, 267, "Input"],
+Cell[4757, 119, 527, 10, 28, "Output"]
+}, Open  ]],
+Cell[5299, 132, 96, 2, 28, "Input"],
+Cell[CellGroupData[{
+Cell[5420, 138, 2558, 56, 233, "Input"],
+Cell[7981, 196, 400, 8, 28, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[8418, 209, 2581, 57, 233, "Input"],
+Cell[11002, 268, 166, 3, 28, "Output"]
+}, Open  ]],
+Cell[11183, 274, 169, 2, 28, "Input"],
+Cell[CellGroupData[{
+Cell[11377, 280, 2419, 57, 233, "Input"],
+Cell[13799, 339, 485, 10, 62, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[14321, 354, 100, 1, 28, "Input"],
+Cell[14424, 357, 157, 2, 28, "Output"]
+}, Open  ]],
+Cell[14596, 362, 182, 2, 28, "Input"]
+}
+]
+*)
+
+(* End of internal cache information *)

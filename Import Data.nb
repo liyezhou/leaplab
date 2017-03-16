@@ -1,0 +1,2786 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[    112016,       2778]
+NotebookOptionsPosition[    111634,       2760]
+NotebookOutlinePosition[    112035,       2777]
+CellTagsIndexPosition[    111992,       2774]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"(*", "Preamble", "*)"}], "Subchapter"], "\[IndentingNewLine]", 
+  RowBox[{"(*", " ", 
+   RowBox[{
+    RowBox[{
+    "This", " ", "script", " ", "is", " ", "written", " ", "for", " ", 
+     "inputting", " ", "and", " ", "formating", " ", "transcripts", " ", "of",
+      " ", "a", " ", "parent", " ", "narrating", " ", "a", " ", "story", " ", 
+     "to", " ", "a", " ", 
+     RowBox[{"child", ".", "\[IndentingNewLine]", "For"}], " ", "format", " ",
+      "of", " ", "the", " ", "transcripts"}], ",", " ", 
+    RowBox[{
+    "refer", " ", "to", " ", "the", " ", "instruction", " ", "document", " ", 
+     "in", " ", "the", " ", 
+     RowBox[{
+     "dropbox", ".", "\[IndentingNewLine]", "\[IndentingNewLine]", "Yezhou", 
+      ".", "\[IndentingNewLine]", "January"}]}], ",", " ", "2017."}], 
+   "\[IndentingNewLine]", "*)"}], "\[IndentingNewLine]", 
+  StyleBox[
+   RowBox[{"(*", 
+    RowBox[{"Turn", " ", "back", " ", "on", " ", "switches"}], "*)"}], 
+   "Subsection"], "\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"SetOptions", "[", 
+     RowBox[{"$FrontEnd", ",", 
+      RowBox[{"\"\<DynamicUpdating\>\"", "\[Rule]", "False"}]}], "]"}], ";"}], 
+   StyleBox["\[IndentingNewLine]", "Subsection"], 
+   StyleBox[
+    RowBox[{"(*", "Clearing", "*)"}], "Subsection"], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"Clear", "[", "\"\<Global`*\>\"", "]"}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"<<", "Init.m"}], ";"}], 
+   StyleBox["\[IndentingNewLine]", "Subsection"], 
+   StyleBox[
+    RowBox[{"(*", 
+     RowBox[{"Set", " ", "up", " ", "timers"}], "*)"}], "Subsection"], 
+   StyleBox["\[IndentingNewLine]", "Subsection"], 
+   StyleBox[
+    RowBox[{
+     RowBox[{"timing", "=", 
+      RowBox[{"{", "}"}]}], ";"}], "Input"], 
+   StyleBox["\[IndentingNewLine]", "Input"], 
+   StyleBox[
+    RowBox[{
+     RowBox[{"startTime", "=", 
+      RowBox[{"AbsoluteTime", "[", "]"}]}], ";"}], "Input"], 
+   StyleBox["\[IndentingNewLine]", "Input"], 
+   StyleBox[
+    RowBox[{
+     RowBox[{"AppendTo", "[", 
+      RowBox[{"timing", ",", 
+       RowBox[{"{", 
+        RowBox[{"\"\<Start\>\"", ",", 
+         RowBox[{
+          RowBox[{"AbsoluteTime", "[", "]"}], "-", "startTime"}]}], "}"}]}], 
+      "]"}], ";"}], "Input"], "\[IndentingNewLine]", 
+   StyleBox[
+    RowBox[{"(*", "Environment", "*)"}], "Subsection"], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"Needs", "[", "\"\<JLink`\>\"", "]"}], ";"}], "\n", 
+   RowBox[{
+    RowBox[{"ReinstallJava", "[", 
+     RowBox[{"JVMArguments", "\[Rule]", "\"\<-Xmx1536m\>\""}], "]"}], ";"}], 
+   "\[IndentingNewLine]", 
+   StyleBox[
+    RowBox[{"(*", 
+     RowBox[{
+     "Save", " ", "A", " ", "Backup", " ", "On", " ", "Each", " ", 
+      "Execution"}], "*)"}], "Subsection"], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"Export", "[", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"NotebookFileName", "[", "]"}], "<>", "\"\<.backup.nb\>\""}], 
+      ",", 
+      RowBox[{"EvaluationNotebook", "[", "]"}]}], "]"}], ";"}], 
+   "\[IndentingNewLine]", 
+   StyleBox[
+    RowBox[{"(*", "Switches", "*)"}], "Subsection"], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"debugLevel", "=", "2"}], ";"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"exportLog", "=", "True"}], ";"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"printLogOnScreen", "=", "False"}], ";"}], "\[IndentingNewLine]", 
+   
+   RowBox[{
+    RowBox[{"standardExportName", "=", "False"}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"applyLooseSyntax", "=", "False"}], ";"}], "\[IndentingNewLine]", 
+   
+   StyleBox[
+    RowBox[{"(*", "Constants", "*)"}], "Subsection"], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"VSTOTAL", "=", "300"}], ";"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"MAXERROR", "=", "99"}], ";"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"TTRSAMPLESIZE", "=", "100"}], ";"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"TTRTRIALS", "=", "50"}], ";"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"VERSIONNUMBER", "=", "\"\<5.1\>\""}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"RELEASEDATE", "=", "\"\<Mar 13, 2017\>\""}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"STOPWORDS", "=", 
+     RowBox[{"{", 
+      RowBox[{
+      "\"\<what\>\"", ",", "\"\<my\>\"", ",", "\"\<this\>\"", ",", 
+       "\"\<where\>\"", ",", "\"\<and\>\"", ",", "\"\<is\>\"", ",", 
+       "\"\<you\>\"", ",", "\"\<the\>\""}], "}"}]}], ";", " ", 
+    RowBox[{"(*", 
+     RowBox[{
+     "Those", " ", "in", " ", "the", " ", "closed", " ", "class", " ", "that",
+       " ", "appear", " ", "in", " ", "the", " ", "corpus", " ", "with", " ", 
+      "a", " ", "frequency", " ", "of", " ", "0.01", " ", "and", " ", 
+      RowBox[{"higher", ".", 
+       RowBox[{"(", 
+        RowBox[{
+        "1", " ", "occurrence", " ", "per", " ", "100", " ", "words"}], 
+        ")"}]}]}], "*)"}], "\n", 
+    RowBox[{"STOPWORDS2", "=", 
+     RowBox[{"{", 
+      RowBox[{
+      "\"\<a\>\"", ",", "\"\<an\>\"", ",", "\"\<the\>\"", ",", "\"\<ll\>\"", 
+       ",", " ", "\"\<m\>\"", ",", "\"\<re\>\"", ",", "\"\<s\>\"", ",", 
+       "\"\<t\>\"", ",", "\"\<ve\>\"", ",", "\"\<um\>\""}], "}"}]}], ";", 
+    RowBox[{"(*", 
+     RowBox[{"From", " ", "Luca", " ", "and", " ", 
+      RowBox[{"Shimon", "'"}], "s", " ", "Paper"}], "*)"}], 
+    "\[IndentingNewLine]", 
+    StyleBox[
+     RowBox[{"(*", 
+      RowBox[{
+      "Setting", " ", "Up", " ", "the", " ", "Data", " ", "Structure"}], 
+      "*)"}], "Subchapter"], "\[IndentingNewLine]", 
+    RowBox[{"NoError", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "MAXERROR"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"importList", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"importListMatcher", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"transcriptFilesPrint", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"inverseVS", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"transcripts", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"transcriptLines", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"preamblesRequiredCheck", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"preamblesRequiredCheckSum", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"transcriptCommands", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"commandsRequiredCheck", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"emptyLineCheck", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"correctLineEndingCheck", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"multipleLineEndingCheck", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"participantLabelCheck", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"preambleLines", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"utteranceLines", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"derivativeLines", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"preambleTable", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"transcriptLineParticipants", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"transcriptUniqueParticipants", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"transcriptUniqueNonChildParticipants", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"participantNumberCheck", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"UniqueNonChildParticipantCheck", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"transcriptWords", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"transcriptUtterances", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"unidentifiedSequencesCheck", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"nonEmptyUtteranceLines", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"nonChildParticipantUtteranceLines", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"nonEmptyNonChildParticipantUtteranceLines", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"textOnlyTranscripts", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"textOnlyTranscriptLines", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"textOnlyTranscriptWords", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"textOnlyNonChildTranscripts", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"textOnlyNonChildTranscriptLines", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"textOnlyNonChildTranscriptWords", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"lengthCheck", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"errorLogs", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"errorLogFiles", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"transcriptSyntaxIntegrity", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"transcriptFileBaseNames", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"AppendTo", "[", 
+     RowBox[{"timing", ",", 
+      RowBox[{"{", 
+       RowBox[{"\"\<After Setting Up Data Structures\>\"", ",", 
+        RowBox[{
+         RowBox[{"AbsoluteTime", "[", "]"}], "-", "startTime"}]}], "}"}]}], 
+     "]"}], ";"}], "\[IndentingNewLine]", 
+   StyleBox[
+    RowBox[{"(*", 
+     RowBox[{"Import", " ", "the", " ", "text", " ", "files"}], "*)"}], 
+    "Chapter"], "\[IndentingNewLine]", 
+   StyleBox[
+    RowBox[{"(*", 
+     RowBox[{"Search", " ", "for", " ", "the", " ", "files"}], "*)"}], 
+    "Subsection"], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"Dir", "=", 
+     RowBox[{"SetCurrentNoteBookAsDirectory", "[", "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"importListFile", "=", "\"\<Import List.csv\>\""}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"transcriptFolder", "=", 
+     RowBox[{"FileNameJoin", "[", 
+      RowBox[{"{", 
+       RowBox[{"\"\<Data\>\"", ",", "\"\<Transcripts\>\""}], "}"}], "]"}]}], 
+    ";"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"errorLogsFolder", "=", 
+     RowBox[{"FileNameJoin", "[", 
+      RowBox[{"{", 
+       RowBox[{"\"\<Export\>\"", ",", "\"\<Error Logs\>\""}], "}"}], "]"}]}], 
+    ";"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"importListRaw", "=", 
+     RowBox[{"Sort", "[", 
+      RowBox[{"Flatten", "[", 
+       RowBox[{"Import", "[", "importListFile", "]"}], "]"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"VS", "=", 
+     RowBox[{"ToExpression", "[", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"StringReplace", "[", 
+         RowBox[{"#", ",", 
+          RowBox[{"\"\<VS\>\"", "\[Rule]", "\"\<\>\""}]}], "]"}], "&"}], "/@",
+        "importListRaw"}], "]"}]}], ";", 
+    RowBox[{"(*", 
+     RowBox[{"The", " ", "list", " ", "of", " ", "VS", " ", "Numbers"}], 
+     "*)"}], "\[IndentingNewLine]", 
+    RowBox[{"VSListPrint", "=", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{"\"\<VS\>\"", "<>", 
+        RowBox[{"IntegerString", "[", 
+         RowBox[{"n", ",", "10", ",", "3"}], "]"}]}], ",", 
+       RowBox[{"{", 
+        RowBox[{"n", ",", "1", ",", "VSTOTAL"}], "}"}]}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"importList", "[", 
+      RowBox[{"[", "VS", "]"}], "]"}], "=", "importListRaw"}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"importListMatcher", "[", 
+      RowBox[{"[", "VS", "]"}], "]"}], "=", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"ToExpression", "[", 
+        RowBox[{"\"\<___~~\\\"\>\"", "<>", "#", "<>", "\"\<\\\"~~___\>\""}], 
+        "]"}], "&"}], "/@", 
+      RowBox[{"importList", "[", 
+       RowBox[{"[", "VS", "]"}], "]"}]}]}], ";"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"NoVS", "=", 
+     RowBox[{"Length", "[", "importListRaw", "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"transcriptFiles", "=", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"FileNames", "[", 
+        RowBox[{"#", ",", "transcriptFolder"}], "]"}], "&"}], "/@", 
+      "importListMatcher"}]}], ";"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"transcriptFiles", "[", 
+      RowBox[{"[", "VS", "]"}], "]"}], "=", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{"First", "[", 
+        RowBox[{
+         RowBox[{"SortBy", "[", 
+          RowBox[{
+           RowBox[{"transcriptFiles", "[", 
+            RowBox[{"[", "n", "]"}], "]"}], ",", 
+           RowBox[{
+            RowBox[{
+             RowBox[{"StringPosition", "[", 
+              RowBox[{
+               RowBox[{"FileNameTake", "[", "#", "]"}], ",", 
+               RowBox[{"IntegerString", "[", 
+                RowBox[{"n", ",", "10", ",", "3"}], "]"}]}], "]"}], "[", 
+             RowBox[{"[", 
+              RowBox[{"1", ",", "1"}], "]"}], "]"}], "&"}]}], "]"}], ",", 
+         "\"\<Error\>\""}], "]"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"n", ",", "VS"}], "}"}]}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"transcriptFilesPrint", "=", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"StringReplace", "[", 
+        RowBox[{
+         RowBox[{"ToString", "[", "#", "]"}], ",", 
+         RowBox[{"\"\<{}\>\"", "\[Rule]", "\"\<\>\""}]}], "]"}], "&"}], "/@", 
+      "transcriptFiles"}]}], ";"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"transcriptFileBaseNames", "[", 
+      RowBox[{"[", "VS", "]"}], "]"}], "=", 
+     RowBox[{"FileBaseName", "/@", 
+      RowBox[{"transcriptFiles", "[", 
+       RowBox[{"[", "VS", "]"}], "]"}]}]}], ";"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"inverseVS", "[", 
+      RowBox[{"[", "VS", "]"}], "]"}], "=", 
+     RowBox[{"Range", "[", 
+      RowBox[{"Length", "[", "VS", "]"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   StyleBox[
+    RowBox[{"(*", 
+     RowBox[{"Import", " ", "the", " ", "text", " ", "files"}], "*)"}], 
+    "Input"], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"transcripts", "[", 
+      RowBox[{"[", "VS", "]"}], "]"}], "=", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{"Import", "[", 
+        RowBox[{
+         RowBox[{"transcriptFiles", "[", 
+          RowBox[{"[", "n", "]"}], "]"}], ",", "\"\<Text\>\""}], "]"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"n", ",", "VS"}], "}"}]}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"AppendTo", "[", 
+     RowBox[{"timing", ",", 
+      RowBox[{"{", 
+       RowBox[{"\"\<After Importing Files\>\"", ",", 
+        RowBox[{
+         RowBox[{"AbsoluteTime", "[", "]"}], "-", "startTime"}]}], "}"}]}], 
+     "]"}], ";"}], "\[IndentingNewLine]", 
+   StyleBox[
+    RowBox[{"(*", 
+     RowBox[{"Get", " ", "the", " ", "Lines"}], "*)"}], "Subsection"], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"transcriptLines", "[", 
+      RowBox[{"[", "VS", "]"}], "]"}], "=", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{"StringTrim", "[", 
+        RowBox[{"StringSplit", "[", 
+         RowBox[{
+          RowBox[{"transcripts", "[", 
+           RowBox[{"[", "n", "]"}], "]"}], ",", "\"\<\\n\>\""}], "]"}], "]"}],
+        ",", 
+       RowBox[{"{", 
+        RowBox[{"n", ",", "VS"}], "}"}]}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"transcriptLinesOri", "=", "transcriptLines"}], ";", " ", 
+    RowBox[{"(*", 
+     RowBox[{"Back", " ", "up", " ", "original", " ", "transcripts"}], "*)"}],
+     "\[IndentingNewLine]", 
+    StyleBox[
+     RowBox[{"(*", 
+      RowBox[{"Checking", " ", "Line", " ", "Syntax", " ", 
+       RowBox[{"(", 
+        RowBox[{"Error", " ", "01", " ", "to", " ", "06"}], ")"}]}], "*)"}], 
+     "Chapter"], "\[IndentingNewLine]", 
+    StyleBox[
+     RowBox[{"(*", 
+      RowBox[{
+      "Defining", " ", "Functions", " ", "to", " ", "Check", " ", "Syntax"}], 
+      "*)"}], "Subsection"], 
+    StyleBox["\[IndentingNewLine]", "Chapter"], 
+    RowBox[{"generalErrorLog", "=", "\"\<\>\""}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"log", "[", 
+     RowBox[{"n_", ",", "message_", ",", 
+      RowBox[{"debugLevelThreshold_:", "3"}]}], "]"}], ":=", 
+    RowBox[{"If", "[", 
+     RowBox[{
+      RowBox[{"debugLevel", ">=", "debugLevelThreshold"}], ",", 
+      RowBox[{"Module", "[", 
+       RowBox[{
+        RowBox[{"{", "}"}], ",", "\[IndentingNewLine]", 
+        RowBox[{
+         RowBox[{"If", "[", 
+          RowBox[{"printLogOnScreen", ",", 
+           RowBox[{"Print", "[", "message", "]"}]}], "]"}], ";", 
+         "\[IndentingNewLine]", 
+         RowBox[{"If", "[", 
+          RowBox[{
+           RowBox[{"n", "\[Equal]", 
+            RowBox[{"-", "1"}]}], ",", "\[IndentingNewLine]", 
+           RowBox[{
+            RowBox[{"generalErrorLog", "=", 
+             RowBox[{"generalErrorLog", "<>", 
+              RowBox[{"ToString", "[", "message", "]"}], "<>", 
+              "\"\<\\n\>\""}]}], ";"}], "\[IndentingNewLine]", ",", 
+           "\[IndentingNewLine]", 
+           RowBox[{
+            RowBox[{
+             RowBox[{"errorLogs", "[", 
+              RowBox[{"[", "n", "]"}], "]"}], "=", 
+             RowBox[{
+              RowBox[{"errorLogs", "[", 
+               RowBox[{"[", "n", "]"}], "]"}], "<>", 
+              RowBox[{"ToString", "[", "message", "]"}], "<>", 
+              "\"\<\\n\>\""}]}], ";"}]}], "\[IndentingNewLine]", "]"}], 
+         ";"}]}], "\[IndentingNewLine]", "]"}]}], "\[IndentingNewLine]", 
+     "]"}]}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"abortOrContinue", "[", "theErrorCode_", "]"}], ":=", 
+     RowBox[{"If", "[", 
+      RowBox[{
+       RowBox[{"!", 
+        RowBox[{"NoError", "[", 
+         RowBox[{"[", "theErrorCode", "]"}], "]"}]}], ",", 
+       RowBox[{"Module", "[", 
+        RowBox[{
+         RowBox[{"{", "}"}], ",", 
+         RowBox[{"log", "[", 
+          RowBox[{
+           RowBox[{"-", "1"}], ",", 
+           RowBox[{"Style", "[", 
+            RowBox[{"\"\<Error Found! ABORT!\>\"", ",", "Red"}], "]"}], ",", 
+           "3"}], "]"}]}], 
+        RowBox[{"(*", 
+         RowBox[{"Abort", "[", "]"}], "*)"}], "]"}], ",", 
+       RowBox[{"log", "[", 
+        RowBox[{
+         RowBox[{"-", "1"}], ",", 
+         RowBox[{"Style", "[", 
+          RowBox[{"\"\<No Error! Continue!\>\"", ",", 
+           RowBox[{"Darker", "[", "Green", "]"}]}], "]"}], ",", "3"}], 
+        "]"}]}], "]"}]}], ";"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"printCurrentTask", "[", "taskDescription_", "]"}], ":=", 
+     RowBox[{"log", "[", 
+      RowBox[{
+       RowBox[{"-", "1"}], ",", 
+       RowBox[{"Style", "[", 
+        RowBox[{"taskDescription", ",", "Bold"}], "]"}], ",", "2"}], "]"}]}], 
+    ";"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"errorMessageList", "=", 
+     RowBox[{"{", 
+      RowBox[{
+      "\"\<Error 01: Empty Line\>\"", ",", "\[IndentingNewLine]", 
+       "\"\<Error 02: Unidentified Line Command (Run checker again after \
+rectification to check for further errors)\>\"", ",", "\[IndentingNewLine]", 
+       "\"\<Error 03: Missing Preamble Statements (@statements such as \
+@Begin)\>\"", ",", "\[IndentingNewLine]", 
+       "\"\<Error 04: Wrong / Missing Utterance Ending\>\"", ",", 
+       "\[IndentingNewLine]", "\"\<Error 05: Misplaced Utterance Ending\>\"", 
+       ",", "\[IndentingNewLine]", 
+       "\"\<Error 06: Unidentified Participant Label (MOT: <tab> structure \
+missing)\>\"", ",", "\[IndentingNewLine]", 
+       "\"\<Error 07: More Than 1 Non-Child Participant\>\"", ",", 
+       "\[IndentingNewLine]", 
+       "\"\<Error 08: Unable to parse due to unidentified String Sequences \
+(Possibly due to preceeding errors)\>\"", ",", "\[IndentingNewLine]", 
+       RowBox[{
+       "\"\<Error 09: Transcript is too short. (Minimum: \>\"", "<>", 
+        RowBox[{"ToString", "[", "TTRSAMPLESIZE", "]"}], "<>", 
+        "\"\< words)\>\""}]}], "\[IndentingNewLine]", "}"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"printError", "[", 
+     RowBox[{"n_", ",", "ErrorCode_"}], "]"}], ":=", 
+    RowBox[{"Module", "[", 
+     RowBox[{
+      RowBox[{"{", "}"}], ",", "\[IndentingNewLine]", 
+      RowBox[{
+       RowBox[{"log", "[", 
+        RowBox[{"n", ",", 
+         RowBox[{"\"\<(VS\>\"", "<>", 
+          RowBox[{"ToString", "[", "n", "]"}], "<>", "\"\<) \>\"", "<>", 
+          RowBox[{"errorMessageList", "[", 
+           RowBox[{"[", "ErrorCode", "]"}], "]"}]}], ",", "1"}], "]"}], 
+       ";"}]}], "\[IndentingNewLine]", "]"}]}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"printErrorMessage", "[", 
+     RowBox[{"n_", ",", "checkResults_", ",", "theErrorCode_"}], "]"}], ":=", 
+    
+    RowBox[{"Module", "[", 
+     RowBox[{
+      RowBox[{"{", "localCheckResultSum", "}"}], ",", "\[IndentingNewLine]", 
+      RowBox[{
+       RowBox[{"localCheckResultSum", "=", 
+        RowBox[{"And", "@@", 
+         RowBox[{"checkResults", "[", 
+          RowBox[{"[", "n", "]"}], "]"}]}]}], ";", "\[IndentingNewLine]", 
+       RowBox[{
+        RowBox[{"NoError", "[", 
+         RowBox[{"[", "theErrorCode", "]"}], "]"}], "=", "True"}], ";", 
+       "\[IndentingNewLine]", 
+       RowBox[{"If", "[", 
+        RowBox[{
+         RowBox[{"!", "localCheckResultSum"}], ",", "\[IndentingNewLine]", 
+         RowBox[{"Module", "[", 
+          RowBox[{
+           RowBox[{"{", 
+            RowBox[{"localCheckResults", "=", 
+             RowBox[{"checkResults", "[", 
+              RowBox[{"[", "n", "]"}], "]"}]}], "}"}], ",", 
+           "\[IndentingNewLine]", 
+           RowBox[{
+            RowBox[{
+             RowBox[{"NoError", "[", 
+              RowBox[{"[", "theErrorCode", "]"}], "]"}], "=", "False"}], ";", 
+            "\[IndentingNewLine]", 
+            RowBox[{"printError", "[", 
+             RowBox[{"n", ",", "theErrorCode"}], "]"}], ";", 
+            "\[IndentingNewLine]", 
+            RowBox[{"Do", "[", 
+             RowBox[{
+              RowBox[{"If", "[", 
+               RowBox[{
+                RowBox[{"!", 
+                 RowBox[{"localCheckResults", "[", 
+                  RowBox[{"[", "i", "]"}], "]"}]}], ",", 
+                RowBox[{"Module", "[", 
+                 RowBox[{
+                  RowBox[{"{", "}"}], ",", "\[IndentingNewLine]", 
+                  RowBox[{
+                   RowBox[{"log", "[", 
+                    RowBox[{"n", ",", 
+                    RowBox[{"\"\<\\tLine \>\"", "<>", 
+                    RowBox[{"ToString", "[", "i", "]"}], "<>", "\"\<:\\t\>\"",
+                     "<>", 
+                    RowBox[{"transcriptLinesOri", "[", 
+                    RowBox[{"[", 
+                    RowBox[{"n", ",", "i"}], "]"}], "]"}]}], ",", "1"}], 
+                    "]"}], ";"}]}], "\[IndentingNewLine]", "]"}]}], 
+               "\[IndentingNewLine]", "]"}], ",", 
+              RowBox[{"{", 
+               RowBox[{"i", ",", "1", ",", 
+                RowBox[{"Length", "[", 
+                 RowBox[{"transcriptLines", "[", 
+                  RowBox[{"[", "n", "]"}], "]"}], "]"}]}], "}"}]}], "]"}], 
+            ";", "\[IndentingNewLine]", 
+            RowBox[{"log", "[", 
+             RowBox[{"n", ",", "\"\<\>\"", ",", "1"}], "]"}]}]}], 
+          "\[IndentingNewLine]", "]"}]}], "\[IndentingNewLine]", "]"}], ";", 
+       "\[IndentingNewLine]", 
+       RowBox[{"abortOrContinue", "[", "theErrorCode", "]"}], ";"}]}], 
+     "\[IndentingNewLine]", "]"}]}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"AppendTo", "[", 
+     RowBox[{"timing", ",", 
+      RowBox[{"{", 
+       RowBox[{"\"\<After Defining Functions\>\"", ",", 
+        RowBox[{
+         RowBox[{"AbsoluteTime", "[", "]"}], "-", "startTime"}]}], "}"}]}], 
+     "]"}], ";"}], "\[IndentingNewLine]", 
+   StyleBox[
+    RowBox[{"(*", 
+     RowBox[{"ERROR", " ", "01"}], "*)"}], "Subsection"], 
+   "\[IndentingNewLine]", 
+   RowBox[{"(*", 
+    RowBox[{
+    "Checking", " ", "If", " ", "there", " ", "are", " ", "empty", " ", 
+     "lines"}], "*)"}], "\[IndentingNewLine]", 
+   RowBox[{
+   "printCurrentTask", "[", "\"\<Checking if there are empty lines\>\"", 
+    "]"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"emptyLineCheck", "[", 
+      RowBox[{"[", "VS", "]"}], "]"}], "=", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{
+          RowBox[{
+           RowBox[{"StringTrim", "[", "#", "]"}], "\[NotEqual]", "\"\<\>\""}],
+           "&"}], "/@", 
+         RowBox[{"transcriptLines", "[", 
+          RowBox[{"[", "n", "]"}], "]"}]}], ")"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"n", ",", "VS"}], "}"}]}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{
+      RowBox[{"printErrorMessage", "[", 
+       RowBox[{"#", ",", "emptyLineCheck", ",", "1"}], "]"}], "&"}], "/@", 
+     "VS"}], ";"}], "\[IndentingNewLine]", 
+   StyleBox[
+    RowBox[{"(*", 
+     RowBox[{"Get", " ", "the", " ", "Command", " ", "Symbols"}], "*)"}], 
+    "Subsection"], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"transcriptCommands", "[", 
+      RowBox[{"[", "VS", "]"}], "]"}], "=", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"StringTake", "[", 
+           RowBox[{"#", ",", 
+            RowBox[{"UpTo", "[", "1", "]"}]}], "]"}], "&"}], "/@", 
+         RowBox[{"transcriptLines", "[", 
+          RowBox[{"[", "n", "]"}], "]"}]}], ")"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"n", ",", "VS"}], "}"}]}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{"(*", 
+    RowBox[{
+     RowBox[{"Index", " ", "3", " ", "types", " ", "of", " ", "lines"}], ",", 
+     " ", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"i", ".", "e", ".", " ", "the"}], " ", "preamble", " ", 
+       "lines"}], " ", "=", 
+      RowBox[{">", " ", "@"}]}], ",", " ", 
+     RowBox[{"utterance", " ", "=", 
+      RowBox[{">", " ", "*"}]}], ",", " ", 
+     RowBox[{"derivatives", " ", "=", 
+      RowBox[{">", " ", "%"}]}]}], "*)"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"preambleLines", "[", 
+      RowBox[{"[", "VS", "]"}], "]"}], "=", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{"Flatten", "[", 
+        RowBox[{"Position", "[", 
+         RowBox[{
+          RowBox[{
+           RowBox[{
+            RowBox[{"(", 
+             RowBox[{"StringMatchQ", "[", 
+              RowBox[{"#", ",", 
+               RowBox[{"Verbatim", "[", "\"\<@\>\"", "]"}]}], "]"}], ")"}], 
+            "&"}], "/@", 
+           RowBox[{"transcriptCommands", "[", 
+            RowBox[{"[", "n", "]"}], "]"}]}], ",", "True"}], "]"}], "]"}], 
+       ",", 
+       RowBox[{"{", 
+        RowBox[{"n", ",", "VS"}], "}"}]}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"utteranceLines", "[", 
+      RowBox[{"[", "VS", "]"}], "]"}], "=", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{"Flatten", "[", 
+        RowBox[{"Position", "[", 
+         RowBox[{
+          RowBox[{
+           RowBox[{
+            RowBox[{"(", 
+             RowBox[{"StringMatchQ", "[", 
+              RowBox[{"#", ",", 
+               RowBox[{"Verbatim", "[", "\"\<*\>\"", "]"}]}], "]"}], ")"}], 
+            "&"}], "/@", 
+           RowBox[{"transcriptCommands", "[", 
+            RowBox[{"[", "n", "]"}], "]"}]}], ",", "True"}], "]"}], "]"}], 
+       ",", 
+       RowBox[{"{", 
+        RowBox[{"n", ",", "VS"}], "}"}]}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"derivativeLines", "[", 
+      RowBox[{"[", "VS", "]"}], "]"}], "=", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{"Flatten", "[", 
+        RowBox[{"Position", "[", 
+         RowBox[{
+          RowBox[{
+           RowBox[{
+            RowBox[{"(", 
+             RowBox[{"StringMatchQ", "[", 
+              RowBox[{"#", ",", 
+               RowBox[{"Verbatim", "[", "\"\<%\>\"", "]"}]}], "]"}], ")"}], 
+            "&"}], "/@", 
+           RowBox[{"transcriptCommands", "[", 
+            RowBox[{"[", "n", "]"}], "]"}]}], ",", "True"}], "]"}], "]"}], 
+       ",", 
+       RowBox[{"{", 
+        RowBox[{"n", ",", "VS"}], "}"}]}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{"(*", 
+    RowBox[{"Reading", " ", "Preamble", " ", "Data"}], "*)"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"preambleTable", "[", 
+      RowBox[{"[", "VS", "]"}], "]"}], "=", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{
+        RowBox[{
+         RowBox[{
+          RowBox[{"StringTrim", "[", "#1", "]"}], "\[Rule]", 
+          RowBox[{"StringTrim", "[", "#2", "]"}]}], "&"}], "@@@", 
+        RowBox[{"Select", "[", 
+         RowBox[{
+          RowBox[{"StringSplit", "[", 
+           RowBox[{
+            RowBox[{"transcriptLines", "[", 
+             RowBox[{"[", 
+              RowBox[{"n", ",", 
+               RowBox[{"preambleLines", "[", 
+                RowBox[{"[", "n", "]"}], "]"}]}], "]"}], "]"}], ",", 
+            "\"\<:\>\""}], "]"}], ",", 
+          RowBox[{
+           RowBox[{
+            RowBox[{"Length", "[", "#", "]"}], "\[Equal]", "2"}], "&"}]}], 
+         "]"}]}], ",", 
+       RowBox[{"{", 
+        RowBox[{"n", ",", "VS"}], "}"}]}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   StyleBox[
+    RowBox[{"(*", 
+     RowBox[{"ERROR", " ", "02"}], "*)"}], "Subsection"], 
+   "\[IndentingNewLine]", 
+   RowBox[{"(*", 
+    RowBox[{
+    "Checking", " ", "If", " ", "the", " ", "commands", " ", "are", " ", 
+     "right"}], "*)"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"commandsRequired", "=", 
+     RowBox[{"{", 
+      RowBox[{"\"\<@\>\"", ",", "\"\<*\>\"", ",", "\"\<%\>\""}], "}"}]}], 
+    ";"}], "\[IndentingNewLine]", 
+   RowBox[{
+   "printCurrentTask", "[", 
+    "\"\<Checking whether the line commands are right, i.e., if all the lines \
+start with @ / * / %\>\"", "]"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"commandsRequiredCheck", "[", 
+      RowBox[{"[", "VS", "]"}], "]"}], "=", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{
+        RowBox[{
+         RowBox[{"StringMatchQ", "[", 
+          RowBox[{"#", ",", 
+           RowBox[{"RegularExpression", "[", "\"\<[*@%]\>\"", "]"}]}], "]"}], 
+         "&"}], "/@", 
+        RowBox[{"transcriptCommands", "[", 
+         RowBox[{"[", "n", "]"}], "]"}]}], ",", 
+       RowBox[{"{", 
+        RowBox[{"n", ",", "VS"}], "}"}]}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{
+      RowBox[{"printErrorMessage", "[", 
+       RowBox[{"#", ",", "commandsRequiredCheck", ",", "2"}], "]"}], "&"}], "/@",
+      "VS"}], ";"}], "\[IndentingNewLine]", 
+   RowBox[{"(*", 
+    RowBox[{"ERROR", " ", "03"}], "*)"}], "\[IndentingNewLine]", 
+   RowBox[{"(*", 
+    RowBox[{
+     RowBox[{"Check", " ", "if", " ", "preambles"}], ",", " ", 
+     RowBox[{
+      RowBox[{"i", ".", "e", ".", " ", 
+       RowBox[{"@", "Partcipants"}]}], " ", "etc", " ", "are", " ", 
+      "found"}]}], "*)"}], "\[IndentingNewLine]", 
+   RowBox[{
+   "printCurrentTask", "[", "\"\<Checking the preambles, i.e. @Blah\>\"", 
+    "]"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"preamblesRequired", "=", 
+     RowBox[{"{", 
+      RowBox[{
+      "\"\<@Unicode\>\"", ",", "\"\<@Begin\>\"", ",", "\"\<@Languages\>\"", 
+       ",", "\"\<@Participants\>\"", ",", "\"\<@ID\>\"", ",", "\"\<@Date\>\"",
+        ",", "\"\<@Location\>\"", ",", "\"\<@Comment\>\"", ",", 
+       "\"\<@Start\>\"", ",", "\"\<@End\>\""}], "}"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"preamblesRequiredCheck", "[", 
+      RowBox[{"[", "VS", "]"}], "]"}], "=", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{
+          RowBox[{
+           RowBox[{"Length", "[", 
+            RowBox[{"StringPosition", "[", 
+             RowBox[{
+              RowBox[{"transcripts", "[", 
+               RowBox[{"[", "n", "]"}], "]"}], ",", "#"}], "]"}], "]"}], 
+           "\[NotEqual]", "0"}], "&"}], "/@", "preamblesRequired"}], ")"}], 
+       ",", 
+       RowBox[{"{", 
+        RowBox[{"n", ",", "VS"}], "}"}]}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"preamblesRequiredCheckSum", "[", 
+      RowBox[{"[", "VS", "]"}], "]"}], "=", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{"And", "@@", 
+        RowBox[{"preamblesRequiredCheck", "[", 
+         RowBox[{"[", "n", "]"}], "]"}]}], ",", 
+       RowBox[{"{", 
+        RowBox[{"n", ",", "VS"}], "}"}]}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"NoError", "[", 
+      RowBox[{"[", "3", "]"}], "]"}], "=", "True"}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"fpreamblesRequiredCheck", "[", "n_", "]"}], ":=", 
+    RowBox[{"If", "[", 
+     RowBox[{
+      RowBox[{"!", 
+       RowBox[{"preamblesRequiredCheckSum", "[", 
+        RowBox[{"[", "n", "]"}], "]"}]}], ",", "\[IndentingNewLine]", 
+      RowBox[{"Module", "[", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"localPreamblesRequiredCheck", "=", 
+          RowBox[{"preamblesRequiredCheck", "[", 
+           RowBox[{"[", "n", "]"}], "]"}]}], "}"}], ",", 
+        "\[IndentingNewLine]", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"NoError", "[", 
+           RowBox[{"[", "3", "]"}], "]"}], "=", "False"}], ";", 
+         "\[IndentingNewLine]", 
+         RowBox[{"printError", "[", 
+          RowBox[{"n", ",", "3"}], "]"}], ";", "\[IndentingNewLine]", 
+         RowBox[{"Do", "[", 
+          RowBox[{
+           RowBox[{"!", 
+            RowBox[{"If", "[", 
+             RowBox[{
+              RowBox[{"!", 
+               RowBox[{"localPreamblesRequiredCheck", "[", 
+                RowBox[{"[", "i", "]"}], "]"}]}], ",", 
+              RowBox[{"log", "[", 
+               RowBox[{"n", ",", 
+                RowBox[{"\"\<\\t\>\"", "<>", 
+                 RowBox[{"preamblesRequired", "[", 
+                  RowBox[{"[", "i", "]"}], "]"}], "<>", 
+                 "\"\< is missing.\>\""}], ",", "1"}], "]"}]}], "]"}]}], ",", 
+           
+           RowBox[{"{", 
+            RowBox[{"i", ",", "1", ",", 
+             RowBox[{"Length", "[", "preamblesRequired", "]"}]}], "}"}]}], 
+          "]"}], ";", "\[IndentingNewLine]", 
+         RowBox[{"log", "[", 
+          RowBox[{"n", ",", "\"\<\>\"", ",", "1"}], "]"}]}]}], 
+       "\[IndentingNewLine]", "]"}]}], "\[IndentingNewLine]", "]"}]}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"fpreamblesRequiredCheck", "/@", "VS"}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{"abortOrContinue", "[", "3", "]"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"AppendTo", "[", 
+     RowBox[{"timing", ",", 
+      RowBox[{"{", 
+       RowBox[{"\"\<After Error 3, before processing text\>\"", ",", 
+        RowBox[{
+         RowBox[{"AbsoluteTime", "[", "]"}], "-", "startTime"}]}], "}"}]}], 
+     "]"}], ";"}], "\[IndentingNewLine]", 
+   StyleBox[
+    RowBox[{"(*", 
+     RowBox[{"Expanding", " ", "Repetitions"}], "*)"}], "Subsection"], 
+   "\[IndentingNewLine]", 
+   RowBox[{"(*", 
+    RowBox[{
+     RowBox[{
+      RowBox[{
+      "Process", " ", "block", " ", "repetitions", " ", "first", " ", 
+       RowBox[{"e", ".", "g", ".", " ", "those"}], " ", "in"}], " ", "<", 
+      "blah", ">"}], ",", " ", 
+     RowBox[{"expand", " ", "to", " ", "repeat", " ", "literally"}]}], "*)"}],
+    "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"expandBlockRepetition", "[", "text_", "]"}], ":=", 
+    RowBox[{"StringReplace", "[", 
+     RowBox[{"text", ",", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"Shortest", "[", 
+          RowBox[{"\"\<<\>\"", "~~", 
+           RowBox[{"x", ":", "__"}], "~~", "\"\<>\>\""}], "]"}], "~~", 
+         "\"\< \>\"", "~~", "\"\<[x \>\"", "~~", 
+         RowBox[{"y", ":", 
+          RowBox[{"DigitCharacter", ".."}]}], "~~", "\"\<]\>\""}], ":>", 
+        RowBox[{"StringRiffle", "[", 
+         RowBox[{
+          RowBox[{"ConstantArray", "[", 
+           RowBox[{"x", ",", 
+            RowBox[{"ToExpression", "[", "y", "]"}]}], "]"}], ",", 
+          "\"\< \>\""}], "]"}]}], "}"}]}], "]"}]}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"transcriptLines", "[", 
+      RowBox[{"[", "VS", "]"}], "]"}], "=", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{"Table", "[", 
+        RowBox[{
+         RowBox[{"If", "[", 
+          RowBox[{
+           RowBox[{
+            RowBox[{"transcriptCommands", "[", 
+             RowBox[{"[", 
+              RowBox[{"n", ",", "i"}], "]"}], "]"}], "\[Equal]", 
+            "\"\<*\>\""}], ",", 
+           RowBox[{"expandBlockRepetition", "[", 
+            RowBox[{"transcriptLines", "[", 
+             RowBox[{"[", 
+              RowBox[{"n", ",", "i"}], "]"}], "]"}], "]"}], ",", 
+           RowBox[{"transcriptLines", "[", 
+            RowBox[{"[", 
+             RowBox[{"n", ",", "i"}], "]"}], "]"}]}], "]"}], ",", 
+         RowBox[{"{", 
+          RowBox[{"i", ",", "1", ",", 
+           RowBox[{"Length", "[", 
+            RowBox[{"transcriptLines", "[", 
+             RowBox[{"[", "n", "]"}], "]"}], "]"}]}], "}"}]}], "]"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"n", ",", "VS"}], "}"}]}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{"(*", 
+    RowBox[{
+    "Process", " ", "single", " ", "word", " ", "repetitions", " ", "expand", 
+     " ", "to", " ", "repeat", " ", "literally"}], "*)"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"expandSingleWordRepetition", "[", "text_", "]"}], ":=", 
+    RowBox[{"StringReplace", "[", 
+     RowBox[{"text", ",", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"x", ":", 
+          RowBox[{
+           RowBox[{"{", 
+            RowBox[{
+             RowBox[{"Characters", "[", "\"\<&='\>\"", "]"}], ",", 
+             "LetterCharacter", ",", "DigitCharacter"}], "}"}], ".."}]}], 
+         "~~", "\"\< \>\"", "~~", "\"\<[x \>\"", "~~", 
+         RowBox[{"y", ":", 
+          RowBox[{"DigitCharacter", ".."}]}], "~~", "\"\<]\>\""}], ":>", 
+        RowBox[{"StringRiffle", "[", 
+         RowBox[{
+          RowBox[{"ConstantArray", "[", 
+           RowBox[{"x", ",", 
+            RowBox[{"ToExpression", "[", "y", "]"}]}], "]"}], ",", 
+          "\"\< \>\""}], "]"}]}], "}"}]}], "]"}]}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"transcriptLines", "[", 
+      RowBox[{"[", "VS", "]"}], "]"}], "=", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{"Table", "[", 
+        RowBox[{
+         RowBox[{"If", "[", 
+          RowBox[{
+           RowBox[{
+            RowBox[{"transcriptCommands", "[", 
+             RowBox[{"[", 
+              RowBox[{"n", ",", "i"}], "]"}], "]"}], "\[Equal]", 
+            "\"\<*\>\""}], ",", 
+           RowBox[{"expandSingleWordRepetition", "[", 
+            RowBox[{"transcriptLines", "[", 
+             RowBox[{"[", 
+              RowBox[{"n", ",", "i"}], "]"}], "]"}], "]"}], ",", 
+           RowBox[{"transcriptLines", "[", 
+            RowBox[{"[", 
+             RowBox[{"n", ",", "i"}], "]"}], "]"}]}], "]"}], ",", 
+         RowBox[{"{", 
+          RowBox[{"i", ",", "1", ",", 
+           RowBox[{"Length", "[", 
+            RowBox[{"transcriptLines", "[", 
+             RowBox[{"[", "n", "]"}], "]"}], "]"}]}], "}"}]}], "]"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"n", ",", "VS"}], "}"}]}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"AppendTo", "[", 
+     RowBox[{"timing", ",", 
+      RowBox[{"{", 
+       RowBox[{
+       "\"\<After Error 3, during processing text, after expansion, before \
+replacing unwanted syntax\>\"", ",", 
+        RowBox[{
+         RowBox[{"AbsoluteTime", "[", "]"}], "-", "startTime"}]}], "}"}]}], 
+     "]"}], ";"}], "\[IndentingNewLine]", 
+   StyleBox[
+    RowBox[{"(*", 
+     RowBox[{"Remove", " ", "unwanted", " ", "syntaxs"}], "*)"}], 
+    "Subsection"], "\[IndentingNewLine]", 
+   RowBox[{"(*", 
+    RowBox[{
+     RowBox[{
+      RowBox[{
+       RowBox[{
+        RowBox[{"List", " ", "of", " ", "Unwanted", " ", 
+         RowBox[{"Syntax", ":", " ", 
+          RowBox[{
+           RowBox[{
+            RowBox[{"(", "1", ")"}], " ", "[", 
+            RowBox[{"x", " ", "2"}], "]"}], "     ", 
+           RowBox[{"(", "2", ")"}]}]}]}], " ", "&"}], "blah", "     ", 
+       RowBox[{"(", "3", ")"}]}], " ", "&"}], "=", 
+     RowBox[{
+      RowBox[{"blah", "     ", 
+       RowBox[{"(", "4", ")"}], " ", "change"}], " ", "<", "blah", ">", " ", 
+      RowBox[{"to", " ", "blah", "     ", 
+       RowBox[{
+        RowBox[{"(", "5", ")"}], " ", "[", 
+        RowBox[{":", "blah"}], "]"}], "   ", 
+       RowBox[{"(", "6", ")"}], " ", "remove", " ", "comma", "    ", 
+       RowBox[{"(", "7", ")"}], " ", 
+       RowBox[{"remove", " ", "'"}], "blah"}]}]}], " ", "*)"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"removalSubstitutionTable", "=", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"\"\<[x \>\"", "~~", "DigitCharacter", "~~", "\"\<]\>\""}], 
+         ",", "\"\<\>\"", ",", "\"\<\>\""}], "}"}], ",", 
+       "\[IndentingNewLine]", 
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"Shortest", "[", 
+          RowBox[{"\"\<<\>\"", "~~", 
+           RowBox[{"x", ":", "__"}], "~~", "\"\<>\>\""}], "]"}], ",", "x", 
+         ",", "\"\<\>\""}], "}"}], ",", "\[IndentingNewLine]", 
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"Shortest", "[", 
+          RowBox[{"\"\<[:\>\"", "~~", "__", "~~", "\"\<]\>\""}], "]"}], ",", 
+         "\"\<\>\"", ",", "\"\<\>\""}], "}"}], ",", "\[IndentingNewLine]", 
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"Shortest", "[", 
+          RowBox[{"\"\<[-\>\"", "~~", 
+           RowBox[{"LetterCharacter", ".."}], "~~", "\"\<]\>\""}], "]"}], 
+         ",", "\"\<\>\"", ",", "\"\<\>\""}], "}"}], ",", 
+       "\[IndentingNewLine]", 
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"\"\<&\>\"", "~~", 
+          RowBox[{
+           RowBox[{"{", 
+            RowBox[{"\"\<:\>\"", ",", "LetterCharacter"}], "}"}], ".."}]}], 
+         ",", "\"\<\>\"", ",", "\"\<\>\""}], "}"}], ",", 
+       "\[IndentingNewLine]", 
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"\"\<&=\>\"", "~~", 
+          RowBox[{
+           RowBox[{"{", 
+            RowBox[{"\"\<:\>\"", ",", "LetterCharacter"}], "}"}], ".."}]}], 
+         ",", "\"\<\>\"", ",", "\"\<These sounds are not processed\>\""}], 
+        "}"}], ",", "\[IndentingNewLine]", 
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"\"\<@\>\"", "~~", 
+          RowBox[{
+           RowBox[{"{", 
+            RowBox[{"\"\<:\>\"", ",", "LetterCharacter"}], "}"}], "..."}]}], 
+         ",", "\"\<\>\"", ",", "\"\<\>\""}], "}"}], ",", 
+       "\[IndentingNewLine]", 
+       RowBox[{"{", 
+        RowBox[{"\"\<,\>\"", ",", "\"\<\>\"", ",", "\"\<\>\""}], "}"}], ",", 
+       "\[IndentingNewLine]", 
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"\"\<(\>\"", "~~", 
+          RowBox[{"x", ":", 
+           RowBox[{"Shortest", "[", "__", "]"}]}], "~~", "\"\<)\>\""}], ",", 
+         "x", ",", "\"\<\>\""}], "}"}], ",", "\[IndentingNewLine]", 
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"\"\<[- \>\"", "~~", 
+          RowBox[{"Shortest", "[", "__", "]"}], "~~", "\"\<]\>\""}], ",", 
+         "\"\<\>\"", ",", "\"\<[+ lang] is currently not supported\>\""}], 
+        "}"}], ",", "\[IndentingNewLine]", 
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"\"\<[- \>\"", "~~", 
+          RowBox[{"Shortest", "[", "__", "]"}], "~~", "\"\<]\>\""}], ",", 
+         "\"\<\>\"", ",", "\"\<[+ bch] is currently ignored\>\""}], "}"}]}], 
+      "}"}]}], ";", " ", 
+    RowBox[{"(*", 
+     RowBox[{
+      RowBox[{"Format", ":", " ", 
+       RowBox[{"on", " ", "each", " ", "line"}]}], ",", " ", 
+      RowBox[{"#1", " ", "is", " ", "substituted", " ", "by", " ", "#2"}], 
+      ",", " ", 
+      RowBox[{
+      "#3", " ", "is", " ", "the", " ", "additional", " ", "information", " ",
+        "attached", " ", "in", " ", "the", " ", "export", " ", "log"}]}], 
+     "*)"}], "\[IndentingNewLine]", 
+    RowBox[{
+     RowBox[{"removeUnwantedText", "[", "text_", "]"}], ":=", 
+     RowBox[{"StringReplace", "[", 
+      RowBox[{"text", ",", 
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"#1", "\[Rule]", "#2"}], "&"}], "@@@", 
+         "removalSubstitutionTable"}], ")"}]}], "]"}]}]}], 
+   "\[IndentingNewLine]", 
+   RowBox[{"Do", "[", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"transcriptLines", "[", 
+       RowBox[{"[", 
+        RowBox[{
+         RowBox[{"VS", "[", 
+          RowBox[{"[", "n", "]"}], "]"}], ",", 
+         RowBox[{"utteranceLines", "[", 
+          RowBox[{"[", 
+           RowBox[{"VS", "[", 
+            RowBox[{"[", "n", "]"}], "]"}], "]"}], "]"}]}], "]"}], "]"}], "=", 
+      RowBox[{"StringSplit", "[", 
+       RowBox[{
+        RowBox[{"removeUnwantedText", "[", 
+         RowBox[{"StringRiffle", "[", 
+          RowBox[{
+           RowBox[{"transcriptLines", "[", 
+            RowBox[{"[", 
+             RowBox[{
+              RowBox[{"VS", "[", 
+               RowBox[{"[", "n", "]"}], "]"}], ",", 
+              RowBox[{"utteranceLines", "[", 
+               RowBox[{"[", 
+                RowBox[{"VS", "[", 
+                 RowBox[{"[", "n", "]"}], "]"}], "]"}], "]"}]}], "]"}], "]"}],
+            ",", "\"\<\\n\>\""}], "]"}], "]"}], ",", "\"\<\\n\>\""}], "]"}]}],
+      ",", 
+     RowBox[{"{", 
+      RowBox[{"n", ",", 
+       RowBox[{"Length", "[", "VS", "]"}]}], "}"}]}], "]"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{"Do", "[", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"transcriptLines", "[", 
+       RowBox[{"[", 
+        RowBox[{
+         RowBox[{"VS", "[", 
+          RowBox[{"[", "n", "]"}], "]"}], ",", 
+         RowBox[{"utteranceLines", "[", 
+          RowBox[{"[", 
+           RowBox[{"VS", "[", 
+            RowBox[{"[", "n", "]"}], "]"}], "]"}], "]"}]}], "]"}], "]"}], "=", 
+      RowBox[{"StringSplit", "[", 
+       RowBox[{
+        RowBox[{"removeUnwantedText", "[", 
+         RowBox[{"StringRiffle", "[", 
+          RowBox[{
+           RowBox[{"transcriptLines", "[", 
+            RowBox[{"[", 
+             RowBox[{
+              RowBox[{"VS", "[", 
+               RowBox[{"[", "n", "]"}], "]"}], ",", 
+              RowBox[{"utteranceLines", "[", 
+               RowBox[{"[", 
+                RowBox[{"VS", "[", 
+                 RowBox[{"[", "n", "]"}], "]"}], "]"}], "]"}]}], "]"}], "]"}],
+            ",", "\"\<\\n\>\""}], "]"}], "]"}], ",", "\"\<\\n\>\""}], "]"}]}],
+      ",", 
+     RowBox[{"{", 
+      RowBox[{"n", ",", 
+       RowBox[{"Length", "[", "VS", "]"}]}], "}"}]}], "]"}], " ", 
+   RowBox[{"(*", 
+    RowBox[{"Remove", " ", "for", " ", "a", " ", "second", " ", "time"}], 
+    "*)"}], "\[IndentingNewLine]", 
+   RowBox[{"(*", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"transcriptLines", "[", 
+       RowBox[{"[", "VS", "]"}], "]"}], "=", 
+      RowBox[{"Table", "[", 
+       RowBox[{
+        RowBox[{"Table", "[", 
+         RowBox[{
+          RowBox[{"If", "[", 
+           RowBox[{
+            RowBox[{
+             RowBox[{"transcriptCommands", "[", 
+              RowBox[{"[", 
+               RowBox[{"n", ",", "i"}], "]"}], "]"}], "\[Equal]", 
+             "\"\<*\>\""}], ",", 
+            RowBox[{"removeUnwantedText", "[", 
+             RowBox[{"transcriptLines", "[", 
+              RowBox[{"[", 
+               RowBox[{"n", ",", "i"}], "]"}], "]"}], "]"}], ",", 
+            RowBox[{"transcriptLines", "[", 
+             RowBox[{"[", 
+              RowBox[{"n", ",", "i"}], "]"}], "]"}]}], "]"}], ",", 
+          RowBox[{"{", 
+           RowBox[{"i", ",", "1", ",", 
+            RowBox[{"Length", "[", 
+             RowBox[{"transcriptLines", "[", 
+              RowBox[{"[", "n", "]"}], "]"}], "]"}]}], "}"}]}], "]"}], ",", 
+        RowBox[{"{", 
+         RowBox[{"n", ",", "VS"}], "}"}]}], "]"}]}], ";"}], 
+    "\[IndentingNewLine]", "*)"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"AppendTo", "[", 
+     RowBox[{"timing", ",", 
+      RowBox[{"{", 
+       RowBox[{"\"\<After Error 3, after processing text\>\"", ",", 
+        RowBox[{
+         RowBox[{"AbsoluteTime", "[", "]"}], "-", "startTime"}]}], "}"}]}], 
+     "]"}], ";"}], "\[IndentingNewLine]", 
+   StyleBox[
+    RowBox[{"(*", 
+     RowBox[{"ERROR", " ", "04"}], "*)"}], "Subsection"], 
+   "\[IndentingNewLine]", 
+   RowBox[{"(*", 
+    RowBox[{
+     RowBox[{
+     "Check", " ", "if", " ", "*", "lines", " ", "have", " ", "the", " ", 
+      "correct", " ", "ending"}], ",", " ", 
+     RowBox[{"i", ".", "e", ".", " ", 
+      RowBox[{"!", " ", 
+       RowBox[{"/", " ", 
+        RowBox[{"?", " ", 
+         RowBox[{"/", " ", "."}]}]}]}]}]}], " ", "*)"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+   "printCurrentTask", "[", "\"\<Checking if lines end with ! / ? / *\>\"", 
+    "]"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"correctLineEndingCheck", "[", 
+      RowBox[{"[", "VS", "]"}], "]"}], "=", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{
+          RowBox[{
+           RowBox[{"(", 
+            RowBox[{"!", 
+             RowBox[{"StringMatchQ", "[", 
+              RowBox[{
+               RowBox[{"StringTake", "[", 
+                RowBox[{"#", ",", 
+                 RowBox[{"UpTo", "[", "1", "]"}]}], "]"}], ",", 
+               RowBox[{"Verbatim", "[", "\"\<*\>\"", "]"}]}], "]"}]}], ")"}], 
+           "||", 
+           RowBox[{"StringMatchQ", "[", 
+            RowBox[{
+             RowBox[{"StringTake", "[", 
+              RowBox[{"#", ",", 
+               RowBox[{"-", "1"}]}], "]"}], ",", 
+             RowBox[{"Characters", "[", "\"\<!?.\>\"", "]"}]}], "]"}]}], 
+          "&"}], "/@", 
+         RowBox[{"transcriptLines", "[", 
+          RowBox[{"[", "n", "]"}], "]"}]}], ")"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"n", ",", "VS"}], "}"}]}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{
+      RowBox[{"printErrorMessage", "[", 
+       RowBox[{"#", ",", "correctLineEndingCheck", ",", "4"}], "]"}], "&"}], "/@",
+      "VS"}], ";"}], "\[IndentingNewLine]", 
+   StyleBox[
+    RowBox[{"(*", 
+     RowBox[{"ERROR", " ", "05"}], "*)"}], "Subsection"], 
+   "\[IndentingNewLine]", 
+   RowBox[{"(*", 
+    RowBox[{"Check", " ", "if", " ", "*", "lines", " ", 
+     RowBox[{
+      RowBox[{"have", " ", "!"}], " ", "/", " ", 
+      RowBox[{"?", " ", 
+       RowBox[{
+        RowBox[{"/", " ", 
+         RowBox[{".", " ", "before"}]}], " ", "the", " ", "last", " ", 
+        "character"}]}]}]}], "*)"}], "\[IndentingNewLine]", 
+   RowBox[{
+   "printCurrentTask", "[", 
+    "\"\<Checking if lines contain misplaced ! / ? / * before the last \
+character\>\"", "]"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"multipleLineEndingCheck", "[", 
+      RowBox[{"[", "VS", "]"}], "]"}], "=", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{
+          RowBox[{
+           RowBox[{"(", 
+            RowBox[{"!", 
+             RowBox[{"StringMatchQ", "[", 
+              RowBox[{
+               RowBox[{"StringTake", "[", 
+                RowBox[{"#", ",", 
+                 RowBox[{"UpTo", "[", "1", "]"}]}], "]"}], ",", 
+               RowBox[{"Verbatim", "[", "\"\<*\>\"", "]"}]}], "]"}]}], ")"}], 
+           "||", 
+           RowBox[{"!", 
+            RowBox[{"StringContainsQ", "[", 
+             RowBox[{
+              RowBox[{"StringTake", "[", 
+               RowBox[{"#", ",", 
+                RowBox[{"{", 
+                 RowBox[{"1", ",", 
+                  RowBox[{"-", "2"}]}], "}"}]}], "]"}], ",", 
+              RowBox[{"Characters", "[", "\"\<!?.\>\"", "]"}]}], "]"}]}]}], 
+          "&"}], "/@", 
+         RowBox[{"transcriptLines", "[", 
+          RowBox[{"[", "n", "]"}], "]"}]}], ")"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"n", ",", "VS"}], "}"}]}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{
+      RowBox[{"printErrorMessage", "[", 
+       RowBox[{"#", ",", "multipleLineEndingCheck", ",", "5"}], "]"}], "&"}], 
+     "/@", "VS"}], ";"}], "\[IndentingNewLine]", 
+   StyleBox[
+    RowBox[{"(*", 
+     RowBox[{"ERROR", " ", "06"}], "*)"}], "Subsection"], 
+   "\[IndentingNewLine]", 
+   RowBox[{"(*", 
+    RowBox[{
+    "Check", " ", "if", " ", "*", "lines", " ", "have", " ", "the", " ", 
+     "correct", " ", "partcipant", " ", "label", " ", "and", " ", "tab", " ", 
+     "before", " ", "utterances"}], "*)"}], "\[IndentingNewLine]", 
+   RowBox[{
+   "printCurrentTask", "[", 
+    "\"\<Checking if lines start with the correct partipant label and the tab \
+before utterances, i.e. *MOT: <tab>\>\"", "]"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"participantLabelCheck", "[", 
+      RowBox[{"[", "VS", "]"}], "]"}], "=", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{
+          RowBox[{
+           RowBox[{"(", 
+            RowBox[{"!", 
+             RowBox[{"StringMatchQ", "[", 
+              RowBox[{
+               RowBox[{"StringTake", "[", 
+                RowBox[{"#", ",", 
+                 RowBox[{"UpTo", "[", "1", "]"}]}], "]"}], ",", 
+               RowBox[{"Verbatim", "[", "\"\<*\>\"", "]"}]}], "]"}]}], ")"}], 
+           "||", 
+           RowBox[{"StringContainsQ", "[", 
+            RowBox[{"#", ",", 
+             RowBox[{
+              RowBox[{"Verbatim", "[", "\"\<*\>\"", "]"}], "~~", 
+              RowBox[{"Repeated", "[", 
+               RowBox[{"LetterCharacter", ",", 
+                RowBox[{"{", "3", "}"}]}], "]"}], "~~", "\"\<:\\t\>\""}]}], 
+            "]"}]}], "&"}], "/@", 
+         RowBox[{"transcriptLines", "[", 
+          RowBox[{"[", "n", "]"}], "]"}]}], ")"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"n", ",", "VS"}], "}"}]}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{
+      RowBox[{"printErrorMessage", "[", 
+       RowBox[{"#", ",", "participantLabelCheck", ",", "6"}], "]"}], "&"}], "/@",
+      "VS"}], ";"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"AppendTo", "[", 
+     RowBox[{"timing", ",", 
+      RowBox[{"{", 
+       RowBox[{"\"\<After Error 6, before processing participants\>\"", ",", 
+        RowBox[{
+         RowBox[{"AbsoluteTime", "[", "]"}], "-", "startTime"}]}], "}"}]}], 
+     "]"}], ";"}], "\[IndentingNewLine]", 
+   StyleBox[
+    RowBox[{"(*", 
+     RowBox[{"Checking", " ", "Word", " ", "Syntax", " ", 
+      RowBox[{"(", 
+       RowBox[{"Error", " ", "07", " ", "to", " ", "09"}], ")"}]}], "*)"}], 
+    "Chapter"], "\[IndentingNewLine]", 
+   StyleBox[
+    RowBox[{"(*", 
+     RowBox[{"Extract", " ", "the", " ", "participants"}], "*)"}], 
+    "Subsection"], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"transcriptLines", "=", 
+     RowBox[{"StringTrim", "/@", "transcriptLines"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"transcriptLineParticipants", "[", 
+      RowBox[{"[", "VS", "]"}], "]"}], "=", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"First", "[", 
+           RowBox[{
+            RowBox[{"StringCases", "[", 
+             RowBox[{"#", ",", 
+              RowBox[{
+               RowBox[{
+                RowBox[{"Verbatim", "[", "\"\<*\>\"", "]"}], "~~", 
+                RowBox[{"x", ":", 
+                 RowBox[{"Repeated", "[", 
+                  RowBox[{"LetterCharacter", ",", 
+                   RowBox[{"{", "3", "}"}]}], "]"}]}], "~~", 
+                RowBox[{"If", "[", 
+                 RowBox[{"applyLooseSyntax", ",", 
+                  RowBox[{
+                   RowBox[{"\"\<:\>\"", "..."}], "~~", 
+                   RowBox[{"WhitespaceCharacter", "..."}]}], ",", 
+                  RowBox[{"\"\<:\>\"", "~~", "Whitespace"}]}], "]"}]}], 
+               "\[Rule]", "x"}]}], "]"}], ",", "\"\<\>\""}], "]"}], "&"}], "/@", 
+         RowBox[{"transcriptLines", "[", 
+          RowBox[{"[", "n", "]"}], "]"}]}], ")"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"n", ",", "VS"}], "}"}]}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"transcriptUniqueParticipants", "[", 
+      RowBox[{"[", "VS", "]"}], "]"}], "=", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{"Sort", "[", 
+        RowBox[{"DeleteDuplicates", "[", 
+         RowBox[{"Flatten", "[", 
+          RowBox[{"(", 
+           RowBox[{
+            RowBox[{
+             RowBox[{"StringCases", "[", 
+              RowBox[{"#", ",", 
+               RowBox[{
+                RowBox[{
+                 RowBox[{"Verbatim", "[", "\"\<*\>\"", "]"}], "~~", 
+                 RowBox[{"x", ":", 
+                  RowBox[{"Repeated", "[", 
+                   RowBox[{"LetterCharacter", ",", 
+                    RowBox[{"{", "3", "}"}]}], "]"}]}], "~~", "\"\<:\>\"", "~~",
+                  "Whitespace"}], "\[Rule]", "x"}]}], "]"}], "&"}], "/@", 
+            RowBox[{"transcriptLines", "[", 
+             RowBox[{"[", "n", "]"}], "]"}]}], ")"}], "]"}], "]"}], "]"}], 
+       ",", 
+       RowBox[{"{", 
+        RowBox[{"n", ",", "VS"}], "}"}]}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"transcriptUniqueNonChildParticipants", "[", 
+      RowBox[{"[", "VS", "]"}], "]"}], "=", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"SortBy", "[", 
+         RowBox[{
+          RowBox[{"Tally", "[", 
+           RowBox[{
+            RowBox[{"transcriptLineParticipants", "[", 
+             RowBox[{"[", "n", "]"}], "]"}], "/.", 
+            RowBox[{"{", 
+             RowBox[{
+              RowBox[{"\"\<CHI\>\"", "\[Rule]", "Nothing"}], ",", 
+              RowBox[{"\"\<\>\"", "\[Rule]", "Nothing"}]}], "}"}]}], "]"}], 
+          ",", "Last"}], "]"}], "\[LeftDoubleBracket]", 
+        RowBox[{
+         RowBox[{"-", "1"}], ",", "1"}], "\[RightDoubleBracket]"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"n", ",", "VS"}], "}"}]}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"AppendTo", "[", 
+     RowBox[{"timing", ",", 
+      RowBox[{"{", 
+       RowBox[{"\"\<After Error 6, after processing participants\>\"", ",", 
+        RowBox[{
+         RowBox[{"AbsoluteTime", "[", "]"}], "-", "startTime"}]}], "}"}]}], 
+     "]"}], ";"}], "\[IndentingNewLine]", 
+   StyleBox[
+    RowBox[{"(*", 
+     RowBox[{"ERROR", " ", "07"}], "*)"}], "Subsection"], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+   "printCurrentTask", "[", 
+    "\"\<Checking if the transcripts have only one non-child partipant.\>\"", 
+    "]"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"participantNumberCheck", "[", 
+      RowBox[{"[", "VS", "]"}], "]"}], "=", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{
+          RowBox[{
+           RowBox[{"(", 
+            RowBox[{"StringMatchQ", "[", 
+             RowBox[{"#", ",", "\"\<\>\""}], "]"}], ")"}], "||", 
+           RowBox[{"StringMatchQ", "[", 
+            RowBox[{"#", ",", 
+             RowBox[{"Append", "[", 
+              RowBox[{
+               RowBox[{"{", 
+                RowBox[{"First", "[", 
+                 RowBox[{
+                  RowBox[{"Cases", "[", 
+                   RowBox[{
+                    RowBox[{"transcriptUniqueParticipants", "[", 
+                    RowBox[{"[", "n", "]"}], "]"}], ",", 
+                    RowBox[{"Except", "[", "\"\<CHI\>\"", "]"}]}], "]"}], 
+                  ",", "\"\<ERROR\>\""}], "]"}], "}"}], ",", "\"\<CHI\>\""}], 
+              "]"}]}], "]"}]}], "&"}], "/@", 
+         RowBox[{"transcriptLineParticipants", "[", 
+          RowBox[{"[", "n", "]"}], "]"}]}], ")"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"n", ",", "VS"}], "}"}]}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{
+      RowBox[{"printErrorMessage", "[", 
+       RowBox[{"#", ",", "participantNumberCheck", ",", "7"}], "]"}], "&"}], "/@",
+      "VS"}], ";"}], "\[IndentingNewLine]", 
+   StyleBox[
+    RowBox[{"(*", 
+     RowBox[{"Extract", " ", "the", " ", "Utterances"}], "*)"}], "Subsection"],
+    "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"transcriptUtterances", "[", 
+      RowBox[{"[", "VS", "]"}], "]"}], "=", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{"StringReplace", "[", 
+        RowBox[{
+         RowBox[{"StringTrim", "[", 
+          RowBox[{"(", 
+           RowBox[{
+            RowBox[{
+             RowBox[{"StringReplace", "[", 
+              RowBox[{"#", ",", 
+               RowBox[{
+                RowBox[{
+                 RowBox[{"Verbatim", "[", "\"\<*\>\"", "]"}], "~~", 
+                 RowBox[{"Repeated", "[", 
+                  RowBox[{"LetterCharacter", ",", 
+                   RowBox[{"{", "3", "}"}]}], "]"}], "~~", "\"\<:\>\"", "~~", 
+                 
+                 RowBox[{"If", "[", 
+                  RowBox[{"applyLooseSyntax", ",", 
+                   RowBox[{"WhitespaceCharacter", "..."}], ",", 
+                   "Whitespace"}], "]"}]}], "\[Rule]", "\"\<\>\""}]}], "]"}], 
+             "&"}], "/@", 
+            RowBox[{"transcriptLines", "[", 
+             RowBox[{"[", "n", "]"}], "]"}]}], ")"}], "]"}], ",", 
+         RowBox[{
+          RowBox[{"Characters", "[", "\"\<.?!\>\"", "]"}], "\[Rule]", 
+          "\"\<\>\""}]}], "]"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"n", ",", "VS"}], "}"}]}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"transcriptUtterances", "[", 
+      RowBox[{"[", "VS", "]"}], "]"}], "=", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{
+        RowBox[{
+         RowBox[{"If", "[", 
+          RowBox[{
+           RowBox[{
+            RowBox[{"transcriptCommands", "[", 
+             RowBox[{"[", 
+              RowBox[{"n", ",", "#"}], "]"}], "]"}], "\[Equal]", 
+            "\"\<*\>\""}], ",", 
+           RowBox[{"transcriptUtterances", "[", 
+            RowBox[{"[", 
+             RowBox[{"n", ",", "#"}], "]"}], "]"}], ",", "\"\<\>\""}], "]"}], 
+         "&"}], "/@", 
+        RowBox[{"Range", "[", 
+         RowBox[{"Length", "[", 
+          RowBox[{"transcriptCommands", "[", 
+           RowBox[{"[", "n", "]"}], "]"}], "]"}], "]"}]}], ",", 
+       RowBox[{"{", 
+        RowBox[{"n", ",", "VS"}], "}"}]}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   StyleBox[
+    RowBox[{"(*", 
+     RowBox[{
+     "Split", " ", "the", " ", "utterances", " ", "into", " ", "words"}], 
+     "*)"}], "Subsection"], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"transcriptWords", "[", 
+      RowBox[{"[", "VS", "]"}], "]"}], "=", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{
+        RowBox[{
+         RowBox[{"StringTrim", "[", 
+          RowBox[{"StringSplit", "[", 
+           RowBox[{"#", ",", 
+            RowBox[{"{", 
+             RowBox[{"Whitespace", ",", "\"\<'\>\"", ",", "\"\<-\>\""}], 
+             "}"}]}], "]"}], "]"}], "&"}], "/@", 
+        RowBox[{"transcriptUtterances", "[", 
+         RowBox[{"[", "n", "]"}], "]"}]}], ",", 
+       RowBox[{"{", 
+        RowBox[{"n", ",", "VS"}], "}"}]}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"AppendTo", "[", 
+     RowBox[{"timing", ",", 
+      RowBox[{"{", 
+       RowBox[{"\"\<After Error 7 and extracting words\>\"", ",", 
+        RowBox[{
+         RowBox[{"AbsoluteTime", "[", "]"}], "-", "startTime"}]}], "}"}]}], 
+     "]"}], ";"}], "\[IndentingNewLine]", 
+   StyleBox[
+    RowBox[{"(*", 
+     RowBox[{"ERROR", " ", "08"}], "*)"}], "Subsection"], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+   "printCurrentTask", "[", 
+    "\"\<Checking for unidentified control sequences.\>\"", "]"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"unidentifiedSequencesCheck", "[", 
+      RowBox[{"[", "VS", "]"}], "]"}], "=", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{
+        RowBox[{
+         RowBox[{"(", 
+          RowBox[{"And", "@@", 
+           RowBox[{"(", 
+            RowBox[{
+             RowBox[{
+              RowBox[{"StringMatchQ", "[", 
+               RowBox[{"#", ",", 
+                RowBox[{"{", 
+                 RowBox[{
+                  RowBox[{
+                   RowBox[{
+                   "Characters", "[", "\"\<abcdefghijklmnopqrstuvwxyz\>\"", 
+                    "]"}], ".."}], ",", 
+                  RowBox[{
+                   RowBox[{
+                    RowBox[{
+                    "Characters", "[", "\"\<abcdefghijklmnopqrstuvwxyz\>\"", 
+                    "]"}], ".."}], "~~", "DigitCharacter"}]}], "}"}]}], "]"}],
+               "&"}], "/@", "#"}], ")"}]}], ")"}], "&"}], "/@", 
+        RowBox[{"transcriptWords", "[", 
+         RowBox[{"[", "n", "]"}], "]"}]}], ",", 
+       RowBox[{"{", 
+        RowBox[{"n", ",", "VS"}], "}"}]}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{
+      RowBox[{"printErrorMessage", "[", 
+       RowBox[{"#", ",", "unidentifiedSequencesCheck", ",", "8"}], "]"}], 
+      "&"}], "/@", "VS"}], ";"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"AppendTo", "[", 
+     RowBox[{"timing", ",", 
+      RowBox[{"{", 
+       RowBox[{
+       "\"\<After Error 8, before indexing utterance lines\>\"", ",", 
+        RowBox[{
+         RowBox[{"AbsoluteTime", "[", "]"}], "-", "startTime"}]}], "}"}]}], 
+     "]"}], ";"}], "\[IndentingNewLine]", 
+   StyleBox[
+    RowBox[{"(*", 
+     RowBox[{"Indexing", " ", "Utterance", " ", "Lines"}], "*)"}], 
+    "Subsection"], "\[IndentingNewLine]", 
+   StyleBox[
+    RowBox[{"(*", 
+     RowBox[{
+      RowBox[{"Index", " ", "the", " ", "non"}], "-", 
+      RowBox[{"empty", " ", "utterance", " ", "lines"}]}], "*)"}], "Input"], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"nonEmptyUtteranceLines", "[", 
+      RowBox[{"[", "VS", "]"}], "]"}], "=", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{"Intersection", "[", 
+        RowBox[{
+         RowBox[{"Flatten", "[", 
+          RowBox[{"Position", "[", 
+           RowBox[{
+            RowBox[{
+             RowBox[{
+              RowBox[{"(", 
+               RowBox[{"StringMatchQ", "[", 
+                RowBox[{"#", ",", 
+                 RowBox[{"Verbatim", "[", "\"\<*\>\"", "]"}]}], "]"}], ")"}], 
+              "&"}], "/@", 
+             RowBox[{"transcriptCommands", "[", 
+              RowBox[{"[", "n", "]"}], "]"}]}], ",", "True"}], "]"}], "]"}], 
+         ",", 
+         RowBox[{"Flatten", "[", 
+          RowBox[{"Position", "[", 
+           RowBox[{
+            RowBox[{"Length", "/@", 
+             RowBox[{"transcriptWords", "[", 
+              RowBox[{"[", "n", "]"}], "]"}]}], ",", 
+            RowBox[{"Except", "[", "0", "]"}]}], "]"}], "]"}]}], "]"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"n", ",", "VS"}], "}"}]}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{"(*", 
+    RowBox[{
+     RowBox[{"Index", " ", "the", " ", "non"}], "-", 
+     RowBox[{"child", " ", "participant", " ", "utterance", " ", "lines"}]}], 
+    "*)"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"nonChildParticipantUtteranceLines", "[", 
+      RowBox[{"[", "VS", "]"}], "]"}], "=", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{"Flatten", "[", 
+        RowBox[{"Position", "[", 
+         RowBox[{
+          RowBox[{
+           RowBox[{
+            RowBox[{"(", 
+             RowBox[{"StringMatchQ", "[", 
+              RowBox[{"#", ",", 
+               RowBox[{"transcriptUniqueNonChildParticipants", "[", 
+                RowBox[{"[", "n", "]"}], "]"}]}], "]"}], ")"}], "&"}], "/@", 
+           RowBox[{"transcriptLineParticipants", "[", 
+            RowBox[{"[", "n", "]"}], "]"}]}], ",", "True"}], "]"}], "]"}], 
+       ",", 
+       RowBox[{"{", 
+        RowBox[{"n", ",", "VS"}], "}"}]}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{"(*", 
+    RowBox[{
+     RowBox[{"Index", " ", "the", " ", "non"}], "-", 
+     RowBox[{"empty", " ", "non"}], "-", 
+     RowBox[{"child", " ", "participant", " ", "utterance", " ", "lines"}]}], 
+    "*)"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"nonEmptyNonChildParticipantUtteranceLines", "[", 
+      RowBox[{"[", "VS", "]"}], "]"}], "=", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{"Intersection", "[", 
+        RowBox[{
+         RowBox[{"nonEmptyUtteranceLines", "[", 
+          RowBox[{"[", "n", "]"}], "]"}], ",", 
+         RowBox[{"nonChildParticipantUtteranceLines", "[", 
+          RowBox[{"[", "n", "]"}], "]"}]}], "]"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"n", ",", "VS"}], "}"}]}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   StyleBox[
+    RowBox[{"(*", 
+     RowBox[{
+      RowBox[{"Generate", " ", "Text"}], "-", 
+      RowBox[{"only", " ", "Transcripts", " ", "for", " ", "Analysis"}]}], 
+     "*)"}], "Subsection"], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"textOnlyTranscripts", "[", 
+      RowBox[{"[", "VS", "]"}], "]"}], "=", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{"StringRiffle", "[", 
+        RowBox[{
+         RowBox[{"transcriptWords", "[", 
+          RowBox[{"[", 
+           RowBox[{"n", ",", 
+            RowBox[{"nonEmptyUtteranceLines", "[", 
+             RowBox[{"[", "n", "]"}], "]"}]}], "]"}], "]"}], ",", 
+         RowBox[{"{", 
+          RowBox[{"\"\<\>\"", ",", "\"\<\\n\>\"", ",", "\"\<\>\""}], "}"}], 
+         ",", "\"\< \>\""}], "]"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"n", ",", "VS"}], "}"}]}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"textOnlyTranscriptLines", "[", 
+      RowBox[{"[", "VS", "]"}], "]"}], "=", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{
+        RowBox[{
+         RowBox[{"StringRiffle", "[", 
+          RowBox[{"#", ",", "\"\< \>\""}], "]"}], "&"}], "/@", 
+        RowBox[{"transcriptWords", "[", 
+         RowBox[{"[", 
+          RowBox[{"n", ",", 
+           RowBox[{"nonEmptyUtteranceLines", "[", 
+            RowBox[{"[", "n", "]"}], "]"}]}], "]"}], "]"}]}], ",", 
+       RowBox[{"{", 
+        RowBox[{"n", ",", "VS"}], "}"}]}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"textOnlyTranscriptWords", "[", 
+      RowBox[{"[", "VS", "]"}], "]"}], "=", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{"transcriptWords", "[", 
+        RowBox[{"[", 
+         RowBox[{"n", ",", 
+          RowBox[{"nonEmptyUtteranceLines", "[", 
+           RowBox[{"[", "n", "]"}], "]"}]}], "]"}], "]"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"n", ",", "VS"}], "}"}]}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"textOnlyNonChildTranscripts", "[", 
+      RowBox[{"[", "VS", "]"}], "]"}], "=", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{"StringRiffle", "[", 
+        RowBox[{
+         RowBox[{"transcriptWords", "[", 
+          RowBox[{"[", 
+           RowBox[{"n", ",", 
+            RowBox[{"nonChildParticipantUtteranceLines", "[", 
+             RowBox[{"[", "n", "]"}], "]"}]}], "]"}], "]"}], ",", 
+         RowBox[{"{", 
+          RowBox[{"\"\<\>\"", ",", "\"\<\\n\>\"", ",", "\"\<\>\""}], "}"}], 
+         ",", "\"\< \>\""}], "]"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"n", ",", "VS"}], "}"}]}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"textOnlyNonChildTranscriptLines", "[", 
+      RowBox[{"[", "VS", "]"}], "]"}], "=", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{
+        RowBox[{
+         RowBox[{"StringRiffle", "[", 
+          RowBox[{"#", ",", "\"\< \>\""}], "]"}], "&"}], "/@", 
+        RowBox[{"transcriptWords", "[", 
+         RowBox[{"[", 
+          RowBox[{"n", ",", 
+           RowBox[{"nonChildParticipantUtteranceLines", "[", 
+            RowBox[{"[", "n", "]"}], "]"}]}], "]"}], "]"}]}], ",", 
+       RowBox[{"{", 
+        RowBox[{"n", ",", "VS"}], "}"}]}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"textOnlyNonChildTranscriptWords", "[", 
+      RowBox[{"[", "VS", "]"}], "]"}], "=", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{"transcriptWords", "[", 
+        RowBox[{"[", 
+         RowBox[{"n", ",", 
+          RowBox[{"nonChildParticipantUtteranceLines", "[", 
+           RowBox[{"[", "n", "]"}], "]"}]}], "]"}], "]"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"n", ",", "VS"}], "}"}]}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"AppendTo", "[", 
+     RowBox[{"timing", ",", 
+      RowBox[{"{", 
+       RowBox[{"\"\<After Error 8, after indexing utterance lines\>\"", ",", 
+        RowBox[{
+         RowBox[{"AbsoluteTime", "[", "]"}], "-", "startTime"}]}], "}"}]}], 
+     "]"}], ";"}], "\[IndentingNewLine]", 
+   StyleBox[
+    RowBox[{"(*", 
+     RowBox[{"ERROR", " ", "09"}], "*)"}], "Subsection"], 
+   "\[IndentingNewLine]", 
+   RowBox[{"(*", 
+    RowBox[{
+     RowBox[{
+     "Check", " ", "if", " ", "the", " ", "transcripts", " ", "are", " ", 
+      "too", " ", "short"}], ",", " ", 
+     RowBox[{
+      RowBox[{"i", ".", "e", ".", " ", "shorter"}], " ", "than", " ", "the", 
+      " ", "TTRSAMPLESIZE"}]}], "*)"}], "\[IndentingNewLine]", 
+   RowBox[{
+   "printCurrentTask", "[", 
+    "\"\<Checking if the transcripts are too short, i.e. Shorter than \
+TTRSAMPLESIZE\>\"", "]"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"lengthCheck", "[", 
+      RowBox[{"[", "VS", "]"}], "]"}], "=", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"Length", "[", 
+         RowBox[{"Flatten", "[", 
+          RowBox[{"transcriptWords", "[", 
+           RowBox[{"[", "n", "]"}], "]"}], "]"}], "]"}], "\[GreaterEqual]", 
+        "TTRSAMPLESIZE"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"n", ",", "VS"}], "}"}]}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"NoError", "[", 
+      RowBox[{"[", "9", "]"}], "]"}], "=", "True"}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"fLengthCheck", "[", "n_", "]"}], ":=", 
+    RowBox[{"If", "[", 
+     RowBox[{
+      RowBox[{"!", 
+       RowBox[{"lengthCheck", "[", 
+        RowBox[{"[", "n", "]"}], "]"}]}], ",", "\[IndentingNewLine]", 
+      RowBox[{"Module", "[", 
+       RowBox[{
+        RowBox[{"{", "}"}], ",", "\[IndentingNewLine]", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"NoError", "[", 
+           RowBox[{"[", "9", "]"}], "]"}], "=", "False"}], ";", 
+         "\[IndentingNewLine]", 
+         RowBox[{"printError", "[", 
+          RowBox[{"n", ",", "9"}], "]"}], ";", "\[IndentingNewLine]", 
+         RowBox[{"log", "[", 
+          RowBox[{"n", ",", "\"\<\>\"", ",", "1"}], "]"}]}]}], 
+       "\[IndentingNewLine]", "]"}]}], "\[IndentingNewLine]", "]"}]}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"fLengthCheck", "/@", "VS"}], ";"}], "\[IndentingNewLine]", 
+   RowBox[{"abortOrContinue", "[", "9", "]"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"AppendTo", "[", 
+     RowBox[{"timing", ",", 
+      RowBox[{"{", 
+       RowBox[{"\"\<After Error 9, before export\>\"", ",", 
+        RowBox[{
+         RowBox[{"AbsoluteTime", "[", "]"}], "-", "startTime"}]}], "}"}]}], 
+     "]"}], ";"}], 
+   StyleBox["\[IndentingNewLine]", "Chapter"], 
+   StyleBox[
+    RowBox[{"(*", 
+     RowBox[{"Export", " ", "Results"}], "*)"}], "Chapter"], 
+   "\[IndentingNewLine]", 
+   RowBox[{"(*", 
+    RowBox[{"Pack", " ", "Common", " ", "Export", " ", "Bundle"}], "*)"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"bundleCommonHeader", "=", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{
+        "\"\<id\>\"", ",", "VSListPrint", ",", "\"\<Reference ID\>\""}], 
+        "}"}], ",", "\[IndentingNewLine]", 
+       RowBox[{"{", 
+        RowBox[{
+        "\"\<file_name\>\"", ",", "transcriptFilesPrint", ",", 
+         "\"\<File Name of the Transcript\>\""}], "}"}]}], "}"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"formatBundleForExport", "[", 
+      RowBox[{"bundle_", ",", "ifFillNA_"}], "]"}], ":=", 
+     RowBox[{"If", "[", 
+      RowBox[{"ifFillNA", ",", "\[IndentingNewLine]", 
+       RowBox[{
+        RowBox[{"Prepend", "[", 
+         RowBox[{
+          RowBox[{"Transpose", "[", 
+           RowBox[{
+            RowBox[{"bundleCommonHeader", "[", 
+             RowBox[{"[", 
+              RowBox[{";;", ",", "2"}], "]"}], "]"}], "~", "Join", "~", 
+            RowBox[{"bundle", "[", 
+             RowBox[{"[", 
+              RowBox[{";;", ",", "2"}], "]"}], "]"}]}], "]"}], ",", 
+          RowBox[{
+           RowBox[{"bundleCommonHeader", "[", 
+            RowBox[{"[", 
+             RowBox[{";;", ",", "1"}], "]"}], "]"}], "~", "Join", "~", 
+           RowBox[{"bundle", "[", 
+            RowBox[{"[", 
+             RowBox[{";;", ",", "1"}], "]"}], "]"}]}]}], "]"}], "/.", 
+        RowBox[{"\"\<\>\"", "\[Rule]", "\"\<na\>\""}]}], ",", 
+       "\[IndentingNewLine]", 
+       RowBox[{"Prepend", "[", 
+        RowBox[{
+         RowBox[{"Transpose", "[", 
+          RowBox[{
+           RowBox[{"bundleCommonHeader", "[", 
+            RowBox[{"[", 
+             RowBox[{";;", ",", "2"}], "]"}], "]"}], "~", "Join", "~", 
+           RowBox[{"bundle", "[", 
+            RowBox[{"[", 
+             RowBox[{";;", ",", "2"}], "]"}], "]"}]}], "]"}], ",", 
+         RowBox[{
+          RowBox[{"bundleCommonHeader", "[", 
+           RowBox[{"[", 
+            RowBox[{";;", ",", "1"}], "]"}], "]"}], "~", "Join", "~", 
+          RowBox[{"bundle", "[", 
+           RowBox[{"[", 
+            RowBox[{";;", ",", "1"}], "]"}], "]"}]}]}], "]"}]}], 
+      "\[IndentingNewLine]", "]"}]}], ";", 
+    RowBox[{"(*", 
+     RowBox[{
+     "This", " ", "adds", " ", "the", " ", "common", " ", "headers", " ", 
+      "as", " ", "well"}], "*)"}], "\[IndentingNewLine]", 
+    RowBox[{
+     RowBox[{"formatBundleForDescriptorExport", "[", "bundle_", "]"}], ":=", 
+     RowBox[{"Prepend", "[", 
+      RowBox[{
+       RowBox[{"Join", "[", 
+        RowBox[{
+         RowBox[{"bundleCommonHeader", "[", 
+          RowBox[{"[", 
+           RowBox[{";;", ",", 
+            RowBox[{"{", 
+             RowBox[{"1", ",", "3"}], "}"}]}], "]"}], "]"}], ",", 
+         RowBox[{"bundle", "[", 
+          RowBox[{"[", 
+           RowBox[{";;", ",", 
+            RowBox[{"{", 
+             RowBox[{"1", ",", "3"}], "}"}]}], "]"}], "]"}]}], "]"}], ",", 
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"Style", "[", 
+          RowBox[{"\"\<Column ID\>\"", ",", "Bold"}], "]"}], ",", 
+         RowBox[{"Style", "[", 
+          RowBox[{"\"\<Column Description\>\"", ",", "Bold"}], "]"}]}], 
+        "}"}]}], "]"}]}], ";"}], 
+   StyleBox["\[IndentingNewLine]", "Subsection"], 
+   RowBox[{
+    RowBox[{"bundleExport", "[", 
+     RowBox[{"bundle_", ",", "resultsFile_", ",", 
+      RowBox[{"resultDescriptorFile_:", "\"\<\>\""}], ",", 
+      RowBox[{"ifExportManual_:", "False"}], ",", 
+      RowBox[{"ifFillNA_:", "False"}]}], "]"}], ":=", 
+    RowBox[{"Module", "[", 
+     RowBox[{
+      RowBox[{"{", "}"}], ",", "\[IndentingNewLine]", 
+      RowBox[{
+       RowBox[{"Export", "[", 
+        RowBox[{"resultsFile", ",", 
+         RowBox[{"formatBundleForExport", "[", 
+          RowBox[{"bundle", ",", "ifFillNA"}], "]"}]}], "]"}], ";", 
+       "\[IndentingNewLine]", 
+       RowBox[{"If", "[", 
+        RowBox[{"ifExportManual", ",", 
+         RowBox[{"Export", "[", 
+          RowBox[{"resultDescriptorFile", ",", 
+           RowBox[{"Grid", "[", 
+            RowBox[{
+             RowBox[{"formatBundleForDescriptorExport", "[", "bundle", "]"}], 
+             ",", 
+             RowBox[{"Background", "\[Rule]", 
+              RowBox[{"{", 
+               RowBox[{"None", ",", 
+                RowBox[{"{", 
+                 RowBox[{"{", 
+                  RowBox[{"White", ",", 
+                   RowBox[{"GrayLevel", "[", "0.9", "]"}]}], "}"}], "}"}]}], 
+               "}"}]}], ",", 
+             RowBox[{"Frame", "\[Rule]", "All"}], ",", 
+             RowBox[{"Spacings", "\[Rule]", 
+              RowBox[{"{", 
+               RowBox[{"1", ",", "1"}], "}"}]}], ",", 
+             RowBox[{"Alignment", "\[Rule]", "Left"}], ",", 
+             RowBox[{"FrameStyle", "\[Rule]", 
+              RowBox[{"Directive", "[", 
+               RowBox[{
+                RowBox[{"Dashing", "[", "1", "]"}], ",", 
+                RowBox[{"Thickness", "[", "1", "]"}], ",", 
+                RowBox[{"GrayLevel", "[", "0.5", "]"}]}], "]"}]}]}], "]"}]}], 
+          "]"}]}], "\[IndentingNewLine]", "]"}], ";", "\[IndentingNewLine]", 
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"Button", "[", 
+          RowBox[{"\"\<Launch Results File\>\"", ",", 
+           RowBox[{"SystemOpen", "[", "resultsFile", "]"}]}], "]"}], ",", 
+         RowBox[{"If", "[", 
+          RowBox[{"ifExportManual", ",", 
+           RowBox[{"Button", "[", 
+            RowBox[{"\"\<Launch Descriptor File\>\"", ",", 
+             RowBox[{"SystemOpen", "[", "resultDescriptorFile", "]"}]}], 
+            "]"}], ",", "Nothing"}], "]"}]}], "}"}]}]}], 
+     "\[IndentingNewLine]", "]"}]}], "\[IndentingNewLine]", 
+   StyleBox[
+    RowBox[{"(*", 
+     RowBox[{"Export", " ", "Error", " ", "Logs"}], "*)"}], "Subsection"], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"errorLogs", "=", 
+     RowBox[{"errorLogs", "/.", 
+      RowBox[{"\"\<\>\"", "\[Rule]", "noErrorMessage"}]}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"transcriptSyntaxIntegrity", "[", 
+      RowBox[{"[", "VS", "]"}], "]"}], "=", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"If", "[", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"errorLogs", "[", 
+           RowBox[{"[", "#", "]"}], "]"}], "\[Equal]", "noErrorMessage"}], 
+         ",", "\"\<TRUE\>\"", ",", "\"\<FALSE\>\""}], "]"}], "&"}], "/@", 
+      "VS"}]}], ";"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"longSeparator", "=", 
+     RowBox[{"StringRepeat", "[", 
+      RowBox[{"\"\<*\>\"", ",", "50"}], "]"}]}], ";"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"printVersionName", "=", 
+     RowBox[{
+     "longSeparator", "<>", 
+      "\"\<\\nGenerated by LEAP LAB chat file checker, version \>\"", "<>", 
+      "VERSIONNUMBER", "<>", 
+      "\"\<\\nOptimised for checking narration transcripts of \\\"Have you \
+seen my ducklings\\\".\\nLimited support for other types of \
+transcripts.\\nDeveloped by Li Yezhou.\\nUpdated \>\"", "<>", "RELEASEDATE", 
+      "<>", "\"\<.\\n\>\"", "<>", "longSeparator", "<>", "\"\<\\n\\n\>\""}]}],
+     ";"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"noErrorMessage", "=", "\"\<No Error Found!\\n\\n\>\""}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"printAllPossibleError", "=", 
+     RowBox[{
+     "\"\<All possible error types currently supported are as follow:\\n\>\"",
+       "<>", 
+      RowBox[{"StringRiffle", "[", 
+       RowBox[{"errorMessageList", ",", "\"\<\\n\>\""}], "]"}]}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"printSubstitutionTable", "=", 
+     RowBox[{"StringReplace", "[", 
+      RowBox[{
+       RowBox[{"StringReplace", "[", 
+        RowBox[{
+         RowBox[{"StringRiffle", "[", 
+          RowBox[{
+           RowBox[{
+            RowBox[{
+             RowBox[{
+              RowBox[{"If", "[", 
+               RowBox[{
+                RowBox[{
+                 RowBox[{"ToString", "[", "#2", "]"}], "\[NotEqual]", 
+                 "\"\<\>\""}], ",", 
+                RowBox[{"\"\<Changed \>\"", "<>", "\"\<\:25ca\>\"", "<>", 
+                 RowBox[{"ToString", "[", "#1", "]"}], "<>", "\"\<\:25ca\>\"",
+                  "<>", "\"\< to \>\"", "<>", "\"\<\:25ca\>\"", "<>", 
+                 RowBox[{"ToString", "[", "#2", "]"}], "<>", 
+                 "\"\<\:25ca\>\""}], ",", 
+                RowBox[{
+                "\"\<Removed all \>\"", "<>", "\"\<\:25ca\>\"", "<>", 
+                 RowBox[{"ToString", "[", "#1", "]"}], "<>", 
+                 "\"\<\:25ca\>\""}]}], "]"}], "<>", "\"\<\\t\\t\>\"", "<>", 
+              "#3"}], "&"}], "@@@", "removalSubstitutionTable"}], ",", 
+           "\"\<\\n\>\""}], "]"}], ",", 
+         RowBox[{"{", 
+          RowBox[{
+           RowBox[{"Shortest", "[", 
+            RowBox[{"\"\<Shortest[\>\"", "~~", 
+             RowBox[{"x", ":", "__"}], "~~", "\"\<]\>\""}], "]"}], "\[Rule]", 
+           "x"}], "}"}]}], "]"}], ",", 
+       RowBox[{"\"\<~\>\"", "\[Rule]", "\"\<\>\""}]}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"Do", "[", 
+     RowBox[{
+      RowBox[{"Module", "[", 
+       RowBox[{
+        RowBox[{"{", "}"}], ",", "\[IndentingNewLine]", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"errorLogFiles", "[", 
+           RowBox[{"[", "n", "]"}], "]"}], "=", 
+          RowBox[{"FileNameJoin", "[", 
+           RowBox[{"{", 
+            RowBox[{"errorLogsFolder", ",", 
+             RowBox[{"If", "[", 
+              RowBox[{"standardExportName", ",", 
+               RowBox[{"\"\<VS\>\"", "<>", 
+                RowBox[{"IntegerString", "[", 
+                 RowBox[{"n", ",", "10", ",", "3"}], "]"}], "<>", 
+                "\"\<_Error_Logs.txt\>\""}], ",", 
+               RowBox[{
+                RowBox[{"transcriptFileBaseNames", "[", 
+                 RowBox[{"[", "n", "]"}], "]"}], "<>", 
+                "\"\<_Error_Logs.txt\>\""}]}], "]"}]}], "}"}], "]"}]}], ";", 
+         "\[IndentingNewLine]", 
+         RowBox[{"Export", "[", 
+          RowBox[{
+           RowBox[{"errorLogFiles", "[", 
+            RowBox[{"[", "n", "]"}], "]"}], ",", 
+           RowBox[{
+           "printVersionName", "<>", 
+            "\"\<*Transcript Information*\\nFile Name:  \>\"", "<>", 
+            RowBox[{"FileNameTake", "[", 
+             RowBox[{"transcriptFilesPrint", "[", 
+              RowBox[{"[", "n", "]"}], "]"}], "]"}], "<>", "\"\<\\n\>\"", 
+            "<>", "\"\<VS Reference Number:  VS\>\"", "<>", 
+            RowBox[{"IntegerString", "[", 
+             RowBox[{"n", ",", "10", ",", "3"}], "]"}], "<>", 
+            "\"\<\\n\\n*Error Information*\\n\>\"", "<>", 
+            RowBox[{"If", "[", 
+             RowBox[{
+              RowBox[{
+               RowBox[{"errorLogs", "[", 
+                RowBox[{"[", "n", "]"}], "]"}], "\[NotEqual]", "\"\<\>\""}], 
+              ",", 
+              RowBox[{"errorLogs", "[", 
+               RowBox[{"[", "n", "]"}], "]"}], ",", "noErrorMessage"}], "]"}],
+             "<>", "\"\<*Appendix 1*\\n\>\"", "<>", "printAllPossibleError", 
+            "<>", "\"\<\\n\\n*Appendix 2*\\n\>\"", "<>", 
+            "\"\<The following transformations have been applied to the \
+transcripts (\:25ca shows string boundary)\\n\>\"", "<>", 
+            "printSubstitutionTable"}]}], "]"}]}]}], "\[IndentingNewLine]", 
+       "]"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"n", ",", "VS"}], "}"}]}], "]"}], ";"}], "\[IndentingNewLine]", 
+   StyleBox[
+    RowBox[{"(*", 
+     RowBox[{"Display", " ", "Timing"}], "*)"}], "Subsection"], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"AppendTo", "[", 
+     RowBox[{"timing", ",", 
+      RowBox[{"{", 
+       RowBox[{"\"\<Finish, after export\>\"", ",", 
+        RowBox[{
+         RowBox[{"AbsoluteTime", "[", "]"}], "-", "startTime"}]}], "}"}]}], 
+     "]"}], ";"}], "\[IndentingNewLine]", 
+   RowBox[{"Grid", "[", 
+    RowBox[{"timing", ",", 
+     RowBox[{"Frame", "\[Rule]", "All"}], ",", 
+     RowBox[{"Alignment", "\[Rule]", "Left"}]}], "]"}], "\[IndentingNewLine]", 
+   StyleBox[
+    RowBox[{"(*", 
+     RowBox[{"Turn", " ", "back", " ", "on", " ", "switches"}], "*)"}], 
+    "Subsection"], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"SetOptions", "[", 
+     RowBox[{"$FrontEnd", ",", 
+      RowBox[{"\"\<DynamicUpdating\>\"", "\[Rule]", "True"}]}], "]"}], 
+    ";"}]}]}]], "Input",
+ CellChangeTimes->{{3.693704848812245*^9, 3.6937048563879747`*^9}, {
+   3.693705180394073*^9, 3.693705219042163*^9}, {3.6937052493904543`*^9, 
+   3.693705305468459*^9}, {3.693705414369897*^9, 3.6937054167744083`*^9}, {
+   3.693705739387856*^9, 3.693705753288501*^9}, {3.693705790487409*^9, 
+   3.6937059385736856`*^9}, {3.693706181059553*^9, 3.6937062136643887`*^9}, {
+   3.693706320429563*^9, 3.693706495474058*^9}, {3.6937076438432217`*^9, 
+   3.693707660143902*^9}, {3.6937080333316298`*^9, 3.6937080563235493`*^9}, {
+   3.693708143535211*^9, 3.693708146606876*^9}, {3.693708278471929*^9, 
+   3.6937082989663677`*^9}, {3.6937085039679737`*^9, 3.693708527622651*^9}, {
+   3.6937086242354593`*^9, 3.6937087743294697`*^9}, {3.693709358506205*^9, 
+   3.69370935895154*^9}, {3.693711533049528*^9, 3.693711542354335*^9}, {
+   3.693711626963163*^9, 3.693711630698283*^9}, {3.693711675800571*^9, 
+   3.693711682367025*^9}, {3.693711831201391*^9, 3.693711832446089*^9}, {
+   3.693712521841543*^9, 3.693712532835787*^9}, {3.693712606897954*^9, 
+   3.693712672967506*^9}, {3.693712741283761*^9, 3.6937127444969873`*^9}, {
+   3.693712778546248*^9, 3.693712780238962*^9}, {3.6937128262532883`*^9, 
+   3.693712854070139*^9}, {3.693713715312015*^9, 3.693713721434688*^9}, {
+   3.693716754844472*^9, 3.693716871524746*^9}, {3.6937169835057907`*^9, 
+   3.693717040131462*^9}, {3.693717651738649*^9, 3.6937176681836967`*^9}, {
+   3.693717831713181*^9, 3.6937178923979073`*^9}, {3.6937179995512733`*^9, 
+   3.693718262664033*^9}, {3.693718299728231*^9, 3.693718312821598*^9}, {
+   3.693718374269765*^9, 3.693718383089142*^9}, {3.693718454600204*^9, 
+   3.6937185072788687`*^9}, {3.693718552490981*^9, 3.6937185758305893`*^9}, {
+   3.693718626637498*^9, 3.693718671624301*^9}, {3.693718709273218*^9, 
+   3.693718847198357*^9}, {3.693718890570369*^9, 3.693718893204856*^9}, {
+   3.693726351095047*^9, 3.693726440470817*^9}, {3.69373111528907*^9, 
+   3.6937311439659033`*^9}, {3.6937312168505383`*^9, 
+   3.6937312683055353`*^9}, {3.6937313974850283`*^9, 3.693731397663892*^9}, 
+   3.6937314756038733`*^9, {3.6937315083269567`*^9, 3.693731530242427*^9}, {
+   3.693731595895454*^9, 3.6937316245550327`*^9}, {3.693731693154655*^9, 
+   3.693731764424849*^9}, {3.693731890005722*^9, 3.6937319972441683`*^9}, {
+   3.693732075430459*^9, 3.69373216963857*^9}, {3.693732200436409*^9, 
+   3.693732617533513*^9}, {3.6937327193278418`*^9, 3.693732756834676*^9}, {
+   3.693732860225877*^9, 3.693732895933381*^9}, 3.693732933778303*^9, {
+   3.693733079357695*^9, 3.693733148266815*^9}, {3.69373337499083*^9, 
+   3.693733395806624*^9}, {3.693733555815103*^9, 3.6937336169863567`*^9}, 
+   3.6937336555226507`*^9, {3.693733716814582*^9, 3.693733723883748*^9}, {
+   3.693733759265812*^9, 3.693733798421543*^9}, {3.693733876650737*^9, 
+   3.693733889584502*^9}, {3.6937344456458406`*^9, 3.6937344552627563`*^9}, {
+   3.6937344855200787`*^9, 3.69373450743591*^9}, {3.6937346802081947`*^9, 
+   3.693734851828807*^9}, {3.693734884354103*^9, 3.6937349565048237`*^9}, {
+   3.693735011779551*^9, 3.693735052360959*^9}, {3.693735087419931*^9, 
+   3.693735111702128*^9}, {3.693735200773978*^9, 3.693735201544525*^9}, {
+   3.693735319811778*^9, 3.6937353230493793`*^9}, {3.6937359745357237`*^9, 
+   3.6937360005321207`*^9}, {3.693736089238097*^9, 3.693736109789791*^9}, {
+   3.69373614351083*^9, 3.693736152590931*^9}, {3.693736193675447*^9, 
+   3.693736195317194*^9}, {3.6937365164985933`*^9, 3.69373661673949*^9}, {
+   3.693736679188065*^9, 3.693736792643909*^9}, {3.6937368409198027`*^9, 
+   3.693736848363443*^9}, {3.6937368880616503`*^9, 3.693736943643384*^9}, {
+   3.693737036776906*^9, 3.69373707304534*^9}, {3.693737217218066*^9, 
+   3.693737221593083*^9}, {3.6937372725488453`*^9, 3.693737331775312*^9}, {
+   3.693737402120306*^9, 3.693737407329483*^9}, {3.6937374970898*^9, 
+   3.6937375149540052`*^9}, {3.693737579296941*^9, 3.693737598981604*^9}, {
+   3.693737650366724*^9, 3.693737652812503*^9}, {3.693737695046523*^9, 
+   3.693737699419828*^9}, 3.694141598819097*^9, {3.6941416575715714`*^9, 
+   3.69414166276552*^9}, {3.69414175211541*^9, 3.6941417526347923`*^9}, {
+   3.694141787603141*^9, 3.69414192114281*^9}, {3.6941420045508633`*^9, 
+   3.694142030194681*^9}, {3.694142129693986*^9, 3.6941421553399076`*^9}, {
+   3.694142225400715*^9, 3.6941422871688643`*^9}, {3.6941424275993643`*^9, 
+   3.694142431844842*^9}, {3.694142712794343*^9, 3.694142720101882*^9}, {
+   3.694142779589369*^9, 3.694142815807147*^9}, {3.694142851610222*^9, 
+   3.694142852698649*^9}, {3.694142915257456*^9, 3.694142983733667*^9}, {
+   3.69414311106408*^9, 3.6941431204730053`*^9}, {3.694143181664711*^9, 
+   3.6941431822680883`*^9}, {3.694143218548409*^9, 3.694143236296734*^9}, {
+   3.694143269771504*^9, 3.6941432842128897`*^9}, {3.694143350509389*^9, 
+   3.6941433927420883`*^9}, {3.6941435835024776`*^9, 3.694143586301032*^9}, {
+   3.694143641936968*^9, 3.6941436706795797`*^9}, {3.694143712128323*^9, 
+   3.694143869922675*^9}, {3.694143918657976*^9, 3.694144116355259*^9}, {
+   3.694144149258863*^9, 3.694144202955785*^9}, {3.6941442705976152`*^9, 
+   3.694144275614011*^9}, {3.694144366780971*^9, 3.694144383917789*^9}, {
+   3.694144553562681*^9, 3.6941447648193417`*^9}, {3.6941447962020283`*^9, 
+   3.6941448062941837`*^9}, {3.694144952947489*^9, 3.694144969023644*^9}, {
+   3.694145006076386*^9, 3.694145061156201*^9}, {3.694145329159191*^9, 
+   3.694145424017014*^9}, {3.694145643184284*^9, 3.6941456640942717`*^9}, {
+   3.694145715314987*^9, 3.694145721495069*^9}, {3.694145937625736*^9, 
+   3.6941460236207314`*^9}, {3.694146166688118*^9, 3.694146169356992*^9}, 
+   3.694146206428508*^9, {3.694146375721479*^9, 3.69414637914501*^9}, 
+   3.6941464914120502`*^9, {3.69414751443545*^9, 3.6941475184115143`*^9}, {
+   3.694147565675858*^9, 3.69414758643015*^9}, {3.694150875318974*^9, 
+   3.694150916744796*^9}, {3.6943228153088217`*^9, 3.69432281871557*^9}, {
+   3.694323319880227*^9, 3.694323320687693*^9}, {3.6943233510856943`*^9, 
+   3.6943233564525967`*^9}, {3.6943235154878807`*^9, 
+   3.6943235389706697`*^9}, {3.694323768781818*^9, 3.6943237924710093`*^9}, 
+   3.6943243359096622`*^9, {3.6943250880301733`*^9, 3.69432510065383*^9}, {
+   3.6943252360117073`*^9, 3.694325239932448*^9}, {3.69432532965831*^9, 
+   3.6943253768776503`*^9}, {3.69432549099125*^9, 3.6943256183549633`*^9}, {
+   3.694767573884186*^9, 3.694767608979814*^9}, {3.694767651415473*^9, 
+   3.694767673843658*^9}, {3.694768147250454*^9, 3.694768159559743*^9}, {
+   3.694768300329776*^9, 3.694768336628056*^9}, {3.694768379349793*^9, 
+   3.694768385829234*^9}, {3.6947684259349813`*^9, 3.6947684599167433`*^9}, {
+   3.694768511598207*^9, 3.694768609627293*^9}, 3.694768896135026*^9, {
+   3.694769420438079*^9, 3.694769422965864*^9}, {3.6947694589882383`*^9, 
+   3.694769476403359*^9}, {3.694769669565855*^9, 3.694769738646017*^9}, {
+   3.6947699266690607`*^9, 3.694769957997325*^9}, {3.6947701489733133`*^9, 
+   3.69477016308176*^9}, {3.6947708403159113`*^9, 3.694770840436195*^9}, {
+   3.694771556602726*^9, 3.694771571352517*^9}, {3.6947716114338827`*^9, 
+   3.6947716767257357`*^9}, {3.694771715946916*^9, 3.694771718385895*^9}, {
+   3.694771865844895*^9, 3.6947718869070377`*^9}, {3.694817730117921*^9, 
+   3.6948177517241*^9}, {3.694817782662031*^9, 3.694817782931431*^9}, 
+   3.694817956469602*^9, {3.694818388503883*^9, 3.694818391998014*^9}, {
+   3.694818496345669*^9, 3.694818562141501*^9}, {3.694818645456712*^9, 
+   3.694818698617093*^9}, {3.694819479243372*^9, 3.69481957271527*^9}, {
+   3.694819911371562*^9, 3.694819987855577*^9}, {3.694839115105402*^9, 
+   3.694839408811578*^9}, {3.694839444115263*^9, 3.6948394639993553`*^9}, {
+   3.694839505941196*^9, 3.6948398425965443`*^9}, {3.694839880396049*^9, 
+   3.6948398996135893`*^9}, {3.694839950914109*^9, 3.69483999077356*^9}, {
+   3.694840027855948*^9, 3.6948401555062838`*^9}, {3.694840213237311*^9, 
+   3.694840237035714*^9}, {3.694840274386306*^9, 3.694840302811214*^9}, {
+   3.6948403600715723`*^9, 3.6948403904989567`*^9}, {3.694840613168069*^9, 
+   3.694840722955729*^9}, {3.694840774272183*^9, 3.694841160686637*^9}, {
+   3.694841194822653*^9, 3.6948411953104553`*^9}, {3.694842149734293*^9, 
+   3.694842161742165*^9}, {3.69484266354449*^9, 3.6948426646336117`*^9}, {
+   3.694842914681384*^9, 3.6948429581658983`*^9}, 3.694844003305594*^9, {
+   3.694857771130766*^9, 3.6948577747644787`*^9}, {3.694859090391902*^9, 
+   3.694859114808845*^9}, {3.694859156237008*^9, 3.69485918072831*^9}, {
+   3.6952675712173367`*^9, 3.6952675729127417`*^9}, {3.695267618124741*^9, 
+   3.695267620995615*^9}, {3.695267682120685*^9, 3.695267694979382*^9}, {
+   3.695290431044715*^9, 3.695290434492928*^9}, {3.695290519395135*^9, 
+   3.6952906282142277`*^9}, {3.69529072737253*^9, 3.6952907608568487`*^9}, {
+   3.695290809599721*^9, 3.69529081269473*^9}, {3.695290941924692*^9, 
+   3.695290944924973*^9}, 3.695290976324833*^9, {3.695291070363018*^9, 
+   3.6952910719676847`*^9}, {3.695291151581039*^9, 3.695291161372395*^9}, {
+   3.695291313854287*^9, 3.695291341854678*^9}, {3.695291827589518*^9, 
+   3.695291830281595*^9}, {3.6952918721246862`*^9, 3.695291888612784*^9}, {
+   3.695291932271318*^9, 3.695291936228841*^9}, {3.6952923484705057`*^9, 
+   3.695292385257854*^9}, {3.695292566350045*^9, 3.695292583505042*^9}, {
+   3.6952927661075497`*^9, 3.6952927665382833`*^9}, {3.695292890448267*^9, 
+   3.695292895276222*^9}, {3.695292967185195*^9, 3.6952929683053703`*^9}, 
+   3.695293144699733*^9, 3.695293235182613*^9, {3.695293313729211*^9, 
+   3.695293318365859*^9}, {3.695293615895385*^9, 3.695293648830131*^9}, {
+   3.6952937788337593`*^9, 3.695293809574067*^9}, {3.695293916081819*^9, 
+   3.695293923746697*^9}, {3.695294857339576*^9, 3.695294865113989*^9}, {
+   3.695294896253449*^9, 3.695294943211788*^9}, {3.695294977533643*^9, 
+   3.695295001006444*^9}, {3.69529525019418*^9, 3.695295405941464*^9}, {
+   3.695295451372942*^9, 3.6952954777354097`*^9}, {3.695295531100212*^9, 
+   3.69529557469139*^9}, {3.695299368836503*^9, 3.6952993941314583`*^9}, {
+   3.6952994538867493`*^9, 3.695299481741605*^9}, 3.695299677208762*^9, {
+   3.69529999068793*^9, 3.695300144621571*^9}, {3.695300176704158*^9, 
+   3.695300194518147*^9}, {3.695300295773213*^9, 3.69530032747682*^9}, {
+   3.695300361182501*^9, 3.6953003613989964`*^9}, {3.695348148278675*^9, 
+   3.695348169493621*^9}, {3.695425238388479*^9, 3.695425263004195*^9}, {
+   3.6954252962582617`*^9, 3.695425418004383*^9}, {3.6954255547112007`*^9, 
+   3.695425566105901*^9}, 3.6954351539972277`*^9, {3.695435589297188*^9, 
+   3.695435615195784*^9}, {3.69543576178485*^9, 3.695435773840335*^9}, 
+   3.6968564996490383`*^9, {3.696857497941867*^9, 3.69685750273706*^9}, {
+   3.696857700932826*^9, 3.696857711836193*^9}, {3.696858345278801*^9, 
+   3.696858363208001*^9}, {3.696858484505546*^9, 3.69685849613124*^9}, 
+   3.696858641597189*^9, {3.696858840592507*^9, 3.696858856375153*^9}, {
+   3.696858957922008*^9, 3.696858964649013*^9}, {3.696859198446813*^9, 
+   3.6968591986361713`*^9}, {3.696859295318919*^9, 3.6968593361599607`*^9}, {
+   3.696859445115172*^9, 3.696859446311226*^9}, {3.69685966494771*^9, 
+   3.696859665123157*^9}, {3.696859928055591*^9, 3.696859935747558*^9}, {
+   3.696860326369966*^9, 3.696860341208014*^9}, {3.6973504296002827`*^9, 
+   3.6973504405491467`*^9}, {3.697350492374776*^9, 3.697350518089837*^9}, {
+   3.697350696093031*^9, 3.697350740475177*^9}, 3.697350792890522*^9, {
+   3.6973512331617537`*^9, 3.6973512650096893`*^9}, {3.697367291728307*^9, 
+   3.6973673264369793`*^9}, {3.697406704592182*^9, 3.6974067459250813`*^9}, {
+   3.697406782222011*^9, 3.6974068553998337`*^9}, {3.697407134428708*^9, 
+   3.697407158219644*^9}, {3.697407340490725*^9, 3.697407350597066*^9}, {
+   3.697414807281423*^9, 3.6974148316546783`*^9}, {3.697414871805586*^9, 
+   3.697414975893813*^9}, {3.697415035432292*^9, 3.697415044540969*^9}, {
+   3.697415374445169*^9, 3.697415426408538*^9}, {3.697417240527286*^9, 
+   3.697417285746201*^9}, {3.697417333025577*^9, 3.6974173607269697`*^9}, {
+   3.697454033179421*^9, 3.697454083915709*^9}, {3.697454359548142*^9, 
+   3.697454361483529*^9}, {3.697454465658445*^9, 3.697454470272998*^9}, {
+   3.6975031364399967`*^9, 3.697503136637957*^9}, {3.697503213771366*^9, 
+   3.697503277653865*^9}, 3.6975161216648808`*^9, {3.697516248325221*^9, 
+   3.6975162508389874`*^9}, 3.697532613433319*^9, 3.697532986347649*^9, {
+   3.697533557878269*^9, 3.697533562608293*^9}, {3.697533949760309*^9, 
+   3.697533991153369*^9}, {3.69753415702661*^9, 3.6975341648242064`*^9}, {
+   3.697534201403015*^9, 3.6975342219969873`*^9}, {3.697534259812978*^9, 
+   3.697534261646325*^9}, {3.697534331410934*^9, 3.697534333249413*^9}, {
+   3.697534377161293*^9, 3.697534377276074*^9}, {3.697534531865374*^9, 
+   3.697534532260977*^9}, {3.697534606780373*^9, 3.697534607215633*^9}, {
+   3.697534653277803*^9, 3.697534657403367*^9}, {3.6976029731770363`*^9, 
+   3.6976029874415197`*^9}, {3.69760322564182*^9, 3.697603230304031*^9}, {
+   3.69760328375064*^9, 3.697603287466316*^9}, {3.6977586994320917`*^9, 
+   3.697758704988188*^9}, {3.697759202115324*^9, 3.697759203612316*^9}, {
+   3.697760224133831*^9, 3.6977604011427383`*^9}, {3.6977604376420507`*^9, 
+   3.697760672435975*^9}, {3.697760772552732*^9, 3.697760781090316*^9}, {
+   3.697760891186852*^9, 3.6977609263588543`*^9}, {3.69776207883497*^9, 
+   3.697762083967958*^9}, {3.697762151278034*^9, 3.697762157760195*^9}, {
+   3.6977624502759523`*^9, 3.6977625349494534`*^9}, {3.697762574443493*^9, 
+   3.697762586684784*^9}, {3.697762648513159*^9, 3.697762660309327*^9}, {
+   3.697762691179977*^9, 3.697762695922832*^9}, {3.697762750949473*^9, 
+   3.697762887376499*^9}, {3.697776632222517*^9, 3.697776649564455*^9}, {
+   3.697777187781054*^9, 3.697777230051466*^9}, {3.6977815193425713`*^9, 
+   3.697781522150943*^9}, {3.6977816668249598`*^9, 3.6977817109507513`*^9}, 
+   3.697781765133759*^9, {3.697781880274975*^9, 3.6977818953943663`*^9}, {
+   3.6977870367234373`*^9, 3.697787039406015*^9}, {3.697787102263233*^9, 
+   3.697787118905003*^9}, {3.69778743984944*^9, 3.697787455025037*^9}, {
+   3.6977876084409027`*^9, 3.697787646993404*^9}, {3.697787748683558*^9, 
+   3.6977877542573338`*^9}, {3.6977899525569363`*^9, 3.6977899677572412`*^9}, 
+   3.697790078003736*^9, {3.697935652573731*^9, 3.69793565305715*^9}, {
+   3.697935685108789*^9, 3.6979356967013397`*^9}, {3.69793584897676*^9, 
+   3.69793587516224*^9}, {3.697936198161977*^9, 3.69793619971684*^9}, {
+   3.697936309829953*^9, 3.697936329327835*^9}, {3.6979366099057837`*^9, 
+   3.697936610431121*^9}, {3.697937042605842*^9, 3.697937053451042*^9}, {
+   3.697937214305806*^9, 3.697937244103047*^9}, {3.697940666926383*^9, 
+   3.697940667575539*^9}, {3.697940776468787*^9, 3.6979407774838047`*^9}, {
+   3.697943770216586*^9, 3.6979438228951597`*^9}, 3.697943865584722*^9, {
+   3.69794430116159*^9, 3.697944316764516*^9}, {3.697948005397171*^9, 
+   3.697948007790155*^9}, {3.697948877144229*^9, 3.697948877428083*^9}, {
+   3.697949006021256*^9, 3.697949049084095*^9}, {3.697949096984947*^9, 
+   3.6979491205522547`*^9}, {3.697950685639884*^9, 3.697950718840122*^9}, {
+   3.697950756221354*^9, 3.697950786442333*^9}, {3.697950850524016*^9, 
+   3.69795087698202*^9}, {3.697950941576848*^9, 3.697950950507598*^9}, {
+   3.697951024399157*^9, 3.697951025944859*^9}, {3.697951100766547*^9, 
+   3.697951198621394*^9}, {3.6979512427251387`*^9, 3.697951317764484*^9}, {
+   3.697951368851194*^9, 3.697951369480904*^9}, {3.697951472356064*^9, 
+   3.697951522393777*^9}, 3.697951631960555*^9, {3.6979517115986843`*^9, 
+   3.6979517166867733`*^9}, {3.697951753233642*^9, 3.697951757463008*^9}, {
+   3.6979518338256702`*^9, 3.697951876580983*^9}, {3.69797764347239*^9, 
+   3.697977654454211*^9}, {3.6979780983451777`*^9, 3.697978100509852*^9}, {
+   3.697978356809148*^9, 3.697978357036704*^9}, {3.698374773855324*^9, 
+   3.6983747951475687`*^9}, {3.698629880969434*^9, 3.698629998976344*^9}}],
+
+Cell[BoxData[
+ TagBox[GridBox[{
+    {"\<\"Start\"\>", "0.00041`3.064328850215708"},
+    {"\<\"After Setting Up Data Structures\"\>", "0.286576`5.908784810038787"},
+    {"\<\"After Importing Files\"\>", "0.405819`6.059877369860103"},
+    {"\<\"After Defining Functions\"\>", "0.411242`6.065642456090119"},
+    {"\<\"After Error 3, before processing text\"\>", 
+     "0.419604`6.074384613078617"},
+    {"\<\"After Error 3, during processing text, after expansion, before \
+replacing unwanted syntax\"\>", "0.423141`6.078030101576206"},
+    {"\<\"After Error 3, after processing text\"\>", 
+     "0.428885`6.083885850807219"},
+    {"\<\"After Error 6, before processing participants\"\>", 
+     "0.43339`6.088423879725453"},
+    {"\<\"After Error 6, after processing participants\"\>", 
+     "0.438575`6.093588865544521"},
+    {"\<\"After Error 7 and extracting words\"\>", 
+     "0.443114`6.0980604650953945"},
+    {"\<\"After Error 8, before indexing utterance lines\"\>", 
+     "0.44452`6.09943629917169"},
+    {"\<\"After Error 8, after indexing utterance lines\"\>", 
+     "0.450771`6.10550096177267"},
+    {"\<\"After Error 9, before export\"\>", "0.452389`6.10705702985244"},
+    {"\<\"Finish, after export\"\>", "0.465118`6.119108140466978"}
+   },
+   AutoDelete->False,
+   GridBoxAlignment->{"Columns" -> {{Left}}},
+   GridBoxFrame->{"Columns" -> {{True}}, "Rows" -> {{True}}},
+   GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+  "Grid"]], "Output",
+ CellChangeTimes->{
+  3.697787128535551*^9, 3.697787463085594*^9, 3.6977874956227093`*^9, 
+   3.69778761857057*^9, 3.6977876609661427`*^9, 3.697787768038753*^9, 
+   3.697789773793013*^9, 3.697789986497315*^9, 3.69779008530552*^9, 
+   3.697790229421924*^9, 3.697790736575501*^9, 3.697790957011805*^9, 
+   3.697791153054178*^9, 3.697935077341755*^9, 3.697935713340344*^9, 
+   3.697935895816647*^9, 3.697936214961673*^9, 3.697936344497718*^9, 
+   3.697936624322158*^9, 3.697937069211817*^9, 3.697937259735526*^9, 
+   3.6979379047192698`*^9, 3.69794030027803*^9, 3.6979406876059723`*^9, 
+   3.697940792884389*^9, 3.697942058730433*^9, 3.697942209804019*^9, 
+   3.697942411236294*^9, 3.697942901156951*^9, 3.697942960892549*^9, 
+   3.697943071543929*^9, 3.69794318461604*^9, 3.697943274124894*^9, 
+   3.697943351888239*^9, 3.697943467733296*^9, 3.697943556013219*^9, {
+   3.697943642471943*^9, 3.697943664405856*^9}, 3.697943831345627*^9, 
+   3.6979438722556562`*^9, 3.697948025603529*^9, 3.6979489010941553`*^9, 
+   3.6979490659664907`*^9, 3.697949134689369*^9, {3.69795077587037*^9, 
+   3.69795079259523*^9}, 3.697950883699307*^9, 3.697950956912957*^9, 
+   3.697951032678822*^9, 3.697951205836378*^9, 3.697951273029916*^9, 
+   3.6979513278620462`*^9, 3.69795138124826*^9, 3.697951534822339*^9, 
+   3.697951608490534*^9, 3.697951644276779*^9, 3.697951728148582*^9, 
+   3.697951845774323*^9, 3.697951889057005*^9, 3.697972860599852*^9, {
+   3.6979771680487137`*^9, 3.69797717609136*^9}, {3.697977649670936*^9, 
+   3.69797766043864*^9}, 3.697978362996847*^9, 3.6980357696027737`*^9, 
+   3.6980398312287827`*^9, 3.6980465914347363`*^9, {3.6983747224240513`*^9, 
+   3.698374783365329*^9}, 3.6983782565843563`*^9, 3.698382517688311*^9, 
+   3.6986259813163958`*^9, 3.698628031878839*^9, {3.698628160428671*^9, 
+   3.698628232041514*^9}, 3.698628840261023*^9, {3.698629883834218*^9, 
+   3.6986299999546747`*^9}}]
+}, Open  ]]
+},
+WindowSize->{960, 1035},
+WindowMargins->{{Automatic, -226}, {836, Automatic}},
+TaggingRules->{"$testsRun" -> False},
+FrontEndVersion->"11.0 for Mac OS X x86 (32-bit, 64-bit Kernel) (September \
+21, 2016)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 107653, 2676, 9256, "Input"],
+Cell[108236, 2700, 3382, 57, 285, "Output"]
+}, Open  ]]
+}
+]
+*)
+

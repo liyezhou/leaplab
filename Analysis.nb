@@ -1,0 +1,1785 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     72020,       1777]
+NotebookOptionsPosition[     71641,       1759]
+NotebookOutlinePosition[     71999,       1775]
+CellTagsIndexPosition[     71956,       1772]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"(*", " ", 
+   RowBox[{
+    RowBox[{
+    "This", " ", "script", " ", "is", " ", "written", " ", "for", " ", 
+     "analysing", " ", "transcripts", " ", "of", " ", "a", " ", "parent", " ",
+      "narrating", " ", "a", " ", "story", " ", "to", " ", "a", " ", 
+     RowBox[{
+     "child", ".", "\[IndentingNewLine]", "\[IndentingNewLine]", "Yezhou", 
+      ".", "\[IndentingNewLine]", "January"}]}], ",", " ", "2017."}], 
+   "\[IndentingNewLine]", "*)"}], "\[IndentingNewLine]", 
+  StyleBox[
+   RowBox[{"(*", "Preamble", "*)"}], "Subchapter"], "\[IndentingNewLine]", 
+  RowBox[{"(*", "Environment", "*)"}], "\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"lingResultsFile", "=", "\"\<ling_results.csv\>\""}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+    "lingDescriptorFile", "=", "\"\<ling_results_descriptor.pdf\>\""}], ";"}],
+    "\[IndentingNewLine]", 
+   RowBox[{"(*", 
+    RowBox[{"Setting", " ", "Up", " ", "Data", " ", "Structure"}], "*)"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"varsetEachLine", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"stopWordRemovedTranscriptWords", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"lingVarset", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"lingVarsetRepeatedWords", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"lingVarsetTokenRatio", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], " ", 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"lingVarsetTypeRatio", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"lingVarsetTTR", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"lingVarsetIfInVarset", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"lingVarsetTotalNumberUtteranceInVarset", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"lingVarsetTotalNumberVarsets", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"lingVarsetUtteranceRatio", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"lingVarsetMeanSequenceLength", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"lingVarsetRepeatedWords1", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"lingVarsetTokenRatio1", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], " ", 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"lingVarsetTypeRatio1", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"lingVarsetTTR1", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"lingVarsetIfInVarset1", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"lingVarsetTotalNumberUtteranceInVarset1", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"lingVarsetTotalNumberVarsets1", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"lingVarsetUtteranceRatio1", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"lingVarsetMeanSequenceLength1", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"lingVarsetRepeatedWords2", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"lingVarsetTokenRatio2", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], " ", 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"lingVarsetTypeRatio2", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"lingVarsetTTR2", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"lingVarsetIfInVarset2", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"lingVarsetTotalNumberUtteranceInVarset2", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"lingVarsetTotalNumberVarsets2", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"lingVarsetUtteranceRatio2", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"lingVarsetMeanSequenceLength2", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"lingMLUEachLine", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"lingTTRSample", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"lingTTRType", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"lingTTR", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"stopWordRemovedNonEmptyUtteranceLines", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"stopWordRemovedNonEmptyNonChildParticipantUtteranceLines", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   StyleBox[
+    RowBox[{"(*", 
+     RowBox[{"Variation", " ", "Set"}], "*)"}], "Subchapter"], 
+   StyleBox["\[IndentingNewLine]", "Subchapter"], 
+   RowBox[{"(*", 
+    RowBox[{"Calculating", " ", "Variation", " ", "Set"}], "*)"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"stopWordsReplacer", "=", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"#1", "\[Rule]", "Nothing"}], "&"}], "/@", "STOPWORDS"}]}], 
+    ";"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"stopWordRemovedTranscriptWords", "=", 
+     RowBox[{"transcriptWords", "/.", "stopWordsReplacer"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{"(*", 
+    RowBox[{
+     RowBox[{
+     "Index", " ", "the", " ", "STOPWORD", " ", "REMOVED", " ", "non"}], "-", 
+     
+     RowBox[{"empty", " ", "utterance", " ", "lines"}]}], "*)"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"stopWordRemovedNonEmptyUtteranceLines", "[", 
+      RowBox[{"[", "VS", "]"}], "]"}], "=", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{"Intersection", "[", 
+        RowBox[{
+         RowBox[{"Flatten", "[", 
+          RowBox[{"Position", "[", 
+           RowBox[{
+            RowBox[{
+             RowBox[{
+              RowBox[{"(", 
+               RowBox[{"StringMatchQ", "[", 
+                RowBox[{"#", ",", 
+                 RowBox[{"Verbatim", "[", "\"\<*\>\"", "]"}]}], "]"}], ")"}], 
+              "&"}], "/@", 
+             RowBox[{"transcriptCommands", "[", 
+              RowBox[{"[", "n", "]"}], "]"}]}], ",", "True"}], "]"}], "]"}], 
+         ",", 
+         RowBox[{"Flatten", "[", 
+          RowBox[{"Position", "[", 
+           RowBox[{
+            RowBox[{"Length", "/@", 
+             RowBox[{"stopWordRemovedTranscriptWords", "[", 
+              RowBox[{"[", "n", "]"}], "]"}]}], ",", 
+            RowBox[{"Except", "[", "0", "]"}]}], "]"}], "]"}]}], "]"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"n", ",", "VS"}], "}"}]}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{"(*", 
+    RowBox[{
+     RowBox[{
+     "Index", " ", "the", " ", "STOPWORD", " ", "REMOVED", " ", "non"}], "-", 
+     
+     RowBox[{"empty", " ", "non"}], "-", 
+     RowBox[{"child", " ", "participant", " ", "utterance", " ", "lines"}]}], 
+    "*)"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{
+     "stopWordRemovedNonEmptyNonChildParticipantUtteranceLines", "[", 
+      RowBox[{"[", "VS", "]"}], "]"}], "=", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{"Intersection", "[", 
+        RowBox[{
+         RowBox[{"stopWordRemovedNonEmptyUtteranceLines", "[", 
+          RowBox[{"[", "n", "]"}], "]"}], ",", 
+         RowBox[{"nonChildParticipantUtteranceLines", "[", 
+          RowBox[{"[", "n", "]"}], "]"}]}], "]"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"n", ",", "VS"}], "}"}]}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", "\[IndentingNewLine]", 
+   RowBox[{"(*", 
+    RowBox[{"Calculating", " ", "Varset"}], "*)"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"calulateVarset", "[", 
+     RowBox[{"A_", ",", "B_"}], "]"}], ":=", 
+    FractionBox[
+     RowBox[{"EditDistance", "[", 
+      RowBox[{"A", ",", "B"}], "]"}], 
+     RowBox[{"Max", "[", 
+      RowBox[{
+       RowBox[{"Length", "[", "A", "]"}], ",", 
+       RowBox[{"Length", "[", "B", "]"}]}], "]"}]]}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"varsetEachLine", "[", 
+      RowBox[{"[", "VS", "]"}], "]"}], "=", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{"Table", "[", 
+        RowBox[{
+         RowBox[{"calulateVarset", "[", 
+          RowBox[{
+           RowBox[{"stopWordRemovedTranscriptWords", "[", 
+            RowBox[{"[", 
+             RowBox[{"n", ",", 
+              RowBox[{
+              "stopWordRemovedNonEmptyNonChildParticipantUtteranceLines", "[", 
+               RowBox[{"[", 
+                RowBox[{"n", ",", "i"}], "]"}], "]"}]}], "]"}], "]"}], ",", 
+           RowBox[{"stopWordRemovedTranscriptWords", "[", 
+            RowBox[{"[", 
+             RowBox[{"n", ",", 
+              RowBox[{
+              "stopWordRemovedNonEmptyNonChildParticipantUtteranceLines", "[", 
+               RowBox[{"[", 
+                RowBox[{"n", ",", 
+                 RowBox[{"i", "+", "1"}]}], "]"}], "]"}]}], "]"}], "]"}]}], 
+          "]"}], ",", 
+         RowBox[{"{", 
+          RowBox[{"i", ",", "1", ",", 
+           RowBox[{
+            RowBox[{"Length", "[", 
+             RowBox[{
+             "stopWordRemovedNonEmptyNonChildParticipantUtteranceLines", "[", 
+              
+              RowBox[{"[", "n", "]"}], "]"}], "]"}], "-", "1"}]}], "}"}]}], 
+        "]"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"n", ",", "VS"}], "}"}]}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"lingVarset", "[", 
+      RowBox[{"[", "VS", "]"}], "]"}], "=", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{"Mean", "[", 
+        RowBox[{"varsetEachLine", "[", 
+         RowBox[{"[", "n", "]"}], "]"}], "]"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"n", ",", "VS"}], "}"}]}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{"(*", 
+    RowBox[{
+    "Calculation", " ", "of", " ", "Varset", " ", "Without", " ", "taking", 
+     " ", "out", " ", "stoplist"}], "*)"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"varsetEachLine2", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"lingVarset2", "=", 
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"\"\<\>\"", ",", "VSTOTAL"}], "]"}]}], ";", 
+    RowBox[{
+     RowBox[{"varsetEachLine2", "[", 
+      RowBox[{"[", "VS", "]"}], "]"}], "=", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{"Table", "[", 
+        RowBox[{
+         RowBox[{"calulateVarset", "[", 
+          RowBox[{
+           RowBox[{"transcriptWords", "[", 
+            RowBox[{"[", 
+             RowBox[{"n", ",", 
+              RowBox[{"nonEmptyNonChildParticipantUtteranceLines", "[", 
+               RowBox[{"[", 
+                RowBox[{"n", ",", "i"}], "]"}], "]"}]}], "]"}], "]"}], ",", 
+           RowBox[{"transcriptWords", "[", 
+            RowBox[{"[", 
+             RowBox[{"n", ",", 
+              RowBox[{"nonEmptyNonChildParticipantUtteranceLines", "[", 
+               RowBox[{"[", 
+                RowBox[{"n", ",", 
+                 RowBox[{"i", "+", "1"}]}], "]"}], "]"}]}], "]"}], "]"}]}], 
+          "]"}], ",", 
+         RowBox[{"{", 
+          RowBox[{"i", ",", "1", ",", 
+           RowBox[{
+            RowBox[{"Length", "[", 
+             RowBox[{"nonEmptyNonChildParticipantUtteranceLines", "[", 
+              RowBox[{"[", "n", "]"}], "]"}], "]"}], "-", "1"}]}], "}"}]}], 
+        "]"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"n", ",", "VS"}], "}"}]}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"lingVarset2", "[", 
+      RowBox[{"[", "VS", "]"}], "]"}], "=", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{"Mean", "[", 
+        RowBox[{"varsetEachLine2", "[", 
+         RowBox[{"[", "n", "]"}], "]"}], "]"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"n", ",", "VS"}], "}"}]}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   StyleBox[
+    RowBox[{"(*", 
+     RowBox[{
+      RowBox[{"Varset", " ", "Calculations", " ", "with", " ", "GAP"}], " ", 
+      "=", " ", 
+      StyleBox["0", "Subchapter",
+       FontWeight->"Plain"]}], " ", "*)"}], "Subchapter",
+    FontWeight->"Plain"], "\[IndentingNewLine]", 
+   RowBox[{"(*", 
+    RowBox[{
+    "Finding", " ", "Common", " ", "Words", " ", "between", " ", "lines"}], 
+    "*)"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"lingVarsetRepeatedWords", "[", 
+      RowBox[{"[", "VS", "]"}], "]"}], "=", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{"ConstantArray", "[", 
+        RowBox[{"\"\<\>\"", ",", 
+         RowBox[{"Length", "[", 
+          RowBox[{
+          "stopWordRemovedNonEmptyNonChildParticipantUtteranceLines", "[", 
+           RowBox[{"[", "n", "]"}], "]"}], "]"}]}], "]"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"n", ",", "VS"}], "}"}]}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"lingVarsetRepeatedWords", "[", 
+      RowBox[{"[", 
+       RowBox[{"VS", ",", "1"}], "]"}], "]"}], "=", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{"Intersection", "[", 
+        RowBox[{
+         RowBox[{"stopWordRemovedTranscriptWords", "[", 
+          RowBox[{"[", 
+           RowBox[{"n", ",", 
+            RowBox[{
+            "stopWordRemovedNonEmptyNonChildParticipantUtteranceLines", "[", 
+             RowBox[{"[", 
+              RowBox[{"n", ",", "1"}], "]"}], "]"}]}], "]"}], "]"}], ",", 
+         RowBox[{"stopWordRemovedTranscriptWords", "[", 
+          RowBox[{"[", 
+           RowBox[{"n", ",", 
+            RowBox[{
+            "stopWordRemovedNonEmptyNonChildParticipantUtteranceLines", "[", 
+             RowBox[{"[", 
+              RowBox[{"n", ",", "2"}], "]"}], "]"}]}], "]"}], "]"}]}], "]"}], 
+       ",", 
+       RowBox[{"{", 
+        RowBox[{"n", ",", "VS"}], "}"}]}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"lingVarsetRepeatedWords", "[", 
+      RowBox[{"[", 
+       RowBox[{"VS", ",", 
+        RowBox[{"-", "1"}]}], "]"}], "]"}], "=", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{"Intersection", "[", 
+        RowBox[{
+         RowBox[{"stopWordRemovedTranscriptWords", "[", 
+          RowBox[{"[", 
+           RowBox[{"n", ",", 
+            RowBox[{
+            "stopWordRemovedNonEmptyNonChildParticipantUtteranceLines", "[", 
+             RowBox[{"[", 
+              RowBox[{"n", ",", 
+               RowBox[{"-", "1"}]}], "]"}], "]"}]}], "]"}], "]"}], ",", 
+         RowBox[{"stopWordRemovedTranscriptWords", "[", 
+          RowBox[{"[", 
+           RowBox[{"n", ",", 
+            RowBox[{
+            "stopWordRemovedNonEmptyNonChildParticipantUtteranceLines", "[", 
+             RowBox[{"[", 
+              RowBox[{"n", ",", 
+               RowBox[{"-", "2"}]}], "]"}], "]"}]}], "]"}], "]"}]}], "]"}], 
+       ",", 
+       RowBox[{"{", 
+        RowBox[{"n", ",", "VS"}], "}"}]}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"lingVarsetRepeatedWords", "[", 
+      RowBox[{"[", 
+       RowBox[{"VS", ",", 
+        RowBox[{"2", ";;", 
+         RowBox[{"-", "2"}]}]}], "]"}], "]"}], "=", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{"Table", "[", 
+        RowBox[{
+         RowBox[{"Union", "[", 
+          RowBox[{
+           RowBox[{"Intersection", "[", 
+            RowBox[{
+             RowBox[{"stopWordRemovedTranscriptWords", "[", 
+              RowBox[{"[", 
+               RowBox[{"n", ",", 
+                RowBox[{
+                "stopWordRemovedNonEmptyNonChildParticipantUtteranceLines", 
+                 "[", 
+                 RowBox[{"[", 
+                  RowBox[{"n", ",", 
+                   RowBox[{"i", "-", "1"}]}], "]"}], "]"}]}], "]"}], "]"}], 
+             ",", 
+             RowBox[{"stopWordRemovedTranscriptWords", "[", 
+              RowBox[{"[", 
+               RowBox[{"n", ",", 
+                RowBox[{
+                "stopWordRemovedNonEmptyNonChildParticipantUtteranceLines", 
+                 "[", 
+                 RowBox[{"[", 
+                  RowBox[{"n", ",", "i"}], "]"}], "]"}]}], "]"}], "]"}]}], 
+            "]"}], ",", "\[IndentingNewLine]", 
+           RowBox[{"Intersection", "[", 
+            RowBox[{
+             RowBox[{"stopWordRemovedTranscriptWords", "[", 
+              RowBox[{"[", 
+               RowBox[{"n", ",", 
+                RowBox[{
+                "stopWordRemovedNonEmptyNonChildParticipantUtteranceLines", 
+                 "[", 
+                 RowBox[{"[", 
+                  RowBox[{"n", ",", 
+                   RowBox[{"i", "+", "1"}]}], "]"}], "]"}]}], "]"}], "]"}], 
+             ",", 
+             RowBox[{"stopWordRemovedTranscriptWords", "[", 
+              RowBox[{"[", 
+               RowBox[{"n", ",", 
+                RowBox[{
+                "stopWordRemovedNonEmptyNonChildParticipantUtteranceLines", 
+                 "[", 
+                 RowBox[{"[", 
+                  RowBox[{"n", ",", "i"}], "]"}], "]"}]}], "]"}], "]"}]}], 
+            "]"}]}], "\[IndentingNewLine]", "]"}], ",", 
+         RowBox[{"{", 
+          RowBox[{"i", ",", "2", ",", 
+           RowBox[{
+            RowBox[{"Length", "[", 
+             RowBox[{
+             "stopWordRemovedNonEmptyNonChildParticipantUtteranceLines", "[", 
+              
+              RowBox[{"[", "n", "]"}], "]"}], "]"}], "-", "1"}]}], "}"}]}], 
+        "]"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"n", ",", "VS"}], "}"}]}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{"(*", 
+    RowBox[{
+    "Calculate", " ", "Proportion", " ", "of", " ", "Tokens", " ", "in", " ", 
+     "Varset"}], "*)"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"lingVarsetTokenRatio", "[", 
+      RowBox[{"[", "VS", "]"}], "]"}], "=", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"Length", "[", 
+         RowBox[{"Flatten", "[", 
+          RowBox[{"lingVarsetRepeatedWords", "[", 
+           RowBox[{"[", "n", "]"}], "]"}], "]"}], "]"}], "/", 
+        RowBox[{"Length", "[", 
+         RowBox[{"Flatten", "[", 
+          RowBox[{"stopWordRemovedTranscriptWords", "[", 
+           RowBox[{"[", 
+            RowBox[{"n", ",", 
+             RowBox[{
+             "stopWordRemovedNonEmptyNonChildParticipantUtteranceLines", "[", 
+              
+              RowBox[{"[", "n", "]"}], "]"}]}], "]"}], "]"}], "]"}], "]"}]}], 
+       ",", 
+       RowBox[{"{", 
+        RowBox[{"n", ",", "VS"}], "}"}]}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{"(*", 
+    RowBox[{
+    "Calculate", " ", "Proportion", " ", "of", " ", "Type", " ", "in", " ", 
+     "Varset"}], "*)"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"lingVarsetTypeRatio", "[", 
+      RowBox[{"[", "VS", "]"}], "]"}], "=", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"Length", "[", 
+         RowBox[{"DeleteDuplicates", "[", 
+          RowBox[{"Flatten", "[", 
+           RowBox[{"lingVarsetRepeatedWords", "[", 
+            RowBox[{"[", "n", "]"}], "]"}], "]"}], "]"}], "]"}], "/", 
+        RowBox[{"Length", "[", 
+         RowBox[{"DeleteDuplicates", "[", 
+          RowBox[{"Flatten", "[", 
+           RowBox[{"stopWordRemovedTranscriptWords", "[", 
+            RowBox[{"[", 
+             RowBox[{"n", ",", 
+              RowBox[{
+              "stopWordRemovedNonEmptyNonChildParticipantUtteranceLines", "[", 
+               RowBox[{"[", "n", "]"}], "]"}]}], "]"}], "]"}], "]"}], "]"}], 
+         "]"}]}], ",", 
+       RowBox[{"{", 
+        RowBox[{"n", ",", "VS"}], "}"}]}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{"(*", 
+    RowBox[{
+    "Calculate", " ", "Type", " ", "Token", " ", "Ratio", " ", "of", " ", 
+     "words", " ", "in", " ", "Varset"}], "*)"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"lingVarsetTTR", "[", 
+      RowBox[{"[", "VS", "]"}], "]"}], "=", 
+     RowBox[{
+      RowBox[{"lingVarsetTypeRatio", "[", 
+       RowBox[{"[", "VS", "]"}], "]"}], "/", 
+      RowBox[{"lingVarsetTokenRatio", "[", 
+       RowBox[{"[", "VS", "]"}], "]"}]}]}], ";"}], "\[IndentingNewLine]", 
+   RowBox[{"(*", 
+    RowBox[{
+     RowBox[{
+     "Mark", " ", "utterances", " ", "in", " ", "Varset", " ", "as", " ", 
+      "1"}], ",", " ", 
+     RowBox[{
+     "those", " ", "not", " ", "in", " ", "varset", " ", "as", " ", "0"}]}], 
+    "*)"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"lingVarsetIfInVarset", "[", 
+      RowBox[{"[", "VS", "]"}], "]"}], "=", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{
+        RowBox[{
+         RowBox[{"If", "[", 
+          RowBox[{
+           RowBox[{
+            RowBox[{"Length", "[", "#", "]"}], ">", "0"}], ",", "1", ",", 
+           "0"}], "]"}], "&"}], "/@", 
+        RowBox[{"lingVarsetRepeatedWords", "[", 
+         RowBox[{"[", "n", "]"}], "]"}]}], ",", 
+       RowBox[{"{", 
+        RowBox[{"n", ",", "VS"}], "}"}]}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{"(*", 
+    RowBox[{
+    "Count", " ", "the", " ", "total", " ", "number", " ", "of", " ", 
+     "Utterances", " ", "in", " ", "varsets"}], "*)"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"lingVarsetTotalNumberUtteranceInVarset", "[", 
+      RowBox[{"[", "VS", "]"}], "]"}], "=", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{"Total", "[", 
+        RowBox[{"lingVarsetIfInVarset", "[", 
+         RowBox[{"[", "n", "]"}], "]"}], "]"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"n", ",", "VS"}], "}"}]}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{"(*", 
+    RowBox[{
+     RowBox[{
+     "Count", " ", "the", " ", "total", " ", "number", " ", "of", " ", 
+      "Varsets"}], ",", " ", 
+     RowBox[{
+      RowBox[{"i", ".", "e", ".", " ", "sequence"}], " ", "of", " ", 
+      "consecutive", " ", "lines", " ", "with", " ", "overlaps"}]}], "*)"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{"(*", 
+    RowBox[{
+     RowBox[{"This", " ", "algorithm", " ", "is", " ", "complicated"}], ",", 
+     " ", 
+     RowBox[{
+      RowBox[{
+      "an", " ", "example", " ", "below", " ", "may", " ", "explain", " ", 
+       "the", " ", "code", "\[IndentingNewLine]", "abc"}], "=", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{
+        "0", ",", "0", ",", "1", ",", "1", ",", "1", ",", "0", ",", "0", ",", 
+         "1", ",", "1", ",", "1", ",", "0", ",", "0", ",", "0"}], "}"}], 
+       "\[IndentingNewLine]", 
+       RowBox[{
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{"Total", "[", 
+           RowBox[{
+            RowBox[{"BitXor", "[", 
+             RowBox[{
+              RowBox[{"Prepend", "[", 
+               RowBox[{"abc", ",", "0"}], "]"}], ",", 
+              RowBox[{"Append", "[", 
+               RowBox[{"abc", ",", "0"}], "]"}]}], "]"}], "[", 
+            RowBox[{"[", 
+             RowBox[{"2", ";;", 
+              RowBox[{"-", "2"}]}], "]"}], "]"}], "]"}], "+", 
+          RowBox[{"abc", "[", 
+           RowBox[{"[", "1", "]"}], "]"}], "+", 
+          RowBox[{"abc", "[", 
+           RowBox[{"[", 
+            RowBox[{"-", "1"}], "]"}], "]"}]}], ")"}], "/", "2"}]}]}]}], 
+    "\[IndentingNewLine]", "*)"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"lingVarsetTotalNumberVarsets", "[", 
+      RowBox[{"[", "VS", "]"}], "]"}], "=", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{"Total", "[", 
+           RowBox[{
+            RowBox[{"BitXor", "[", 
+             RowBox[{
+              RowBox[{"Prepend", "[", 
+               RowBox[{
+                RowBox[{"lingVarsetIfInVarset", "[", 
+                 RowBox[{"[", "n", "]"}], "]"}], ",", "0"}], "]"}], ",", 
+              RowBox[{"Append", "[", 
+               RowBox[{
+                RowBox[{"lingVarsetIfInVarset", "[", 
+                 RowBox[{"[", "n", "]"}], "]"}], ",", "0"}], "]"}]}], "]"}], 
+            "[", 
+            RowBox[{"[", 
+             RowBox[{"2", ";;", 
+              RowBox[{"-", "2"}]}], "]"}], "]"}], "]"}], "+", 
+          RowBox[{"lingVarsetIfInVarset", "[", 
+           RowBox[{"[", 
+            RowBox[{"n", ",", "1"}], "]"}], "]"}], "+", 
+          RowBox[{"lingVarsetIfInVarset", "[", 
+           RowBox[{"[", 
+            RowBox[{"n", ",", 
+             RowBox[{"-", "1"}]}], "]"}], "]"}]}], ")"}], "/", "2"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"n", ",", "VS"}], "}"}]}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{"(*", 
+    RowBox[{
+     RowBox[{
+     "Calculate", " ", "the", " ", "proportion", " ", "of", " ", "utterances",
+       " ", "in", " ", "Varset", " ", "across", " ", "the", " ", "whole", " ",
+       "transcripts"}], ",", " ", 
+     RowBox[{
+      RowBox[{"20", " ", "varset"}], "-", 
+      RowBox[{
+      "utterances", " ", "in", " ", "total", " ", "40", " ", "sentences", " ",
+        "will", " ", "give", " ", "a", " ", "value", " ", "of", " ", 
+       "0.5"}]}]}], "*)"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"lingVarsetUtteranceRatio", "[", 
+      RowBox[{"[", "VS", "]"}], "]"}], "=", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"lingVarsetTotalNumberUtteranceInVarset", "[", 
+         RowBox[{"[", "n", "]"}], "]"}], "/", 
+        RowBox[{"Length", "[", 
+         RowBox[{
+         "stopWordRemovedNonEmptyNonChildParticipantUtteranceLines", "[", 
+          RowBox[{"[", "n", "]"}], "]"}], "]"}]}], ",", 
+       RowBox[{"{", 
+        RowBox[{"n", ",", "VS"}], "}"}]}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{"(*", 
+    RowBox[{
+    "Calculate", " ", "the", " ", "average", " ", "length", " ", "of", " ", 
+     "each", " ", "consecutive", " ", "sequences", " ", "of", " ", 
+     "utterances", " ", "in", " ", "varsets"}], " ", "*)"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"lingVarsetMeanSequenceLength", "[", 
+      RowBox[{"[", "VS", "]"}], "]"}], "=", 
+     RowBox[{
+      RowBox[{"lingVarsetTotalNumberUtteranceInVarset", "[", 
+       RowBox[{"[", "VS", "]"}], "]"}], "/", 
+      RowBox[{"lingVarsetTotalNumberVarsets", "[", 
+       RowBox[{"[", "VS", "]"}], "]"}]}]}], ";"}], "\[IndentingNewLine]", 
+   StyleBox[
+    RowBox[{"(*", 
+     RowBox[{
+      RowBox[{"Varset", " ", "Calculations", " ", "with", " ", "GAP"}], " ", 
+      "\[LessEqual]", " ", 
+      StyleBox["1", "Subchapter",
+       FontWeight->"Plain"]}], " ", "*)"}], "Subchapter",
+    FontWeight->"Plain"], "\[IndentingNewLine]", 
+   RowBox[{"(*", 
+    RowBox[{
+    "Finding", " ", "Common", " ", "Words", " ", "between", " ", "lines"}], 
+    "*)"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"lingVarsetRepeatedWords1", "[", 
+      RowBox[{"[", "VS", "]"}], "]"}], "=", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{"ConstantArray", "[", 
+        RowBox[{"\"\<\>\"", ",", 
+         RowBox[{"Length", "[", 
+          RowBox[{
+          "stopWordRemovedNonEmptyNonChildParticipantUtteranceLines", "[", 
+           RowBox[{"[", "n", "]"}], "]"}], "]"}]}], "]"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"n", ",", "VS"}], "}"}]}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"lingVarsetRepeatedWords1", "[", 
+      RowBox[{"[", 
+       RowBox[{"VS", ",", "1"}], "]"}], "]"}], "=", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{"Union", "[", "\[IndentingNewLine]", 
+        RowBox[{
+         RowBox[{"Intersection", "[", 
+          RowBox[{
+           RowBox[{"stopWordRemovedTranscriptWords", "[", 
+            RowBox[{"[", 
+             RowBox[{"n", ",", 
+              RowBox[{
+              "stopWordRemovedNonEmptyNonChildParticipantUtteranceLines", "[", 
+               RowBox[{"[", 
+                RowBox[{"n", ",", "2"}], "]"}], "]"}]}], "]"}], "]"}], ",", 
+           RowBox[{"stopWordRemovedTranscriptWords", "[", 
+            RowBox[{"[", 
+             RowBox[{"n", ",", 
+              RowBox[{
+              "stopWordRemovedNonEmptyNonChildParticipantUtteranceLines", "[", 
+               RowBox[{"[", 
+                RowBox[{"n", ",", "1"}], "]"}], "]"}]}], "]"}], "]"}]}], 
+          "]"}], ",", "\[IndentingNewLine]", 
+         RowBox[{"Intersection", "[", 
+          RowBox[{
+           RowBox[{"stopWordRemovedTranscriptWords", "[", 
+            RowBox[{"[", 
+             RowBox[{"n", ",", 
+              RowBox[{
+              "stopWordRemovedNonEmptyNonChildParticipantUtteranceLines", "[", 
+               RowBox[{"[", 
+                RowBox[{"n", ",", "3"}], "]"}], "]"}]}], "]"}], "]"}], ",", 
+           RowBox[{"stopWordRemovedTranscriptWords", "[", 
+            RowBox[{"[", 
+             RowBox[{"n", ",", 
+              RowBox[{
+              "stopWordRemovedNonEmptyNonChildParticipantUtteranceLines", "[", 
+               RowBox[{"[", 
+                RowBox[{"n", ",", "1"}], "]"}], "]"}]}], "]"}], "]"}]}], 
+          "]"}]}], "\[IndentingNewLine]", "]"}], "\[IndentingNewLine]", ",", 
+       RowBox[{"{", 
+        RowBox[{"n", ",", "VS"}], "}"}]}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"lingVarsetRepeatedWords1", "[", 
+      RowBox[{"[", 
+       RowBox[{"VS", ",", "2"}], "]"}], "]"}], "=", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{"Union", "[", "\[IndentingNewLine]", 
+        RowBox[{
+         RowBox[{"Intersection", "[", 
+          RowBox[{
+           RowBox[{"stopWordRemovedTranscriptWords", "[", 
+            RowBox[{"[", 
+             RowBox[{"n", ",", 
+              RowBox[{
+              "stopWordRemovedNonEmptyNonChildParticipantUtteranceLines", "[", 
+               RowBox[{"[", 
+                RowBox[{"n", ",", "1"}], "]"}], "]"}]}], "]"}], "]"}], ",", 
+           RowBox[{"stopWordRemovedTranscriptWords", "[", 
+            RowBox[{"[", 
+             RowBox[{"n", ",", 
+              RowBox[{
+              "stopWordRemovedNonEmptyNonChildParticipantUtteranceLines", "[", 
+               RowBox[{"[", 
+                RowBox[{"n", ",", "2"}], "]"}], "]"}]}], "]"}], "]"}]}], 
+          "]"}], ",", "\[IndentingNewLine]", 
+         RowBox[{"Intersection", "[", 
+          RowBox[{
+           RowBox[{"stopWordRemovedTranscriptWords", "[", 
+            RowBox[{"[", 
+             RowBox[{"n", ",", 
+              RowBox[{
+              "stopWordRemovedNonEmptyNonChildParticipantUtteranceLines", "[", 
+               RowBox[{"[", 
+                RowBox[{"n", ",", "3"}], "]"}], "]"}]}], "]"}], "]"}], ",", 
+           RowBox[{"stopWordRemovedTranscriptWords", "[", 
+            RowBox[{"[", 
+             RowBox[{"n", ",", 
+              RowBox[{
+              "stopWordRemovedNonEmptyNonChildParticipantUtteranceLines", "[", 
+               RowBox[{"[", 
+                RowBox[{"n", ",", "2"}], "]"}], "]"}]}], "]"}], "]"}]}], 
+          "]"}], ",", "\[IndentingNewLine]", 
+         RowBox[{"Intersection", "[", 
+          RowBox[{
+           RowBox[{"stopWordRemovedTranscriptWords", "[", 
+            RowBox[{"[", 
+             RowBox[{"n", ",", 
+              RowBox[{
+              "stopWordRemovedNonEmptyNonChildParticipantUtteranceLines", "[", 
+               RowBox[{"[", 
+                RowBox[{"n", ",", "4"}], "]"}], "]"}]}], "]"}], "]"}], ",", 
+           RowBox[{"stopWordRemovedTranscriptWords", "[", 
+            RowBox[{"[", 
+             RowBox[{"n", ",", 
+              RowBox[{
+              "stopWordRemovedNonEmptyNonChildParticipantUtteranceLines", "[", 
+               RowBox[{"[", 
+                RowBox[{"n", ",", "2"}], "]"}], "]"}]}], "]"}], "]"}]}], 
+          "]"}]}], "\[IndentingNewLine]", "]"}], "\[IndentingNewLine]", ",", 
+       RowBox[{"{", 
+        RowBox[{"n", ",", "VS"}], "}"}]}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"lingVarsetRepeatedWords1", "[", 
+      RowBox[{"[", 
+       RowBox[{"VS", ",", 
+        RowBox[{"-", "1"}]}], "]"}], "]"}], "=", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{"Union", "[", "\[IndentingNewLine]", 
+        RowBox[{
+         RowBox[{"Intersection", "[", 
+          RowBox[{
+           RowBox[{"stopWordRemovedTranscriptWords", "[", 
+            RowBox[{"[", 
+             RowBox[{"n", ",", 
+              RowBox[{
+              "stopWordRemovedNonEmptyNonChildParticipantUtteranceLines", "[", 
+               RowBox[{"[", 
+                RowBox[{"n", ",", 
+                 RowBox[{"-", "2"}]}], "]"}], "]"}]}], "]"}], "]"}], ",", 
+           RowBox[{"stopWordRemovedTranscriptWords", "[", 
+            RowBox[{"[", 
+             RowBox[{"n", ",", 
+              RowBox[{
+              "stopWordRemovedNonEmptyNonChildParticipantUtteranceLines", "[", 
+               RowBox[{"[", 
+                RowBox[{"n", ",", 
+                 RowBox[{"-", "1"}]}], "]"}], "]"}]}], "]"}], "]"}]}], "]"}], 
+         ",", "\[IndentingNewLine]", 
+         RowBox[{"Intersection", "[", 
+          RowBox[{
+           RowBox[{"stopWordRemovedTranscriptWords", "[", 
+            RowBox[{"[", 
+             RowBox[{"n", ",", 
+              RowBox[{
+              "stopWordRemovedNonEmptyNonChildParticipantUtteranceLines", "[", 
+               RowBox[{"[", 
+                RowBox[{"n", ",", 
+                 RowBox[{"-", "3"}]}], "]"}], "]"}]}], "]"}], "]"}], ",", 
+           RowBox[{"stopWordRemovedTranscriptWords", "[", 
+            RowBox[{"[", 
+             RowBox[{"n", ",", 
+              RowBox[{
+              "stopWordRemovedNonEmptyNonChildParticipantUtteranceLines", "[", 
+               RowBox[{"[", 
+                RowBox[{"n", ",", 
+                 RowBox[{"-", "1"}]}], "]"}], "]"}]}], "]"}], "]"}]}], 
+          "]"}]}], "\[IndentingNewLine]", "]"}], "\[IndentingNewLine]", ",", 
+       RowBox[{"{", 
+        RowBox[{"n", ",", "VS"}], "}"}]}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"lingVarsetRepeatedWords1", "[", 
+      RowBox[{"[", 
+       RowBox[{"VS", ",", 
+        RowBox[{"-", "2"}]}], "]"}], "]"}], "=", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{"Union", "[", "\[IndentingNewLine]", 
+        RowBox[{
+         RowBox[{"Intersection", "[", 
+          RowBox[{
+           RowBox[{"stopWordRemovedTranscriptWords", "[", 
+            RowBox[{"[", 
+             RowBox[{"n", ",", 
+              RowBox[{
+              "stopWordRemovedNonEmptyNonChildParticipantUtteranceLines", "[", 
+               RowBox[{"[", 
+                RowBox[{"n", ",", 
+                 RowBox[{"-", "1"}]}], "]"}], "]"}]}], "]"}], "]"}], ",", 
+           RowBox[{"stopWordRemovedTranscriptWords", "[", 
+            RowBox[{"[", 
+             RowBox[{"n", ",", 
+              RowBox[{
+              "stopWordRemovedNonEmptyNonChildParticipantUtteranceLines", "[", 
+               RowBox[{"[", 
+                RowBox[{"n", ",", 
+                 RowBox[{"-", "2"}]}], "]"}], "]"}]}], "]"}], "]"}]}], "]"}], 
+         ",", "\[IndentingNewLine]", 
+         RowBox[{"Intersection", "[", 
+          RowBox[{
+           RowBox[{"stopWordRemovedTranscriptWords", "[", 
+            RowBox[{"[", 
+             RowBox[{"n", ",", 
+              RowBox[{
+              "stopWordRemovedNonEmptyNonChildParticipantUtteranceLines", "[", 
+               RowBox[{"[", 
+                RowBox[{"n", ",", 
+                 RowBox[{"-", "3"}]}], "]"}], "]"}]}], "]"}], "]"}], ",", 
+           RowBox[{"stopWordRemovedTranscriptWords", "[", 
+            RowBox[{"[", 
+             RowBox[{"n", ",", 
+              RowBox[{
+              "stopWordRemovedNonEmptyNonChildParticipantUtteranceLines", "[", 
+               RowBox[{"[", 
+                RowBox[{"n", ",", 
+                 RowBox[{"-", "2"}]}], "]"}], "]"}]}], "]"}], "]"}]}], "]"}], 
+         ",", "\[IndentingNewLine]", 
+         RowBox[{"Intersection", "[", 
+          RowBox[{
+           RowBox[{"stopWordRemovedTranscriptWords", "[", 
+            RowBox[{"[", 
+             RowBox[{"n", ",", 
+              RowBox[{
+              "stopWordRemovedNonEmptyNonChildParticipantUtteranceLines", "[", 
+               RowBox[{"[", 
+                RowBox[{"n", ",", 
+                 RowBox[{"-", "4"}]}], "]"}], "]"}]}], "]"}], "]"}], ",", 
+           RowBox[{"stopWordRemovedTranscriptWords", "[", 
+            RowBox[{"[", 
+             RowBox[{"n", ",", 
+              RowBox[{
+              "stopWordRemovedNonEmptyNonChildParticipantUtteranceLines", "[", 
+               RowBox[{"[", 
+                RowBox[{"n", ",", 
+                 RowBox[{"-", "2"}]}], "]"}], "]"}]}], "]"}], "]"}]}], 
+          "]"}]}], "\[IndentingNewLine]", "]"}], "\[IndentingNewLine]", ",", 
+       RowBox[{"{", 
+        RowBox[{"n", ",", "VS"}], "}"}]}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"lingVarsetRepeatedWords1", "[", 
+      RowBox[{"[", 
+       RowBox[{"VS", ",", 
+        RowBox[{"3", ";;", 
+         RowBox[{"-", "3"}]}]}], "]"}], "]"}], "=", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{"Table", "[", 
+        RowBox[{
+         RowBox[{"Union", "[", "\[IndentingNewLine]", 
+          RowBox[{
+           RowBox[{"Intersection", "[", 
+            RowBox[{
+             RowBox[{"stopWordRemovedTranscriptWords", "[", 
+              RowBox[{"[", 
+               RowBox[{"n", ",", 
+                RowBox[{
+                "stopWordRemovedNonEmptyNonChildParticipantUtteranceLines", 
+                 "[", 
+                 RowBox[{"[", 
+                  RowBox[{"n", ",", 
+                   RowBox[{"i", "-", "2"}]}], "]"}], "]"}]}], "]"}], "]"}], 
+             ",", 
+             RowBox[{"stopWordRemovedTranscriptWords", "[", 
+              RowBox[{"[", 
+               RowBox[{"n", ",", 
+                RowBox[{
+                "stopWordRemovedNonEmptyNonChildParticipantUtteranceLines", 
+                 "[", 
+                 RowBox[{"[", 
+                  RowBox[{"n", ",", "i"}], "]"}], "]"}]}], "]"}], "]"}]}], 
+            "]"}], ",", "\[IndentingNewLine]", 
+           RowBox[{"Intersection", "[", 
+            RowBox[{
+             RowBox[{"stopWordRemovedTranscriptWords", "[", 
+              RowBox[{"[", 
+               RowBox[{"n", ",", 
+                RowBox[{
+                "stopWordRemovedNonEmptyNonChildParticipantUtteranceLines", 
+                 "[", 
+                 RowBox[{"[", 
+                  RowBox[{"n", ",", 
+                   RowBox[{"i", "-", "1"}]}], "]"}], "]"}]}], "]"}], "]"}], 
+             ",", 
+             RowBox[{"stopWordRemovedTranscriptWords", "[", 
+              RowBox[{"[", 
+               RowBox[{"n", ",", 
+                RowBox[{
+                "stopWordRemovedNonEmptyNonChildParticipantUtteranceLines", 
+                 "[", 
+                 RowBox[{"[", 
+                  RowBox[{"n", ",", "i"}], "]"}], "]"}]}], "]"}], "]"}]}], 
+            "]"}], ",", 
+           RowBox[{"Intersection", "[", 
+            RowBox[{
+             RowBox[{"stopWordRemovedTranscriptWords", "[", 
+              RowBox[{"[", 
+               RowBox[{"n", ",", 
+                RowBox[{
+                "stopWordRemovedNonEmptyNonChildParticipantUtteranceLines", 
+                 "[", 
+                 RowBox[{"[", 
+                  RowBox[{"n", ",", 
+                   RowBox[{"i", "+", "1"}]}], "]"}], "]"}]}], "]"}], "]"}], 
+             ",", 
+             RowBox[{"stopWordRemovedTranscriptWords", "[", 
+              RowBox[{"[", 
+               RowBox[{"n", ",", 
+                RowBox[{
+                "stopWordRemovedNonEmptyNonChildParticipantUtteranceLines", 
+                 "[", 
+                 RowBox[{"[", 
+                  RowBox[{"n", ",", "i"}], "]"}], "]"}]}], "]"}], "]"}]}], 
+            "]"}], ",", 
+           RowBox[{"Intersection", "[", 
+            RowBox[{
+             RowBox[{"stopWordRemovedTranscriptWords", "[", 
+              RowBox[{"[", 
+               RowBox[{"n", ",", 
+                RowBox[{
+                "stopWordRemovedNonEmptyNonChildParticipantUtteranceLines", 
+                 "[", 
+                 RowBox[{"[", 
+                  RowBox[{"n", ",", 
+                   RowBox[{"i", "+", "2"}]}], "]"}], "]"}]}], "]"}], "]"}], 
+             ",", 
+             RowBox[{"stopWordRemovedTranscriptWords", "[", 
+              RowBox[{"[", 
+               RowBox[{"n", ",", 
+                RowBox[{
+                "stopWordRemovedNonEmptyNonChildParticipantUtteranceLines", 
+                 "[", 
+                 RowBox[{"[", 
+                  RowBox[{"n", ",", "i"}], "]"}], "]"}]}], "]"}], "]"}]}], 
+            "]"}]}], "\[IndentingNewLine]", "]"}], ",", 
+         RowBox[{"{", 
+          RowBox[{"i", ",", "3", ",", 
+           RowBox[{
+            RowBox[{"Length", "[", 
+             RowBox[{
+             "stopWordRemovedNonEmptyNonChildParticipantUtteranceLines", "[", 
+              
+              RowBox[{"[", "n", "]"}], "]"}], "]"}], "-", "2"}]}], "}"}]}], 
+        "]"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"n", ",", "VS"}], "}"}]}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{"(*", 
+    RowBox[{
+    "Calculate", " ", "Proportion", " ", "of", " ", "Tokens", " ", "in", " ", 
+     "Varset"}], "*)"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"lingVarsetTokenRatio1", "[", 
+      RowBox[{"[", "VS", "]"}], "]"}], "=", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"Length", "[", 
+         RowBox[{"Flatten", "[", 
+          RowBox[{"lingVarsetRepeatedWords1", "[", 
+           RowBox[{"[", "n", "]"}], "]"}], "]"}], "]"}], "/", 
+        RowBox[{"Length", "[", 
+         RowBox[{"Flatten", "[", 
+          RowBox[{"stopWordRemovedTranscriptWords", "[", 
+           RowBox[{"[", 
+            RowBox[{"n", ",", 
+             RowBox[{
+             "stopWordRemovedNonEmptyNonChildParticipantUtteranceLines", "[", 
+              
+              RowBox[{"[", "n", "]"}], "]"}]}], "]"}], "]"}], "]"}], "]"}]}], 
+       ",", 
+       RowBox[{"{", 
+        RowBox[{"n", ",", "VS"}], "}"}]}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{"(*", 
+    RowBox[{
+    "Calculate", " ", "Proportion", " ", "of", " ", "Type", " ", "in", " ", 
+     "Varset"}], "*)"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"lingVarsetTypeRatio1", "[", 
+      RowBox[{"[", "VS", "]"}], "]"}], "=", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"Length", "[", 
+         RowBox[{"DeleteDuplicates", "[", 
+          RowBox[{"Flatten", "[", 
+           RowBox[{"lingVarsetRepeatedWords1", "[", 
+            RowBox[{"[", "n", "]"}], "]"}], "]"}], "]"}], "]"}], "/", 
+        RowBox[{"Length", "[", 
+         RowBox[{"DeleteDuplicates", "[", 
+          RowBox[{"Flatten", "[", 
+           RowBox[{"stopWordRemovedTranscriptWords", "[", 
+            RowBox[{"[", 
+             RowBox[{"n", ",", 
+              RowBox[{
+              "stopWordRemovedNonEmptyNonChildParticipantUtteranceLines", "[", 
+               RowBox[{"[", "n", "]"}], "]"}]}], "]"}], "]"}], "]"}], "]"}], 
+         "]"}]}], ",", 
+       RowBox[{"{", 
+        RowBox[{"n", ",", "VS"}], "}"}]}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{"(*", 
+    RowBox[{
+    "Calculate", " ", "Type", " ", "Token", " ", "Ratio", " ", "of", " ", 
+     "words", " ", "in", " ", "Varset"}], "*)"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"lingVarsetTTR1", "[", 
+      RowBox[{"[", "VS", "]"}], "]"}], "=", 
+     RowBox[{
+      RowBox[{"lingVarsetTypeRatio1", "[", 
+       RowBox[{"[", "VS", "]"}], "]"}], "/", 
+      RowBox[{"lingVarsetTokenRatio1", "[", 
+       RowBox[{"[", "VS", "]"}], "]"}]}]}], ";"}], "\[IndentingNewLine]", 
+   RowBox[{"(*", 
+    RowBox[{
+     RowBox[{
+     "Mark", " ", "utterances", " ", "in", " ", "Varset", " ", "as", " ", 
+      "1"}], ",", " ", 
+     RowBox[{
+     "those", " ", "not", " ", "in", " ", "varset", " ", "as", " ", "0"}]}], 
+    "*)"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"lingVarsetIfInVarset1", "[", 
+      RowBox[{"[", "VS", "]"}], "]"}], "=", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{
+        RowBox[{
+         RowBox[{"If", "[", 
+          RowBox[{
+           RowBox[{
+            RowBox[{"Length", "[", "#", "]"}], ">", "0"}], ",", "1", ",", 
+           "0"}], "]"}], "&"}], "/@", 
+        RowBox[{"lingVarsetRepeatedWords1", "[", 
+         RowBox[{"[", "n", "]"}], "]"}]}], ",", 
+       RowBox[{"{", 
+        RowBox[{"n", ",", "VS"}], "}"}]}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{"(*", 
+    RowBox[{
+    "Count", " ", "the", " ", "total", " ", "number", " ", "of", " ", 
+     "Utterances", " ", "in", " ", "varsets"}], "*)"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"lingVarsetTotalNumberUtteranceInVarset1", "[", 
+      RowBox[{"[", "VS", "]"}], "]"}], "=", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{"Total", "[", 
+        RowBox[{"lingVarsetIfInVarset1", "[", 
+         RowBox[{"[", "n", "]"}], "]"}], "]"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"n", ",", "VS"}], "}"}]}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{"(*", 
+    RowBox[{
+     RowBox[{
+     "Count", " ", "the", " ", "total", " ", "number", " ", "of", " ", 
+      "Varsets"}], ",", " ", 
+     RowBox[{
+      RowBox[{"i", ".", "e", ".", " ", "sequence"}], " ", "of", " ", 
+      "consecutive", " ", "lines", " ", "with", " ", "overlaps"}]}], "*)"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{"(*", 
+    RowBox[{
+     RowBox[{"This", " ", "algorithm", " ", "is", " ", "complicated"}], ",", 
+     " ", 
+     RowBox[{
+      RowBox[{
+      "an", " ", "example", " ", "below", " ", "may", " ", "explain", " ", 
+       "the", " ", "code", "\[IndentingNewLine]", "abc"}], "=", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{
+        "0", ",", "0", ",", "1", ",", "1", ",", "1", ",", "0", ",", "0", ",", 
+         "1", ",", "1", ",", "1", ",", "0", ",", "0", ",", "0"}], "}"}], 
+       "\[IndentingNewLine]", 
+       RowBox[{
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{"Total", "[", 
+           RowBox[{
+            RowBox[{"BitXor", "[", 
+             RowBox[{
+              RowBox[{"Prepend", "[", 
+               RowBox[{"abc", ",", "0"}], "]"}], ",", 
+              RowBox[{"Append", "[", 
+               RowBox[{"abc", ",", "0"}], "]"}]}], "]"}], "[", 
+            RowBox[{"[", 
+             RowBox[{"2", ";;", 
+              RowBox[{"-", "2"}]}], "]"}], "]"}], "]"}], "+", 
+          RowBox[{"abc", "[", 
+           RowBox[{"[", "1", "]"}], "]"}], "+", 
+          RowBox[{"abc", "[", 
+           RowBox[{"[", 
+            RowBox[{"-", "1"}], "]"}], "]"}]}], ")"}], "/", "2"}]}]}]}], 
+    "\[IndentingNewLine]", "*)"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"lingVarsetTotalNumberVarsets1", "[", 
+      RowBox[{"[", "VS", "]"}], "]"}], "=", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{"Total", "[", 
+           RowBox[{
+            RowBox[{"BitXor", "[", 
+             RowBox[{
+              RowBox[{"Prepend", "[", 
+               RowBox[{
+                RowBox[{"lingVarsetIfInVarset1", "[", 
+                 RowBox[{"[", "n", "]"}], "]"}], ",", "0"}], "]"}], ",", 
+              RowBox[{"Append", "[", 
+               RowBox[{
+                RowBox[{"lingVarsetIfInVarset1", "[", 
+                 RowBox[{"[", "n", "]"}], "]"}], ",", "0"}], "]"}]}], "]"}], 
+            "[", 
+            RowBox[{"[", 
+             RowBox[{"2", ";;", 
+              RowBox[{"-", "2"}]}], "]"}], "]"}], "]"}], "+", 
+          RowBox[{"lingVarsetIfInVarset1", "[", 
+           RowBox[{"[", 
+            RowBox[{"n", ",", "1"}], "]"}], "]"}], "+", 
+          RowBox[{"lingVarsetIfInVarset1", "[", 
+           RowBox[{"[", 
+            RowBox[{"n", ",", 
+             RowBox[{"-", "1"}]}], "]"}], "]"}]}], ")"}], "/", "2"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"n", ",", "VS"}], "}"}]}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{"(*", 
+    RowBox[{
+     RowBox[{
+     "Calculate", " ", "the", " ", "proportion", " ", "of", " ", "utterances",
+       " ", "in", " ", "Varset", " ", "across", " ", "the", " ", "whole", " ",
+       "transcripts"}], ",", " ", 
+     RowBox[{
+      RowBox[{"20", " ", "varset"}], "-", 
+      RowBox[{
+      "utterances", " ", "in", " ", "total", " ", "40", " ", "sentences", " ",
+        "will", " ", "give", " ", "a", " ", "value", " ", "of", " ", 
+       "0.5"}]}]}], "*)"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"lingVarsetUtteranceRatio1", "[", 
+      RowBox[{"[", "VS", "]"}], "]"}], "=", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"lingVarsetTotalNumberUtteranceInVarset1", "[", 
+         RowBox[{"[", "n", "]"}], "]"}], "/", 
+        RowBox[{"Length", "[", 
+         RowBox[{
+         "stopWordRemovedNonEmptyNonChildParticipantUtteranceLines", "[", 
+          RowBox[{"[", "n", "]"}], "]"}], "]"}]}], ",", 
+       RowBox[{"{", 
+        RowBox[{"n", ",", "VS"}], "}"}]}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{"(*", 
+    RowBox[{
+    "Calculate", " ", "the", " ", "average", " ", "length", " ", "of", " ", 
+     "each", " ", "consecutive", " ", "sequences", " ", "of", " ", 
+     "utterances", " ", "in", " ", "varsets"}], " ", "*)"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"lingVarsetMeanSequenceLength1", "[", 
+      RowBox[{"[", "VS", "]"}], "]"}], "=", 
+     RowBox[{
+      RowBox[{"lingVarsetTotalNumberUtteranceInVarset1", "[", 
+       RowBox[{"[", "VS", "]"}], "]"}], "/", 
+      RowBox[{"lingVarsetTotalNumberVarsets1", "[", 
+       RowBox[{"[", "VS", "]"}], "]"}]}]}], ";"}], "\[IndentingNewLine]", 
+   StyleBox[
+    RowBox[{"(*", "MLU", "*)"}], "Subchapter"], "\[IndentingNewLine]", 
+   RowBox[{"(*", 
+    RowBox[{"Calculating", " ", "MLU"}], "*)"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"lingMLUEachLine", "[", 
+      RowBox[{"[", "VS", "]"}], "]"}], "=", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{"Mean", "[", 
+        RowBox[{"Length", "/@", 
+         RowBox[{"transcriptWords", "[", 
+          RowBox[{"[", 
+           RowBox[{"n", ",", 
+            RowBox[{"nonEmptyNonChildParticipantUtteranceLines", "[", 
+             RowBox[{"[", "n", "]"}], "]"}]}], "]"}], "]"}]}], "]"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"n", ",", "VS"}], "}"}]}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   StyleBox[
+    RowBox[{"(*", 
+     RowBox[{"Lexical", " ", "Diversity", " ", "by", " ", "TTR"}], "*)"}], 
+    "Subchapter"], "\[IndentingNewLine]", 
+   RowBox[{"(*", 
+    RowBox[{"Calculating", " ", "TTR"}], "*)"}], "\[IndentingNewLine]", 
+   RowBox[{"If", "[", 
+    RowBox[{
+     RowBox[{"!", 
+      RowBox[{"And", "@@", 
+       RowBox[{"(", 
+        RowBox[{"lengthCheck", "/.", 
+         RowBox[{"\"\<\>\"", "\[Rule]", "Nothing"}]}], ")"}]}]}], ",", 
+     "\"\<ERROR! Some transcripts are too short!\>\""}], "]"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{"(*", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"lingTTRSample", "[", 
+       RowBox[{"[", "VS", "]"}], "]"}], "=", 
+      RowBox[{"Table", "[", 
+       RowBox[{
+        RowBox[{"RandomChoice", "[", 
+         RowBox[{
+          RowBox[{"Select", "[", 
+           RowBox[{
+            RowBox[{"Flatten", "[", 
+             RowBox[{"textOnlyNonChildTranscriptWords", "[", 
+              RowBox[{"[", "n", "]"}], "]"}], "]"}], ",", 
+            RowBox[{
+             RowBox[{"StringMatchQ", "[", 
+              RowBox[{"#", ",", 
+               RowBox[{"LetterCharacter", ".."}]}], "]"}], "&"}]}], "]"}], 
+          ",", "TTRSAMPLESIZE"}], "]"}], ",", 
+        RowBox[{"{", 
+         RowBox[{"n", ",", "VS"}], "}"}]}], "]"}]}], ";", 
+     "\[IndentingNewLine]", 
+     RowBox[{
+      RowBox[{"lingTTRType", "[", 
+       RowBox[{"[", "VS", "]"}], "]"}], "=", 
+      RowBox[{"Table", "[", 
+       RowBox[{
+        RowBox[{"Length", "[", 
+         RowBox[{"DeleteDuplicates", "[", 
+          RowBox[{"lingTTRSample", "[", 
+           RowBox[{"[", "n", "]"}], "]"}], "]"}], "]"}], ",", 
+        RowBox[{"{", 
+         RowBox[{"n", ",", "VS"}], "}"}]}], "]"}]}], ";"}], 
+    "\[IndentingNewLine]", "*)"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"lingTTR", "[", 
+      RowBox[{"[", "VS", "]"}], "]"}], "=", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"Total", "[", 
+         RowBox[{"Table", "[", 
+          RowBox[{
+           RowBox[{
+            FractionBox["1", "TTRSAMPLESIZE"], 
+            RowBox[{"Length", "[", 
+             RowBox[{"DeleteDuplicates", "[", 
+              RowBox[{"RandomChoice", "[", 
+               RowBox[{
+                RowBox[{"Select", "[", 
+                 RowBox[{
+                  RowBox[{"Flatten", "[", 
+                   RowBox[{"textOnlyNonChildTranscriptWords", "[", 
+                    RowBox[{"[", "n", "]"}], "]"}], "]"}], ",", 
+                  RowBox[{
+                   RowBox[{"StringMatchQ", "[", 
+                    RowBox[{"#", ",", 
+                    RowBox[{"LetterCharacter", ".."}]}], "]"}], "&"}]}], 
+                 "]"}], ",", "TTRSAMPLESIZE"}], "]"}], "]"}], "]"}]}], ",", 
+           RowBox[{"{", 
+            RowBox[{"i", ",", "1", ",", "TTRTRIALS"}], "}"}]}], "]"}], "]"}], 
+        "/", "TTRTRIALS"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"n", ",", "VS"}], "}"}]}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{"(*", 
+    RowBox[{"Export", " ", "Results"}], "*)"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"bundleLing", "=", 
+     RowBox[{"{", "\[IndentingNewLine]", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{
+        "\"\<syntax_integrity\>\"", ",", "transcriptSyntaxIntegrity", ",", 
+         "\"\<TRUE = There is no syntax error found in the transcript by CLAN \
+standard.\>\""}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"\"\<mlu\>\"", ",", 
+         RowBox[{"lingMLUEachLine", "//", "N"}], ",", 
+         "\"\<Mean Length of Utterance By Words\>\""}], "}"}], ",", 
+       "\[IndentingNewLine]", 
+       RowBox[{"{", 
+        RowBox[{"\"\<ttr\>\"", ",", 
+         RowBox[{"lingTTR", "//", "N"}], ",", 
+         "\"\<Type Token Ratio by selecting 100 Random Words\>\""}], "}"}], 
+       ",", "\[IndentingNewLine]", 
+       RowBox[{"{", 
+        RowBox[{"\"\<vs_mean_dis\>\"", ",", 
+         RowBox[{"lingVarset", "//", "N"}], ",", 
+         "\"\<An Example for Illustration:\\n\\tI eat a pizza.\\n\\tSo I also \
+drink a lot.\\nMean Levenshtein edit distance between utterances in variation \
+sets, with gap = \
+0\\t\\tvs_mean_dis=\!\(\*FractionBox[\(LevenshteinEditDistance[\*SubscriptBox[\
+\(Utterance\), \(n\)], \*SubscriptBox[\(Utterance\), \(n + 1\)]]\), \
+\(Max[Length[\*SubscriptBox[\(Utterance\), \(n\)]], \
+Length[\*SubscriptBox[\(Utterance\), \(n + \
+1\)]]]\)]\)=\!\(\*FractionBox[\(4\), \(Max[4, \
+6]\)]\)=\!\(\*FractionBox[\(1\), \(3\)]\)\>\""}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"\"\<vs_mean_dis_ori\>\"", ",", 
+         RowBox[{"lingVarset2", "//", "N"}], ",", 
+         "\"\<Mean Levenshtein edit distance without taking out words from \
+Stop List, with gap = 0 \\n\\twhich consists of: what, my, this, where, and, \
+is, you, the\>\""}], "}"}], ",", "\[IndentingNewLine]", 
+       RowBox[{"(*", 
+        RowBox[{"gap", " ", "=", " ", "0"}], "*)"}], "\[IndentingNewLine]", 
+       RowBox[{"{", 
+        RowBox[{"\"\<vs_token_p_g0\>\"", ",", 
+         RowBox[{"lingVarsetTokenRatio", "//", "N"}], ",", 
+         "\"\<Proportion(p) of words (token) in Varset, with gap = \
+0.\\n\\tvs_token_p=\!\(\*FractionBox[\(Tokens\\\ Repeated\), \(Total\\\ Token\
+\\\ Count\)]\)=\!\(\*FractionBox[\(2\\\ 2\), \(10\)]\)=0.4\>\""}], "}"}], ",",
+        "\[IndentingNewLine]", 
+       RowBox[{"{", 
+        RowBox[{"\"\<vs_type_p_g0\>\"", ",", 
+         RowBox[{"lingVarsetTypeRatio", "//", "N"}], ",", 
+         "\"\<Proportion(p) of unique words (type) in Varset, with gap = \
+0.\\n\\tvs_type_p=\!\(\*FractionBox[\(Types\\\ Repeated\), \(Total\\\ Type\\\ \
+Count\)]\)=\!\(\*FractionBox[\(2\\\ 2\), \(8\)]\)=0.5\>\""}], "}"}], ",", 
+       "\[IndentingNewLine]", 
+       RowBox[{"{", 
+        RowBox[{"\"\<vs_ttr_g0\>\"", ",", 
+         RowBox[{"lingVarsetTTR", "//", "N"}], ",", 
+         "\"\<A Type Token Ratio of words in varsets, with gap = \
+0.\\n\\tvs_ttr=\!\(\*FractionBox[\(Tokens\\\ in\\\ Varset\), \(Types\\\ in\\\ \
+Varset\)]\)=\!\(\*FractionBox[\(2\), \(2\)]\)=1\>\""}], "}"}], ",", 
+       "\[IndentingNewLine]", 
+       RowBox[{"{", 
+        RowBox[{"\"\<vs_utter_p_g0\>\"", ",", 
+         RowBox[{"lingVarsetUtteranceRatio", "//", "N"}], ",", 
+         "\"\<An example for illustration: \\n\\tB, A, A, B, B, A, A, \
+A\\n\\t(where A is in varset, B is not)\\nThe proportion(p) of utterances in \
+Varset across the whole transcripts, with gap = \
+0.\\n\\tvs_utter_p=\!\(\*FractionBox[\(N[Utterances\\\ in\\\ Varset]\), \
+\(Total\\\ N[Utterance]\)]\)=\!\(\*FractionBox[\(5\), \(8\)]\)\>\""}], "}"}], 
+       ",", "\[IndentingNewLine]", 
+       RowBox[{"{", 
+        RowBox[{"\"\<vs_mean_len_g0\>\"", ",", 
+         RowBox[{"lingVarsetMeanSequenceLength", "//", "N"}], ",", 
+         "\"\<The mean length of utterances in Varset across the whole \
+transcripts, with gap = \
+0.\\n\\tvs_utter_p=\!\(\*FractionBox[\(\[Sum]Length[Varset\\\ \*SubscriptBox[\
+\(Sequence\), \(n\)]]\), \(Total\\\ N[Varset\\\ \
+Sequences]\)]\)=\!\(\*FractionBox[\(2 + 3\), \(2\)]\)=2.5\>\""}], "}"}], ",", 
+       "\[IndentingNewLine]", 
+       RowBox[{"(*", 
+        RowBox[{"Gap", " ", "\[LessEqual]", " ", "1"}], "*)"}], 
+       "\[IndentingNewLine]", 
+       RowBox[{"{", 
+        RowBox[{"\"\<vs_token_p_g1\>\"", ",", 
+         RowBox[{"lingVarsetTokenRatio1", "//", "N"}], ",", 
+         "\"\<Proportion(p) of words (token) in Varset, with gap \[LessEqual] \
+1.\>\""}], "}"}], ",", "\[IndentingNewLine]", 
+       RowBox[{"{", 
+        RowBox[{"\"\<vs_type_p_g1\>\"", ",", 
+         RowBox[{"lingVarsetTypeRatio1", "//", "N"}], ",", 
+         "\"\<Proportion(p) of unique words (type) in Varset, with gap \
+\[LessEqual] 1.\>\""}], "}"}], ",", "\[IndentingNewLine]", 
+       RowBox[{"{", 
+        RowBox[{"\"\<vs_ttr_g1\>\"", ",", 
+         RowBox[{"lingVarsetTTR1", "//", "N"}], ",", 
+         "\"\<A Type Token Ratio of words in varsets, with gap \[LessEqual] \
+1.\>\""}], "}"}], ",", "\[IndentingNewLine]", 
+       RowBox[{"{", 
+        RowBox[{"\"\<vs_utter_p_g1\>\"", ",", 
+         RowBox[{"lingVarsetUtteranceRatio1", "//", "N"}], ",", 
+         "\"\<The proportion(p) of utterances in Varset across the whole \
+transcripts, with gap \[LessEqual] 1.\>\""}], "}"}], ",", 
+       "\[IndentingNewLine]", 
+       RowBox[{"{", 
+        RowBox[{"\"\<vs_mean_len_g1\>\"", ",", 
+         RowBox[{"lingVarsetMeanSequenceLength1", "//", "N"}], ",", 
+         "\"\<The mean length of utterances in Varset across the whole \
+transcripts, with gap \[LessEqual] 1.\>\""}], "}"}]}], "\[IndentingNewLine]", 
+      "}"}]}], ";"}], "\[IndentingNewLine]", 
+   RowBox[{"bundleExport", "[", 
+    RowBox[{
+    "bundleLing", ",", "lingResultsFile", ",", "lingDescriptorFile", ",", 
+     "True", ",", "True"}], "]"}]}]}]], "Input",
+ CellChangeTimes->{{3.6941476605836782`*^9, 3.69414767155795*^9}, {
+   3.6941477646875687`*^9, 3.694147807552401*^9}, {3.6941478737567387`*^9, 
+   3.694147951920023*^9}, {3.694149048895898*^9, 3.69414906143983*^9}, {
+   3.6941491801940737`*^9, 3.694149201335569*^9}, {3.694150175858238*^9, 
+   3.6941502097400217`*^9}, {3.6941502713909483`*^9, 3.69415027313313*^9}, {
+   3.694150548186392*^9, 3.6941506128142757`*^9}, {3.6941506845672913`*^9, 
+   3.6941506874961443`*^9}, {3.694150847793407*^9, 3.694150867557185*^9}, {
+   3.6941524858394423`*^9, 3.694152488471634*^9}, {3.694152724324259*^9, 
+   3.694152772718275*^9}, {3.694152888582087*^9, 3.6941529466753073`*^9}, {
+   3.694153115312531*^9, 3.69415311635115*^9}, {3.694153154575568*^9, 
+   3.694153196767241*^9}, {3.694153242307542*^9, 3.694153244027314*^9}, {
+   3.694153312607119*^9, 3.69415335933886*^9}, {3.694322857459731*^9, 
+   3.694323014849979*^9}, {3.6943230490672092`*^9, 3.694323113168137*^9}, {
+   3.694323157124475*^9, 3.6943231755809507`*^9}, {3.694323802566697*^9, 
+   3.694323811294285*^9}, {3.694323857801776*^9, 3.69432400056329*^9}, {
+   3.6962011317803926`*^9, 3.69620117164907*^9}, {3.696201254154112*^9, 
+   3.696201319630171*^9}, {3.6968590810968933`*^9, 3.6968590856154423`*^9}, {
+   3.69685947888128*^9, 3.696859479416291*^9}, {3.6968602920040207`*^9, 
+   3.69686029893533*^9}, {3.697367034268036*^9, 3.697367067973207*^9}, {
+   3.6973671243222857`*^9, 3.6973671523482437`*^9}, 3.6973672281437197`*^9, {
+   3.697367372733642*^9, 3.697367376732448*^9}, {3.697371578369372*^9, 
+   3.697371664990746*^9}, {3.697406608723798*^9, 3.697406622015394*^9}, {
+   3.6974172282565527`*^9, 3.6974172357263002`*^9}, {3.697427543796268*^9, 
+   3.697427591623823*^9}, {3.697427796710725*^9, 3.697427801558901*^9}, {
+   3.69742786817164*^9, 3.6974278828107443`*^9}, {3.69742812033359*^9, 
+   3.6974281206219177`*^9}, {3.6974281672592688`*^9, 
+   3.6974282241381397`*^9}, {3.697428264969151*^9, 3.697428266550009*^9}, {
+   3.697534356095701*^9, 3.697534396156661*^9}, {3.6975349874823313`*^9, 
+   3.697535048376032*^9}, {3.697535762784045*^9, 3.697535791595892*^9}, {
+   3.697535838530521*^9, 3.697535898186343*^9}, {3.697536117652994*^9, 
+   3.697536171669561*^9}, {3.69753621545944*^9, 3.6975362896138487`*^9}, 
+   3.6975363491990147`*^9, {3.697537290721589*^9, 3.6975373189270573`*^9}, {
+   3.697631786793356*^9, 3.697631790994361*^9}, {3.697631837793416*^9, 
+   3.697631855338839*^9}, {3.697631958967821*^9, 3.697632068928803*^9}, {
+   3.697632142907894*^9, 3.697632155272038*^9}, {3.697632189060375*^9, 
+   3.6976321923876953`*^9}, {3.697634764506176*^9, 3.6976349623367853`*^9}, {
+   3.697635648776266*^9, 3.697635654305786*^9}, {3.697947562535277*^9, 
+   3.6979475825886106`*^9}, {3.6979477637429333`*^9, 3.697947782460608*^9}, 
+   3.69794869742704*^9, {3.697949207619306*^9, 3.6979492391153307`*^9}, {
+   3.697949409286216*^9, 3.697949409799931*^9}, {3.697950573358962*^9, 
+   3.697950636307081*^9}, {3.697950816941568*^9, 3.6979508368731337`*^9}, {
+   3.697950886000327*^9, 3.6979509102781363`*^9}, {3.697950971476563*^9, 
+   3.697950995194521*^9}, {3.6979510363460407`*^9, 3.6979510375970182`*^9}, {
+   3.697951206905362*^9, 3.697951207597847*^9}, {3.6979513571034727`*^9, 
+   3.69795138155229*^9}, {3.6979517901932087`*^9, 3.697951818046001*^9}, 
+   3.697964695007258*^9, {3.697964756506578*^9, 3.6979649066990232`*^9}, {
+   3.69796634603039*^9, 3.69796638034933*^9}, {3.697966413488587*^9, 
+   3.697966434632278*^9}, {3.697966537507669*^9, 3.697966737336851*^9}, {
+   3.697967621783266*^9, 3.697967665172844*^9}, {3.6979677006112223`*^9, 
+   3.697967727337693*^9}, 3.697969233942196*^9, {3.697970651428833*^9, 
+   3.6979706994872417`*^9}, {3.6979709095759497`*^9, 3.69797100086115*^9}, {
+   3.697971045994341*^9, 3.697971072657653*^9}, {3.697971133366077*^9, 
+   3.6979711990747223`*^9}, {3.697971286968265*^9, 3.697971303085965*^9}, {
+   3.697971762756699*^9, 3.697971823107971*^9}, {3.697971860510706*^9, 
+   3.697971863106*^9}, {3.697971907274658*^9, 3.6979719475193863`*^9}, {
+   3.697972020625855*^9, 3.697972178915887*^9}, 3.6979723253152313`*^9, {
+   3.697972363297702*^9, 3.6979724670358553`*^9}, {3.697972615357856*^9, 
+   3.6979727334420223`*^9}, {3.697972919634426*^9, 3.697972920858238*^9}, {
+   3.697972969497361*^9, 3.697973089769133*^9}, 3.697973947836619*^9, {
+   3.697974646072331*^9, 3.697974647310712*^9}, 3.697975376659582*^9, {
+   3.69797541081913*^9, 3.6979754404932423`*^9}, {3.697975526877015*^9, 
+   3.6979755535084333`*^9}, 3.6979769959858093`*^9, {3.697977281763831*^9, 
+   3.6979773361499968`*^9}, {3.6979776026766043`*^9, 3.697977694607237*^9}, {
+   3.697978057249757*^9, 3.697978076301667*^9}, 3.69797839127359*^9, {
+   3.69803573022482*^9, 3.698035731427781*^9}, {3.698035786214058*^9, 
+   3.6980357885982533`*^9}, {3.698628923704492*^9, 3.698628978403314*^9}, {
+   3.698629288048193*^9, 3.69862928838242*^9}, {3.6986295635611563`*^9, 
+   3.6986295836125*^9}}],
+
+Cell[BoxData["\<\"ERROR! Some transcripts are too short!\"\>"], "Output",
+ CellChangeTimes->{{3.697951350767465*^9, 3.6979513849603786`*^9}, 
+   3.697951536342389*^9, {3.697951591632823*^9, 3.697951610142933*^9}, {
+   3.6979516456659927`*^9, 3.697951650053763*^9}, 3.6979517342133427`*^9, {
+   3.697951794272599*^9, 3.6979518194406347`*^9}, 3.697951849873685*^9, 
+   3.697951893934125*^9, 3.697964886273815*^9, {3.697966417144064*^9, 
+   3.697966436265436*^9}, 3.697966705130786*^9, {3.69796763100664*^9, 
+   3.697967645204397*^9}, {3.697967724538417*^9, 3.697967728982128*^9}, 
+   3.6979707012887297`*^9, 3.697970922208522*^9, {3.697970994581637*^9, 
+   3.697971002672056*^9}, {3.6979711879016533`*^9, 3.69797120129797*^9}, 
+   3.697971304978146*^9, 3.697971801492305*^9, 3.6979718647879143`*^9, 
+   3.697972140554183*^9, {3.6979721730170383`*^9, 3.697972180344078*^9}, 
+   3.697972469709173*^9, 3.697972887798603*^9, 3.69797292339685*^9, 
+   3.697974060588121*^9, 3.697975378857369*^9, {3.697975413347889*^9, 
+   3.697975448530985*^9}, {3.697975528819021*^9, 3.6979755561934443`*^9}, 
+   3.697975688851727*^9, 3.6979760711540613`*^9, 3.697976205386139*^9, 
+   3.69797654843736*^9, 3.697976579717572*^9, 3.697976922832666*^9, {
+   3.697976972796062*^9, 3.697976998527857*^9}, 3.697977137327722*^9, 
+   3.69797718850532*^9, 3.6979773566748743`*^9, 3.697977609936911*^9, 
+   3.697977671265712*^9, 3.6979783872384367`*^9, {3.6980357788613873`*^9, 
+   3.698035799012517*^9}, 3.698039850991496*^9, 3.698046629517058*^9, 
+   3.69837826868717*^9, 3.698382533137424*^9, 3.6986280760528584`*^9, {
+   3.6986281632278547`*^9, 3.698628234946103*^9}, 3.6986288444648733`*^9, {
+   3.6986289341989202`*^9, 3.698628979637076*^9}, {3.6986292910874157`*^9, 
+   3.698629337085637*^9}, {3.698629564789185*^9, 3.698629584086738*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   ButtonBox["\<\"Launch Results File\"\>",
+    Appearance->Automatic,
+    ButtonFunction:>SystemOpen["ling_results.csv"],
+    Evaluator->Automatic,
+    Method->"Preemptive"], ",", 
+   ButtonBox["\<\"Launch Descriptor File\"\>",
+    Appearance->Automatic,
+    ButtonFunction:>SystemOpen["ling_results_descriptor.pdf"],
+    Evaluator->Automatic,
+    Method->"Preemptive"]}], "}"}]], "Output",
+ CellChangeTimes->{{3.697951350767465*^9, 3.6979513849603786`*^9}, 
+   3.697951536342389*^9, {3.697951591632823*^9, 3.697951610142933*^9}, {
+   3.6979516456659927`*^9, 3.697951650053763*^9}, 3.6979517342133427`*^9, {
+   3.697951794272599*^9, 3.6979518194406347`*^9}, 3.697951849873685*^9, 
+   3.697951893934125*^9, 3.697964886273815*^9, {3.697966417144064*^9, 
+   3.697966436265436*^9}, 3.697966705130786*^9, {3.69796763100664*^9, 
+   3.697967645204397*^9}, {3.697967724538417*^9, 3.697967728982128*^9}, 
+   3.6979707012887297`*^9, 3.697970922208522*^9, {3.697970994581637*^9, 
+   3.697971002672056*^9}, {3.6979711879016533`*^9, 3.69797120129797*^9}, 
+   3.697971304978146*^9, 3.697971801492305*^9, 3.6979718647879143`*^9, 
+   3.697972140554183*^9, {3.6979721730170383`*^9, 3.697972180344078*^9}, 
+   3.697972469709173*^9, 3.697972887798603*^9, 3.69797292339685*^9, 
+   3.697974060588121*^9, 3.697975378857369*^9, {3.697975413347889*^9, 
+   3.697975448530985*^9}, {3.697975528819021*^9, 3.6979755561934443`*^9}, 
+   3.697975688851727*^9, 3.6979760711540613`*^9, 3.697976205386139*^9, 
+   3.69797654843736*^9, 3.697976579717572*^9, 3.697976922832666*^9, {
+   3.697976972796062*^9, 3.697976998527857*^9}, 3.697977137327722*^9, 
+   3.69797718850532*^9, 3.6979773566748743`*^9, 3.697977609936911*^9, 
+   3.697977671265712*^9, 3.6979783872384367`*^9, {3.6980357788613873`*^9, 
+   3.698035799012517*^9}, 3.698039850991496*^9, 3.698046629517058*^9, 
+   3.69837826868717*^9, 3.698382533137424*^9, 3.6986280760528584`*^9, {
+   3.6986281632278547`*^9, 3.698628234946103*^9}, 3.6986288444648733`*^9, {
+   3.6986289341989202`*^9, 3.698628979637076*^9}, {3.6986292910874157`*^9, 
+   3.698629337085637*^9}, {3.698629564789185*^9, 3.6986295844666967`*^9}}]
+}, Open  ]]
+},
+WindowSize->{1440, 791},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+FrontEndVersion->"11.0 for Mac OS X x86 (32-bit, 64-bit Kernel) (September \
+21, 2016)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 67053, 1670, 5211, "Input"],
+Cell[67636, 1694, 1813, 24, 32, "Output"],
+Cell[69452, 1720, 2173, 36, 43, "Output"]
+}, Open  ]]
+}
+]
+*)
+

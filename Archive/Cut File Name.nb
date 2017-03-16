@@ -1,0 +1,225 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 10.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      7591,        216]
+NotebookOptionsPosition[      6663,        180]
+NotebookOutlinePosition[      7019,        196]
+CellTagsIndexPosition[      6976,        193]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[{
+ RowBox[{"Dir", "=", 
+  "\"\</Users/liyezhou/Downloads/Pass 1/\>\""}], "\[IndentingNewLine]", 
+ RowBox[{"SetDirectory", "[", "Dir", "]"}]}], "Input",
+ CellChangeTimes->{{3.658458945986219*^9, 3.6584589667558727`*^9}, {
+  3.658459073653769*^9, 3.658459076459963*^9}}],
+
+Cell[BoxData["\<\"/Users/liyezhou/Downloads/Pass 1/\"\>"], "Output",
+ CellChangeTimes->{3.6584589671004333`*^9, 3.658459076770076*^9}],
+
+Cell[BoxData["\<\"/Users/liyezhou/Downloads/Pass 1\"\>"], "Output",
+ CellChangeTimes->{3.6584589671004333`*^9, 3.658459076776998*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Files", "=", 
+  RowBox[{"FileNames", "[", "]"}]}]], "Input",
+ CellChangeTimes->{{3.658459027990176*^9, 3.658459050061737*^9}, {
+   3.658459085580127*^9, 3.658459098757533*^9}, 3.658459166408025*^9, 
+   3.658459223510741*^9},
+ NumberMarks->False],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"\<\"VS001.txt\"\>", ",", "\<\"VS003.txt\"\>", 
+   ",", "\<\"VS004.txt\"\>", ",", "\<\"VS007.txt\"\>", 
+   ",", "\<\"VS009.txt\"\>", ",", "\<\"VS012.txt\"\>", 
+   ",", "\<\"VS013.txt\"\>", ",", "\<\"VS014.txt\"\>", 
+   ",", "\<\"VS016.txt\"\>", ",", "\<\"VS020.txt\"\>", 
+   ",", "\<\"VS021.txt\"\>", ",", "\<\"VS022.txt\"\>", 
+   ",", "\<\"VS023.txt\"\>", ",", "\<\"VS024.txt\"\>", 
+   ",", "\<\"VS026.txt\"\>", ",", "\<\"VS033.txt\"\>", 
+   ",", "\<\"VS034.txt\"\>", ",", "\<\"VS035.txt\"\>", 
+   ",", "\<\"VS036.txt\"\>", ",", "\<\"VS037.txt\"\>"}], "}"}]], "Output",
+ CellChangeTimes->{
+  3.658458968553157*^9, {3.658459032194449*^9, 3.658459050331264*^9}, {
+   3.6584590828410387`*^9, 3.658459099188547*^9}, 3.658459155148532*^9, 
+   3.658459223793236*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{"Files", "=", 
+  RowBox[{"FileNames", "[", "]"}]}], "\[IndentingNewLine]", 
+ RowBox[{"For", "[", 
+  RowBox[{
+   RowBox[{"n", "=", "1"}], ",", 
+   RowBox[{"n", "\[LessEqual]", 
+    RowBox[{"Length", "[", "Files", "]"}]}], ",", 
+   RowBox[{"n", "++"}], ",", "\[IndentingNewLine]", 
+   RowBox[{"RenameFile", "[", 
+    RowBox[{
+     RowBox[{"Files", "[", 
+      RowBox[{"[", "n", "]"}], "]"}], ",", 
+     RowBox[{
+      RowBox[{"StringTake", "[", 
+       RowBox[{
+        RowBox[{"Files", "[", 
+         RowBox[{"[", "n", "]"}], "]"}], ",", "5"}], "]"}], "<>", 
+      "\"\<.txt\>\""}]}], "]"}]}], "\[IndentingNewLine]", "]"}]}], "Input",
+ CellChangeTimes->{{3.658459100121395*^9, 3.6584592128601923`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"\<\"VS001.txt\"\>", ",", "\<\"VS003.txt\"\>", 
+   ",", "\<\"VS004_t.txt\"\>", ",", "\<\"VS007_t.txt\"\>", 
+   ",", "\<\"VS009_t.txt\"\>", ",", "\<\"VS012.txt\"\>", 
+   ",", "\<\"VS013_Narration Transcript_Yezhou_t.txt\"\>", 
+   ",", "\<\"VS014_Narration Transcript_Yezhou_t.txt\"\>", 
+   ",", "\<\"VS016_Narration Transcript_Yezhou_t.txt\"\>", 
+   ",", "\<\"VS020_Narration Transcript_Yezhou_t.txt\"\>", 
+   ",", "\<\"VS021_Narration Transcript_Yezhou_t.txt\"\>", 
+   ",", "\<\"VS022_Narration Transcript_Yezhou_t.txt\"\>", 
+   ",", "\<\"VS023_Narration Transcript_Yezhou_t.txt\"\>", 
+   ",", "\<\"VS024025_Narration Transcript_Sherry_t.txt\"\>", 
+   ",", "\<\"VS026_Narration Transcript_Sherry_t.txt\"\>", 
+   ",", "\<\"VS033_Narration Transcript_Sherry_t.txt\"\>", 
+   ",", "\<\"VS034_Narration Transcript_Sherry_t.txt\"\>", 
+   ",", "\<\"VS035_Narration Transcript_Sherry_t.txt\"\>", 
+   ",", "\<\"VS036_Narration Transcript_Sherry_t.txt\"\>", 
+   ",", "\<\"VS037_Narration Transcript_Sherry_t.txt\"\>"}], "}"}]], "Output",\
+
+ CellChangeTimes->{{3.6584591109170017`*^9, 3.658459161067553*^9}, 
+   3.658459213295578*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"RenameFile", "::", "filex"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"Cannot overwrite existing file \
+\[NoBreak]\\!\\(\\\"VS001.txt\\\"\\)\[NoBreak]. \\!\\(\\*ButtonBox[\\\"\
+\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
+ButtonData:>\\\"paclet:ref/message/RenameFile/filex\\\", ButtonNote -> \
+\\\"RenameFile::filex\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.658459213312996*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"RenameFile", "::", "filex"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"Cannot overwrite existing file \
+\[NoBreak]\\!\\(\\\"VS003.txt\\\"\\)\[NoBreak]. \\!\\(\\*ButtonBox[\\\"\
+\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
+ButtonData:>\\\"paclet:ref/message/RenameFile/filex\\\", ButtonNote -> \
+\\\"RenameFile::filex\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.6584592133198977`*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"RenameFile", "::", "filex"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"Cannot overwrite existing file \
+\[NoBreak]\\!\\(\\\"VS012.txt\\\"\\)\[NoBreak]. \\!\\(\\*ButtonBox[\\\"\
+\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
+ButtonData:>\\\"paclet:ref/message/RenameFile/filex\\\", ButtonNote -> \
+\\\"RenameFile::filex\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.658459213357773*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"General", "::", "stop"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"Further output of \
+\[NoBreak]\\!\\(\\*StyleBox[\\(RenameFile :: filex\\), \
+\\\"MessageName\\\"]\\)\[NoBreak] will be suppressed during this calculation. \
+\\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", \
+ButtonFrame->None, ButtonData:>\\\"paclet:ref/message/General/stop\\\", \
+ButtonNote -> \\\"General::stop\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.6584592133653307`*^9}]
+}, Open  ]],
+
+Cell[BoxData[""], "Input",
+ CellChangeTimes->{{3.658458961152865*^9, 3.65845896361483*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"StringTake", "[", 
+   RowBox[{
+    RowBox[{"Files", "[", 
+     RowBox[{"[", "n", "]"}], "]"}], ",", "5"}], "]"}], "<>", 
+  "\"\<.txt\>\""}]], "Input"],
+
+Cell[BoxData["\<\"VS001.txt\"\>"], "Output",
+ CellChangeTimes->{3.658459150125276*^9}]
+}, Open  ]],
+
+Cell[BoxData["LengthWhile"], "Input",
+ CellChangeTimes->{{3.658459190257159*^9, 3.658459191611143*^9}}]
+},
+WindowSize->{808, 690},
+WindowMargins->{{Automatic, 89}, {-146, Automatic}},
+FrontEndVersion->"10.2 for Mac OS X x86 (32-bit, 64-bit Kernel) (July 29, \
+2015)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 281, 5, 46, "Input"],
+Cell[864, 29, 134, 1, 28, "Output"],
+Cell[1001, 32, 133, 1, 28, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1171, 38, 269, 6, 28, "Input"],
+Cell[1443, 46, 800, 15, 63, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2280, 66, 725, 19, 80, "Input"],
+Cell[3008, 87, 1162, 21, 148, "Output"],
+Cell[4173, 110, 472, 10, 24, "Message"],
+Cell[4648, 122, 474, 10, 24, "Message"],
+Cell[5125, 134, 472, 10, 24, "Message"],
+Cell[5600, 146, 536, 11, 24, "Message"]
+}, Open  ]],
+Cell[6151, 160, 91, 1, 28, "Input"],
+Cell[CellGroupData[{
+Cell[6267, 165, 185, 6, 28, "Input"],
+Cell[6455, 173, 86, 1, 28, "Output"]
+}, Open  ]],
+Cell[6556, 177, 103, 1, 28, "Input"]
+}
+]
+*)
+
+(* End of internal cache information *)

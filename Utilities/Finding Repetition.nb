@@ -1,0 +1,376 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     12208,        368]
+NotebookOptionsPosition[     11571,        341]
+NotebookOutlinePosition[     11929,        357]
+CellTagsIndexPosition[     11886,        354]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"(*", 
+   RowBox[{
+    RowBox[{"Finding", " ", "Duplicate", " ", "using", " ", "Feature"}], ",", 
+    " ", "Fast"}], "*)"}], "\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"dataset", "=", 
+     RowBox[{"transcripts", "[", 
+      RowBox[{"[", "VS", "]"}], "]"}]}], ";"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"fe", "=", 
+     RowBox[{"FeatureExtraction", "[", 
+      RowBox[{"dataset", ",", "\"\<TFIDF\>\""}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"fd", "=", 
+     RowBox[{"FeatureDistance", "[", "fe", "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"dm", "=", 
+     RowBox[{"DistanceMatrix", "[", 
+      RowBox[{"dataset", ",", 
+       RowBox[{"DistanceFunction", "\[Rule]", "fd"}]}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"Manipulate", "[", 
+     RowBox[{
+      RowBox[{"MatrixPlot", "[", 
+       RowBox[{
+        RowBox[{"Reverse", "[", "dm", "]"}], ",", 
+        RowBox[{"ColorFunction", "\[Rule]", 
+         RowBox[{"(", 
+          RowBox[{
+           RowBox[{"If", "[", 
+            RowBox[{
+             RowBox[{"#", "\[GreaterEqual]", "z"}], ",", 
+             RowBox[{"GrayLevel", "[", "0", "]"}], ",", 
+             RowBox[{"GrayLevel", "[", "1", "]"}]}], "]"}], "&"}], ")"}]}], 
+        ",", 
+        RowBox[{"PlotLegends", "\[Rule]", "Automatic"}]}], "]"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"z", ",", "0.5", ",", "0.53"}], "}"}]}], "]"}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"theDistances", "=", 
+     RowBox[{"Sort", "[", 
+      RowBox[{
+       RowBox[{"Select", "[", 
+        RowBox[{
+         RowBox[{"Flatten", "[", "dm", "]"}], ",", 
+         RowBox[{
+          RowBox[{"#", "<", "0.1"}], "&"}], ",", "Infinity"}], "]"}], "//", 
+       "DeleteDuplicates"}], "]"}]}], ";"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"theNumbers", "=", 
+     RowBox[{"(", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"Position", "[", 
+         RowBox[{"dm", ",", "#"}], "]"}], "&"}], "/@", "theDistances"}], 
+      ")"}]}], ";"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"theNumbers", "=", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{
+        RowBox[{
+         RowBox[{"If", "[", 
+          RowBox[{
+           RowBox[{
+            RowBox[{"#", "[", 
+             RowBox[{"[", "1", "]"}], "]"}], ">=", 
+            RowBox[{"#", "[", 
+             RowBox[{"[", "2", "]"}], "]"}]}], ",", "Nothing", ",", "#"}], 
+          "]"}], "&"}], "/@", 
+        RowBox[{"theNumbers", "[", 
+         RowBox[{"[", "n", "]"}], "]"}]}], ",", 
+       RowBox[{"{", 
+        RowBox[{"n", ",", "1", ",", 
+         RowBox[{"Length", "[", "theNumbers", "]"}]}], "}"}]}], "]"}]}], 
+    ";"}], "\[IndentingNewLine]", 
+   RowBox[{"a", "=", 
+    RowBox[{"Grid", "[", 
+     RowBox[{
+      RowBox[{"Transpose", "[", 
+       RowBox[{"{", 
+        RowBox[{"theDistances", ",", 
+         RowBox[{"Map", "[", 
+          RowBox[{
+           RowBox[{
+            RowBox[{"Part", "[", 
+             RowBox[{"VS", ",", "#"}], "]"}], "&"}], ",", "theNumbers", ",", 
+           RowBox[{"{", "3", "}"}]}], "]"}]}], "}"}], "]"}], ",", 
+      RowBox[{"Frame", "\[Rule]", "True"}]}], "]"}]}]}]}]], "Input",
+ CellChangeTimes->CompressedData["
+1:eJxTTMoPSmViYGCQAGIQ/W7q9EV5Pa8dGxaKrQLRAlzzb+YD6QU/fjwE0XNc
+A5+B6AnlXWD67Itzr0C0d+QNMP2e/9lPEB155+ZfEJ2UacRSAKRXs17gBNE5
+Z+QEQPQ6Ri4hEF3i9l0URAdEuIiDaBchQVkQvWXibDD9weiPCoju7DRVA9Fy
+fEJHQfSc797HQXTSfL/HIPrc2bYnYPlDHMKFQLrog5YUiA4JWqkAojtn7FQG
+0f/3c1gXA+lpUR72IHqV0I4oEP3jdWkMiG5ap58BoqXXyGaCaKumhcUg2ovr
+awWInpU3pQVEi39aCab3vXwzEUQbyXwA0zk5erNBNBtD8gIQfXHSh4cg+lWG
++SMQff3u4Rcgesmqz2D6RfkjyRIgvee0khSIBgAcGsrc
+  "]],
+
+Cell[BoxData[
+ TagBox[GridBox[{
+    {"0.`", 
+     RowBox[{"{", "}"}]},
+    {"0.09920696348361742`", 
+     RowBox[{"{", 
+      RowBox[{"{", 
+       RowBox[{"128", ",", "129"}], "}"}], "}"}]}
+   },
+   AutoDelete->False,
+   GridBoxFrame->{"ColumnsIndexed" -> {{{1, -1}, {1, -1}} -> True}},
+   GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+  "Grid"]], "Output",
+ CellChangeTimes->{{3.697505589733251*^9, 3.69750559965068*^9}, {
+   3.6975080590261307`*^9, 3.697508112617749*^9}, 3.697508149553934*^9, 
+   3.697508184199197*^9, {3.697508314378862*^9, 3.697508326758782*^9}, {
+   3.69750841080739*^9, 3.697508459686479*^9}, 3.697508498571496*^9, {
+   3.697508533084261*^9, 3.69750854247721*^9}, 3.6975085895913887`*^9, {
+   3.697508649940413*^9, 3.697508658622519*^9}, 3.697509765401504*^9, {
+   3.697509929502109*^9, 3.697509947020447*^9}, {3.697510173930008*^9, 
+   3.6975101809580517`*^9}, 3.6975102641896467`*^9, {3.697510600642295*^9, 
+   3.697510610130027*^9}, {3.6975106660119133`*^9, 3.6975106870066633`*^9}, {
+   3.697514993361507*^9, 3.69751500343242*^9}, 3.697515121524794*^9, {
+   3.6975152236463623`*^9, 3.6975152392193127`*^9}, {3.697515312897028*^9, 
+   3.69751533812316*^9}, 3.697515465102482*^9, 3.697515558597803*^9, 
+   3.697515665553334*^9, {3.69751576555268*^9, 3.697515780249054*^9}, {
+   3.697516321275445*^9, 3.6975163735484858`*^9}, 3.6975167551833067`*^9, 
+   3.697517243262271*^9, 3.697517536166169*^9, 3.6975279575036507`*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"(*", 
+   RowBox[{
+    RowBox[{
+    "Finding", " ", "Likely", " ", "duplicates", " ", "using", " ", 
+     "DamerauLevenshteinDistance"}], ",", " ", "Slow"}], "*)"}], 
+  "\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"dataset", "=", 
+     RowBox[{"textOnlyNonChildTranscripts", "[", 
+      RowBox[{"[", "VS", "]"}], "]"}]}], ";"}], "\[IndentingNewLine]", 
+   RowBox[{"AbsoluteTiming", "[", 
+    RowBox[{
+     RowBox[{"dm", "=", 
+      RowBox[{"DistanceMatrix", "[", 
+       RowBox[{"dataset", ",", 
+        RowBox[{
+        "DistanceFunction", "\[Rule]", "DamerauLevenshteinDistance"}]}], 
+       "]"}]}], ";"}], "]"}], "\[IndentingNewLine]", 
+   RowBox[{"Manipulate", "[", 
+    RowBox[{
+     RowBox[{"MatrixPlot", "[", 
+      RowBox[{
+       RowBox[{"Reverse", "[", "dm", "]"}], ",", 
+       RowBox[{"ColorFunction", "\[Rule]", 
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{"If", "[", 
+           RowBox[{
+            RowBox[{"#", "\[GreaterEqual]", "z"}], ",", 
+            RowBox[{"GrayLevel", "[", "0", "]"}], ",", 
+            RowBox[{"GrayLevel", "[", "1", "]"}]}], "]"}], "&"}], ")"}]}], 
+       ",", 
+       RowBox[{"PlotLegends", "\[Rule]", "Automatic"}]}], "]"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"z", ",", "0.5", ",", "0.53"}], "}"}]}], "]"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{"Export", "[", 
+    RowBox[{"\"\<Duplicate Finding Distance Data.csv\>\"", ",", "dm"}], 
+    "]"}]}]}]], "Input",
+ CellChangeTimes->{{3.697514935443727*^9, 3.697514957642009*^9}, {
+   3.697515053471394*^9, 3.697515072165244*^9}, {3.6975163504913273`*^9, 
+   3.697516366463537*^9}, 3.697517239938963*^9}],
+
+Cell[BoxData["$Aborted"], "Output",
+ CellChangeTimes->{3.697516367133789*^9}],
+
+Cell[BoxData["\<\"Duplicate Finding Distance Data.csv\"\>"], "Output",
+ CellChangeTimes->{3.697516367551401*^9}]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"dm", "=", 
+   RowBox[{
+   "Import", "[", "\"\<Duplicate Finding Distance Data.csv\>\"", "]"}]}], 
+  ";"}]], "Input",
+ CellChangeTimes->{{3.697515193580041*^9, 3.6975152056631813`*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"theDistances", "=", 
+   RowBox[{"Sort", "[", 
+    RowBox[{
+     RowBox[{"Select", "[", 
+      RowBox[{
+       RowBox[{"Flatten", "[", "dm", "]"}], ",", 
+       RowBox[{
+        RowBox[{"#", "<", "200"}], "&"}]}], "]"}], "//", "DeleteDuplicates"}],
+     "]"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"theNumbers", "=", 
+   RowBox[{"(", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"Position", "[", 
+       RowBox[{"dm", ",", "#"}], "]"}], "&"}], "/@", "theDistances"}], 
+    ")"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"theNumbers", "[", 
+    RowBox[{"[", "1", "]"}], "]"}], "=", 
+   RowBox[{"DeleteCases", "[", 
+    RowBox[{
+     RowBox[{"theNumbers", "[", 
+      RowBox[{"[", "1", "]"}], "]"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"x", ":", "__"}], ",", 
+       RowBox[{"x", ":", "__"}]}], "}"}]}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"theNumbers", "=", 
+   RowBox[{"Table", "[", 
+    RowBox[{
+     RowBox[{
+      RowBox[{
+       RowBox[{"If", "[", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"#", "[", 
+           RowBox[{"[", "1", "]"}], "]"}], "<", 
+          RowBox[{"#", "[", 
+           RowBox[{"[", "2", "]"}], "]"}]}], ",", "#", ",", "Nothing"}], 
+        "]"}], "&"}], "/@", 
+      RowBox[{"theNumbers", "[", 
+       RowBox[{"[", "n", "]"}], "]"}]}], ",", 
+     RowBox[{"{", 
+      RowBox[{"n", ",", "1", ",", 
+       RowBox[{"Length", "[", "theNumbers", "]"}]}], "}"}]}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{"a", "=", 
+  RowBox[{"Grid", "[", 
+   RowBox[{
+    RowBox[{"Transpose", "[", 
+     RowBox[{"{", 
+      RowBox[{"theDistances", ",", 
+       RowBox[{"Map", "[", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"Part", "[", 
+           RowBox[{"VS", ",", "#"}], "]"}], "&"}], ",", "theNumbers", ",", 
+         RowBox[{"{", "3", "}"}]}], "]"}]}], "}"}], "]"}], ",", 
+    RowBox[{"Frame", "\[Rule]", "True"}]}], "]"}]}]}], "Input",
+ CellChangeTimes->{{3.697515116656185*^9, 3.697515187447049*^9}, {
+   3.697515248414316*^9, 3.697515283145616*^9}, 3.6975155775670633`*^9}],
+
+Cell[BoxData[
+ TagBox[GridBox[{
+    {"0", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"42", ",", "76"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"46", ",", "72"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"63", ",", "152"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"67", ",", "159"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"82", ",", "158"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"160", ",", "160"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"161", ",", "161"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"164", ",", "164"}], "}"}]}], "}"}]},
+    {"2", 
+     RowBox[{"{", 
+      RowBox[{"{", 
+       RowBox[{"81", ",", "143"}], "}"}], "}"}]},
+    {"39", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"41", ",", "42"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"41", ",", "76"}], "}"}]}], "}"}]},
+    {"49", 
+     RowBox[{"{", 
+      RowBox[{"{", 
+       RowBox[{"64", ",", "146"}], "}"}], "}"}]},
+    {"62", 
+     RowBox[{"{", 
+      RowBox[{"{", 
+       RowBox[{"28", ",", "69"}], "}"}], "}"}]}
+   },
+   AutoDelete->False,
+   GridBoxFrame->{"ColumnsIndexed" -> {{{1, -1}, {1, -1}} -> True}},
+   GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+  "Grid"]], "Output",
+ CellChangeTimes->{
+  3.697514907546995*^9, {3.697515119100603*^9, 3.697515208052649*^9}, {
+   3.6975152640879602`*^9, 3.697515292631028*^9}, 3.697515581015973*^9}]
+}, Open  ]]
+},
+WindowSize->{1440, 788},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+FrontEndVersion->"11.0 for Mac OS X x86 (32-bit, 64-bit Kernel) (September \
+21, 2016)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 3716, 104, 222, "Input"],
+Cell[4299, 128, 1474, 27, 57, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[5810, 160, 1661, 44, 117, "Input"],
+Cell[7474, 206, 77, 1, 32, "Output"],
+Cell[7554, 209, 112, 1, 32, "Output"]
+}, Open  ]],
+Cell[7681, 213, 219, 6, 32, "Input"],
+Cell[CellGroupData[{
+Cell[7925, 223, 2138, 66, 117, "Input"],
+Cell[10066, 291, 1489, 47, 111, "Output"]
+}, Open  ]]
+}
+]
+*)
+
