@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    112183,       2780]
-NotebookOptionsPosition[    111801,       2762]
-NotebookOutlinePosition[    112202,       2779]
-CellTagsIndexPosition[    112159,       2776]
+NotebookDataLength[    112181,       2780]
+NotebookOptionsPosition[    111799,       2762]
+NotebookOutlinePosition[    112200,       2779]
+CellTagsIndexPosition[    112157,       2776]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -105,7 +105,7 @@ Cell[BoxData[
    StyleBox[
     RowBox[{"(*", "Switches", "*)"}], "Subsection"], "\[IndentingNewLine]", 
    RowBox[{
-    RowBox[{"debugLevel", "=", "2"}], ";"}], "\[IndentingNewLine]", 
+    RowBox[{"debugLevel", "=", "3"}], ";"}], "\[IndentingNewLine]", 
    RowBox[{
     RowBox[{"exportLog", "=", "True"}], ";"}], "\[IndentingNewLine]", 
    RowBox[{
@@ -2174,10 +2174,10 @@ TTRSAMPLESIZE\>\"", "]"}], "\[IndentingNewLine]",
    StyleBox[
     RowBox[{"(*", 
      RowBox[{"Export", " ", "Results"}], "*)"}], "Chapter"], 
-   "\[IndentingNewLine]", 
+   StyleBox["\[IndentingNewLine]", "Chapter"], 
    RowBox[{"(*", 
     RowBox[{"Pack", " ", "Common", " ", "Export", " ", "Bundle"}], "*)"}], 
-   StyleBox["\[IndentingNewLine]", "Chapter"], 
+   "\[IndentingNewLine]", 
    RowBox[{
     RowBox[{"bundleCommonHeader", "=", 
      RowBox[{"{", 
@@ -2697,7 +2697,7 @@ transcripts (\:25ca shows string boundary)\\n\>\"", "<>",
    3.697978356809148*^9, 3.697978357036704*^9}, {3.698374773855324*^9, 
    3.6983747951475687`*^9}, {3.698629880969434*^9, 3.698629998976344*^9}, {
    3.698632151901005*^9, 3.6986321520070257`*^9}, {3.6986326651946774`*^9, 
-   3.6986326652929363`*^9}}],
+   3.698632695260252*^9}}],
 
 Cell[BoxData[
  TagBox[GridBox[{
@@ -2779,8 +2779,8 @@ CellTagsIndex->{}
 (*NotebookFileOutline
 Notebook[{
 Cell[CellGroupData[{
-Cell[580, 22, 107755, 2677, 9256, "Input"],
-Cell[108338, 2701, 3447, 58, 285, "Output"]
+Cell[580, 22, 107753, 2677, 9256, "Input"],
+Cell[108336, 2701, 3447, 58, 285, "Output"]
 }, Open  ]]
 }
 ]
